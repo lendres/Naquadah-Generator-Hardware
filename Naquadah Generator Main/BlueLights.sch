@@ -1,0 +1,210 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 14
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5450 4750 5400 4750
+Wire Wire Line
+	5450 4550 5450 4750
+Wire Wire Line
+	4650 4350 4850 4350
+Text HLabel 4650 4350 0    50   Input ~ 0
+SIGNAL
+$Comp
+L Device:R R8
+U 1 1 5E9FDE71
+P 5000 4350
+AR Path="/5E9E5DDE/5E9FDE71" Ref="R8"  Part="1" 
+AR Path="/5E9E304D/5E9FDE71" Ref="R18"  Part="1" 
+AR Path="/5E9D240B/5E9FDE71" Ref="R23"  Part="1" 
+AR Path="/5E9E5DE1/5E9FDE71" Ref="R3"  Part="1" 
+AR Path="/5E9E4A6B/5E9FDE71" Ref="R13"  Part="1" 
+F 0 "R23" V 4793 4350 50  0000 C CNN
+F 1 "2.7k" V 4884 4350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4930 4350 50  0001 C CNN
+F 3 "~" H 5000 4350 50  0001 C CNN
+	1    5000 4350
+	0    1    1    0   
+$EndComp
+Text GLabel 5400 4750 0    50   Input ~ 0
+VGND
+$Comp
+L Transistor_BJT:BC337 Q6
+U 1 1 5E9FDE70
+P 5350 4350
+AR Path="/5E9E5DDE/5E9FDE70" Ref="Q6"  Part="1" 
+AR Path="/5E9E304D/5E9FDE70" Ref="Q8"  Part="1" 
+AR Path="/5E9D240B/5E9FDE70" Ref="Q4"  Part="1" 
+AR Path="/5E9E5DE1/5E9FDE70" Ref="Q5"  Part="1" 
+AR Path="/5E9E4A6B/5E9FDE70" Ref="Q7"  Part="1" 
+F 0 "Q4" H 5541 4396 50  0000 L CNN
+F 1 "BC337" H 5541 4305 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5550 4275 50  0001 L CIN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf" H 5350 4350 50  0001 L CNN
+	1    5350 4350
+	1    0    0    -1  
+$EndComp
+Text GLabel 5450 3550 0    50   Input ~ 0
+5V
+Wire Wire Line
+	5450 4150 5800 4150
+Connection ~ 5800 4150
+$Comp
+L Device:LED D7
+U 1 1 5E9E70EC
+P 5800 4000
+AR Path="/5E9E5DDE/5E9E70EC" Ref="D7"  Part="1" 
+AR Path="/5E9E304D/5E9E70EC" Ref="D15"  Part="1" 
+AR Path="/5E9D240B/5E9E70EC" Ref="D19"  Part="1" 
+AR Path="/5E9E5DE1/5E9E70EC" Ref="D3"  Part="1" 
+AR Path="/5E9E4A6B/5E9E70EC" Ref="D11"  Part="1" 
+F 0 "D19" V 5839 3883 50  0000 R CNN
+F 1 "LED" V 5748 3883 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 5800 4000 50  0001 C CNN
+F 3 "~" H 5800 4000 50  0001 C CNN
+	1    5800 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 3550 5450 3550
+Connection ~ 5800 3550
+$Comp
+L Device:R R9
+U 1 1 5E9DC34C
+P 5800 3700
+AR Path="/5E9E5DDE/5E9DC34C" Ref="R9"  Part="1" 
+AR Path="/5E9E304D/5E9DC34C" Ref="R19"  Part="1" 
+AR Path="/5E9D240B/5E9DC34C" Ref="R24"  Part="1" 
+AR Path="/5E9E5DE1/5E9DC34C" Ref="R4"  Part="1" 
+AR Path="/5E9E4A6B/5E9DC34C" Ref="R14"  Part="1" 
+F 0 "R24" H 5870 3746 50  0000 L CNN
+F 1 "330" H 5870 3655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5730 3700 50  0001 C CNN
+F 3 "~" H 5800 3700 50  0001 C CNN
+	1    5800 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3550 6200 3550
+Connection ~ 6200 3550
+$Comp
+L Device:R R10
+U 1 1 5E9DC352
+P 6200 3700
+AR Path="/5E9E5DDE/5E9DC352" Ref="R10"  Part="1" 
+AR Path="/5E9E304D/5E9DC352" Ref="R20"  Part="1" 
+AR Path="/5E9D240B/5E9DC352" Ref="R25"  Part="1" 
+AR Path="/5E9E5DE1/5E9DC352" Ref="R5"  Part="1" 
+AR Path="/5E9E4A6B/5E9DC352" Ref="R15"  Part="1" 
+F 0 "R25" H 6270 3746 50  0000 L CNN
+F 1 "330" H 6270 3655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6130 3700 50  0001 C CNN
+F 3 "~" H 6200 3700 50  0001 C CNN
+	1    6200 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 3550 7000 3550
+Wire Wire Line
+	6200 3550 6600 3550
+Connection ~ 6600 3550
+$Comp
+L Device:R R11
+U 1 1 5E9E70F0
+P 6600 3700
+AR Path="/5E9E5DDE/5E9E70F0" Ref="R11"  Part="1" 
+AR Path="/5E9E304D/5E9E70F0" Ref="R21"  Part="1" 
+AR Path="/5E9D240B/5E9E70F0" Ref="R26"  Part="1" 
+AR Path="/5E9E5DE1/5E9E70F0" Ref="R6"  Part="1" 
+AR Path="/5E9E4A6B/5E9E70F0" Ref="R16"  Part="1" 
+F 0 "R26" H 6670 3746 50  0000 L CNN
+F 1 "330" H 6670 3655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6530 3700 50  0001 C CNN
+F 3 "~" H 6600 3700 50  0001 C CNN
+	1    6600 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5E9E70F2
+P 7000 3700
+AR Path="/5E9E5DDE/5E9E70F2" Ref="R12"  Part="1" 
+AR Path="/5E9E304D/5E9E70F2" Ref="R22"  Part="1" 
+AR Path="/5E9D240B/5E9E70F2" Ref="R27"  Part="1" 
+AR Path="/5E9E5DE1/5E9E70F2" Ref="R7"  Part="1" 
+AR Path="/5E9E4A6B/5E9E70F2" Ref="R17"  Part="1" 
+F 0 "R27" H 7070 3746 50  0000 L CNN
+F 1 "330" H 7070 3655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6930 3700 50  0001 C CNN
+F 3 "~" H 7000 3700 50  0001 C CNN
+	1    7000 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D10
+U 1 1 5E9E70F3
+P 7000 4000
+AR Path="/5E9E5DDE/5E9E70F3" Ref="D10"  Part="1" 
+AR Path="/5E9E304D/5E9E70F3" Ref="D18"  Part="1" 
+AR Path="/5E9D240B/5E9E70F3" Ref="D22"  Part="1" 
+AR Path="/5E9E5DE1/5E9E70F3" Ref="D6"  Part="1" 
+AR Path="/5E9E4A6B/5E9E70F3" Ref="D14"  Part="1" 
+F 0 "D22" V 7039 3883 50  0000 R CNN
+F 1 "LED" V 6948 3883 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 7000 4000 50  0001 C CNN
+F 3 "~" H 7000 4000 50  0001 C CNN
+	1    7000 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 4150 7000 4150
+Connection ~ 6600 4150
+$Comp
+L Device:LED D9
+U 1 1 5E9E70F1
+P 6600 4000
+AR Path="/5E9E5DDE/5E9E70F1" Ref="D9"  Part="1" 
+AR Path="/5E9E304D/5E9E70F1" Ref="D17"  Part="1" 
+AR Path="/5E9D240B/5E9E70F1" Ref="D21"  Part="1" 
+AR Path="/5E9E5DE1/5E9E70F1" Ref="D5"  Part="1" 
+AR Path="/5E9E4A6B/5E9E70F1" Ref="D13"  Part="1" 
+F 0 "D21" V 6639 3883 50  0000 R CNN
+F 1 "LED" V 6548 3883 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 6600 4000 50  0001 C CNN
+F 3 "~" H 6600 4000 50  0001 C CNN
+	1    6600 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 4150 6600 4150
+Wire Wire Line
+	5800 4150 6200 4150
+Connection ~ 6200 4150
+$Comp
+L Device:LED D8
+U 1 1 5E9E70EF
+P 6200 4000
+AR Path="/5E9E5DDE/5E9E70EF" Ref="D8"  Part="1" 
+AR Path="/5E9E304D/5E9E70EF" Ref="D16"  Part="1" 
+AR Path="/5E9D240B/5E9E70EF" Ref="D20"  Part="1" 
+AR Path="/5E9E5DE1/5E9E70EF" Ref="D4"  Part="1" 
+AR Path="/5E9E4A6B/5E9E70EF" Ref="D12"  Part="1" 
+F 0 "D20" V 6239 3883 50  0000 R CNN
+F 1 "LED" V 6148 3883 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 6200 4000 50  0001 C CNN
+F 3 "~" H 6200 4000 50  0001 C CNN
+	1    6200 4000
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

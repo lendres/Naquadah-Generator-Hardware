@@ -1,0 +1,590 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 14
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Arduino:ArduinoProMini A1
+U 1 1 5E9BB594
+P 4300 4200
+F 0 "A1" H 4300 4550 50  0000 C CNN
+F 1 "ArduinoProMini" H 4300 4450 50  0000 C CNN
+F 2 "Arduino:Arduino-Pro-Mini" H 4150 4200 50  0001 C CNN
+F 3 "https://cdn.sparkfun.com/assets/d/5/2/f/0/ProMini16MHzv2.pdf" H 4150 4200 50  0001 C CNN
+	1    4300 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC595 U2
+U 1 1 5E9BDDE5
+P 6700 5050
+F 0 "U2" H 6100 4650 50  0000 C CNN
+F 1 "74HC595" H 6100 4550 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 6700 5050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 6700 5050 50  0001 C CNN
+	1    6700 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC595 U1
+U 1 1 5E9C13A3
+P 6700 3300
+F 0 "U1" H 6150 2850 50  0000 C CNN
+F 1 "74HC595" H 6150 2750 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 6700 3300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 6700 3300 50  0001 C CNN
+	1    6700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5E9C1F6F
+P 6700 5750
+F 0 "#PWR06" H 6700 5500 50  0001 C CNN
+F 1 "GND" H 6705 5577 50  0000 C CNN
+F 2 "" H 6700 5750 50  0001 C CNN
+F 3 "" H 6700 5750 50  0001 C CNN
+	1    6700 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5E9C3031
+P 6700 4000
+F 0 "#PWR05" H 6700 3750 50  0001 C CNN
+F 1 "GND" H 6705 3827 50  0000 C CNN
+F 2 "" H 6700 4000 50  0001 C CNN
+F 3 "" H 6700 4000 50  0001 C CNN
+	1    6700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5E9EA00B
+P 1900 2600
+F 0 "BT1" V 1645 2650 50  0000 C CNN
+F 1 "Battery_Cell" V 1736 2650 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" V 1900 2660 50  0001 C CNN
+F 3 "~" V 1900 2660 50  0001 C CNN
+	1    1900 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 4450 6700 4350
+Wire Wire Line
+	6700 4350 6100 4350
+Wire Wire Line
+	6300 4650 5600 4650
+Wire Wire Line
+	5600 4650 5600 4450
+Wire Wire Line
+	5600 4450 5000 4450
+Wire Wire Line
+	6300 4850 5500 4850
+Wire Wire Line
+	5500 4850 5500 4300
+Wire Wire Line
+	5500 4300 5000 4300
+Wire Wire Line
+	6300 5150 5400 5150
+Wire Wire Line
+	5400 5150 5400 4150
+Wire Wire Line
+	5400 4150 5000 4150
+Wire Wire Line
+	6300 4950 6100 4950
+Wire Wire Line
+	6100 4950 6100 4350
+Wire Wire Line
+	7100 5550 7250 5550
+Wire Wire Line
+	7250 5550 7250 6000
+Wire Wire Line
+	7250 6000 5900 6000
+Wire Wire Line
+	5900 6000 5900 2900
+Wire Wire Line
+	5900 2900 6300 2900
+Wire Wire Line
+	5000 3400 5150 3400
+Wire Wire Line
+	6300 3200 5700 3200
+Wire Wire Line
+	5150 3200 5150 3400
+Wire Wire Line
+	6300 3400 5400 3400
+Wire Wire Line
+	5400 3400 5400 4150
+Connection ~ 5400 4150
+Wire Wire Line
+	5500 4300 5500 3100
+Wire Wire Line
+	5500 3100 6300 3100
+Connection ~ 5500 4300
+NoConn ~ 7100 3800
+$Comp
+L power:GND #PWR02
+U 1 1 5E9CE7F6
+P 3650 2350
+F 0 "#PWR02" H 3650 2100 50  0001 C CNN
+F 1 "GND" H 3655 2177 50  0000 C CNN
+F 2 "" H 3650 2350 50  0001 C CNN
+F 3 "" H 3650 2350 50  0001 C CNN
+	1    3650 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 4000 2350 2    50   Input ~ 0
+VGND
+$Comp
+L power:GND #PWR04
+U 1 1 5E9F0D05
+P 6300 5250
+F 0 "#PWR04" H 6300 5000 50  0001 C CNN
+F 1 "GND" V 6305 5122 50  0000 R CNN
+F 2 "" H 6300 5250 50  0001 C CNN
+F 3 "" H 6300 5250 50  0001 C CNN
+	1    6300 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5E9F199E
+P 6300 3500
+F 0 "#PWR03" H 6300 3250 50  0001 C CNN
+F 1 "GND" V 6305 3372 50  0000 R CNN
+F 2 "" H 6300 3500 50  0001 C CNN
+F 3 "" H 6300 3500 50  0001 C CNN
+	1    6300 3500
+	0    1    1    0   
+$EndComp
+Text GLabel 6050 2150 2    50   Input ~ 0
+5V
+$Sheet
+S 9850 5950 250  500 
+U 5E9E5DE1
+F0 "Blue Lights 2" 50
+F1 "BlueLights.sch" 50
+F2 "SIGNAL" I T 10000 5950 50 
+$EndSheet
+$Sheet
+S 9200 5950 250  500 
+U 5E9E5DDE
+F0 "Blue Lights 3" 50
+F1 "BlueLights.sch" 50
+F2 "SIGNAL" I T 9350 5950 50 
+$EndSheet
+$Sheet
+S 8500 5950 250  500 
+U 5E9E4A6B
+F0 "Blue Lights 4" 50
+F1 "BlueLights.sch" 50
+F2 "SIGNAL" I T 8650 5950 50 
+$EndSheet
+$Sheet
+S 7800 5950 250  500 
+U 5E9E304D
+F0 "Blue Lights 5" 50
+F1 "BlueLights.sch" 50
+F2 "SIGNAL" I T 7950 5950 50 
+$EndSheet
+$Sheet
+S 10500 5950 250  500 
+U 5E9D240B
+F0 "Blue Lights 1" 50
+F1 "BlueLights.sch" 50
+F2 "SIGNAL" I T 10650 5950 50 
+$EndSheet
+Wire Wire Line
+	1100 3550 2200 3550
+Wire Wire Line
+	2200 4150 3550 4150
+Wire Wire Line
+	2050 4300 3550 4300
+Wire Wire Line
+	1100 4100 2050 4100
+Wire Wire Line
+	1100 4700 2050 4700
+Wire Wire Line
+	2050 4450 3550 4450
+Wire Wire Line
+	1100 5200 2200 5200
+Wire Wire Line
+	2200 4600 3550 4600
+Wire Wire Line
+	2050 4100 2050 4300
+Wire Wire Line
+	2200 3550 2200 4150
+Wire Wire Line
+	2200 4600 2200 4800
+Wire Wire Line
+	2050 4450 2050 4700
+$Comp
+L Device:R R2
+U 1 1 5EA0344A
+P 7600 3000
+F 0 "R2" V 7393 3000 50  0000 C CNN
+F 1 "330" V 7484 3000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7530 3000 50  0001 C CNN
+F 3 "~" H 7600 3000 50  0001 C CNN
+	1    7600 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5EA06B5C
+P 8150 3000
+F 0 "D2" H 8143 2745 50  0000 C CNN
+F 1 "LED" H 8143 2836 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 8150 3000 50  0001 C CNN
+F 3 "~" H 8150 3000 50  0001 C CNN
+	1    8150 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5EA09F2A
+P 8550 3000
+F 0 "#PWR07" H 8550 2750 50  0001 C CNN
+F 1 "GND" V 8555 2872 50  0000 R CNN
+F 2 "" H 8550 3000 50  0001 C CNN
+F 3 "" H 8550 3000 50  0001 C CNN
+	1    8550 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 3000 7450 3000
+Wire Wire Line
+	7750 3000 8000 3000
+Wire Wire Line
+	8300 3000 8550 3000
+Wire Wire Line
+	1400 5850 1250 5850
+$Comp
+L power:GND #PWR01
+U 1 1 5EA1398D
+P 1400 5850
+F 0 "#PWR01" H 1400 5600 50  0001 C CNN
+F 1 "GND" V 1405 5722 50  0000 R CNN
+F 2 "" H 1400 5850 50  0001 C CNN
+F 3 "" H 1400 5850 50  0001 C CNN
+	1    1400 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5EA126B4
+P 1050 5750
+F 0 "J1" H 1500 5650 50  0000 L CNN
+F 1 "Conn_01x03" H 1150 5750 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x03_P3.81mm_Drill1.2mm" H 1050 5750 50  0001 C CNN
+F 3 "~" H 1050 5750 50  0001 C CNN
+	1    1050 5750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2350 4000 3550 4000
+Wire Wire Line
+	1250 5650 2350 5650
+Wire Wire Line
+	2500 4750 3550 4750
+Wire Wire Line
+	2350 4000 2350 5650
+Wire Wire Line
+	2500 4750 2500 5750
+Wire Wire Line
+	1250 5750 2500 5750
+$Sheet
+S 9250 4100 200  500 
+U 5EA45E37
+F0 "Green Lights" 50
+F1 "GreenRedLights.sch" 50
+F2 "SIGNAL" I B 9350 4600 50 
+$EndSheet
+$Comp
+L Device:R R1
+U 1 1 5EA5504B
+P 4600 1950
+F 0 "R1" V 4800 1950 50  0000 C CNN
+F 1 "330" V 4700 1950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4530 1950 50  0001 C CNN
+F 3 "~" H 4600 1950 50  0001 C CNN
+	1    4600 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5EA55051
+P 4200 1950
+F 0 "D1" H 4200 2150 50  0000 C CNN
+F 1 "LED" H 4200 2050 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 4200 1950 50  0001 C CNN
+F 3 "~" H 4200 1950 50  0001 C CNN
+	1    4200 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 1950 4350 1950
+Wire Wire Line
+	4750 1950 4850 1950
+NoConn ~ 7100 3600
+NoConn ~ 7100 3500
+NoConn ~ 7100 3400
+NoConn ~ 7100 3300
+NoConn ~ 7100 3200
+$Sheet
+S 2400 1900 500  800 
+U 5EA6751D
+F0 "Power" 50
+F1 "Power.sch" 50
+F2 "5VO" I R 2900 2250 50 
+F3 "GNDO" I R 2900 2350 50 
+F4 "VIN" I L 2400 2000 50 
+F5 "GNDIN" I L 2400 2100 50 
+F6 "BATV" I L 2400 2500 50 
+F7 "BATGND" I L 2400 2600 50 
+$EndSheet
+Wire Wire Line
+	1900 2400 2150 2400
+Wire Wire Line
+	2150 2400 2150 2500
+Wire Wire Line
+	2150 2500 2400 2500
+Wire Wire Line
+	1900 2700 2150 2700
+Wire Wire Line
+	2150 2700 2150 2600
+Wire Wire Line
+	2150 2600 2400 2600
+Wire Wire Line
+	2900 2250 3200 2250
+Wire Wire Line
+	6700 2250 6700 2700
+Wire Wire Line
+	5700 3200 5700 4350
+Wire Wire Line
+	5700 4350 6100 4350
+Connection ~ 5700 3200
+Wire Wire Line
+	5700 3200 5150 3200
+Connection ~ 6100 4350
+Wire Wire Line
+	5150 3200 5150 2250
+Connection ~ 5150 3200
+Connection ~ 5150 2250
+Wire Wire Line
+	4850 1950 4850 2250
+Wire Wire Line
+	4050 1950 3900 1950
+Wire Wire Line
+	2900 2350 3200 2350
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 5EA8DC70
+P 3400 1950
+F 0 "SW1" H 3400 2185 50  0000 C CNN
+F 1 "SW_SPST" H 3400 2094 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 3400 1950 50  0001 C CNN
+F 3 "~" H 3400 1950 50  0001 C CNN
+	1    3400 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1950 3600 2250
+Connection ~ 4850 2250
+Wire Wire Line
+	4850 2250 5150 2250
+Wire Wire Line
+	3900 1950 3900 2350
+Wire Wire Line
+	3900 2350 4000 2350
+Wire Wire Line
+	3900 2350 3650 2350
+Connection ~ 3900 2350
+Connection ~ 3650 2350
+Wire Wire Line
+	6050 2150 5950 2150
+NoConn ~ 3550 3700
+NoConn ~ 3550 3550
+NoConn ~ 3550 3400
+NoConn ~ 3750 3000
+NoConn ~ 3950 3000
+NoConn ~ 4150 3000
+NoConn ~ 4400 3000
+NoConn ~ 4600 3000
+NoConn ~ 4850 3000
+NoConn ~ 5000 3550
+$Comp
+L power:GND #PWR0101
+U 1 1 5EA1BAA4
+P 3550 3850
+F 0 "#PWR0101" H 3550 3600 50  0001 C CNN
+F 1 "GND" V 3555 3722 50  0000 R CNN
+F 2 "" H 3550 3850 50  0001 C CNN
+F 3 "" H 3550 3850 50  0001 C CNN
+	1    3550 3850
+	0    1    1    0   
+$EndComp
+NoConn ~ 5000 3700
+NoConn ~ 5000 3850
+NoConn ~ 5000 4000
+NoConn ~ 5000 4600
+NoConn ~ 5000 4750
+NoConn ~ 5000 4900
+NoConn ~ 5000 5050
+NoConn ~ 4550 5250
+NoConn ~ 4350 5250
+NoConn ~ 4150 5250
+NoConn ~ 3950 5250
+NoConn ~ 3550 5050
+NoConn ~ 3550 4900
+NoConn ~ 7100 2900
+NoConn ~ 7100 3100
+Wire Wire Line
+	3200 2250 3200 1950
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5EA63242
+P 3200 2350
+F 0 "#FLG0101" H 3200 2425 50  0001 C CNN
+F 1 "PWR_FLAG" H 3200 2523 50  0000 C CNN
+F 2 "" H 3200 2350 50  0001 C CNN
+F 3 "~" H 3200 2350 50  0001 C CNN
+	1    3200 2350
+	-1   0    0    1   
+$EndComp
+Connection ~ 3200 2350
+Wire Wire Line
+	3200 2350 3650 2350
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5EA650D8
+P 5550 2250
+F 0 "#FLG0102" H 5550 2325 50  0001 C CNN
+F 1 "PWR_FLAG" H 5550 2423 50  0000 C CNN
+F 2 "" H 5550 2250 50  0001 C CNN
+F 3 "~" H 5550 2250 50  0001 C CNN
+	1    5550 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2250 4850 2250
+Wire Wire Line
+	5950 2150 5950 2250
+Connection ~ 5950 2250
+Wire Wire Line
+	5950 2250 6700 2250
+Connection ~ 5550 2250
+Wire Wire Line
+	5550 2250 5950 2250
+Wire Wire Line
+	5150 2250 5550 2250
+Text Label 7950 5500 0    50   ~ 0
+BL5
+Text Label 8650 5500 0    50   ~ 0
+BL4
+Text Label 9350 5500 0    50   ~ 0
+BL3
+Text Label 10000 5500 0    50   ~ 0
+BL2
+Text Label 10650 5500 0    50   ~ 0
+BL1
+Text Label 7250 3000 0    50   ~ 0
+IND
+Text Label 1800 4700 0    50   ~ 0
+HE3
+Text Label 2550 4600 0    50   ~ 0
+HE4
+Text Label 1800 4100 0    50   ~ 0
+HE2
+Text Label 1850 3550 0    50   ~ 0
+HE1
+$Sheet
+S 10500 4100 200  500 
+U 5EA46A2B
+F0 "White Lights" 50
+F1 "WhiteLights.sch" 50
+F2 "SIGNAL" I B 10600 4600 50 
+$EndSheet
+$Sheet
+S 9900 4100 200  500 
+U 5EA4676F
+F0 "Red Lights" 50
+F1 "GreenRedLights.sch" 50
+F2 "SIGNAL" I B 10000 4600 50 
+$EndSheet
+Text Label 8950 4650 0    50   ~ 0
+GL
+Text Label 9700 4750 0    50   ~ 0
+RL
+Text Label 10350 4850 0    50   ~ 0
+WL
+Wire Wire Line
+	10000 5950 10000 5050
+Wire Wire Line
+	9350 5150 9350 5950
+Wire Wire Line
+	10650 5950 10650 4950
+Wire Wire Line
+	10600 4850 10600 4600
+Wire Wire Line
+	10000 4750 10000 4600
+Wire Wire Line
+	9350 4650 9350 4600
+Wire Wire Line
+	7950 5350 7950 5950
+Wire Wire Line
+	8650 5950 8650 5250
+Wire Wire Line
+	7100 4850 10600 4850
+Wire Wire Line
+	7100 4750 10000 4750
+Wire Wire Line
+	7100 4950 10650 4950
+Wire Wire Line
+	7100 5050 10000 5050
+Wire Wire Line
+	7100 5150 9350 5150
+Wire Wire Line
+	7100 5250 8650 5250
+Wire Wire Line
+	7100 4650 9350 4650
+Wire Wire Line
+	7100 5350 7950 5350
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5EA0F980
+P 900 4200
+F 0 "J?" H 818 3775 50  0000 C CNN
+F 1 "Conn_01x04" H 818 3866 50  0000 C CNN
+F 2 "" H 900 4200 50  0001 C CNN
+F 3 "~" H 900 4200 50  0001 C CNN
+	1    900  4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5EA18905
+P 900 4800
+F 0 "J?" H 818 4375 50  0000 C CNN
+F 1 "Conn_01x04" H 818 4466 50  0000 C CNN
+F 2 "" H 900 4800 50  0001 C CNN
+F 3 "~" H 900 4800 50  0001 C CNN
+	1    900  4800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1100 4800 2200 4800
+Connection ~ 2200 4800
+Wire Wire Line
+	2200 4800 2200 5200
+$EndSCHEMATC
