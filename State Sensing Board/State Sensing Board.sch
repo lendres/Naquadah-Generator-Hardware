@@ -112,33 +112,32 @@ Wire Wire Line
 Wire Wire Line
 	7950 2850 7950 3100
 Wire Wire Line
-	8250 3800 8500 3800
+	8250 3800 8350 3800
 $Comp
 L Device:R R?
 U 1 1 5EA0E7B8
-P 8500 3350
+P 8350 3350
 AR Path="/5E9F6AB4/5EA0E7B8" Ref="R?"  Part="1" 
 AR Path="/5E9F72EC/5EA0E7B8" Ref="R?"  Part="1" 
 AR Path="/5E9F7399/5EA0E7B8" Ref="R?"  Part="1" 
 AR Path="/5E9F1391/5EA0E7B8" Ref="R?"  Part="1" 
 AR Path="/5EA0E7B8" Ref="R1"  Part="1" 
-F 0 "R1" H 8570 3396 50  0000 L CNN
-F 1 "50K" H 8570 3305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8430 3350 50  0001 C CNN
-F 3 "~" H 8500 3350 50  0001 C CNN
-	1    8500 3350
+F 0 "R1" H 8420 3396 50  0000 L CNN
+F 1 "50K" H 8420 3305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8280 3350 50  0001 C CNN
+F 3 "~" H 8350 3350 50  0001 C CNN
+	1    8350 3350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8500 3200 8500 3100
+	8350 3200 8350 3100
 Wire Wire Line
-	8500 3100 7950 3100
+	8350 3100 7950 3100
 Connection ~ 7950 3100
 Wire Wire Line
 	7950 3100 7950 3200
 Wire Wire Line
-	8500 3500 8500 3800
-Connection ~ 8500 3800
+	8350 3500 8350 3800
 Wire Wire Line
 	6900 3650 6900 3200
 Wire Wire Line
@@ -175,47 +174,63 @@ Wire Wire Line
 	7950 2850 9150 2850
 Connection ~ 7950 2850
 Wire Wire Line
-	9150 4650 9150 4000
-Wire Wire Line
 	5200 4650 7950 4650
 Connection ~ 7950 4650
 Wire Wire Line
-	7950 4650 9150 4650
-Wire Wire Line
-	9150 4000 9350 4000
-Wire Wire Line
-	9150 3700 9350 3700
+	7950 4650 9050 4650
 Wire Wire Line
 	6350 3800 6350 4500
 Wire Wire Line
-	6350 4500 8850 4500
-Wire Wire Line
-	8850 4500 8850 3900
-Wire Wire Line
-	8850 3900 9350 3900
-Wire Wire Line
 	5750 3800 6350 3800
-Wire Wire Line
-	9150 2850 9150 3700
-Wire Wire Line
-	8500 3800 9350 3800
 Text Label 8800 2850 0    50   ~ 0
 VCC
 Text Label 8800 4650 0    50   ~ 0
 GND
-Text Label 8700 3800 0    50   ~ 0
+Text Label 8450 3800 0    50   ~ 0
 OUT1
-Text Label 8500 4500 0    50   ~ 0
+Text Label 8450 4500 0    50   ~ 0
 OUT2
 $Comp
-L Naquadah_Generator:HallSensor_Conn J1
+L Naquadah_Generator:HallSensor_Conn_T2 J1
 U 1 1 5EA0DFD2
 P 9550 3800
 F 0 "J1" H 9500 4000 50  0000 L CNN
 F 1 "HallSensor_Conn" H 9250 3500 50  0000 L CNN
-F 2 "Naquadah_Generator:WireSoldPads" H 9550 3800 50  0001 C CNN
+F 2 "Naquadah_Generator:WireSoldPads_1x4_NOL" H 9550 3800 50  0001 C CNN
 F 3 "~" H 9550 3800 50  0001 C CNN
 	1    9550 3800
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5EA2820E
+P 6900 2550
+F 0 "H1" H 7000 2596 50  0000 L CNN
+F 1 "MountingHole" H 7000 2505 50  0000 L CNN
+F 2 "Naquadah_Generator:MountingSlot_2.7mm_2.7mm_M2.5" H 6900 2550 50  0001 C CNN
+F 3 "~" H 6900 2550 50  0001 C CNN
+	1    6900 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 4000 9350 4000
+Wire Wire Line
+	9150 2850 9150 4000
+Wire Wire Line
+	9350 3900 9050 3900
+Wire Wire Line
+	9050 3900 9050 4650
+Connection ~ 8350 3800
+Wire Wire Line
+	8350 3800 8750 3800
+Wire Wire Line
+	9350 3700 8750 3700
+Wire Wire Line
+	8750 3700 8750 3800
+Wire Wire Line
+	9350 3800 8900 3800
+Wire Wire Line
+	8900 3800 8900 4500
+Wire Wire Line
+	6350 4500 8900 4500
 $EndSCHEMATC

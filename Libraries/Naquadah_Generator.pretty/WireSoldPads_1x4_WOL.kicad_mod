@@ -1,4 +1,4 @@
-(module WireSoldPads (layer F.Cu) (tedit 5EA0D6A3)
+(module WireSoldPads_1x4_WOL (layer F.Cu) (tedit 5EA1934B)
   (attr smd)
   (fp_text reference REF** (at 0 2.6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
