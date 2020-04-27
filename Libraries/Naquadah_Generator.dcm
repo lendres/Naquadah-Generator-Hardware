@@ -24,4 +24,10 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP Logo
+D Logo Place Holder
+K logo
+F ~
+$ENDCMP
+#
 #End Doc Library
