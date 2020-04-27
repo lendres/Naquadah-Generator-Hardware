@@ -12,4 +12,16 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP HallSensor_Conn_T3
+D Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP HallSensor_Conn_T4
+D Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 #End Doc Library
