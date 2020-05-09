@@ -14,308 +14,381 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Sensors_LE:AH1815-P U2
+L Naquadah_Generator:AH1815-P U2
 U 1 1 5EA0DA41
-P 4688 2564
+P 4500 2200
 AR Path="/5EA0DA41" Ref="U2"  Part="1" 
 AR Path="/5E9F1391/5EA0DA41" Ref="U3"  Part="1" 
 AR Path="/5E9F6AB4/5EA0DA41" Ref="U4"  Part="1" 
 AR Path="/5E9F72EC/5EA0DA41" Ref="U5"  Part="1" 
 AR Path="/5E9F7399/5EA0DA41" Ref="U6"  Part="1" 
-F 0 "U2" H 4458 2610 50  0000 R CNN
-F 1 "AH1815-P" H 4458 2519 50  0000 R CNN
-F 2 "Naquadah_Generator:SC-59_Hall_Sensor_Handsoldering" H 4688 2564 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 4688 2564 50  0001 C CNN
-	1    4688 2564
+F 0 "U2" H 4270 2246 50  0000 R CNN
+F 1 "AH1815-P" H 4270 2155 50  0000 R CNN
+F 2 "Naquadah_Generator:SC-59_Hall_Sensor_Handsoldering" H 4500 2200 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 4500 2200 50  0001 C CNN
+F 4 "AH1815-W-7DICT-ND" H 4500 2200 50  0001 C CNN "Digikey Part No."
+F 5 "AH1815-W-7" H 4500 2200 50  0001 C CNN "Manfacturer Part No."
+	1    4500 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4688 3414 4688 3114
-Wire Wire Line
-	4688 1614 4688 1864
-Wire Wire Line
-	4988 2564 5238 2564
 $Comp
-L Device:R R29
+L Naquadah_Generator:R R29
 U 1 1 5E9F2F30
-P 5238 2114
+P 5050 1750
 AR Path="/5E9F6AB4/5E9F2F30" Ref="R29"  Part="1" 
 AR Path="/5E9F72EC/5E9F2F30" Ref="R30"  Part="1" 
 AR Path="/5E9F7399/5E9F2F30" Ref="R31"  Part="1" 
 AR Path="/5E9F1391/5E9F2F30" Ref="R28"  Part="1" 
 AR Path="/5E9F2F30" Ref="R2"  Part="1" 
-F 0 "R2" H 5308 2160 50  0000 L CNN
-F 1 "47K" H 5308 2069 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5168 2114 50  0001 C CNN
-F 3 "~" H 5238 2114 50  0001 C CNN
-	1    5238 2114
+F 0 "R2" H 5120 1796 50  0000 L CNN
+F 1 "47K" H 5120 1705 50  0000 L CNN
+F 2 "Naquadah_Generator:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4980 1750 50  0001 C CNN
+F 3 "~" H 5050 1750 50  0001 C CNN
+	1    5050 1750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5238 1964 5238 1864
-Wire Wire Line
-	5238 1864 4688 1864
-Connection ~ 4688 1864
-Wire Wire Line
-	4688 1864 4688 1964
-Wire Wire Line
-	5238 2264 5238 2564
-Wire Wire Line
-	3638 2414 3638 1964
-Wire Wire Line
-	3638 1964 4688 1964
-Connection ~ 4688 1964
-Wire Wire Line
-	4688 1964 4688 2164
-Wire Wire Line
-	3638 2714 3638 3114
-Wire Wire Line
-	3638 3114 4688 3114
-Connection ~ 4688 3114
-Wire Wire Line
-	4688 3114 4688 2964
 $Comp
-L Device:C C2
+L Naquadah_Generator:C C2
 U 1 1 5E9F46C8
-P 3638 2564
+P 3450 2200
 AR Path="/5E9F6AB4/5E9F46C8" Ref="C2"  Part="1" 
 AR Path="/5E9F72EC/5E9F46C8" Ref="C3"  Part="1" 
 AR Path="/5E9F7399/5E9F46C8" Ref="C4"  Part="1" 
 AR Path="/5E9F1391/5E9F46C8" Ref="C1"  Part="1" 
 AR Path="/5E9F46C8" Ref="C2"  Part="1" 
-F 0 "C2" H 3753 2610 50  0000 L CNN
-F 1 "47n" H 3753 2519 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3676 2414 50  0001 C CNN
-F 3 "~" H 3638 2564 50  0001 C CNN
-	1    3638 2564
+F 0 "C2" H 3565 2246 50  0000 L CNN
+F 1 "47n" H 3565 2155 50  0000 L CNN
+F 2 "Naquadah_Generator:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3488 2050 50  0001 C CNN
+F 3 "~" H 3450 2200 50  0001 C CNN
+	1    3450 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sensors_LE:AH1815-P U1
+L Naquadah_Generator:AH1815-P U1
 U 1 1 5EA0E7AA
-P 7138 2564
+P 6950 2200
 AR Path="/5EA0E7AA" Ref="U1"  Part="1" 
 AR Path="/5E9F1391/5EA0E7AA" Ref="U?"  Part="1" 
 AR Path="/5E9F6AB4/5EA0E7AA" Ref="U?"  Part="1" 
 AR Path="/5E9F72EC/5EA0E7AA" Ref="U?"  Part="1" 
 AR Path="/5E9F7399/5EA0E7AA" Ref="U?"  Part="1" 
-F 0 "U1" H 6908 2610 50  0000 R CNN
-F 1 "AH1815-P" H 6908 2519 50  0000 R CNN
-F 2 "Naquadah_Generator:SC-59_Hall_Sensor_Handsoldering" H 7138 2564 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 7138 2564 50  0001 C CNN
-	1    7138 2564
+F 0 "U1" H 6720 2246 50  0000 R CNN
+F 1 "AH1815-P" H 6720 2155 50  0000 R CNN
+F 2 "Naquadah_Generator:SC-59_Hall_Sensor_Handsoldering" H 6950 2200 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 6950 2200 50  0001 C CNN
+F 4 "AH1815-W-7DICT-ND" H 6950 2200 50  0001 C CNN "Digikey Part No."
+F 5 "AH1815-W-7" H 6950 2200 50  0001 C CNN "Manfacturer Part No."
+	1    6950 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7138 3414 7138 3114
-Wire Wire Line
-	7138 1614 7138 1864
-Wire Wire Line
-	7438 2564 7538 2564
 $Comp
-L Device:R R?
+L Naquadah_Generator:R R?
 U 1 1 5EA0E7B8
-P 7538 2114
+P 7350 1750
 AR Path="/5E9F6AB4/5EA0E7B8" Ref="R?"  Part="1" 
 AR Path="/5E9F72EC/5EA0E7B8" Ref="R?"  Part="1" 
 AR Path="/5E9F7399/5EA0E7B8" Ref="R?"  Part="1" 
 AR Path="/5E9F1391/5EA0E7B8" Ref="R?"  Part="1" 
 AR Path="/5EA0E7B8" Ref="R1"  Part="1" 
-F 0 "R1" H 7608 2160 50  0000 L CNN
-F 1 "47K" H 7608 2069 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 7468 2114 50  0001 C CNN
-F 3 "~" H 7538 2114 50  0001 C CNN
-	1    7538 2114
+F 0 "R1" H 7420 1796 50  0000 L CNN
+F 1 "47K" H 7420 1705 50  0000 L CNN
+F 2 "Naquadah_Generator:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 7280 1750 50  0001 C CNN
+F 3 "~" H 7350 1750 50  0001 C CNN
+	1    7350 1750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7538 1964 7538 1864
-Wire Wire Line
-	7538 1864 7138 1864
-Connection ~ 7138 1864
-Wire Wire Line
-	7138 1864 7138 1964
-Wire Wire Line
-	6088 2414 6088 1964
-Wire Wire Line
-	6088 1964 7138 1964
-Connection ~ 7138 1964
-Wire Wire Line
-	7138 1964 7138 2164
-Wire Wire Line
-	6088 2714 6088 3114
-Wire Wire Line
-	6088 3114 7138 3114
-Connection ~ 7138 3114
-Wire Wire Line
-	7138 3114 7138 2964
 $Comp
-L Device:C C?
+L Naquadah_Generator:C C?
 U 1 1 5EA0E7CD
-P 6088 2564
+P 5900 2200
 AR Path="/5E9F6AB4/5EA0E7CD" Ref="C?"  Part="1" 
 AR Path="/5E9F72EC/5EA0E7CD" Ref="C?"  Part="1" 
 AR Path="/5E9F7399/5EA0E7CD" Ref="C?"  Part="1" 
 AR Path="/5E9F1391/5EA0E7CD" Ref="C?"  Part="1" 
 AR Path="/5EA0E7CD" Ref="C1"  Part="1" 
-F 0 "C1" H 6203 2610 50  0000 L CNN
-F 1 "47n" H 6203 2519 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6126 2414 50  0001 C CNN
-F 3 "~" H 6088 2564 50  0001 C CNN
-	1    6088 2564
+F 0 "C1" H 6015 2246 50  0000 L CNN
+F 1 "47n" H 6015 2155 50  0000 L CNN
+F 2 "Naquadah_Generator:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5938 2050 50  0001 C CNN
+F 3 "~" H 5900 2200 50  0001 C CNN
+	1    5900 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4688 1614 5038 1614
-Wire Wire Line
-	4688 3414 5038 3414
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5EA2820E
-P 7311 5054
-F 0 "H1" H 7411 5100 50  0000 L CNN
-F 1 "MountingHole" H 7411 5009 50  0000 L CNN
-F 2 "Naquadah_Generator:MountingSlot_2.7mm_2.7mm_M2.5" H 7311 5054 50  0001 C CNN
-F 3 "~" H 7311 5054 50  0001 C CNN
-	1    7311 5054
+P 8900 5250
+F 0 "H1" H 9000 5296 50  0000 L CNN
+F 1 "MountingHole" H 9000 5205 50  0000 L CNN
+F 2 "Naquadah_Generator:MountingSlot_2.7mm_2.7mm_M2.5" H 8900 5250 50  0001 C CNN
+F 3 "~" H 8900 5250 50  0001 C CNN
+	1    8900 5250
 	1    0    0    1   
 $EndComp
 $Comp
 L Naquadah_Generator:HallSensor_Conn_T4 J1
 U 1 1 5EA677CD
-P 3150 5900
-F 0 "J1" H 3227 5483 50  0000 C CNN
-F 1 "HallSensor_Conn_T4" H 3227 5574 50  0000 C CNN
-F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 3150 6200 50  0001 C CNN
-F 3 "~" H 3150 5900 50  0001 C CNN
-	1    3150 5900
+P 3150 6800
+F 0 "J1" H 3227 6383 50  0000 C CNN
+F 1 "HallSensor_Conn_T4" H 3227 6474 50  0000 C CNN
+F 2 "Naquadah_Generator:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 3150 7100 50  0001 C CNN
+F 3 "~" H 3150 6800 50  0001 C CNN
+	1    3150 6800
 	-1   0    0    1   
 $EndComp
-Text GLabel 5438 2564 2    50   Input ~ 0
-OUT2
-Wire Wire Line
-	5238 2564 5438 2564
-Connection ~ 5238 2564
-Text GLabel 3500 5700 2    50   Input ~ 0
-OUT2
+Text GLabel 5350 2200 2    50   Input ~ 0
+SENS2
+Text GLabel 3500 6600 2    50   Input ~ 0
+SENS2
 $Comp
 L power:+5V #PWR0101
 U 1 1 5EA6C25B
-P 3900 5650
-F 0 "#PWR0101" H 3900 5500 50  0001 C CNN
-F 1 "+5V" H 3915 5823 50  0000 C CNN
-F 2 "" H 3900 5650 50  0001 C CNN
-F 3 "" H 3900 5650 50  0001 C CNN
-	1    3900 5650
+P 3900 6550
+F 0 "#PWR0101" H 3900 6400 50  0001 C CNN
+F 1 "+5V" H 3915 6723 50  0000 C CNN
+F 2 "" H 3900 6550 50  0001 C CNN
+F 3 "" H 3900 6550 50  0001 C CNN
+	1    3900 6550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 5900 3900 5900
+	3350 6800 3900 6800
 Wire Wire Line
-	3900 5900 3900 5650
+	3900 6800 3900 6550
 $Comp
 L power:GND #PWR0102
 U 1 1 5EA6D3BB
-P 3900 6150
-F 0 "#PWR0102" H 3900 5900 50  0001 C CNN
-F 1 "GND" H 3905 5977 50  0000 C CNN
-F 2 "" H 3900 6150 50  0001 C CNN
-F 3 "" H 3900 6150 50  0001 C CNN
-	1    3900 6150
+P 3900 7050
+F 0 "#PWR0102" H 3900 6800 50  0001 C CNN
+F 1 "GND" H 3905 6877 50  0000 C CNN
+F 2 "" H 3900 7050 50  0001 C CNN
+F 3 "" H 3900 7050 50  0001 C CNN
+	1    3900 7050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 6000 3900 6000
+	3350 6900 3900 6900
 Wire Wire Line
-	3900 6000 3900 6150
-$Comp
-L power:+5V #PWR0103
-U 1 1 5EA6EB57
-P 5938 1614
-F 0 "#PWR0103" H 5938 1464 50  0001 C CNN
-F 1 "+5V" H 5953 1787 50  0000 C CNN
-F 2 "" H 5938 1614 50  0001 C CNN
-F 3 "" H 5938 1614 50  0001 C CNN
-	1    5938 1614
-	1    0    0    -1  
-$EndComp
-Connection ~ 5938 1614
+	3900 6900 3900 7050
+Text GLabel 7650 2200 2    50   Input ~ 0
+SENS1
+Text GLabel 3500 6700 2    50   Input ~ 0
+SENS1
 Wire Wire Line
-	5938 1614 7138 1614
-$Comp
-L power:GND #PWR0104
-U 1 1 5EA6F280
-P 5888 3414
-F 0 "#PWR0104" H 5888 3164 50  0001 C CNN
-F 1 "GND" H 5893 3241 50  0000 C CNN
-F 2 "" H 5888 3414 50  0001 C CNN
-F 3 "" H 5888 3414 50  0001 C CNN
-	1    5888 3414
-	1    0    0    -1  
-$EndComp
-Connection ~ 5888 3414
+	3350 6600 3500 6600
 Wire Wire Line
-	5888 3414 7138 3414
-Text GLabel 7738 2564 2    50   Input ~ 0
-OUT1
-Wire Wire Line
-	7538 2264 7538 2564
-Wire Wire Line
-	7738 2564 7538 2564
-Connection ~ 7538 2564
-Text GLabel 3500 5800 2    50   Input ~ 0
-OUT1
-Wire Wire Line
-	3350 5700 3500 5700
-Wire Wire Line
-	3350 5800 3500 5800
+	3350 6700 3500 6700
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5EA7260B
-P 5038 1614
-F 0 "#FLG0101" H 5038 1689 50  0001 C CNN
-F 1 "PWR_FLAG" H 5038 1787 50  0000 C CNN
-F 2 "" H 5038 1614 50  0001 C CNN
-F 3 "~" H 5038 1614 50  0001 C CNN
-	1    5038 1614
+P 6250 1250
+F 0 "#FLG0101" H 6250 1325 50  0001 C CNN
+F 1 "PWR_FLAG" H 6250 1423 50  0000 C CNN
+F 2 "" H 6250 1250 50  0001 C CNN
+F 3 "~" H 6250 1250 50  0001 C CNN
+	1    6250 1250
 	1    0    0    -1  
 $EndComp
-Connection ~ 5038 1614
-Wire Wire Line
-	5038 1614 5938 1614
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5EA731E9
-P 5038 3414
-F 0 "#FLG0102" H 5038 3489 50  0001 C CNN
-F 1 "PWR_FLAG" H 5038 3587 50  0000 C CNN
-F 2 "" H 5038 3414 50  0001 C CNN
-F 3 "~" H 5038 3414 50  0001 C CNN
-	1    5038 3414
+P 6250 3050
+F 0 "#FLG0102" H 6250 3125 50  0001 C CNN
+F 1 "PWR_FLAG" H 6250 3223 50  0000 C CNN
+F 2 "" H 6250 3050 50  0001 C CNN
+F 3 "~" H 6250 3050 50  0001 C CNN
+	1    6250 3050
 	1    0    0    -1  
 $EndComp
-Connection ~ 5038 3414
-Wire Wire Line
-	5038 3414 5888 3414
-Text Notes 4922 772  0    98   ~ 20
+Text Notes 4900 3500 0    98   ~ 20
 Hall Sensor Schematic
-Text Notes 3237 4519 0    98   ~ 20
+Text Notes 3000 7700 0    98   ~ 20
 Connectors
 Wire Notes Line
 	6969 6536 6969 4300
 Wire Notes Line
 	500  4300 11150 4300
-Text Notes 8795 4484 0    98   ~ 20
+Text Notes 8400 6400 0    98   ~ 20
 Additional Features
 $Comp
-L Naquadah_Generator:Logo L1
+L Naquadah_Generator:Logo LG1
 U 1 1 5EAA34E4
-P 7310 5288
-F 0 "L1" V 7264 5203 50  0000 R CNN
-F 1 "OSHW Logo" V 7355 5203 50  0000 R CNN
-F 2 "Logos:OSHW_3mm_No_Text" H 7310 5288 50  0001 C CNN
-F 3 "~" H 7310 5288 50  0001 C CNN
-	1    7310 5288
+P 8900 5500
+F 0 "LG1" V 8854 5415 50  0000 R CNN
+F 1 "OSHW Logo" V 8945 5415 50  0000 R CNN
+F 2 "Naquadah_Generator:OSHW_3mm_No_Text" H 8900 5500 50  0001 C CNN
+F 3 "~" H 8900 5500 50  0001 C CNN
+	1    8900 5500
 	0    -1   1    0   
 $EndComp
+$Comp
+L Naquadah_Generator:WireAssembly WA101
+U 1 1 5EF2EBE6
+P 8650 5850
+F 0 "WA101" H 9028 5896 50  0000 L CNN
+F 1 "WireAssembly" H 9028 5805 50  0000 L CNN
+F 2 "Naquadah_Generator:Wire_Assembly_Four" H 8650 5950 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eSR.pdf" H 8650 5950 50  0001 C CNN
+F 4 "455-3010-ND" H 8650 5850 50  0001 C CNN "Digikey Part No."
+F 5 "A04SR04SR30K51B" H 8650 5850 50  0001 C CNN "Manfacturer Part No."
+	1    8650 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Naquadah_Generator:TestPoint TP101
+U 1 1 5EF333AD
+P 5200 3050
+F 0 "TP101" H 5150 3350 50  0000 L BNN
+F 1 "GND" H 5150 3250 50  0000 L BNN
+F 2 "Naquadah_Generator:Pad_1.25-2.5" H 5400 3050 50  0001 C CNN
+F 3 "~" H 5400 3050 50  0001 C CNN
+	1    5200 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5EA6F280
+P 6850 3050
+F 0 "#PWR0104" H 6850 2800 50  0001 C CNN
+F 1 "GND" H 6855 2877 50  0000 C CNN
+F 2 "" H 6850 3050 50  0001 C CNN
+F 3 "" H 6850 3050 50  0001 C CNN
+	1    6850 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Naquadah_Generator:TestPoint TP104
+U 1 1 5EF79EC8
+P 5200 2200
+F 0 "TP104" H 5250 2400 50  0000 R BNN
+F 1 "S2" H 5250 2500 50  0000 R BNN
+F 2 "Naquadah_Generator:Pad_1.25-2.5" H 5400 2200 50  0001 C CNN
+F 3 "~" H 5400 2200 50  0001 C CNN
+	1    5200 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Naquadah_Generator:TestPoint TP103
+U 1 1 5EF7C130
+P 7500 2200
+F 0 "TP103" H 7550 2400 50  0000 R BNN
+F 1 "S1" H 7550 2500 50  0000 R BNN
+F 2 "Naquadah_Generator:Pad_1.25-2.5" H 7700 2200 50  0001 C CNN
+F 3 "~" H 7700 2200 50  0001 C CNN
+	1    7500 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Naquadah_Generator:TestPoint TP102
+U 1 1 5EF7C9EB
+P 5200 1250
+F 0 "TP102" H 5150 1550 50  0000 L BNN
+F 1 "PWR" H 5150 1450 50  0000 L BNN
+F 2 "Naquadah_Generator:Pad_1.25-2.5" H 5400 1250 50  0001 C CNN
+F 3 "~" H 5400 1250 50  0001 C CNN
+	1    5200 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 1500 7350 1600
+Wire Wire Line
+	7250 2200 7350 2200
+Connection ~ 7500 2200
+Wire Wire Line
+	7500 2200 7650 2200
+Wire Wire Line
+	7350 1900 7350 2200
+Connection ~ 7350 2200
+Wire Wire Line
+	7350 2200 7500 2200
+Wire Wire Line
+	7350 1500 6950 1500
+$Comp
+L power:+5V #PWR0103
+U 1 1 5EA6EB57
+P 6850 1250
+F 0 "#PWR0103" H 6850 1100 50  0001 C CNN
+F 1 "+5V" H 6865 1423 50  0000 C CNN
+F 2 "" H 6850 1250 50  0001 C CNN
+F 3 "" H 6850 1250 50  0001 C CNN
+	1    6850 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 2600 6950 2750
+Wire Wire Line
+	6950 3050 6850 3050
+Connection ~ 5200 3050
+Wire Wire Line
+	5200 3050 4500 3050
+Connection ~ 6250 3050
+Wire Wire Line
+	6250 3050 5200 3050
+Connection ~ 6850 3050
+Wire Wire Line
+	6850 3050 6250 3050
+Wire Wire Line
+	4500 1250 5200 1250
+Wire Wire Line
+	6950 1250 6950 1500
+Connection ~ 5200 1250
+Wire Wire Line
+	5200 1250 6250 1250
+Connection ~ 6850 1250
+Wire Wire Line
+	6850 1250 6950 1250
+Connection ~ 6950 1500
+Wire Wire Line
+	6950 1500 6950 1600
+Wire Wire Line
+	5050 1600 5050 1500
+Wire Wire Line
+	5050 1500 4500 1500
+Connection ~ 4500 1500
+Wire Wire Line
+	4500 1500 4500 1250
+Wire Wire Line
+	4500 2600 4500 2750
+Wire Wire Line
+	4500 1500 4500 1600
+Wire Wire Line
+	3450 2050 3450 1600
+Wire Wire Line
+	3450 1600 4500 1600
+Connection ~ 4500 1600
+Wire Wire Line
+	4500 1600 4500 1800
+Wire Wire Line
+	3450 2350 3450 2750
+Wire Wire Line
+	3450 2750 4500 2750
+Connection ~ 4500 2750
+Wire Wire Line
+	4500 2750 4500 3050
+Connection ~ 6250 1250
+Wire Wire Line
+	6250 1250 6850 1250
+Wire Wire Line
+	5900 2350 5900 2750
+Wire Wire Line
+	5900 2750 6950 2750
+Connection ~ 6950 2750
+Wire Wire Line
+	6950 2750 6950 3050
+Wire Wire Line
+	5900 2050 5900 1600
+Wire Wire Line
+	5900 1600 6950 1600
+Connection ~ 6950 1600
+Wire Wire Line
+	6950 1600 6950 1800
+Wire Wire Line
+	4800 2200 5050 2200
+Connection ~ 5200 2200
+Wire Wire Line
+	5200 2200 5350 2200
+Wire Wire Line
+	5050 1900 5050 2200
+Connection ~ 5050 2200
+Wire Wire Line
+	5050 2200 5200 2200
 $EndSCHEMATC

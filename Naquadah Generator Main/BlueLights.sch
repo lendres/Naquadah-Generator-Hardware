@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 14
+Sheet 6 10
 Title ""
 Date ""
 Rev ""
@@ -14,12 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	5450 4750 5400 4750
+	5450 4550 5450 4650
 Wire Wire Line
-	5450 4550 5450 4750
-Wire Wire Line
-	4650 4350 4850 4350
-Text HLabel 4650 4350 0    50   Input ~ 0
+	4750 4350 4850 4350
+Text HLabel 4750 4350 0    50   Input ~ 0
 SIGNAL
 $Comp
 L Device:R R8
@@ -30,15 +28,13 @@ AR Path="/5E9E304D/5E9FDE71" Ref="R18"  Part="1"
 AR Path="/5E9D240B/5E9FDE71" Ref="R23"  Part="1" 
 AR Path="/5E9E5DE1/5E9FDE71" Ref="R3"  Part="1" 
 AR Path="/5E9E4A6B/5E9FDE71" Ref="R13"  Part="1" 
-F 0 "R23" V 4793 4350 50  0000 C CNN
-F 1 "2.7k" V 4884 4350 50  0000 C CNN
+F 0 "R23" V 4900 4350 50  0000 C CNN
+F 1 "2.7k" V 5100 4350 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4930 4350 50  0001 C CNN
 F 3 "~" H 5000 4350 50  0001 C CNN
 	1    5000 4350
 	0    1    1    0   
 $EndComp
-Text GLabel 5400 4750 0    50   Input ~ 0
-VGND
 $Comp
 L Transistor_BJT:BC337 Q6
 U 1 1 5E9FDE70
@@ -55,8 +51,6 @@ F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf" H 5350 4
 	1    5350 4350
 	1    0    0    -1  
 $EndComp
-Text GLabel 5450 3550 0    50   Input ~ 0
-5V
 Wire Wire Line
 	5450 4150 5800 4150
 Connection ~ 5800 4150
@@ -207,4 +201,38 @@ F 3 "~" H 6200 4000 50  0001 C CNN
 	1    6200 4000
 	0    -1   -1   0   
 $EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5EB39A74
+P 5450 4650
+AR Path="/5E9E304D/5EB39A74" Ref="#PWR0115"  Part="1" 
+AR Path="/5E9E5DE1/5EB39A74" Ref="#PWR0109"  Part="1" 
+AR Path="/5E9E5DDE/5EB39A74" Ref="#PWR0111"  Part="1" 
+AR Path="/5E9E4A6B/5EB39A74" Ref="#PWR0113"  Part="1" 
+AR Path="/5E9D240B/5EB39A74" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 5450 4400 50  0001 C CNN
+F 1 "GND" H 5455 4477 50  0000 C CNN
+F 2 "" H 5450 4650 50  0001 C CNN
+F 3 "" H 5450 4650 50  0001 C CNN
+	1    5450 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0116
+U 1 1 5EB3A90A
+P 5450 3500
+AR Path="/5E9E304D/5EB3A90A" Ref="#PWR0116"  Part="1" 
+AR Path="/5E9E5DE1/5EB3A90A" Ref="#PWR0110"  Part="1" 
+AR Path="/5E9E5DDE/5EB3A90A" Ref="#PWR0112"  Part="1" 
+AR Path="/5E9E4A6B/5EB3A90A" Ref="#PWR0114"  Part="1" 
+AR Path="/5E9D240B/5EB3A90A" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 5450 3350 50  0001 C CNN
+F 1 "+5V" H 5465 3673 50  0000 C CNN
+F 2 "" H 5450 3500 50  0001 C CNN
+F 3 "" H 5450 3500 50  0001 C CNN
+	1    5450 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3500 5450 3550
 $EndSCHEMATC

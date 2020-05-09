@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Li-ion 5A Boost 1A Charge Protect")(type KiCad)(uri "${KIPRJMOD}/Li-ion 5A Boost 1A Charge Protect.pretty")(options "")(descr ""))
+)

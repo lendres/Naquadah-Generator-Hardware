@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AH1815-P
+D High Sensitivity Micropower Omnipolar Hall-Effect Switch, SIP-3
+K hall switch
+F https://www.diodes.com/assets/Datasheets/AH1806.pdf
+$ENDCMP
+#
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
 $CMP HallSensor_Conn_T1
 D Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
@@ -26,6 +38,24 @@ $ENDCMP
 #
 $CMP Logo
 D Logo Place Holder
+K logo
+F ~
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP TestPoint
+D Test point
+K test point tp
+F ~
+$ENDCMP
+#
+$CMP WireAssembly
+D External wire assembly placeholder
 K logo
 F ~
 $ENDCMP
