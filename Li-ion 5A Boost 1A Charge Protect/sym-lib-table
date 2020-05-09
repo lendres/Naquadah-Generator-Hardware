@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name Lipo_18650_Boost_Charge_Protect-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Lipo_18650_Boost_Charge_Protect-eagle-import.lib)(options "")(descr ""))
   (lib (name Li-ion_5A_Boost_1A_Charge_Protect)(type Legacy)(uri "${KIPRJMOD}/Li-ion 5A Boost 1A Charge Protect.lib")(options "")(descr ""))
 )
