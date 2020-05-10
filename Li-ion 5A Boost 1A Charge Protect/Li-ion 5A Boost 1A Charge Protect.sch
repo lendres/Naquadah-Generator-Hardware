@@ -24,7 +24,7 @@ Wire Wire Line
 Wire Wire Line
 	10900 5000 10900 5500
 Wire Wire Line
-	7250 8700 6800 8700
+	7450 8700 7100 8700
 Wire Wire Line
 	10900 5800 10900 6200
 Wire Wire Line
@@ -34,11 +34,11 @@ Wire Wire Line
 Wire Wire Line
 	8000 5800 8000 6200
 Connection ~ 9050 6200
-Text Label 8750 9050 0    70   ~ 0
+Text Label 9150 9050 0    50   ~ 0
 BATT-
 Wire Wire Line
-	8650 8700 9050 8700
-Text Label 8750 8700 0    70   ~ 0
+	8650 8700 9000 8700
+Text Label 9150 8700 0    50   ~ 0
 BATT+
 Wire Wire Line
 	10550 5450 10550 5550
@@ -49,20 +49,6 @@ Wire Wire Line
 	9900 5400 9950 5400
 Wire Wire Line
 	9950 5400 9950 5000
-$Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:D_NTS12120EMFST1G D101
-U 1 1 E0548A51
-P 10200 5000
-F 0 "D101" H 10100 5150 59  0000 L TNN
-F 1 "NTS12120EMFST1G" H 9500 4900 59  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:NTS12120EMFST1G" H 10200 5000 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/NTS12120EMFS-D.PDF" H 10200 5000 50  0001 C CNN
-F 4 "Diode Schottky 120V 12A " H 10200 5000 50  0001 C CNN "Description"
-F 5 "NTS12120EMFST1GOSCT-ND" H 10200 5000 50  0001 C CNN "Digikey Part No."
-F 6 "NTS12120EMFST1G" H 10200 5000 50  0001 C CNN "Manfacturer Part No."
-	1    10200 5000
-	-1   0    0    1   
-$EndComp
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:R R111
 U 1 1 FA6D7899
@@ -80,15 +66,15 @@ $EndComp
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:USB_C_Plug_USB2.0 J101
 U 1 1 449C7C68
-P 4900 8450
-F 0 "J101" H 4500 9350 70  0000 L CNN
-F 1 "USB_C_FEMALE" H 4500 9250 70  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:GCT_USB4110-GF-A" H 4900 8450 50  0001 C CNN
-F 3 "https://gct.co/files/drawings/usb4110.pdf" H 4900 8450 50  0001 C CNN
-F 4 "USB-C 2.0 Female SMD Connector" H 4900 8450 50  0001 C CNN "Description"
-F 5 "2073-USB4110-GF-A-1-ND" H 4900 8450 50  0001 C CNN "Digikey Part No."
-F 6 "USB4110-GF-A" H 4900 8450 50  0001 C CNN "Manfacturer Part No."
-	1    4900 8450
+P 4750 8450
+F 0 "J101" H 4350 9350 70  0000 L CNN
+F 1 "USB_C_FEMALE" H 4350 9250 70  0000 L CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:GCT_USB4110-GF-A" H 4750 8450 50  0001 C CNN
+F 3 "https://gct.co/files/drawings/usb4110.pdf" H 4750 8450 50  0001 C CNN
+F 4 "USB-C 2.0 Female SMD Connector" H 4750 8450 50  0001 C CNN "Description"
+F 5 "2073-USB4110-GF-A-1-ND" H 4750 8450 50  0001 C CNN "Digikey Part No."
+F 6 "USB4110-GF-A" H 4750 8450 50  0001 C CNN "Manfacturer Part No."
+	1    4750 8450
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -112,33 +98,33 @@ Text Notes 8200 8710 0    59   ~ 0
 Text Notes 8200 9130 0    59   ~ 0
 -
 Wire Notes Line
-	6370 8710 6370 8780
+	6320 8710 6320 8780
 Wire Notes Line
-	6370 8710 6400 8710
+	6320 8710 6350 8710
 Wire Notes Line
-	6400 8710 6400 8780
+	6350 8710 6350 8780
 Wire Notes Line
-	6440 8780 6440 8710
+	6390 8780 6390 8710
 Wire Notes Line
-	6440 8710 6470 8710
+	6390 8710 6420 8710
 Wire Notes Line
-	6470 8710 6470 8780
+	6420 8710 6420 8780
 Wire Notes Line
-	6350 8780 6350 8880
+	6300 8780 6300 8880
 Wire Notes Line
-	6490 8780 6490 8880
+	6440 8780 6440 8880
 Wire Notes Line
-	6490 8880 6440 8930
+	6440 8880 6390 8930
 Wire Notes Line
-	6400 8930 6350 8880
+	6350 8930 6300 8880
 Wire Notes Line
-	6400 8930 6400 9030
+	6350 8930 6350 9030
 Wire Notes Line
-	6440 8930 6440 9030
+	6390 8930 6390 9030
 Wire Notes Line
-	6400 9030 6440 9030
+	6350 9030 6390 9030
 Wire Notes Line
-	6350 8780 6490 8780
+	6300 8780 6440 8780
 Wire Notes Line
 	14000 2930 14000 4540
 Text Notes 9200 6550 0    79   ~ 16
@@ -331,7 +317,7 @@ U 1 1 BDB91568
 P 11900 5000
 F 0 "W107" V 11800 5050 59  0000 L CNN
 F 1 "2.5x5.0" V 12000 5050 59  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_2.5-5.0" H 11900 5000 50  0001 C CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0" H 11900 5000 50  0001 C CNN
 F 3 "None" H 11900 5000 50  0001 C CNN
 F 4 "Wire solder point" H 11900 5000 50  0001 C CNN "Description"
 F 5 "None" H 11900 5000 50  0001 C CNN "Digikey Part No."
@@ -340,7 +326,7 @@ F 6 "None" H 11900 5000 50  0001 C CNN "Manfacturer Part No."
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8000 5000 9000 5000
+	8000 5000 8200 5000
 Connection ~ 9000 5000
 Wire Wire Line
 	9000 5000 9300 5000
@@ -394,7 +380,7 @@ F 6 "MCP73833T-AMI/UN" H 7050 2100 50  0001 C CNN "Manfacturer Part No."
 	1    7050 2100
 	1    0    0    -1  
 $EndComp
-Text Label 7550 2350 0    70   ~ 0
+Text Label 7550 2350 0    50   ~ 0
 PROG
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:LED LED101
@@ -552,10 +538,6 @@ F 3 "" H 4300 6000 50  0001 C CNN
 	1    4300 6000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9950 5000 10050 5000
-Wire Wire Line
-	10350 5000 10550 5000
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:L L101
 U 1 1 40108BB9
@@ -590,7 +572,7 @@ U 1 1 5EC79527
 P 11900 6200
 F 0 "W108" V 11800 6250 59  0000 L CNN
 F 1 "2.5x5.0" V 12000 6250 59  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_2.5-5.0" H 11900 6200 50  0001 C CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0" H 11900 6200 50  0001 C CNN
 F 3 "None" H 11900 6200 50  0001 C CNN
 F 4 "Wire solder point" H 11900 6200 50  0001 C CNN "Description"
 F 5 "None" H 11900 6200 50  0001 C CNN "Digikey Part No."
@@ -604,7 +586,7 @@ U 1 1 5EC79A91
 P 8650 8700
 F 0 "W105" V 8750 8900 59  0000 R CNN
 F 1 "2.5x5.0" V 8550 8900 59  0000 R CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_2.5-5.0" H 8650 8700 50  0001 C CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0" H 8650 8700 50  0001 C CNN
 F 3 "None" H 8650 8700 50  0001 C CNN
 F 4 "Wire solder point" H 8650 8700 50  0001 C CNN "Description"
 F 5 "None" H 8650 8700 50  0001 C CNN "Digikey Part No."
@@ -618,7 +600,7 @@ U 1 1 5EC872D2
 P 8650 9050
 F 0 "W106" V 8750 9250 59  0000 R CNN
 F 1 "2.5x5.0" V 8550 9250 59  0000 R CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_2.5-5.0" H 8650 9050 50  0001 C CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0" H 8650 9050 50  0001 C CNN
 F 3 "None" H 8650 9050 50  0001 C CNN
 F 4 "Wire solder point" H 8650 9050 50  0001 C CNN "Description"
 F 5 "None" H 8650 9050 50  0001 C CNN "Digikey Part No."
@@ -631,29 +613,29 @@ Wire Wire Line
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:TestPoint W101
 U 1 1 5EB59938
-P 6800 8700
-F 0 "W101" V 6900 8900 59  0000 R CNN
-F 1 "2.5x5.0" V 6700 8900 59  0000 R CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_2.5-5.0" H 6800 8700 50  0001 C CNN
-F 3 "None" H 6800 8700 50  0001 C CNN
-F 4 "Wire solder point" H 6800 8700 50  0001 C CNN "Description"
-F 5 "None" H 6800 8700 50  0001 C CNN "Digikey Part No."
-F 6 "None" H 6800 8700 50  0001 C CNN "Manfacturer Part No."
-	1    6800 8700
+P 6750 8700
+F 0 "W101" V 6850 8900 59  0000 R CNN
+F 1 "2.5x5.0" V 6650 8900 59  0000 R CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0" H 6750 8700 50  0001 C CNN
+F 3 "None" H 6750 8700 50  0001 C CNN
+F 4 "Wire solder point" H 6750 8700 50  0001 C CNN "Description"
+F 5 "None" H 6750 8700 50  0001 C CNN "Digikey Part No."
+F 6 "None" H 6750 8700 50  0001 C CNN "Manfacturer Part No."
+	1    6750 8700
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:TestPoint W102
 U 1 1 5EB5A0F1
-P 6800 9050
-F 0 "W102" V 6900 9250 59  0000 R CNN
-F 1 "2.5x5.0" V 6700 9250 59  0000 R CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_2.5-5.0" H 6800 9050 50  0001 C CNN
-F 3 "None" H 6800 9050 50  0001 C CNN
-F 4 "Wire solder point" H 6800 9050 50  0001 C CNN "Description"
-F 5 "None" H 6800 9050 50  0001 C CNN "Digikey Part No."
-F 6 "None" H 6800 9050 50  0001 C CNN "Manfacturer Part No."
-	1    6800 9050
+P 6750 9050
+F 0 "W102" V 6850 9250 59  0000 R CNN
+F 1 "2.5x5.0" V 6650 9250 59  0000 R CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0" H 6750 9050 50  0001 C CNN
+F 3 "None" H 6750 9050 50  0001 C CNN
+F 4 "Wire solder point" H 6750 9050 50  0001 C CNN "Description"
+F 5 "None" H 6750 9050 50  0001 C CNN "Digikey Part No."
+F 6 "None" H 6750 9050 50  0001 C CNN "Manfacturer Part No."
+	1    6750 9050
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -687,7 +669,7 @@ Wire Wire Line
 	8800 2700 8800 2750
 Connection ~ 8800 2750
 Wire Wire Line
-	7500 1900 9200 1900
+	7500 1900 7550 1900
 Connection ~ 5450 1900
 Connection ~ 5100 1900
 Wire Wire Line
@@ -711,7 +693,7 @@ F 6 "150080RS75000" H 11550 5300 50  0001 C CNN "Manfacturer Part No."
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8650 9050 9050 9050
+	8650 9050 9000 9050
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:R R107
 U 1 1 5EB9EAAB
@@ -765,12 +747,8 @@ Wire Wire Line
 Wire Wire Line
 	9200 2050 9200 1900
 Wire Wire Line
-	4750 1900 4350 1900
-Wire Wire Line
 	4350 1900 4350 2050
 Connection ~ 4750 1900
-Text Label 9350 1900 0    70   ~ 0
-BATT+
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:GND #PWR0106
 U 1 1 5EB673E3
@@ -800,65 +778,55 @@ F 3 "" H 4350 2400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4350 2350 4350 2400
-Text Label 7550 2200 0    70   ~ 0
-THERM
-Text Label 8450 2200 0    70   ~ 0
-THERM
-Text Label 6250 2200 0    70   ~ 0
-ST1
-Text Label 6250 2500 0    70   ~ 0
-PG
-Text Label 6250 2350 0    70   ~ 0
-ST2
+Text Label 7550 2200 0    50   ~ 0
+THRMIC
+Text Label 8450 2200 0    50   ~ 0
+THRM
 Wire Wire Line
 	5900 2350 6550 2350
 Wire Wire Line
 	6250 2200 6550 2200
-Wire Wire Line
-	5450 1900 6550 1900
-Text Label 4000 1900 0    70   ~ 0
-VUSB
 Connection ~ 4350 1900
 Wire Wire Line
 	4000 1900 4350 1900
 Connection ~ 9200 1900
 Wire Wire Line
 	9200 1900 9650 1900
-Text Label 5600 7800 0    70   ~ 0
+Text Label 5500 7800 0    50   ~ 0
 VUSB
-NoConn ~ 5400 8250
-NoConn ~ 5400 8100
-NoConn ~ 5400 8000
+NoConn ~ 5250 8250
+NoConn ~ 5250 8100
+NoConn ~ 5250 8000
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:GND #PWR0103
 U 1 1 5EC349D9
-P 5850 9100
-F 0 "#PWR0103" H 5850 8850 50  0001 C CNN
-F 1 "GND" H 5855 8927 50  0000 C CNN
-F 2 "" H 5850 9100 50  0001 C CNN
-F 3 "" H 5850 9100 50  0001 C CNN
-	1    5850 9100
+P 5700 9100
+F 0 "#PWR0103" H 5700 8850 50  0001 C CNN
+F 1 "GND" H 5705 8927 50  0000 C CNN
+F 2 "" H 5700 9100 50  0001 C CNN
+F 3 "" H 5700 9100 50  0001 C CNN
+	1    5700 9100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5850 9100 5850 9050
-Text Label 7000 8700 0    70   ~ 0
+	5700 9100 5700 9050
+Text Label 7250 8700 0    50   ~ 0
 VUSB
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:GND #PWR0105
 U 1 1 5EC42BD6
-P 7250 9100
-F 0 "#PWR0105" H 7250 8850 50  0001 C CNN
-F 1 "GND" H 7255 8927 50  0000 C CNN
-F 2 "" H 7250 9100 50  0001 C CNN
-F 3 "" H 7250 9100 50  0001 C CNN
-	1    7250 9100
+P 7450 9100
+F 0 "#PWR0105" H 7450 8850 50  0001 C CNN
+F 1 "GND" H 7455 8927 50  0000 C CNN
+F 2 "" H 7450 9100 50  0001 C CNN
+F 3 "" H 7450 9100 50  0001 C CNN
+	1    7450 9100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7250 9050 7250 9100
+	7450 9050 7450 9100
 Wire Wire Line
-	6800 9050 7250 9050
+	6750 9050 7100 9050
 Text Notes 6600 9550 0    79   ~ 16
 Connectors
 $Comp
@@ -945,9 +913,7 @@ F 6 "ECH8695R-TL-W" H 3500 5850 50  0001 C CNN "Manfacturer Part No."
 	1    3500 5850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4000 5950 4150 5950
-NoConn ~ 3500 6150
+NoConn ~ 3350 6150
 Wire Wire Line
 	3350 5450 3350 5500
 Wire Wire Line
@@ -966,7 +932,6 @@ Wire Wire Line
 	4150 5150 4150 5200
 Wire Wire Line
 	4150 5500 4150 5950
-Connection ~ 4150 5950
 Wire Wire Line
 	4150 5950 4300 5950
 $Comp
@@ -983,9 +948,6 @@ F 6 "CL21B104MBCNNNC" H 2600 5400 50  0001 C CNN "Manfacturer Part No."
 	1    2600 5400
 	1    0    0    -1  
 $EndComp
-Connection ~ 2850 5950
-Wire Wire Line
-	2850 5950 3000 5950
 Wire Wire Line
 	3100 5150 2850 5150
 Wire Wire Line
@@ -1003,10 +965,6 @@ Wire Wire Line
 Connection ~ 2600 5950
 Wire Wire Line
 	2600 5950 2850 5950
-Text Label 1800 4800 0    70   ~ 0
-BATT+
-Text Label 1800 5950 0    70   ~ 0
-BATT-
 Wire Wire Line
 	4300 5950 4300 6000
 $Comp
@@ -1034,8 +992,6 @@ F 6 "GF-123-0054" H 7250 5000 50  0001 C CNN "Manfacturer Part No."
 	1    7250 5000
 	1    0    0    -1  
 $EndComp
-Text Label 6550 5000 0    70   ~ 0
-BATT+
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:R R101
 U 1 1 5EC910DA
@@ -1060,20 +1016,20 @@ Wire Wire Line
 Wire Wire Line
 	6550 6200 7700 6200
 Connection ~ 7700 6200
-NoConn ~ 5400 8350
+NoConn ~ 5250 8350
 Wire Wire Line
-	5550 9050 5850 9050
-NoConn ~ 5400 8500
-NoConn ~ 5400 8600
-NoConn ~ 5400 8750
-NoConn ~ 5400 8850
+	5400 9050 5700 9050
+NoConn ~ 5250 8500
+NoConn ~ 5250 8600
+NoConn ~ 5250 8750
+NoConn ~ 5250 8850
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:TestPoint W104
 U 1 1 5EC17D57
 P 7450 4800
 F 0 "W104" V 7350 4850 59  0000 L CNN
 F 1 "2.5x5.0" V 7500 4850 59  0000 L TNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_2.5-5.0" H 7450 4800 50  0001 C CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0" H 7450 4800 50  0001 C CNN
 F 3 "None" H 7450 4800 50  0001 C CNN
 F 4 "Wire solder point" H 7450 4800 50  0001 C CNN "Description"
 F 5 "None" H 7450 4800 50  0001 C CNN "Digikey Part No."
@@ -1087,7 +1043,7 @@ U 1 1 5EC3644F
 P 7050 4800
 F 0 "W103" V 6950 4850 59  0000 L CNN
 F 1 "2.5x5.0" V 7100 4850 59  0000 L TNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_2.5-5.0" H 7050 4800 50  0001 C CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0" H 7050 4800 50  0001 C CNN
 F 3 "None" H 7050 4800 50  0001 C CNN
 F 4 "Wire solder point" H 7050 4800 50  0001 C CNN "Description"
 F 5 "None" H 7050 4800 50  0001 C CNN "Digikey Part No."
@@ -1118,35 +1074,178 @@ Connection ~ 6950 5000
 Wire Wire Line
 	6950 5000 7050 5000
 Wire Wire Line
-	5550 7800 5550 7750
+	5400 7800 5400 7750
 Wire Wire Line
-	5550 7750 5400 7750
-Connection ~ 5550 7800
+	5400 7750 5250 7750
+Connection ~ 5400 7800
 Wire Wire Line
-	5550 7800 5850 7800
+	5400 7800 5400 7850
 Wire Wire Line
-	5550 7800 5550 7850
+	5400 7850 5250 7850
 Wire Wire Line
-	5550 7850 5400 7850
+	5250 9000 5400 9000
 Wire Wire Line
-	5400 9000 5550 9000
+	5400 9000 5400 9050
 Wire Wire Line
-	5550 9000 5550 9050
+	5400 9100 5250 9100
+Connection ~ 5400 9050
 Wire Wire Line
-	5550 9100 5400 9100
-Connection ~ 5550 9050
-Wire Wire Line
-	5550 9050 5550 9100
+	5400 9050 5400 9100
 Text Label 9750 5000 0    50   ~ 0
 SW
 Text Label 9950 5550 0    50   ~ 0
 FB
 Text Label 9950 5700 0    50   ~ 0
 SS
-Text Label 8500 5000 0    50   ~ 0
+Text Label 8450 5000 0    50   ~ 0
 BOOSTVIN
 Text Label 8900 5700 0    50   ~ 0
 COMP
 Text Label 11050 5000 0    50   ~ 0
 BOOSTVOUT
+Text Label 6550 5000 0    50   ~ 0
+BATT+
+Text Label 1800 4800 0    50   ~ 0
+BATT+
+Text Label 1800 5950 0    50   ~ 0
+BATT-
+Text Label 9450 1900 0    50   ~ 0
+BATT+
+Text Label 6300 2200 0    50   ~ 0
+ST1
+Text Label 6300 2350 0    50   ~ 0
+ST2
+Text Label 6300 2500 0    50   ~ 0
+PG
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5EBD4DB0
+P 7100 8650
+F 0 "#FLG0101" H 7100 8725 50  0001 C CNN
+F 1 "PWR_FLAG" H 7100 8823 50  0000 C CNN
+F 2 "" H 7100 8650 50  0001 C CNN
+F 3 "~" H 7100 8650 50  0001 C CNN
+	1    7100 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 8650 7100 8700
+Connection ~ 7100 8700
+Wire Wire Line
+	7100 8700 6750 8700
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5EBFD018
+P 7100 9100
+F 0 "#FLG0102" H 7100 9175 50  0001 C CNN
+F 1 "PWR_FLAG" H 7100 9273 50  0000 C CNN
+F 2 "" H 7100 9100 50  0001 C CNN
+F 3 "~" H 7100 9100 50  0001 C CNN
+	1    7100 9100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7100 9100 7100 9050
+Connection ~ 7100 9050
+Wire Wire Line
+	7100 9050 7450 9050
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5EC258B9
+P 9000 8650
+F 0 "#FLG0103" H 9000 8725 50  0001 C CNN
+F 1 "PWR_FLAG" H 9000 8823 50  0000 C CNN
+F 2 "" H 9000 8650 50  0001 C CNN
+F 3 "~" H 9000 8650 50  0001 C CNN
+	1    9000 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 8650 9000 8700
+Connection ~ 9000 8700
+Wire Wire Line
+	9000 8700 9400 8700
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5EC3E2A7
+P 9000 9100
+F 0 "#FLG0104" H 9000 9175 50  0001 C CNN
+F 1 "PWR_FLAG" H 9000 9273 50  0000 C CNN
+F 2 "" H 9000 9100 50  0001 C CNN
+F 3 "~" H 9000 9100 50  0001 C CNN
+	1    9000 9100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9000 9100 9000 9050
+Connection ~ 9000 9050
+Wire Wire Line
+	9000 9050 9400 9050
+Wire Wire Line
+	4350 1900 4750 1900
+Text Label 2850 4800 0    50   ~ 0
+BATT+
+$Comp
+L power:PWR_FLAG #FLG0106
+U 1 1 5EC7BC40
+P 8200 4950
+F 0 "#FLG0106" H 8200 5025 50  0001 C CNN
+F 1 "PWR_FLAG" H 8200 5123 50  0000 C CNN
+F 2 "" H 8200 4950 50  0001 C CNN
+F 3 "~" H 8200 4950 50  0001 C CNN
+	1    8200 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 4950 8200 5000
+Connection ~ 8200 5000
+Wire Wire Line
+	8200 5000 9000 5000
+Wire Wire Line
+	6550 2050 6500 2050
+Wire Wire Line
+	6500 2050 6500 1900
+Connection ~ 6500 1900
+Wire Wire Line
+	6500 1900 6550 1900
+Wire Wire Line
+	7500 2050 7550 2050
+Wire Wire Line
+	7550 2050 7550 1900
+Connection ~ 7550 1900
+Wire Wire Line
+	7550 1900 9200 1900
+Wire Wire Line
+	10350 5000 10550 5000
+Wire Wire Line
+	9950 5000 10050 5000
+$Comp
+L Li-ion_5A_Boost_1A_Charge_Protect:D_NTS12120EMFST1G D101
+U 1 1 E0548A51
+P 10200 5000
+F 0 "D101" H 10100 5150 59  0000 L TNN
+F 1 "NTS12120EMFST1G" H 9500 4900 59  0000 L CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:NTS12120EMFST1G" H 10200 5000 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NTS12120EMFS-D.PDF" H 10200 5000 50  0001 C CNN
+F 4 "Diode Schottky 120V 12A " H 10200 5000 50  0001 C CNN "Description"
+F 5 "NTS12120EMFST1GOSCT-ND" H 10200 5000 50  0001 C CNN "Digikey Part No."
+F 6 "NTS12120EMFST1G" H 10200 5000 50  0001 C CNN "Manfacturer Part No."
+	1    10200 5000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 7800 5700 7800
+Text Label 4000 1900 0    50   ~ 0
+VUSB
+Wire Wire Line
+	5450 1900 6500 1900
+NoConn ~ 3450 6150
+NoConn ~ 3550 6150
+NoConn ~ 3650 6150
+Wire Wire Line
+	2850 5950 2950 5950
+Connection ~ 2850 5950
+Wire Wire Line
+	4050 5950 4150 5950
+Connection ~ 4150 5950
 $EndSCHEMATC
