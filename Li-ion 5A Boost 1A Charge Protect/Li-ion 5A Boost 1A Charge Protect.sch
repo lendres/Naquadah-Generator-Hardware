@@ -50,10 +50,10 @@ Wire Wire Line
 Wire Wire Line
 	9950 5400 9950 5000
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:R R111
+L Li-ion_5A_Boost_1A_Charge_Protect:R R11
 U 1 1 FA6D7899
 P 10550 5900
-F 0 "R111" V 10450 5800 59  0000 L CNN
+F 0 "R11" V 10450 5800 59  0000 L CNN
 F 1 "10k" V 10650 5800 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 10550 5900 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 10550 5900 50  0001 C CNN
@@ -64,10 +64,10 @@ F 6 "RK73H2ATTD1002F" H 10550 5900 50  0001 C CNN "Manfacturer Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:USB_C_Plug_USB2.0 J101
+L Li-ion_5A_Boost_1A_Charge_Protect:USB_C_Plug_USB2.0 J1
 U 1 1 449C7C68
 P 4750 8450
-F 0 "J101" H 4350 9350 70  0000 L CNN
+F 0 "J1" H 4350 9350 70  0000 L CNN
 F 1 "USB_C_FEMALE" H 4350 9250 70  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:GCT_USB4110-GF-A" H 4750 8450 50  0001 C CNN
 F 3 "https://gct.co/files/drawings/usb4110.pdf" H 4750 8450 50  0001 C CNN
@@ -140,10 +140,10 @@ Wire Wire Line
 Wire Wire Line
 	11550 6050 11550 6200
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:C C104
+L Li-ion_5A_Boost_1A_Charge_Protect:C C4
 U 1 1 5EBC278E
 P 8000 5650
-F 0 "C104" V 7950 5700 50  0000 L CNN
+F 0 "C4" V 7950 5700 50  0000 L CNN
 F 1 "10uF" V 8050 5700 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 8038 5500 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 8000 5650 50  0001 C CNN
@@ -154,10 +154,10 @@ F 6 "CL21A106KQCLRNC" H 8000 5650 50  0001 C CNN "Manfacturer Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:CP1 C103
+L Li-ion_5A_Boost_1A_Charge_Protect:CP1 C3
 U 1 1 5EBC351E
 P 7700 5650
-F 0 "C103" V 7650 5800 50  0000 L CNN
+F 0 "C3" V 7650 5800 50  0000 L CNN
 F 1 "470uF" V 7750 5800 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:UCD1E471MNL1GS" H 7700 5650 50  0001 C CNN
 F 3 "https://www.nichicon.co.jp/english/products/pdfs/e-ucd.pdf" H 7700 5650 50  0001 C CNN
@@ -172,10 +172,10 @@ Wire Wire Line
 Wire Wire Line
 	11550 5450 11550 5750
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:C C110
+L Li-ion_5A_Boost_1A_Charge_Protect:C C10
 U 1 1 5EC2A03F
 P 10900 5650
-F 0 "C110" V 10850 5700 50  0000 L CNN
+F 0 "C10" V 10850 5700 50  0000 L CNN
 F 1 "10uF" V 10950 5700 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 10938 5500 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 10900 5650 50  0001 C CNN
@@ -186,10 +186,10 @@ F 6 "CL21A106KQCLRNC" H 10900 5650 50  0001 C CNN "Manfacturer Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:CP1 C111
+L Li-ion_5A_Boost_1A_Charge_Protect:CP1 C11
 U 1 1 5EC30BF7
 P 11200 5650
-F 0 "C111" V 11150 5800 50  0000 L CNN
+F 0 "C11" V 11150 5800 50  0000 L CNN
 F 1 "470uF" V 11250 5800 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:UCD1E471MNL1GS" H 11200 5650 50  0001 C CNN
 F 3 "https://www.nichicon.co.jp/english/products/pdfs/e-ucd.pdf" H 11200 5650 50  0001 C CNN
@@ -200,10 +200,10 @@ F 6 "UCD1E471MNL1GS" H 11200 5650 50  0001 C CNN "Manfacturer Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:R R112
+L Li-ion_5A_Boost_1A_Charge_Protect:R R12
 U 1 1 44057106
 P 11550 5900
-F 0 "R112" V 11450 5800 59  0000 L CNN
+F 0 "R12" V 11450 5800 59  0000 L CNN
 F 1 "1k" V 11650 5800 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 11550 5900 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 11550 5900 50  0001 C CNN
@@ -224,10 +224,10 @@ Wire Wire Line
 Wire Wire Line
 	9000 5550 9000 5400
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:R R109
+L Li-ion_5A_Boost_1A_Charge_Protect:R R9
 U 1 1 5ECFE4F0
 P 8600 5700
-F 0 "R109" V 8700 5600 59  0000 L CNN
+F 0 "R9" V 8700 5600 59  0000 L CNN
 F 1 "51k" V 8500 5600 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 8600 5700 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 8600 5700 50  0001 C CNN
@@ -238,10 +238,10 @@ F 6 "RK73H2ATTD5102F" H 8600 5700 50  0001 C CNN "Manfacturer Part No."
 	0    1    1    0   
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:C C105
+L Li-ion_5A_Boost_1A_Charge_Protect:C C5
 U 1 1 5ECFEC38
 P 8400 5900
-F 0 "C105" V 8350 5650 50  0000 L CNN
+F 0 "C5" V 8350 5650 50  0000 L CNN
 F 1 "2.2nF" V 8450 5650 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 8438 5750 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 8400 5900 50  0001 C CNN
@@ -252,10 +252,10 @@ F 6 "CL21B222KBANNNC" H 8400 5900 50  0001 C CNN "Manfacturer Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:C C107
+L Li-ion_5A_Boost_1A_Charge_Protect:C C7
 U 1 1 5ECFF6AE
 P 8850 5900
-F 0 "C107" V 8800 5650 50  0000 L CNN
+F 0 "C7" V 8800 5650 50  0000 L CNN
 F 1 "47pF" V 8900 5650 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 8888 5750 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 8850 5900 50  0001 C CNN
@@ -290,10 +290,10 @@ Connection ~ 8200 6200
 Wire Wire Line
 	8200 6200 8000 6200
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:C C106
+L Li-ion_5A_Boost_1A_Charge_Protect:C C6
 U 1 1 5ECB2479
 P 8750 5300
-F 0 "C106" V 8700 5000 50  0000 L CNN
+F 0 "C6" V 8700 5000 50  0000 L CNN
 F 1 "1uF" V 8800 5000 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 8788 5150 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 8750 5300 50  0001 C CNN
@@ -312,10 +312,10 @@ Wire Wire Line
 Wire Wire Line
 	7700 6200 8000 6200
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:TestPoint W107
+L Li-ion_5A_Boost_1A_Charge_Protect:TestPoint W7
 U 1 1 BDB91568
 P 11900 5000
-F 0 "W107" V 11800 5050 59  0000 L CNN
+F 0 "W7" V 11800 5050 59  0000 L CNN
 F 1 "2.5x5.0" V 12000 5050 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0" H 11900 5000 50  0001 C CNN
 F 3 "None" H 11900 5000 50  0001 C CNN
@@ -351,10 +351,10 @@ Wire Wire Line
 Wire Wire Line
 	10150 5700 10150 5850
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:C C109
+L Li-ion_5A_Boost_1A_Charge_Protect:C C9
 U 1 1 5EC8CEA1
 P 10150 6000
-F 0 "C109" V 10100 6050 50  0000 L CNN
+F 0 "C9" V 10100 6050 50  0000 L CNN
 F 1 "10nF" V 10200 6050 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 10188 5850 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 10150 6000 50  0001 C CNN
@@ -367,10 +367,10 @@ $EndComp
 Wire Wire Line
 	9500 6000 9500 6200
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:MCP73833T U103
+L Li-ion_5A_Boost_1A_Charge_Protect:MCP73833T U3
 U 1 1 5EB6C38E
 P 7050 2100
-F 0 "U103" H 7025 2587 60  0000 C CNN
+F 0 "U3" H 7025 2587 60  0000 C CNN
 F 1 "MCP73833T" H 7025 2481 60  0000 C CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:MCP73833" H 7050 1500 60  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/Li-ion_5A_Boost_1A_Charge_ProtectDoc/22005b.pdf" H 7025 2481 60  0001 C CNN
@@ -383,10 +383,10 @@ $EndComp
 Text Label 7550 2350 0    50   ~ 0
 PROG
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:LED LED101
+L Li-ion_5A_Boost_1A_Charge_Protect:LED LED1
 U 1 1 5EBA65E2
 P 4750 2050
-F 0 "LED101" H 4600 2150 50  0000 L CNN
+F 0 "LED1" H 4600 2150 50  0000 L CNN
 F 1 "GREEN" H 4650 1950 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:LED_0805_2012Metric_HandSolder" H 4750 2050 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 4750 2050 50  0001 C CNN
@@ -397,10 +397,10 @@ F 6 "150080VS75000" H 4750 2050 50  0001 C CNN "Manfacturer Part No."
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:LED LED102
+L Li-ion_5A_Boost_1A_Charge_Protect:LED LED2
 U 1 1 5EBA8419
 P 5100 2050
-F 0 "LED102" H 4950 2150 50  0000 L CNN
+F 0 "LED2" H 4950 2150 50  0000 L CNN
 F 1 "GREEN" H 5000 1950 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:LED_0805_2012Metric_HandSolder" H 5100 2050 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 5100 2050 50  0001 C CNN
@@ -411,10 +411,10 @@ F 6 "150080VS75000" H 5100 2050 50  0001 C CNN "Manfacturer Part No."
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:LED LED103
+L Li-ion_5A_Boost_1A_Charge_Protect:LED LED3
 U 1 1 5EBA883B
 P 5450 2050
-F 0 "LED103" H 5300 2150 50  0000 L CNN
+F 0 "LED3" H 5300 2150 50  0000 L CNN
 F 1 "RED" H 5350 1950 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:LED_0805_2012Metric_HandSolder" H 5450 2050 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150080RS75000.pdf" H 5450 2050 50  0001 C CNN
@@ -425,10 +425,10 @@ F 6 "150080RS75000" H 5450 2050 50  0001 C CNN "Manfacturer Part No."
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:R R105
+L Li-ion_5A_Boost_1A_Charge_Protect:R R5
 U 1 1 5EBD0C80
 P 6100 2200
-F 0 "R105" V 6000 2100 59  0000 L CNN
+F 0 "R5" V 6000 2100 59  0000 L CNN
 F 1 "1k" V 6200 2100 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 6100 2200 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 6100 2200 50  0001 C CNN
@@ -447,10 +447,10 @@ Wire Wire Line
 Wire Wire Line
 	4750 2500 4750 2200
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:R R104
+L Li-ion_5A_Boost_1A_Charge_Protect:R R4
 U 1 1 5EBEA227
 P 5750 2350
-F 0 "R104" V 5650 2250 59  0000 L CNN
+F 0 "R4" V 5650 2250 59  0000 L CNN
 F 1 "1k" V 5850 2250 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 5750 2350 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 5750 2350 50  0001 C CNN
@@ -461,10 +461,10 @@ F 6 "RK73H2ATTD1001F" H 5750 2350 50  0001 C CNN "Manfacturer Part No."
 	0    1    1    0   
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:R R103
+L Li-ion_5A_Boost_1A_Charge_Protect:R R3
 U 1 1 5EBF1B19
 P 5400 2500
-F 0 "R103" V 5300 2400 59  0000 L CNN
+F 0 "R3" V 5300 2400 59  0000 L CNN
 F 1 "1k" V 5500 2400 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 5400 2500 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 5400 2500 50  0001 C CNN
@@ -477,10 +477,10 @@ $EndComp
 Wire Wire Line
 	5250 2500 4750 2500
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:PAM2423AECADJR U104
+L Li-ion_5A_Boost_1A_Charge_Protect:PAM2423AECADJR U4
 U 1 1 5EB488F6
 P 9500 5600
-F 0 "U104" H 9500 6025 50  0000 C CNN
+F 0 "U4" H 9500 6025 50  0000 C CNN
 F 1 "PAM2423AECADJR" H 9500 5934 50  0000 C CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:PAM2423AECADJR" H 9650 5150 50  0001 C CIN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Diodes%20PDFs/PAM2421,22,23.pdf" H 9450 5600 50  0001 C CNN
@@ -528,10 +528,10 @@ Wire Wire Line
 Wire Wire Line
 	11550 6200 11900 6200
 $Comp
-L power:GND #PWR0102
+L power:GND #PWR01
 U 1 1 5EC5422D
 P 4300 6000
-F 0 "#PWR0102" H 4300 5750 50  0001 C CNN
+F 0 "#PWR01" H 4300 5750 50  0001 C CNN
 F 1 "GND" H 4305 5827 50  0000 C CNN
 F 2 "" H 4300 6000 50  0001 C CNN
 F 3 "" H 4300 6000 50  0001 C CNN
@@ -539,10 +539,10 @@ F 3 "" H 4300 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:L L101
+L Li-ion_5A_Boost_1A_Charge_Protect:L L1
 U 1 1 40108BB9
 P 9450 5000
-F 0 "L101" V 9500 5000 59  0000 C TNN
+F 0 "L1" V 9500 5000 59  0000 C TNN
 F 1 "6.8uH" V 9350 5000 59  0000 C TNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:L_MGV1004" H 9450 5000 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Steward%20PDFs/MGV1004.pdf" H 9450 5000 50  0001 C CNN
@@ -553,10 +553,10 @@ F 6 "MGV10046R8M-10" H 9450 5000 50  0001 C CNN "Manfacturer Part No."
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:R R110
+L Li-ion_5A_Boost_1A_Charge_Protect:R R10
 U 1 1 3C372B7A
 P 10550 5300
-F 0 "R110" V 10450 5200 59  0000 L CNN
+F 0 "R10" V 10450 5200 59  0000 L CNN
 F 1 "30k" V 10650 5200 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 10550 5300 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 10550 5300 50  0001 C CNN
@@ -567,10 +567,10 @@ F 6 "RK73H2ATTD3002F" H 10550 5300 50  0001 C CNN "Manfacturer Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:TestPoint W108
+L Li-ion_5A_Boost_1A_Charge_Protect:TestPoint W8
 U 1 1 5EC79527
 P 11900 6200
-F 0 "W108" V 11800 6250 59  0000 L CNN
+F 0 "W8" V 11800 6250 59  0000 L CNN
 F 1 "2.5x5.0" V 12000 6250 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0" H 11900 6200 50  0001 C CNN
 F 3 "None" H 11900 6200 50  0001 C CNN
@@ -581,10 +581,10 @@ F 6 "None" H 11900 6200 50  0001 C CNN "Manfacturer Part No."
 	0    1    1    0   
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:TestPoint W105
+L Li-ion_5A_Boost_1A_Charge_Protect:TestPoint W5
 U 1 1 5EC79A91
 P 8650 8700
-F 0 "W105" V 8750 8900 59  0000 R CNN
+F 0 "W5" V 8750 8900 59  0000 R CNN
 F 1 "2.5x5.0" V 8550 8900 59  0000 R CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0" H 8650 8700 50  0001 C CNN
 F 3 "None" H 8650 8700 50  0001 C CNN
@@ -595,10 +595,10 @@ F 6 "None" H 8650 8700 50  0001 C CNN "Manfacturer Part No."
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:TestPoint W106
+L Li-ion_5A_Boost_1A_Charge_Protect:TestPoint W6
 U 1 1 5EC872D2
 P 8650 9050
-F 0 "W106" V 8750 9250 59  0000 R CNN
+F 0 "W6" V 8750 9250 59  0000 R CNN
 F 1 "2.5x5.0" V 8550 9250 59  0000 R CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0" H 8650 9050 50  0001 C CNN
 F 3 "None" H 8650 9050 50  0001 C CNN
@@ -611,10 +611,10 @@ $EndComp
 Wire Wire Line
 	4750 1900 5100 1900
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:TestPoint W101
+L Li-ion_5A_Boost_1A_Charge_Protect:TestPoint W1
 U 1 1 5EB59938
 P 6750 8700
-F 0 "W101" V 6850 8900 59  0000 R CNN
+F 0 "W1" V 6850 8900 59  0000 R CNN
 F 1 "2.5x5.0" V 6650 8900 59  0000 R CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0" H 6750 8700 50  0001 C CNN
 F 3 "None" H 6750 8700 50  0001 C CNN
@@ -625,10 +625,10 @@ F 6 "None" H 6750 8700 50  0001 C CNN "Manfacturer Part No."
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:TestPoint W102
+L Li-ion_5A_Boost_1A_Charge_Protect:TestPoint W2
 U 1 1 5EB5A0F1
 P 6750 9050
-F 0 "W102" V 6850 9250 59  0000 R CNN
+F 0 "W2" V 6850 9250 59  0000 R CNN
 F 1 "2.5x5.0" V 6650 9250 59  0000 R CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0" H 6750 9050 50  0001 C CNN
 F 3 "None" H 6750 9050 50  0001 C CNN
@@ -679,10 +679,10 @@ Wire Wire Line
 Wire Wire Line
 	11550 5000 11550 5150
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:LED LED104
+L Li-ion_5A_Boost_1A_Charge_Protect:LED LED4
 U 1 1 602B6D8A
 P 11550 5300
-F 0 "LED104" H 11400 5400 59  0000 L CNN
+F 0 "LED4" H 11400 5400 59  0000 L CNN
 F 1 "RED" H 11450 5150 59  0000 L BNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:LED_0805_2012Metric_HandSolder" H 11550 5300 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150080RS75000.pdf" H 11550 5300 50  0001 C CNN
@@ -695,10 +695,10 @@ $EndComp
 Wire Wire Line
 	8650 9050 9000 9050
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:R R107
+L Li-ion_5A_Boost_1A_Charge_Protect:R R7
 U 1 1 5EB9EAAB
 P 8100 2200
-F 0 "R107" V 8000 2100 59  0000 L CNN
+F 0 "R7" V 8000 2100 59  0000 L CNN
 F 1 "1.54k" V 8200 2100 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 8100 2200 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 8100 2200 50  0001 C CNN
@@ -713,10 +713,10 @@ Wire Wire Line
 Wire Wire Line
 	5100 2350 5600 2350
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:C C108
+L Li-ion_5A_Boost_1A_Charge_Protect:C C8
 U 1 1 5EB4A5BF
 P 9200 2200
-F 0 "C108" V 9150 2250 50  0000 L CNN
+F 0 "C8" V 9150 2250 50  0000 L CNN
 F 1 "22uF" V 9250 2250 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 9238 2050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 9200 2200 50  0001 C CNN
@@ -727,10 +727,10 @@ F 6 "CL21A226KQCLRNC" H 9200 2200 50  0001 C CNN "Manfacturer Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:C C102
+L Li-ion_5A_Boost_1A_Charge_Protect:C C2
 U 1 1 5EB4C1AB
 P 4350 2200
-F 0 "C102" V 4300 2250 50  0000 L CNN
+F 0 "C2" V 4300 2250 50  0000 L CNN
 F 1 "22uF" V 4400 2250 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 4388 2050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 4350 2200 50  0001 C CNN
@@ -750,10 +750,10 @@ Wire Wire Line
 	4350 1900 4350 2050
 Connection ~ 4750 1900
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:GND #PWR0106
+L Li-ion_5A_Boost_1A_Charge_Protect:GND #PWR06
 U 1 1 5EB673E3
 P 8450 2800
-F 0 "#PWR0106" H 8450 2550 50  0001 C CNN
+F 0 "#PWR06" H 8450 2550 50  0001 C CNN
 F 1 "GND" H 8455 2627 50  0000 C CNN
 F 2 "" H 8450 2800 50  0001 C CNN
 F 3 "" H 8450 2800 50  0001 C CNN
@@ -766,10 +766,10 @@ Connection ~ 8450 2750
 Wire Wire Line
 	8450 2750 8800 2750
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:GND #PWR0101
+L Li-ion_5A_Boost_1A_Charge_Protect:GND #PWR02
 U 1 1 5EB6C4AE
 P 4350 2400
-F 0 "#PWR0101" H 4350 2150 50  0001 C CNN
+F 0 "#PWR02" H 4350 2150 50  0001 C CNN
 F 1 "GND" H 4355 2227 50  0000 C CNN
 F 2 "" H 4350 2400 50  0001 C CNN
 F 3 "" H 4350 2400 50  0001 C CNN
@@ -798,10 +798,10 @@ NoConn ~ 5250 8250
 NoConn ~ 5250 8100
 NoConn ~ 5250 8000
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:GND #PWR0103
+L Li-ion_5A_Boost_1A_Charge_Protect:GND #PWR03
 U 1 1 5EC349D9
 P 5700 9100
-F 0 "#PWR0103" H 5700 8850 50  0001 C CNN
+F 0 "#PWR03" H 5700 8850 50  0001 C CNN
 F 1 "GND" H 5705 8927 50  0000 C CNN
 F 2 "" H 5700 9100 50  0001 C CNN
 F 3 "" H 5700 9100 50  0001 C CNN
@@ -813,10 +813,10 @@ Wire Wire Line
 Text Label 7250 8700 0    50   ~ 0
 VUSB
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:GND #PWR0105
+L Li-ion_5A_Boost_1A_Charge_Protect:GND #PWR05
 U 1 1 5EC42BD6
 P 7450 9100
-F 0 "#PWR0105" H 7450 8850 50  0001 C CNN
+F 0 "#PWR05" H 7450 8850 50  0001 C CNN
 F 1 "GND" H 7455 8927 50  0000 C CNN
 F 2 "" H 7450 9100 50  0001 C CNN
 F 3 "" H 7450 9100 50  0001 C CNN
@@ -830,10 +830,10 @@ Wire Wire Line
 Text Notes 6600 9550 0    79   ~ 16
 Connectors
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:AP9101CK6 U101
+L Li-ion_5A_Boost_1A_Charge_Protect:AP9101CK6 U1
 U 1 1 5EC677B4
 P 3500 5150
-F 0 "U101" H 3600 5500 50  0000 L BNN
+F 0 "U1" H 3600 5500 50  0000 L BNN
 F 1 "AP9101CK6" H 3600 5400 50  0000 L BNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:SOT-23-6" H 3500 5150 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP9101C.pdf" H 3500 5200 50  0001 C CNN
@@ -844,10 +844,10 @@ F 6 "AP9101CK6-AYTRG1" H 3500 5150 50  0001 C CNN "Manfacturer Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:R R102
+L Li-ion_5A_Boost_1A_Charge_Protect:R R2
 U 1 1 5ECB2DAF
 P 4150 5350
-F 0 "R102" V 4050 5250 59  0000 L CNN
+F 0 "R2" V 4050 5250 59  0000 L CNN
 F 1 "2.7k" V 4250 5250 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 4150 5350 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 4150 5350 50  0001 C CNN
@@ -858,10 +858,10 @@ F 6 "RK73H2ATTD2701F" H 4150 5350 50  0001 C CNN "Manfacturer Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:Thermistor_NTC TH101
+L Li-ion_5A_Boost_1A_Charge_Protect:Thermistor_NTC TH1
 U 1 1 5EBC49A8
 P 8800 2550
-F 0 "TH101" V 8650 2450 50  0000 L BNN
+F 0 "TH1" V 8650 2450 50  0000 L BNN
 F 1 "10k" V 8950 2450 50  0000 L BNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 8800 2600 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/503021/tpd_commercial_ntc-thermistor_ntcg_en.pdf" H 8800 2600 50  0001 C CNN
@@ -872,10 +872,10 @@ F 6 "NTCG203NH103JT1" H 8800 2550 50  0001 C CNN "Manfacturer Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:R R106
+L Li-ion_5A_Boost_1A_Charge_Protect:R R6
 U 1 1 5EB60D47
 P 7900 2550
-F 0 "R106" V 7800 2450 59  0000 L CNN
+F 0 "R6" V 7800 2450 59  0000 L CNN
 F 1 "1k" V 8000 2450 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 7900 2550 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 7900 2550 50  0001 C CNN
@@ -886,10 +886,10 @@ F 6 "RK73H2ATTD1001F" H 7900 2550 50  0001 C CNN "Manfacturer Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:R R108
+L Li-ion_5A_Boost_1A_Charge_Protect:R R8
 U 1 1 5EBB9C41
 P 8350 2550
-F 0 "R108" V 8250 2450 59  0000 L CNN
+F 0 "R8" V 8250 2450 59  0000 L CNN
 F 1 "69.8k" V 8450 2450 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 8350 2550 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 8350 2550 50  0001 C CNN
@@ -900,10 +900,10 @@ F 6 "RK73H2ATTD6982F" H 8350 2550 50  0001 C CNN "Manfacturer Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:ECH8695R-TL-W_Gates_on_Top U102
+L Li-ion_5A_Boost_1A_Charge_Protect:ECH8695R-TL-W_Gates_on_Top U2
 U 1 1 5ECD5ED5
 P 3500 5850
-F 0 "U102" H 3100 5550 50  0000 L CNN
+F 0 "U2" H 3100 5550 50  0000 L CNN
 F 1 "ECH8695R-TL-W" H 3100 5450 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:SOT65P280X95-8N" H 3550 5300 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/ECH8695R-D.PDF" H 3750 5950 50  0001 L CNN
@@ -935,10 +935,10 @@ Wire Wire Line
 Wire Wire Line
 	4150 5950 4300 5950
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:C C101
+L Li-ion_5A_Boost_1A_Charge_Protect:C C1
 U 1 1 5ED1BD18
 P 2600 5400
-F 0 "C101" V 2550 5450 50  0000 L CNN
+F 0 "C1" V 2550 5450 50  0000 L CNN
 F 1 "100nF" V 2650 5450 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 2638 5250 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 2600 5400 50  0001 C CNN
@@ -968,10 +968,10 @@ Wire Wire Line
 Wire Wire Line
 	4300 5950 4300 6000
 $Comp
-L power:GND #PWR0104
+L power:GND #PWR04
 U 1 1 5EE79A7F
 P 6550 6250
-F 0 "#PWR0104" H 6550 6000 50  0001 C CNN
+F 0 "#PWR04" H 6550 6000 50  0001 C CNN
 F 1 "GND" H 6555 6077 50  0000 C CNN
 F 2 "" H 6550 6250 50  0001 C CNN
 F 3 "" H 6550 6250 50  0001 C CNN
@@ -979,10 +979,10 @@ F 3 "" H 6550 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:SW_SPST SW101
+L Li-ion_5A_Boost_1A_Charge_Protect:SW_SPST SW1
 U 1 1 5EE83AA5
 P 7250 5000
-F 0 "SW101" H 7250 4850 50  0000 C CNN
+F 0 "SW1" H 7250 4850 50  0000 C CNN
 F 1 "SW_SPST" H 7250 4750 50  0000 C CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:GF1230054" H 7250 5000 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/CW%20Industries%20PDFs/GF-123-0054_Dwg.pdf" H 7250 5000 50  0001 C CNN
@@ -993,10 +993,10 @@ F 6 "GF-123-0054" H 7250 5000 50  0001 C CNN "Manfacturer Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:R R101
+L Li-ion_5A_Boost_1A_Charge_Protect:R R1
 U 1 1 5EC910DA
 P 2350 4800
-F 0 "R101" V 2250 4700 59  0000 L CNN
+F 0 "R1" V 2250 4700 59  0000 L CNN
 F 1 "330" V 2450 4700 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 2350 4800 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 2350 4800 50  0001 C CNN
@@ -1024,10 +1024,10 @@ NoConn ~ 5250 8600
 NoConn ~ 5250 8750
 NoConn ~ 5250 8850
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:TestPoint W104
+L Li-ion_5A_Boost_1A_Charge_Protect:TestPoint W4
 U 1 1 5EC17D57
 P 7450 4800
-F 0 "W104" V 7350 4850 59  0000 L CNN
+F 0 "W4" V 7350 4850 59  0000 L CNN
 F 1 "2.5x5.0" V 7500 4850 59  0000 L TNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0" H 7450 4800 50  0001 C CNN
 F 3 "None" H 7450 4800 50  0001 C CNN
@@ -1038,10 +1038,10 @@ F 6 "None" H 7450 4800 50  0001 C CNN "Manfacturer Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:TestPoint W103
+L Li-ion_5A_Boost_1A_Charge_Protect:TestPoint W3
 U 1 1 5EC3644F
 P 7050 4800
-F 0 "W103" V 6950 4850 59  0000 L CNN
+F 0 "W3" V 6950 4850 59  0000 L CNN
 F 1 "2.5x5.0" V 7100 4850 59  0000 L TNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0" H 7050 4800 50  0001 C CNN
 F 3 "None" H 7050 4800 50  0001 C CNN
@@ -1118,10 +1118,10 @@ ST2
 Text Label 6300 2500 0    50   ~ 0
 PG
 $Comp
-L power:PWR_FLAG #FLG0101
+L power:PWR_FLAG #FLG01
 U 1 1 5EBD4DB0
 P 7100 8650
-F 0 "#FLG0101" H 7100 8725 50  0001 C CNN
+F 0 "#FLG01" H 7100 8725 50  0001 C CNN
 F 1 "PWR_FLAG" H 7100 8823 50  0000 C CNN
 F 2 "" H 7100 8650 50  0001 C CNN
 F 3 "~" H 7100 8650 50  0001 C CNN
@@ -1134,10 +1134,10 @@ Connection ~ 7100 8700
 Wire Wire Line
 	7100 8700 6750 8700
 $Comp
-L power:PWR_FLAG #FLG0102
+L power:PWR_FLAG #FLG02
 U 1 1 5EBFD018
 P 7100 9100
-F 0 "#FLG0102" H 7100 9175 50  0001 C CNN
+F 0 "#FLG02" H 7100 9175 50  0001 C CNN
 F 1 "PWR_FLAG" H 7100 9273 50  0000 C CNN
 F 2 "" H 7100 9100 50  0001 C CNN
 F 3 "~" H 7100 9100 50  0001 C CNN
@@ -1150,10 +1150,10 @@ Connection ~ 7100 9050
 Wire Wire Line
 	7100 9050 7450 9050
 $Comp
-L power:PWR_FLAG #FLG0103
+L power:PWR_FLAG #FLG04
 U 1 1 5EC258B9
 P 9000 8650
-F 0 "#FLG0103" H 9000 8725 50  0001 C CNN
+F 0 "#FLG04" H 9000 8725 50  0001 C CNN
 F 1 "PWR_FLAG" H 9000 8823 50  0000 C CNN
 F 2 "" H 9000 8650 50  0001 C CNN
 F 3 "~" H 9000 8650 50  0001 C CNN
@@ -1166,10 +1166,10 @@ Connection ~ 9000 8700
 Wire Wire Line
 	9000 8700 9400 8700
 $Comp
-L power:PWR_FLAG #FLG0104
+L power:PWR_FLAG #FLG05
 U 1 1 5EC3E2A7
 P 9000 9100
-F 0 "#FLG0104" H 9000 9175 50  0001 C CNN
+F 0 "#FLG05" H 9000 9175 50  0001 C CNN
 F 1 "PWR_FLAG" H 9000 9273 50  0000 C CNN
 F 2 "" H 9000 9100 50  0001 C CNN
 F 3 "~" H 9000 9100 50  0001 C CNN
@@ -1184,12 +1184,12 @@ Wire Wire Line
 Wire Wire Line
 	4350 1900 4750 1900
 Text Label 2850 4800 0    50   ~ 0
-BATT+
+PVDD
 $Comp
-L power:PWR_FLAG #FLG0106
+L power:PWR_FLAG #FLG03
 U 1 1 5EC7BC40
 P 8200 4950
-F 0 "#FLG0106" H 8200 5025 50  0001 C CNN
+F 0 "#FLG03" H 8200 5025 50  0001 C CNN
 F 1 "PWR_FLAG" H 8200 5123 50  0000 C CNN
 F 2 "" H 8200 4950 50  0001 C CNN
 F 3 "~" H 8200 4950 50  0001 C CNN
@@ -1220,10 +1220,10 @@ Wire Wire Line
 Wire Wire Line
 	9950 5000 10050 5000
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:D_NTS12120EMFST1G D101
+L Li-ion_5A_Boost_1A_Charge_Protect:D_NTS12120EMFST1G D1
 U 1 1 E0548A51
 P 10200 5000
-F 0 "D101" H 10100 5150 59  0000 L TNN
+F 0 "D1" H 10100 5150 59  0000 L TNN
 F 1 "NTS12120EMFST1G" H 9500 4900 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:NTS12120EMFST1G" H 10200 5000 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/NTS12120EMFS-D.PDF" H 10200 5000 50  0001 C CNN
