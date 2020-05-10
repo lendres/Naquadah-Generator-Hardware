@@ -1,5 +1,5 @@
-(module GF1230054 (layer F.Cu) (tedit 5EB6D882)
-  (descr GF-123-0054)
+(module GF1230054 (layer F.Cu) (tedit 5EB84B4E)
+  (descr "Switch GF-123-0054")
   (tags Switch)
   (fp_text reference S** (at 0 -3.81) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
