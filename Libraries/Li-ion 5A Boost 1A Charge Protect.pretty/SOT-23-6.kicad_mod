@@ -1,4 +1,4 @@
-(module SOT-23-6 (layer F.Cu) (tedit 5A02FF57)
+(module SOT-23-6 (layer F.Cu) (tedit 5EB976EF)
   (descr "6-pin SOT-23 package")
   (tags SOT-23-6)
   (attr smd)

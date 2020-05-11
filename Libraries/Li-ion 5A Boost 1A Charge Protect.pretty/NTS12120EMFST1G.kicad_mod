@@ -1,4 +1,4 @@
-(module NTS12120EMFST1G (layer F.Cu) (tedit 5EB970AD)
+(module NTS12120EMFST1G (layer F.Cu) (tedit 5EB9710E)
   (descr "Diode Schottky 120V 12A Surface Mount 5-DFN (5x6) (8-SOFL)")
   (tags "Diode Schottky 120V 12A Surface Mount 5-DFN 8-SOFL")
   (attr smd)

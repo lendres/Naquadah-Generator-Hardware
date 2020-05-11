@@ -1,4 +1,4 @@
-(module GCT_USB4110-GF-A (layer F.Cu) (tedit 5EB6E85E)
+(module GCT_USB4110-GF-A (layer F.Cu) (tedit 5EB98B3C)
   (descr "USB-C Female")
   (fp_text reference REF** (at -1.425 -3.135) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.015)))
@@ -39,4 +39,9 @@
   (pad S4 smd rect (at 5.11 3.43) (size 2.18 2) (layers F.Cu F.Paste F.Mask))
   (pad None np_thru_hole circle (at -2.89 0) (size 0.65 0.65) (drill 0.65) (layers *.Cu *.Mask))
   (pad None np_thru_hole circle (at 2.89 0) (size 0.65 0.65) (drill 0.65) (layers *.Cu *.Mask))
+  (model "S:/Thanksgiving Weasel/2018-06 Naquadah Reactor/Electronics/Hardware/Naquadah-Generator-Hardware/Libraries/packages3d/USB4110-GF-A.STEP"
+    (offset (xyz 0 -6.25 1.7))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
