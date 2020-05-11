@@ -886,7 +886,7 @@
     )
   )
 
-  (module "Li-ion 5A Boost 1A Charge Protect:GF1230054" (layer Top) (tedit 5EB6D882) (tstamp 5EB9B85B)
+  (module "Li-ion 5A Boost 1A Charge Protect:GF1230054" (layer Top) (tedit 5EB6D882) (tstamp 5EBAA663)
     (at 109 70.155 270)
     (descr GF-123-0054)
     (tags Switch)
@@ -913,9 +913,9 @@
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     )
     (pad 2 thru_hole circle (at 0 -1.09 270) (size 2.75 2.75) (drill 1.75) (layers *.Cu *.Mask)
-      (net 9 /BOOSTVIN))
-    (pad 1 thru_hole circle (at -4.6 -1.09 270) (size 2.75 2.75) (drill 1.75) (layers *.Cu *.Mask)
       (net 2 /BATT+))
+    (pad 1 thru_hole circle (at -4.6 -1.09 270) (size 2.75 2.75) (drill 1.75) (layers *.Cu *.Mask)
+      (net 9 /BOOSTVIN))
     (model GF-123-0054.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
