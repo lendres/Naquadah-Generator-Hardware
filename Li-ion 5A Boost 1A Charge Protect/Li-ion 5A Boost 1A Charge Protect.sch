@@ -202,15 +202,15 @@ $EndComp
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:R R12
 U 1 1 44057106
-P 11550 5900
-F 0 "R12" V 11450 5800 59  0000 L CNN
-F 1 "1k" V 11650 5800 59  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 11550 5900 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 11550 5900 50  0001 C CNN
-F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 11550 5900 50  0001 C CNN "Description"
-F 5 "2019-RK73H2ATTD1001FCT-ND" H 11550 5900 50  0001 C CNN "Digikey Part No."
-F 6 "RK73H2ATTD1001F" H 11550 5900 50  0001 C CNN "Manfacturer Part No."
-	1    11550 5900
+P 11550 5300
+F 0 "R12" V 11450 5200 59  0000 L CNN
+F 1 "1k" V 11650 5200 59  0000 L CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 11550 5300 50  0001 C CNN
+F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 11550 5300 50  0001 C CNN
+F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 11550 5300 50  0001 C CNN "Description"
+F 5 "2019-RK73H2ATTD1001FCT-ND" H 11550 5300 50  0001 C CNN "Digikey Part No."
+F 6 "RK73H2ATTD1001F" H 11550 5300 50  0001 C CNN "Manfacturer Part No."
+	1    11550 5300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -494,7 +494,6 @@ Connection ~ 9950 5000
 Connection ~ 9950 6200
 Wire Wire Line
 	9950 6200 10150 6200
-Connection ~ 10550 5000
 Connection ~ 10550 6200
 Connection ~ 10900 5000
 Connection ~ 10900 6200
@@ -681,15 +680,15 @@ Wire Wire Line
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:LED LED4
 U 1 1 602B6D8A
-P 11550 5300
-F 0 "LED4" H 11400 5400 59  0000 L CNN
-F 1 "RED" H 11450 5150 59  0000 L BNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:LED_0805_2012Metric_HandSolder" H 11550 5300 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/150080RS75000.pdf" H 11550 5300 50  0001 C CNN
-F 4 "Red 625nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 11550 5300 50  0001 C CNN "Description"
-F 5 "732-4984-1-ND" H 11550 5300 50  0001 C CNN "Digikey Part No."
-F 6 "150080RS75000" H 11550 5300 50  0001 C CNN "Manfacturer Part No."
-	1    11550 5300
+P 11550 5900
+F 0 "LED4" H 11400 6000 59  0000 L CNN
+F 1 "RED" H 11450 5750 59  0000 L BNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:LED_0805_2012Metric_HandSolder" H 11550 5900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/150080RS75000.pdf" H 11550 5900 50  0001 C CNN
+F 4 "Red 625nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 11550 5900 50  0001 C CNN "Description"
+F 5 "732-4984-1-ND" H 11550 5900 50  0001 C CNN "Digikey Part No."
+F 6 "150080RS75000" H 11550 5900 50  0001 C CNN "Manfacturer Part No."
+	1    11550 5900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -1216,8 +1215,6 @@ Connection ~ 7550 1900
 Wire Wire Line
 	7550 1900 9200 1900
 Wire Wire Line
-	10350 5000 10550 5000
-Wire Wire Line
 	9950 5000 10050 5000
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:D_NTS12120EMFST1G D1
@@ -1248,4 +1245,31 @@ Connection ~ 2850 5950
 Wire Wire Line
 	4050 5950 4150 5950
 Connection ~ 4150 5950
+Wire Wire Line
+	10050 4950 10050 5000
+Connection ~ 10050 5000
+Wire Wire Line
+	10050 5000 10050 5050
+Connection ~ 10550 5000
+Wire Wire Line
+	10350 5050 10400 5050
+Wire Wire Line
+	10350 4950 10400 4950
+Wire Wire Line
+	10350 4900 10400 4900
+Wire Wire Line
+	10400 4950 10400 5000
+Wire Wire Line
+	10350 5100 10400 5100
+Wire Wire Line
+	10400 5050 10400 5000
+Connection ~ 10400 5000
+Wire Wire Line
+	10400 5000 10550 5000
+Wire Wire Line
+	10400 5050 10400 5100
+Connection ~ 10400 5050
+Wire Wire Line
+	10400 4950 10400 4900
+Connection ~ 10400 4950
 $EndSCHEMATC
