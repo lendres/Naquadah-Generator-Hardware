@@ -1,4 +1,4 @@
-(module L_MGV1004 (layer F.Cu) (tedit 5EB6E97A)
+(module L_MGV1004 (layer F.Cu) (tedit 5EB9935F)
   (descr "Laird-Signal Integrity Products MGV1004 series inductors")
   (tags inductor)
   (attr smd)
@@ -30,6 +30,11 @@
   (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_2816_7142Metric.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "S:/Thanksgiving Weasel/2018-06 Naquadah Reactor/Electronics/Hardware/Naquadah-Generator-Hardware/Libraries/packages3d/SRP1245A-180M_BRN.step"
+    (at (xyz 0 0 0))
+    (scale (xyz 0.82 0.8100000000000001 0.83))
     (rotate (xyz 0 0 0))
   )
 )

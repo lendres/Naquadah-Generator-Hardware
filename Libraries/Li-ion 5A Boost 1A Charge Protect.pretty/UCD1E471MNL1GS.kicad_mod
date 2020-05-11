@@ -1,4 +1,4 @@
-(module UCD1E471MNL1GS (layer F.Cu) (tedit 5EB84B7E)
+(module UCD1E471MNL1GS (layer F.Cu) (tedit 5EB98F99)
   (descr "Polarized Capacitor")
   (fp_text reference REF** (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -34,4 +34,9 @@
   (fp_line (start -2.667 -5.3721) (end -5.3721 -2.667) (layer F.SilkS) (width 0.12))
   (pad 1 smd rect (at -4.4 0) (size 4.9 1.9) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 4.4 0) (size 4.9 1.9) (layers F.Cu F.Paste F.Mask))
+  (model "S:/Thanksgiving Weasel/2018-06 Naquadah Reactor/Electronics/Hardware/Naquadah-Generator-Hardware/Libraries/packages3d/PCAP_10x10-ELECT_NCA.step"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

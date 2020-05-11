@@ -373,7 +373,7 @@ P 7050 2100
 F 0 "U3" H 7025 2587 60  0000 C CNN
 F 1 "MCP73833T" H 7025 2481 60  0000 C CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:MCP73833" H 7050 1500 60  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/Li-ion_5A_Boost_1A_Charge_ProtectDoc/22005b.pdf" H 7025 2481 60  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22005b.pdf" H 7025 2481 60  0000 C CNN
 F 4 "Charger IC" H 7050 2100 50  0001 C CNN "Description"
 F 5 "	MCP73833T-AMI/UNCT-ND" H 7050 2100 50  0001 C CNN "Digikey Part No."
 F 6 "MCP73833T-AMI/UN" H 7050 2100 50  0001 C CNN "Manfacturer Part No."
@@ -981,15 +981,15 @@ $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:SW_SPST SW1
 U 1 1 5EE83AA5
 P 7250 5000
-F 0 "SW1" H 7250 4850 50  0000 C CNN
-F 1 "SW_SPST" H 7250 4750 50  0000 C CNN
+F 0 "SW1" H 7250 5150 50  0000 C CNN
+F 1 "SW_SPST" H 7250 5250 50  0000 C CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:GF1230054" H 7250 5000 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/CW%20Industries%20PDFs/GF-123-0054_Dwg.pdf" H 7250 5000 50  0001 C CNN
 F 4 "Slide Switch SPST Through Hole 8.5A 125V" H 7250 5000 50  0001 C CNN "Description"
 F 5 "CWI333-ND" H 7250 5000 50  0001 C CNN "Digikey Part No."
 F 6 "GF-123-0054" H 7250 5000 50  0001 C CNN "Manfacturer Part No."
 	1    7250 5000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:R R1
@@ -1272,4 +1272,6 @@ Connection ~ 10400 5050
 Wire Wire Line
 	10400 4950 10400 4900
 Connection ~ 10400 4950
+Text Label 4000 5150 0    50   ~ 0
+PVM
 $EndSCHEMATC

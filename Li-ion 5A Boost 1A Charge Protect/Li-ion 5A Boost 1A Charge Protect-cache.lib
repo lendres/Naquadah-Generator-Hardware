@@ -64,7 +64,7 @@ ENDDEF
 #
 DEF Li-ion_5A_Boost_1A_Charge_Protect_D_NTS12120EMFST1G D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Li-ion_5A_Boost_1A_Charge_Protect_D_NTS12120EMFST1G" 0 -300 50 H V C CNN
+F1 "Li-ion_5A_Boost_1A_Charge_Protect_D_NTS12120EMFST1G" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
