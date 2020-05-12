@@ -1250,28 +1250,30 @@ Wire Wire Line
 Connection ~ 10050 5000
 Wire Wire Line
 	10050 5000 10050 5050
-Connection ~ 10550 5000
 Wire Wire Line
 	10350 5050 10400 5050
-Wire Wire Line
-	10350 4950 10400 4950
-Wire Wire Line
-	10350 4900 10400 4900
-Wire Wire Line
-	10400 4950 10400 5000
 Wire Wire Line
 	10350 5100 10400 5100
 Wire Wire Line
 	10400 5050 10400 5000
-Connection ~ 10400 5000
-Wire Wire Line
-	10400 5000 10550 5000
 Wire Wire Line
 	10400 5050 10400 5100
 Connection ~ 10400 5050
-Wire Wire Line
-	10400 4950 10400 4900
-Connection ~ 10400 4950
 Text Label 4000 5150 0    50   ~ 0
 PVM
+Wire Wire Line
+	10400 5000 10350 5000
+Connection ~ 10400 5000
+Connection ~ 10550 5000
+Wire Wire Line
+	10400 5000 10550 5000
+Connection ~ 10400 4950
+Wire Wire Line
+	10400 4950 10400 5000
+Wire Wire Line
+	10350 4950 10400 4950
+Wire Wire Line
+	10400 4950 10400 4900
+Wire Wire Line
+	10350 4900 10400 4900
 $EndSCHEMATC
