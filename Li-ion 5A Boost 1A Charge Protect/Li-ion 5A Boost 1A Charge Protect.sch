@@ -373,7 +373,7 @@ P 7050 2100
 F 0 "U3" H 7025 2587 60  0000 C CNN
 F 1 "MCP73833T" H 7025 2481 60  0000 C CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:MCP73833" H 7050 1500 60  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22005b.pdf" H 7025 2481 60  0000 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22005b.pdf" H 7025 2481 60  0001 C CNN
 F 4 "Charger IC" H 7050 2100 50  0001 C CNN "Description"
 F 5 "	MCP73833T-AMI/UNCT-ND" H 7050 2100 50  0001 C CNN "Digikey Part No."
 F 6 "MCP73833T-AMI/UN" H 7050 2100 50  0001 C CNN "Manfacturer Part No."
@@ -383,10 +383,10 @@ $EndComp
 Text Label 7550 2350 0    50   ~ 0
 PROG
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:LED LED1
+L Li-ion_5A_Boost_1A_Charge_Protect:LED LD1
 U 1 1 5EBA65E2
 P 4750 2050
-F 0 "LED1" H 4600 2150 50  0000 L CNN
+F 0 "LD1" H 4650 2150 50  0000 L CNN
 F 1 "GREEN" H 4650 1950 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:LED_0805_2012Metric_HandSolder" H 4750 2050 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 4750 2050 50  0001 C CNN
@@ -397,10 +397,10 @@ F 6 "150080VS75000" H 4750 2050 50  0001 C CNN "Manfacturer Part No."
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:LED LED2
+L Li-ion_5A_Boost_1A_Charge_Protect:LED LD2
 U 1 1 5EBA8419
 P 5100 2050
-F 0 "LED2" H 4950 2150 50  0000 L CNN
+F 0 "LD2" H 5000 2150 50  0000 L CNN
 F 1 "GREEN" H 5000 1950 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:LED_0805_2012Metric_HandSolder" H 5100 2050 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 5100 2050 50  0001 C CNN
@@ -411,10 +411,10 @@ F 6 "150080VS75000" H 5100 2050 50  0001 C CNN "Manfacturer Part No."
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:LED LED3
+L Li-ion_5A_Boost_1A_Charge_Protect:LED LD3
 U 1 1 5EBA883B
 P 5450 2050
-F 0 "LED3" H 5300 2150 50  0000 L CNN
+F 0 "LD3" H 5350 2150 50  0000 L CNN
 F 1 "RED" H 5350 1950 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:LED_0805_2012Metric_HandSolder" H 5450 2050 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150080RS75000.pdf" H 5450 2050 50  0001 C CNN
@@ -678,10 +678,10 @@ Wire Wire Line
 Wire Wire Line
 	11550 5000 11550 5150
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:LED LED4
+L Li-ion_5A_Boost_1A_Charge_Protect:LED LD4
 U 1 1 602B6D8A
 P 11550 5900
-F 0 "LED4" H 11400 6000 59  0000 L CNN
+F 0 "LD4" H 11450 6000 59  0000 L CNN
 F 1 "RED" H 11450 5750 59  0000 L BNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:LED_0805_2012Metric_HandSolder" H 11550 5900 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150080RS75000.pdf" H 11550 5900 50  0001 C CNN
