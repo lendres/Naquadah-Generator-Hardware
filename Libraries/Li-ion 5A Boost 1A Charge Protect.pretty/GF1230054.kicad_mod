@@ -1,4 +1,4 @@
-(module GF1230054 (layer F.Cu) (tedit 5EB84B4E)
+(module GF1230054 (layer F.Cu) (tedit 5EBB11B0)
   (descr "Switch GF-123-0054")
   (tags Switch)
   (fp_text reference S** (at 0 -3.81) (layer F.SilkS)
@@ -24,7 +24,7 @@
   (fp_line (start -9.23 6.08) (end -9.23 -6.08) (layer F.CrtYd) (width 0.1))
   (pad 1 thru_hole circle (at -4.6 -1.09) (size 2.75 2.75) (drill 1.75) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 -1.09) (size 2.75 2.75) (drill 1.75) (layers *.Cu *.Mask))
-  (model GF-123-0054.stp
+  (model "S:/Thanksgiving Weasel/2018-06 Naquadah Reactor/Electronics/Hardware/Naquadah-Generator-Hardware/Libraries/packages3d/GF-123-0054.step"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

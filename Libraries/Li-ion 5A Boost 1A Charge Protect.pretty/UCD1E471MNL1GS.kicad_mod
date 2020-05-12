@@ -1,5 +1,6 @@
-(module UCD1E471MNL1GS (layer F.Cu) (tedit 5EB98F99)
+(module UCD1E471MNL1GS (layer F.Cu) (tedit 5EBB28F0)
   (descr "Polarized Capacitor")
+  (attr smd)
   (fp_text reference REF** (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
