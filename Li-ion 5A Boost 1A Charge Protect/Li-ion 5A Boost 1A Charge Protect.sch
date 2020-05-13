@@ -8,7 +8,7 @@ Title "Li-ion 5A Boost 1A Charge Protect"
 Date ""
 Rev "1.0.0"
 Comp ""
-Comment1 ""
+Comment1 "Designed by Lance A. Endres"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -315,7 +315,7 @@ U 1 1 BDB91568
 P 9950 3500
 F 0 "W7" V 9850 3550 59  0000 L CNN
 F 1 "2.5x5.0" V 10050 3550 59  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0" H 9950 3500 50  0001 C CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0_w_TH" H 9950 3500 50  0001 C CNN
 F 3 "None" H 9950 3500 50  0001 C CNN
 F 4 "Wire solder point" H 9950 3500 50  0001 C CNN "Description"
 F 5 "None" H 9950 3500 50  0001 C CNN "Digikey Part No."
@@ -569,7 +569,7 @@ U 1 1 5EC79527
 P 9950 4700
 F 0 "W8" V 9850 4750 59  0000 L CNN
 F 1 "2.5x5.0" V 10050 4750 59  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0" H 9950 4700 50  0001 C CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0_w_TH" H 9950 4700 50  0001 C CNN
 F 3 "None" H 9950 4700 50  0001 C CNN
 F 4 "Wire solder point" H 9950 4700 50  0001 C CNN "Description"
 F 5 "None" H 9950 4700 50  0001 C CNN "Digikey Part No."
@@ -583,7 +583,7 @@ U 1 1 5EC79A91
 P 5100 6750
 F 0 "W5" V 5200 6950 59  0000 R CNN
 F 1 "2.5x5.0" V 5000 6950 59  0000 R CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0" H 5100 6750 50  0001 C CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0_w_TH" H 5100 6750 50  0001 C CNN
 F 3 "None" H 5100 6750 50  0001 C CNN
 F 4 "Wire solder point" H 5100 6750 50  0001 C CNN "Description"
 F 5 "None" H 5100 6750 50  0001 C CNN "Digikey Part No."
@@ -597,7 +597,7 @@ U 1 1 5EC872D2
 P 5100 7100
 F 0 "W6" V 5200 7300 59  0000 R CNN
 F 1 "2.5x5.0" V 5000 7300 59  0000 R CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0" H 5100 7100 50  0001 C CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0_w_TH" H 5100 7100 50  0001 C CNN
 F 3 "None" H 5100 7100 50  0001 C CNN
 F 4 "Wire solder point" H 5100 7100 50  0001 C CNN "Description"
 F 5 "None" H 5100 7100 50  0001 C CNN "Digikey Part No."
@@ -613,7 +613,7 @@ U 1 1 5EB59938
 P 3200 6750
 F 0 "W1" V 3300 6950 59  0000 R CNN
 F 1 "2.5x5.0" V 3100 6950 59  0000 R CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0" H 3200 6750 50  0001 C CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0_w_TH" H 3200 6750 50  0001 C CNN
 F 3 "None" H 3200 6750 50  0001 C CNN
 F 4 "Wire solder point" H 3200 6750 50  0001 C CNN "Description"
 F 5 "None" H 3200 6750 50  0001 C CNN "Digikey Part No."
@@ -627,7 +627,7 @@ U 1 1 5EB5A0F1
 P 3200 7100
 F 0 "W2" V 3300 7300 59  0000 R CNN
 F 1 "2.5x5.0" V 3100 7300 59  0000 R CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0" H 3200 7100 50  0001 C CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0_w_TH" H 3200 7100 50  0001 C CNN
 F 3 "None" H 3200 7100 50  0001 C CNN
 F 4 "Wire solder point" H 3200 7100 50  0001 C CNN "Description"
 F 5 "None" H 3200 7100 50  0001 C CNN "Digikey Part No."
@@ -1026,7 +1026,7 @@ U 1 1 5EC17D57
 P 5500 3300
 F 0 "W4" V 5400 3350 59  0000 L CNN
 F 1 "2.5x5.0" V 5550 3350 59  0000 L TNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0" H 5500 3300 50  0001 C CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0_w_TH" H 5500 3300 50  0001 C CNN
 F 3 "None" H 5500 3300 50  0001 C CNN
 F 4 "Wire solder point" H 5500 3300 50  0001 C CNN "Description"
 F 5 "None" H 5500 3300 50  0001 C CNN "Digikey Part No."
@@ -1040,7 +1040,7 @@ U 1 1 5EC3644F
 P 5100 3300
 F 0 "W3" V 5000 3350 59  0000 L CNN
 F 1 "2.5x5.0" V 5150 3350 59  0000 L TNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0" H 5100 3300 50  0001 C CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0_w_TH" H 5100 3300 50  0001 C CNN
 F 3 "None" H 5100 3300 50  0001 C CNN
 F 4 "Wire solder point" H 5100 3300 50  0001 C CNN "Description"
 F 5 "None" H 5100 3300 50  0001 C CNN "Digikey Part No."
