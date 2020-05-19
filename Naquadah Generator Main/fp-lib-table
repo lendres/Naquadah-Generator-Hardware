@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name Naquadah_Generator)(type KiCad)(uri "S:/Thanksgiving Weasel/2018-06 Naquadah Reactor/Electronics/Hardware/Naquadah-Generator-Hardware/Libraries/Naquadah_Generator.pretty")(options "")(descr ""))
+  (lib (name Naquadah_Generator)(type KiCad)(uri "S:/Thanksgiving Weasel/2018-06 Naquadah Reactor/Electronics/Hardware/Naquadah-Generator-Hardware/Libraries/Naquadah Generator.pretty")(options "")(descr ""))
 )

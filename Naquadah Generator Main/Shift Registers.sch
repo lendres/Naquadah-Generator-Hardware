@@ -1,0 +1,351 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 11
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR?
+U 1 1 5ED2A2E7
+P 3650 4600
+F 0 "#PWR?" H 3650 4350 50  0001 C CNN
+F 1 "GND" H 3655 4427 50  0000 C CNN
+F 2 "" H 3650 4600 50  0001 C CNN
+F 3 "" H 3650 4600 50  0001 C CNN
+	1    3650 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5ED2A2ED
+P 6850 4600
+F 0 "#PWR?" H 6850 4350 50  0001 C CNN
+F 1 "GND" H 6855 4427 50  0000 C CNN
+F 2 "" H 6850 4600 50  0001 C CNN
+F 3 "" H 6850 4600 50  0001 C CNN
+	1    6850 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 3500 3100 3500
+Wire Wire Line
+	3250 3700 3100 3700
+Wire Wire Line
+	3250 4000 3100 4000
+Wire Wire Line
+	4050 4400 4650 4400
+Wire Wire Line
+	6450 4000 6300 4000
+Wire Wire Line
+	6300 3700 6450 3700
+NoConn ~ 7250 4400
+$Comp
+L power:GND #PWR?
+U 1 1 5ED2A2FE
+P 2400 4200
+F 0 "#PWR?" H 2400 3950 50  0001 C CNN
+F 1 "GND" V 2405 4072 50  0000 R CNN
+F 2 "" H 2400 4200 50  0001 C CNN
+F 3 "" H 2400 4200 50  0001 C CNN
+	1    2400 4200
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 10000 4150 500  200 
+U 5ED2A301
+F0 "sheet5ED2A2CE" 50
+F1 "BlueLights.sch" 50
+F2 "SIGNAL" I L 10000 4250 50 
+$EndSheet
+$Sheet
+S 10000 4600 500  200 
+U 5ED2A304
+F0 "sheet5ED2A2CF" 50
+F1 "BlueLights.sch" 50
+F2 "SIGNAL" I L 10000 4700 50 
+$EndSheet
+$Sheet
+S 10000 5050 500  200 
+U 5ED2A307
+F0 "sheet5ED2A2D0" 50
+F1 "BlueLights.sch" 50
+F2 "SIGNAL" I L 10000 5150 50 
+$EndSheet
+$Sheet
+S 10000 5500 500  200 
+U 5ED2A30A
+F0 "sheet5ED2A2D1" 50
+F1 "BlueLights.sch" 50
+F2 "SIGNAL" I L 10000 5600 50 
+$EndSheet
+$Sheet
+S 10000 3700 500  200 
+U 5ED2A30D
+F0 "sheet5ED2A2D2" 50
+F1 "BlueLights.sch" 50
+F2 "SIGNAL" I L 10000 3800 50 
+$EndSheet
+NoConn ~ 7250 4200
+NoConn ~ 7250 4100
+NoConn ~ 7250 4000
+NoConn ~ 7250 3900
+NoConn ~ 7250 3800
+NoConn ~ 7250 3500
+NoConn ~ 7250 3700
+Text Label 9650 5600 0    50   ~ 0
+BLUELT5
+Text Label 9650 5150 0    50   ~ 0
+BLUELT4
+Text Label 9650 4700 0    50   ~ 0
+BLUELT3
+Text Label 9650 4250 0    50   ~ 0
+BLUELT2
+Text Label 9650 3800 0    50   ~ 0
+BLUELT1
+$Sheet
+S 10000 2800 500  200 
+U 5ED2A32C
+F0 "sheet5ED2A2D3" 50
+F1 "WhiteLights.sch" 50
+F2 "SIGNAL" I L 10000 2900 50 
+$EndSheet
+$Sheet
+S 10000 3250 500  200 
+U 5ED2A32F
+F0 "sheet5ED2A2D4" 50
+F1 "GreenRedLights.sch" 50
+F2 "SIGNAL" I L 10000 3350 50 
+$EndSheet
+Text Label 9650 2450 0    50   ~ 0
+GRNLT
+Text Label 9650 3350 0    50   ~ 0
+RDLT
+Text Label 9650 2900 0    50   ~ 0
+WHTLT
+Wire Wire Line
+	4050 3700 4650 3700
+Wire Wire Line
+	4050 3600 4650 3600
+Wire Wire Line
+	4050 3800 4650 3800
+Wire Wire Line
+	4050 3900 4650 3900
+Wire Wire Line
+	4050 4000 4650 4000
+Wire Wire Line
+	4050 4100 4650 4100
+Wire Wire Line
+	4050 3500 4650 3500
+Wire Wire Line
+	4050 4200 4650 4200
+Wire Wire Line
+	3250 4100 2400 4100
+Wire Wire Line
+	2400 4100 2400 4200
+$Comp
+L power:+5V #PWR?
+U 1 1 5ED2A354
+P 3650 3250
+F 0 "#PWR?" H 3650 3100 50  0001 C CNN
+F 1 "+5V" H 3665 3423 50  0000 C CNN
+F 2 "" H 3650 3250 50  0001 C CNN
+F 3 "" H 3650 3250 50  0001 C CNN
+	1    3650 3250
+	1    0    0    -1  
+$EndComp
+Text Label 4100 4400 0    50   ~ 0
+SR1OUT2IN
+Wire Wire Line
+	5950 3500 6450 3500
+Text Label 4100 4200 0    50   ~ 0
+BLUELT5
+Text Label 4100 4100 0    50   ~ 0
+BLUELT4
+Text Label 4100 4000 0    50   ~ 0
+BLUELT3
+Text Label 4100 3900 0    50   ~ 0
+BLUELT2
+Text Label 4100 3800 0    50   ~ 0
+BLUELT1
+Text Label 4100 3500 0    50   ~ 0
+GRNLT
+Text Label 4100 3600 0    50   ~ 0
+RDLT
+Text Label 4100 3700 0    50   ~ 0
+WHTLT
+$Sheet
+S 10000 2350 500  200 
+U 5ED2A36D
+F0 "sheet5ED2A2D5" 50
+F1 "GreenRedLights.sch" 50
+F2 "SIGNAL" I L 10000 2450 50 
+$EndSheet
+Wire Wire Line
+	10000 2450 9650 2450
+Wire Wire Line
+	10000 2900 9650 2900
+Wire Wire Line
+	10000 3350 9650 3350
+Wire Wire Line
+	10000 3800 9650 3800
+Wire Wire Line
+	10000 4250 9650 4250
+Wire Wire Line
+	10000 5600 9650 5600
+Wire Wire Line
+	10000 5150 9650 5150
+Wire Wire Line
+	10000 4700 9650 4700
+$Comp
+L power:GND #PWR?
+U 1 1 5ED2A37B
+P 8350 3600
+AR Path="/5ED2A37B" Ref="#PWR?"  Part="1" 
+AR Path="/5ED17BA0/5ED2A37B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8350 3350 50  0001 C CNN
+F 1 "GND" V 8355 3472 50  0000 R CNN
+F 2 "" H 8350 3600 50  0001 C CNN
+F 3 "" H 8350 3600 50  0001 C CNN
+	1    8350 3600
+	1    0    0    -1  
+$EndComp
+Text Label 7400 3600 0    50   ~ 0
+IND
+Wire Wire Line
+	8250 3600 8350 3600
+Wire Wire Line
+	7900 3600 7950 3600
+$Comp
+L Device:LED D?
+U 1 1 5ED2A319
+P 8100 3600
+AR Path="/5ED2A319" Ref="D?"  Part="1" 
+AR Path="/5ED17BA0/5ED2A319" Ref="D?"  Part="1" 
+F 0 "D?" H 8093 3345 50  0000 C CNN
+F 1 "LED" H 8093 3436 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 8100 3600 50  0001 C CNN
+F 3 "~" H 8100 3600 50  0001 C CNN
+	1    8100 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5ED2A313
+P 7750 3600
+F 0 "R?" V 7543 3600 50  0000 C CNN
+F 1 "330" V 7634 3600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7680 3600 50  0001 C CNN
+F 3 "~" H 7750 3600 50  0001 C CNN
+	1    7750 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 3600 7600 3600
+$Comp
+L 74xx:74HC595 U201
+U 1 1 5ED2A2DB
+P 3650 3900
+F 0 "U201" H 3850 4550 50  0000 L CNN
+F 1 "74HC595" H 3850 4450 50  0000 L CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 3650 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 3650 3900 50  0001 C CNN
+	1    3650 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC595 U202
+U 1 1 5ED2A2E1
+P 6850 3900
+F 0 "U202" H 7050 4550 50  0000 L CNN
+F 1 "74HC595" H 7050 4450 50  0000 L CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 6850 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 6850 3900 50  0001 C CNN
+	1    6850 3900
+	1    0    0    -1  
+$EndComp
+Text HLabel 3100 4000 0    50   Input ~ 0
+SRLATCH
+Text HLabel 3100 3500 0    50   Input ~ 0
+SRDATA
+Text HLabel 3100 3700 0    50   Input ~ 0
+SRCLK
+Wire Wire Line
+	3650 3250 3650 3300
+$Comp
+L power:+5V #PWR?
+U 1 1 5ED69E0B
+P 2400 3700
+F 0 "#PWR?" H 2400 3550 50  0001 C CNN
+F 1 "+5V" H 2415 3873 50  0000 C CNN
+F 2 "" H 2400 3700 50  0001 C CNN
+F 3 "" H 2400 3700 50  0001 C CNN
+	1    2400 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3700 2400 3800
+Wire Wire Line
+	2400 3800 3250 3800
+Text Label 5950 3500 0    50   ~ 0
+SR1OUT2IN
+Text HLabel 6300 3700 0    50   Input ~ 0
+SRCLK
+Text HLabel 6300 4000 0    50   Input ~ 0
+SRLATCH
+$Comp
+L power:GND #PWR?
+U 1 1 5ED706AF
+P 5600 4200
+F 0 "#PWR?" H 5600 3950 50  0001 C CNN
+F 1 "GND" V 5605 4072 50  0000 R CNN
+F 2 "" H 5600 4200 50  0001 C CNN
+F 3 "" H 5600 4200 50  0001 C CNN
+	1    5600 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 4100 5600 4100
+Wire Wire Line
+	5600 4100 5600 4200
+$Comp
+L power:+5V #PWR?
+U 1 1 5ED7340D
+P 5600 3700
+F 0 "#PWR?" H 5600 3550 50  0001 C CNN
+F 1 "+5V" H 5615 3873 50  0000 C CNN
+F 2 "" H 5600 3700 50  0001 C CNN
+F 3 "" H 5600 3700 50  0001 C CNN
+	1    5600 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3700 5600 3800
+Wire Wire Line
+	5600 3800 6450 3800
+$Comp
+L power:+5V #PWR?
+U 1 1 5ED747C1
+P 6850 3250
+F 0 "#PWR?" H 6850 3100 50  0001 C CNN
+F 1 "+5V" H 6865 3423 50  0000 C CNN
+F 2 "" H 6850 3250 50  0001 C CNN
+F 3 "" H 6850 3250 50  0001 C CNN
+	1    6850 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 3250 6850 3300
+Text Notes 6450 5100 0    79   ~ 16
+Shift Register 2
+Text Notes 3200 5100 0    79   ~ 16
+Shift Register 1
+$EndSCHEMATC

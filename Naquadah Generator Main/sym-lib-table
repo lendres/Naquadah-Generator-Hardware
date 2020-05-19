@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name Naquadah_Generator)(type Legacy)(uri "S:/Thanksgiving Weasel/2018-06 Naquadah Reactor/Electronics/Hardware/Naquadah-Generator-Hardware/Libraries/Naquadah_Generator.lib")(options "")(descr ""))
+  (lib (name Naquadah_Generator)(type Legacy)(uri "S:/Thanksgiving Weasel/2018-06 Naquadah Reactor/Electronics/Hardware/Naquadah-Generator-Hardware/Libraries/Naquadah Generator.lib")(options "")(descr ""))
+  (lib (name Frequently_Used)(type Legacy)(uri "S:/Thanksgiving Weasel/2018-06 Naquadah Reactor/Electronics/Hardware/Naquadah-Generator-Hardware/Libraries/Frequently Used.lib")(options "")(descr ""))
 )

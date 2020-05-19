@@ -148,6 +148,7 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_d
 F 4 "10µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)" H 6050 4150 50  0001 C CNN "Description"
 F 5 "1276-2405-1-ND" H 6050 4150 50  0001 C CNN "Digikey Part No."
 F 6 "CL21A106KQCLRNC" H 6050 4150 50  0001 C CNN "Manfacturer Part No."
+F 7 "	Samsung Electro-Mechanics" H 6050 4150 50  0001 C CNN "Manufacturer Name"
 	1    6050 4150
 	1    0    0    -1  
 $EndComp
@@ -180,6 +181,7 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_d
 F 4 "10µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)" H 8950 4150 50  0001 C CNN "Description"
 F 5 "1276-2405-1-ND" H 8950 4150 50  0001 C CNN "Digikey Part No."
 F 6 "CL21A106KQCLRNC" H 8950 4150 50  0001 C CNN "Manfacturer Part No."
+F 7 "	Samsung Electro-Mechanics" H 8950 4150 50  0001 C CNN "Manufacturer Name"
 	1    8950 4150
 	1    0    0    -1  
 $EndComp
@@ -225,8 +227,8 @@ $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:R R9
 U 1 1 5ECFE4F0
 P 6650 4200
-F 0 "R9" V 6750 4100 59  0000 L CNN
-F 1 "51k" V 6550 4100 59  0000 L CNN
+F 0 "R9" V 6550 4100 59  0000 L CNN
+F 1 "51k" V 6750 4100 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 6650 4200 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 6650 4200 50  0001 C CNN
 F 4 "51 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 6650 4200 50  0001 C CNN "Description"
@@ -246,6 +248,7 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_d
 F 4 "2200pF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)" H 6450 4400 50  0001 C CNN "Description"
 F 5 "1276-1171-1-ND" H 6450 4400 50  0001 C CNN "Digikey Part No."
 F 6 "CL21B222KBANNNC" H 6450 4400 50  0001 C CNN "Manfacturer Part No."
+F 7 "	Samsung Electro-Mechanics" H 6450 4400 50  0001 C CNN "Manufacturer Name"
 	1    6450 4400
 	1    0    0    -1  
 $EndComp
@@ -260,6 +263,7 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_d
 F 4 "47pF ±5% 50V Ceramic Capacitor C0G, NP0 0805 (2012 Metric)" H 6900 4400 50  0001 C CNN "Description"
 F 5 "1276-1156-1-ND" H 6900 4400 50  0001 C CNN "Digikey Part No."
 F 6 "CL21C470JBANNNC" H 6900 4400 50  0001 C CNN "Manfacturer Part No."
+F 7 "Samsung Electro-Mechanics" H 6900 4400 50  0001 C CNN "Manufacturer Name"
 	1    6900 4400
 	1    0    0    -1  
 $EndComp
@@ -298,6 +302,7 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_d
 F 4 "1µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" H 6800 3800 50  0001 C CNN "Description"
 F 5 "1276-2931-1-ND" H 6800 3800 50  0001 C CNN "Digikey Part No."
 F 6 "CL21B105KOFNNWE" H 6800 3800 50  0001 C CNN "Manfacturer Part No."
+F 7 "Samsung Electro-Mechanics" H 6800 3800 50  0001 C CNN "Manufacturer Name"
 	1    6800 3800
 	0    1    1    0   
 $EndComp
@@ -359,6 +364,7 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_d
 F 4 "10000pF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)" H 8200 4500 50  0001 C CNN "Description"
 F 5 "1276-1015-1-ND" H 8200 4500 50  0001 C CNN "Digikey Part No."
 F 6 "CL21B103KBANNNC" H 8200 4500 50  0001 C CNN "Manfacturer Part No."
+F 7 "Samsung Electro-Mechanics" H 8200 4500 50  0001 C CNN "Manufacturer Name"
 	1    8200 4500
 	1    0    0    -1  
 $EndComp
@@ -720,6 +726,7 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_d
 F 4 "22µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)" H 7550 1350 50  0001 C CNN "Description"
 F 5 "1276-6687-1-ND" H 7550 1350 50  0001 C CNN "Digikey Part No."
 F 6 "CL21A226KQCLRNC" H 7550 1350 50  0001 C CNN "Manfacturer Part No."
+F 7 "Samsung Electro-Mechanics" H 7550 1350 50  0001 C CNN "Manufacturer Name"
 	1    7550 1350
 	1    0    0    -1  
 $EndComp
@@ -734,6 +741,7 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_d
 F 4 "22µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)" H 2700 1350 50  0001 C CNN "Description"
 F 5 "1276-6687-1-ND" H 2700 1350 50  0001 C CNN "Digikey Part No."
 F 6 "CL21A226KQCLRNC" H 2700 1350 50  0001 C CNN "Manfacturer Part No."
+F 7 "Samsung Electro-Mechanics" H 2700 1350 50  0001 C CNN "Manufacturer Name"
 	1    2700 1350
 	1    0    0    -1  
 $EndComp
