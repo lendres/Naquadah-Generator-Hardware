@@ -90,7 +90,7 @@ ENDDEF
 DEF Naquadah_Generator_State_Sensing_Conn J 0 118 Y Y 1 F N
 F0 "J" 0 250 50 H V C CNN
 F1 "Naquadah_Generator_State_Sensing_Conn" 0 -250 50 H V C CNN
-F2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" 0 -650 50 H I C CNN
+F2 "Naquadah_Generator:State_Sensing_Mother_Board_JST_Conn" 0 -650 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
 F4 "455-1804-1-ND" 0 -350 50 H I C CNN "Digikey Part No."
 F5 "JST Sales America Inc." 0 -450 50 H I C CNN "Manufacturer Name"

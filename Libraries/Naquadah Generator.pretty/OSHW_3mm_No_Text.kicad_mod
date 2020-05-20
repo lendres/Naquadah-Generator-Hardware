@@ -1,8 +1,8 @@
-(module OSHW_3mm_No_Text (layer F.Cu) (tedit 5EA629FC)
-  (fp_text reference G*** (at -0.13 -2.1) (layer F.SilkS) hide
+(module OSHW_3mm_No_Text (layer F.Cu) (tedit 5EC5664E)
+  (fp_text reference G*** (at -0.13 -2.1) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value OSHW-Logo (at 0.05 2.33) (layer F.SilkS) hide
+  (fp_text value OSHW-Logo (at 0.05 2.33) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_poly (pts (xy 0.052938 -1.351263) (xy 0.094134 -1.35118) (xy 0.127087 -1.350985) (xy 0.152754 -1.350633)

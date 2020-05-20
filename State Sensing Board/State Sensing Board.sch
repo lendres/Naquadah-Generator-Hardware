@@ -43,7 +43,7 @@ AR Path="/5E9F1391/5E9F2F30" Ref="R28"  Part="1"
 AR Path="/5E9F2F30" Ref="R2"  Part="1" 
 F 0 "R2" H 5120 1796 50  0000 L CNN
 F 1 "47K" H 5120 1705 50  0000 L CNN
-F 2 "Naquadah_Generator:0805_2012Metric_HandSolder" V 4980 1750 50  0001 C CNN
+F 2 "Frequently Used:0805_2012Metric_HandSolder" V 4980 1750 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 5050 1750 50  0001 C CNN
 F 4 "2019-RK73H2ATTD4702FCT-ND" H 5050 1750 50  0001 C CNN "Digikey Part No."
 F 5 "KOA Speer Electronics" H 5050 1750 50  0001 C CNN "Manufacturer Name"
@@ -62,7 +62,7 @@ AR Path="/5E9F1391/5E9F46C8" Ref="C1"  Part="1"
 AR Path="/5E9F46C8" Ref="C2"  Part="1" 
 F 0 "C2" H 3565 2246 50  0000 L CNN
 F 1 "47nF" H 3565 2155 50  0000 L CNN
-F 2 "Naquadah_Generator:0805_2012Metric_HandSolder" H 3488 2050 50  0001 C CNN
+F 2 "Frequently Used:0805_2012Metric_HandSolder" H 3488 2050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 3450 2200 50  0001 C CNN
 F 4 "1276-2527-1-ND" H 3450 2200 50  0001 C CNN "Digikey Part No."
 F 5 "	Samsung Electro-Mechanics" H 3450 2200 50  0001 C CNN "Manufacturer Name"
@@ -100,7 +100,7 @@ AR Path="/5E9F1391/5EA0E7B8" Ref="R?"  Part="1"
 AR Path="/5EA0E7B8" Ref="R1"  Part="1" 
 F 0 "R1" H 7420 1796 50  0000 L CNN
 F 1 "47K" H 7420 1705 50  0000 L CNN
-F 2 "Naquadah_Generator:0805_2012Metric_HandSolder" V 7280 1750 50  0001 C CNN
+F 2 "Frequently Used:0805_2012Metric_HandSolder" V 7280 1750 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 7350 1750 50  0001 C CNN
 F 4 "2019-RK73H2ATTD4702FCT-ND" H 7350 1750 50  0001 C CNN "Digikey Part No."
 F 5 "KOA Speer Electronics" H 7350 1750 50  0001 C CNN "Manufacturer Name"
@@ -119,7 +119,7 @@ AR Path="/5E9F1391/5EA0E7CD" Ref="C?"  Part="1"
 AR Path="/5EA0E7CD" Ref="C1"  Part="1" 
 F 0 "C1" H 6015 2246 50  0000 L CNN
 F 1 "47nF" H 6015 2155 50  0000 L CNN
-F 2 "Naquadah_Generator:0805_2012Metric_HandSolder" H 5938 2050 50  0001 C CNN
+F 2 "Frequently Used:0805_2012Metric_HandSolder" H 5938 2050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 5900 2200 50  0001 C CNN
 F 4 "1276-2527-1-ND" H 5900 2200 50  0001 C CNN "Digikey Part No."
 F 5 "	Samsung Electro-Mechanics" H 5900 2200 50  0001 C CNN "Manufacturer Name"
@@ -263,7 +263,7 @@ U 1 1 5EF333AD
 P 5200 3050
 F 0 "TP101" H 5150 3350 50  0000 L BNN
 F 1 "TestPoint" H 5150 3250 50  0001 L BNN
-F 2 "Naquadah_Generator:Pad_1.25-2.5" H 5400 3050 50  0001 C CNN
+F 2 "Frequently Used:Pad_1.25-2.5" H 5400 3050 50  0001 C CNN
 F 3 "None" H 5400 3050 50  0001 C CNN
 F 4 "GND" H 5150 3250 50  0000 L BNN "Name"
 F 5 "None" H 5200 3050 50  0001 C CNN "Digikey Part No."
@@ -289,7 +289,7 @@ U 1 1 5EF79EC8
 P 5200 2200
 F 0 "TP104" H 5250 2400 50  0000 R BNN
 F 1 "TestPoint" H 5250 2500 50  0001 R BNN
-F 2 "Naquadah_Generator:Pad_1.25-2.5" H 5400 2200 50  0001 C CNN
+F 2 "Frequently Used:Pad_1.25-2.5" H 5400 2200 50  0001 C CNN
 F 3 "None" H 5400 2200 50  0001 C CNN
 F 4 "S2" H 5150 2500 50  0000 L BNN "Name"
 F 5 "None" H 5200 2200 50  0001 C CNN "Digikey Part No."
@@ -304,7 +304,7 @@ U 1 1 5EF7C130
 P 7500 2200
 F 0 "TP103" H 7550 2400 50  0000 R BNN
 F 1 "TestPoint" H 7550 2500 50  0001 R BNN
-F 2 "Naquadah_Generator:Pad_1.25-2.5" H 7700 2200 50  0001 C CNN
+F 2 "Frequently Used:Pad_1.25-2.5" H 7700 2200 50  0001 C CNN
 F 3 "None" H 7700 2200 50  0001 C CNN
 F 4 "S1" H 7450 2500 50  0000 L BNN "Name"
 F 5 "None" H 7500 2200 50  0001 C CNN "Digikey Part No."
@@ -319,7 +319,7 @@ U 1 1 5EF7C9EB
 P 5200 1250
 F 0 "TP102" H 5150 1550 50  0000 L BNN
 F 1 "TestPoint" H 5150 1450 50  0001 L BNN
-F 2 "Naquadah_Generator:Pad_1.25-2.5" H 5400 1250 50  0001 C CNN
+F 2 "Frequently Used:Pad_1.25-2.5" H 5400 1250 50  0001 C CNN
 F 3 "None" H 5400 1250 50  0001 C CNN
 F 4 "PWR" H 5150 1450 50  0000 L BNN "Name"
 F 5 "None" H 5200 1250 50  0001 C CNN "Digikey Part No."
@@ -413,7 +413,7 @@ Wire Wire Line
 	5900 2750 6950 2750
 Connection ~ 6950 2750
 Wire Wire Line
-	6950 2750 6950 3050
+	6950 2750 6950 2950
 Wire Wire Line
 	5900 2050 5900 1600
 Wire Wire Line
@@ -431,4 +431,22 @@ Wire Wire Line
 Connection ~ 5050 2200
 Wire Wire Line
 	5050 2200 5200 2200
+$Comp
+L Naquadah_Generator:TestPoint TP999
+U 1 1 5EC6781B
+P 6950 2950
+F 0 "TP999" H 6900 3250 50  0000 L BNN
+F 1 "TestPoint" H 6900 3150 50  0001 L BNN
+F 2 "Frequently Used:Pad_1.25-2.5" H 7150 2950 50  0001 C CNN
+F 3 "None" H 7150 2950 50  0001 C CNN
+F 4 "TPTEST" H 6900 3150 50  0000 L BNN "Name"
+F 5 "None" H 6950 2950 50  0001 C CNN "Digikey Part No."
+F 6 "None" H 6950 2950 50  0001 C CNN "Manufacturer Name"
+F 7 "None" H 6950 2950 50  0001 C CNN "Manufacturer Part No."
+	1    6950 2950
+	0    1    1    0   
+$EndComp
+Connection ~ 6950 2950
+Wire Wire Line
+	6950 2950 6950 3050
 $EndSCHEMATC

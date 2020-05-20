@@ -325,6 +325,7 @@ F 3 "None" H 9950 3500 50  0001 C CNN
 F 4 "Wire solder point" H 9950 3500 50  0001 C CNN "Description"
 F 5 "None" H 9950 3500 50  0001 C CNN "Digikey Part No."
 F 6 "None" H 9950 3500 50  0001 C CNN "Manfacturer Part No."
+F 7 "None" H 9950 3500 50  0001 C CNN "Manufacturer Name"
 	1    9950 3500
 	0    1    1    0   
 $EndComp
@@ -580,6 +581,7 @@ F 3 "None" H 9950 4700 50  0001 C CNN
 F 4 "Wire solder point" H 9950 4700 50  0001 C CNN "Description"
 F 5 "None" H 9950 4700 50  0001 C CNN "Digikey Part No."
 F 6 "None" H 9950 4700 50  0001 C CNN "Manfacturer Part No."
+F 7 "None" H 9950 4700 50  0001 C CNN "Manufacturer Name"
 	1    9950 4700
 	0    1    1    0   
 $EndComp
@@ -594,6 +596,7 @@ F 3 "None" H 5100 6750 50  0001 C CNN
 F 4 "Wire solder point" H 5100 6750 50  0001 C CNN "Description"
 F 5 "None" H 5100 6750 50  0001 C CNN "Digikey Part No."
 F 6 "None" H 5100 6750 50  0001 C CNN "Manfacturer Part No."
+F 7 "None" H 5100 6750 50  0001 C CNN "Manufacturer Name"
 	1    5100 6750
 	0    -1   -1   0   
 $EndComp
@@ -608,6 +611,7 @@ F 3 "None" H 5100 7100 50  0001 C CNN
 F 4 "Wire solder point" H 5100 7100 50  0001 C CNN "Description"
 F 5 "None" H 5100 7100 50  0001 C CNN "Digikey Part No."
 F 6 "None" H 5100 7100 50  0001 C CNN "Manfacturer Part No."
+F 7 "None" H 5100 7100 50  0001 C CNN "Manufacturer Name"
 	1    5100 7100
 	0    -1   -1   0   
 $EndComp
@@ -624,6 +628,7 @@ F 3 "None" H 3200 6750 50  0001 C CNN
 F 4 "Wire solder point" H 3200 6750 50  0001 C CNN "Description"
 F 5 "None" H 3200 6750 50  0001 C CNN "Digikey Part No."
 F 6 "None" H 3200 6750 50  0001 C CNN "Manfacturer Part No."
+F 7 "None" H 3200 6750 50  0001 C CNN "Manufacturer Name"
 	1    3200 6750
 	0    -1   -1   0   
 $EndComp
@@ -638,6 +643,7 @@ F 3 "None" H 3200 7100 50  0001 C CNN
 F 4 "Wire solder point" H 3200 7100 50  0001 C CNN "Description"
 F 5 "None" H 3200 7100 50  0001 C CNN "Digikey Part No."
 F 6 "None" H 3200 7100 50  0001 C CNN "Manfacturer Part No."
+F 7 "None" H 3200 7100 50  0001 C CNN "Manufacturer Name"
 	1    3200 7100
 	0    -1   -1   0   
 $EndComp
@@ -1039,6 +1045,7 @@ F 3 "None" H 5500 3300 50  0001 C CNN
 F 4 "Wire solder point" H 5500 3300 50  0001 C CNN "Description"
 F 5 "None" H 5500 3300 50  0001 C CNN "Digikey Part No."
 F 6 "None" H 5500 3300 50  0001 C CNN "Manfacturer Part No."
+F 7 "None" H 5500 3300 50  0001 C CNN "Manufacturer Name"
 	1    5500 3300
 	1    0    0    -1  
 $EndComp
@@ -1053,6 +1060,7 @@ F 3 "None" H 5100 3300 50  0001 C CNN
 F 4 "Wire solder point" H 5100 3300 50  0001 C CNN "Description"
 F 5 "None" H 5100 3300 50  0001 C CNN "Digikey Part No."
 F 6 "None" H 5100 3300 50  0001 C CNN "Manfacturer Part No."
+F 7 "None" H 5100 3300 50  0001 C CNN "Manufacturer Name"
 	1    5100 3300
 	1    0    0    -1  
 $EndComp
