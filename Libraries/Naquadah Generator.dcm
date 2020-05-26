@@ -33,6 +33,12 @@ K cap capacitor
 F ~
 $ENDCMP
 #
+$CMP Conn_ISP
+D ISP connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)
+K connector
+F ~
+$ENDCMP
+#
 $CMP Crystal
 D Two pin crystal
 K quartz ceramic resonator oscillator
@@ -78,6 +84,11 @@ $CMP TestPoint
 D Test point
 K test point tp
 F None
+$ENDCMP
+#
+$CMP ULN2803ADWRG4
+D Bipolar (BJT) Transistor Array 8 NPN Darlington 50V 500mA Surface Mount 18-SOIC
+F http://www.ti.com/lit/ds/symlink/uln2803a.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590002980089
 $ENDCMP
 #
 $CMP VBUS

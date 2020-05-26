@@ -130,15 +130,15 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5EA2820E
-P 8900 5250
-F 0 "H1" H 9000 5296 50  0000 L CNN
-F 1 "MountingHole" H 9000 5205 50  0000 L CNN
-F 2 "Naquadah_Generator:MountingSlot_2.7mm_2.7mm_M2.5" H 8900 5250 50  0001 C CNN
-F 3 "None" H 8900 5250 50  0001 C CNN
-F 4 "None" H 8900 5250 50  0001 C CNN "Digikey Part No."
-F 5 "None" H 8900 5250 50  0001 C CNN "Manufacturer Name"
-F 6 "None" H 8900 5250 50  0001 C CNN "Manufacturer Part No."
-	1    8900 5250
+P 8900 5450
+F 0 "H1" H 9000 5496 50  0000 L CNN
+F 1 "MountingHole" H 9000 5405 50  0000 L CNN
+F 2 "Naquadah_Generator:MountingSlot_2.2mm_2.2mm_M2.0" H 8900 5450 50  0001 C CNN
+F 3 "None" H 8900 5450 50  0001 C CNN
+F 4 "None" H 8900 5450 50  0001 C CNN "Digikey Part No."
+F 5 "None" H 8900 5450 50  0001 C CNN "Manufacturer Name"
+F 6 "None" H 8900 5450 50  0001 C CNN "Manufacturer Part No."
+	1    8900 5450
 	1    0    0    1   
 $EndComp
 $Comp
@@ -230,20 +230,6 @@ Wire Notes Line
 Text Notes 8400 6400 0    98   ~ 20
 Additional Features
 $Comp
-L Naquadah_Generator:Logo LG1
-U 1 1 5EAA34E4
-P 8900 5500
-F 0 "LG1" V 8854 5415 50  0000 R CNN
-F 1 "OSHW Logo" V 8945 5415 50  0000 R CNN
-F 2 "Naquadah_Generator:OSHW_3mm_No_Text" H 8900 5500 50  0001 C CNN
-F 3 "None" H 8900 5500 50  0001 C CNN
-F 4 "None" H 8900 5500 50  0001 C CNN "Digikey Part No."
-F 5 "None" H 8900 5500 50  0001 C CNN "Manufacturer Part No."
-F 6 "None" H 8900 5500 50  0001 C CNN "Manufacturer Name"
-	1    8900 5500
-	0    -1   1    0   
-$EndComp
-$Comp
 L Naquadah_Generator:WireAssembly WA101
 U 1 1 5EF2EBE6
 P 8650 5850
@@ -263,7 +249,7 @@ U 1 1 5EF333AD
 P 5200 3050
 F 0 "TP101" H 5150 3350 50  0000 L BNN
 F 1 "TestPoint" H 5150 3250 50  0001 L BNN
-F 2 "Frequently Used:Pad_1.25-2.5" H 5400 3050 50  0001 C CNN
+F 2 "Naquadah_Generator:Pad_1.25-1.25" H 5400 3050 50  0001 C CNN
 F 3 "None" H 5400 3050 50  0001 C CNN
 F 4 "GND" H 5150 3250 50  0000 L BNN "Name"
 F 5 "None" H 5200 3050 50  0001 C CNN "Digikey Part No."
@@ -289,7 +275,7 @@ U 1 1 5EF79EC8
 P 5200 2200
 F 0 "TP104" H 5250 2400 50  0000 R BNN
 F 1 "TestPoint" H 5250 2500 50  0001 R BNN
-F 2 "Frequently Used:Pad_1.25-2.5" H 5400 2200 50  0001 C CNN
+F 2 "Naquadah_Generator:Pad_1.25-1.25" H 5400 2200 50  0001 C CNN
 F 3 "None" H 5400 2200 50  0001 C CNN
 F 4 "S2" H 5150 2500 50  0000 L BNN "Name"
 F 5 "None" H 5200 2200 50  0001 C CNN "Digikey Part No."
@@ -304,7 +290,7 @@ U 1 1 5EF7C130
 P 7500 2200
 F 0 "TP103" H 7550 2400 50  0000 R BNN
 F 1 "TestPoint" H 7550 2500 50  0001 R BNN
-F 2 "Frequently Used:Pad_1.25-2.5" H 7700 2200 50  0001 C CNN
+F 2 "Naquadah_Generator:Pad_1.25-1.25" H 7700 2200 50  0001 C CNN
 F 3 "None" H 7700 2200 50  0001 C CNN
 F 4 "S1" H 7450 2500 50  0000 L BNN "Name"
 F 5 "None" H 7500 2200 50  0001 C CNN "Digikey Part No."
@@ -319,7 +305,7 @@ U 1 1 5EF7C9EB
 P 5200 1250
 F 0 "TP102" H 5150 1550 50  0000 L BNN
 F 1 "TestPoint" H 5150 1450 50  0001 L BNN
-F 2 "Frequently Used:Pad_1.25-2.5" H 5400 1250 50  0001 C CNN
+F 2 "Naquadah_Generator:Pad_1.25-1.25" H 5400 1250 50  0001 C CNN
 F 3 "None" H 5400 1250 50  0001 C CNN
 F 4 "PWR" H 5150 1450 50  0000 L BNN "Name"
 F 5 "None" H 5200 1250 50  0001 C CNN "Digikey Part No."
@@ -413,8 +399,6 @@ Wire Wire Line
 	5900 2750 6950 2750
 Connection ~ 6950 2750
 Wire Wire Line
-	6950 2750 6950 2950
-Wire Wire Line
 	5900 2050 5900 1600
 Wire Wire Line
 	5900 1600 6950 1600
@@ -431,22 +415,6 @@ Wire Wire Line
 Connection ~ 5050 2200
 Wire Wire Line
 	5050 2200 5200 2200
-$Comp
-L Naquadah_Generator:TestPoint TP999
-U 1 1 5EC6781B
-P 6950 2950
-F 0 "TP999" H 6900 3250 50  0000 L BNN
-F 1 "TestPoint" H 6900 3150 50  0001 L BNN
-F 2 "Frequently Used:Pad_1.25-2.5" H 7150 2950 50  0001 C CNN
-F 3 "None" H 7150 2950 50  0001 C CNN
-F 4 "TPTEST" H 6900 3150 50  0000 L BNN "Name"
-F 5 "None" H 6950 2950 50  0001 C CNN "Digikey Part No."
-F 6 "None" H 6950 2950 50  0001 C CNN "Manufacturer Name"
-F 7 "None" H 6950 2950 50  0001 C CNN "Manufacturer Part No."
-	1    6950 2950
-	0    1    1    0   
-$EndComp
-Connection ~ 6950 2950
 Wire Wire Line
-	6950 2950 6950 3050
+	6950 2750 6950 3050
 $EndSCHEMATC

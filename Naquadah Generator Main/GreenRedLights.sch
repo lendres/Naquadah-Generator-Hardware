@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 11
+Sheet 9 10
 Title ""
 Date ""
 Rev ""
@@ -14,32 +14,9 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	5450 4550 5450 4650
-Wire Wire Line
-	4650 4350 4750 4350
-Text HLabel 4650 4350 0    50   Input ~ 0
-SIGNAL
-$Comp
-L Device:R R?
-U 1 1 5E9E70EB
-P 4900 4350
-AR Path="/5E9E5DDE/5E9E70EB" Ref="R?"  Part="1" 
-AR Path="/5E9E304D/5E9E70EB" Ref="R?"  Part="1" 
-AR Path="/5E9D240B/5E9E70EB" Ref="R?"  Part="1" 
-AR Path="/5E9E5DE1/5E9E70EB" Ref="R?"  Part="1" 
-AR Path="/5E9E4A6B/5E9E70EB" Ref="R?"  Part="1" 
-AR Path="/5EA45E37/5E9E70EB" Ref="R?"  Part="1" 
-AR Path="/5EA4676F/5E9E70EB" Ref="R?"  Part="1" 
-AR Path="/5EA46A2B/5E9E70EB" Ref="R?"  Part="1" 
-AR Path="/5ED17BA0/5ED2A32F/5E9E70EB" Ref="R30"  Part="1" 
-AR Path="/5ED17BA0/5ED2A36D/5E9E70EB" Ref="R31"  Part="1" 
-F 0 "R30" V 4800 4350 50  0000 C CNN
-F 1 "2.7k" V 5000 4350 50  0000 C CNN
-F 2 "Frequently_Used:0805_2012Metric_HandSolder" V 4830 4350 50  0001 C CNN
-F 3 "~" H 4900 4350 50  0001 C CNN
-	1    4900 4350
-	0    1    1    0   
-$EndComp
+	5350 4150 5450 4150
+Text HLabel 5350 4150 0    50   Input ~ 0
+COLLECTOR
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5EAB251D
@@ -119,37 +96,4 @@ F 3 "" H 5550 3700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5350 3750 5300 3750
-$Comp
-L power:GND #PWR?
-U 1 1 5EC21498
-P 5450 4650
-AR Path="/5EA45E37/5EC21498" Ref="#PWR?"  Part="1" 
-AR Path="/5EA4676F/5EC21498" Ref="#PWR?"  Part="1" 
-AR Path="/5ED17BA0/5ED2A32F/5EC21498" Ref="#PWR047"  Part="1" 
-AR Path="/5ED17BA0/5ED2A36D/5EC21498" Ref="#PWR050"  Part="1" 
-F 0 "#PWR047" H 5450 4400 50  0001 C CNN
-F 1 "GND" H 5455 4477 50  0000 C CNN
-F 2 "" H 5450 4650 50  0001 C CNN
-F 3 "" H 5450 4650 50  0001 C CNN
-	1    5450 4650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5050 4350 5150 4350
-$Comp
-L Frequently_Used:BCW65ALT1G Q1
-U 1 1 5EE732B9
-P 5350 4350
-AR Path="/5ED17BA0/5ED2A36D/5EE732B9" Ref="Q1"  Part="1" 
-AR Path="/5ED17BA0/5ED2A32F/5EE732B9" Ref="Q2"  Part="1" 
-F 0 "Q2" H 5541 4396 50  0000 L CNN
-F 1 "BCW65ALT1G" H 5541 4305 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5400 3700 50  0001 C CIN
-F 3 "https://www.onsemi.com/pub/Collateral/BCW65ALT1-D.PDF" H 5350 4350 50  0001 L CNN
-F 4 "ON Semiconductor" H 5400 3600 50  0001 C CNN "Manufacturer Name"
-F 5 "BCW65ALT1G" H 5400 3900 50  0001 C CNN "Manufacturer Part No."
-F 6 "488-BCW65ALT1GCT-ND" H 5400 3800 50  0001 C CNN "Digikey Part No."
-	1    5350 4350
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
