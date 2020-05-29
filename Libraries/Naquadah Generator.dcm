@@ -56,6 +56,12 @@ K logo
 F ~
 $ENDCMP
 #
+$CMP MountingHole
+D Mounting Hole without connection
+K mounting hole
+F ~
+$ENDCMP
+#
 $CMP PTS526_SMG15
 D Push button switch, generic, symbol, four pins
 K switch normally-open pushbutton push-button

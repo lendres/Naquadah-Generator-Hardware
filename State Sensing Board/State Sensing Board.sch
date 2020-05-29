@@ -128,7 +128,7 @@ F 6 "CL21B473KBANNNC" H 5900 2200 50  0001 C CNN "Manufacturer Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H1
+L Naquadah_Generator:MountingHole H1
 U 1 1 5EA2820E
 P 8900 5450
 F 0 "H1" H 9000 5496 50  0000 L CNN

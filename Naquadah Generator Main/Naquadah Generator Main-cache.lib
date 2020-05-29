@@ -352,6 +352,21 @@ X GND 6 350 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Naquadah_Generator_MountingHole
+#
+DEF Naquadah_Generator_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Naquadah_Generator_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
 # Naquadah_Generator_PTS526_SMG15
 #
 DEF Naquadah_Generator_PTS526_SMG15 SW 0 40 Y N 1 F N
