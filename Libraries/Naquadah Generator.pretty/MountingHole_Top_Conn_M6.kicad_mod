@@ -1,15 +1,14 @@
-(module MountingHole_Top_Conn_M6 (layer F.Cu) (tedit 5ED12DF5)
+(module MountingHole_Top_Conn_M6 locked (layer F.Cu) (tedit 5ED143F4)
   (descr "Through hole for top to bottom connection")
-  (attr virtual)
-  (fp_text reference REF** (at 0 -7.4) (layer F.SilkS)
+  (fp_text reference REF** (at 0 -7.4) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value MountingHole_Top_Conn_M6 (at 0 7.4) (layer F.Fab)
+  (fp_text value MountingHole_Top_Conn_M6 (at 0 7.4) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text user %R (at 0.3 0) (layer F.Fab)
+  (fp_text user %R (at 0.3 0) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_circle (center 0 0) (end 3.9 0) (layer F.CrtYd) (width 0.05))
-  (pad 1 np_thru_hole circle (at 0 0) (size 6.4 6.4) (drill 6.4) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 0 0) (size 6.4 6.4) (drill 6.4) (layers *.Cu *.Mask))
 )

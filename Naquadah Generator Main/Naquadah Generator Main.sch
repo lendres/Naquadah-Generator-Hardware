@@ -164,43 +164,43 @@ $EndComp
 Text Label 5950 3050 0    50   ~ 0
 HALLEFF4
 Wire Wire Line
-	1800 6650 1450 6650
+	1950 5550 1600 5550
 Wire Wire Line
-	1800 6550 1450 6550
-Text Label 1800 6650 2    50   ~ 0
+	1950 5450 1600 5450
+Text Label 1950 5550 2    50   ~ 0
 HALLEFF1
-Text Label 1800 6550 2    50   ~ 0
+Text Label 1950 5450 2    50   ~ 0
 HALLEFF2
 Wire Wire Line
 	3850 4050 3850 4150
 $Comp
 L Frequently_Used:GND #PWR013
 U 1 1 5EB748D0
-P 1950 6950
-F 0 "#PWR013" H 1950 6700 50  0001 C CNN
-F 1 "GND" H 1950 6800 50  0000 C CNN
-F 2 "" H 1950 6950 50  0001 C CNN
-F 3 "" H 1950 6950 50  0001 C CNN
-	1    1950 6950
+P 2100 5850
+F 0 "#PWR013" H 2100 5600 50  0001 C CNN
+F 1 "GND" H 2100 5700 50  0000 C CNN
+F 2 "" H 2100 5850 50  0001 C CNN
+F 3 "" H 2100 5850 50  0001 C CNN
+	1    2100 5850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1950 6850 1450 6850
+	2100 5750 1600 5750
 Wire Wire Line
-	1950 6850 1950 6950
+	2100 5750 2100 5850
 Wire Wire Line
-	1950 6750 1450 6750
+	2100 5650 1600 5650
 Wire Wire Line
-	1950 6750 1950 6650
+	2100 5650 2100 5550
 $Comp
 L Frequently_Used:+5V #PWR012
 U 1 1 5EB3B53A
-P 1950 6650
-F 0 "#PWR012" H 1950 6500 50  0001 C CNN
-F 1 "+5V" H 1965 6823 50  0000 C CNN
-F 2 "" H 1950 6650 50  0001 C CNN
-F 3 "" H 1950 6650 50  0001 C CNN
-	1    1950 6650
+P 2100 5550
+F 0 "#PWR012" H 2100 5400 50  0001 C CNN
+F 1 "+5V" H 2115 5723 50  0000 C CNN
+F 2 "" H 2100 5550 50  0001 C CNN
+F 3 "" H 2100 5550 50  0001 C CNN
+	1    2100 5550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -377,67 +377,67 @@ MODESEL
 $Comp
 L Naquadah_Generator:State_Sensing_Conn J1
 U 1 1 5EE0E8B6
-P 1250 6700
-F 0 "J1" H 1250 6300 50  0000 C CNN
-F 1 "State_Sensing_Conn" H 1250 6400 50  0000 C CNN
-F 2 "Naquadah_Generator:State_Sensing_Mother_Board_JST_Conn" H 1250 6050 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 1250 6750 50  0001 C CNN
-F 4 "455-1804-1-ND" H 1250 6350 50  0001 C CNN "Digikey Part No."
-F 5 "JST Sales America Inc." H 1250 6250 50  0001 C CNN "Manufacturer Name"
-F 6 "SM04B-SRSS-TB(LF)(SN)" H 1250 6150 50  0001 C CNN "Manufacturer Part No."
-	1    1250 6700
+P 1400 5600
+F 0 "J1" H 1400 5200 50  0000 C CNN
+F 1 "State_Sensing_Conn" H 1400 5300 50  0000 C CNN
+F 2 "Naquadah_Generator:State_Sensing_Mother_Board_JST_Conn" H 1400 4950 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 1400 5650 50  0001 C CNN
+F 4 "455-1804-1-ND" H 1400 5250 50  0001 C CNN "Digikey Part No."
+F 5 "JST Sales America Inc." H 1400 5150 50  0001 C CNN "Manufacturer Name"
+F 6 "SM04B-SRSS-TB(LF)(SN)" H 1400 5050 50  0001 C CNN "Manufacturer Part No."
+	1    1400 5600
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3500 6650 3150 6650
+	3650 5550 3300 5550
 Wire Wire Line
-	3500 6550 3150 6550
-Text Label 3500 6550 2    50   ~ 0
+	3650 5450 3300 5450
+Text Label 3650 5450 2    50   ~ 0
 HALLEFF3
-Text Label 3500 6650 2    50   ~ 0
+Text Label 3650 5550 2    50   ~ 0
 HALLEFF4
 $Comp
 L Frequently_Used:GND #PWR019
 U 1 1 5EE2CA7B
-P 3650 6950
-F 0 "#PWR019" H 3650 6700 50  0001 C CNN
-F 1 "GND" H 3650 6800 50  0000 C CNN
-F 2 "" H 3650 6950 50  0001 C CNN
-F 3 "" H 3650 6950 50  0001 C CNN
-	1    3650 6950
+P 3800 5850
+F 0 "#PWR019" H 3800 5600 50  0001 C CNN
+F 1 "GND" H 3800 5700 50  0000 C CNN
+F 2 "" H 3800 5850 50  0001 C CNN
+F 3 "" H 3800 5850 50  0001 C CNN
+	1    3800 5850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 6850 3150 6850
+	3800 5750 3300 5750
 Wire Wire Line
-	3650 6850 3650 6950
+	3800 5750 3800 5850
 Wire Wire Line
-	3650 6750 3150 6750
+	3800 5650 3300 5650
 Wire Wire Line
-	3650 6750 3650 6650
+	3800 5650 3800 5550
 $Comp
 L Frequently_Used:+5V #PWR018
 U 1 1 5EE2CA85
-P 3650 6650
-F 0 "#PWR018" H 3650 6500 50  0001 C CNN
-F 1 "+5V" H 3665 6823 50  0000 C CNN
-F 2 "" H 3650 6650 50  0001 C CNN
-F 3 "" H 3650 6650 50  0001 C CNN
-	1    3650 6650
+P 3800 5550
+F 0 "#PWR018" H 3800 5400 50  0001 C CNN
+F 1 "+5V" H 3815 5723 50  0000 C CNN
+F 2 "" H 3800 5550 50  0001 C CNN
+F 3 "" H 3800 5550 50  0001 C CNN
+	1    3800 5550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Naquadah_Generator:State_Sensing_Conn J2
 U 1 1 5EE2CA8E
-P 2950 6700
-F 0 "J2" H 2950 6300 50  0000 C CNN
-F 1 "State_Sensing_Conn" H 2950 6400 50  0000 C CNN
-F 2 "Naquadah_Generator:State_Sensing_Mother_Board_JST_Conn" H 2950 6050 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 2950 6750 50  0001 C CNN
-F 4 "455-1804-1-ND" H 2950 6350 50  0001 C CNN "Digikey Part No."
-F 5 "JST Sales America Inc." H 2950 6250 50  0001 C CNN "Manufacturer Name"
-F 6 "SM04B-SRSS-TB(LF)(SN)" H 2950 6150 50  0001 C CNN "Manufacturer Part No."
-	1    2950 6700
+P 3100 5600
+F 0 "J2" H 3100 5200 50  0000 C CNN
+F 1 "State_Sensing_Conn" H 3100 5300 50  0000 C CNN
+F 2 "Naquadah_Generator:State_Sensing_Mother_Board_JST_Conn" H 3100 4950 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 3100 5650 50  0001 C CNN
+F 4 "455-1804-1-ND" H 3100 5250 50  0001 C CNN "Digikey Part No."
+F 5 "JST Sales America Inc." H 3100 5150 50  0001 C CNN "Manufacturer Name"
+F 6 "SM04B-SRSS-TB(LF)(SN)" H 3100 5050 50  0001 C CNN "Manufacturer Part No."
+	1    3100 5600
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -755,31 +755,31 @@ F 3 "" H 1250 4200 50  0001 C CNN
 	1    1250 4200
 	1    0    0    -1  
 $EndComp
-Text Notes 950  7300 0    79   ~ 16
+Text Notes 1100 6200 0    79   ~ 16
 Sensing Board 1
-Text Notes 2700 7300 0    79   ~ 16
+Text Notes 2850 6200 0    79   ~ 16
 Sensing Board 2
 Text Notes 3050 4850 0    79   ~ 16
 ATmega34U4
 Text Notes 9250 3300 0    79   ~ 16
 Lights
 $Comp
-L Naquadah_Generator:Conn_ISP J8
+L Naquadah_Generator:Conn_ISP J0
 U 1 1 5ECBA147
-P 5100 6700
-F 0 "J8" H 5100 7025 50  0000 C CNN
-F 1 "Conn_ISP_Prog" H 5100 6934 50  0000 C CNN
-F 2 "Naquadah_Generator:PinHeader_2x03_P2.54mm_Vertical" H 5150 6700 50  0001 C CNN
-F 3 "None" H 5150 6700 50  0001 C CNN
-F 4 "None" H 5100 6700 50  0001 C CNN "Digikey Part No."
-F 5 "None" H 5100 6700 50  0001 C CNN "Manufacturer Name"
-F 6 "None" H 5100 6700 50  0001 C CNN "Manufacturer Part No."
-	1    5100 6700
+P 1500 7000
+F 0 "J0" H 1500 7325 50  0000 C CNN
+F 1 "Conn_ISP_Prog" H 1500 7234 50  0000 C CNN
+F 2 "Naquadah_Generator:PinHeader_2x03_P2.54mm_Vertical" H 1550 7000 50  0001 C CNN
+F 3 "None" H 1550 7000 50  0001 C CNN
+F 4 "None" H 1500 7000 50  0001 C CNN "Digikey Part No."
+F 5 "None" H 1500 7000 50  0001 C CNN "Manufacturer Name"
+F 6 "None" H 1500 7000 50  0001 C CNN "Manufacturer Part No."
+	1    1500 7000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4450 6800 4750 6800
-Text Label 4450 6800 0    50   ~ 0
+	850  7100 1150 7100
+Text Label 850  7100 0    50   ~ 0
 nRESET
 Wire Wire Line
 	5900 1350 6400 1350
@@ -794,141 +794,150 @@ Wire Wire Line
 Text Label 5950 1250 0    50   ~ 0
 SCK
 Wire Wire Line
-	5450 6700 5750 6700
-Text Label 5500 6700 0    50   ~ 0
+	1850 7000 2150 7000
+Text Label 1900 7000 0    50   ~ 0
 MOSI
 Wire Wire Line
-	4450 6600 4750 6600
-Text Label 4450 6600 0    50   ~ 0
+	850  6900 1150 6900
+Text Label 850  6900 0    50   ~ 0
 MISO
 Wire Wire Line
-	4450 6700 4750 6700
-Text Label 4450 6700 0    50   ~ 0
+	850  7000 1150 7000
+Text Label 850  7000 0    50   ~ 0
 SCK
 $Comp
 L Frequently_Used:GND #PWR037
 U 1 1 5ECF2A09
-P 5850 6900
-F 0 "#PWR037" H 5850 6650 50  0001 C CNN
-F 1 "GND" H 5850 6750 50  0000 C CNN
-F 2 "" H 5850 6900 50  0001 C CNN
-F 3 "" H 5850 6900 50  0001 C CNN
-	1    5850 6900
+P 2250 7200
+F 0 "#PWR037" H 2250 6950 50  0001 C CNN
+F 1 "GND" H 2250 7050 50  0000 C CNN
+F 2 "" H 2250 7200 50  0001 C CNN
+F 3 "" H 2250 7200 50  0001 C CNN
+	1    2250 7200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5850 6800 5450 6800
+	2250 7100 1850 7100
 Wire Wire Line
-	5850 6800 5850 6900
+	2250 7100 2250 7200
 Wire Wire Line
-	5850 6600 5450 6600
+	2250 6900 1850 6900
 Wire Wire Line
-	5850 6600 5850 6500
+	2250 6900 2250 6800
 $Comp
 L Frequently_Used:+5V #PWR035
 U 1 1 5ECF2A13
-P 5850 6500
-F 0 "#PWR035" H 5850 6350 50  0001 C CNN
-F 1 "+5V" H 5865 6673 50  0000 C CNN
-F 2 "" H 5850 6500 50  0001 C CNN
-F 3 "" H 5850 6500 50  0001 C CNN
-	1    5850 6500
+P 2250 6800
+F 0 "#PWR035" H 2250 6650 50  0001 C CNN
+F 1 "+5V" H 2265 6973 50  0000 C CNN
+F 2 "" H 2250 6800 50  0001 C CNN
+F 3 "" H 2250 6800 50  0001 C CNN
+	1    2250 6800
 	1    0    0    -1  
 $EndComp
-Text Notes 4750 7300 0    79   ~ 16
+Text Notes 1150 7600 0    79   ~ 16
 ISP Breakout
 Text Notes 9250 2000 0    79   ~ 16
 Power
-Text Notes 6950 6400 0    79   ~ 16
+Text Notes 8800 6350 0    79   ~ 16
 PCB Mounting
 $Comp
 L Naquadah_Generator:MountingHole H1
 U 1 1 5ED3959F
-P 7000 5500
-F 0 "H1" H 7100 5546 50  0000 L CNN
-F 1 "PCB Mounting Hole" H 7100 5455 50  0000 L CNN
-F 2 "Naquadah_Generator:MountingHole_2.2mm_M2" H 7000 5500 50  0001 C CNN
-F 3 "None" H 7000 5500 50  0001 C CNN
-	1    7000 5500
+P 8850 5450
+F 0 "H1" H 8950 5496 50  0000 L CNN
+F 1 "PCB Mounting Hole" H 8950 5405 50  0000 L CNN
+F 2 "Naquadah_Generator:MountingHole_2.2mm_M2" H 8850 5450 50  0001 C CNN
+F 3 "None" H 8850 5450 50  0001 C CNN
+	1    8850 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Naquadah_Generator:MountingHole H5
 U 1 1 5ED3A46E
-P 9400 5500
-F 0 "H5" H 9500 5546 50  0000 L CNN
-F 1 "Top Through Hole" H 9500 5455 50  0000 L CNN
-F 2 "Naquadah_Generator:MountingHole_Top_Conn_M6" H 9400 5500 50  0001 C CNN
-F 3 "None" H 9400 5500 50  0001 C CNN
-	1    9400 5500
+P 10150 5450
+F 0 "H5" H 10250 5496 50  0000 L CNN
+F 1 "Top Through Hole" H 10250 5405 50  0000 L CNN
+F 2 "Naquadah_Generator:MountingHole_Top_Conn_M6" H 10150 5450 50  0001 C CNN
+F 3 "None" H 10150 5450 50  0001 C CNN
+	1    10150 5450
 	1    0    0    -1  
 $EndComp
-Text Notes 9300 6400 0    79   ~ 16
+Text Notes 10050 6350 0    79   ~ 16
 Cover Mounting
 $Comp
 L Naquadah_Generator:MountingHole H2
 U 1 1 5ED17E32
-P 7000 5700
-F 0 "H2" H 7100 5746 50  0000 L CNN
-F 1 "PCB Mounting Hole" H 7100 5655 50  0000 L CNN
-F 2 "Naquadah_Generator:MountingHole_2.2mm_M2" H 7000 5700 50  0001 C CNN
-F 3 "None" H 7000 5700 50  0001 C CNN
-	1    7000 5700
+P 8850 5650
+F 0 "H2" H 8950 5696 50  0000 L CNN
+F 1 "PCB Mounting Hole" H 8950 5605 50  0000 L CNN
+F 2 "Naquadah_Generator:MountingHole_2.2mm_M2" H 8850 5650 50  0001 C CNN
+F 3 "None" H 8850 5650 50  0001 C CNN
+	1    8850 5650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Naquadah_Generator:MountingHole H3
 U 1 1 5ED1BBB0
-P 7000 5900
-F 0 "H3" H 7100 5946 50  0000 L CNN
-F 1 "PCB Mounting Hole" H 7100 5855 50  0000 L CNN
-F 2 "Naquadah_Generator:MountingHole_2.2mm_M2" H 7000 5900 50  0001 C CNN
-F 3 "None" H 7000 5900 50  0001 C CNN
-	1    7000 5900
+P 8850 5850
+F 0 "H3" H 8950 5896 50  0000 L CNN
+F 1 "PCB Mounting Hole" H 8950 5805 50  0000 L CNN
+F 2 "Naquadah_Generator:MountingHole_2.2mm_M2" H 8850 5850 50  0001 C CNN
+F 3 "None" H 8850 5850 50  0001 C CNN
+	1    8850 5850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Naquadah_Generator:MountingHole H4
 U 1 1 5ED1F8D4
-P 7000 6100
-F 0 "H4" H 7100 6146 50  0000 L CNN
-F 1 "PCB Mounting Hole" H 7100 6055 50  0000 L CNN
-F 2 "Naquadah_Generator:MountingHole_2.2mm_M2" H 7000 6100 50  0001 C CNN
-F 3 "None" H 7000 6100 50  0001 C CNN
-	1    7000 6100
+P 8850 6050
+F 0 "H4" H 8950 6096 50  0000 L CNN
+F 1 "PCB Mounting Hole" H 8950 6005 50  0000 L CNN
+F 2 "Naquadah_Generator:MountingHole_2.2mm_M2" H 8850 6050 50  0001 C CNN
+F 3 "None" H 8850 6050 50  0001 C CNN
+	1    8850 6050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Naquadah_Generator:MountingHole H6
 U 1 1 5ED28BB1
-P 9400 5700
-F 0 "H6" H 9500 5746 50  0000 L CNN
-F 1 "Top Through Hole" H 9500 5655 50  0000 L CNN
-F 2 "Naquadah_Generator:MountingHole_Top_Conn_M6" H 9400 5700 50  0001 C CNN
-F 3 "None" H 9400 5700 50  0001 C CNN
-	1    9400 5700
+P 10150 5650
+F 0 "H6" H 10250 5696 50  0000 L CNN
+F 1 "Top Through Hole" H 10250 5605 50  0000 L CNN
+F 2 "Naquadah_Generator:MountingHole_Top_Conn_M6" H 10150 5650 50  0001 C CNN
+F 3 "None" H 10150 5650 50  0001 C CNN
+	1    10150 5650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Naquadah_Generator:MountingHole H7
 U 1 1 5ED30954
-P 9400 5900
-F 0 "H7" H 9500 5946 50  0000 L CNN
-F 1 "Top Through Hole" H 9500 5855 50  0000 L CNN
-F 2 "Naquadah_Generator:MountingHole_Top_Conn_M6" H 9400 5900 50  0001 C CNN
-F 3 "None" H 9400 5900 50  0001 C CNN
-	1    9400 5900
+P 10150 5850
+F 0 "H7" H 10250 5896 50  0000 L CNN
+F 1 "Top Through Hole" H 10250 5805 50  0000 L CNN
+F 2 "Naquadah_Generator:MountingHole_Top_Conn_M6" H 10150 5850 50  0001 C CNN
+F 3 "None" H 10150 5850 50  0001 C CNN
+	1    10150 5850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Naquadah_Generator:MountingHole H8
 U 1 1 5ED347AB
-P 9400 6100
-F 0 "H8" H 9500 6146 50  0000 L CNN
-F 1 "Top Through Hole" H 9500 6055 50  0000 L CNN
-F 2 "Naquadah_Generator:MountingHole_Top_Conn_M6" H 9400 6100 50  0001 C CNN
-F 3 "None" H 9400 6100 50  0001 C CNN
-	1    9400 6100
+P 10150 6050
+F 0 "H8" H 10250 6096 50  0000 L CNN
+F 1 "Top Through Hole" H 10250 6005 50  0000 L CNN
+F 2 "Naquadah_Generator:MountingHole_Top_Conn_M6" H 10150 6050 50  0001 C CNN
+F 3 "None" H 10150 6050 50  0001 C CNN
+	1    10150 6050
 	1    0    0    -1  
 $EndComp
+NoConn ~ 5900 1550
+NoConn ~ 5900 1650
+NoConn ~ 5900 1750
+NoConn ~ 5900 1850
+NoConn ~ 5900 2950
+NoConn ~ 5900 3250
+NoConn ~ 5900 3550
+NoConn ~ 5900 3650
+NoConn ~ 5900 3750
 $EndSCHEMATC
