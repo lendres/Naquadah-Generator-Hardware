@@ -13,34 +13,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Device:Battery_Cell BT1
-U 1 1 5E9EA00B
-P 7850 5800
-F 0 "BT1" V 7595 5850 50  0000 C CNN
-F 1 "Battery_Cell" V 7686 5850 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" V 7850 5860 50  0001 C CNN
-F 3 "~" V 7850 5860 50  0001 C CNN
-	1    7850 5800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6400 4050 5900 4050
 Wire Wire Line
 	6400 3950 5900 3950
 Wire Wire Line
 	6400 3850 5900 3850
-$Comp
-L Frequently_Used:GND #PWR020
-U 1 1 5E9CE7F6
-P 9500 5600
-F 0 "#PWR020" H 9500 5350 50  0001 C CNN
-F 1 "GND" H 9505 5427 50  0000 C CNN
-F 2 "" H 9500 5600 50  0001 C CNN
-F 3 "" H 9500 5600 50  0001 C CNN
-	1    9500 5600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4100 2300 4600 2300
 Wire Wire Line
@@ -49,36 +27,6 @@ Wire Wire Line
 	5900 2050 6400 2050
 Wire Wire Line
 	5900 3050 6400 3050
-$Comp
-L Frequently_Used:R R2
-U 1 1 5EA5504B
-P 10400 5150
-F 0 "R2" V 10500 5150 50  0000 C CNN
-F 1 "330" V 10300 5150 50  0000 C CNN
-F 2 "Frequently_Used:0805_2012Metric_HandSolder" V 10330 5150 50  0001 C CNN
-F 3 "~" H 10400 5150 50  0001 C CNN
-	1    10400 5150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Frequently_Used:LED D25
-U 1 1 5EA55051
-P 10000 5150
-F 0 "D25" H 10000 5250 50  0000 C CNN
-F 1 "RED" H 10000 5050 50  0000 C CNN
-F 2 "Frequently_Used:LED_0805_2012Metric_HandSolder" H 10000 5150 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 10000 5150 50  0001 C CNN
-F 4 "Red 625nm LED Indication- Discrete 2V 0805 (2012 Metric)" H 10000 5150 50  0001 C CNN "Description"
-F 5 "732-4984-1-ND" H 10000 5150 50  0001 C CNN "Digikey Part No."
-F 6 "Würth Elektronik" H 10000 5150 50  0001 C CNN "Manufacturer Name"
-F 7 "150080RS75000" H 10000 5150 50  0001 C CNN "Manufacturer Part No."
-	1    10000 5150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10250 5150 10150 5150
-Wire Wire Line
-	10550 5150 10650 5150
 $Sheet
 S 8350 5100 500  800 
 U 5EA6751D
@@ -91,44 +39,6 @@ F5 "GNDIN" I L 8350 5300 50
 F6 "BATV" I L 8350 5700 50 
 F7 "BATGND" I L 8350 5800 50 
 $EndSheet
-Wire Wire Line
-	7850 5600 8100 5600
-Wire Wire Line
-	8100 5600 8100 5700
-Wire Wire Line
-	8100 5700 8350 5700
-Wire Wire Line
-	7850 5900 8100 5900
-Wire Wire Line
-	8100 5900 8100 5800
-Wire Wire Line
-	8100 5800 8350 5800
-Wire Wire Line
-	8850 5450 9150 5450
-Wire Wire Line
-	10650 5150 10650 5450
-Wire Wire Line
-	9850 5150 9700 5150
-Wire Wire Line
-	8850 5550 9150 5550
-$Comp
-L Frequently_Used:SW_SPST SW2
-U 1 1 5EA8DC70
-P 9350 5150
-F 0 "SW2" H 9350 5385 50  0000 C CNN
-F 1 "SW_SPST" H 9350 5294 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 9350 5150 50  0001 C CNN
-F 3 "~" H 9350 5150 50  0001 C CNN
-	1    9350 5150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9550 5150 9550 5450
-Connection ~ 10650 5450
-Wire Wire Line
-	10650 5450 10800 5450
-Wire Wire Line
-	9700 5150 9700 5550
 $Comp
 L Frequently_Used:GND #PWR017
 U 1 1 5EA1BAA4
@@ -140,64 +50,10 @@ F 3 "" H 3850 4150 50  0001 C CNN
 	1    3850 4150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9150 5450 9150 5150
-$Comp
-L Frequently_Used:PWR_FLAG #FLG01
-U 1 1 5EA63242
-P 9150 5600
-F 0 "#FLG01" H 9150 5675 50  0001 C CNN
-F 1 "PWR_FLAG" H 9150 5773 50  0000 C CNN
-F 2 "" H 9150 5600 50  0001 C CNN
-F 3 "~" H 9150 5600 50  0001 C CNN
-	1    9150 5600
-	-1   0    0    1   
-$EndComp
-Connection ~ 9150 5550
-$Comp
-L Frequently_Used:PWR_FLAG #FLG02
-U 1 1 5EA650D8
-P 10200 5500
-F 0 "#FLG02" H 10200 5575 50  0001 C CNN
-F 1 "PWR_FLAG" H 10200 5673 50  0000 C CNN
-F 2 "" H 10200 5500 50  0001 C CNN
-F 3 "~" H 10200 5500 50  0001 C CNN
-	1    10200 5500
-	-1   0    0    1   
-$EndComp
 Text Label 5950 3050 0    50   ~ 0
 HALLEFF4
 Wire Wire Line
 	3850 4050 3850 4150
-Wire Wire Line
-	9550 5450 10200 5450
-Wire Wire Line
-	10200 5500 10200 5450
-Connection ~ 10200 5450
-Wire Wire Line
-	10200 5450 10650 5450
-Wire Wire Line
-	9150 5600 9150 5550
-Wire Wire Line
-	9150 5550 9500 5550
-Wire Wire Line
-	9500 5600 9500 5550
-Connection ~ 9500 5550
-Wire Wire Line
-	9500 5550 9700 5550
-$Comp
-L Frequently_Used:+5V #PWR021
-U 1 1 5EB7A803
-P 10800 5400
-F 0 "#PWR021" H 10800 5250 50  0001 C CNN
-F 1 "+5V" H 10815 5573 50  0000 C CNN
-F 2 "" H 10800 5400 50  0001 C CNN
-F 3 "" H 10800 5400 50  0001 C CNN
-	1    10800 5400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10800 5400 10800 5450
 Text Label 5950 4050 0    50   ~ 0
 SRDATA
 Text Label 5950 3950 0    50   ~ 0

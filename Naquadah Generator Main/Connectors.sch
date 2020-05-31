@@ -666,6 +666,10 @@ F 0 "J8" H 4468 3625 50  0000 C CNN
 F 1 "USB Solder Pads" H 4468 3716 50  0000 C CNN
 F 2 "Naquadah_Generator:WireSoldPads_1x4_WOL" H 4550 4050 50  0001 C CNN
 F 3 "None" H 4550 4050 50  0001 C CNN
+F 4 "None" H 4550 4050 50  0001 C CNN "Description"
+F 5 "None" H 4550 4050 50  0001 C CNN "Digikey Part No."
+F 6 "None" H 4550 4050 50  0001 C CNN "Manufacturer Name"
+F 7 "None" H 4550 4050 50  0001 C CNN "Manufacturer Part No."
 	1    4550 4050
 	-1   0    0    1   
 $EndComp
