@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 10
+Sheet 3 11
 Title ""
 Date ""
 Rev ""
@@ -254,6 +254,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf?HQS=TI-null-null-digikeymode
 F 4 "296-14857-1-ND" H 2400 1950 50  0001 C CNN "Digikey Part No."
 F 5 "Texas Instruments" H 2400 1950 50  0001 C CNN "Manufacturer Name"
 F 6 "SN74HC595DR" H 2400 1950 50  0001 C CNN "Manufacturer Part No."
+F 7 "Texas Instruments" H 2400 1950 50  0001 C CNN "Description"
 	1    2400 1950
 	1    0    0    -1  
 $EndComp
@@ -358,6 +359,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf?HQS=TI-null-null-digikeymode-
 F 4 "296-15777-1-ND" H 4850 1950 50  0001 C CNN "Digikey Part No."
 F 5 "Texas Instruments" H 4850 1950 50  0001 C CNN "Manufacturer Name"
 F 6 "ULN2803ADWR" H 4850 1950 50  0001 C CNN "Manufacturer Part No."
+F 7 "Texas Instruments" H 4850 1950 50  0001 C CNN "Description"
 	1    4850 1950
 	1    0    0    -1  
 $EndComp
@@ -470,6 +472,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf?HQS=TI-null-null-digikeymode
 F 4 "296-14857-1-ND" H 2350 5300 50  0001 C CNN "Digikey Part No."
 F 5 "Texas Instruments" H 2350 5300 50  0001 C CNN "Manufacturer Name"
 F 6 "SN74HC595DR" H 2350 5300 50  0001 C CNN "Manufacturer Part No."
+F 7 "Texas Instruments" H 2350 5300 50  0001 C CNN "Description"
 	1    2350 5300
 	1    0    0    -1  
 $EndComp
