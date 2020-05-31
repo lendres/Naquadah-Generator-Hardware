@@ -498,10 +498,10 @@ F 3 "" H 5400 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Power_LE:PRTR5V0U2X D25
+L Power_LE:PRTR5V0U2X D1
 U 1 1 5ED3FF2E
 P 4700 1450
-F 0 "D25" H 4800 1900 50  0000 L CNN
+F 0 "D1" H 4800 1900 50  0000 L CNN
 F 1 "RED" H 4800 1800 50  0000 L CNN
 F 2 "Frequently_Used:LED_0805_2012Metric_HandSolder" H 4800 1100 50  0001 L CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 4760 1450 50  0001 L CNN
