@@ -45,12 +45,6 @@ K quartz ceramic resonator oscillator
 F ~
 $ENDCMP
 #
-$CMP End_Sphere_Conn
-D Connector from mother board to state sensing daughter board, single row, 01x04
-K connector
-F http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-$ENDCMP
-#
 $CMP GND
 D Power symbol creates a global label with name "GND" , ground
 K power-flag
@@ -83,6 +77,12 @@ K switch normally-open pushbutton push-button
 F ~
 $ENDCMP
 #
+$CMP Power_Daughter_Conn
+D Connector from mother board to power daughter board
+K connector
+F http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+$ENDCMP
+#
 $CMP R
 D Resistor
 K R res resistor
@@ -96,7 +96,7 @@ F ~
 $ENDCMP
 #
 $CMP State_Sensing_Conn
-D Connector from mother board to state sensing daughter board, single row, 01x04
+D Connector from mother board to state sensing daughter board
 K connector
 F http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
 $ENDCMP

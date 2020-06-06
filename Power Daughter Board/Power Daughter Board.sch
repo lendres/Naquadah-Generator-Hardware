@@ -21,7 +21,7 @@ U 1 1 5EB6C38E
 P 5550 1950
 F 0 "U1" H 5525 2437 60  0000 C CNN
 F 1 "MCP73833T" H 5525 2331 60  0000 C CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:MCP73833" H 5550 1350 60  0001 C CNN
+F 2 "High Power Lipo 18650 Boost Charge Protect:Charger_MCP73833" H 5550 1350 60  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22005b.pdf" H 5525 2331 60  0001 C CNN
 F 4 "Charger IC" H 5550 1950 50  0001 C CNN "Description"
 F 5 "MCP73833T-AMI/UNCT-ND" H 5550 1950 50  0001 C CNN "Source Part No."
@@ -360,18 +360,19 @@ Connection ~ 3950 1750
 Wire Wire Line
 	3950 1750 5000 1750
 $Comp
-L Naquadah_Generator:End_Sphere_Conn J1
+L Naquadah_Generator:Power_Daughter_Conn J1
 U 1 1 5EDA477E
 P 6400 4650
 F 0 "J1" H 6400 4350 50  0000 C CNN
 F 1 "End_Sphere_Conn" H 6400 5050 50  0000 C CNN
-F 2 "Naquadah Generator:Power_Daughter_Board_Conn" H 6450 4000 50  0001 C CNN
+F 2 "Naquadah_Generator:State_Sensing_Mother_Board_JST_Conn" H 6450 4000 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 6400 4700 50  0001 C CNN
 F 4 "Digikey" H 6400 4650 50  0001 C CNN "Source"
 F 5 "455-1792-1-ND" H 6450 4300 50  0001 C CNN "Source Part No."
 F 6 "JST Sales America Inc." H 6450 4200 50  0001 C CNN "Manufacturer Name"
 F 7 "BM06B-SRSS-TB(LF)(SN)" H 6450 4100 50  0001 C CNN "Manufacturer Part No."
 F 8 "Connector Header Surface Mount 6 position 0.039\" (1.00mm)" H 6400 4650 50  0001 C CNN "Description"
+F 9 "455-1792-1-ND" H 0   0   50  0001 C CNN "Digikey Part No."
 	1    6400 4650
 	-1   0    0    1   
 $EndComp
@@ -448,8 +449,8 @@ U 1 1 5EDD61FB
 P 8900 4800
 F 0 "J2" H 8650 5150 50  0000 L CNN
 F 1 "Jack-DC" H 8650 5050 50  0000 L CNN
-F 2 "Naquadah Generator:PJ-006A-SMT" H 8950 4760 50  0001 C CNN
-F 3 "https://www.cuidevices.com/product/resource/pj-006a-smt.pdf" H 8950 4760 50  0001 C CNN
+F 2 "CUI_PJ-006A-SMT" H 8950 4760 50  0001 C CNN
+F 3 "Manufacturer recommendations" H 8950 4760 50  0001 C CNN
 F 4 "Power Barrel Connector Jack 2.10mm ID (0.083\"), 5.50mm OD (0.217\") Surface Mount" H 8900 4800 50  0001 C CNN "Description"
 F 5 "Digikey" H 8900 4800 50  0001 C CNN "Source"
 F 6 "CP-006APJCT-ND" H 8900 4800 50  0001 C CNN "Source Part No."
@@ -468,12 +469,13 @@ F 0 "TP1" H 6600 4600 50  0000 C CNN
 F 1 "TestPoint" H 6500 4050 50  0001 L CNN
 F 2 "Frequently_Used:Pad_2.5-2.5" H 6800 4300 50  0001 C CNN
 F 3 "None" H 6800 4300 50  0001 C CNN
-F 4 "RDY" H 6600 4500 50  0000 C CNN "Name"
+F 4 "Name" H 6600 4500 50  0000 C CNN "Name"
 F 5 "Test point" H 6600 4300 50  0001 C CNN "Description"
 F 6 "None" H 6600 4300 50  0001 C CNN "Source"
 F 7 "None" H 6600 4300 50  0001 C CNN "Source Part No."
 F 8 "None" H 6600 4300 50  0001 C CNN "Manufacturer Name"
 F 9 "None" H 6600 4300 50  0001 C CNN "Manufacturer Part No."
+F 10 "None" H 0   0   50  0001 C CNN "Manufacturer"
 	1    6600 4300
 	1    0    0    -1  
 $EndComp
@@ -490,11 +492,13 @@ F 0 "TP2" H 6850 4600 50  0000 C CNN
 F 1 "TestPoint" H 6750 4050 50  0001 L CNN
 F 2 "Frequently_Used:Pad_2.5-2.5" H 7050 4300 50  0001 C CNN
 F 3 "None" H 7050 4300 50  0001 C CNN
-F 4 "SW" H 6850 4500 50  0000 C CNN "Name"
+F 4 "Name" H 6850 4500 50  0000 C CNN "Name"
 F 5 "Test point" H 6850 4300 50  0001 C CNN "Description"
 F 6 "None" H 6850 4300 50  0001 C CNN "Source"
 F 7 "None" H 6850 4300 50  0001 C CNN "Source Part No."
 F 8 "None" H 6850 4300 50  0001 C CNN "Manufacturer Name"
+F 9 "None" H 0   0   50  0001 C CNN "Manufacturer"
+F 10 "None" H 0   0   50  0001 C CNN "Manufacturer Part No."
 	1    6850 4300
 	1    0    0    -1  
 $EndComp
@@ -506,11 +510,13 @@ F 0 "TP3" H 6850 5250 50  0000 C CNN
 F 1 "TestPoint" H 6750 4700 50  0001 L CNN
 F 2 "Frequently_Used:Pad_2.5-2.5" H 7050 4950 50  0001 C CNN
 F 3 "None" H 7050 4950 50  0001 C CNN
-F 4 "BATT+" H 6850 5150 50  0000 C CNN "Name"
+F 4 "Name" H 6850 5150 50  0000 C CNN "Name"
 F 5 "Test point" H 6850 4950 50  0001 C CNN "Description"
 F 6 "None" H 6850 4950 50  0001 C CNN "Source Part No."
 F 7 "None" H 6850 4950 50  0001 C CNN "Manufacturer Name"
 F 8 "None" H 6850 4950 50  0001 C CNN "Source"
+F 9 "None" H 0   0   50  0001 C CNN "Manufacturer"
+F 10 "None" H 0   0   50  0001 C CNN "Manufacturer Part No."
 	1    6850 4950
 	-1   0    0    1   
 $EndComp
@@ -589,11 +595,13 @@ F 0 "TP4" H 7100 5250 50  0000 C CNN
 F 1 "TestPoint" H 7000 4700 50  0001 L CNN
 F 2 "Frequently_Used:Pad_2.5-2.5" H 7300 4950 50  0001 C CNN
 F 3 "None" H 7300 4950 50  0001 C CNN
-F 4 "GND" H 7100 5150 50  0000 C CNN "Name"
+F 4 "Name" H 7100 5150 50  0000 C CNN "Name"
 F 5 "Test point" H 7100 4950 50  0001 C CNN "Description"
 F 6 "None" H 7100 4950 50  0001 C CNN "Source Part No."
 F 7 "None" H 7100 4950 50  0001 C CNN "Manufacturer Name"
 F 8 "None" H 7100 4950 50  0001 C CNN "Source"
+F 9 "None" H 0   0   50  0001 C CNN "Manufacturer"
+F 10 "None" H 0   0   50  0001 C CNN "Manufacturer Part No."
 	1    7100 4950
 	-1   0    0    1   
 $EndComp
@@ -662,7 +670,7 @@ P 3000 7100
 F 0 "WA1" H 3378 7146 50  0000 L CNN
 F 1 "WireAssembly" H 3378 7055 50  0000 L CNN
 F 2 "Naquadah Generator:Wire_Assembly_Four" H 3000 7200 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eSR.pdf" H 3000 7200 50  0001 C CNN
+F 3 "~" H 3000 7200 50  0001 C CNN
 F 4 "Digikey" H 3000 7100 50  0001 C CNN "Source"
 F 5 "6 Position Cable Assembly Rectangular Socket to Socket, Reversed 1.00' (304.80mm)" H 3000 7100 50  0001 C CNN "Description"
 F 6 "455-3019-ND" H 3000 7100 50  0001 C CNN "Source Part No."
@@ -753,6 +761,7 @@ F 4 "" H 805 7075 50  0001 C CNN "Manufacturer"
 F 5 "None" H 805 7075 50  0001 C CNN "Manufacturer Part No."
 F 6 "None" H 805 7075 50  0001 C CNN "Source"
 F 7 "None" H 805 7075 50  0001 C CNN "Source Part No."
+F 8 "None" H 0   0   50  0001 C CNN "Manufacturer Name"
 	1    800  7200
 	1    0    0    -1  
 $EndComp
@@ -768,6 +777,7 @@ F 4 "" H 1755 6825 50  0001 C CNN "Manufacturer"
 F 5 "None" H 1755 6825 50  0001 C CNN "Manufacturer Part No."
 F 6 "None" H 1755 6825 50  0001 C CNN "Source"
 F 7 "None" H 1755 6825 50  0001 C CNN "Source Part No."
+F 8 "None" H 0   0   50  0001 C CNN "Manufacturer Name"
 	1    1750 6950
 	1    0    0    -1  
 $EndComp
@@ -783,6 +793,7 @@ F 4 "" H 1755 7075 50  0001 C CNN "Manufacturer"
 F 5 "None" H 1755 7075 50  0001 C CNN "Manufacturer Part No."
 F 6 "None" H 1755 7075 50  0001 C CNN "Source"
 F 7 "None" H 1755 7075 50  0001 C CNN "Source Part No."
+F 8 "None" H 0   0   50  0001 C CNN "Manufacturer Name"
 	1    1750 7200
 	1    0    0    -1  
 $EndComp
