@@ -45,6 +45,12 @@ K quartz ceramic resonator oscillator
 F ~
 $ENDCMP
 #
+$CMP End_Sphere_Conn
+D Connector from mother board to state sensing daughter board, single row, 01x04
+K connector
+F http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+$ENDCMP
+#
 $CMP GND
 D Power symbol creates a global label with name "GND" , ground
 K power-flag
@@ -56,10 +62,19 @@ K logo
 F ~
 $ENDCMP
 #
+$CMP MHPS2283
+F https://media.digikey.com/pdf/Data%20Sheets/APEM%20Components%20PDFs/MHPS_Series.pdf
+$ENDCMP
+#
 $CMP MountingHole
 D Mounting Hole without connection
 K mounting hole
-F ~
+F None
+$ENDCMP
+#
+$CMP PJ-006A-SMT
+D Barrel plug
+F Manufacturer recommendations
 $ENDCMP
 #
 $CMP PTS526_SMG15

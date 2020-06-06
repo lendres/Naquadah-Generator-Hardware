@@ -112,9 +112,10 @@ F 0 "C3" V 1750 4200 50  0000 R CNN
 F 1 "18pF" V 1750 4300 50  0000 L CNN
 F 2 "Frequently_Used:0805_2012Metric_HandSolder" H 1738 4100 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" H 1700 4250 50  0001 C CNN
-F 4 "399-1052-1-ND" H 1700 4250 50  0001 C CNN "Digikey Part No."
+F 4 "399-1052-1-ND" H 1700 4250 50  0001 C CNN "Source Part No."
 F 5 "Kemet" H 1700 4250 50  0001 C CNN "Manufacturer Name"
 F 6 "C0603C180J5GACTU" H 1700 4250 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 1700 4250 50  0001 C CNN "Source"
 	1    1700 4250
 	0    1    1    0   
 $EndComp
@@ -126,9 +127,10 @@ F 0 "C2" V 1650 3900 50  0000 R CNN
 F 1 "18pF" V 1650 4000 50  0000 L CNN
 F 2 "Frequently_Used:0805_2012Metric_HandSolder" H 1738 3800 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" H 1700 3950 50  0001 C CNN
-F 4 "399-1052-1-ND" H 1700 3950 50  0001 C CNN "Digikey Part No."
+F 4 "399-1052-1-ND" H 1700 3950 50  0001 C CNN "Source Part No."
 F 5 "Kemet" H 1700 3950 50  0001 C CNN "Manufacturer Name"
 F 6 "C0603C180J5GACTU" H 1700 3950 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 1700 3950 50  0001 C CNN "Source"
 	1    1700 3950
 	0    1    1    0   
 $EndComp
@@ -140,10 +142,11 @@ F 0 "Y1" H 2000 3950 50  0000 C CNN
 F 1 "16MHz" H 2000 4250 50  0000 C CNN
 F 2 "Naquadah_Generator:Oscillator_ABM3-16.000MHZ-B2-T" H 2000 4100 50  0001 C CNN
 F 3 "https://abracon.com/Resonators/abm3.pdf" H 2000 4100 50  0001 C CNN
-F 4 "535-9103-1-ND" H 2000 4100 50  0001 C CNN "Digikey Part No."
+F 4 "535-9103-1-ND" H 2000 4100 50  0001 C CNN "Source Part No."
 F 5 "Abracon " H 2000 4100 50  0001 C CNN "Manufacturer Name"
 F 6 "ABM3-16.000MHZ-B2-T" H 2000 4100 50  0001 C CNN "Manufacturer Part No."
 F 7 "Abracon LLC" H 2000 4100 50  0001 C CNN "Description"
+F 8 "Digikey" H 2000 4100 50  0001 C CNN "Source"
 	1    2000 4100
 	0    1    1    0   
 $EndComp
@@ -291,9 +294,10 @@ F 1 "1.0uF" H 2550 1150 50  0000 L CNN
 F 2 "Frequently_Used:0805_2012Metric_HandSolder" H 2538 1100 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 2500 1250 50  0001 C CNN
 F 4 "1µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" H 2500 1250 50  0001 C CNN "Description"
-F 5 "1276-2931-1-ND" H 2500 1250 50  0001 C CNN "Digikey Part No."
+F 5 "1276-2931-1-ND" H 2500 1250 50  0001 C CNN "Source Part No."
 F 6 "Samsung Electro-Mechanics" H 2500 1250 50  0001 C CNN "Manufacturer Name"
 F 7 "CL21B105KOFNNWE" H 2500 1250 50  0001 C CNN "Manufacturer Part No."
+F 8 "Digikey" H 2500 1250 50  0001 C CNN "Source"
 	1    2500 1250
 	1    0    0    -1  
 $EndComp
@@ -321,9 +325,10 @@ F 1 "1.0uF" H 2050 1150 50  0000 L CNN
 F 2 "Frequently_Used:0805_2012Metric_HandSolder" H 2038 1100 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 2000 1250 50  0001 C CNN
 F 4 "1µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" H 2000 1250 50  0001 C CNN "Description"
-F 5 "1276-2931-1-ND" H 2000 1250 50  0001 C CNN "Digikey Part No."
+F 5 "1276-2931-1-ND" H 2000 1250 50  0001 C CNN "Source Part No."
 F 6 "Samsung Electro-Mechanics" H 2000 1250 50  0001 C CNN "Manufacturer Name"
 F 7 "CL21B105KOFNNWE" H 2000 1250 50  0001 C CNN "Manufacturer Part No."
+F 8 "Digikey" H 2000 1250 50  0001 C CNN "Source"
 	1    2000 1250
 	1    0    0    -1  
 $EndComp
@@ -434,9 +439,10 @@ F 0 "SW1" V 1950 3450 50  0000 R CNN
 F 1 "RESET" V 1750 3450 50  0000 R CNN
 F 2 "Naquadah_Generator:PTS526SMG15SMTR2LFS_Hand_Solder" H 1850 3300 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS526/documents/datasheet.pdf" H 1850 3300 50  0001 C CNN
-F 4 "CKN12220-1-ND" H 1850 3100 50  0001 C CNN "Digikey Part No."
+F 4 "CKN12220-1-ND" H 1850 3100 50  0001 C CNN "Source Part No."
 F 5 "C&K" H 1850 3100 50  0001 C CNN "Manufacturer Name"
 F 6 "PTS526 SM15 SMTR2 LFS" H 1850 3100 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 1850 3100 50  0001 C CNN "Source"
 	1    1850 3100
 	0    -1   -1   0   
 $EndComp
@@ -467,9 +473,10 @@ F 1 "1.0uF" H 1050 1150 50  0000 L CNN
 F 2 "Frequently_Used:0805_2012Metric_HandSolder" H 1038 1100 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 1000 1250 50  0001 C CNN
 F 4 "1µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" H 1000 1250 50  0001 C CNN "Description"
-F 5 "1276-2931-1-ND" H 1000 1250 50  0001 C CNN "Digikey Part No."
+F 5 "1276-2931-1-ND" H 1000 1250 50  0001 C CNN "Source Part No."
 F 6 "Samsung Electro-Mechanics" H 1000 1250 50  0001 C CNN "Manufacturer Name"
 F 7 "CL21B105KOFNNWE" H 1000 1250 50  0001 C CNN "Manufacturer Part No."
+F 8 "Digikey" H 1000 1250 50  0001 C CNN "Source"
 	1    1000 1250
 	1    0    0    -1  
 $EndComp
@@ -482,9 +489,10 @@ F 1 "1.0uF" H 1550 1150 50  0000 L CNN
 F 2 "Frequently_Used:0805_2012Metric_HandSolder" H 1538 1100 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 1500 1250 50  0001 C CNN
 F 4 "1µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" H 1500 1250 50  0001 C CNN "Description"
-F 5 "1276-2931-1-ND" H 1500 1250 50  0001 C CNN "Digikey Part No."
+F 5 "1276-2931-1-ND" H 1500 1250 50  0001 C CNN "Source Part No."
 F 6 "Samsung Electro-Mechanics" H 1500 1250 50  0001 C CNN "Manufacturer Name"
 F 7 "CL21B105KOFNNWE" H 1500 1250 50  0001 C CNN "Manufacturer Part No."
+F 8 "Digikey" H 1500 1250 50  0001 C CNN "Source"
 	1    1500 1250
 	1    0    0    -1  
 $EndComp
@@ -636,9 +644,10 @@ F 1 "GREEN" H 7400 1150 50  0000 C CNN
 F 2 "Frequently_Used:LED_0805_2012Metric_HandSolder" H 7400 1050 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 7400 1050 50  0001 C CNN
 F 4 "Green 570nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 7400 1050 50  0001 C CNN "Description"
-F 5 "732-4986-1-ND" H 7400 1050 50  0001 C CNN "Digikey Part No."
+F 5 "732-4986-1-ND" H 7400 1050 50  0001 C CNN "Source Part No."
 F 6 "Würth Elektronik" H 7400 1050 50  0001 C CNN "Manufacturer Name"
 F 7 "150080VS75000" H 7400 1050 50  0001 C CNN "Manufacturer Part No."
+F 8 "Digikey" H 7400 1050 50  0001 C CNN "Source"
 	1    7400 1050
 	0    1    1    0   
 $EndComp
@@ -679,9 +688,10 @@ F 1 "YELLOW" H 8000 1150 50  0000 C CNN
 F 2 "Frequently_Used:LED_0805_2012Metric_HandSolder" H 8000 1050 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 8000 1050 50  0001 C CNN
 F 4 "	Yellow 590nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 8000 1050 50  0001 C CNN "Description"
-F 5 "732-4987-1-ND" H 8000 1050 50  0001 C CNN "Digikey Part No."
+F 5 "732-4987-1-ND" H 8000 1050 50  0001 C CNN "Source Part No."
 F 6 "Würth Elektronik" H 8000 1050 50  0001 C CNN "Manufacturer Name"
 F 7 "150080YS75000" H 8000 1050 50  0001 C CNN "Manufacturer Part No."
+F 8 "Digikey" H 8000 1050 50  0001 C CNN "Source"
 	1    8000 1050
 	0    1    1    0   
 $EndComp
@@ -697,10 +707,11 @@ F 0 "U1" H 4700 1050 50  0000 L BNN
 F 1 "ATmega32U4-AU" H 4700 1000 50  0000 L CNN
 F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 5250 400 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 5250 2650 50  0001 C CNN
-F 4 "ATMEGA32U4-AU-ND" H 5250 2650 50  0001 C CNN "Digikey Part No."
+F 4 "ATMEGA32U4-AU-ND" H 5250 2650 50  0001 C CNN "Source Part No."
 F 5 "Microchip Technology" H 5250 2650 50  0001 C CNN "Manufacturer Name"
 F 6 "ATMEGA32U4-AU" H 5250 2650 50  0001 C CNN "Manufacturer Part No."
 F 7 "ATmega Microcontroller IC 8-Bit 16MHz 32KB (16K x 16) FLASH 44-TQFP (10x10)" H 5250 2650 50  0001 C CNN "Description"
+F 8 "Digikey" H 5250 2650 50  0001 C CNN "Source"
 	1    5250 2650
 	1    0    0    -1  
 $EndComp
@@ -777,4 +788,46 @@ Text Notes 6500 2550 0    50   ~ 0
 D0/RXI
 Text Notes 6500 2650 0    50   ~ 0
 D1/TXO
+$Comp
+L Naquadah_Generator:PTS526_SMG15 SW?
+U 1 1 5F15836F
+P 8400 2500
+F 0 "SW?" V 8500 2850 50  0000 R CNN
+F 1 "MODE" V 8300 2850 50  0000 R CNN
+F 2 "Naquadah_Generator:PTS526SMG15SMTR2LFS_Hand_Solder" H 8400 2700 50  0001 C CNN
+F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS526/documents/datasheet.pdf" H 8400 2700 50  0001 C CNN
+F 4 "CKN12220-1-ND" H 8400 2500 50  0001 C CNN "Source Part No."
+F 5 "C&K" H 8400 2500 50  0001 C CNN "Manufacturer Name"
+F 6 "PTS526 SM15 SMTR2 LFS" H 8400 2500 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 8400 2500 50  0001 C CNN "Source"
+	1    8400 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 2300 8500 2300
+Wire Wire Line
+	8400 2700 8500 2700
+Wire Wire Line
+	8500 2700 8500 2800
+Connection ~ 8500 2700
+Wire Wire Line
+	8500 2700 8600 2700
+Wire Wire Line
+	8500 2300 8500 1850
+Connection ~ 8500 2300
+Wire Wire Line
+	8500 2300 8600 2300
+Text Label 8500 2200 1    50   ~ 0
+MODESEL
+$Comp
+L Frequently_Used:GND #PWR?
+U 1 1 5F16B284
+P 8500 2800
+F 0 "#PWR?" H 8500 2550 50  0001 C CNN
+F 1 "GND" H 8500 2650 50  0000 C CNN
+F 2 "" H 8500 2800 50  0001 C CNN
+F 3 "" H 8500 2800 50  0001 C CNN
+	1    8500 2800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

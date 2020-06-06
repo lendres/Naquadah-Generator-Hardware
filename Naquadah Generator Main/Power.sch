@@ -50,7 +50,7 @@ F 1 "10k" V 8400 3750 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 8300 3850 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 8300 3850 50  0001 C CNN
 F 4 "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 8300 3850 50  0001 C CNN "Description"
-F 5 "2019-RK73H2ATTD1002FCT-ND" H 8300 3850 50  0001 C CNN "Digikey Part No."
+F 5 "2019-RK73H2ATTD1002FCT-ND" H 8300 3850 50  0001 C CNN "Source Part No."
 F 6 "RK73H2ATTD1002F" H 8300 3850 50  0001 C CNN "Manufacturer Part No."
 F 7 "KOA Speer Electronics, Inc." H 8300 3850 50  0001 C CNN "Manufacturer Name"
 	1    8300 3850
@@ -77,9 +77,10 @@ F 1 "10uF" V 5800 3650 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 5788 3450 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 5750 3600 50  0001 C CNN
 F 4 "10µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)" H 5750 3600 50  0001 C CNN "Description"
-F 5 "1276-2405-1-ND" H 5750 3600 50  0001 C CNN "Digikey Part No."
+F 5 "1276-2405-1-ND" H 5750 3600 50  0001 C CNN "Source Part No."
 F 6 "CL21A106KQCLRNC" H 5750 3600 50  0001 C CNN "Manufacturer Part No."
 F 7 "Samsung Electro-Mechanics" H 5750 3600 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 5750 3600 50  0001 C CNN "Source"
 	1    5750 3600
 	1    0    0    -1  
 $EndComp
@@ -92,9 +93,10 @@ F 1 "470uF" V 5500 3750 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:UCD1E471MNL1GS" H 5450 3600 50  0001 C CNN
 F 3 "https://www.nichicon.co.jp/english/products/pdfs/e-ucd.pdf" H 5450 3600 50  0001 C CNN
 F 4 "470µF 25V Aluminum Electrolytic Capacitors Radial, Can - SMD " H 5450 3600 50  0001 C CNN "Description"
-F 5 "493-6386-1-ND" H 5450 3600 50  0001 C CNN "Digikey Part No."
+F 5 "493-6386-1-ND" H 5450 3600 50  0001 C CNN "Source Part No."
 F 6 "UCD1E471MNL1GS" H 5450 3600 50  0001 C CNN "Manufacturer Part No."
 F 7 "Nichicon" H 5450 3600 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 5450 3600 50  0001 C CNN "Source"
 	1    5450 3600
 	1    0    0    -1  
 $EndComp
@@ -111,9 +113,10 @@ F 1 "10uF" V 8700 3650 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 8688 3450 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 8650 3600 50  0001 C CNN
 F 4 "10µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)" H 8650 3600 50  0001 C CNN "Description"
-F 5 "1276-2405-1-ND" H 8650 3600 50  0001 C CNN "Digikey Part No."
+F 5 "1276-2405-1-ND" H 8650 3600 50  0001 C CNN "Source Part No."
 F 6 "CL21A106KQCLRNC" H 8650 3600 50  0001 C CNN "Manufacturer Part No."
 F 7 "Samsung Electro-Mechanics" H 8650 3600 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 8650 3600 50  0001 C CNN "Source"
 	1    8650 3600
 	1    0    0    -1  
 $EndComp
@@ -126,9 +129,10 @@ F 1 "470uF" V 9000 3750 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:UCD1E471MNL1GS" H 8950 3600 50  0001 C CNN
 F 3 "https://www.nichicon.co.jp/english/products/pdfs/e-ucd.pdf" H 8950 3600 50  0001 C CNN
 F 4 "470µF 25V Aluminum Electrolytic Capacitors Radial, Can - SMD " H 8950 3600 50  0001 C CNN "Description"
-F 5 "493-6386-1-ND" H 8950 3600 50  0001 C CNN "Digikey Part No."
+F 5 "493-6386-1-ND" H 8950 3600 50  0001 C CNN "Source Part No."
 F 6 "UCD1E471MNL1GS" H 8950 3600 50  0001 C CNN "Manufacturer Part No."
 F 7 "Nichicon" H 8950 3600 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 8950 3600 50  0001 C CNN "Source"
 	1    8950 3600
 	1    0    0    -1  
 $EndComp
@@ -141,9 +145,10 @@ F 1 "1k" V 9400 3150 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 9300 3250 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 9300 3250 50  0001 C CNN
 F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 9300 3250 50  0001 C CNN "Description"
-F 5 "2019-RK73H2ATTD1001FCT-ND" H 9300 3250 50  0001 C CNN "Digikey Part No."
+F 5 "2019-RK73H2ATTD1001FCT-ND" H 9300 3250 50  0001 C CNN "Source Part No."
 F 6 "RK73H2ATTD1001F" H 9300 3250 50  0001 C CNN "Manufacturer Part No."
 F 7 "KOA Speer Electronics, Inc." H 9300 3250 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 9300 3250 50  0001 C CNN "Source"
 	1    9300 3250
 	1    0    0    -1  
 $EndComp
@@ -166,9 +171,10 @@ F 1 "51k" V 6450 3550 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 6350 3650 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 6350 3650 50  0001 C CNN
 F 4 "51 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 6350 3650 50  0001 C CNN "Description"
-F 5 "2019-RK73H2ATTD5102FCT-ND" H 6350 3650 50  0001 C CNN "Digikey Part No."
+F 5 "2019-RK73H2ATTD5102FCT-ND" H 6350 3650 50  0001 C CNN "Source Part No."
 F 6 "RK73H2ATTD5102F" H 6350 3650 50  0001 C CNN "Manufacturer Part No."
 F 7 "KOA Speer Electronics, Inc." H 6350 3650 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 6350 3650 50  0001 C CNN "Source"
 	1    6350 3650
 	0    1    1    0   
 $EndComp
@@ -181,9 +187,10 @@ F 1 "2.2nF" V 6200 3600 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 6188 3700 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 6150 3850 50  0001 C CNN
 F 4 "2200pF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)" H 6150 3850 50  0001 C CNN "Description"
-F 5 "1276-1171-1-ND" H 6150 3850 50  0001 C CNN "Digikey Part No."
+F 5 "1276-1171-1-ND" H 6150 3850 50  0001 C CNN "Source Part No."
 F 6 "CL21B222KBANNNC" H 6150 3850 50  0001 C CNN "Manufacturer Part No."
 F 7 "Samsung Electro-Mechanics" H 6150 3850 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 6150 3850 50  0001 C CNN "Source"
 	1    6150 3850
 	1    0    0    -1  
 $EndComp
@@ -196,9 +203,10 @@ F 1 "47pF" V 6650 3600 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 6638 3700 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 6600 3850 50  0001 C CNN
 F 4 "47pF ±5% 50V Ceramic Capacitor C0G, NP0 0805 (2012 Metric)" H 6600 3850 50  0001 C CNN "Description"
-F 5 "1276-1156-1-ND" H 6600 3850 50  0001 C CNN "Digikey Part No."
+F 5 "1276-1156-1-ND" H 6600 3850 50  0001 C CNN "Source Part No."
 F 6 "CL21C470JBANNNC" H 6600 3850 50  0001 C CNN "Manufacturer Part No."
 F 7 "Samsung Electro-Mechanics" H 6600 3850 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 6600 3850 50  0001 C CNN "Source"
 	1    6600 3850
 	1    0    0    -1  
 $EndComp
@@ -235,9 +243,10 @@ F 1 "1uF" V 6550 2950 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 6538 3100 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 6500 3250 50  0001 C CNN
 F 4 "1µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" H 6500 3250 50  0001 C CNN "Description"
-F 5 "1276-2931-1-ND" H 6500 3250 50  0001 C CNN "Digikey Part No."
+F 5 "1276-2931-1-ND" H 6500 3250 50  0001 C CNN "Source Part No."
 F 6 "CL21B105KOFNNWE" H 6500 3250 50  0001 C CNN "Manufacturer Part No."
 F 7 "Samsung Electro-Mechanics" H 6500 3250 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 6500 3250 50  0001 C CNN "Source"
 	1    6500 3250
 	0    1    1    0   
 $EndComp
@@ -258,9 +267,10 @@ F 1 "2.5x5.0" V 9750 3000 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0_w_TH" H 9650 2950 50  0001 C CNN
 F 3 "None" H 9650 2950 50  0001 C CNN
 F 4 "Wire solder point" H 9650 2950 50  0001 C CNN "Description"
-F 5 "None" H 9650 2950 50  0001 C CNN "Digikey Part No."
+F 5 "None" H 9650 2950 50  0001 C CNN "Source Part No."
 F 6 "None" H 9650 2950 50  0001 C CNN "Manufacturer Part No."
 F 7 "None" H 9650 2950 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 9650 2950 50  0001 C CNN "Source"
 	1    9650 2950
 	0    1    1    0   
 $EndComp
@@ -298,9 +308,10 @@ F 1 "10nF" V 7950 4000 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 7938 3800 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 7900 3950 50  0001 C CNN
 F 4 "10000pF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)" H 7900 3950 50  0001 C CNN "Description"
-F 5 "1276-1015-1-ND" H 7900 3950 50  0001 C CNN "Digikey Part No."
+F 5 "1276-1015-1-ND" H 7900 3950 50  0001 C CNN "Source Part No."
 F 6 "CL21B103KBANNNC" H 7900 3950 50  0001 C CNN "Manufacturer Part No."
 F 7 "Samsung Electro-Mechanics" H 7900 3950 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 7900 3950 50  0001 C CNN "Source"
 	1    7900 3950
 	1    0    0    -1  
 $EndComp
@@ -315,9 +326,10 @@ F 1 "MCP73833T" H 5375 1631 60  0000 C CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:MCP73833" H 5400 650 60  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22005b.pdf" H 5375 1631 60  0001 C CNN
 F 4 "Charger IC" H 5400 1250 50  0001 C CNN "Description"
-F 5 "MCP73833T-AMI/UNCT-ND" H 5400 1250 50  0001 C CNN "Digikey Part No."
+F 5 "MCP73833T-AMI/UNCT-ND" H 5400 1250 50  0001 C CNN "Source Part No."
 F 6 "MCP73833T-AMI/UN" H 5400 1250 50  0001 C CNN "Manufacturer Part No."
 F 7 "Microchip Technology" H 5400 1250 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 5400 1250 50  0001 C CNN "Source"
 	1    5400 1250
 	1    0    0    -1  
 $EndComp
@@ -332,9 +344,10 @@ F 1 "GREEN" H 3350 1100 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:LED_0805_2012Metric_HandSolder" H 3450 1200 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 3450 1200 50  0001 C CNN
 F 4 "Green 570nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 3450 1200 50  0001 C CNN "Description"
-F 5 "732-4986-1-ND" H 3450 1200 50  0001 C CNN "Digikey Part No."
+F 5 "732-4986-1-ND" H 3450 1200 50  0001 C CNN "Source Part No."
 F 6 "150080VS75000" H 3450 1200 50  0001 C CNN "Manufacturer Part No."
 F 7 "Würth Elektronik" H 3450 1200 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 3450 1200 50  0001 C CNN "Source"
 	1    3450 1200
 	0    -1   -1   0   
 $EndComp
@@ -347,9 +360,10 @@ F 1 "RED" H 3700 1100 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:LED_0805_2012Metric_HandSolder" H 3800 1200 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150080RS75000.pdf" H 3800 1200 50  0001 C CNN
 F 4 "Red 625nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 3800 1200 50  0001 C CNN "Description"
-F 5 "732-4984-1-ND" H 3800 1200 50  0001 C CNN "Digikey Part No."
+F 5 "732-4984-1-ND" H 3800 1200 50  0001 C CNN "Source Part No."
 F 6 "150080RS75000" H 3800 1200 50  0001 C CNN "Manufacturer Part No."
 F 7 "Würth Elektronik" H 3800 1200 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 3800 1200 50  0001 C CNN "Source"
 	1    3800 1200
 	0    -1   -1   0   
 $EndComp
@@ -362,9 +376,10 @@ F 1 "1k" V 4550 1250 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 4450 1350 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 4450 1350 50  0001 C CNN
 F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 4450 1350 50  0001 C CNN "Description"
-F 5 "2019-RK73H2ATTD1001FCT-ND" H 4450 1350 50  0001 C CNN "Digikey Part No."
+F 5 "2019-RK73H2ATTD1001FCT-ND" H 4450 1350 50  0001 C CNN "Source Part No."
 F 6 "RK73H2ATTD1001F" H 4450 1350 50  0001 C CNN "Manufacturer Part No."
 F 7 "KOA Speer Electronics, Inc." H 4450 1350 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 4450 1350 50  0001 C CNN "Source"
 	1    4450 1350
 	0    1    1    0   
 $EndComp
@@ -385,9 +400,10 @@ F 1 "1k" V 4200 1400 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 4100 1500 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 4100 1500 50  0001 C CNN
 F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 4100 1500 50  0001 C CNN "Description"
-F 5 "2019-RK73H2ATTD1001FCT-ND" H 4100 1500 50  0001 C CNN "Digikey Part No."
+F 5 "2019-RK73H2ATTD1001FCT-ND" H 4100 1500 50  0001 C CNN "Source Part No."
 F 6 "RK73H2ATTD1001F" H 4100 1500 50  0001 C CNN "Manufacturer Part No."
 F 7 "KOA Speer Electronics, Inc." H 4100 1500 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 4100 1500 50  0001 C CNN "Source"
 	1    4100 1500
 	0    1    1    0   
 $EndComp
@@ -400,9 +416,10 @@ F 1 "1k" V 3850 1550 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 3750 1650 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 3750 1650 50  0001 C CNN
 F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 3750 1650 50  0001 C CNN "Description"
-F 5 "2019-RK73H2ATTD1001FCT-ND" H 3750 1650 50  0001 C CNN "Digikey Part No."
+F 5 "2019-RK73H2ATTD1001FCT-ND" H 3750 1650 50  0001 C CNN "Source Part No."
 F 6 "RK73H2ATTD1001F" H 3750 1650 50  0001 C CNN "Manufacturer Part No."
 F 7 "KOA Speer Electronics, Inc." H 3750 1650 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 3750 1650 50  0001 C CNN "Source"
 	1    3750 1650
 	0    1    1    0   
 $EndComp
@@ -416,10 +433,11 @@ F 0 "U8" H 7250 3975 50  0000 C CNN
 F 1 "PAM2423AECADJR" H 7250 3884 50  0000 C CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:PAM2423AECADJR" H 7400 3100 50  0001 C CIN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Diodes%20PDFs/PAM2421,22,23.pdf" H 7200 3550 50  0001 C CNN
-F 4 "Boost Switching Regulator IC " H 7250 3550 50  0001 C CNN "Description"
-F 5 "PAM2423AECADJRDICT-ND" H 7250 3550 50  0001 C CNN "Digikey Part No."
-F 6 "PAM2423AECADJR" H 7250 3550 50  0001 C CNN "Manufacturer Part No."
+F 4 "Boost Switching Regulator IC Positive Adjustable 2.7V 1 Output 3A" H 7250 3550 50  0001 C CNN "Description"
+F 5 "PAM2421AECADJRDICT-ND" H 7250 3550 50  0001 C CNN "Source Part No."
+F 6 "PAM2421AECADJR" H 7250 3550 50  0001 C CNN "Manufacturer Part No."
 F 7 "Diodes Incorporated" H 7250 3550 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 7250 3550 50  0001 C CNN "Source"
 	1    7250 3550
 	1    0    0    -1  
 $EndComp
@@ -476,12 +494,13 @@ U 1 1 40108BB9
 P 7200 2950
 F 0 "L1" V 7250 2950 59  0000 C TNN
 F 1 "6.8uH" V 7100 2950 59  0000 C TNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:L_MGV1004" H 7200 2950 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Steward%20PDFs/MGV1004.pdf" H 7200 2950 50  0001 C CNN
-F 4 "6.8µH Shielded Molded Inductor 8A 23.3mOhm" H 7200 2950 50  0001 C CNN "Description"
-F 5 "240-2938-1-ND" H 7200 2950 50  0001 C CNN "Digikey Part No."
-F 6 "MGV10046R8M-10" H 7200 2950 50  0001 C CNN "Manufacturer Part No."
+F 2 "Li-ion 5A Boost 1A Charge Protect:L_MGV0605" H 7200 2950 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Steward%20PDFs/MGV0605.pdf" H 7200 2950 50  0001 C CNN
+F 4 "6.8µH Shielded Molded Inductor 5.5A 44.6mOhm Max Nonstandard" H 7200 2950 50  0001 C CNN "Description"
+F 5 "240-2915-1-ND" H 7200 2950 50  0001 C CNN "Source Part No."
+F 6 "MGV06056R8M-10" H 7200 2950 50  0001 C CNN "Manufacturer Part No."
 F 7 "Laird-Signal Integrity Products" H 7200 2950 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 7200 2950 50  0001 C CNN "Source"
 	1    7200 2950
 	0    -1   -1   0   
 $EndComp
@@ -494,9 +513,10 @@ F 1 "30k" V 8400 3150 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 8300 3250 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 8300 3250 50  0001 C CNN
 F 4 "30 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 8300 3250 50  0001 C CNN "Description"
-F 5 "2019-RK73H2ATTD3002FCT-ND" H 8300 3250 50  0001 C CNN "Digikey Part No."
+F 5 "2019-RK73H2ATTD3002FCT-ND" H 8300 3250 50  0001 C CNN "Source Part No."
 F 6 "RK73H2ATTD3002F" H 8300 3250 50  0001 C CNN "Manufacturer Part No."
 F 7 "KOA Speer Electronics, Inc." H 8300 3250 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 8300 3250 50  0001 C CNN "Source"
 	1    8300 3250
 	1    0    0    -1  
 $EndComp
@@ -509,9 +529,10 @@ F 1 "2.5x5.0" V 9750 4200 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0_w_TH" H 9650 4150 50  0001 C CNN
 F 3 "None" H 9650 4150 50  0001 C CNN
 F 4 "Wire solder point" H 9650 4150 50  0001 C CNN "Description"
-F 5 "None" H 9650 4150 50  0001 C CNN "Digikey Part No."
+F 5 "None" H 9650 4150 50  0001 C CNN "Source Part No."
 F 6 "None" H 9650 4150 50  0001 C CNN "Manufacturer Part No."
 F 7 "None" H 9650 4150 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 9650 4150 50  0001 C CNN "Source"
 	1    9650 4150
 	0    1    1    0   
 $EndComp
@@ -566,9 +587,10 @@ F 1 "RED" H 9200 3700 59  0000 L BNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:LED_0805_2012Metric_HandSolder" H 9300 3850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150080RS75000.pdf" H 9300 3850 50  0001 C CNN
 F 4 "Red 625nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 9300 3850 50  0001 C CNN "Description"
-F 5 "732-4984-1-ND" H 9300 3850 50  0001 C CNN "Digikey Part No."
+F 5 "732-4984-1-ND" H 9300 3850 50  0001 C CNN "Source Part No."
 F 6 "150080RS75000" H 9300 3850 50  0001 C CNN "Manufacturer Part No."
 F 7 "Würth Elektronik" H 9300 3850 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 9300 3850 50  0001 C CNN "Source"
 	1    9300 3850
 	0    -1   -1   0   
 $EndComp
@@ -581,9 +603,10 @@ F 1 "1.54k" V 6550 1250 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 6450 1350 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 6450 1350 50  0001 C CNN
 F 4 "1.54 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 6450 1350 50  0001 C CNN "Description"
-F 5 "2019-RK73H2ATTD1541FCT-ND" H 6450 1350 50  0001 C CNN "Digikey Part No."
+F 5 "2019-RK73H2ATTD1541FCT-ND" H 6450 1350 50  0001 C CNN "Source Part No."
 F 6 "RK73H2ATTD1541F" H 6450 1350 50  0001 C CNN "Manufacturer Part No."
 F 7 "KOA Speer Electronics, Inc." H 6450 1350 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 6450 1350 50  0001 C CNN "Source"
 	1    6450 1350
 	0    1    1    0   
 $EndComp
@@ -600,9 +623,10 @@ F 1 "22uF" V 7600 1400 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 7588 1200 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 7550 1350 50  0001 C CNN
 F 4 "22µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)" H 7550 1350 50  0001 C CNN "Description"
-F 5 "1276-6687-1-ND" H 7550 1350 50  0001 C CNN "Digikey Part No."
+F 5 "1276-6687-1-ND" H 7550 1350 50  0001 C CNN "Source Part No."
 F 6 "CL21A226KQCLRNC" H 7550 1350 50  0001 C CNN "Manufacturer Part No."
 F 7 "Samsung Electro-Mechanics" H 7550 1350 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 7550 1350 50  0001 C CNN "Source"
 	1    7550 1350
 	1    0    0    -1  
 $EndComp
@@ -615,9 +639,10 @@ F 1 "22uF" V 2750 1400 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 2738 1200 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 2700 1350 50  0001 C CNN
 F 4 "22µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)" H 2700 1350 50  0001 C CNN "Description"
-F 5 "1276-6687-1-ND" H 2700 1350 50  0001 C CNN "Digikey Part No."
+F 5 "1276-6687-1-ND" H 2700 1350 50  0001 C CNN "Source Part No."
 F 6 "CL21A226KQCLRNC" H 2700 1350 50  0001 C CNN "Manufacturer Part No."
 F 7 "Samsung Electro-Mechanics" H 2700 1350 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 2700 1350 50  0001 C CNN "Source"
 	1    2700 1350
 	1    0    0    -1  
 $EndComp
@@ -682,9 +707,10 @@ F 1 "AP9101CK6" H 2900 3400 50  0000 L BNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:SOT-23-6" H 2800 3150 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP9101C.pdf" H 2800 3200 50  0001 C CNN
 F 4 "Protection IC" H 2800 3150 50  0001 C CNN "Description"
-F 5 "AP9101CK6-AYTRG1DICT-ND" H 2800 3150 50  0001 C CNN "Digikey Part No."
+F 5 "AP9101CK6-AYTRG1DICT-ND" H 2800 3150 50  0001 C CNN "Source Part No."
 F 6 "AP9101CK6-AYTRG1" H 2800 3150 50  0001 C CNN "Manufacturer Part No."
 F 7 "Diodes Incorporated" H 2800 3150 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 2800 3150 50  0001 C CNN "Source"
 	1    2800 3150
 	1    0    0    -1  
 $EndComp
@@ -697,9 +723,10 @@ F 1 "2.7k" V 3550 3250 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 3450 3350 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 3450 3350 50  0001 C CNN
 F 4 "2.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 3450 3350 50  0001 C CNN "Description"
-F 5 "2019-RK73H2ATTD2701FCT-ND" H 3450 3350 50  0001 C CNN "Digikey Part No."
+F 5 "2019-RK73H2ATTD2701FCT-ND" H 3450 3350 50  0001 C CNN "Source Part No."
 F 6 "RK73H2ATTD2701F" H 3450 3350 50  0001 C CNN "Manufacturer Part No."
 F 7 "KOA Speer Electronics, Inc." H 3450 3350 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 3450 3350 50  0001 C CNN "Source"
 	1    3450 3350
 	1    0    0    -1  
 $EndComp
@@ -712,9 +739,10 @@ F 1 "10k" V 7300 1600 50  0000 L BNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 7150 1750 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/503021/tpd_commercial_ntc-thermistor_ntcg_en.pdf" H 7150 1750 50  0001 C CNN
 F 4 "NTC Thermistor 10k" H 7150 1700 50  0001 C CNN "Description"
-F 5 "445-175460-1-ND" H 7150 1700 50  0001 C CNN "Digikey Part No."
+F 5 "445-175460-1-ND" H 7150 1700 50  0001 C CNN "Source Part No."
 F 6 "NTCG203NH103JT1" H 7150 1700 50  0001 C CNN "Manufacturer Part No."
 F 7 "TDK Corporation" H 7150 1700 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 7150 1700 50  0001 C CNN "Source"
 	1    7150 1700
 	1    0    0    -1  
 $EndComp
@@ -727,9 +755,10 @@ F 1 "1k" V 6350 1600 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 6250 1700 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 6250 1700 50  0001 C CNN
 F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 6250 1700 50  0001 C CNN "Description"
-F 5 "2019-RK73H2ATTD1001FCT-ND" H 6250 1700 50  0001 C CNN "Digikey Part No."
+F 5 "2019-RK73H2ATTD1001FCT-ND" H 6250 1700 50  0001 C CNN "Source Part No."
 F 6 "RK73H2ATTD1001F" H 6250 1700 50  0001 C CNN "Manufacturer Part No."
 F 7 "KOA Speer Electronics, Inc." H 6250 1700 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 6250 1700 50  0001 C CNN "Source"
 	1    6250 1700
 	1    0    0    -1  
 $EndComp
@@ -742,9 +771,10 @@ F 1 "69.8k" V 6800 1600 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 6700 1700 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 6700 1700 50  0001 C CNN
 F 4 "69.8 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 6700 1700 50  0001 C CNN "Description"
-F 5 "2019-RK73H2ATTD6982FCT-ND" H 6700 1700 50  0001 C CNN "Digikey Part No."
+F 5 "2019-RK73H2ATTD6982FCT-ND" H 6700 1700 50  0001 C CNN "Source Part No."
 F 6 "RK73H2ATTD6982F" H 6700 1700 50  0001 C CNN "Manufacturer Part No."
 F 7 "KOA Speer Electronics, Inc." H 6700 1700 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 6700 1700 50  0001 C CNN "Source"
 	1    6700 1700
 	1    0    0    -1  
 $EndComp
@@ -757,9 +787,10 @@ F 1 "ECH8695R-TL-W" H 2400 3450 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:SOT65P280X95-8N" H 2850 3300 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/ECH8695R-D.PDF" H 3050 3950 50  0001 L CNN
 F 4 "Mosfet Array 2 N-Channel (Dual) Common Drain 24V 11A 1.4W" H 2800 3850 50  0001 C CNN "Description"
-F 5 "ECH8695R-TL-WOSCT-ND" H 2800 3850 50  0001 C CNN "Digikey Part No."
+F 5 "ECH8695R-TL-WOSCT-ND" H 2800 3850 50  0001 C CNN "Source Part No."
 F 6 "ECH8695R-TL-W" H 2800 3850 50  0001 C CNN "Manufacturer Part No."
 F 7 "ON Semiconductor" H 2800 3850 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 2800 3850 50  0001 C CNN "Source"
 	1    2800 3850
 	1    0    0    -1  
 $EndComp
@@ -793,9 +824,10 @@ F 1 "100nF" V 1950 3450 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 1938 3250 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 1900 3400 50  0001 C CNN
 F 4 "0.1µF ±20% 50V Ceramic Capacitor X7R 0805 (2012 Metric)" H 1900 3400 50  0001 C CNN "Description"
-F 5 "1276-2450-1-ND" H 1900 3400 50  0001 C CNN "Digikey Part No."
+F 5 "1276-2450-1-ND" H 1900 3400 50  0001 C CNN "Source Part No."
 F 6 "CL21B104MBCNNNC" H 1900 3400 50  0001 C CNN "Manufacturer Part No."
 F 7 "Samsung Electro-Mechanics" H 1900 3400 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 1900 3400 50  0001 C CNN "Source"
 	1    1900 3400
 	1    0    0    -1  
 $EndComp
@@ -821,12 +853,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR019
 U 1 1 5EE79A7F
-P 5150 4250
-F 0 "#PWR019" H 5150 4000 50  0001 C CNN
-F 1 "GND" H 5155 4077 50  0000 C CNN
-F 2 "" H 5150 4250 50  0001 C CNN
-F 3 "" H 5150 4250 50  0001 C CNN
-	1    5150 4250
+P 5050 4250
+F 0 "#PWR019" H 5050 4000 50  0001 C CNN
+F 1 "GND" H 5055 4077 50  0000 C CNN
+F 2 "" H 5050 4250 50  0001 C CNN
+F 3 "" H 5050 4250 50  0001 C CNN
+	1    5050 4250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -838,9 +870,10 @@ F 1 "330" V 1750 2700 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 1650 2800 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 1650 2800 50  0001 C CNN
 F 4 "330 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 1650 2800 50  0001 C CNN "Description"
-F 5 "2019-RK73H2ATTD3300FCT-ND" H 1650 2800 50  0001 C CNN "Digikey Part No."
+F 5 "2019-RK73H2ATTD3300FCT-ND" H 1650 2800 50  0001 C CNN "Source Part No."
 F 6 "RK73H2ATTD3300F" H 1650 2800 50  0001 C CNN "Manufacturer Part No."
 F 7 "KOA Speer Electronics, Inc." H 1650 2800 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 1650 2800 50  0001 C CNN "Source"
 	1    1650 2800
 	0    1    1    0   
 $EndComp
@@ -850,9 +883,9 @@ Wire Wire Line
 	1800 2800 1900 2800
 Connection ~ 1900 2800
 Wire Wire Line
-	5150 4250 5150 4150
+	5050 4250 5050 4150
 Wire Wire Line
-	5150 4150 5450 4150
+	5050 4150 5450 4150
 Connection ~ 5450 4150
 Text Label 7500 2950 0    50   ~ 0
 SW
@@ -860,14 +893,10 @@ Text Label 7700 3500 0    50   ~ 0
 FB
 Text Label 7700 3650 0    50   ~ 0
 SS
-Text Label 6200 2950 0    50   ~ 0
-BOOSTVIN
 Text Label 6650 3650 0    50   ~ 0
 COMP
 Text Label 8800 2950 0    50   ~ 0
 BOOSTVOUT
-Text Label 5150 2950 0    50   ~ 0
-BATT+
 Text Label 1100 2800 0    50   ~ 0
 BATT+
 Text Label 1100 3950 0    50   ~ 0
@@ -917,17 +946,18 @@ Wire Wire Line
 Wire Wire Line
 	7700 2950 7800 2950
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:D_NTS12120EMFST1G D29
+L Li-ion_5A_Boost_1A_Charge_Protect:D D29
 U 1 1 E0548A51
 P 7950 2950
 F 0 "D29" H 7850 3100 59  0000 L TNN
-F 1 "NTS12120EMFST1G" H 7250 2850 59  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:NTS12120EMFST1G" H 7950 2950 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/NTS12120EMFS-D.PDF" H 7950 2950 50  0001 C CNN
-F 4 "Diode Schottky 120V 12A " H 7950 2950 50  0001 C CNN "Description"
-F 5 "NTS12120EMFST1GOSCT-ND" H 7950 2950 50  0001 C CNN "Digikey Part No."
-F 6 "NTS12120EMFST1G" H 7950 2950 50  0001 C CNN "Manufacturer Part No."
-F 7 "ON Semiconductor" H 7950 2950 50  0001 C CNN "Manufacturer Name"
+F 1 "5A 100V" H 7250 2850 59  0000 L CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:DO-214AC" H 7950 2950 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/87610/vssaf510.pdf" H 7950 2950 50  0001 C CNN
+F 4 "Diode Schottky 100V 5A Surface Mount DO-221AC (SlimSMA)" H 7950 2950 50  0001 C CNN "Description"
+F 5 "VSSAF510-M3/HGICT-ND" H 7950 2950 50  0001 C CNN "Source Part No."
+F 6 "VSSAF510-M3/H" H 7950 2950 50  0001 C CNN "Manufacturer Part No."
+F 7 "Vishay Semiconductor Diodes Division" H 7950 2950 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 7950 2950 50  0001 C CNN "Source"
 	1    7950 2950
 	-1   0    0    1   
 $EndComp
@@ -944,64 +974,34 @@ Connection ~ 2150 3950
 Wire Wire Line
 	3350 3950 3450 3950
 Connection ~ 3450 3950
-Wire Wire Line
-	7800 2900 7800 2950
-Connection ~ 7800 2950
-Wire Wire Line
-	7800 2950 7800 3000
-Wire Wire Line
-	8100 3000 8150 3000
-Wire Wire Line
-	8100 3050 8150 3050
-Wire Wire Line
-	8150 3000 8150 2950
-Wire Wire Line
-	8150 3000 8150 3050
-Connection ~ 8150 3000
 Text Label 3300 3150 0    50   ~ 0
 PVM
-Wire Wire Line
-	8150 2950 8100 2950
-Connection ~ 8150 2950
 Connection ~ 8300 2950
-Wire Wire Line
-	8150 2950 8300 2950
-Connection ~ 8150 2900
-Wire Wire Line
-	8150 2900 8150 2950
-Wire Wire Line
-	8100 2900 8150 2900
-Wire Wire Line
-	8150 2900 8150 2850
-Wire Wire Line
-	8100 2850 8150 2850
 Wire Wire Line
 	5800 5500 5450 5500
 Text Label 7500 5850 0    50   ~ 0
 BATT-
-Wire Wire Line
-	7000 5500 7350 5500
 Text Label 7500 5500 0    50   ~ 0
 BATT+
 Wire Notes Line
-	6630 5530 6530 5530
+	1480 5530 1380 5530
 Wire Notes Line
-	6530 5530 6530 5570
+	1380 5530 1380 5570
 Wire Notes Line
-	6530 5570 6490 5570
+	1380 5570 1340 5570
 Wire Notes Line
-	6490 5570 6490 5870
+	1340 5570 1340 5870
 Wire Notes Line
-	6490 5870 6670 5870
+	1340 5870 1520 5870
 Wire Notes Line
-	6670 5870 6670 5570
+	1520 5870 1520 5570
 Wire Notes Line
-	6670 5570 6630 5570
+	1520 5570 1480 5570
 Wire Notes Line
-	6630 5570 6630 5530
-Text Notes 6550 5510 0    59   ~ 0
+	1480 5570 1480 5530
+Text Notes 1400 5510 0    59   ~ 0
 +
-Text Notes 6550 5930 0    59   ~ 0
+Text Notes 1400 5930 0    59   ~ 0
 -
 Wire Notes Line
 	4670 5510 4670 5580
@@ -1040,9 +1040,10 @@ F 1 "2.5x5.0" V 6900 5700 59  0000 R CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0_w_TH" H 7000 5500 50  0001 C CNN
 F 3 "None" H 7000 5500 50  0001 C CNN
 F 4 "Wire solder point" H 7000 5500 50  0001 C CNN "Description"
-F 5 "None" H 7000 5500 50  0001 C CNN "Digikey Part No."
+F 5 "None" H 7000 5500 50  0001 C CNN "Source Part No."
 F 6 "None" H 7000 5500 50  0001 C CNN "Manufacturer Part No."
 F 7 "None" H 7000 5500 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 7000 5500 50  0001 C CNN "Source"
 	1    7000 5500
 	0    -1   -1   0   
 $EndComp
@@ -1055,9 +1056,10 @@ F 1 "2.5x5.0" V 6900 6050 59  0000 R CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0_w_TH" H 7000 5850 50  0001 C CNN
 F 3 "None" H 7000 5850 50  0001 C CNN
 F 4 "Wire solder point" H 7000 5850 50  0001 C CNN "Description"
-F 5 "None" H 7000 5850 50  0001 C CNN "Digikey Part No."
+F 5 "None" H 7000 5850 50  0001 C CNN "Source Part No."
 F 6 "None" H 7000 5850 50  0001 C CNN "Manufacturer Part No."
 F 7 "None" H 7000 5850 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 7000 5850 50  0001 C CNN "Source"
 	1    7000 5850
 	0    -1   -1   0   
 $EndComp
@@ -1070,9 +1072,10 @@ F 1 "2.5x5.0" V 5000 5700 59  0000 R CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0_w_TH" H 5100 5500 50  0001 C CNN
 F 3 "None" H 5100 5500 50  0001 C CNN
 F 4 "Wire solder point" H 5100 5500 50  0001 C CNN "Description"
-F 5 "None" H 5100 5500 50  0001 C CNN "Digikey Part No."
+F 5 "None" H 5100 5500 50  0001 C CNN "Source Part No."
 F 6 "None" H 5100 5500 50  0001 C CNN "Manufacturer Part No."
 F 7 "None" H 5100 5500 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 5100 5500 50  0001 C CNN "Source"
 	1    5100 5500
 	0    -1   -1   0   
 $EndComp
@@ -1085,9 +1088,10 @@ F 1 "2.5x5.0" V 5000 6050 59  0000 R CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:Pad_3.0-5.0_w_TH" H 5100 5850 50  0001 C CNN
 F 3 "None" H 5100 5850 50  0001 C CNN
 F 4 "Wire solder point" H 5100 5850 50  0001 C CNN "Description"
-F 5 "None" H 5100 5850 50  0001 C CNN "Digikey Part No."
+F 5 "None" H 5100 5850 50  0001 C CNN "Source Part No."
 F 6 "None" H 5100 5850 50  0001 C CNN "Manufacturer Part No."
 F 7 "None" H 5100 5850 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 5100 5850 50  0001 C CNN "Source"
 	1    5100 5850
 	0    -1   -1   0   
 $EndComp
@@ -1143,22 +1147,6 @@ Connection ~ 5450 5850
 Wire Wire Line
 	5450 5850 5800 5850
 $Comp
-L power:PWR_FLAG #FLG05
-U 1 1 5EC258B9
-P 7350 5450
-F 0 "#FLG05" H 7350 5525 50  0001 C CNN
-F 1 "PWR_FLAG" H 7350 5623 50  0000 C CNN
-F 2 "" H 7350 5450 50  0001 C CNN
-F 3 "~" H 7350 5450 50  0001 C CNN
-	1    7350 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7350 5450 7350 5500
-Connection ~ 7350 5500
-Wire Wire Line
-	7350 5500 7750 5500
-$Comp
 L power:PWR_FLAG #FLG06
 U 1 1 5EC3E2A7
 P 7350 5900
@@ -1174,7 +1162,7 @@ Wire Wire Line
 Connection ~ 7350 5850
 Wire Wire Line
 	7350 5850 7750 5850
-Text Notes 4750 6500 0    79   ~ 16
+Text Notes 6000 6500 0    79   ~ 16
 Connectors
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:LED D26
@@ -1185,86 +1173,223 @@ F 1 "GREEN" H 3000 1100 50  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:LED_0805_2012Metric_HandSolder" H 3100 1200 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 3100 1200 50  0001 C CNN
 F 4 "Green 570nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 3100 1200 50  0001 C CNN "Description"
-F 5 "732-4986-1-ND" H 3100 1200 50  0001 C CNN "Digikey Part No."
+F 5 "732-4986-1-ND" H 3100 1200 50  0001 C CNN "Source Part No."
 F 6 "150080VS75000" H 3100 1200 50  0001 C CNN "Manufacturer Part No."
 F 7 "Würth Elektronik" H 3100 1200 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 3100 1200 50  0001 C CNN "Source"
 	1    3100 1200
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5150 2950 5450 2950
-$Comp
-L Frequently_Used:SW_SPST SW?
-U 1 1 5EF92BA0
-P 3250 5450
-AR Path="/5EF92BA0" Ref="SW?"  Part="1" 
-AR Path="/5EA6751D/5EF92BA0" Ref="SW?"  Part="1" 
-F 0 "SW?" H 3250 5685 50  0000 C CNN
-F 1 "SW_SPST" H 3250 5594 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 3250 5450 50  0001 C CNN
-F 3 "~" H 3250 5450 50  0001 C CNN
-	1    3250 5450
-	1    0    0    -1  
-$EndComp
+	5050 2950 5450 2950
 $Comp
 L Frequently_Used:PWR_FLAG #FLG?
 U 1 1 5EF92BAB
-P 2750 6000
+P 2200 6050
 AR Path="/5EF92BAB" Ref="#FLG?"  Part="1" 
-AR Path="/5EA6751D/5EF92BAB" Ref="#FLG?"  Part="1" 
-F 0 "#FLG?" H 2750 6075 50  0001 C CNN
-F 1 "PWR_FLAG" H 2750 6173 50  0000 C CNN
-F 2 "" H 2750 6000 50  0001 C CNN
-F 3 "~" H 2750 6000 50  0001 C CNN
-	1    2750 6000
+AR Path="/5EA6751D/5EF92BAB" Ref="#FLG02"  Part="1" 
+F 0 "#FLG02" H 2200 6125 50  0001 C CNN
+F 1 "PWR_FLAG" H 2200 6223 50  0000 C CNN
+F 2 "" H 2200 6050 50  0001 C CNN
+F 3 "~" H 2200 6050 50  0001 C CNN
+	1    2200 6050
 	-1   0    0    1   
 $EndComp
-Connection ~ 2750 5950
+Connection ~ 2200 5950
 $Comp
 L Frequently_Used:PWR_FLAG #FLG?
 U 1 1 5EF92BB2
-P 2750 5400
+P 2200 5350
 AR Path="/5EF92BB2" Ref="#FLG?"  Part="1" 
-AR Path="/5EA6751D/5EF92BB2" Ref="#FLG?"  Part="1" 
-F 0 "#FLG?" H 2750 5475 50  0001 C CNN
-F 1 "PWR_FLAG" H 2750 5573 50  0000 C CNN
-F 2 "" H 2750 5400 50  0001 C CNN
-F 3 "~" H 2750 5400 50  0001 C CNN
-	1    2750 5400
+AR Path="/5EA6751D/5EF92BB2" Ref="#FLG01"  Part="1" 
+F 0 "#FLG01" H 2200 5425 50  0001 C CNN
+F 1 "PWR_FLAG" H 2200 5523 50  0000 C CNN
+F 2 "" H 2200 5350 50  0001 C CNN
+F 3 "~" H 2200 5350 50  0001 C CNN
+	1    2200 5350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2750 5400 2750 5450
+	2200 5350 2200 5450
 Wire Wire Line
-	2750 6000 2750 5950
+	2200 6050 2200 5950
 $Comp
 L Device:Battery_Cell BT?
 U 1 1 5EF9F75F
-P 2500 5750
-F 0 "BT?" V 2245 5800 50  0000 C CNN
-F 1 "Battery_Cell" V 2336 5800 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" V 2500 5810 50  0001 C CNN
-F 3 "~" V 2500 5810 50  0001 C CNN
-	1    2500 5750
+P 2100 5750
+AR Path="/5EF9F75F" Ref="BT?"  Part="1" 
+AR Path="/5EA6751D/5EF9F75F" Ref="BT1"  Part="1" 
+F 0 "BT1" V 1845 5800 50  0000 C CNN
+F 1 "Battery_Cell" V 1936 5800 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" V 2100 5810 50  0001 C CNN
+F 3 "~" V 2100 5810 50  0001 C CNN
+	1    2100 5750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 5950 2750 5950
+	2100 5950 2200 5950
 Wire Wire Line
-	3450 5450 3800 5450
+	2100 5950 2100 5850
 Wire Wire Line
-	2500 5950 2500 5850
+	2100 5550 2100 5450
 Wire Wire Line
-	2500 5550 2500 5450
-Wire Wire Line
-	2500 5450 2750 5450
-Connection ~ 2750 5450
-Wire Wire Line
-	2750 5450 3050 5450
-Text Label 3800 5450 2    50   ~ 0
+	2100 5450 2200 5450
+Connection ~ 2200 5450
+Text Label 3950 5450 2    50   ~ 0
 BATT+
-Text Label 3800 5950 2    50   ~ 0
+Text Label 3950 5950 2    50   ~ 0
 BATT-
 Wire Wire Line
-	2750 5950 3800 5950
+	2200 5950 2600 5950
+Wire Wire Line
+	8100 2950 8300 2950
+Connection ~ 7350 5500
+Wire Wire Line
+	7350 5500 7750 5500
+Wire Wire Line
+	7000 5500 7350 5500
+Wire Wire Line
+	7350 5450 7350 5500
+$Comp
+L power:PWR_FLAG #FLG05
+U 1 1 5EC258B9
+P 7350 5450
+F 0 "#FLG05" H 7350 5525 50  0001 C CNN
+F 1 "PWR_FLAG" H 7350 5623 50  0000 C CNN
+F 2 "" H 7350 5450 50  0001 C CNN
+F 3 "~" H 7350 5450 50  0001 C CNN
+	1    7350 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Naquadah_Generator:TestPoint TP?
+U 1 1 5EDB4F62
+P 2600 5350
+F 0 "TP?" H 2600 5650 50  0000 C CNN
+F 1 "TestPoint" H 2500 5100 50  0001 L CNN
+F 2 "Frequently_Used:Pad_2.5-2.5" H 2800 5350 50  0001 C CNN
+F 3 "None" H 2800 5350 50  0001 C CNN
+F 4 "BATT+" H 2600 5550 50  0000 C CNN "Name"
+F 5 "None" H 2600 5350 50  0001 C CNN "Description"
+F 6 "None" H 2600 5350 50  0001 C CNN "Source Part No."
+F 7 "None" H 2600 5350 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 2600 5350 50  0001 C CNN "Manufacturer Part No."
+F 9 "None" H 2600 5350 50  0001 C CNN "Source"
+	1    2600 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 5450 2600 5450
+Wire Wire Line
+	2600 5350 2600 5450
+Connection ~ 2600 5450
+$Comp
+L Naquadah_Generator:TestPoint TP?
+U 1 1 5EDC8A6F
+P 2600 6050
+F 0 "TP?" H 2600 6350 50  0000 C CNN
+F 1 "TestPoint" H 2500 5800 50  0001 L CNN
+F 2 "Frequently_Used:Pad_2.5-2.5" H 2800 6050 50  0001 C CNN
+F 3 "None" H 2800 6050 50  0001 C CNN
+F 4 "BATT-" H 2600 6250 50  0000 C CNN "Name"
+F 5 "None" H 2600 6050 50  0001 C CNN "Description"
+F 6 "None" H 2600 6050 50  0001 C CNN "Source Part No."
+F 7 "None" H 2600 6050 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 2600 6050 50  0001 C CNN "Manufacturer Part No."
+F 9 "None" H 2600 6050 50  0001 C CNN "Source"
+	1    2600 6050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 6050 2600 5950
+Connection ~ 2600 5950
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5EDE9E44
+P 3250 6050
+F 0 "Q?" V 3600 5900 50  0000 L CNN
+F 1 "30V 5A" V 3500 5900 50  0000 L CNN
+F 2 "Naquadah_Generator:SOT-23_Handsoldering" H 3450 5975 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 3250 6050 50  0001 L CNN
+F 4 "N-Channel 30V 5A (Ta) 1.3W (Ta) Surface Mount Micro3™/SOT-23" H 3250 6050 50  0001 C CNN "Description"
+F 5 "IRLML6344TRPBFCT-ND" H 3250 6050 50  0001 C CNN "Source Part No."
+F 6 "Infineon Technologies" H 3250 6050 50  0001 C CNN "Manufacturer Name"
+F 7 "IRLML6344TRPBF" H 3250 6050 50  0001 C CNN "Manufacturer Part No."
+F 8 "Digikey" H 3250 6050 50  0001 C CNN "Source"
+	1    3250 6050
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3450 5950 3950 5950
+Wire Wire Line
+	2950 6050 2950 5950
+Wire Wire Line
+	2600 5450 3650 5450
+Text Label 5050 2950 0    50   ~ 0
+BATT+
+Wire Wire Line
+	3250 6450 3250 6250
+Connection ~ 3250 6450
+Wire Wire Line
+	2950 6350 2950 6450
+Wire Wire Line
+	2950 6450 3250 6450
+$Comp
+L Frequently_Used:SW_SPST SW?
+U 1 1 5EF92BA0
+P 3450 6950
+AR Path="/5EF92BA0" Ref="SW?"  Part="1" 
+AR Path="/5EA6751D/5EF92BA0" Ref="SW2"  Part="1" 
+F 0 "SW2" H 3450 6850 50  0000 C CNN
+F 1 "SW_SPST" H 3450 6750 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 3450 6950 50  0001 C CNN
+F 3 "~" H 3450 6950 50  0001 C CNN
+	1    3450 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 6550 3250 6450
+$Comp
+L Li-ion_5A_Boost_1A_Charge_Protect:R R?
+U 1 1 5EDD5F2C
+P 3250 6700
+F 0 "R?" V 3350 6700 59  0000 L CNN
+F 1 "100" V 3150 6650 59  0000 L CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 3250 6700 50  0001 C CNN
+F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 3250 6700 50  0001 C CNN
+F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 3250 6700 50  0001 C CNN "Description"
+F 5 "2019-RK73H2ATTD1001FCT-ND" H 3250 6700 50  0001 C CNN "Source Part No."
+F 6 "RK73H2ATTD1001F" H 3250 6700 50  0001 C CNN "Manufacturer Part No."
+F 7 "KOA Speer Electronics, Inc." H 3250 6700 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 3250 6700 50  0001 C CNN "Source"
+	1    3250 6700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3250 6950 3250 6850
+Wire Wire Line
+	2600 5950 2950 5950
+Connection ~ 2950 5950
+Wire Wire Line
+	2950 5950 3050 5950
+Wire Wire Line
+	3650 6950 3650 5450
+Connection ~ 3650 5450
+Wire Wire Line
+	3650 5450 3950 5450
+$Comp
+L Li-ion_5A_Boost_1A_Charge_Protect:R R?
+U 1 1 5ED9A5CF
+P 2950 6200
+F 0 "R?" V 2850 6100 59  0000 L CNN
+F 1 "1k" V 3050 6100 59  0000 L CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 2950 6200 50  0001 C CNN
+F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 2950 6200 50  0001 C CNN
+F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 2950 6200 50  0001 C CNN "Description"
+F 5 "2019-RK73H2ATTD1001FCT-ND" H 2950 6200 50  0001 C CNN "Source Part No."
+F 6 "RK73H2ATTD1001F" H 2950 6200 50  0001 C CNN "Manufacturer Part No."
+F 7 "KOA Speer Electronics, Inc." H 2950 6200 50  0001 C CNN "Manufacturer Name"
+	1    2950 6200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -26,9 +26,10 @@ F 0 "U2" H 4270 2246 50  0000 R CNN
 F 1 "AH1815-P" H 4270 2155 50  0000 R CNN
 F 2 "Naquadah_Generator:SC-59_Hall_Sensor_Handsoldering" H 4500 2200 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 4500 2200 50  0001 C CNN
-F 4 "AH1815-W-7DICT-ND" H 4500 2200 50  0001 C CNN "Digikey Part No."
+F 4 "AH1815-W-7DICT-ND" H 4500 2200 50  0001 C CNN "Source Part No."
 F 5 "Diodes Incorporated" H 4500 2200 50  0001 C CNN "Manufacturer Name"
 F 6 "AH1815-W-7" H 4500 2200 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 4500 2200 50  0001 C CNN "Source"
 	1    4500 2200
 	1    0    0    -1  
 $EndComp
@@ -45,9 +46,10 @@ F 0 "R2" H 5120 1796 50  0000 L CNN
 F 1 "47K" H 5120 1705 50  0000 L CNN
 F 2 "Frequently Used:0805_2012Metric_HandSolder" V 4980 1750 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 5050 1750 50  0001 C CNN
-F 4 "2019-RK73H2ATTD4702FCT-ND" H 5050 1750 50  0001 C CNN "Digikey Part No."
+F 4 "2019-RK73H2ATTD4702FCT-ND" H 5050 1750 50  0001 C CNN "Source Part No."
 F 5 "KOA Speer Electronics" H 5050 1750 50  0001 C CNN "Manufacturer Name"
 F 6 "RK73H2ATTD4702F" H 5050 1750 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 5050 1750 50  0001 C CNN "Source"
 	1    5050 1750
 	1    0    0    -1  
 $EndComp
@@ -64,9 +66,10 @@ F 0 "C2" H 3565 2246 50  0000 L CNN
 F 1 "47nF" H 3565 2155 50  0000 L CNN
 F 2 "Frequently Used:0805_2012Metric_HandSolder" H 3488 2050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 3450 2200 50  0001 C CNN
-F 4 "1276-2527-1-ND" H 3450 2200 50  0001 C CNN "Digikey Part No."
+F 4 "1276-2527-1-ND" H 3450 2200 50  0001 C CNN "Source Part No."
 F 5 "	Samsung Electro-Mechanics" H 3450 2200 50  0001 C CNN "Manufacturer Name"
 F 6 "CL21B473KBANNNC" H 3450 2200 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 3450 2200 50  0001 C CNN "Source"
 	1    3450 2200
 	1    0    0    -1  
 $EndComp
@@ -83,9 +86,10 @@ F 0 "U1" H 6720 2246 50  0000 R CNN
 F 1 "AH1815-P" H 6720 2155 50  0000 R CNN
 F 2 "Naquadah_Generator:SC-59_Hall_Sensor_Handsoldering" H 6950 2200 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 6950 2200 50  0001 C CNN
-F 4 "AH1815-W-7DICT-ND" H 6950 2200 50  0001 C CNN "Digikey Part No."
+F 4 "AH1815-W-7DICT-ND" H 6950 2200 50  0001 C CNN "Source Part No."
 F 5 "Diodes Incorporated" H 6950 2200 50  0001 C CNN "Manufacturer Name"
 F 6 "AH1815-W-7" H 6950 2200 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 6950 2200 50  0001 C CNN "Source"
 	1    6950 2200
 	1    0    0    -1  
 $EndComp
@@ -102,9 +106,10 @@ F 0 "R1" H 7420 1796 50  0000 L CNN
 F 1 "47K" H 7420 1705 50  0000 L CNN
 F 2 "Frequently Used:0805_2012Metric_HandSolder" V 7280 1750 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 7350 1750 50  0001 C CNN
-F 4 "2019-RK73H2ATTD4702FCT-ND" H 7350 1750 50  0001 C CNN "Digikey Part No."
+F 4 "2019-RK73H2ATTD4702FCT-ND" H 7350 1750 50  0001 C CNN "Source Part No."
 F 5 "KOA Speer Electronics" H 7350 1750 50  0001 C CNN "Manufacturer Name"
 F 6 "RK73H2ATTD4702F" H 7350 1750 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 7350 1750 50  0001 C CNN "Source"
 	1    7350 1750
 	1    0    0    -1  
 $EndComp
@@ -121,9 +126,10 @@ F 0 "C1" H 6015 2246 50  0000 L CNN
 F 1 "47nF" H 6015 2155 50  0000 L CNN
 F 2 "Frequently Used:0805_2012Metric_HandSolder" H 5938 2050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 5900 2200 50  0001 C CNN
-F 4 "1276-2527-1-ND" H 5900 2200 50  0001 C CNN "Digikey Part No."
+F 4 "1276-2527-1-ND" H 5900 2200 50  0001 C CNN "Source Part No."
 F 5 "	Samsung Electro-Mechanics" H 5900 2200 50  0001 C CNN "Manufacturer Name"
 F 6 "CL21B473KBANNNC" H 5900 2200 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 5900 2200 50  0001 C CNN "Source"
 	1    5900 2200
 	1    0    0    -1  
 $EndComp
@@ -135,24 +141,26 @@ F 0 "H1" H 9000 5496 50  0000 L CNN
 F 1 "MountingHole" H 9000 5405 50  0000 L CNN
 F 2 "Naquadah_Generator:MountingSlot_2.2mm_2.2mm_M2.0" H 8900 5450 50  0001 C CNN
 F 3 "None" H 8900 5450 50  0001 C CNN
-F 4 "None" H 8900 5450 50  0001 C CNN "Digikey Part No."
+F 4 "None" H 8900 5450 50  0001 C CNN "Source Part No."
 F 5 "None" H 8900 5450 50  0001 C CNN "Manufacturer Name"
 F 6 "None" H 8900 5450 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 8900 5450 50  0001 C CNN "Source"
 	1    8900 5450
 	1    0    0    1   
 $EndComp
 $Comp
 L Naquadah_Generator:State_Sensing_Conn J1
 U 1 1 5EA677CD
-P 3150 6750
-F 0 "J1" H 3150 6300 50  0000 C CNN
-F 1 "HallSensor_Conn" H 3150 6400 50  0000 C CNN
-F 2 "Naquadah_Generator:State_Sensing_Daughter_Board_JST_Conn" H 3150 7050 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 3150 6750 50  0001 C CNN
-F 4 "455-1804-1-ND" H 3150 6750 50  0001 C CNN "Digikey Part No."
-F 5 "JST Sales America Inc." H 3150 6750 50  0001 C CNN "Manufacturer Name"
-F 6 "SM04B-SRSS-TB(LF)(SN)" H 3150 6750 50  0001 C CNN "Manufacturer Part No."
-	1    3150 6750
+P 3200 6750
+F 0 "J1" H 3200 6300 50  0000 C CNN
+F 1 "HallSensor_Conn" H 3200 6400 50  0000 C CNN
+F 2 "Naquadah_Generator:State_Sensing_Daughter_Board_JST_Conn" H 3200 7050 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 3200 6750 50  0001 C CNN
+F 4 "455-1804-1-ND" H 3200 6750 50  0001 C CNN "Source Part No."
+F 5 "JST Sales America Inc." H 3200 6750 50  0001 C CNN "Manufacturer Name"
+F 6 "SM04B-SRSS-TB(LF)(SN)" H 3200 6750 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 3200 6750 50  0001 C CNN "Source"
+	1    3200 6750
 	-1   0    0    1   
 $EndComp
 Text GLabel 5350 2200 2    50   Input ~ 0
@@ -237,9 +245,10 @@ F 0 "WA101" H 9028 5896 50  0000 L CNN
 F 1 "WireAssembly" H 9028 5805 50  0000 L CNN
 F 2 "Naquadah_Generator:Wire_Assembly_Four" H 8650 5950 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eSR.pdf" H 8650 5950 50  0001 C CNN
-F 4 "455-3010-ND" H 8650 5850 50  0001 C CNN "Digikey Part No."
+F 4 "455-3010-ND" H 8650 5850 50  0001 C CNN "Source Part No."
 F 5 "JST Sales America Inc." H 8650 5850 50  0001 C CNN "Manufacturer Name"
 F 6 "A04SR04SR30K51B" H 8650 5850 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 8650 5850 50  0001 C CNN "Source"
 	1    8650 5850
 	1    0    0    -1  
 $EndComp
@@ -252,9 +261,10 @@ F 1 "TestPoint" H 5150 3250 50  0001 L BNN
 F 2 "Naquadah_Generator:Pad_1.25-1.25" H 5400 3050 50  0001 C CNN
 F 3 "None" H 5400 3050 50  0001 C CNN
 F 4 "GND" H 5150 3250 50  0000 L BNN "Name"
-F 5 "None" H 5200 3050 50  0001 C CNN "Digikey Part No."
+F 5 "None" H 5200 3050 50  0001 C CNN "Source Part No."
 F 6 "None" H 5200 3050 50  0001 C CNN "Manufacturer Name"
 F 7 "None" H 5200 3050 50  0001 C CNN "Manufacturer Part No."
+F 8 "Digikey" H 5200 3050 50  0001 C CNN "Source"
 	1    5200 3050
 	1    0    0    -1  
 $EndComp
@@ -278,9 +288,10 @@ F 1 "TestPoint" H 5250 2500 50  0001 R BNN
 F 2 "Naquadah_Generator:Pad_1.25-1.25" H 5400 2200 50  0001 C CNN
 F 3 "None" H 5400 2200 50  0001 C CNN
 F 4 "S2" H 5150 2500 50  0000 L BNN "Name"
-F 5 "None" H 5200 2200 50  0001 C CNN "Digikey Part No."
+F 5 "None" H 5200 2200 50  0001 C CNN "Source Part No."
 F 6 "None" H 5200 2200 50  0001 C CNN "Manufacturer Name"
 F 7 "None" H 5200 2200 50  0001 C CNN "Manufacturer Part No."
+F 8 "Digikey" H 5200 2200 50  0001 C CNN "Source"
 	1    5200 2200
 	-1   0    0    1   
 $EndComp
@@ -293,9 +304,10 @@ F 1 "TestPoint" H 7550 2500 50  0001 R BNN
 F 2 "Naquadah_Generator:Pad_1.25-1.25" H 7700 2200 50  0001 C CNN
 F 3 "None" H 7700 2200 50  0001 C CNN
 F 4 "S1" H 7450 2500 50  0000 L BNN "Name"
-F 5 "None" H 7500 2200 50  0001 C CNN "Digikey Part No."
+F 5 "None" H 7500 2200 50  0001 C CNN "Source Part No."
 F 6 "None" H 7500 2200 50  0001 C CNN "Manufacturer Name"
 F 7 "None" H 7500 2200 50  0001 C CNN "Manufacturer Part No."
+F 8 "Digikey" H 7500 2200 50  0001 C CNN "Source"
 	1    7500 2200
 	-1   0    0    1   
 $EndComp
@@ -308,9 +320,10 @@ F 1 "TestPoint" H 5150 1450 50  0001 L BNN
 F 2 "Naquadah_Generator:Pad_1.25-1.25" H 5400 1250 50  0001 C CNN
 F 3 "None" H 5400 1250 50  0001 C CNN
 F 4 "PWR" H 5150 1450 50  0000 L BNN "Name"
-F 5 "None" H 5200 1250 50  0001 C CNN "Digikey Part No."
+F 5 "None" H 5200 1250 50  0001 C CNN "Source Part No."
 F 6 "None" H 5200 1250 50  0001 C CNN "Manufacturer Part No."
 F 7 "None" H 5200 1250 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 5200 1250 50  0001 C CNN "Source"
 	1    5200 1250
 	1    0    0    -1  
 $EndComp

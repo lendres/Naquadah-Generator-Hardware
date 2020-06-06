@@ -251,10 +251,11 @@ F 0 "U2" H 2600 2600 50  0000 L CNN
 F 1 "74HC595" H 2600 2500 50  0000 L CNN
 F 2 "Naquadah_Generator:SOIC-16_3.9x9.9mm_P1.27mm_Hand_Solder" H 2400 1950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590028307018" H 2400 1950 50  0001 C CNN
-F 4 "296-14857-1-ND" H 2400 1950 50  0001 C CNN "Digikey Part No."
+F 4 "296-14857-1-ND" H 2400 1950 50  0001 C CNN "Source Part No."
 F 5 "Texas Instruments" H 2400 1950 50  0001 C CNN "Manufacturer Name"
 F 6 "SN74HC595DR" H 2400 1950 50  0001 C CNN "Manufacturer Part No."
 F 7 "Texas Instruments" H 2400 1950 50  0001 C CNN "Description"
+F 8 "Digikey" H 2400 1950 50  0001 C CNN "Source"
 	1    2400 1950
 	1    0    0    -1  
 $EndComp
@@ -356,10 +357,11 @@ F 0 "U4" H 4850 2715 50  0000 C CNN
 F 1 "ULN2803ADWRG4" H 4850 2624 50  0000 C CNN
 F 2 "Naquadah_Generator:SOIC127P1030X265-18N" H 4550 1050 50  0001 L BNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590002980089" H 4850 1950 50  0001 L BNN
-F 4 "296-15777-1-ND" H 4850 1950 50  0001 C CNN "Digikey Part No."
+F 4 "296-15777-1-ND" H 4850 1950 50  0001 C CNN "Source Part No."
 F 5 "Texas Instruments" H 4850 1950 50  0001 C CNN "Manufacturer Name"
 F 6 "ULN2803ADWR" H 4850 1950 50  0001 C CNN "Manufacturer Part No."
 F 7 "Texas Instruments" H 4850 1950 50  0001 C CNN "Description"
+F 8 "Digikey" H 4850 1950 50  0001 C CNN "Source"
 	1    4850 1950
 	1    0    0    -1  
 $EndComp
@@ -469,10 +471,11 @@ F 0 "U3" H 2550 5950 50  0000 L CNN
 F 1 "74HC595" H 2550 5850 50  0000 L CNN
 F 2 "Naquadah_Generator:SOIC-16_3.9x9.9mm_P1.27mm_Hand_Solder" H 2350 5300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590028307018" H 2350 5300 50  0001 C CNN
-F 4 "296-14857-1-ND" H 2350 5300 50  0001 C CNN "Digikey Part No."
+F 4 "296-14857-1-ND" H 2350 5300 50  0001 C CNN "Source Part No."
 F 5 "Texas Instruments" H 2350 5300 50  0001 C CNN "Manufacturer Name"
 F 6 "SN74HC595DR" H 2350 5300 50  0001 C CNN "Manufacturer Part No."
 F 7 "Texas Instruments" H 2350 5300 50  0001 C CNN "Description"
+F 8 "Digikey" H 2350 5300 50  0001 C CNN "Source"
 	1    2350 5300
 	1    0    0    -1  
 $EndComp

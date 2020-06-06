@@ -75,11 +75,11 @@ ENDDEF
 DEF Naquadah_Generator_State_Sensing_Conn J 0 118 Y Y 1 F N
 F0 "J" 0 250 50 H V C CNN
 F1 "Naquadah_Generator_State_Sensing_Conn" 0 -250 50 H V C CNN
-F2 "Naquadah_Generator:State_Sensing_Mother_Board_JST_Conn" 0 -650 50 H I C CNN
+F2 "Naquadah_Generator:State_Sensing_Mother_Board_JST_Conn" 50 -650 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
-F4 "455-1804-1-ND" 0 -350 50 H I C CNN "Digikey Part No."
-F5 "JST Sales America Inc." 0 -450 50 H I C CNN "Manufacturer Name"
-F6 "SM04B-SRSS-TB(LF)(SN)" 0 -550 50 H I C CNN "Manufacturer Part No."
+F4 "455-1804-1-ND" 50 -350 50 H I C CNN "Digikey Part No."
+F5 "JST Sales America Inc." 50 -450 50 H I C CNN "Manufacturer Name"
+F6 "SM04B-SRSS-TB(LF)(SN)" 50 -550 50 H I C CNN "Manufacturer Part No."
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
@@ -89,28 +89,28 @@ S -50 -45 0 -55 1 1 6 N
 S -50 55 0 45 1 1 6 N
 S -50 155 0 145 1 1 6 N
 S -50 200 50 -200 1 1 10 f
-X GND 1 -200 150 150 R 50 50 1 1 P
-X VCC 2 -200 50 150 R 50 50 1 1 P
-X Sens_1 3 -200 -50 150 R 50 50 1 1 P
-X Sens_2 4 -200 -150 150 R 50 50 1 1 P
+X GND 1 -150 150 100 R 50 50 1 1 P
+X VCC 2 -150 50 100 R 50 50 1 1 P
+X SENS1 3 -150 -50 100 R 50 50 1 1 P
+X SENS2 4 -150 -150 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
 # Naquadah_Generator_TestPoint
 #
 DEF Naquadah_Generator_TestPoint TP 0 30 N N 1 F N
-F0 "TP" -100 300 50 H V L CNN
+F0 "TP" -100 250 50 H V L CNN
 F1 "Naquadah_Generator_TestPoint" -100 -250 50 H I L CNN
 F2 "" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
-F4 "Name" -100 200 50 H V L CNN "Name"
+F4 "Name" -100 150 50 H V L CNN "Name"
 $FPLIST
  Pin*
  Test*
 $ENDFPLIST
 DRAW
-C 0 130 30 0 1 0 N
-X 1 1 0 0 100 U 50 50 1 1 P
+C 0 80 30 0 1 0 N
+X 1 1 0 0 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

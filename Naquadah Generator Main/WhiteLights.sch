@@ -92,7 +92,7 @@ F 2 "Package_TO_SOT_SMD:SOT-23" H 5400 3700 50  0001 C CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BCW65ALT1-D.PDF" H 5350 4350 50  0001 L CNN
 F 4 "ON Semiconductor" H 5400 3600 50  0001 C CNN "Manufacturer Name"
 F 5 "BCW65ALT1G" H 5400 3900 50  0001 C CNN "Manufacturer Part No."
-F 6 "488-BCW65ALT1GCT-ND" H 5400 3800 50  0001 C CNN "Digikey Part No."
+F 6 "488-BCW65ALT1GCT-ND" H 5400 3800 50  0001 C CNN "Source Part No."
 	1    5350 4350
 	1    0    0    -1  
 $EndComp

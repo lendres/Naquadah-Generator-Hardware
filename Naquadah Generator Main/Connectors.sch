@@ -24,9 +24,10 @@ F 1 "PCB Mounting Hole" H 8950 5355 50  0000 L CNN
 F 2 "Naquadah_Generator:MountingHole_2.2mm_M2" H 8850 5400 50  0001 C CNN
 F 3 "None" H 8850 5400 50  0001 C CNN
 F 4 "None" H 8850 5400 50  0001 C CNN "Description"
-F 5 "None" H 8850 5400 50  0001 C CNN "Digikey Part No."
+F 5 "None" H 8850 5400 50  0001 C CNN "Source Part No."
 F 6 "None" H 8850 5400 50  0001 C CNN "Manufacturer Name"
 F 7 "None" H 8850 5400 50  0001 C CNN "Manufacturer Part No."
+F 8 "None" H 8850 5400 50  0001 C CNN "Source"
 	1    8850 5400
 	1    0    0    -1  
 $EndComp
@@ -39,9 +40,10 @@ F 1 "Top Through Hole" H 10250 5355 50  0000 L CNN
 F 2 "Naquadah_Generator:MountingHole_Top_Conn_M6" H 10150 5400 50  0001 C CNN
 F 3 "None" H 10150 5400 50  0001 C CNN
 F 4 "None" H 10150 5400 50  0001 C CNN "Description"
-F 5 "None" H 10150 5400 50  0001 C CNN "Digikey Part No."
+F 5 "None" H 10150 5400 50  0001 C CNN "Source Part No."
 F 6 "None" H 10150 5400 50  0001 C CNN "Manufacturer Name"
 F 7 "None" H 10150 5400 50  0001 C CNN "Manufacturer Part No."
+F 8 "None" H 10150 5400 50  0001 C CNN "Source"
 	1    10150 5400
 	1    0    0    -1  
 $EndComp
@@ -56,9 +58,10 @@ F 1 "PCB Mounting Hole" H 8950 5555 50  0000 L CNN
 F 2 "Naquadah_Generator:MountingHole_2.2mm_M2" H 8850 5600 50  0001 C CNN
 F 3 "None" H 8850 5600 50  0001 C CNN
 F 4 "None" H 8850 5600 50  0001 C CNN "Description"
-F 5 "None" H 8850 5600 50  0001 C CNN "Digikey Part No."
+F 5 "None" H 8850 5600 50  0001 C CNN "Source Part No."
 F 6 "None" H 8850 5600 50  0001 C CNN "Manufacturer Name"
 F 7 "None" H 8850 5600 50  0001 C CNN "Manufacturer Part No."
+F 8 "None" H 8850 5600 50  0001 C CNN "Source"
 	1    8850 5600
 	1    0    0    -1  
 $EndComp
@@ -71,9 +74,10 @@ F 1 "PCB Mounting Hole" H 8950 5755 50  0000 L CNN
 F 2 "Naquadah_Generator:MountingHole_2.2mm_M2" H 8850 5800 50  0001 C CNN
 F 3 "None" H 8850 5800 50  0001 C CNN
 F 4 "None" H 8850 5800 50  0001 C CNN "Description"
-F 5 "None" H 8850 5800 50  0001 C CNN "Digikey Part No."
+F 5 "None" H 8850 5800 50  0001 C CNN "Source Part No."
 F 6 "None" H 8850 5800 50  0001 C CNN "Manufacturer Name"
 F 7 "None" H 8850 5800 50  0001 C CNN "Manufacturer Part No."
+F 8 "None" H 8850 5800 50  0001 C CNN "Source"
 	1    8850 5800
 	1    0    0    -1  
 $EndComp
@@ -86,9 +90,10 @@ F 1 "PCB Mounting Hole" H 8950 5955 50  0000 L CNN
 F 2 "Naquadah_Generator:MountingHole_2.2mm_M2" H 8850 6000 50  0001 C CNN
 F 3 "None" H 8850 6000 50  0001 C CNN
 F 4 "None" H 8850 6000 50  0001 C CNN "Description"
-F 5 "None" H 8850 6000 50  0001 C CNN "Digikey Part No."
+F 5 "None" H 8850 6000 50  0001 C CNN "Source Part No."
 F 6 "None" H 8850 6000 50  0001 C CNN "Manufacturer Name"
 F 7 "None" H 8850 6000 50  0001 C CNN "Manufacturer Part No."
+F 8 "None" H 8850 6000 50  0001 C CNN "Source"
 	1    8850 6000
 	1    0    0    -1  
 $EndComp
@@ -101,9 +106,10 @@ F 1 "Top Through Hole" H 10250 5555 50  0000 L CNN
 F 2 "Naquadah_Generator:MountingHole_Top_Conn_M6" H 10150 5600 50  0001 C CNN
 F 3 "None" H 10150 5600 50  0001 C CNN
 F 4 "None" H 10150 5600 50  0001 C CNN "Description"
-F 5 "None" H 10150 5600 50  0001 C CNN "Digikey Part No."
+F 5 "None" H 10150 5600 50  0001 C CNN "Source Part No."
 F 6 "None" H 10150 5600 50  0001 C CNN "Manufacturer Name"
 F 7 "None" H 10150 5600 50  0001 C CNN "Manufacturer Part No."
+F 8 "None" H 10150 5600 50  0001 C CNN "Source"
 	1    10150 5600
 	1    0    0    -1  
 $EndComp
@@ -116,9 +122,10 @@ F 1 "Top Through Hole" H 10250 5755 50  0000 L CNN
 F 2 "Naquadah_Generator:MountingHole_Top_Conn_M6" H 10150 5800 50  0001 C CNN
 F 3 "None" H 10150 5800 50  0001 C CNN
 F 4 "None" H 10150 5800 50  0001 C CNN "Description"
-F 5 "None" H 10150 5800 50  0001 C CNN "Digikey Part No."
+F 5 "None" H 10150 5800 50  0001 C CNN "Source Part No."
 F 6 "None" H 10150 5800 50  0001 C CNN "Manufacturer Name"
 F 7 "None" H 10150 5800 50  0001 C CNN "Manufacturer Part No."
+F 8 "None" H 10150 5800 50  0001 C CNN "Source"
 	1    10150 5800
 	1    0    0    -1  
 $EndComp
@@ -131,125 +138,126 @@ F 1 "Top Through Hole" H 10250 5955 50  0000 L CNN
 F 2 "Naquadah_Generator:MountingHole_Top_Conn_M6" H 10150 6000 50  0001 C CNN
 F 3 "None" H 10150 6000 50  0001 C CNN
 F 4 "None" H 10150 6000 50  0001 C CNN "Description"
-F 5 "None" H 10150 6000 50  0001 C CNN "Digikey Part No."
+F 5 "None" H 10150 6000 50  0001 C CNN "Source Part No."
 F 6 "None" H 10150 6000 50  0001 C CNN "Manufacturer Name"
 F 7 "None" H 10150 6000 50  0001 C CNN "Manufacturer Part No."
+F 8 "None" H 10150 6000 50  0001 C CNN "Source"
 	1    10150 6000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8150 3650 8100 3650
-Wire Wire Line
-	8150 3550 8100 3550
+	7400 3750 7300 3750
 $Comp
 L Frequently_Used:GND #PWR?
 U 1 1 5EDC6BCE
-P 8650 3950
+P 7950 4150
 AR Path="/5EDC6BCE" Ref="#PWR?"  Part="1" 
 AR Path="/5EDBBDC8/5EDC6BCE" Ref="#PWR0106"  Part="1" 
-F 0 "#PWR0106" H 8650 3700 50  0001 C CNN
-F 1 "GND" H 8650 3800 50  0000 C CNN
-F 2 "" H 8650 3950 50  0001 C CNN
-F 3 "" H 8650 3950 50  0001 C CNN
-	1    8650 3950
+F 0 "#PWR0106" H 7950 3900 50  0001 C CNN
+F 1 "GND" H 7950 4000 50  0000 C CNN
+F 2 "" H 7950 4150 50  0001 C CNN
+F 3 "" H 7950 4150 50  0001 C CNN
+	1    7950 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8650 3850 8100 3850
+	7950 4050 7000 4050
 Wire Wire Line
-	8650 3850 8650 3950
+	7950 4050 7950 4150
 Wire Wire Line
-	8650 3750 8100 3750
+	7950 3950 7000 3950
 Wire Wire Line
-	8650 3750 8650 3650
+	7950 3950 7950 3850
 $Comp
 L Frequently_Used:+5V #PWR?
 U 1 1 5EDC6BD8
-P 8650 3650
+P 7950 3850
 AR Path="/5EDC6BD8" Ref="#PWR?"  Part="1" 
 AR Path="/5EDBBDC8/5EDC6BD8" Ref="#PWR0107"  Part="1" 
-F 0 "#PWR0107" H 8650 3500 50  0001 C CNN
-F 1 "+5V" H 8665 3823 50  0000 C CNN
-F 2 "" H 8650 3650 50  0001 C CNN
-F 3 "" H 8650 3650 50  0001 C CNN
-	1    8650 3650
+F 0 "#PWR0107" H 7950 3700 50  0001 C CNN
+F 1 "+5V" H 7965 4023 50  0000 C CNN
+F 2 "" H 7950 3850 50  0001 C CNN
+F 3 "" H 7950 3850 50  0001 C CNN
+	1    7950 3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Naquadah_Generator:State_Sensing_Conn J?
 U 1 1 5EDC6BE1
-P 7900 3700
+P 6850 3900
 AR Path="/5EDC6BE1" Ref="J?"  Part="1" 
 AR Path="/5EDBBDC8/5EDC6BE1" Ref="J1"  Part="1" 
-F 0 "J1" H 7900 3300 50  0000 C CNN
-F 1 "State_Sensing_Conn" H 7900 3400 50  0000 C CNN
-F 2 "Naquadah_Generator:State_Sensing_Mother_Board_JST_Conn" H 7900 3050 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 7900 3750 50  0001 C CNN
-F 4 "455-1804-1-ND" H 7900 3350 50  0001 C CNN "Digikey Part No."
-F 5 "JST Sales America Inc." H 7900 3250 50  0001 C CNN "Manufacturer Name"
-F 6 "SM04B-SRSS-TB(LF)(SN)" H 7900 3150 50  0001 C CNN "Manufacturer Part No."
-F 7 "State sensing daughter board connector" H 7900 3700 50  0001 C CNN "Description"
-	1    7900 3700
+F 0 "J1" H 6850 3600 50  0000 C CNN
+F 1 "State_Sensing_Conn" H 6850 4200 50  0000 C CNN
+F 2 "Naquadah_Generator:State_Sensing_Mother_Board_JST_Conn" H 6850 3250 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 6850 3950 50  0001 C CNN
+F 4 "455-1804-1-ND" H 6850 3550 50  0001 C CNN "Source Part No."
+F 5 "JST Sales America Inc." H 6850 3450 50  0001 C CNN "Manufacturer Name"
+F 6 "SM04B-SRSS-TB(LF)(SN)" H 6850 3350 50  0001 C CNN "Manufacturer Part No."
+F 7 "State sensing daughter board connector" H 6850 3900 50  0001 C CNN "Description"
+F 8 "Digikey" H 6850 3900 50  0001 C CNN "Source"
+	1    6850 3900
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9850 3650 9800 3650
+	9800 3850 9450 3850
 Wire Wire Line
-	9850 3550 9800 3550
+	9800 3750 9700 3750
 $Comp
 L Frequently_Used:GND #PWR?
 U 1 1 5EDC6BEB
-P 10350 3950
+P 10350 4150
 AR Path="/5EDC6BEB" Ref="#PWR?"  Part="1" 
 AR Path="/5EDBBDC8/5EDC6BEB" Ref="#PWR0108"  Part="1" 
-F 0 "#PWR0108" H 10350 3700 50  0001 C CNN
-F 1 "GND" H 10350 3800 50  0000 C CNN
-F 2 "" H 10350 3950 50  0001 C CNN
-F 3 "" H 10350 3950 50  0001 C CNN
-	1    10350 3950
+F 0 "#PWR0108" H 10350 3900 50  0001 C CNN
+F 1 "GND" H 10350 4000 50  0000 C CNN
+F 2 "" H 10350 4150 50  0001 C CNN
+F 3 "" H 10350 4150 50  0001 C CNN
+	1    10350 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10350 3850 9800 3850
+	10350 4050 9400 4050
 Wire Wire Line
-	10350 3850 10350 3950
+	10350 4050 10350 4150
 Wire Wire Line
-	10350 3750 9800 3750
+	10350 3950 9400 3950
 Wire Wire Line
-	10350 3750 10350 3650
+	10350 3950 10350 3850
 $Comp
 L Frequently_Used:+5V #PWR?
 U 1 1 5EDC6BF5
-P 10350 3650
+P 10350 3850
 AR Path="/5EDC6BF5" Ref="#PWR?"  Part="1" 
 AR Path="/5EDBBDC8/5EDC6BF5" Ref="#PWR0109"  Part="1" 
-F 0 "#PWR0109" H 10350 3500 50  0001 C CNN
-F 1 "+5V" H 10365 3823 50  0000 C CNN
-F 2 "" H 10350 3650 50  0001 C CNN
-F 3 "" H 10350 3650 50  0001 C CNN
-	1    10350 3650
+F 0 "#PWR0109" H 10350 3700 50  0001 C CNN
+F 1 "+5V" H 10365 4023 50  0000 C CNN
+F 2 "" H 10350 3850 50  0001 C CNN
+F 3 "" H 10350 3850 50  0001 C CNN
+	1    10350 3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Naquadah_Generator:State_Sensing_Conn J?
 U 1 1 5EDC6BFE
-P 9600 3700
+P 9250 3900
 AR Path="/5EDC6BFE" Ref="J?"  Part="1" 
 AR Path="/5EDBBDC8/5EDC6BFE" Ref="J2"  Part="1" 
-F 0 "J2" H 9600 3300 50  0000 C CNN
-F 1 "State_Sensing_Conn" H 9600 3400 50  0000 C CNN
-F 2 "Naquadah_Generator:State_Sensing_Mother_Board_JST_Conn" H 9600 3050 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 9600 3750 50  0001 C CNN
-F 4 "455-1804-1-ND" H 9600 3350 50  0001 C CNN "Digikey Part No."
-F 5 "JST Sales America Inc." H 9600 3250 50  0001 C CNN "Manufacturer Name"
-F 6 "SM04B-SRSS-TB(LF)(SN)" H 9600 3150 50  0001 C CNN "Manufacturer Part No."
-F 7 "State sensing daughter board connector" H 9600 3700 50  0001 C CNN "Description"
-	1    9600 3700
+F 0 "J2" H 9250 3600 50  0000 C CNN
+F 1 "State_Sensing_Conn" H 9250 4200 50  0000 C CNN
+F 2 "Naquadah_Generator:State_Sensing_Mother_Board_JST_Conn" H 9250 3250 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 9250 3950 50  0001 C CNN
+F 4 "455-1804-1-ND" H 9250 3550 50  0001 C CNN "Source Part No."
+F 5 "JST Sales America Inc." H 9250 3450 50  0001 C CNN "Manufacturer Name"
+F 6 "SM04B-SRSS-TB(LF)(SN)" H 9250 3350 50  0001 C CNN "Manufacturer Part No."
+F 7 "State sensing daughter board connector" H 9250 3900 50  0001 C CNN "Description"
+F 8 "Digikey" H 9250 3900 50  0001 C CNN "Source"
+	1    9250 3900
 	-1   0    0    1   
 $EndComp
-Text Notes 7600 4300 0    79   ~ 16
+Text Notes 6800 4500 0    79   ~ 16
 Sensing Board 1
-Text Notes 9350 4300 0    79   ~ 16
+Text Notes 9200 4500 0    79   ~ 16
 Sensing Board 2
 $Comp
 L Naquadah_Generator:Conn_ISP J?
@@ -261,10 +269,11 @@ F 0 "J0" H 8050 2275 50  0000 C CNN
 F 1 "Conn_ISP_Prog" H 8050 2184 50  0000 C CNN
 F 2 "Naquadah_Generator:PinHeader_2x03_P2.54mm_Vertical" H 8100 1950 50  0001 C CNN
 F 3 "None" H 8100 1950 50  0001 C CNN
-F 4 "None" H 8050 1950 50  0001 C CNN "Digikey Part No."
+F 4 "None" H 8050 1950 50  0001 C CNN "Source Part No."
 F 5 "None" H 8050 1950 50  0001 C CNN "Manufacturer Name"
 F 6 "None" H 8050 1950 50  0001 C CNN "Manufacturer Part No."
 F 7 "ISP connection header for pogo pins" H 8050 1950 50  0001 C CNN "Description"
+F 8 "None" H 8050 1950 50  0001 C CNN "Source"
 	1    8050 1950
 	1    0    0    -1  
 $EndComp
@@ -320,13 +329,13 @@ Text HLabel 7600 1950 0    50   Input ~ 0
 SCK
 Text HLabel 7600 2050 0    50   Input ~ 0
 nRESET
-Text HLabel 8150 3550 2    50   Input ~ 0
+Text HLabel 7400 3750 2    50   Input ~ 0
 HALLEFF2
-Text HLabel 8150 3650 2    50   Input ~ 0
+Text HLabel 7400 3850 2    50   Input ~ 0
 HALLEFF1
-Text HLabel 9850 3550 2    50   Input ~ 0
+Text HLabel 9800 3750 2    50   Input ~ 0
 HALLEFF3
-Text HLabel 9850 3650 2    50   Input ~ 0
+Text HLabel 9800 3850 2    50   Input ~ 0
 HALLEFF4
 $Comp
 L Connectors_LE:USB_C_Plug_USB2.0 P1
@@ -337,9 +346,10 @@ F 1 "USB_C_Plug_USB2.0" H 1350 3100 50  0000 L CNN
 F 2 "Connectors LE:GCT_USB4110-GF-A" H 1700 1550 50  0001 C CNN
 F 3 "https://gct.co/files/drawings/usb4110.pdf" H 1700 1550 50  0001 C CNN
 F 4 "USB-C 2.0 Female SMD Connector" H 1600 2050 50  0001 C CNN "Description"
-F 5 "2073-USB4110-GF-A-1-ND" H 1600 2050 50  0001 C CNN "Digikey Part No."
+F 5 "2073-USB4110-GF-A-1-ND" H 1600 2050 50  0001 C CNN "Source Part No."
 F 6 "GCT" H 1600 2050 50  0001 C CNN "Manufacturer Name"
 F 7 "USB4110-GF-A" H 1600 2050 50  0001 C CNN "Manufacturer Part No."
+F 8 "Digikey" H 1600 2050 50  0001 C CNN "Source"
 	1    1600 2050
 	1    0    0    -1  
 $EndComp
@@ -502,13 +512,14 @@ L Power_LE:PRTR5V0U2X D1
 U 1 1 5ED3FF2E
 P 4700 1450
 F 0 "D1" H 4800 1900 50  0000 L CNN
-F 1 "RED" H 4800 1800 50  0000 L CNN
-F 2 "Frequently_Used:LED_0805_2012Metric_HandSolder" H 4800 1100 50  0001 L CNN
+F 1 "SDP" H 4800 1800 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-143" H 4800 1100 50  0001 L CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 4760 1450 50  0001 L CNN
 F 4 "Würth Elektronik" H 4700 1450 50  0001 C CNN "Manufacturer Name"
 F 5 "150080RS75000" H 4700 1450 50  0001 C CNN "Manufacturer Part No."
-F 6 "732-4984-1-ND" H 4700 1450 50  0001 C CNN "Digikey Part No."
+F 6 "732-4984-1-ND" H 4700 1450 50  0001 C CNN "Source Part No."
 F 7 "Red 625nm LED Indication- Discrete 2V 0805 (2012 Metric)" H 4700 1450 50  0001 C CNN "Description"
+F 8 "Digikey" H 4700 1450 50  0001 C CNN "Source"
 	1    4700 1450
 	1    0    0    -1  
 $EndComp
@@ -667,7 +678,7 @@ F 1 "USB Solder Pads" H 4468 3716 50  0000 C CNN
 F 2 "Naquadah_Generator:WireSoldPads_1x4_WOL" H 4550 4050 50  0001 C CNN
 F 3 "None" H 4550 4050 50  0001 C CNN
 F 4 "None" H 4550 4050 50  0001 C CNN "Description"
-F 5 "None" H 4550 4050 50  0001 C CNN "Digikey Part No."
+F 5 "None" H 4550 4050 50  0001 C CNN "Source Part No."
 F 6 "None" H 4550 4050 50  0001 C CNN "Manufacturer Name"
 F 7 "None" H 4550 4050 50  0001 C CNN "Manufacturer Part No."
 	1    4550 4050
@@ -713,4 +724,94 @@ Wire Wire Line
 	4750 4150 5150 4150
 Wire Wire Line
 	5150 4150 5150 4250
+$Comp
+L Frequently_Used:TestPoint TP?
+U 1 1 5ED8A970
+P 7050 3650
+F 0 "TP?" H 7050 3950 50  0000 C CNN
+F 1 "TestPoint" H 6950 3400 50  0001 L CNN
+F 2 "Frequently_Used:Pad_2.5-2.5" H 7250 3650 50  0001 C CNN
+F 3 "None" H 7250 3650 50  0001 C CNN
+F 4 "HE1" H 7050 3850 50  0000 C CNN "Name"
+F 5 "None" H 7050 3650 50  0001 C CNN "Description"
+F 6 "None" H 7050 3650 50  0001 C CNN "Source Part No."
+F 7 "None" H 7050 3650 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 7050 3650 50  0001 C CNN "Manufacturer Part No."
+F 9 "None" H 7050 3650 50  0001 C CNN "Source"
+	1    7050 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Frequently_Used:TestPoint TP?
+U 1 1 5ED8C4D5
+P 7300 3650
+F 0 "TP?" H 7300 3950 50  0000 C CNN
+F 1 "TestPoint" H 7200 3400 50  0001 L CNN
+F 2 "Frequently_Used:Pad_2.5-2.5" H 7500 3650 50  0001 C CNN
+F 3 "None" H 7500 3650 50  0001 C CNN
+F 4 "HE2" H 7300 3850 50  0000 C CNN "Name"
+F 5 "None" H 7300 3650 50  0001 C CNN "Description"
+F 6 "None" H 7300 3650 50  0001 C CNN "Source Part No."
+F 7 "None" H 7300 3650 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 7300 3650 50  0001 C CNN "Manufacturer Part No."
+F 9 "None" H 7300 3650 50  0001 C CNN "Source"
+	1    7300 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 3650 7050 3850
+Connection ~ 7050 3850
+Wire Wire Line
+	7050 3850 7000 3850
+Wire Wire Line
+	7400 3850 7050 3850
+Wire Wire Line
+	7300 3650 7300 3750
+Connection ~ 7300 3750
+Wire Wire Line
+	7300 3750 7000 3750
+$Comp
+L Frequently_Used:TestPoint TP?
+U 1 1 5ED9FCBB
+P 9450 3650
+F 0 "TP?" H 9450 3950 50  0000 C CNN
+F 1 "TestPoint" H 9350 3400 50  0001 L CNN
+F 2 "Frequently_Used:Pad_2.5-2.5" H 9650 3650 50  0001 C CNN
+F 3 "None" H 9650 3650 50  0001 C CNN
+F 4 "HE1" H 9450 3850 50  0000 C CNN "Name"
+F 5 "None" H 9450 3650 50  0001 C CNN "Description"
+F 6 "None" H 9450 3650 50  0001 C CNN "Source Part No."
+F 7 "None" H 9450 3650 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 9450 3650 50  0001 C CNN "Manufacturer Part No."
+F 9 "None" H 9450 3650 50  0001 C CNN "Source"
+	1    9450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Frequently_Used:TestPoint TP?
+U 1 1 5ED9FCC2
+P 9700 3650
+F 0 "TP?" H 9700 3950 50  0000 C CNN
+F 1 "TestPoint" H 9600 3400 50  0001 L CNN
+F 2 "Frequently_Used:Pad_2.5-2.5" H 9900 3650 50  0001 C CNN
+F 3 "None" H 9900 3650 50  0001 C CNN
+F 4 "HE2" H 9700 3850 50  0000 C CNN "Name"
+F 5 "None" H 9700 3650 50  0001 C CNN "Description"
+F 6 "None" H 9700 3650 50  0001 C CNN "Source Part No."
+F 7 "None" H 9700 3650 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 9700 3650 50  0001 C CNN "Manufacturer Part No."
+F 9 "None" H 9700 3650 50  0001 C CNN "Source"
+	1    9700 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 3650 9450 3850
+Wire Wire Line
+	9700 3650 9700 3750
+Connection ~ 9450 3850
+Wire Wire Line
+	9450 3850 9400 3850
+Connection ~ 9700 3750
+Wire Wire Line
+	9700 3750 9400 3750
 $EndSCHEMATC
