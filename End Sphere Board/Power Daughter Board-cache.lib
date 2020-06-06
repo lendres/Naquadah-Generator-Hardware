@@ -4,15 +4,15 @@ EESchema-LIBRARY Version 2.4
 # Frequently_Used_TestPoint
 #
 DEF Frequently_Used_TestPoint TP 0 30 N N 1 F N
-F0 "TP" -100 250 50 H V L CNN
-F1 "Frequently_Used_TestPoint" -100 -250 50 H I L CNN
+F0 "TP" 0 225 50 H V C CNN
+F1 "Frequently_Used_TestPoint" 0 -280 50 H I C CNN
 F2 "" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
-F4 "Name" -100 150 50 H V L CNN "Name"
-F5 "None" 0 0 50 H V C CNN "Source"
-F6 "None" 0 0 50 H V C CNN "Source Part No."
-F7 "None" 0 0 50 H V C CNN "Manufacturer"
-F8 "None" 0 0 50 H V C CNN "Manufacturer Part No."
+F4 "Name" 0 150 50 H V C CNN "Name"
+F5 "None" -5 -355 50 H I C CNN "Source"
+F6 "None" -5 -355 50 H I C CNN "Source Part No."
+F7 "None" -5 -355 50 H I C CNN "Manufacturer"
+F8 "None" -5 -355 50 H I C CNN "Manufacturer Part No."
 $FPLIST
  Pin*
  Test*
@@ -228,7 +228,7 @@ F0 "H" 0 200 50 H V C CNN
 F1 "Naquadah_Generator_MountingHole" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-F4 "None" 5 -125 50 H I C CNN "Manufacturer"
+F4 "None" 5 -125 50 H I C CNN "Manufacturer Name"
 F5 "None" 5 -125 50 H I C CNN "Manufacturer Part No."
 F6 "None" 5 -125 50 H I C CNN "Source"
 F7 "None" 5 -125 50 H I C CNN "Source Part No."

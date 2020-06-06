@@ -275,10 +275,10 @@ F 8 "NTCG203NH103JT1" H 7300 2400 50  0001 C CNN "Manufacturer Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:R R5
+L Li-ion_5A_Boost_1A_Charge_Protect:R R8
 U 1 1 5EB60D47
 P 6400 2400
-F 0 "R5" V 6300 2300 59  0000 L CNN
+F 0 "R8" V 6300 2300 59  0000 L CNN
 F 1 "1k" V 6500 2300 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 6400 2400 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 6400 2400 50  0001 C CNN
@@ -405,21 +405,21 @@ SWITCH
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:LED D1
 U 1 1 5EDBD7E3
-P 3150 4350
-F 0 "D1" H 3050 4450 50  0000 L CNN
-F 1 "GREEN" H 3050 4250 50  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:LED_0805_2012Metric_HandSolder" H 3150 4350 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 3150 4350 50  0001 C CNN
-F 4 "Green 570nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 3150 4350 50  0001 C CNN "Description"
-F 5 "Digikey" H 3150 4350 50  0001 C CNN "Source"
-F 6 "732-4986-1-ND" H 3150 4350 50  0001 C CNN "Source Part No."
-F 7 "Würth Elektronik" H 3150 4350 50  0001 C CNN "Manufacturer Name"
-F 8 "150080VS75000" H 3150 4350 50  0001 C CNN "Manufacturer Part No."
-	1    3150 4350
+P 3150 4150
+F 0 "D1" H 3050 4250 50  0000 L CNN
+F 1 "GREEN" H 3050 4050 50  0000 L CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:LED_0805_2012Metric_HandSolder" H 3150 4150 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 3150 4150 50  0001 C CNN
+F 4 "Green 570nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 3150 4150 50  0001 C CNN "Description"
+F 5 "Digikey" H 3150 4150 50  0001 C CNN "Source"
+F 6 "732-4986-1-ND" H 3150 4150 50  0001 C CNN "Source Part No."
+F 7 "Würth Elektronik" H 3150 4150 50  0001 C CNN "Manufacturer Name"
+F 8 "150080VS75000" H 3150 4150 50  0001 C CNN "Manufacturer Part No."
+	1    3150 4150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3150 4600 3150 4500
+	3150 4600 3150 4300
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:R R1
 U 1 1 5EDBD7F9
@@ -437,12 +437,10 @@ F 8 "RK73H2ATTD1001F" H 3150 4750 50  0001 C CNN "Manufacturer Part No."
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 4200 3150 3950
+	3150 4000 3150 3700
 Wire Wire Line
-	3150 4900 3150 5200
-Text Label 3150 3950 3    50   ~ 0
-BATT+
-Text Label 3150 5200 1    50   ~ 0
+	3150 4900 3150 5000
+Text Label 3150 3700 3    50   ~ 0
 SWITCH
 $Comp
 L Naquadah_Generator:PJ-006A-SMT J2
@@ -547,7 +545,7 @@ Mother Board Connector
 Text Notes 4400 5400 0    79   ~ 16
 On/Off Switch
 Text Notes 2650 5400 0    79   ~ 16
-Ready Indicator
+Power Indicator
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5EE34C3D
@@ -607,26 +605,26 @@ Wire Wire Line
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:LED D5
 U 1 1 5ED9610C
-P 1650 4350
-F 0 "D5" H 1550 4450 50  0000 L CNN
-F 1 "RED" H 1550 4250 50  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:LED_0805_2012Metric_HandSolder" H 1650 4350 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/150080RS75000.pdf" H 1650 4350 50  0001 C CNN
-F 4 "Red 625nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 1650 4350 50  0001 C CNN "Description"
-F 5 "Digikey" H 1650 4350 50  0001 C CNN "Source"
-F 6 "732-4984-1-ND" H 1650 4350 50  0001 C CNN "Source Part No."
-F 7 "Würth Elektronik" H 1650 4350 50  0001 C CNN "Manufacturer Name"
-F 8 "150080RS75000" H 1650 4350 50  0001 C CNN "Manufacturer Part No."
-	1    1650 4350
+P 1650 4150
+F 0 "D5" H 1550 4250 50  0000 L CNN
+F 1 "RED" H 1550 4050 50  0000 L CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:LED_0805_2012Metric_HandSolder" H 1650 4150 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/150080RS75000.pdf" H 1650 4150 50  0001 C CNN
+F 4 "Red 625nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 1650 4150 50  0001 C CNN "Description"
+F 5 "Digikey" H 1650 4150 50  0001 C CNN "Source"
+F 6 "732-4984-1-ND" H 1650 4150 50  0001 C CNN "Source Part No."
+F 7 "Würth Elektronik" H 1650 4150 50  0001 C CNN "Manufacturer Name"
+F 8 "150080RS75000" H 1650 4150 50  0001 C CNN "Manufacturer Part No."
+	1    1650 4150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1650 4600 1650 4500
+	1650 4600 1650 4300
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:R R8
+L Li-ion_5A_Boost_1A_Charge_Protect:R R5
 U 1 1 5ED96117
 P 1650 4750
-F 0 "R8" V 1550 4650 59  0000 L CNN
+F 0 "R5" V 1550 4650 59  0000 L CNN
 F 1 "1k" V 1750 4650 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 1650 4750 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 1650 4750 50  0001 C CNN
@@ -639,13 +637,13 @@ F 8 "RK73H2ATTD1001F" H 1650 4750 50  0001 C CNN "Manufacturer Part No."
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 4200 1650 3950
+	1650 4000 1650 3750
 Wire Wire Line
 	1650 4900 1650 5000
-Text Label 1650 3950 3    50   ~ 0
-BATT+
+Text Label 1650 3750 3    50   ~ 0
+READY
 Text Notes 1150 5400 0    79   ~ 16
-Power Indicator
+Ready Indicator
 $Comp
 L Naquadah_Generator:GND #PWR0101
 U 1 1 5EDA0602
@@ -786,6 +784,21 @@ F 5 "None" H 1755 7075 50  0001 C CNN "Manufacturer Part No."
 F 6 "None" H 1755 7075 50  0001 C CNN "Source"
 F 7 "None" H 1755 7075 50  0001 C CNN "Source Part No."
 	1    1750 7200
+	1    0    0    -1  
+$EndComp
+Text Label 3150 4550 1    50   ~ 0
+ON
+Text Label 1650 4550 1    50   ~ 0
+RDYIND
+$Comp
+L Naquadah_Generator:GND #PWR0102
+U 1 1 5EE0C52F
+P 3150 5000
+F 0 "#PWR0102" H 3150 4750 50  0001 C CNN
+F 1 "GND" H 3155 4827 50  0000 C CNN
+F 2 "" H 3150 5000 50  0001 C CNN
+F 3 "" H 3150 5000 50  0001 C CNN
+	1    3150 5000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
