@@ -79,6 +79,25 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Connectors_LE_Conn_XT
+#
+DEF Connectors_LE_Conn_XT J 0 120 Y Y 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connectors_LE_Conn_XT" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X - 1 -150 0 100 R 50 50 1 1 P
+X + 2 -150 -100 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connectors_LE_USB_C_Plug_USB2.0
 #
 DEF Connectors_LE_USB_C_Plug_USB2.0 P 0 40 Y Y 1 F N
@@ -309,30 +328,18 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Frequently_Used_SW_SPST
-#
-DEF Frequently_Used_SW_SPST SW 0 0 Y N 1 F N
-F0 "SW" 0 125 50 H V C CNN
-F1 "Frequently_Used_SW_SPST" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C -80 0 20 0 0 0 N
-C 80 0 20 0 0 0 N
-P 2 0 0 0 -60 10 60 70 N
-X A 1 -200 0 100 R 50 50 1 1 P
-X B 2 200 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Frequently_Used_TestPoint
 #
 DEF Frequently_Used_TestPoint TP 0 30 N N 1 F N
-F0 "TP" -100 250 50 H V L CNN
-F1 "Frequently_Used_TestPoint" -100 -250 50 H I L CNN
+F0 "TP" 0 225 50 H V C CNN
+F1 "Frequently_Used_TestPoint" 0 -280 50 H I C CNN
 F2 "" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
-F4 "Name" -100 150 50 H V L CNN "Name"
+F4 "Name" 0 150 50 H V C CNN "Name"
+F5 "None" -5 -355 50 H I C CNN "Source"
+F6 "None" -5 -355 50 H I C CNN "Source Part No."
+F7 "None" -5 -355 50 H I C CNN "Manufacturer"
+F8 "None" -5 -355 50 H I C CNN "Manufacturer Part No."
 $FPLIST
  Pin*
  Test*
@@ -459,19 +466,6 @@ X DRN 8 150 -300 100 U 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# Li-ion_5A_Boost_1A_Charge_Protect_GND
-#
-DEF Li-ion_5A_Boost_1A_Charge_Protect_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Li-ion_5A_Boost_1A_Charge_Protect_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
 # Li-ion_5A_Boost_1A_Charge_Protect_L
 #
 DEF Li-ion_5A_Boost_1A_Charge_Protect_L L 0 40 N N 1 F N
@@ -515,34 +509,6 @@ P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
 P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Li-ion_5A_Boost_1A_Charge_Protect_MCP73833T
-#
-DEF Li-ion_5A_Boost_1A_Charge_Protect_MCP73833T U 0 10 Y Y 1 F N
-F0 "U" 0 500 60 H V C CNN
-F1 "Li-ion_5A_Boost_1A_Charge_Protect_MCP73833T" 0 400 60 H V C CNN
-F2 "High Power Lipo 18650 Boost Charge Protect:Charger_MCP73833" 0 -600 60 H I C CNN
-F3 "" -500 200 60 H I C CNN
-ALIAS MCP73834T
-$FPLIST
- MSOP10_MC_MCH
- MSOP10_MC_MCH-M
- MSOP10_MC_MCH-L
-$ENDFPLIST
-DRAW
-S -400 300 350 -500 1 1 5 f
-X VDD 1 -500 200 100 R 59 59 1 1 W
-X VBAT 10 450 200 100 L 59 59 1 1 P
-X VDD 2 -500 50 100 R 59 59 1 1 W
-X STAT1 3 -500 -100 100 R 59 59 1 1 P
-X STAT2 4 -500 -250 100 R 59 59 1 1 P
-X VSS 5 450 -400 100 L 59 59 1 1 P
-X PROG 6 450 -250 100 L 59 59 1 1 P
-X ~PG/TE 7 -500 -400 100 R 59 59 1 1 P
-X THERM 8 450 -100 100 L 59 59 1 1 P
-X VBAT 9 450 50 100 L 59 59 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -601,38 +567,6 @@ $ENDFPLIST
 DRAW
 C 0 130 30 0 1 0 N
 X 1 1 0 0 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Li-ion_5A_Boost_1A_Charge_Protect_Thermistor_NTC
-#
-DEF Li-ion_5A_Boost_1A_Charge_Protect_Thermistor_NTC TH 0 0 N Y 1 F N
-F0 "TH" -175 0 50 V V C CNN
-F1 "Li-ion_5A_Boost_1A_Charge_Protect_Thermistor_NTC" 125 0 50 V V C CNN
-F2 "" 0 50 50 H I C CNN
-F3 "" 0 50 50 H I C CNN
-$FPLIST
- *NTC*
- *Thermistor*
- PIN?ARRAY*
- bornier*
- *Terminal?Block*
-$ENDFPLIST
-DRAW
-A -126 88 7 -265 818 0 1 0 N -120 85 -125 95
-A -110 85 10 1800 -900 0 1 0 N -120 85 -110 75
-A -110 85 10 -900 0 0 1 0 N -110 75 -100 85
-A -110 110 10 0 900 0 1 0 N -100 110 -110 120
-A -110 110 10 900 1800 0 1 0 N -110 120 -120 110
-A -110 110 10 1800 -900 0 1 0 N -120 110 -110 100
-A -104 119 20 -1075 -253 0 1 0 N -110 100 -85 110
-S -40 100 40 -100 0 1 10 N
-P 2 0 1 0 -100 85 -100 110 N
-P 4 0 1 0 -70 100 -70 60 70 -60 70 -100 N
-P 6 0 1 0 -100 -145 -100 -55 -110 -85 -90 -85 -100 -55 -100 -65 F
-P 6 0 1 0 -70 -55 -70 -145 -80 -115 -60 -115 -70 -145 -70 -135 F
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -729,6 +663,10 @@ F0 "H" 0 200 50 H V C CNN
 F1 "Naquadah_Generator_MountingHole" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+F4 "None" 5 -125 50 H I C CNN "Manufacturer Name"
+F5 "None" 5 -125 50 H I C CNN "Manufacturer Part No."
+F6 "None" 5 -125 50 H I C CNN "Source"
+F7 "None" 5 -125 50 H I C CNN "Source Part No."
 $FPLIST
  MountingHole*
 $ENDFPLIST
@@ -761,6 +699,37 @@ X 1 1 -200 0 100 R 50 50 0 1 P
 X 2 2 -200 -200 100 R 50 50 0 1 P
 X 3 3 200 0 100 L 50 50 0 1 P
 X 4 4 200 -200 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# Naquadah_Generator_Power_Daughter_Conn
+#
+DEF Naquadah_Generator_Power_Daughter_Conn J 0 118 Y Y 1 F N
+F0 "J" 0 350 50 H V C CNN
+F1 "Naquadah_Generator_Power_Daughter_Conn" 0 -350 50 H V C CNN
+F2 "Naquadah_Generator:State_Sensing_Mother_Board_JST_Conn" 50 -800 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
+F4 "Connector Header Surface Mount 6 position 0.039\" (1.00mm)" 50 -900 50 H I C CNN "Description"
+F5 "455-1792-1-ND" 50 -500 50 H I C CNN "Digikey Part No."
+F6 "JST Sales America Inc." 50 -600 50 H I C CNN "Manufacturer Name"
+F7 "BM06B-SRSS-TB(LF)(SN)" 50 -700 50 H I C CNN "Manufacturer Part No."
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -245 0 -255 1 1 6 N
+S -50 -145 0 -155 1 1 6 N
+S -50 -45 0 -55 1 1 6 N
+S -50 55 0 45 1 1 6 N
+S -50 155 0 145 1 1 6 N
+S -50 255 0 245 1 1 6 N
+S -50 300 50 -300 1 1 10 f
+X GND 1 -150 250 100 R 50 50 1 1 P
+X GND 2 -150 150 100 R 50 50 1 1 P
+X BATT+ 3 -150 50 100 R 50 50 1 1 P
+X BATT+ 4 -150 -50 100 R 50 50 1 1 P
+X SW 5 -150 -150 100 R 50 50 1 1 P
+X RDY 6 -150 -250 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

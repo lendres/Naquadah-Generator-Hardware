@@ -36,7 +36,7 @@ $ENDCMP
 $CMP Conn_ISP
 D ISP connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)
 K connector
-F ~
+F None
 $ENDCMP
 #
 $CMP Crystal
@@ -99,12 +99,6 @@ $CMP State_Sensing_Conn
 D Connector from mother board to state sensing daughter board
 K connector
 F http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-$ENDCMP
-#
-$CMP TestPoint
-D Test point
-K test point tp
-F None
 $ENDCMP
 #
 $CMP ULN2803ADWRG4
