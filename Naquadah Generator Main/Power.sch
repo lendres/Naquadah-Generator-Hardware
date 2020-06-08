@@ -649,272 +649,235 @@ Connection ~ 3450 2400
 Text Label 3300 1600 0    50   ~ 0
 PVM
 Connection ~ 8300 1400
-Wire Notes Line
-	1480 5530 1380 5530
-Wire Notes Line
-	1380 5530 1380 5570
-Wire Notes Line
-	1380 5570 1340 5570
-Wire Notes Line
-	1340 5570 1340 5870
-Wire Notes Line
-	1340 5870 1520 5870
-Wire Notes Line
-	1520 5870 1520 5570
-Wire Notes Line
-	1520 5570 1480 5570
-Wire Notes Line
-	1480 5570 1480 5530
-Text Notes 1400 5510 0    59   ~ 0
-+
-Text Notes 1400 5930 0    59   ~ 0
--
-Text Notes 6000 6500 0    79   ~ 16
+Text Notes 3400 6500 0    79   ~ 16
 Connectors
 Wire Wire Line
 	5050 1400 5450 1400
 $Comp
 L Frequently_Used:PWR_FLAG #FLG?
 U 1 1 5EF92BAB
-P 2200 6050
+P 2200 5650
 AR Path="/5EF92BAB" Ref="#FLG?"  Part="1" 
 AR Path="/5EA6751D/5EF92BAB" Ref="#FLG02"  Part="1" 
-F 0 "#FLG02" H 2200 6125 50  0001 C CNN
-F 1 "PWR_FLAG" H 2200 6223 50  0000 C CNN
-F 2 "" H 2200 6050 50  0001 C CNN
-F 3 "~" H 2200 6050 50  0001 C CNN
-	1    2200 6050
+F 0 "#FLG02" H 2200 5725 50  0001 C CNN
+F 1 "PWR_FLAG" H 2200 5823 50  0000 C CNN
+F 2 "" H 2200 5650 50  0001 C CNN
+F 3 "~" H 2200 5650 50  0001 C CNN
+	1    2200 5650
 	-1   0    0    1   
 $EndComp
-Connection ~ 2200 5950
-$Comp
-L Frequently_Used:PWR_FLAG #FLG?
-U 1 1 5EF92BB2
-P 2200 5350
-AR Path="/5EF92BB2" Ref="#FLG?"  Part="1" 
-AR Path="/5EA6751D/5EF92BB2" Ref="#FLG01"  Part="1" 
-F 0 "#FLG01" H 2200 5425 50  0001 C CNN
-F 1 "PWR_FLAG" H 2200 5523 50  0000 C CNN
-F 2 "" H 2200 5350 50  0001 C CNN
-F 3 "~" H 2200 5350 50  0001 C CNN
-	1    2200 5350
-	1    0    0    -1  
-$EndComp
+Connection ~ 2200 5550
 Wire Wire Line
-	2200 5350 2200 5450
+	2200 5650 2200 5550
 Wire Wire Line
-	2200 6050 2200 5950
-$Comp
-L Device:Battery_Cell BT?
-U 1 1 5EF9F75F
-P 2100 5750
-AR Path="/5EF9F75F" Ref="BT?"  Part="1" 
-AR Path="/5EA6751D/5EF9F75F" Ref="BT1"  Part="1" 
-F 0 "BT1" V 1845 5800 50  0000 C CNN
-F 1 "Battery_Cell" V 1936 5800 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" V 2100 5810 50  0001 C CNN
-F 3 "~" V 2100 5810 50  0001 C CNN
-	1    2100 5750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2100 5950 2200 5950
-Wire Wire Line
-	2100 5950 2100 5850
-Wire Wire Line
-	2100 5550 2100 5450
-Wire Wire Line
-	2100 5450 2200 5450
-Connection ~ 2200 5450
-Text Label 3950 5450 2    50   ~ 0
-BATT+
-Text Label 3950 5950 2    50   ~ 0
+	2100 5550 2200 5550
+Text Label 3950 5550 2    50   ~ 0
 BATT-
 Wire Wire Line
-	2200 5950 2600 5950
+	2200 5550 2600 5550
 Wire Wire Line
 	8100 1400 8300 1400
 $Comp
-L Naquadah_Generator:TestPoint TP?
-U 1 1 5EDB4F62
-P 2600 5350
-F 0 "TP?" H 2600 5650 50  0000 C CNN
-F 1 "TestPoint" H 2500 5100 50  0001 L CNN
-F 2 "Frequently_Used:Pad_2.5-2.5" H 2800 5350 50  0001 C CNN
-F 3 "None" H 2800 5350 50  0001 C CNN
-F 4 "BATT+" H 2600 5550 50  0000 C CNN "Name"
-F 5 "None" H 2600 5350 50  0001 C CNN "Description"
-F 6 "None" H 2600 5350 50  0001 C CNN "Source Part No."
-F 7 "None" H 2600 5350 50  0001 C CNN "Manufacturer Name"
-F 8 "None" H 2600 5350 50  0001 C CNN "Manufacturer Part No."
-F 9 "None" H 2600 5350 50  0001 C CNN "Source"
-	1    2600 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2200 5450 2600 5450
-Wire Wire Line
-	2600 5350 2600 5450
-Connection ~ 2600 5450
-$Comp
-L Naquadah_Generator:TestPoint TP?
+L Frequently_Used:TestPoint TP?
 U 1 1 5EDC8A6F
-P 2600 6050
-F 0 "TP?" H 2600 6350 50  0000 C CNN
-F 1 "TestPoint" H 2500 5800 50  0001 L CNN
-F 2 "Frequently_Used:Pad_2.5-2.5" H 2800 6050 50  0001 C CNN
-F 3 "None" H 2800 6050 50  0001 C CNN
-F 4 "BATT-" H 2600 6250 50  0000 C CNN "Name"
-F 5 "None" H 2600 6050 50  0001 C CNN "Description"
-F 6 "None" H 2600 6050 50  0001 C CNN "Source Part No."
-F 7 "None" H 2600 6050 50  0001 C CNN "Manufacturer Name"
-F 8 "None" H 2600 6050 50  0001 C CNN "Manufacturer Part No."
-F 9 "None" H 2600 6050 50  0001 C CNN "Source"
-	1    2600 6050
+P 2600 5650
+F 0 "TP?" H 2600 5850 50  0000 C CNN
+F 1 "TestPoint" H 2500 5400 50  0001 L CNN
+F 2 "Frequently_Used:Pad_2.5-2.5" H 2800 5650 50  0001 C CNN
+F 3 "None" H 2800 5650 50  0001 C CNN
+F 4 "BATT-" H 2600 5950 50  0000 C CNN "Name"
+F 5 "None" H 2600 5650 50  0001 C CNN "Description"
+F 6 "None" H 2600 5650 50  0001 C CNN "Source Part No."
+F 7 "None" H 2600 5650 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 2600 5650 50  0001 C CNN "Manufacturer Part No."
+F 9 "None" H 2600 5650 50  0001 C CNN "Source"
+	1    2600 5650
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2600 6050 2600 5950
-Connection ~ 2600 5950
-$Comp
-L Transistor_FET:BSS138 Q?
-U 1 1 5EDE9E44
-P 3250 6050
-F 0 "Q?" V 3600 5900 50  0000 L CNN
-F 1 "30V 5A" V 3500 5900 50  0000 L CNN
-F 2 "Naquadah_Generator:SOT-23_Handsoldering" H 3450 5975 50  0001 L CIN
-F 3 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 3250 6050 50  0001 L CNN
-F 4 "N-Channel 30V 5A (Ta) 1.3W (Ta) Surface Mount Micro3™/SOT-23" H 3250 6050 50  0001 C CNN "Description"
-F 5 "IRLML6344TRPBFCT-ND" H 3250 6050 50  0001 C CNN "Source Part No."
-F 6 "Infineon Technologies" H 3250 6050 50  0001 C CNN "Manufacturer Name"
-F 7 "IRLML6344TRPBF" H 3250 6050 50  0001 C CNN "Manufacturer Part No."
-F 8 "Digikey" H 3250 6050 50  0001 C CNN "Source"
-	1    3250 6050
-	0    1    -1   0   
-$EndComp
+	2600 5650 2600 5550
+Connection ~ 2600 5550
 Wire Wire Line
-	3450 5950 3950 5950
+	3450 5550 3950 5550
 Wire Wire Line
-	2950 6050 2950 5950
+	2950 5650 2950 5550
 Text Label 5050 1400 0    50   ~ 0
 BATT+
 Wire Wire Line
-	3250 6450 3250 6250
+	3250 6050 3250 5850
 Wire Wire Line
-	2950 6350 2950 6450
+	2950 5950 2950 6050
 Wire Wire Line
-	2950 6450 3250 6450
+	2950 6050 3250 6050
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:R R?
 U 1 1 5EDD5F2C
-P 3500 6450
-F 0 "R?" V 3600 6450 59  0000 L CNN
-F 1 "100" V 3400 6400 59  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 3500 6450 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 3500 6450 50  0001 C CNN
-F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 3500 6450 50  0001 C CNN "Description"
-F 5 "2019-RK73H2ATTD1001FCT-ND" H 3500 6450 50  0001 C CNN "Source Part No."
-F 6 "RK73H2ATTD1001F" H 3500 6450 50  0001 C CNN "Manufacturer Part No."
-F 7 "KOA Speer Electronics, Inc." H 3500 6450 50  0001 C CNN "Manufacturer Name"
-F 8 "Digikey" H 3500 6450 50  0001 C CNN "Source"
-	1    3500 6450
+P 3500 6050
+F 0 "R?" V 3600 6050 59  0000 L CNN
+F 1 "100" V 3400 6000 59  0000 L CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 3500 6050 50  0001 C CNN
+F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 3500 6050 50  0001 C CNN
+F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 3500 6050 50  0001 C CNN "Description"
+F 5 "2019-RK73H2ATTD1001FCT-ND" H 3500 6050 50  0001 C CNN "Source Part No."
+F 6 "RK73H2ATTD1001F" H 3500 6050 50  0001 C CNN "Manufacturer Part No."
+F 7 "KOA Speer Electronics, Inc." H 3500 6050 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 3500 6050 50  0001 C CNN "Source"
+	1    3500 6050
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2600 5950 2950 5950
-Connection ~ 2950 5950
+	2600 5550 2950 5550
+Connection ~ 2950 5550
 Wire Wire Line
-	2950 5950 3050 5950
+	2950 5550 3050 5550
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:R R?
 U 1 1 5ED9A5CF
-P 2950 6200
-F 0 "R?" V 2850 6100 59  0000 L CNN
-F 1 "1k" V 3050 6100 59  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 2950 6200 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 2950 6200 50  0001 C CNN
-F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 2950 6200 50  0001 C CNN "Description"
-F 5 "2019-RK73H2ATTD1001FCT-ND" H 2950 6200 50  0001 C CNN "Source Part No."
-F 6 "RK73H2ATTD1001F" H 2950 6200 50  0001 C CNN "Manufacturer Part No."
-F 7 "KOA Speer Electronics, Inc." H 2950 6200 50  0001 C CNN "Manufacturer Name"
-	1    2950 6200
+P 2950 5800
+F 0 "R?" V 2850 5700 59  0000 L CNN
+F 1 "1k" V 3050 5700 59  0000 L CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 2950 5800 50  0001 C CNN
+F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 2950 5800 50  0001 C CNN
+F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 2950 5800 50  0001 C CNN "Description"
+F 5 "2019-RK73H2ATTD1001FCT-ND" H 2950 5800 50  0001 C CNN "Source Part No."
+F 6 "RK73H2ATTD1001F" H 2950 5800 50  0001 C CNN "Manufacturer Part No."
+F 7 "KOA Speer Electronics, Inc." H 2950 5800 50  0001 C CNN "Manufacturer Name"
+	1    2950 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connectors_LE:Conn_XT J?
-U 1 1 5EE056F1
-P 5500 5900
-F 0 "J?" H 5478 5583 50  0000 C CNN
-F 1 "Conn_XT" H 5478 5674 50  0000 C CNN
-F 2 "" H 5500 5900 50  0001 C CNN
-F 3 "~" H 5500 5900 50  0001 C CNN
-	1    5500 5900
-	-1   0    0    1   
-$EndComp
-Text Label 6000 5900 2    50   ~ 0
-BATT-
-Wire Wire Line
-	5650 5900 6000 5900
-Text Label 6000 5800 2    50   ~ 0
-BATT+
-Wire Wire Line
-	5650 5800 6000 5800
-$Comp
 L Naquadah_Generator:Power_Daughter_Conn J?
 U 1 1 5EDED880
-P 7650 5850
-F 0 "J?" H 7727 5383 50  0000 C CNN
-F 1 "Power_Daughter_Conn" H 7727 5474 50  0000 C CNN
-F 2 "Naquadah_Generator:State_Sensing_Mother_Board_JST_Conn" H 7700 5050 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 7650 5800 50  0001 C CNN
-F 4 "Connector Header Surface Mount 6 position 0.039\" (1.00mm)" H 7700 4950 50  0001 C CNN "Description"
-F 5 "455-1792-1-ND" H 7700 5350 50  0001 C CNN "Digikey Part No."
-F 6 "JST Sales America Inc." H 7700 5250 50  0001 C CNN "Manufacturer Name"
-F 7 "BM06B-SRSS-TB(LF)(SN)" H 7700 5150 50  0001 C CNN "Manufacturer Part No."
-	1    7650 5850
+P 5400 5600
+F 0 "J?" H 5477 5133 50  0000 C CNN
+F 1 "Power_Daughter_Conn" H 5477 5224 50  0000 C CNN
+F 2 "Naquadah_Generator:Power_Mother_Board_Conn" H 5450 4800 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 5400 5550 50  0001 C CNN
+F 4 "Connector Header Surface Mount 6 position 0.039\" (1.00mm)" H 5450 4700 50  0001 C CNN "Description"
+F 5 "455-1792-1-ND" H 5450 5100 50  0001 C CNN "Digikey Part No."
+F 6 "JST Sales America Inc." H 5450 5000 50  0001 C CNN "Manufacturer Name"
+F 7 "BM06B-SRSS-TB(LF)(SN)" H 5450 4900 50  0001 C CNN "Manufacturer Part No."
+	1    5400 5600
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7800 6100 7850 6100
+	5550 5850 5600 5850
 Wire Wire Line
-	7850 6100 7850 6050
+	5600 5850 5600 5800
 Wire Wire Line
-	7850 6000 7800 6000
+	5600 5750 5550 5750
 Wire Wire Line
-	7800 5900 7850 5900
+	5550 5650 5600 5650
 Wire Wire Line
-	7850 5900 7850 5850
+	5600 5650 5600 5600
 Wire Wire Line
-	7850 5800 7800 5800
+	5600 5550 5550 5550
 Wire Wire Line
-	7850 5850 8350 5850
-Connection ~ 7850 5850
+	5600 5600 6100 5600
+Connection ~ 5600 5600
 Wire Wire Line
-	7850 5850 7850 5800
+	5600 5600 5600 5550
 Wire Wire Line
-	7850 6050 8350 6050
-Connection ~ 7850 6050
+	5600 5800 6100 5800
+Connection ~ 5600 5800
 Wire Wire Line
-	7850 6050 7850 6000
+	5600 5800 5600 5750
 Wire Wire Line
-	7800 5700 8350 5700
+	5550 5450 6100 5450
 Wire Wire Line
-	7800 5600 8350 5600
-Text Label 8350 5600 2    50   ~ 0
+	5550 5350 6100 5350
+Text Label 6100 5350 2    50   ~ 0
 READY
-Text Label 8350 5700 2    50   ~ 0
+Text Label 6100 5450 2    50   ~ 0
 SWITCH
-Text Label 8350 5850 2    50   ~ 0
+Text Label 6100 5600 2    50   ~ 0
 BATT+
-Text Label 8350 6050 2    50   ~ 0
+Text Label 6100 5800 2    50   ~ 0
 GND
 Wire Wire Line
-	2600 5450 3950 5450
+	3250 6050 3350 6050
+Connection ~ 3250 6050
 Wire Wire Line
-	3250 6450 3350 6450
-Connection ~ 3250 6450
-Wire Wire Line
-	3650 6450 3950 6450
-Text Label 3950 6450 2    50   ~ 0
+	3650 6050 3950 6050
+Text Label 3950 6050 2    50   ~ 0
 SWITCH
+Wire Wire Line
+	2100 5250 2100 5350
+Wire Wire Line
+	2100 5450 2100 5550
+Wire Wire Line
+	1900 5350 2100 5350
+Wire Wire Line
+	1900 5450 2100 5450
+$Comp
+L Connectors_LE:Conn_XT J?
+U 1 1 5EE056F1
+P 1750 5450
+F 0 "J?" H 1728 5133 50  0000 C CNN
+F 1 "Conn_XT" H 1728 5224 50  0000 C CNN
+F 2 "" H 1750 5450 50  0001 C CNN
+F 3 "~" H 1750 5450 50  0001 C CNN
+	1    1750 5450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 5250 3950 5250
+Connection ~ 2600 5250
+Wire Wire Line
+	2600 5150 2600 5250
+Wire Wire Line
+	2200 5250 2600 5250
+$Comp
+L Frequently_Used:TestPoint TP?
+U 1 1 5EDB4F62
+P 2600 5150
+F 0 "TP?" H 2600 5450 50  0000 C CNN
+F 1 "TestPoint" H 2500 4900 50  0001 L CNN
+F 2 "Frequently_Used:Pad_2.5-2.5" H 2800 5150 50  0001 C CNN
+F 3 "None" H 2800 5150 50  0001 C CNN
+F 4 "BATT+" H 2600 5350 50  0000 C CNN "Name"
+F 5 "None" H 2600 5150 50  0001 C CNN "Description"
+F 6 "None" H 2600 5150 50  0001 C CNN "Source Part No."
+F 7 "None" H 2600 5150 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 2600 5150 50  0001 C CNN "Manufacturer Part No."
+F 9 "None" H 2600 5150 50  0001 C CNN "Source"
+	1    2600 5150
+	1    0    0    -1  
+$EndComp
+Text Label 3950 5250 2    50   ~ 0
+BATT+
+Connection ~ 2200 5250
+Wire Wire Line
+	2100 5250 2200 5250
+Wire Wire Line
+	2200 5150 2200 5250
+$Comp
+L Frequently_Used:PWR_FLAG #FLG?
+U 1 1 5EF92BB2
+P 2200 5150
+AR Path="/5EF92BB2" Ref="#FLG?"  Part="1" 
+AR Path="/5EA6751D/5EF92BB2" Ref="#FLG01"  Part="1" 
+F 0 "#FLG01" H 2200 5225 50  0001 C CNN
+F 1 "PWR_FLAG" H 2200 5323 50  0000 C CNN
+F 2 "" H 2200 5150 50  0001 C CNN
+F 3 "~" H 2200 5150 50  0001 C CNN
+	1    2200 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5EDE9E44
+P 3250 5650
+F 0 "Q?" V 3300 5800 50  0000 L CNN
+F 1 "30V 5A" V 3200 5800 50  0000 L CNN
+F 2 "Naquadah_Generator:SOT-23_Handsoldering" H 3450 5575 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 3250 5650 50  0001 L CNN
+F 4 "N-Channel 30V 5A (Ta) 1.3W (Ta) Surface Mount Micro3™/SOT-23" H 3250 5650 50  0001 C CNN "Description"
+F 5 "IRLML6344TRPBFCT-ND" H 3250 5650 50  0001 C CNN "Source Part No."
+F 6 "Infineon Technologies" H 3250 5650 50  0001 C CNN "Manufacturer Name"
+F 7 "IRLML6344TRPBF" H 3250 5650 50  0001 C CNN "Manufacturer Part No."
+F 8 "Digikey" H 3250 5650 50  0001 C CNN "Source"
+	1    3250 5650
+	0    1    -1   0   
+$EndComp
 $EndSCHEMATC

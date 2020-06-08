@@ -149,25 +149,6 @@ X SHLD S4 600 -650 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_Battery_Cell
-#
-DEF Device_Battery_Cell BT 0 0 N N 1 F N
-F0 "BT" 100 100 50 H V L CNN
-F1 "Device_Battery_Cell" 100 0 50 H V L CNN
-F2 "" 0 60 50 V I C CNN
-F3 "" 0 60 50 V I C CNN
-DRAW
-S -90 70 90 60 0 1 0 F
-S -62 47 58 27 0 1 0 F
-P 2 0 1 0 0 30 0 0 N
-P 2 0 1 0 0 70 0 100 N
-P 2 0 1 10 20 135 60 135 N
-P 2 0 1 10 40 155 40 115 N
-X + 1 0 200 100 D 50 50 1 1 P
-X - 2 0 -100 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Device_LED
 #
 DEF Device_LED D 0 40 N N 1 F N
@@ -636,6 +617,10 @@ F0 "J" 0 200 50 H V C CNN
 F1 "Naquadah_Generator_Conn_ISP" 0 -200 50 H V C CNN
 F2 "" 50 0 50 H I C CNN
 F3 "" 50 0 50 H I C CNN
+F4 "None" 0 -300 50 H I C CNN "Source"
+F5 "None" 0 -300 50 H I C CNN "Source Part No."
+F6 "None" 0 -300 50 H I C CNN "Manufacturer Name"
+F7 "None" 0 -300 50 H I C CNN "Manufacturer Part No."
 $FPLIST
  Connector*:*_2x??_*
 $ENDFPLIST
@@ -710,9 +695,10 @@ F1 "Naquadah_Generator_Power_Daughter_Conn" 0 -350 50 H V C CNN
 F2 "Naquadah_Generator:State_Sensing_Mother_Board_JST_Conn" 50 -800 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 F4 "Connector Header Surface Mount 6 position 0.039\" (1.00mm)" 50 -900 50 H I C CNN "Description"
-F5 "455-1792-1-ND" 50 -500 50 H I C CNN "Digikey Part No."
-F6 "JST Sales America Inc." 50 -600 50 H I C CNN "Manufacturer Name"
-F7 "BM06B-SRSS-TB(LF)(SN)" 50 -700 50 H I C CNN "Manufacturer Part No."
+F5 "Digikey" 0 -1000 50 H I C CNN "Source"
+F6 "455-1792-1-ND" 50 -500 50 H I C CNN "Source Part No."
+F7 "JST Sales America Inc." 50 -600 50 H I C CNN "Manufacturer Name"
+F8 "BM06B-SRSS-TB(LF)(SN)" 50 -700 50 H I C CNN "Manufacturer Part No."
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
@@ -740,9 +726,10 @@ F0 "J" 0 250 50 H V C CNN
 F1 "Naquadah_Generator_State_Sensing_Conn" 0 -250 50 H V C CNN
 F2 "Naquadah_Generator:State_Sensing_Mother_Board_JST_Conn" 50 -650 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
-F4 "455-1804-1-ND" 50 -350 50 H I C CNN "Digikey Part No."
-F5 "JST Sales America Inc." 50 -450 50 H I C CNN "Manufacturer Name"
-F6 "SM04B-SRSS-TB(LF)(SN)" 50 -550 50 H I C CNN "Manufacturer Part No."
+F4 "Digikey" 0 -750 50 H I C CNN "Source"
+F5 "455-1804-1-ND" 50 -350 50 H I C CNN "Source Part No."
+F6 "JST Sales America Inc." 50 -450 50 H I C CNN "Manufacturer Name"
+F7 "SM04B-SRSS-TB(LF)(SN)" 50 -550 50 H I C CNN "Manufacturer Part No."
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
@@ -756,24 +743,6 @@ X GND 1 -150 150 100 R 50 50 1 1 P
 X VCC 2 -150 50 100 R 50 50 1 1 P
 X SENS1 3 -150 -50 100 R 50 50 1 1 P
 X SENS2 4 -150 -150 100 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Naquadah_Generator_TestPoint
-#
-DEF Naquadah_Generator_TestPoint TP 0 30 N N 1 F N
-F0 "TP" -100 250 50 H V L CNN
-F1 "Naquadah_Generator_TestPoint" -100 -250 50 H I L CNN
-F2 "" 200 0 50 H I C CNN
-F3 "" 200 0 50 H I C CNN
-F4 "Name" -100 150 50 H V L CNN "Name"
-$FPLIST
- Pin*
- Test*
-$ENDFPLIST
-DRAW
-C 0 80 30 0 1 0 N
-X 1 1 0 0 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

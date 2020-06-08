@@ -253,7 +253,7 @@ F 7 "Digikey" H 8650 5850 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Naquadah_Generator:TestPoint TP101
+L Frequently_Used:TestPoint TP101
 U 1 1 5EF333AD
 P 5200 3050
 F 0 "TP101" H 5150 3350 50  0000 L BNN
@@ -280,7 +280,7 @@ F 3 "" H 6850 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Naquadah_Generator:TestPoint TP104
+L Frequently_Used:TestPoint TP104
 U 1 1 5EF79EC8
 P 5200 2200
 F 0 "TP104" H 5250 2400 50  0000 R BNN
@@ -296,7 +296,7 @@ F 8 "Digikey" H 5200 2200 50  0001 C CNN "Source"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Naquadah_Generator:TestPoint TP103
+L Frequently_Used:TestPoint TP103
 U 1 1 5EF7C130
 P 7500 2200
 F 0 "TP103" H 7550 2400 50  0000 R BNN
@@ -312,7 +312,7 @@ F 8 "Digikey" H 7500 2200 50  0001 C CNN "Source"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Naquadah_Generator:TestPoint TP102
+L Frequently_Used:TestPoint TP102
 U 1 1 5EF7C9EB
 P 5200 1250
 F 0 "TP102" H 5150 1550 50  0000 L BNN

@@ -1,6 +1,28 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Frequently_Used_TestPoint
+#
+DEF Frequently_Used_TestPoint TP 0 30 N N 1 F N
+F0 "TP" 0 225 50 H V C CNN
+F1 "Frequently_Used_TestPoint" 0 -280 50 H I C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+F4 "Name" 0 150 50 H V C CNN "Name"
+F5 "None" -5 -355 50 H I C CNN "Source"
+F6 "None" -5 -355 50 H I C CNN "Source Part No."
+F7 "None" -5 -355 50 H I C CNN "Manufacturer"
+F8 "None" -5 -355 50 H I C CNN "Manufacturer Part No."
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 80 30 0 1 0 N
+X 1 1 0 0 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Naquadah_Generator_AH1815-P
 #
 DEF Naquadah_Generator_AH1815-P U 0 20 Y Y 1 F N
@@ -81,9 +103,10 @@ F0 "J" 0 250 50 H V C CNN
 F1 "Naquadah_Generator_State_Sensing_Conn" 0 -250 50 H V C CNN
 F2 "Naquadah_Generator:State_Sensing_Mother_Board_JST_Conn" 50 -650 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
-F4 "455-1804-1-ND" 50 -350 50 H I C CNN "Digikey Part No."
-F5 "JST Sales America Inc." 50 -450 50 H I C CNN "Manufacturer Name"
-F6 "SM04B-SRSS-TB(LF)(SN)" 50 -550 50 H I C CNN "Manufacturer Part No."
+F4 "Digikey" 0 -750 50 H I C CNN "Source"
+F5 "455-1804-1-ND" 50 -350 50 H I C CNN "Source Part No."
+F6 "JST Sales America Inc." 50 -450 50 H I C CNN "Manufacturer Name"
+F7 "SM04B-SRSS-TB(LF)(SN)" 50 -550 50 H I C CNN "Manufacturer Part No."
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
@@ -97,24 +120,6 @@ X GND 1 -150 150 100 R 50 50 1 1 P
 X VCC 2 -150 50 100 R 50 50 1 1 P
 X SENS1 3 -150 -50 100 R 50 50 1 1 P
 X SENS2 4 -150 -150 100 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Naquadah_Generator_TestPoint
-#
-DEF Naquadah_Generator_TestPoint TP 0 30 N N 1 F N
-F0 "TP" -100 250 50 H V L CNN
-F1 "Naquadah_Generator_TestPoint" -100 -250 50 H I L CNN
-F2 "" 200 0 50 H I C CNN
-F3 "" 200 0 50 H I C CNN
-F4 "Name" -100 150 50 H V L CNN "Name"
-$FPLIST
- Pin*
- Test*
-$ENDFPLIST
-DRAW
-C 0 80 30 0 1 0 N
-X 1 1 0 0 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
