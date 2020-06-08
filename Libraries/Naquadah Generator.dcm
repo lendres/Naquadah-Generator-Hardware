@@ -83,6 +83,12 @@ K connector
 F http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
 $ENDCMP
 #
+$CMP Power_Daughter_5_Pin_Conn
+D Connector from mother board to power daughter board
+K connector
+F http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+$ENDCMP
+#
 $CMP Power_Daughter_6_Pin_Conn
 D Connector from mother board to power daughter board
 K connector

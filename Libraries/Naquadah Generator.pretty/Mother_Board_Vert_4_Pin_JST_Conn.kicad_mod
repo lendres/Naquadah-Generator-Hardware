@@ -1,4 +1,5 @@
-(module Mother_Board_Vert_4_Pin_JST_Conn (layer F.Cu) (tedit 5EDD9183)
+(module Mother_Board_Vert_4_Pin_JST_Conn (layer F.Cu) (tedit 5EDE3DF2)
+  (descr "JST SH series connector, SM04B-SRSS-TB 1.00mm vertical")
   (fp_text reference REF** (at 0.175 -3.15) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

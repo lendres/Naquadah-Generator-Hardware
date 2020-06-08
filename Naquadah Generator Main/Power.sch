@@ -678,10 +678,10 @@ Wire Wire Line
 Wire Wire Line
 	8100 1400 8300 1400
 $Comp
-L Frequently_Used:TestPoint TP?
+L Frequently_Used:TestPoint TP2
 U 1 1 5EDC8A6F
 P 2600 5650
-F 0 "TP?" H 2600 5850 50  0000 C CNN
+F 0 "TP2" H 2600 5850 50  0000 C CNN
 F 1 "TestPoint" H 2500 5400 50  0001 L CNN
 F 2 "Frequently_Used:Pad_2.5-2.5" H 2800 5650 50  0001 C CNN
 F 3 "None" H 2800 5650 50  0001 C CNN
@@ -710,10 +710,10 @@ Wire Wire Line
 Wire Wire Line
 	2950 6050 3250 6050
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:R R?
+L Li-ion_5A_Boost_1A_Charge_Protect:R R33
 U 1 1 5EDD5F2C
 P 3500 6050
-F 0 "R?" V 3600 6050 59  0000 L CNN
+F 0 "R33" V 3600 6050 59  0000 L CNN
 F 1 "100" V 3400 6000 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 3500 6050 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 3500 6050 50  0001 C CNN
@@ -731,10 +731,10 @@ Connection ~ 2950 5550
 Wire Wire Line
 	2950 5550 3050 5550
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:R R?
+L Li-ion_5A_Boost_1A_Charge_Protect:R R2
 U 1 1 5ED9A5CF
 P 2950 5800
-F 0 "R?" V 2850 5700 59  0000 L CNN
+F 0 "R2" V 2850 5700 59  0000 L CNN
 F 1 "1k" V 3050 5700 59  0000 L CNN
 F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 2950 5800 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 2950 5800 50  0001 C CNN
@@ -746,42 +746,26 @@ F 7 "KOA Speer Electronics, Inc." H 2950 5800 50  0001 C CNN "Manufacturer Name"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Naquadah_Generator:Power_Daughter_Conn J?
+L Naquadah_Generator:Power_Daughter_4_Pin_Conn J?
 U 1 1 5EDED880
-P 5400 5600
-F 0 "J?" H 5477 5133 50  0000 C CNN
-F 1 "Power_Daughter_Conn" H 5477 5224 50  0000 C CNN
-F 2 "Naquadah_Generator:Power_Mother_Board_Conn" H 5450 4800 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 5400 5550 50  0001 C CNN
-F 4 "Connector Header Surface Mount 6 position 0.039\" (1.00mm)" H 5450 4700 50  0001 C CNN "Description"
-F 5 "455-1792-1-ND" H 5450 5100 50  0001 C CNN "Digikey Part No."
-F 6 "JST Sales America Inc." H 5450 5000 50  0001 C CNN "Manufacturer Name"
-F 7 "BM06B-SRSS-TB(LF)(SN)" H 5450 4900 50  0001 C CNN "Manufacturer Part No."
-	1    5400 5600
+P 5400 5500
+AR Path="/5EDED880" Ref="J?"  Part="1" 
+AR Path="/5EA6751D/5EDED880" Ref="J10"  Part="1" 
+F 0 "J10" H 5400 5200 50  0000 C CNN
+F 1 "Power_Daughter_Conn" H 5400 5750 50  0000 C CNN
+F 2 "Naquadah_Generator:Mother_Board_Vert_4_Pin_JST_Conn" H 5450 4700 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 5400 5450 50  0001 C CNN
+F 4 "Connector Header Surface Mount 6 position 0.039\" (1.00mm)" H 5450 4600 50  0001 C CNN "Description"
+F 5 "455-1792-1-ND" H 5450 5000 50  0001 C CNN "Digikey Part No."
+F 6 "JST Sales America Inc." H 5450 4900 50  0001 C CNN "Manufacturer Name"
+F 7 "BM06B-SRSS-TB(LF)(SN)" H 5450 4800 50  0001 C CNN "Manufacturer Part No."
+	1    5400 5500
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5550 5850 5600 5850
+	5550 5550 6100 5550
 Wire Wire Line
-	5600 5850 5600 5800
-Wire Wire Line
-	5600 5750 5550 5750
-Wire Wire Line
-	5550 5650 5600 5650
-Wire Wire Line
-	5600 5650 5600 5600
-Wire Wire Line
-	5600 5550 5550 5550
-Wire Wire Line
-	5600 5600 6100 5600
-Connection ~ 5600 5600
-Wire Wire Line
-	5600 5600 5600 5550
-Wire Wire Line
-	5600 5800 6100 5800
-Connection ~ 5600 5800
-Wire Wire Line
-	5600 5800 5600 5750
+	5550 5650 6100 5650
 Wire Wire Line
 	5550 5450 6100 5450
 Wire Wire Line
@@ -790,9 +774,9 @@ Text Label 6100 5350 2    50   ~ 0
 READY
 Text Label 6100 5450 2    50   ~ 0
 SWITCH
-Text Label 6100 5600 2    50   ~ 0
+Text Label 6100 5550 2    50   ~ 0
 BATT+
-Text Label 6100 5800 2    50   ~ 0
+Text Label 6100 5650 2    50   ~ 0
 GND
 Wire Wire Line
 	3250 6050 3350 6050
@@ -810,12 +794,12 @@ Wire Wire Line
 Wire Wire Line
 	1900 5450 2100 5450
 $Comp
-L Connectors_LE:Conn_XT J?
+L Connectors_LE:Power_Conn J9
 U 1 1 5EE056F1
 P 1750 5450
-F 0 "J?" H 1728 5133 50  0000 C CNN
-F 1 "Conn_XT" H 1728 5224 50  0000 C CNN
-F 2 "" H 1750 5450 50  0001 C CNN
+F 0 "J9" H 1750 5250 50  0000 C CNN
+F 1 "Power_Conn" H 1750 5550 50  0000 C CNN
+F 2 "Naquadah_Generator:Keystone-1042" H 1750 5450 50  0001 C CNN
 F 3 "~" H 1750 5450 50  0001 C CNN
 	1    1750 5450
 	-1   0    0    1   
@@ -828,10 +812,10 @@ Wire Wire Line
 Wire Wire Line
 	2200 5250 2600 5250
 $Comp
-L Frequently_Used:TestPoint TP?
+L Frequently_Used:TestPoint TP1
 U 1 1 5EDB4F62
 P 2600 5150
-F 0 "TP?" H 2600 5450 50  0000 C CNN
+F 0 "TP1" H 2600 5450 50  0000 C CNN
 F 1 "TestPoint" H 2500 4900 50  0001 L CNN
 F 2 "Frequently_Used:Pad_2.5-2.5" H 2800 5150 50  0001 C CNN
 F 3 "None" H 2800 5150 50  0001 C CNN
@@ -865,10 +849,10 @@ F 3 "~" H 2200 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:BSS138 Q?
+L Transistor_FET:BSS138 Q1
 U 1 1 5EDE9E44
 P 3250 5650
-F 0 "Q?" V 3300 5800 50  0000 L CNN
+F 0 "Q1" V 3300 5800 50  0000 L CNN
 F 1 "30V 5A" V 3200 5800 50  0000 L CNN
 F 2 "Naquadah_Generator:SOT-23_Handsoldering" H 3450 5575 50  0001 L CIN
 F 3 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 3250 5650 50  0001 L CNN

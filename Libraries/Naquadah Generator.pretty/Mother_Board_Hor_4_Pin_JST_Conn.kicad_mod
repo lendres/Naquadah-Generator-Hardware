@@ -1,5 +1,5 @@
-(module Mother_Board_Hor_4_Pin_JST_Conn (layer F.Cu) (tedit 5EDD903D)
-  (descr "JST SH series connector, SM04B-SRSS-TB 1MP P1.00mm_Horizontal")
+(module Mother_Board_Hor_4_Pin_JST_Conn (layer F.Cu) (tedit 5EDE3DC5)
+  (descr "JST SH series connector, SM04B-SRSS-TB 1.00mm Horizontal")
   (tags "connector JST SH daughter board")
   (attr smd)
   (fp_text reference REF** (at 0 -3.98) (layer F.SilkS)

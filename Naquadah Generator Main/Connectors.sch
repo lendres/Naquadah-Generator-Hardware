@@ -725,10 +725,10 @@ Wire Wire Line
 Wire Wire Line
 	5150 4150 5150 4250
 $Comp
-L Frequently_Used:TestPoint TP?
+L Frequently_Used:TestPoint TP3
 U 1 1 5ED8A970
 P 7050 3650
-F 0 "TP?" H 7050 3950 50  0000 C CNN
+F 0 "TP3" H 7050 3950 50  0000 C CNN
 F 1 "TestPoint" H 6950 3400 50  0001 L CNN
 F 2 "Frequently_Used:Pad_2.5-2.5" H 7250 3650 50  0001 C CNN
 F 3 "None" H 7250 3650 50  0001 C CNN
@@ -742,10 +742,10 @@ F 9 "None" H 7050 3650 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:TestPoint TP?
+L Frequently_Used:TestPoint TP4
 U 1 1 5ED8C4D5
 P 7300 3650
-F 0 "TP?" H 7300 3950 50  0000 C CNN
+F 0 "TP4" H 7300 3950 50  0000 C CNN
 F 1 "TestPoint" H 7200 3400 50  0001 L CNN
 F 2 "Frequently_Used:Pad_2.5-2.5" H 7500 3650 50  0001 C CNN
 F 3 "None" H 7500 3650 50  0001 C CNN
@@ -771,10 +771,10 @@ Connection ~ 7300 3750
 Wire Wire Line
 	7300 3750 7000 3750
 $Comp
-L Frequently_Used:TestPoint TP?
+L Frequently_Used:TestPoint TP5
 U 1 1 5ED9FCBB
 P 9450 3650
-F 0 "TP?" H 9450 3950 50  0000 C CNN
+F 0 "TP5" H 9450 3950 50  0000 C CNN
 F 1 "TestPoint" H 9350 3400 50  0001 L CNN
 F 2 "Frequently_Used:Pad_2.5-2.5" H 9650 3650 50  0001 C CNN
 F 3 "None" H 9650 3650 50  0001 C CNN
@@ -788,10 +788,10 @@ F 9 "None" H 9450 3650 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:TestPoint TP?
+L Frequently_Used:TestPoint TP6
 U 1 1 5ED9FCC2
 P 9700 3650
-F 0 "TP?" H 9700 3950 50  0000 C CNN
+F 0 "TP6" H 9700 3950 50  0000 C CNN
 F 1 "TestPoint" H 9600 3400 50  0001 L CNN
 F 2 "Frequently_Used:Pad_2.5-2.5" H 9900 3650 50  0001 C CNN
 F 3 "None" H 9900 3650 50  0001 C CNN

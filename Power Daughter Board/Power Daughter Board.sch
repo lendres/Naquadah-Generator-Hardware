@@ -328,7 +328,7 @@ Wire Wire Line
 Connection ~ 6050 1750
 Wire Wire Line
 	6050 1750 7700 1750
-Text Notes 8550 5400 0    79   ~ 16
+Text Notes 9000 5400 0    79   ~ 16
 Charging Connector
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:LED D2
@@ -346,7 +346,7 @@ F 8 "150080VS75000" H 3250 1900 50  0001 C CNN "Manufacturer Part No."
 	1    3250 1900
 	0    -1   -1   0   
 $EndComp
-Text Label 4300 4900 0    50   ~ 0
+Text Label 3450 4900 0    50   ~ 0
 BATT+
 Wire Wire Line
 	2850 1750 3250 1750
@@ -360,302 +360,292 @@ Connection ~ 3950 1750
 Wire Wire Line
 	3950 1750 5000 1750
 $Comp
-L Naquadah_Generator:Power_Daughter_4_Pin_Conn J1
+L Naquadah_Generator:Power_Daughter_5_Pin_Conn J1
 U 1 1 5EDA477E
-P 6400 4650
-F 0 "J1" H 6400 4400 50  0000 C CNN
-F 1 "Power Board Conn" H 6400 4950 50  0000 C CNN
-F 2 "Naquadah_Generator:Daughter_Board_Vert_4_Pin_JST_Conn" H 6450 4000 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 6400 4700 50  0001 C CNN
-F 4 "Digikey" H 6400 4650 50  0001 C CNN "Source"
-F 5 "455-1790-1-ND" H 6450 4300 50  0001 C CNN "Source Part No."
-F 6 "JST Sales America Inc." H 6450 4200 50  0001 C CNN "Manufacturer Name"
-F 7 "BM04B-SRSS-TB(LF)(SN)" H 6450 4100 50  0001 C CNN "Manufacturer Part No."
-F 8 "Connector Header Surface Mount 4 position 0.039\" (1.00mm)" H 6400 4650 50  0001 C CNN "Description"
-	1    6400 4650
+P 7250 4600
+F 0 "J1" H 7250 4300 50  0000 C CNN
+F 1 "Power Board Conn" H 7250 4900 50  0000 C CNN
+F 2 "Naquadah_Generator:Daughter_Board_Vert_5_Pin_JST_Conn" H 7300 3950 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 7250 4650 50  0001 C CNN
+F 4 "Digikey" H 7250 4600 50  0001 C CNN "Source"
+F 5 "455-1790-1-ND" H 7300 4250 50  0001 C CNN "Source Part No."
+F 6 "JST Sales America Inc." H 7300 4150 50  0001 C CNN "Manufacturer Name"
+F 7 "BM04B-SRSS-TB(LF)(SN)" H 7300 4050 50  0001 C CNN "Manufacturer Part No."
+F 8 "Connector Header Surface Mount 4 position 0.039\" (1.00mm)" H 7250 4600 50  0001 C CNN "Description"
+	1    7250 4600
 	-1   0    0    1   
 $EndComp
 $Comp
 L Naquadah_Generator:GND #PWR03
 U 1 1 5EDA9297
-P 7600 4900
-F 0 "#PWR03" H 7600 4650 50  0001 C CNN
-F 1 "GND" H 7605 4727 50  0000 C CNN
-F 2 "" H 7600 4900 50  0001 C CNN
-F 3 "" H 7600 4900 50  0001 C CNN
-	1    7600 4900
+P 8450 4900
+F 0 "#PWR03" H 8450 4650 50  0001 C CNN
+F 1 "GND" H 8455 4727 50  0000 C CNN
+F 2 "" H 8450 4900 50  0001 C CNN
+F 3 "" H 8450 4900 50  0001 C CNN
+	1    8450 4900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6550 4500 6600 4500
-Wire Wire Line
-	6550 4600 6850 4600
-Text Label 7200 4500 0    50   ~ 0
+Text Label 8050 4500 0    50   ~ 0
 READY
-Text Label 7200 4700 0    50   ~ 0
+Text Label 8050 4700 0    50   ~ 0
 BATT+
-Text Label 7200 4600 0    50   ~ 0
+Text Label 8050 4600 0    50   ~ 0
 SWITCH
 Wire Wire Line
-	7600 4800 7600 4900
+	8450 4800 8450 4900
 Wire Wire Line
-	4300 4900 4600 4900
-Text Label 5450 5050 2    50   ~ 0
+	3450 4900 3750 4900
+Text Label 4600 5050 2    50   ~ 0
 SWITCH
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:LED D1
 U 1 1 5EDBD7E3
-P 3150 4150
-F 0 "D1" H 3050 4250 50  0000 L CNN
-F 1 "GREEN" H 3050 4050 50  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:LED_0805_2012Metric_HandSolder" H 3150 4150 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 3150 4150 50  0001 C CNN
-F 4 "Green 570nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 3150 4150 50  0001 C CNN "Description"
-F 5 "Digikey" H 3150 4150 50  0001 C CNN "Source"
-F 6 "732-4986-1-ND" H 3150 4150 50  0001 C CNN "Source Part No."
-F 7 "Würth Elektronik" H 3150 4150 50  0001 C CNN "Manufacturer Name"
-F 8 "150080VS75000" H 3150 4150 50  0001 C CNN "Manufacturer Part No."
-	1    3150 4150
+P 2550 4150
+F 0 "D1" H 2450 4250 50  0000 L CNN
+F 1 "GREEN" H 2450 4050 50  0000 L CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:LED_0805_2012Metric_HandSolder" H 2550 4150 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 2550 4150 50  0001 C CNN
+F 4 "Green 570nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 2550 4150 50  0001 C CNN "Description"
+F 5 "Digikey" H 2550 4150 50  0001 C CNN "Source"
+F 6 "732-4986-1-ND" H 2550 4150 50  0001 C CNN "Source Part No."
+F 7 "Würth Elektronik" H 2550 4150 50  0001 C CNN "Manufacturer Name"
+F 8 "150080VS75000" H 2550 4150 50  0001 C CNN "Manufacturer Part No."
+	1    2550 4150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3150 4600 3150 4300
+	2550 4600 2550 4300
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:R R1
 U 1 1 5EDBD7F9
-P 3150 4750
-F 0 "R1" V 3050 4650 59  0000 L CNN
-F 1 "1k" V 3250 4650 59  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 3150 4750 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 3150 4750 50  0001 C CNN
-F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 3150 4750 50  0001 C CNN "Description"
-F 5 "Digikey" H 3150 4750 50  0001 C CNN "Source"
-F 6 "2019-RK73H2ATTD1001FCT-ND" H 3150 4750 50  0001 C CNN "Source Part No."
-F 7 "KOA Speer Electronics, Inc." H 3150 4750 50  0001 C CNN "Manufacturer Name"
-F 8 "RK73H2ATTD1001F" H 3150 4750 50  0001 C CNN "Manufacturer Part No."
-	1    3150 4750
+P 2550 4750
+F 0 "R1" V 2450 4650 59  0000 L CNN
+F 1 "1k" V 2650 4650 59  0000 L CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 2550 4750 50  0001 C CNN
+F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 2550 4750 50  0001 C CNN
+F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 2550 4750 50  0001 C CNN "Description"
+F 5 "Digikey" H 2550 4750 50  0001 C CNN "Source"
+F 6 "2019-RK73H2ATTD1001FCT-ND" H 2550 4750 50  0001 C CNN "Source Part No."
+F 7 "KOA Speer Electronics, Inc." H 2550 4750 50  0001 C CNN "Manufacturer Name"
+F 8 "RK73H2ATTD1001F" H 2550 4750 50  0001 C CNN "Manufacturer Part No."
+	1    2550 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 4000 3150 3700
+	2550 4000 2550 3700
 Wire Wire Line
-	3150 4900 3150 5000
-Text Label 3150 3700 3    50   ~ 0
+	2550 4900 2550 5000
+Text Label 2550 3700 3    50   ~ 0
 SWITCH
 $Comp
 L Naquadah_Generator:PJ-006A-SMT J2
 U 1 1 5EDD61FB
-P 8900 4800
-F 0 "J2" H 8650 5150 50  0000 L CNN
-F 1 "Jack-DC" H 8650 5050 50  0000 L CNN
-F 2 "Naquadah_Generator:PJ-006A-SMT" H 8950 4760 50  0001 C CNN
-F 3 "Manufacturer recommendations" H 8950 4760 50  0001 C CNN
-F 4 "Power Barrel Connector Jack 2.10mm ID (0.083\"), 5.50mm OD (0.217\") Surface Mount" H 8900 4800 50  0001 C CNN "Description"
-F 5 "Digikey" H 8900 4800 50  0001 C CNN "Source"
-F 6 "CP-006APJCT-ND" H 8900 4800 50  0001 C CNN "Source Part No."
-F 7 "CUI Devices" H 8900 4800 50  0001 C CNN "Manufacturer Name"
-F 8 "PJ-006A-SMT-TR" H 8900 4800 50  0001 C CNN "Manufacturer Part No."
-	1    8900 4800
+P 9350 4800
+F 0 "J2" H 9100 5150 50  0000 L CNN
+F 1 "Jack-DC" H 9100 5050 50  0000 L CNN
+F 2 "Naquadah_Generator:PJ-006A-SMT" H 9400 4760 50  0001 C CNN
+F 3 "Manufacturer recommendations" H 9400 4760 50  0001 C CNN
+F 4 "Power Barrel Connector Jack 2.10mm ID (0.083\"), 5.50mm OD (0.217\") Surface Mount" H 9350 4800 50  0001 C CNN "Description"
+F 5 "Digikey" H 9350 4800 50  0001 C CNN "Source"
+F 6 "CP-006APJCT-ND" H 9350 4800 50  0001 C CNN "Source Part No."
+F 7 "CUI Devices" H 9350 4800 50  0001 C CNN "Manufacturer Name"
+F 8 "PJ-006A-SMT-TR" H 9350 4800 50  0001 C CNN "Manufacturer Part No."
+	1    9350 4800
 	1    0    0    -1  
 $EndComp
-Text Notes 8800 5600 0    50   ~ 0
+Text Notes 9250 5600 0    50   ~ 0
 Neg 5.5mm sleeve\nPos 2.1mm pin
 $Comp
 L Frequently_Used:TestPoint TP1
 U 1 1 5EDDCA36
-P 6600 4400
-F 0 "TP1" H 6600 4700 50  0000 C CNN
-F 1 "TestPoint" H 6500 4150 50  0001 L CNN
-F 2 "Frequently_Used:Pad_2.5-2.5" H 6800 4400 50  0001 C CNN
-F 3 "None" H 6800 4400 50  0001 C CNN
-F 4 "RDY" H 6600 4600 50  0000 C CNN "Name"
-F 5 "Test point" H 6600 4400 50  0001 C CNN "Description"
-F 6 "None" H 6600 4400 50  0001 C CNN "Source"
-F 7 "None" H 6600 4400 50  0001 C CNN "Source Part No."
-F 8 "None" H 6600 4400 50  0001 C CNN "Manufacturer Name"
-F 9 "None" H 6600 4400 50  0001 C CNN "Manufacturer Part No."
-	1    6600 4400
+P 7700 4300
+F 0 "TP1" H 7700 4600 50  0000 C CNN
+F 1 "TestPoint" H 7600 4050 50  0001 L CNN
+F 2 "Frequently_Used:Pad_2.5-2.5" H 7900 4300 50  0001 C CNN
+F 3 "None" H 7900 4300 50  0001 C CNN
+F 4 "RDY" H 7700 4500 50  0000 C CNN "Name"
+F 5 "Test point" H 7700 4300 50  0001 C CNN "Description"
+F 6 "None" H 7700 4300 50  0001 C CNN "Source"
+F 7 "None" H 7700 4300 50  0001 C CNN "Source Part No."
+F 8 "None" H 7700 4300 50  0001 C CNN "Manufacturer Name"
+F 9 "None" H 7700 4300 50  0001 C CNN "Manufacturer Part No."
+	1    7700 4300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6600 4400 6600 4500
-Connection ~ 6600 4500
-Wire Wire Line
-	6600 4500 7500 4500
+	7700 4300 7700 4500
 $Comp
 L Frequently_Used:TestPoint TP2
 U 1 1 5EDDF908
-P 6850 4400
-F 0 "TP2" H 6850 4700 50  0000 C CNN
-F 1 "TestPoint" H 6750 4150 50  0001 L CNN
-F 2 "Frequently_Used:Pad_2.5-2.5" H 7050 4400 50  0001 C CNN
-F 3 "None" H 7050 4400 50  0001 C CNN
-F 4 "SW" H 6850 4600 50  0000 C CNN "Name"
-F 5 "Test point" H 6850 4400 50  0001 C CNN "Description"
-F 6 "None" H 6850 4400 50  0001 C CNN "Source"
-F 7 "None" H 6850 4400 50  0001 C CNN "Source Part No."
-F 8 "None" H 6850 4400 50  0001 C CNN "Manufacturer Name"
-F 9 "None" H 0   100 50  0001 C CNN "Manufacturer Part No."
-	1    6850 4400
+P 7950 4300
+F 0 "TP2" H 7950 4600 50  0000 C CNN
+F 1 "TestPoint" H 7850 4050 50  0001 L CNN
+F 2 "Frequently_Used:Pad_2.5-2.5" H 8150 4300 50  0001 C CNN
+F 3 "None" H 8150 4300 50  0001 C CNN
+F 4 "SW" H 7950 4500 50  0000 C CNN "Name"
+F 5 "Test point" H 7950 4300 50  0001 C CNN "Description"
+F 6 "None" H 7950 4300 50  0001 C CNN "Source"
+F 7 "None" H 7950 4300 50  0001 C CNN "Source Part No."
+F 8 "None" H 7950 4300 50  0001 C CNN "Manufacturer Name"
+F 9 "None" H 1100 0   50  0001 C CNN "Manufacturer Part No."
+	1    7950 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Frequently_Used:TestPoint TP3
 U 1 1 5EDE12B6
-P 6850 4900
-F 0 "TP3" H 6850 5200 50  0000 C CNN
-F 1 "TestPoint" H 6750 4650 50  0001 L CNN
-F 2 "Frequently_Used:Pad_2.5-2.5" H 7050 4900 50  0001 C CNN
-F 3 "None" H 7050 4900 50  0001 C CNN
-F 4 "B+" H 6850 5100 50  0000 C CNN "Name"
-F 5 "Test point" H 6850 4900 50  0001 C CNN "Description"
-F 6 "None" H 6850 4900 50  0001 C CNN "Source"
-F 7 "None" H 6850 4900 50  0001 C CNN "Source Part No."
-F 8 "None" H 6850 4900 50  0001 C CNN "Manufacturer Name"
-F 9 "None" H 0   -50 50  0001 C CNN "Manufacturer Part No."
-	1    6850 4900
+P 7700 4900
+F 0 "TP3" H 7700 5200 50  0000 C CNN
+F 1 "TestPoint" H 7600 4650 50  0001 L CNN
+F 2 "Frequently_Used:Pad_2.5-2.5" H 7900 4900 50  0001 C CNN
+F 3 "None" H 7900 4900 50  0001 C CNN
+F 4 "B+" H 7700 5100 50  0000 C CNN "Name"
+F 5 "Test point" H 7700 4900 50  0001 C CNN "Description"
+F 6 "None" H 7700 4900 50  0001 C CNN "Source"
+F 7 "None" H 7700 4900 50  0001 C CNN "Source Part No."
+F 8 "None" H 7700 4900 50  0001 C CNN "Manufacturer Name"
+F 9 "None" H 850 -50 50  0001 C CNN "Manufacturer Part No."
+	1    7700 4900
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6850 4400 6850 4600
-Connection ~ 6850 4600
+	7950 4300 7950 4600
 $Comp
 L Naquadah_Generator:GND #PWR04
 U 1 1 5EDF1A49
-P 9700 5000
-F 0 "#PWR04" H 9700 4750 50  0001 C CNN
-F 1 "GND" H 9705 4827 50  0000 C CNN
-F 2 "" H 9700 5000 50  0001 C CNN
-F 3 "" H 9700 5000 50  0001 C CNN
-	1    9700 5000
+P 10150 5000
+F 0 "#PWR04" H 10150 4750 50  0001 C CNN
+F 1 "GND" H 10155 4827 50  0000 C CNN
+F 2 "" H 10150 5000 50  0001 C CNN
+F 3 "" H 10150 5000 50  0001 C CNN
+	1    10150 5000
 	1    0    0    -1  
 $EndComp
-Text Label 9350 4700 0    50   ~ 0
+Text Label 9800 4700 0    50   ~ 0
 PWRIN
 Wire Wire Line
-	9700 4900 9700 5000
+	10150 4900 10150 5000
 Wire Wire Line
-	9100 4900 9250 4900
+	9550 4900 9700 4900
 Wire Wire Line
-	9100 4700 9250 4700
+	9550 4700 9700 4700
 Text Label 2500 1750 0    50   ~ 0
 PWRIN
 Wire Wire Line
-	5100 5050 5450 5050
-Text Notes 6200 5400 0    79   ~ 16
+	4250 5050 4600 5050
+Text Notes 7050 5400 0    79   ~ 16
 Mother Board Connector
-Text Notes 4400 5400 0    79   ~ 16
+Text Notes 3550 5400 0    79   ~ 16
 On/Off Switch
-Text Notes 2650 5400 0    79   ~ 16
+Text Notes 2050 5400 0    79   ~ 16
 Power Indicator
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5EE34C3D
-P 9250 4600
-F 0 "#FLG01" H 9250 4675 50  0001 C CNN
-F 1 "PWR_FLAG" H 9250 4773 50  0000 C CNN
-F 2 "" H 9250 4600 50  0001 C CNN
-F 3 "~" H 9250 4600 50  0001 C CNN
-	1    9250 4600
+P 9700 4600
+F 0 "#FLG01" H 9700 4675 50  0001 C CNN
+F 1 "PWR_FLAG" H 9700 4773 50  0000 C CNN
+F 2 "" H 9700 4600 50  0001 C CNN
+F 3 "~" H 9700 4600 50  0001 C CNN
+	1    9700 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG02
 U 1 1 5EE3AC1F
-P 9250 5000
-F 0 "#FLG02" H 9250 5075 50  0001 C CNN
-F 1 "PWR_FLAG" H 9250 5173 50  0000 C CNN
-F 2 "" H 9250 5000 50  0001 C CNN
-F 3 "~" H 9250 5000 50  0001 C CNN
-	1    9250 5000
+P 9700 5000
+F 0 "#FLG02" H 9700 5075 50  0001 C CNN
+F 1 "PWR_FLAG" H 9700 5173 50  0000 C CNN
+F 2 "" H 9700 5000 50  0001 C CNN
+F 3 "~" H 9700 5000 50  0001 C CNN
+	1    9700 5000
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9250 4600 9250 4700
-Connection ~ 9250 4700
+	9700 4600 9700 4700
+Connection ~ 9700 4700
 Wire Wire Line
-	9250 4700 9600 4700
+	9700 4700 10050 4700
 Wire Wire Line
-	9250 5000 9250 4900
-Connection ~ 9250 4900
+	9700 5000 9700 4900
+Connection ~ 9700 4900
 Wire Wire Line
-	9250 4900 9700 4900
-NoConn ~ 9100 4800
-Wire Wire Line
-	6850 4600 7500 4600
+	9700 4900 10150 4900
+NoConn ~ 9550 4800
 $Comp
 L Frequently_Used:TestPoint TP4
 U 1 1 5ED845DB
-P 7100 4900
-F 0 "TP4" H 7100 5200 50  0000 C CNN
-F 1 "TestPoint" H 7000 4650 50  0001 L CNN
-F 2 "Frequently_Used:Pad_2.5-2.5" H 7300 4900 50  0001 C CNN
-F 3 "None" H 7300 4900 50  0001 C CNN
-F 4 "GND" H 7100 5100 50  0000 C CNN "Name"
-F 5 "Test point" H 7100 4900 50  0001 C CNN "Description"
-F 6 "None" H 7100 4900 50  0001 C CNN "Source"
-F 7 "None" H 7100 4900 50  0001 C CNN "Source Part No."
-F 8 "None" H 7100 4900 50  0001 C CNN "Manufacturer Name"
-F 9 "None" H 0   -50 50  0001 C CNN "Manufacturer Part No."
-	1    7100 4900
+P 7950 4900
+F 0 "TP4" H 7950 5200 50  0000 C CNN
+F 1 "TestPoint" H 7850 4650 50  0001 L CNN
+F 2 "Frequently_Used:Pad_2.5-2.5" H 8150 4900 50  0001 C CNN
+F 3 "None" H 8150 4900 50  0001 C CNN
+F 4 "GND" H 7950 5100 50  0000 C CNN "Name"
+F 5 "Test point" H 7950 4900 50  0001 C CNN "Description"
+F 6 "None" H 7950 4900 50  0001 C CNN "Source"
+F 7 "None" H 7950 4900 50  0001 C CNN "Source Part No."
+F 8 "None" H 7950 4900 50  0001 C CNN "Manufacturer Name"
+F 9 "None" H 850 -50 50  0001 C CNN "Manufacturer Part No."
+	1    7950 4900
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7100 4900 7100 4800
-Connection ~ 7100 4800
+	7950 4900 7950 4800
+Connection ~ 7950 4800
 Wire Wire Line
-	7100 4800 7600 4800
+	7950 4800 8450 4800
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:LED D5
 U 1 1 5ED9610C
-P 1650 4150
-F 0 "D5" H 1550 4250 50  0000 L CNN
-F 1 "RED" H 1550 4050 50  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:LED_0805_2012Metric_HandSolder" H 1650 4150 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/150080RS75000.pdf" H 1650 4150 50  0001 C CNN
-F 4 "Red 625nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 1650 4150 50  0001 C CNN "Description"
-F 5 "Digikey" H 1650 4150 50  0001 C CNN "Source"
-F 6 "732-4984-1-ND" H 1650 4150 50  0001 C CNN "Source Part No."
-F 7 "Würth Elektronik" H 1650 4150 50  0001 C CNN "Manufacturer Name"
-F 8 "150080RS75000" H 1650 4150 50  0001 C CNN "Manufacturer Part No."
-	1    1650 4150
+P 1200 4150
+F 0 "D5" H 1100 4250 50  0000 L CNN
+F 1 "RED" H 1100 4050 50  0000 L CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:LED_0805_2012Metric_HandSolder" H 1200 4150 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/150080RS75000.pdf" H 1200 4150 50  0001 C CNN
+F 4 "Red 625nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 1200 4150 50  0001 C CNN "Description"
+F 5 "Digikey" H 1200 4150 50  0001 C CNN "Source"
+F 6 "732-4984-1-ND" H 1200 4150 50  0001 C CNN "Source Part No."
+F 7 "Würth Elektronik" H 1200 4150 50  0001 C CNN "Manufacturer Name"
+F 8 "150080RS75000" H 1200 4150 50  0001 C CNN "Manufacturer Part No."
+	1    1200 4150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1650 4600 1650 4300
+	1200 4600 1200 4300
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:R R5
 U 1 1 5ED96117
-P 1650 4750
-F 0 "R5" V 1550 4650 59  0000 L CNN
-F 1 "1k" V 1750 4650 59  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 1650 4750 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 1650 4750 50  0001 C CNN
-F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 1650 4750 50  0001 C CNN "Description"
-F 5 "Digikey" H 1650 4750 50  0001 C CNN "Source"
-F 6 "2019-RK73H2ATTD1001FCT-ND" H 1650 4750 50  0001 C CNN "Source Part No."
-F 7 "KOA Speer Electronics, Inc." H 1650 4750 50  0001 C CNN "Manufacturer Name"
-F 8 "RK73H2ATTD1001F" H 1650 4750 50  0001 C CNN "Manufacturer Part No."
-	1    1650 4750
+P 1200 4750
+F 0 "R5" V 1100 4650 59  0000 L CNN
+F 1 "1k" V 1300 4650 59  0000 L CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 1200 4750 50  0001 C CNN
+F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 1200 4750 50  0001 C CNN
+F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 1200 4750 50  0001 C CNN "Description"
+F 5 "Digikey" H 1200 4750 50  0001 C CNN "Source"
+F 6 "2019-RK73H2ATTD1001FCT-ND" H 1200 4750 50  0001 C CNN "Source Part No."
+F 7 "KOA Speer Electronics, Inc." H 1200 4750 50  0001 C CNN "Manufacturer Name"
+F 8 "RK73H2ATTD1001F" H 1200 4750 50  0001 C CNN "Manufacturer Part No."
+	1    1200 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 4000 1650 3750
+	1200 4000 1200 3750
 Wire Wire Line
-	1650 4900 1650 5000
-Text Label 1650 3750 3    50   ~ 0
+	1200 4900 1200 5000
+Text Label 1200 3750 3    50   ~ 0
 READY
-Text Notes 1150 5400 0    79   ~ 16
+Text Notes 700  5400 0    79   ~ 16
 Ready Indicator
 $Comp
 L Naquadah_Generator:GND #PWR0101
 U 1 1 5EDA0602
-P 1650 5000
-F 0 "#PWR0101" H 1650 4750 50  0001 C CNN
-F 1 "GND" H 1655 4827 50  0000 C CNN
-F 2 "" H 1650 5000 50  0001 C CNN
-F 3 "" H 1650 5000 50  0001 C CNN
-	1    1650 5000
+P 1200 5000
+F 0 "#PWR0101" H 1200 4750 50  0001 C CNN
+F 1 "GND" H 1205 4827 50  0000 C CNN
+F 2 "" H 1200 5000 50  0001 C CNN
+F 3 "" H 1200 5000 50  0001 C CNN
+	1    1200 5000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -677,40 +667,40 @@ $EndComp
 Text Notes 2650 7450 0    79   ~ 16
 Additional Features
 Wire Wire Line
-	6550 4800 7100 4800
+	7400 4800 7950 4800
 Wire Wire Line
-	6550 4700 6850 4700
-Connection ~ 6850 4700
+	7400 4700 7700 4700
+Connection ~ 7700 4700
 Wire Wire Line
-	6850 4700 7500 4700
+	7700 4700 8350 4700
 $Comp
 L Naquadah_Generator:MHPS2283 SW1
 U 1 1 5EDA05EC
-P 4850 4900
-F 0 "SW1" H 4850 5325 50  0000 C CNN
-F 1 "MHPS2283" H 4850 5234 50  0000 C CNN
-F 2 "Naquadah Generator:MHPS2283" H 4350 4450 50  0001 L CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/APEM%20Components%20PDFs/MHPS_Series.pdf" H 5150 5100 50  0001 L CNN
-F 4 "APEM - MHPS2283 - Pushbutton Switch,STRAIGHT,DPDT,PC TAIL Terminal,PCB Hole Count:6" H 4350 4350 50  0001 L CNN "Description"
-F 5 "Digikey" H 4850 4900 50  0001 C CNN "Source"
-F 6 "679-3532-ND" H 4850 4900 50  0001 C CNN "Source Part No."
-F 7 "Apem" H 4850 4900 50  0001 C CNN "Manufacturer Name"
-F 8 "MHPS2283" H 4350 4150 50  0001 L CNN "Manufacturer Part No."
-	1    4850 4900
+P 4000 4900
+F 0 "SW1" H 4000 5325 50  0000 C CNN
+F 1 "MHPS2283" H 4000 5234 50  0000 C CNN
+F 2 "Naquadah_Generator:MHPS2283" H 3500 4450 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/APEM%20Components%20PDFs/MHPS_Series.pdf" H 4300 5100 50  0001 L CNN
+F 4 "APEM - MHPS2283 - Pushbutton Switch,STRAIGHT,DPDT,PC TAIL Terminal,PCB Hole Count:6" H 3500 4350 50  0001 L CNN "Description"
+F 5 "Digikey" H 4000 4900 50  0001 C CNN "Source"
+F 6 "679-3532-ND" H 4000 4900 50  0001 C CNN "Source Part No."
+F 7 "Apem" H 4000 4900 50  0001 C CNN "Manufacturer Name"
+F 8 "MHPS2283" H 3500 4150 50  0001 L CNN "Manufacturer Part No."
+	1    4000 4900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 4850 4600 4900
-Connection ~ 4600 4900
+	3750 4850 3750 4900
+Connection ~ 3750 4900
 Wire Wire Line
-	4600 4900 4600 4950
+	3750 4900 3750 4950
 Wire Wire Line
-	5100 5000 5100 5050
-Connection ~ 5100 5050
+	4250 5000 4250 5050
+Connection ~ 4250 5050
 Wire Wire Line
-	5100 5050 5100 5100
-NoConn ~ 5100 4700
-NoConn ~ 5100 4800
+	4250 5050 4250 5100
+NoConn ~ 4250 4700
+NoConn ~ 4250 4800
 $Comp
 L Naquadah_Generator:MountingHole H1
 U 1 1 5EDD2B63
@@ -775,21 +765,106 @@ F 8 "None" H 2950 7000 50  0001 C CNN "Description"
 	1    2950 7000
 	1    0    0    -1  
 $EndComp
-Text Label 3150 4550 1    50   ~ 0
+Text Label 2550 4550 1    50   ~ 0
 ON
-Text Label 1650 4550 1    50   ~ 0
+Text Label 1200 4550 1    50   ~ 0
 RDYIND
 $Comp
 L Naquadah_Generator:GND #PWR0102
 U 1 1 5EE0C52F
-P 3150 5000
-F 0 "#PWR0102" H 3150 4750 50  0001 C CNN
-F 1 "GND" H 3155 4827 50  0000 C CNN
-F 2 "" H 3150 5000 50  0001 C CNN
-F 3 "" H 3150 5000 50  0001 C CNN
-	1    3150 5000
+P 2550 5000
+F 0 "#PWR0102" H 2550 4750 50  0001 C CNN
+F 1 "GND" H 2555 4827 50  0000 C CNN
+F 2 "" H 2550 5000 50  0001 C CNN
+F 3 "" H 2550 5000 50  0001 C CNN
+	1    2550 5000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6850 4900 6850 4700
+	7700 4900 7700 4700
+Connection ~ 7700 4500
+Wire Wire Line
+	7700 4500 8350 4500
+Connection ~ 7950 4600
+Wire Wire Line
+	7950 4600 8350 4600
+Wire Wire Line
+	7400 4500 7700 4500
+Wire Wire Line
+	7400 4600 7950 4600
+Wire Wire Line
+	7400 4400 7450 4400
+$Comp
+L Frequently_Used:TestPoint TP5
+U 1 1 5EDF054D
+P 7450 4300
+F 0 "TP5" H 7450 4600 50  0000 C CNN
+F 1 "TestPoint" H 7350 4050 50  0001 L CNN
+F 2 "Frequently_Used:Pad_2.5-2.5" H 7650 4300 50  0001 C CNN
+F 3 "None" H 7650 4300 50  0001 C CNN
+F 4 "MODE" H 7450 4500 50  0000 C CNN "Name"
+F 5 "Test point" H 7450 4300 50  0001 C CNN "Description"
+F 6 "None" H 7450 4300 50  0001 C CNN "Source"
+F 7 "None" H 7450 4300 50  0001 C CNN "Source Part No."
+F 8 "None" H 7450 4300 50  0001 C CNN "Manufacturer Name"
+F 9 "None" H 7450 4300 50  0001 C CNN "Manufacturer Part No."
+	1    7450 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 4300 7450 4400
+Connection ~ 7450 4400
+Wire Wire Line
+	7450 4400 8350 4400
+Wire Wire Line
+	5250 4900 5400 4900
+Text Label 6200 5050 2    50   ~ 0
+MODE
+Wire Wire Line
+	5900 5050 6200 5050
+Text Notes 5250 5400 0    79   ~ 16
+Mode Button
+$Comp
+L Naquadah_Generator:MHPS2283 SW2
+U 1 1 5EE03F4A
+P 5650 4900
+F 0 "SW2" H 5650 5325 50  0000 C CNN
+F 1 "MHPS2283N" H 5650 5234 50  0000 C CNN
+F 2 "Naquadah_Generator:MHPS2283" H 5150 4450 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/APEM%20Components%20PDFs/MHPS_Series.pdf" H 5950 5100 50  0001 L CNN
+F 4 "APEM - MHPS2283 - Pushbutton Switch,STRAIGHT,DPDT,PC TAIL Terminal,PCB Hole Count:6" H 5150 4350 50  0001 L CNN "Description"
+F 5 "Digikey" H 5650 4900 50  0001 C CNN "Source"
+F 6 "679-4052-ND" H 5650 4900 50  0001 C CNN "Source Part No."
+F 7 "Apem" H 5650 4900 50  0001 C CNN "Manufacturer Name"
+F 8 "MHPS2283N" H 5150 4150 50  0001 L CNN "Manufacturer Part No."
+	1    5650 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4850 5400 4900
+Connection ~ 5400 4900
+Wire Wire Line
+	5400 4900 5400 4950
+Wire Wire Line
+	5900 5000 5900 5050
+Connection ~ 5900 5050
+Wire Wire Line
+	5900 5050 5900 5100
+NoConn ~ 5900 4700
+NoConn ~ 5900 4800
+Text Label 8350 4400 2    50   ~ 0
+MODE
+$Comp
+L Naquadah_Generator:GND #PWR0103
+U 1 1 5EE06B20
+P 5250 5000
+F 0 "#PWR0103" H 5250 4750 50  0001 C CNN
+F 1 "GND" H 5255 4827 50  0000 C CNN
+F 2 "" H 5250 5000 50  0001 C CNN
+F 3 "" H 5250 5000 50  0001 C CNN
+	1    5250 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 4900 5250 5000
 $EndSCHEMATC

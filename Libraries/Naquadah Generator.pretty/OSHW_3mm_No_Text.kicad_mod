@@ -1,4 +1,5 @@
-(module OSHW_3mm_No_Text (layer F.Cu) (tedit 5EC5664E)
+(module OSHW_3mm_No_Text (layer F.Cu) (tedit 5EDE3E8A)
+  (descr "OSHW 3 mm no text")
   (fp_text reference G*** (at -0.13 -2.1) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )

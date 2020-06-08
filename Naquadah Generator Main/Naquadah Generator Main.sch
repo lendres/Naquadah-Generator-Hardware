@@ -789,10 +789,10 @@ D0/RXI
 Text Notes 6500 2650 0    50   ~ 0
 D1/TXO
 $Comp
-L Naquadah_Generator:PTS526_SMG15 SW?
+L Naquadah_Generator:PTS526_SMG15 SW2
 U 1 1 5F15836F
 P 8400 2500
-F 0 "SW?" V 8500 2850 50  0000 R CNN
+F 0 "SW2" V 8500 2850 50  0000 R CNN
 F 1 "MODE" V 8300 2850 50  0000 R CNN
 F 2 "Naquadah_Generator:PTS526SMG15SMTR2LFS_Hand_Solder" H 8400 2700 50  0001 C CNN
 F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS526/documents/datasheet.pdf" H 8400 2700 50  0001 C CNN
@@ -820,10 +820,10 @@ Wire Wire Line
 Text Label 8500 2200 1    50   ~ 0
 MODESEL
 $Comp
-L Frequently_Used:GND #PWR?
+L Frequently_Used:GND #PWR012
 U 1 1 5F16B284
 P 8500 2800
-F 0 "#PWR?" H 8500 2550 50  0001 C CNN
+F 0 "#PWR012" H 8500 2550 50  0001 C CNN
 F 1 "GND" H 8500 2650 50  0000 C CNN
 F 2 "" H 8500 2800 50  0001 C CNN
 F 3 "" H 8500 2800 50  0001 C CNN
