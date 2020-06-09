@@ -386,12 +386,12 @@ F 3 "" H 8450 4900 50  0001 C CNN
 	1    8450 4900
 	1    0    0    -1  
 $EndComp
-Text Label 8050 4500 0    50   ~ 0
+Text Label 8350 4500 2    50   ~ 0
 READY
-Text Label 8050 4700 0    50   ~ 0
+Text Label 8350 4700 2    50   ~ 0
 BATT+
-Text Label 8050 4600 0    50   ~ 0
-SWITCH
+Text Label 8350 4600 2    50   ~ 0
+MODE
 Wire Wire Line
 	8450 4800 8450 4900
 Wire Wire Line
@@ -401,17 +401,17 @@ SWITCH
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:LED D1
 U 1 1 5EDBD7E3
-P 2550 4150
-F 0 "D1" H 2450 4250 50  0000 L CNN
-F 1 "GREEN" H 2450 4050 50  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:LED_0805_2012Metric_HandSolder" H 2550 4150 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 2550 4150 50  0001 C CNN
-F 4 "Green 570nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 2550 4150 50  0001 C CNN "Description"
-F 5 "Digikey" H 2550 4150 50  0001 C CNN "Source"
-F 6 "732-4986-1-ND" H 2550 4150 50  0001 C CNN "Source Part No."
-F 7 "Würth Elektronik" H 2550 4150 50  0001 C CNN "Manufacturer Name"
-F 8 "150080VS75000" H 2550 4150 50  0001 C CNN "Manufacturer Part No."
-	1    2550 4150
+P 2550 4750
+F 0 "D1" H 2450 4850 50  0000 L CNN
+F 1 "GREEN" H 2450 4650 50  0000 L CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:LED_0805_2012Metric_HandSolder" H 2550 4750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 2550 4750 50  0001 C CNN
+F 4 "Green 570nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 2550 4750 50  0001 C CNN "Description"
+F 5 "Digikey" H 2550 4750 50  0001 C CNN "Source"
+F 6 "732-4986-1-ND" H 2550 4750 50  0001 C CNN "Source Part No."
+F 7 "Würth Elektronik" H 2550 4750 50  0001 C CNN "Manufacturer Name"
+F 8 "150080VS75000" H 2550 4750 50  0001 C CNN "Manufacturer Part No."
+	1    2550 4750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -419,17 +419,17 @@ Wire Wire Line
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:R R1
 U 1 1 5EDBD7F9
-P 2550 4750
-F 0 "R1" V 2450 4650 59  0000 L CNN
-F 1 "1k" V 2650 4650 59  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 2550 4750 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 2550 4750 50  0001 C CNN
-F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 2550 4750 50  0001 C CNN "Description"
-F 5 "Digikey" H 2550 4750 50  0001 C CNN "Source"
-F 6 "2019-RK73H2ATTD1001FCT-ND" H 2550 4750 50  0001 C CNN "Source Part No."
-F 7 "KOA Speer Electronics, Inc." H 2550 4750 50  0001 C CNN "Manufacturer Name"
-F 8 "RK73H2ATTD1001F" H 2550 4750 50  0001 C CNN "Manufacturer Part No."
-	1    2550 4750
+P 2550 4150
+F 0 "R1" V 2450 4050 59  0000 L CNN
+F 1 "1k" V 2650 4050 59  0000 L CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 2550 4150 50  0001 C CNN
+F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 2550 4150 50  0001 C CNN
+F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 2550 4150 50  0001 C CNN "Description"
+F 5 "Digikey" H 2550 4150 50  0001 C CNN "Source"
+F 6 "2019-RK73H2ATTD1001FCT-ND" H 2550 4150 50  0001 C CNN "Source Part No."
+F 7 "KOA Speer Electronics, Inc." H 2550 4150 50  0001 C CNN "Manufacturer Name"
+F 8 "RK73H2ATTD1001F" H 2550 4150 50  0001 C CNN "Manufacturer Part No."
+	1    2550 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -483,7 +483,7 @@ F 0 "TP2" H 7950 4600 50  0000 C CNN
 F 1 "TestPoint" H 7850 4050 50  0001 L CNN
 F 2 "Frequently_Used:Pad_2.5-2.5" H 8150 4300 50  0001 C CNN
 F 3 "None" H 8150 4300 50  0001 C CNN
-F 4 "SW" H 7950 4500 50  0000 C CNN "Name"
+F 4 "MODE" H 7950 4500 50  0000 C CNN "Name"
 F 5 "Test point" H 7950 4300 50  0001 C CNN "Description"
 F 6 "None" H 7950 4300 50  0001 C CNN "Source"
 F 7 "None" H 7950 4300 50  0001 C CNN "Source Part No."
@@ -598,17 +598,17 @@ Wire Wire Line
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:LED D5
 U 1 1 5ED9610C
-P 1200 4150
-F 0 "D5" H 1100 4250 50  0000 L CNN
-F 1 "RED" H 1100 4050 50  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:LED_0805_2012Metric_HandSolder" H 1200 4150 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/150080RS75000.pdf" H 1200 4150 50  0001 C CNN
-F 4 "Red 625nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 1200 4150 50  0001 C CNN "Description"
-F 5 "Digikey" H 1200 4150 50  0001 C CNN "Source"
-F 6 "732-4984-1-ND" H 1200 4150 50  0001 C CNN "Source Part No."
-F 7 "Würth Elektronik" H 1200 4150 50  0001 C CNN "Manufacturer Name"
-F 8 "150080RS75000" H 1200 4150 50  0001 C CNN "Manufacturer Part No."
-	1    1200 4150
+P 1200 4750
+F 0 "D5" H 1100 4850 50  0000 L CNN
+F 1 "RED" H 1100 4650 50  0000 L CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:LED_0805_2012Metric_HandSolder" H 1200 4750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/150080RS75000.pdf" H 1200 4750 50  0001 C CNN
+F 4 "Red 625nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 1200 4750 50  0001 C CNN "Description"
+F 5 "Digikey" H 1200 4750 50  0001 C CNN "Source"
+F 6 "732-4984-1-ND" H 1200 4750 50  0001 C CNN "Source Part No."
+F 7 "Würth Elektronik" H 1200 4750 50  0001 C CNN "Manufacturer Name"
+F 8 "150080RS75000" H 1200 4750 50  0001 C CNN "Manufacturer Part No."
+	1    1200 4750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -616,17 +616,17 @@ Wire Wire Line
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:R R5
 U 1 1 5ED96117
-P 1200 4750
-F 0 "R5" V 1100 4650 59  0000 L CNN
-F 1 "1k" V 1300 4650 59  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 1200 4750 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 1200 4750 50  0001 C CNN
-F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 1200 4750 50  0001 C CNN "Description"
-F 5 "Digikey" H 1200 4750 50  0001 C CNN "Source"
-F 6 "2019-RK73H2ATTD1001FCT-ND" H 1200 4750 50  0001 C CNN "Source Part No."
-F 7 "KOA Speer Electronics, Inc." H 1200 4750 50  0001 C CNN "Manufacturer Name"
-F 8 "RK73H2ATTD1001F" H 1200 4750 50  0001 C CNN "Manufacturer Part No."
-	1    1200 4750
+P 1200 4150
+F 0 "R5" V 1100 4050 59  0000 L CNN
+F 1 "1k" V 1300 4050 59  0000 L CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 1200 4150 50  0001 C CNN
+F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 1200 4150 50  0001 C CNN
+F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 1200 4150 50  0001 C CNN "Description"
+F 5 "Digikey" H 1200 4150 50  0001 C CNN "Source"
+F 6 "2019-RK73H2ATTD1001FCT-ND" H 1200 4150 50  0001 C CNN "Source Part No."
+F 7 "KOA Speer Electronics, Inc." H 1200 4150 50  0001 C CNN "Manufacturer Name"
+F 8 "RK73H2ATTD1001F" H 1200 4150 50  0001 C CNN "Manufacturer Part No."
+	1    1200 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -766,7 +766,7 @@ F 8 "None" H 2950 7000 50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 Text Label 2550 4550 1    50   ~ 0
-ON
+ONIND
 Text Label 1200 4550 1    50   ~ 0
 RDYIND
 $Comp
@@ -802,7 +802,7 @@ F 0 "TP5" H 7450 4600 50  0000 C CNN
 F 1 "TestPoint" H 7350 4050 50  0001 L CNN
 F 2 "Frequently_Used:Pad_2.5-2.5" H 7650 4300 50  0001 C CNN
 F 3 "None" H 7650 4300 50  0001 C CNN
-F 4 "MODE" H 7450 4500 50  0000 C CNN "Name"
+F 4 "SW" H 7450 4500 50  0000 C CNN "Name"
 F 5 "Test point" H 7450 4300 50  0001 C CNN "Description"
 F 6 "None" H 7450 4300 50  0001 C CNN "Source"
 F 7 "None" H 7450 4300 50  0001 C CNN "Source Part No."
@@ -853,7 +853,7 @@ Wire Wire Line
 NoConn ~ 5900 4700
 NoConn ~ 5900 4800
 Text Label 8350 4400 2    50   ~ 0
-MODE
+SWITCH
 $Comp
 L Naquadah_Generator:GND #PWR0103
 U 1 1 5EE06B20
