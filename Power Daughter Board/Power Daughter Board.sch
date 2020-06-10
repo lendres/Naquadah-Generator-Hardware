@@ -464,7 +464,7 @@ F 0 "TP1" H 7700 4600 50  0000 C CNN
 F 1 "TestPoint" H 7600 4050 50  0001 L CNN
 F 2 "Frequently_Used:Pad_2.5-2.5" H 7900 4300 50  0001 C CNN
 F 3 "None" H 7900 4300 50  0001 C CNN
-F 4 "RDY" H 7700 4500 50  0000 C CNN "Name"
+F 4 "READY" H 7700 4500 50  0000 C CNN "Name"
 F 5 "Test point" H 7700 4300 50  0001 C CNN "Description"
 F 6 "None" H 7700 4300 50  0001 C CNN "Source"
 F 7 "None" H 7700 4300 50  0001 C CNN "Source Part No."
@@ -500,7 +500,7 @@ F 0 "TP3" H 7700 5200 50  0000 C CNN
 F 1 "TestPoint" H 7600 4650 50  0001 L CNN
 F 2 "Frequently_Used:Pad_2.5-2.5" H 7900 4900 50  0001 C CNN
 F 3 "None" H 7900 4900 50  0001 C CNN
-F 4 "B+" H 7700 5100 50  0000 C CNN "Name"
+F 4 "BATT+" H 7700 5100 50  0000 C CNN "Name"
 F 5 "Test point" H 7700 4900 50  0001 C CNN "Description"
 F 6 "None" H 7700 4900 50  0001 C CNN "Source"
 F 7 "None" H 7700 4900 50  0001 C CNN "Source Part No."
@@ -654,7 +654,7 @@ U 1 1 5EDA8160
 P 4200 6900
 F 0 "WA1" H 4578 6946 50  0000 L CNN
 F 1 "WireAssembly" H 4578 6855 50  0000 L CNN
-F 2 "Naquadah Generator:Wire_Assembly_Four" H 4200 7000 50  0001 C CNN
+F 2 "Naquadah_Generator:Wire_Assembly_Four" H 4200 7000 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eSR.pdf" H 4200 7000 50  0001 C CNN
 F 4 "6 Position Cable Assembly Rectangular Socket to Socket, Reversed 1.00' (304.80mm)" H 4200 6900 50  0001 C CNN "Description"
 F 5 "Digikey" H 4200 6900 50  0001 C CNN "Source"
@@ -707,7 +707,7 @@ U 1 1 5EDD2B63
 P 2000 6750
 F 0 "H1" H 2100 6796 50  0000 L CNN
 F 1 "MountingHole" H 2100 6705 50  0000 L CNN
-F 2 "Naquadah Generator:MountingHole_2.2mm_M2" H 2000 6750 50  0001 C CNN
+F 2 "Naquadah_Generator:MountingHole_2.7mm_M2.5" H 2000 6750 50  0001 C CNN
 F 3 "None" H 2000 6750 50  0001 C CNN
 F 4 "None" H 2005 6625 50  0001 C CNN "Source"
 F 5 "None" H 2005 6625 50  0001 C CNN "Source Part No."
@@ -723,7 +723,7 @@ U 1 1 5EDD3F85
 P 2000 7000
 F 0 "H2" H 2100 7046 50  0000 L CNN
 F 1 "MountingHole" H 2100 6955 50  0000 L CNN
-F 2 "Naquadah Generator:MountingHole_2.2mm_M2" H 2000 7000 50  0001 C CNN
+F 2 "Naquadah_Generator:MountingHole_2.7mm_M2.5" H 2000 7000 50  0001 C CNN
 F 3 "None" H 2000 7000 50  0001 C CNN
 F 4 "None" H 2005 6875 50  0001 C CNN "Source"
 F 5 "None" H 2005 6875 50  0001 C CNN "Source Part No."
@@ -739,7 +739,7 @@ U 1 1 5EDD5BD4
 P 2950 6750
 F 0 "H3" H 3050 6796 50  0000 L CNN
 F 1 "MountingHole" H 3050 6705 50  0000 L CNN
-F 2 "Naquadah Generator:MountingHole_2.2mm_M2" H 2950 6750 50  0001 C CNN
+F 2 "Naquadah_Generator:MountingHole_2.7mm_M2.5" H 2950 6750 50  0001 C CNN
 F 3 "None" H 2950 6750 50  0001 C CNN
 F 4 "None" H 2955 6625 50  0001 C CNN "Source"
 F 5 "None" H 2955 6625 50  0001 C CNN "Source Part No."
@@ -755,7 +755,7 @@ U 1 1 5EDD7A5B
 P 2950 7000
 F 0 "H4" H 3050 7046 50  0000 L CNN
 F 1 "MountingHole" H 3050 6955 50  0000 L CNN
-F 2 "Naquadah Generator:MountingHole_2.2mm_M2" H 2950 7000 50  0001 C CNN
+F 2 "Naquadah_Generator:MountingHole_2.7mm_M2.5" H 2950 7000 50  0001 C CNN
 F 3 "None" H 2950 7000 50  0001 C CNN
 F 4 "None" H 2955 6875 50  0001 C CNN "Source"
 F 5 "None" H 2955 6875 50  0001 C CNN "Source Part No."
@@ -794,23 +794,6 @@ Wire Wire Line
 	7400 4600 7950 4600
 Wire Wire Line
 	7400 4400 7450 4400
-$Comp
-L Frequently_Used:TestPoint TP5
-U 1 1 5EDF054D
-P 7450 4300
-F 0 "TP5" H 7450 4600 50  0000 C CNN
-F 1 "TestPoint" H 7350 4050 50  0001 L CNN
-F 2 "Frequently_Used:Pad_2.5-2.5" H 7650 4300 50  0001 C CNN
-F 3 "None" H 7650 4300 50  0001 C CNN
-F 4 "SW" H 7450 4500 50  0000 C CNN "Name"
-F 5 "Test point" H 7450 4300 50  0001 C CNN "Description"
-F 6 "None" H 7450 4300 50  0001 C CNN "Source"
-F 7 "None" H 7450 4300 50  0001 C CNN "Source Part No."
-F 8 "None" H 7450 4300 50  0001 C CNN "Manufacturer Name"
-F 9 "None" H 7450 4300 50  0001 C CNN "Manufacturer Part No."
-	1    7450 4300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7450 4300 7450 4400
 Connection ~ 7450 4400
@@ -867,4 +850,21 @@ F 3 "" H 5250 5000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5250 4900 5250 5000
+$Comp
+L Frequently_Used:TestPoint TP5
+U 1 1 5EDF054D
+P 7450 4300
+F 0 "TP5" H 7450 4600 50  0000 C CNN
+F 1 "TestPoint" H 7350 4050 50  0001 L CNN
+F 2 "Frequently_Used:Pad_2.5-2.5" H 7650 4300 50  0001 C CNN
+F 3 "None" H 7650 4300 50  0001 C CNN
+F 4 "SW" H 7450 4500 50  0000 C CNN "Name"
+F 5 "Test point" H 7450 4300 50  0001 C CNN "Description"
+F 6 "None" H 7450 4300 50  0001 C CNN "Source"
+F 7 "None" H 7450 4300 50  0001 C CNN "Source Part No."
+F 8 "None" H 7450 4300 50  0001 C CNN "Manufacturer Name"
+F 9 "None" H 7450 4300 50  0001 C CNN "Manufacturer Part No."
+	1    7450 4300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

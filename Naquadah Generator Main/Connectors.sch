@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 11
+Sheet 10 11
 Title ""
 Date ""
 Rev ""
@@ -260,14 +260,14 @@ Sensing Board 1
 Text Notes 9200 4500 0    79   ~ 16
 Sensing Board 2
 $Comp
-L Naquadah_Generator:Conn_ISP J?
+L Arduino:Conn_ISP J?
 U 1 1 5EDC6C09
 P 8050 1950
 AR Path="/5EDC6C09" Ref="J?"  Part="1" 
 AR Path="/5EDBBDC8/5EDC6C09" Ref="J0"  Part="1" 
 F 0 "J0" H 8050 2275 50  0000 C CNN
 F 1 "Conn_ISP_Prog" H 8050 2184 50  0000 C CNN
-F 2 "Naquadah_Generator:PinHeader_2x03_P2.54mm_Vertical" H 8100 1950 50  0001 C CNN
+F 2 "Arduino:Connector_ISP" H 8100 1950 50  0001 C CNN
 F 3 "None" H 8100 1950 50  0001 C CNN
 F 4 "None" H 8050 1950 50  0001 C CNN "Source Part No."
 F 5 "None" H 8050 1950 50  0001 C CNN "Manufacturer Name"
