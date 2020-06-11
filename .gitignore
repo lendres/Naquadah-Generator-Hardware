@@ -26,3 +26,7 @@ fp-info-cache
 *.csv
 Li-ion 5A Boost 1A Charge Protect/Li-ion 5A Boost 1A Charge Protect.xlsx
 Li-ion 5A Boost 1A Charge Protect/~$Li-ion 5A Boost 1A Charge Protect.xlsx
+
+# Gerber Files
+Gerbers/
+bom/

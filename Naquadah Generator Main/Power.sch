@@ -324,12 +324,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR018
 U 1 1 5EC5422D
-P 3650 2800
-F 0 "#PWR018" H 3650 2550 50  0001 C CNN
-F 1 "GND" H 3655 2627 50  0000 C CNN
-F 2 "" H 3650 2800 50  0001 C CNN
-F 3 "" H 3650 2800 50  0001 C CNN
-	1    3650 2800
+P 3800 2850
+F 0 "#PWR018" H 3800 2600 50  0001 C CNN
+F 1 "GND" H 3805 2677 50  0000 C CNN
+F 2 "" H 3800 2850 50  0001 C CNN
+F 3 "" H 3800 2850 50  0001 C CNN
+	1    3800 2850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -385,17 +385,17 @@ $EndComp
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:R R32
 U 1 1 5ECB2DAF
-P 3500 2150
-F 0 "R32" V 3400 2050 59  0000 L CNN
-F 1 "2.7k" V 3600 2050 59  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 3500 2150 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 3500 2150 50  0001 C CNN
-F 4 "2.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 3500 2150 50  0001 C CNN "Description"
-F 5 "2019-RK73H2ATTD2701FCT-ND" H 3500 2150 50  0001 C CNN "Source Part No."
-F 6 "RK73H2ATTD2701F" H 3500 2150 50  0001 C CNN "Manufacturer Part No."
-F 7 "KOA Speer Electronics, Inc." H 3500 2150 50  0001 C CNN "Manufacturer Name"
-F 8 "Digikey" H 3500 2150 50  0001 C CNN "Source"
-	1    3500 2150
+P 3450 2150
+F 0 "R32" V 3350 2050 59  0000 L CNN
+F 1 "2.7k" V 3550 2050 59  0000 L CNN
+F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 3450 2150 50  0001 C CNN
+F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 3450 2150 50  0001 C CNN
+F 4 "2.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 3450 2150 50  0001 C CNN "Description"
+F 5 "2019-RK73H2ATTD2701FCT-ND" H 3450 2150 50  0001 C CNN "Source Part No."
+F 6 "RK73H2ATTD2701F" H 3450 2150 50  0001 C CNN "Manufacturer Part No."
+F 7 "KOA Speer Electronics, Inc." H 3450 2150 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 3450 2150 50  0001 C CNN "Source"
+	1    3450 2150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -428,13 +428,11 @@ Wire Wire Line
 Wire Wire Line
 	3050 2300 3050 2350
 Wire Wire Line
-	3250 1950 3500 1950
+	3250 1950 3450 1950
 Wire Wire Line
-	3500 1950 3500 2000
+	3450 1950 3450 2000
 Wire Wire Line
-	3500 2300 3500 2750
-Wire Wire Line
-	3500 2750 3650 2750
+	3450 2300 3450 2750
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:C C9
 U 1 1 5ED1BD18
@@ -469,7 +467,7 @@ Connection ~ 1950 2750
 Wire Wire Line
 	1950 2750 2200 2750
 Wire Wire Line
-	3650 2750 3650 2800
+	3800 2750 3800 2850
 $Comp
 L power:GND #PWR019
 U 1 1 5EE79A7F
@@ -562,9 +560,9 @@ Wire Wire Line
 	2200 2750 2300 2750
 Connection ~ 2200 2750
 Wire Wire Line
-	3400 2750 3500 2750
-Connection ~ 3500 2750
-Text Label 3350 1950 0    50   ~ 0
+	3400 2750 3450 2750
+Connection ~ 3450 2750
+Text Label 3300 1950 0    50   ~ 0
 PVM
 Connection ~ 8350 1750
 Text Notes 5000 6100 0    79   ~ 16
@@ -574,47 +572,44 @@ Wire Wire Line
 $Comp
 L Frequently_Used:PWR_FLAG #FLG?
 U 1 1 5EF92BAB
-P 3450 5250
+P 3650 5250
 AR Path="/5EF92BAB" Ref="#FLG?"  Part="1" 
 AR Path="/5EA6751D/5EF92BAB" Ref="#FLG02"  Part="1" 
-F 0 "#FLG02" H 3450 5325 50  0001 C CNN
-F 1 "PWR_FLAG" H 3450 5423 50  0000 C CNN
-F 2 "" H 3450 5250 50  0001 C CNN
-F 3 "~" H 3450 5250 50  0001 C CNN
-	1    3450 5250
+F 0 "#FLG02" H 3650 5325 50  0001 C CNN
+F 1 "PWR_FLAG" H 3650 5423 50  0000 C CNN
+F 2 "" H 3650 5250 50  0001 C CNN
+F 3 "~" H 3650 5250 50  0001 C CNN
+	1    3650 5250
 	-1   0    0    1   
 $EndComp
-Connection ~ 3450 5150
+Connection ~ 3650 5150
 Wire Wire Line
-	3450 5250 3450 5150
+	3650 5250 3650 5150
 Wire Wire Line
-	3350 5150 3450 5150
+	3550 5150 3650 5150
 Text Label 5200 5150 2    50   ~ 0
 SWBATT-
-Wire Wire Line
-	3450 5150 3850 5150
 Wire Wire Line
 	8150 1750 8350 1750
 $Comp
 L Frequently_Used:TestPoint TP2
 U 1 1 5EDC8A6F
-P 3850 5250
-F 0 "TP2" H 3850 5450 50  0000 C CNN
-F 1 "TestPoint" H 3750 5000 50  0001 L CNN
-F 2 "Frequently_Used:Pad_2.5-2.5" H 4050 5250 50  0001 C CNN
-F 3 "None" H 4050 5250 50  0001 C CNN
-F 4 "BATT-" H 3850 5550 50  0000 C CNN "Name"
-F 5 "None" H 3850 5250 50  0001 C CNN "Description"
-F 6 "None" H 3850 5250 50  0001 C CNN "Source Part No."
-F 7 "None" H 3850 5250 50  0001 C CNN "Manufacturer Name"
-F 8 "None" H 3850 5250 50  0001 C CNN "Manufacturer Part No."
-F 9 "None" H 3850 5250 50  0001 C CNN "Source"
-	1    3850 5250
+P 7100 5350
+F 0 "TP2" H 7100 5550 50  0000 C CNN
+F 1 "TestPoint" H 7000 5100 50  0001 L CNN
+F 2 "Frequently_Used:Pad_2.5-2.5" H 7300 5350 50  0001 C CNN
+F 3 "None" H 7300 5350 50  0001 C CNN
+F 4 "BATT-" H 7100 5650 50  0000 C CNN "Name"
+F 5 "None" H 7100 5350 50  0001 C CNN "Description"
+F 6 "None" H 7100 5350 50  0001 C CNN "Source Part No."
+F 7 "None" H 7100 5350 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 7100 5350 50  0001 C CNN "Manufacturer Part No."
+F 9 "None" H 7100 5350 50  0001 C CNN "Source"
+	1    7100 5350
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3850 5250 3850 5150
-Connection ~ 3850 5150
+	7100 5350 7100 5250
 Wire Wire Line
 	4700 5150 5200 5150
 Wire Wire Line
@@ -643,11 +638,6 @@ F 8 "Digikey" H 4750 5650 50  0001 C CNN "Source"
 	1    4750 5650
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3850 5150 4150 5150
-Connection ~ 4150 5150
-Wire Wire Line
-	4150 5150 4300 5150
 $Comp
 L Li-ion_5A_Boost_1A_Charge_Protect:R R2
 U 1 1 5ED9A5CF
@@ -666,29 +656,28 @@ $EndComp
 $Comp
 L Naquadah_Generator:Power_Daughter_5_Pin_Conn J?
 U 1 1 5EDED880
-P 6650 5100
+P 6400 5050
 AR Path="/5EDED880" Ref="J?"  Part="1" 
 AR Path="/5EA6751D/5EDED880" Ref="J10"  Part="1" 
-F 0 "J10" H 6650 4800 50  0000 C CNN
-F 1 "Power Board Conn" H 6650 5400 50  0000 C CNN
-F 2 "Naquadah_Generator:Mother_Board_Vert_5_Pin_JST_Conn" H 6700 4300 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 6650 5050 50  0001 C CNN
-F 4 "Connector Header Surface Mount 6 position 0.039\" (1.00mm)" H 6700 4200 50  0001 C CNN "Description"
-F 5 "455-1792-1-ND" H 6700 4600 50  0001 C CNN "Digikey Part No."
-F 6 "JST Sales America Inc." H 6700 4500 50  0001 C CNN "Manufacturer Name"
-F 7 "BM06B-SRSS-TB(LF)(SN)" H 6700 4400 50  0001 C CNN "Manufacturer Part No."
-	1    6650 5100
+F 0 "J10" H 6400 4750 50  0000 C CNN
+F 1 "Power Board Conn" H 6400 5350 50  0000 C CNN
+F 2 "Naquadah_Generator:Mother_Board_Vert_5_Pin_JST_Conn" H 6450 4250 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 6400 5000 50  0001 C CNN
+F 4 "Connector Header Surface Mount 6 position 0.039\" (1.00mm)" H 6450 4150 50  0001 C CNN "Description"
+F 5 "JST Sales America Inc." H 6450 4450 50  0001 C CNN "Manufacturer Name"
+F 6 "BM06B-SRSS-TB(LF)(SN)" H 6450 4350 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 6400 5050 50  0001 C CNN "Source"
+F 8 "455-1792-1-ND" H 6400 5050 50  0001 C CNN "Source Part No."
+	1    6400 5050
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6800 5200 7100 5200
+	6550 5150 6850 5150
 Wire Wire Line
-	6800 5300 7350 5300
+	6550 4850 6600 4850
 Wire Wire Line
-	6800 4900 6850 4900
-Wire Wire Line
-	6800 5000 7100 5000
-Text Label 7700 4900 2    50   ~ 0
+	6550 4950 6850 4950
+Text Label 7450 4850 2    50   ~ 0
 SWITCH
 Wire Wire Line
 	4500 5650 4600 5650
@@ -698,184 +687,157 @@ Wire Wire Line
 Text Label 5200 5650 2    50   ~ 0
 SWITCH
 Wire Wire Line
-	3350 4850 3350 4950
+	3550 4850 3550 4950
 Wire Wire Line
-	3350 5050 3350 5150
+	3550 5050 3550 5150
 Wire Wire Line
-	3150 4950 3350 4950
+	3350 4950 3550 4950
 Wire Wire Line
-	3150 5050 3350 5050
+	3350 5050 3550 5050
 $Comp
 L Connectors_LE:Power_Conn J9
 U 1 1 5EE056F1
-P 3000 5050
-F 0 "J9" H 3000 4850 50  0000 C CNN
-F 1 "Power_Conn" H 3000 5150 50  0000 C CNN
-F 2 "Naquadah_Generator:Keystone-1042" H 3000 5050 50  0001 C CNN
-F 3 "~" H 3000 5050 50  0001 C CNN
-	1    3000 5050
+P 3200 5050
+F 0 "J9" H 3200 4850 50  0000 C CNN
+F 1 "Power_Conn" H 3200 5150 50  0000 C CNN
+F 2 "Naquadah_Generator:Keystone-1042" H 3200 5050 50  0001 C CNN
+F 3 "~" H 3200 5050 50  0001 C CNN
+	1    3200 5050
 	-1   0    0    1   
 $EndComp
 Text Label 5200 4850 2    50   ~ 0
 BATT+
-Connection ~ 3450 4850
+Connection ~ 3650 4850
 Wire Wire Line
-	3350 4850 3450 4850
+	3550 4850 3650 4850
 Wire Wire Line
-	3450 4750 3450 4850
+	3650 4750 3650 4850
 $Comp
 L Frequently_Used:PWR_FLAG #FLG?
 U 1 1 5EF92BB2
-P 3450 4750
+P 3650 4750
 AR Path="/5EF92BB2" Ref="#FLG?"  Part="1" 
 AR Path="/5EA6751D/5EF92BB2" Ref="#FLG01"  Part="1" 
-F 0 "#FLG01" H 3450 4825 50  0001 C CNN
-F 1 "PWR_FLAG" H 3450 4923 50  0000 C CNN
-F 2 "" H 3450 4750 50  0001 C CNN
-F 3 "~" H 3450 4750 50  0001 C CNN
-	1    3450 4750
+F 0 "#FLG01" H 3650 4825 50  0001 C CNN
+F 1 "PWR_FLAG" H 3650 4923 50  0000 C CNN
+F 2 "" H 3650 4750 50  0001 C CNN
+F 3 "~" H 3650 4750 50  0001 C CNN
+	1    3650 4750
 	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:BSS138 Q1
-U 1 1 5EDE9E44
-P 4500 5250
-F 0 "Q1" V 4550 5400 50  0000 L CNN
-F 1 "30V 5A" V 4450 5400 50  0000 L CNN
-F 2 "Naquadah_Generator:SOT-23_Handsoldering" H 4700 5175 50  0001 L CIN
-F 3 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 4500 5250 50  0001 L CNN
-F 4 "N-Channel 30V 5A (Ta) 1.3W (Ta) Surface Mount Micro3™/SOT-23" H 4500 5250 50  0001 C CNN "Description"
-F 5 "IRLML6344TRPBFCT-ND" H 4500 5250 50  0001 C CNN "Source Part No."
-F 6 "Infineon Technologies" H 4500 5250 50  0001 C CNN "Manufacturer Name"
-F 7 "IRLML6344TRPBF" H 4500 5250 50  0001 C CNN "Manufacturer Part No."
-F 8 "Digikey" H 4500 5250 50  0001 C CNN "Source"
-	1    4500 5250
-	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	6800 5100 7350 5100
-Text HLabel 7700 5000 2    50   Input ~ 0
+	6550 5050 7100 5050
+Text HLabel 7450 4950 2    50   Input ~ 0
 READY
-Text HLabel 7700 5100 2    50   Input ~ 0
+Text HLabel 7450 5050 2    50   Input ~ 0
 MODE
-$Comp
-L power:GND #PWR020
-U 1 1 5EE27081
-P 7700 5400
-F 0 "#PWR020" H 7700 5150 50  0001 C CNN
-F 1 "GND" H 7705 5227 50  0000 C CNN
-F 2 "" H 7700 5400 50  0001 C CNN
-F 3 "" H 7700 5400 50  0001 C CNN
-	1    7700 5400
-	1    0    0    -1  
-$EndComp
 $Comp
 L Frequently_Used:TestPoint TP8
 U 1 1 5EE27978
-P 7100 4800
-F 0 "TP8" H 7100 5050 50  0000 C CNN
-F 1 "TestPoint" H 7100 4520 50  0001 C CNN
-F 2 "Frequently_Used:Pad_2.5-2.5" H 7300 4800 50  0001 C CNN
-F 3 "None" H 7300 4800 50  0001 C CNN
-F 4 "READY" H 7100 4950 50  0000 C CNN "Name"
-F 5 "None" H 7095 4445 50  0001 C CNN "Source"
-F 6 "None" H 7095 4445 50  0001 C CNN "Source Part No."
-F 7 "None" H 7095 4445 50  0001 C CNN "Manufacturer"
-F 8 "None" H 7095 4445 50  0001 C CNN "Manufacturer Part No."
-	1    7100 4800
+P 6850 4750
+F 0 "TP8" H 6850 5000 50  0000 C CNN
+F 1 "TestPoint" H 6850 4470 50  0001 C CNN
+F 2 "Frequently_Used:Pad_2.5-2.5" H 7050 4750 50  0001 C CNN
+F 3 "None" H 7050 4750 50  0001 C CNN
+F 4 "READY" H 6850 4900 50  0000 C CNN "Name"
+F 5 "None" H 6845 4395 50  0001 C CNN "Source"
+F 6 "None" H 6845 4395 50  0001 C CNN "Source Part No."
+F 7 "None" H 6845 4395 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 6845 4395 50  0001 C CNN "Manufacturer Part No."
+F 9 "None" H 6850 4750 50  0001 C CNN "Description"
+	1    6850 4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Frequently_Used:TestPoint TP10
 U 1 1 5EE280BF
-P 7350 4800
-F 0 "TP10" H 7350 5050 50  0000 C CNN
-F 1 "TestPoint" H 7350 4520 50  0001 C CNN
-F 2 "Frequently_Used:Pad_2.5-2.5" H 7550 4800 50  0001 C CNN
-F 3 "None" H 7550 4800 50  0001 C CNN
-F 4 "MODE" H 7350 4950 50  0000 C CNN "Name"
-F 5 "None" H 7345 4445 50  0001 C CNN "Source"
-F 6 "None" H 7345 4445 50  0001 C CNN "Source Part No."
-F 7 "None" H 7345 4445 50  0001 C CNN "Manufacturer"
-F 8 "None" H 7345 4445 50  0001 C CNN "Manufacturer Part No."
-	1    7350 4800
+P 7100 4750
+F 0 "TP10" H 7100 5000 50  0000 C CNN
+F 1 "TestPoint" H 7100 4470 50  0001 C CNN
+F 2 "Frequently_Used:Pad_2.5-2.5" H 7300 4750 50  0001 C CNN
+F 3 "None" H 7300 4750 50  0001 C CNN
+F 4 "MODE" H 7100 4900 50  0000 C CNN "Name"
+F 5 "None" H 7095 4395 50  0001 C CNN "Source"
+F 6 "None" H 7095 4395 50  0001 C CNN "Source Part No."
+F 7 "None" H 7095 4395 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 7095 4395 50  0001 C CNN "Manufacturer Part No."
+F 9 "None" H 7100 4750 50  0001 C CNN "Description"
+	1    7100 4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Frequently_Used:TestPoint TP9
 U 1 1 5EE28A29
-P 7100 5400
-F 0 "TP9" H 7100 5650 50  0000 C CNN
-F 1 "TestPoint" H 7100 5120 50  0001 C CNN
-F 2 "Frequently_Used:Pad_2.5-2.5" H 7300 5400 50  0001 C CNN
-F 3 "None" H 7300 5400 50  0001 C CNN
-F 4 "BATT+" H 7100 5550 50  0000 C CNN "Name"
-F 5 "None" H 7095 5045 50  0001 C CNN "Source"
-F 6 "None" H 7095 5045 50  0001 C CNN "Source Part No."
-F 7 "None" H 7095 5045 50  0001 C CNN "Manufacturer"
-F 8 "None" H 7095 5045 50  0001 C CNN "Manufacturer Part No."
-	1    7100 5400
+P 6850 5350
+F 0 "TP9" H 6850 5550 50  0000 C CNN
+F 1 "TestPoint" H 6850 5070 50  0001 C CNN
+F 2 "Frequently_Used:Pad_2.5-2.5" H 7050 5350 50  0001 C CNN
+F 3 "None" H 7050 5350 50  0001 C CNN
+F 4 "BATT+" H 6850 5650 50  0000 C CNN "Name"
+F 5 "None" H 6845 4995 50  0001 C CNN "Source"
+F 6 "None" H 6845 4995 50  0001 C CNN "Source Part No."
+F 7 "None" H 6845 4995 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 6845 4995 50  0001 C CNN "Manufacturer Part No."
+F 9 "None" H 6850 5350 50  0001 C CNN "Description"
+	1    6850 5350
 	-1   0    0    1   
 $EndComp
 $Comp
 L Frequently_Used:TestPoint TP11
 U 1 1 5EE2A864
-P 7350 5400
-F 0 "TP11" H 7350 5650 50  0000 C CNN
-F 1 "TestPoint" H 7350 5120 50  0001 C CNN
-F 2 "Frequently_Used:Pad_2.5-2.5" H 7550 5400 50  0001 C CNN
-F 3 "None" H 7550 5400 50  0001 C CNN
-F 4 "GND" H 7350 5550 50  0000 C CNN "Name"
-F 5 "None" H 7345 5045 50  0001 C CNN "Source"
-F 6 "None" H 7345 5045 50  0001 C CNN "Source Part No."
-F 7 "None" H 7345 5045 50  0001 C CNN "Manufacturer"
-F 8 "None" H 7345 5045 50  0001 C CNN "Manufacturer Part No."
-	1    7350 5400
+P 3550 2850
+F 0 "TP11" H 3550 3050 50  0000 C CNN
+F 1 "TestPoint" H 3550 2570 50  0001 C CNN
+F 2 "Frequently_Used:Pad_2.5-2.5" H 3750 2850 50  0001 C CNN
+F 3 "None" H 3750 2850 50  0001 C CNN
+F 4 "GND" H 3550 3150 50  0000 C CNN "Name"
+F 5 "None" H 3545 2495 50  0001 C CNN "Source"
+F 6 "None" H 3545 2495 50  0001 C CNN "Source Part No."
+F 7 "None" H 3545 2495 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 3545 2495 50  0001 C CNN "Manufacturer Part No."
+F 9 "None" H 3550 2850 50  0001 C CNN "Description"
+	1    3550 2850
 	-1   0    0    1   
 $EndComp
 $Comp
 L Frequently_Used:TestPoint TP7
 U 1 1 5EE0D761
-P 6850 4800
-F 0 "TP7" H 6850 5050 50  0000 C CNN
-F 1 "TestPoint" H 6850 4520 50  0001 C CNN
-F 2 "Frequently_Used:Pad_2.5-2.5" H 7050 4800 50  0001 C CNN
-F 3 "None" H 7050 4800 50  0001 C CNN
-F 4 "SW" H 6850 4950 50  0000 C CNN "Name"
-F 5 "None" H 6845 4445 50  0001 C CNN "Source"
-F 6 "None" H 6845 4445 50  0001 C CNN "Source Part No."
-F 7 "None" H 6845 4445 50  0001 C CNN "Manufacturer"
-F 8 "None" H 6845 4445 50  0001 C CNN "Manufacturer Part No."
-	1    6850 4800
+P 6600 4750
+F 0 "TP7" H 6600 5000 50  0000 C CNN
+F 1 "TestPoint" H 6600 4470 50  0001 C CNN
+F 2 "Frequently_Used:Pad_2.5-2.5" H 6800 4750 50  0001 C CNN
+F 3 "None" H 6800 4750 50  0001 C CNN
+F 4 "SW" H 6600 4900 50  0000 C CNN "Name"
+F 5 "None" H 6595 4395 50  0001 C CNN "Source"
+F 6 "None" H 6595 4395 50  0001 C CNN "Source Part No."
+F 7 "None" H 6595 4395 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 6595 4395 50  0001 C CNN "Manufacturer Part No."
+F 9 "None" H 6600 4750 50  0001 C CNN "Description"
+	1    6600 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6850 4800 6850 4900
-Connection ~ 6850 4900
+	6600 4750 6600 4850
+Connection ~ 6600 4850
 Wire Wire Line
-	6850 4900 7700 4900
+	6600 4850 7450 4850
 Wire Wire Line
-	7100 4800 7100 5000
-Connection ~ 7100 5000
+	6850 4750 6850 4950
+Connection ~ 6850 4950
 Wire Wire Line
-	7100 5000 7700 5000
+	6850 4950 7450 4950
 Wire Wire Line
-	7350 4800 7350 5100
-Connection ~ 7350 5100
+	7100 4750 7100 5050
+Connection ~ 7100 5050
 Wire Wire Line
-	7350 5100 7700 5100
+	7100 5050 7450 5050
 Wire Wire Line
-	7100 5400 7100 5200
-Connection ~ 7100 5200
+	6850 5350 6850 5150
+Connection ~ 6850 5150
 Wire Wire Line
-	7100 5200 7700 5200
+	6850 5150 7450 5150
 Wire Wire Line
-	7350 5400 7350 5300
-Connection ~ 7350 5300
-Wire Wire Line
-	7350 5300 7700 5300
-Wire Wire Line
-	7700 5400 7700 5300
+	3550 2850 3550 2750
 $Comp
 L Frequently_Used:+5V #PWR?
 U 1 1 5EE5FC65
@@ -905,7 +867,7 @@ $EndComp
 Wire Wire Line
 	9500 2950 9500 3050
 Wire Wire Line
-	3450 4850 5200 4850
+	3650 4850 5200 4850
 $Comp
 L Frequently_Used:TestPoint TP1
 U 1 1 5EE9C019
@@ -928,16 +890,53 @@ Wire Wire Line
 Connection ~ 1700 2750
 Wire Wire Line
 	1700 2750 1950 2750
-Text Label 7700 5200 2    50   ~ 0
+Text Label 7450 5150 2    50   ~ 0
 BATT+
 Wire Wire Line
 	9000 2950 9500 2950
 Wire Wire Line
 	9000 1750 9500 1750
-Text Label 3800 5150 2    50   ~ 0
+Text Label 4000 5150 2    50   ~ 0
 BATT-
 Text Label 1300 2750 0    50   ~ 0
 SWBATT-
 Text Label 4450 5650 2    50   ~ 0
 SWGATE
+Text Label 2700 2300 0    50   ~ 0
+PG1
+Text Label 3050 2300 0    50   ~ 0
+PG2
+Text Label 7450 5250 2    50   ~ 0
+BATT-
+Wire Wire Line
+	3450 2750 3550 2750
+Connection ~ 3550 2750
+Wire Wire Line
+	3550 2750 3800 2750
+Wire Wire Line
+	6550 5250 7100 5250
+Connection ~ 7100 5250
+Wire Wire Line
+	7100 5250 7450 5250
+Wire Wire Line
+	3650 5150 4150 5150
+$Comp
+L Transistor_FET:BSS138 Q1
+U 1 1 5EDE9E44
+P 4500 5250
+F 0 "Q1" V 4550 5400 50  0000 L CNN
+F 1 "30V 5A" V 4450 5400 50  0000 L CNN
+F 2 "Naquadah_Generator:SOT-23_Handsoldering" H 4700 5175 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 4500 5250 50  0001 L CNN
+F 4 "N-Channel 30V 5A (Ta) 1.3W (Ta) Surface Mount Micro3™/SOT-23" H 4500 5250 50  0001 C CNN "Description"
+F 5 "IRLML6344TRPBFCT-ND" H 4500 5250 50  0001 C CNN "Source Part No."
+F 6 "Infineon Technologies" H 4500 5250 50  0001 C CNN "Manufacturer Name"
+F 7 "IRLML6344TRPBF" H 4500 5250 50  0001 C CNN "Manufacturer Part No."
+F 8 "Digikey" H 4500 5250 50  0001 C CNN "Source"
+	1    4500 5250
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4300 5150 4150 5150
+Connection ~ 4150 5150
 $EndSCHEMATC

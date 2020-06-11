@@ -154,7 +154,7 @@ U 1 1 5EA677CD
 P 3200 6750
 F 0 "J1" H 3200 6300 50  0000 C CNN
 F 1 "HallSensor_Conn" H 3200 6400 50  0000 C CNN
-F 2 "Naquadah_Generator:State_Sensing_Daughter_Board_JST_Conn" H 3200 7050 50  0001 C CNN
+F 2 "Naquadah_Generator:Daughter_Board_Hor_4_Pin_JST_Conn" H 3200 7050 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 3200 6750 50  0001 C CNN
 F 4 "455-1804-1-ND" H 3200 6750 50  0001 C CNN "Source Part No."
 F 5 "JST Sales America Inc." H 3200 6750 50  0001 C CNN "Manufacturer Name"

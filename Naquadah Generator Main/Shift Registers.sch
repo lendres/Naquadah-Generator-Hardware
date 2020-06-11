@@ -315,7 +315,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf?HQS=TI-null-null-digikeymode-
 F 4 "296-15777-1-ND" H 6650 3700 50  0001 C CNN "Source Part No."
 F 5 "Texas Instruments" H 6650 3700 50  0001 C CNN "Manufacturer Name"
 F 6 "ULN2803ADWR" H 6650 3700 50  0001 C CNN "Manufacturer Part No."
-F 7 "Texas Instruments" H 6650 3700 50  0001 C CNN "Description"
+F 7 "Bipolar (BJT) Transistor Array 8 NPN Darlington 50V 500mA Surface Mount 18-SOIC" H 6650 3700 50  0001 C CNN "Description"
 F 8 "Digikey" H 6650 3700 50  0001 C CNN "Source"
 	1    6650 3700
 	1    0    0    -1  

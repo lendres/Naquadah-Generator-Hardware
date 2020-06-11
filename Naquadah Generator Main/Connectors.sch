@@ -189,7 +189,7 @@ AR Path="/5EDC6BE1" Ref="J?"  Part="1"
 AR Path="/5EDBBDC8/5EDC6BE1" Ref="J1"  Part="1" 
 F 0 "J1" H 6850 3600 50  0000 C CNN
 F 1 "State_Sensing_Conn" H 6850 4200 50  0000 C CNN
-F 2 "Naquadah_Generator:State_Sensing_Mother_Board_JST_Conn" H 6850 3250 50  0001 C CNN
+F 2 "Naquadah_Generator:Mother_Board_Hor_4_Pin_JST_Conn" H 6850 3250 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 6850 3950 50  0001 C CNN
 F 4 "455-1804-1-ND" H 6850 3550 50  0001 C CNN "Source Part No."
 F 5 "JST Sales America Inc." H 6850 3450 50  0001 C CNN "Manufacturer Name"
@@ -245,7 +245,7 @@ AR Path="/5EDC6BFE" Ref="J?"  Part="1"
 AR Path="/5EDBBDC8/5EDC6BFE" Ref="J2"  Part="1" 
 F 0 "J2" H 9250 3600 50  0000 C CNN
 F 1 "State_Sensing_Conn" H 9250 4200 50  0000 C CNN
-F 2 "Naquadah_Generator:State_Sensing_Mother_Board_JST_Conn" H 9250 3250 50  0001 C CNN
+F 2 "Naquadah_Generator:Mother_Board_Hor_4_Pin_JST_Conn" H 9250 3250 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 9250 3950 50  0001 C CNN
 F 4 "455-1804-1-ND" H 9250 3550 50  0001 C CNN "Source Part No."
 F 5 "JST Sales America Inc." H 9250 3450 50  0001 C CNN "Manufacturer Name"
