@@ -253,12 +253,12 @@ F 7 "Digikey" H 8650 5850 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:TestPoint TP101
+L Frequently_Used_LE:TestPoint TP101
 U 1 1 5EF333AD
 P 5200 3050
 F 0 "TP101" H 5150 3350 50  0000 L BNN
 F 1 "TestPoint" H 5150 3250 50  0001 L BNN
-F 2 "Frequently_Used:Pad_1.25-1.25" H 5400 3050 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_1.25-1.25" H 5400 3050 50  0001 C CNN
 F 3 "None" H 5400 3050 50  0001 C CNN
 F 4 "GND" H 5150 3250 50  0000 L BNN "Name"
 F 5 "None" H 5200 3050 50  0001 C CNN "Source Part No."
@@ -280,12 +280,12 @@ F 3 "" H 6850 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:TestPoint TP104
+L Frequently_Used_LE:TestPoint TP104
 U 1 1 5EF79EC8
 P 5200 2200
 F 0 "TP104" H 5250 2400 50  0000 R BNN
 F 1 "TestPoint" H 5250 2500 50  0001 R BNN
-F 2 "Frequently_Used:Pad_1.25-1.25" H 5400 2200 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_1.25-1.25" H 5400 2200 50  0001 C CNN
 F 3 "None" H 5400 2200 50  0001 C CNN
 F 4 "S2" H 5150 2500 50  0000 L BNN "Name"
 F 5 "None" H 5200 2200 50  0001 C CNN "Source Part No."
@@ -296,12 +296,12 @@ F 8 "Digikey" H 5200 2200 50  0001 C CNN "Source"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Frequently_Used:TestPoint TP103
+L Frequently_Used_LE:TestPoint TP103
 U 1 1 5EF7C130
 P 7500 2200
 F 0 "TP103" H 7550 2400 50  0000 R BNN
 F 1 "TestPoint" H 7550 2500 50  0001 R BNN
-F 2 "Frequently_Used:Pad_1.25-1.25" H 7700 2200 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_1.25-1.25" H 7700 2200 50  0001 C CNN
 F 3 "None" H 7700 2200 50  0001 C CNN
 F 4 "S1" H 7450 2500 50  0000 L BNN "Name"
 F 5 "None" H 7500 2200 50  0001 C CNN "Source Part No."
@@ -312,12 +312,12 @@ F 8 "Digikey" H 7500 2200 50  0001 C CNN "Source"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Frequently_Used:TestPoint TP102
+L Frequently_Used_LE:TestPoint TP102
 U 1 1 5EF7C9EB
 P 5200 1250
 F 0 "TP102" H 5150 1550 50  0000 L BNN
 F 1 "TestPoint" H 5150 1450 50  0001 L BNN
-F 2 "Frequently_Used:Pad_1.25-1.25" H 5400 1250 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_1.25-1.25" H 5400 1250 50  0001 C CNN
 F 3 "None" H 5400 1250 50  0001 C CNN
 F 4 "PWR" H 5150 1450 50  0000 L BNN "Name"
 F 5 "None" H 5200 1250 50  0001 C CNN "Source Part No."

@@ -28,7 +28,7 @@ Wire Wire Line
 Wire Wire Line
 	6550 3000 7050 3000
 $Comp
-L Frequently_Used:GND #PWR017
+L Frequently_Used_LE:GND #PWR017
 U 1 1 5EA1BAA4
 P 4500 4100
 F 0 "#PWR017" H 4500 3850 50  0001 C CNN
@@ -80,7 +80,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 2100 4500 2200
 $Comp
-L Frequently_Used:GND #PWR016
+L Frequently_Used_LE:GND #PWR016
 U 1 1 5EDBAB65
 P 4500 2200
 F 0 "#PWR016" H 4500 1950 50  0001 C CNN
@@ -93,12 +93,12 @@ $EndComp
 Text Label 4750 2250 0    50   ~ 0
 UCAP
 $Comp
-L Frequently_Used:C C3
+L Frequently_Used_LE:C C3
 U 1 1 5EDC471D
 P 2450 4150
 F 0 "C3" V 2500 4100 50  0000 R CNN
 F 1 "18pF" V 2500 4200 50  0000 L CNN
-F 2 "Frequently_Used:0805_2012Metric_HandSolder" H 2488 4000 50  0001 C CNN
+F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" H 2488 4000 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" H 2450 4150 50  0001 C CNN
 F 4 "399-1052-1-ND" H 2450 4150 50  0001 C CNN "Source Part No."
 F 5 "Kemet" H 2450 4150 50  0001 C CNN "Manufacturer Name"
@@ -108,12 +108,12 @@ F 7 "Digikey" H 2450 4150 50  0001 C CNN "Source"
 	0    1    1    0   
 $EndComp
 $Comp
-L Frequently_Used:C C2
+L Frequently_Used_LE:C C2
 U 1 1 5EDC72C2
 P 2450 3850
 F 0 "C2" V 2400 3800 50  0000 R CNN
 F 1 "18pF" V 2400 3900 50  0000 L CNN
-F 2 "Frequently_Used:0805_2012Metric_HandSolder" H 2488 3700 50  0001 C CNN
+F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" H 2488 3700 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" H 2450 3850 50  0001 C CNN
 F 4 "399-1052-1-ND" H 2450 3850 50  0001 C CNN "Source Part No."
 F 5 "Kemet" H 2450 3850 50  0001 C CNN "Manufacturer Name"
@@ -123,7 +123,7 @@ F 7 "Digikey" H 2450 3850 50  0001 C CNN "Source"
 	0    1    1    0   
 $EndComp
 $Comp
-L Frequently_Used:Crystal Y1
+L Frequently_Used_LE:Crystal Y1
 U 1 1 5EDC870C
 P 2750 4000
 F 0 "Y1" H 2750 3850 50  0000 C CNN
@@ -184,7 +184,7 @@ Wire Wire Line
 	4500 1600 4500 1500
 Connection ~ 4500 1500
 $Comp
-L Frequently_Used:VBUS #PWR015
+L Frequently_Used_LE:VBUS #PWR015
 U 1 1 5EE32C9A
 P 4500 1400
 F 0 "#PWR015" H 4500 1250 50  0001 C CNN
@@ -204,7 +204,7 @@ Connection ~ 4500 1100
 Wire Wire Line
 	4500 1100 4500 1000
 $Comp
-L Frequently_Used:+5V #PWR014
+L Frequently_Used_LE:+5V #PWR014
 U 1 1 5EE39D3A
 P 4500 1000
 F 0 "#PWR014" H 4500 850 50  0001 C CNN
@@ -215,7 +215,7 @@ F 3 "" H 4500 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:+5V #PWR010
+L Frequently_Used_LE:+5V #PWR010
 U 1 1 5EE3F918
 P 3650 1000
 F 0 "#PWR010" H 3650 850 50  0001 C CNN
@@ -226,7 +226,7 @@ F 3 "" H 3650 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:GND #PWR011
+L Frequently_Used_LE:GND #PWR011
 U 1 1 5EE3FE38
 P 3650 1500
 F 0 "#PWR011" H 3650 1250 50  0001 C CNN
@@ -237,12 +237,12 @@ F 3 "" H 3650 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:C C7
+L Frequently_Used_LE:C C7
 U 1 1 5EE403A0
 P 3650 1250
 F 0 "C7" H 3700 1350 50  0000 L CNN
 F 1 "0.1uF" H 3700 1150 50  0000 L CNN
-F 2 "Frequently_Used:0805_2012Metric_HandSolder" H 3688 1100 50  0001 C CNN
+F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" H 3688 1100 50  0001 C CNN
 F 3 "~" H 3650 1250 50  0001 C CNN
 	1    3650 1250
 	1    0    0    -1  
@@ -252,7 +252,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 1000 3650 1100
 $Comp
-L Frequently_Used:+5V #PWR08
+L Frequently_Used_LE:+5V #PWR08
 U 1 1 5EE46087
 P 3150 1000
 F 0 "#PWR08" H 3150 850 50  0001 C CNN
@@ -263,7 +263,7 @@ F 3 "" H 3150 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:GND #PWR09
+L Frequently_Used_LE:GND #PWR09
 U 1 1 5EE4608D
 P 3150 1500
 F 0 "#PWR09" H 3150 1250 50  0001 C CNN
@@ -274,12 +274,12 @@ F 3 "" H 3150 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:C C6
+L Frequently_Used_LE:C C6
 U 1 1 5EE46093
 P 3150 1250
 F 0 "C6" H 3200 1350 50  0000 L CNN
 F 1 "1.0uF" H 3200 1150 50  0000 L CNN
-F 2 "Frequently_Used:0805_2012Metric_HandSolder" H 3188 1100 50  0001 C CNN
+F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" H 3188 1100 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 3150 1250 50  0001 C CNN
 F 4 "1µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" H 3150 1250 50  0001 C CNN "Description"
 F 5 "1276-2931-1-ND" H 3150 1250 50  0001 C CNN "Source Part No."
@@ -294,7 +294,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 1000 3150 1100
 $Comp
-L Frequently_Used:GND #PWR07
+L Frequently_Used_LE:GND #PWR07
 U 1 1 5EE499D3
 P 2650 1500
 F 0 "#PWR07" H 2650 1250 50  0001 C CNN
@@ -305,12 +305,12 @@ F 3 "" H 2650 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:C C5
+L Frequently_Used_LE:C C5
 U 1 1 5EE499D9
 P 2650 1250
 F 0 "C5" H 2700 1350 50  0000 L CNN
 F 1 "1.0uF" H 2700 1150 50  0000 L CNN
-F 2 "Frequently_Used:0805_2012Metric_HandSolder" H 2688 1100 50  0001 C CNN
+F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" H 2688 1100 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 2650 1250 50  0001 C CNN
 F 4 "1µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" H 2650 1250 50  0001 C CNN "Description"
 F 5 "1276-2931-1-ND" H 2650 1250 50  0001 C CNN "Source Part No."
@@ -325,7 +325,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 900  2650 1100
 $Comp
-L Frequently_Used:GND #PWR03
+L Frequently_Used_LE:GND #PWR03
 U 1 1 5EE4D88E
 P 1650 1500
 F 0 "#PWR03" H 1650 1250 50  0001 C CNN
@@ -340,7 +340,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 1000 1650 1100
 $Comp
-L Frequently_Used:VBUS #PWR02
+L Frequently_Used_LE:VBUS #PWR02
 U 1 1 5EE4F542
 P 1650 1000
 F 0 "#PWR02" H 1650 850 50  0001 C CNN
@@ -353,7 +353,7 @@ $EndComp
 Text Label 2650 900  3    50   ~ 0
 UCAP
 $Comp
-L Frequently_Used:GND #PWR06
+L Frequently_Used_LE:GND #PWR06
 U 1 1 5EE53061
 P 2150 1500
 F 0 "#PWR06" H 2150 1250 50  0001 C CNN
@@ -378,18 +378,18 @@ Wire Wire Line
 Text Label 3150 2650 2    50   ~ 0
 nRESET
 $Comp
-L Frequently_Used:R R1
+L Frequently_Used_LE:R R1
 U 1 1 5EE7AB0D
 P 2650 2450
 F 0 "R1" V 2550 2450 50  0000 C CNN
 F 1 "10k" V 2750 2450 50  0000 C CNN
-F 2 "Frequently_Used:0805_2012Metric_HandSolder" V 2580 2450 50  0001 C CNN
+F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" V 2580 2450 50  0001 C CNN
 F 3 "~" H 2650 2450 50  0001 C CNN
 	1    2650 2450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:+5V #PWR04
+L Frequently_Used_LE:+5V #PWR04
 U 1 1 5EE7B8E3
 P 2650 2200
 F 0 "#PWR04" H 2650 2050 50  0001 C CNN
@@ -407,7 +407,7 @@ Wire Wire Line
 	2650 2750 2650 2650
 Connection ~ 2650 2650
 $Comp
-L Frequently_Used:GND #PWR05
+L Frequently_Used_LE:GND #PWR05
 U 1 1 5EE8456D
 P 2650 3250
 F 0 "#PWR05" H 2650 3000 50  0001 C CNN
@@ -453,12 +453,12 @@ Wire Wire Line
 Text Label 6600 1100 0    50   ~ 0
 RXLED
 $Comp
-L Frequently_Used:C C1
+L Frequently_Used_LE:C C1
 U 1 1 5EE4D894
 P 1650 1250
 F 0 "C1" H 1700 1350 50  0000 L CNN
 F 1 "1.0uF" H 1700 1150 50  0000 L CNN
-F 2 "Frequently_Used:0805_2012Metric_HandSolder" H 1688 1100 50  0001 C CNN
+F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" H 1688 1100 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 1650 1250 50  0001 C CNN
 F 4 "1µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" H 1650 1250 50  0001 C CNN "Description"
 F 5 "1276-2931-1-ND" H 1650 1250 50  0001 C CNN "Source Part No."
@@ -469,12 +469,12 @@ F 8 "Digikey" H 1650 1250 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:C C4
+L Frequently_Used_LE:C C4
 U 1 1 5EE53067
 P 2150 1250
 F 0 "C4" H 2200 1350 50  0000 L CNN
 F 1 "1.0uF" H 2200 1150 50  0000 L CNN
-F 2 "Frequently_Used:0805_2012Metric_HandSolder" H 2188 1100 50  0001 C CNN
+F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" H 2188 1100 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 2150 1250 50  0001 C CNN
 F 4 "1µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" H 2150 1250 50  0001 C CNN "Description"
 F 5 "1276-2931-1-ND" H 2150 1250 50  0001 C CNN "Source Part No."
@@ -504,7 +504,7 @@ Connection ~ 2200 4000
 Wire Wire Line
 	2200 4000 2200 3850
 $Comp
-L Frequently_Used:GND #PWR01
+L Frequently_Used_LE:GND #PWR01
 U 1 1 5ECBCDF9
 P 2000 4100
 F 0 "#PWR01" H 2000 3850 50  0001 C CNN
@@ -602,7 +602,7 @@ Wire Wire Line
 Wire Wire Line
 	8000 1050 8000 1000
 $Comp
-L Frequently_Used:+5V #PWR0103
+L Frequently_Used_LE:+5V #PWR0103
 U 1 1 5EDE6C2F
 P 8000 1000
 F 0 "#PWR0103" H 8000 850 50  0001 C CNN
@@ -613,23 +613,23 @@ F 3 "" H 8000 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:R R4
+L Frequently_Used_LE:R R4
 U 1 1 5EDE0168
 P 8000 1550
 F 0 "R4" V 7900 1550 50  0000 C CNN
 F 1 "1k" V 8100 1550 50  0000 C CNN
-F 2 "Frequently_Used:0805_2012Metric_HandSolder" V 7930 1550 50  0001 C CNN
+F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" V 7930 1550 50  0001 C CNN
 F 3 "~" H 8000 1550 50  0001 C CNN
 	1    8000 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:LED D23
+L Frequently_Used_LE:LED D23
 U 1 1 5EDE016E
 P 8000 1200
 F 0 "D23" H 8000 1100 50  0000 C CNN
 F 1 "GREEN" H 8000 1300 50  0000 C CNN
-F 2 "Frequently_Used:LED_0805_2012Metric_HandSolder" H 8000 1200 50  0001 C CNN
+F 2 "FrequentlyUsed:LED_0805_2012Metric_HandSolder" H 8000 1200 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 8000 1200 50  0001 C CNN
 F 4 "Green 570nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 8000 1200 50  0001 C CNN "Description"
 F 5 "732-4986-1-ND" H 8000 1200 50  0001 C CNN "Source Part No."
@@ -646,7 +646,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 1050 8600 1000
 $Comp
-L Frequently_Used:+5V #PWR0104
+L Frequently_Used_LE:+5V #PWR0104
 U 1 1 5EDF2F7E
 P 8600 1000
 F 0 "#PWR0104" H 8600 850 50  0001 C CNN
@@ -657,23 +657,23 @@ F 3 "" H 8600 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:R R9
+L Frequently_Used_LE:R R9
 U 1 1 5EDF2F84
 P 8600 1550
 F 0 "R9" V 8500 1550 50  0000 C CNN
 F 1 "1k" V 8700 1550 50  0000 C CNN
-F 2 "Frequently_Used:0805_2012Metric_HandSolder" V 8530 1550 50  0001 C CNN
+F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" V 8530 1550 50  0001 C CNN
 F 3 "~" H 8600 1550 50  0001 C CNN
 	1    8600 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:LED D24
+L Frequently_Used_LE:LED D24
 U 1 1 5EDF2F8A
 P 8600 1200
 F 0 "D24" H 8600 1100 50  0000 C CNN
 F 1 "YELLOW" H 8600 1300 50  0000 C CNN
-F 2 "Frequently_Used:LED_0805_2012Metric_HandSolder" H 8600 1200 50  0001 C CNN
+F 2 "FrequentlyUsed:LED_0805_2012Metric_HandSolder" H 8600 1200 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 8600 1200 50  0001 C CNN
 F 4 "	Yellow 590nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 8600 1200 50  0001 C CNN "Description"
 F 5 "732-4987-1-ND" H 8600 1200 50  0001 C CNN "Source Part No."
@@ -706,7 +706,7 @@ $EndComp
 Wire Wire Line
 	7300 3200 6550 3200
 $Comp
-L Frequently_Used:GND #PWR0105
+L Frequently_Used_LE:GND #PWR0105
 U 1 1 5EE11E5E
 P 7300 3300
 F 0 "#PWR0105" H 7300 3050 50  0001 C CNN

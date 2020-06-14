@@ -1,4 +1,4 @@
-(module Keystone-1042 (layer F.Cu) (tedit 5EE18F8F)
+(module Keystone-1042 (layer F.Cu) (tedit 5EE56448)
   (descr "Keystone 1042 18650 battery holder")
   (tags "Undefined or Miscellaneous")
   (attr smd)
@@ -36,7 +36,7 @@
   (pad 3 np_thru_hole circle (at -27.6 8) (size 3.45 0) (drill 3.45) (layers *.Cu *.Mask))
   (pad 4 np_thru_hole circle (at 27.6 -8) (size 3.45 0) (drill 3.45) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 35.82 8) (size 2.39 2.39) (drill 2.39) (layers *.Cu *.Mask))
-  (model "S:/Thanksgiving Weasel/2018-06 Naquadah Reactor/Electronics/Hardware/Naquadah-Generator-Hardware/Libraries/packages3d/Keystone-PN1042.step"
+  (model "$(LE3DMOD)/Keystone-PN1042.step"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

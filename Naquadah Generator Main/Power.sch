@@ -42,12 +42,12 @@ Wire Wire Line
 Wire Wire Line
 	7750 2150 7750 1750
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:R R41
+L Li-ion_LE:R R41
 U 1 1 FA6D7899
 P 8350 2650
 F 0 "R41" V 8250 2550 59  0000 L CNN
 F 1 "10k" V 8450 2550 59  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 8350 2650 50  0001 C CNN
+F 2 "Li-ion:0805_2012Metric_HandSolder" H 8350 2650 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 8350 2650 50  0001 C CNN
 F 4 "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 8350 2650 50  0001 C CNN "Description"
 F 5 "2019-RK73H2ATTD1002FCT-ND" H 8350 2650 50  0001 C CNN "Source Part No."
@@ -65,12 +65,12 @@ Wire Wire Line
 Wire Wire Line
 	7750 2600 7750 2950
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:C C12
+L Li-ion_LE:C C12
 U 1 1 5EBC278E
 P 5800 2400
 F 0 "C12" V 5750 2450 50  0000 L CNN
 F 1 "10uF" V 5850 2450 50  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 5838 2250 50  0001 C CNN
+F 2 "Li-ion:0805_2012Metric_HandSolder" H 5838 2250 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 5800 2400 50  0001 C CNN
 F 4 "10µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)" H 5800 2400 50  0001 C CNN "Description"
 F 5 "1276-2405-1-ND" H 5800 2400 50  0001 C CNN "Source Part No."
@@ -81,12 +81,12 @@ F 8 "Digikey" H 5800 2400 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:CP1 C11
+L Li-ion_LE:CP1 C11
 U 1 1 5EBC351E
 P 5500 2400
 F 0 "C11" V 5450 2550 50  0000 L CNN
 F 1 "470uF" V 5550 2550 50  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:UCD1E471MNL1GS" H 5500 2400 50  0001 C CNN
+F 2 "Li-ion:UCD1E471MNL1GS" H 5500 2400 50  0001 C CNN
 F 3 "https://www.nichicon.co.jp/english/products/pdfs/e-ucd.pdf" H 5500 2400 50  0001 C CNN
 F 4 "470µF 25V Aluminum Electrolytic Capacitors Radial, Can - SMD " H 5500 2400 50  0001 C CNN "Description"
 F 5 "493-6386-1-ND" H 5500 2400 50  0001 C CNN "Source Part No."
@@ -99,12 +99,12 @@ $EndComp
 Wire Wire Line
 	8350 2800 8350 2950
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:C C18
+L Li-ion_LE:C C18
 U 1 1 5EC2A03F
 P 8700 2400
 F 0 "C18" V 8650 2450 50  0000 L CNN
 F 1 "10uF" V 8750 2450 50  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 8738 2250 50  0001 C CNN
+F 2 "Li-ion:0805_2012Metric_HandSolder" H 8738 2250 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 8700 2400 50  0001 C CNN
 F 4 "10µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)" H 8700 2400 50  0001 C CNN "Description"
 F 5 "1276-2405-1-ND" H 8700 2400 50  0001 C CNN "Source Part No."
@@ -115,12 +115,12 @@ F 8 "Digikey" H 8700 2400 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:CP1 C19
+L Li-ion_LE:CP1 C19
 U 1 1 5EC30BF7
 P 9000 2400
 F 0 "C19" V 8950 2550 50  0000 L CNN
 F 1 "470uF" V 9050 2550 50  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:UCD1E471MNL1GS" H 9000 2400 50  0001 C CNN
+F 2 "Li-ion:UCD1E471MNL1GS" H 9000 2400 50  0001 C CNN
 F 3 "https://www.nichicon.co.jp/english/products/pdfs/e-ucd.pdf" H 9000 2400 50  0001 C CNN
 F 4 "470µF 25V Aluminum Electrolytic Capacitors Radial, Can - SMD " H 9000 2400 50  0001 C CNN "Description"
 F 5 "493-6386-1-ND" H 9000 2400 50  0001 C CNN "Source Part No."
@@ -141,12 +141,12 @@ Wire Wire Line
 Wire Wire Line
 	6800 2300 6800 2150
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:R R38
+L Li-ion_LE:R R38
 U 1 1 5ECFE4F0
 P 6400 2450
 F 0 "R38" V 6300 2350 59  0000 L CNN
 F 1 "51k" V 6500 2350 59  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 6400 2450 50  0001 C CNN
+F 2 "Li-ion:0805_2012Metric_HandSolder" H 6400 2450 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 6400 2450 50  0001 C CNN
 F 4 "51 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 6400 2450 50  0001 C CNN "Description"
 F 5 "2019-RK73H2ATTD5102FCT-ND" H 6400 2450 50  0001 C CNN "Source Part No."
@@ -157,12 +157,12 @@ F 8 "Digikey" H 6400 2450 50  0001 C CNN "Source"
 	0    1    1    0   
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:C C13
+L Li-ion_LE:C C13
 U 1 1 5ECFEC38
 P 6200 2650
 F 0 "C13" V 6150 2400 50  0000 L CNN
 F 1 "2.2nF" V 6250 2400 50  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 6238 2500 50  0001 C CNN
+F 2 "Li-ion:0805_2012Metric_HandSolder" H 6238 2500 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 6200 2650 50  0001 C CNN
 F 4 "2200pF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)" H 6200 2650 50  0001 C CNN "Description"
 F 5 "1276-1171-1-ND" H 6200 2650 50  0001 C CNN "Source Part No."
@@ -173,12 +173,12 @@ F 8 "Digikey" H 6200 2650 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:C C15
+L Li-ion_LE:C C15
 U 1 1 5ECFF6AE
 P 6650 2650
 F 0 "C15" V 6600 2400 50  0000 L CNN
 F 1 "47pF" V 6700 2400 50  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 6688 2500 50  0001 C CNN
+F 2 "Li-ion:0805_2012Metric_HandSolder" H 6688 2500 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 6650 2650 50  0001 C CNN
 F 4 "47pF ±5% 50V Ceramic Capacitor C0G, NP0 0805 (2012 Metric)" H 6650 2650 50  0001 C CNN "Description"
 F 5 "1276-1156-1-ND" H 6650 2650 50  0001 C CNN "Source Part No."
@@ -213,12 +213,12 @@ Connection ~ 6000 2950
 Wire Wire Line
 	6000 2950 5800 2950
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:C C14
+L Li-ion_LE:C C14
 U 1 1 5ECB2479
 P 6550 2050
 F 0 "C14" V 6500 1750 50  0000 L CNN
 F 1 "1uF" V 6600 1750 50  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 6588 1900 50  0001 C CNN
+F 2 "Li-ion:0805_2012Metric_HandSolder" H 6588 1900 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 6550 2050 50  0001 C CNN
 F 4 "1µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" H 6550 2050 50  0001 C CNN "Description"
 F 5 "1276-2931-1-ND" H 6550 2050 50  0001 C CNN "Source Part No."
@@ -262,12 +262,12 @@ Wire Wire Line
 Wire Wire Line
 	7950 2450 7950 2600
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:C C17
+L Li-ion_LE:C C17
 U 1 1 5EC8CEA1
 P 7950 2750
 F 0 "C17" V 7900 2800 50  0000 L CNN
 F 1 "10nF" V 8000 2800 50  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 7988 2600 50  0001 C CNN
+F 2 "Li-ion:0805_2012Metric_HandSolder" H 7988 2600 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 7950 2750 50  0001 C CNN
 F 4 "10000pF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)" H 7950 2750 50  0001 C CNN "Description"
 F 5 "1276-1015-1-ND" H 7950 2750 50  0001 C CNN "Source Part No."
@@ -280,12 +280,12 @@ $EndComp
 Wire Wire Line
 	7300 2750 7300 2950
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:PAM2423AECADJR U8
+L Li-ion_LE:PAM2423AECADJR U8
 U 1 1 5EB488F6
 P 7300 2350
 F 0 "U8" H 7300 2775 50  0000 C CNN
 F 1 "PAM2423AECADJR" H 7300 2684 50  0000 C CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:PAM2423AECADJR" H 7450 1900 50  0001 C CIN
+F 2 "Li-ion:PAM2423AECADJR" H 7450 1900 50  0001 C CIN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Diodes%20PDFs/PAM2421,22,23.pdf" H 7250 2350 50  0001 C CNN
 F 4 "Boost Switching Regulator IC Positive Adjustable 2.7V 1 Output 3A" H 7300 2350 50  0001 C CNN "Description"
 F 5 "PAM2421AECADJRDICT-ND" H 7300 2350 50  0001 C CNN "Source Part No."
@@ -333,12 +333,12 @@ F 3 "" H 3800 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:L L1
+L Li-ion_LE:L L1
 U 1 1 40108BB9
 P 7250 1750
 F 0 "L1" V 7300 1750 59  0000 C TNN
 F 1 "6.8uH" V 7150 1750 59  0000 C TNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:L_MGV0605" H 7250 1750 50  0001 C CNN
+F 2 "Li-ion:L_MGV0605" H 7250 1750 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Steward%20PDFs/MGV0605.pdf" H 7250 1750 50  0001 C CNN
 F 4 "6.8µH Shielded Molded Inductor 5.5A 44.6mOhm Max Nonstandard" H 7250 1750 50  0001 C CNN "Description"
 F 5 "240-2915-1-ND" H 7250 1750 50  0001 C CNN "Source Part No."
@@ -349,12 +349,12 @@ F 8 "Digikey" H 7250 1750 50  0001 C CNN "Source"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:R R40
+L Li-ion_LE:R R40
 U 1 1 3C372B7A
 P 8350 2050
 F 0 "R40" V 8250 1950 59  0000 L CNN
 F 1 "30k" V 8450 1950 59  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 8350 2050 50  0001 C CNN
+F 2 "Li-ion:0805_2012Metric_HandSolder" H 8350 2050 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 8350 2050 50  0001 C CNN
 F 4 "30 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 8350 2050 50  0001 C CNN "Description"
 F 5 "2019-RK73H2ATTD3002FCT-ND" H 8350 2050 50  0001 C CNN "Source Part No."
@@ -367,12 +367,12 @@ $EndComp
 Wire Wire Line
 	6250 2450 6200 2450
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:AP9101CK6 U5
+L Li-ion_LE:AP9101CK6 U5
 U 1 1 5EC677B4
 P 2850 1950
 F 0 "U5" H 2950 2300 50  0000 L BNN
 F 1 "AP9101CK6" H 2950 2200 50  0000 L BNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:SOT-23-6" H 2850 1950 50  0001 C CNN
+F 2 "Li-ion:SOT-23-6" H 2850 1950 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP9101C.pdf" H 2850 2000 50  0001 C CNN
 F 4 "Protection IC" H 2850 1950 50  0001 C CNN "Description"
 F 5 "AP9101CK6-AYTRG1DICT-ND" H 2850 1950 50  0001 C CNN "Source Part No."
@@ -383,12 +383,12 @@ F 8 "Digikey" H 2850 1950 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:R R32
+L Li-ion_LE:R R32
 U 1 1 5ECB2DAF
 P 3450 2150
 F 0 "R32" V 3350 2050 59  0000 L CNN
 F 1 "2.7k" V 3550 2050 59  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 3450 2150 50  0001 C CNN
+F 2 "Li-ion:0805_2012Metric_HandSolder" H 3450 2150 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 3450 2150 50  0001 C CNN
 F 4 "2.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 3450 2150 50  0001 C CNN "Description"
 F 5 "2019-RK73H2ATTD2701FCT-ND" H 3450 2150 50  0001 C CNN "Source Part No."
@@ -399,12 +399,12 @@ F 8 "Digikey" H 3450 2150 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:ECH8695R-TL-W_Gates_on_Top U6
+L Li-ion_LE:ECH8695R-TL-W_Gates_on_Top U6
 U 1 1 5ECD5ED5
 P 2850 2650
 F 0 "U6" H 2450 2350 50  0000 L CNN
 F 1 "ECH8695R-TL-W" H 2450 2250 50  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:SOT65P280X95-8N" H 2900 2100 50  0001 C CNN
+F 2 "Li-ion:SOT65P280X95-8N" H 2900 2100 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/ECH8695R-D.PDF" H 3100 2750 50  0001 L CNN
 F 4 "Mosfet Array 2 N-Channel (Dual) Common Drain 24V 11A 1.4W" H 2850 2650 50  0001 C CNN "Description"
 F 5 "ECH8695R-TL-WOSCT-ND" H 2850 2650 50  0001 C CNN "Source Part No."
@@ -434,12 +434,12 @@ Wire Wire Line
 Wire Wire Line
 	3450 2300 3450 2750
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:C C9
+L Li-ion_LE:C C9
 U 1 1 5ED1BD18
 P 1950 2200
 F 0 "C9" V 1900 2250 50  0000 L CNN
 F 1 "100nF" V 2000 2250 50  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 1988 2050 50  0001 C CNN
+F 2 "Li-ion:0805_2012Metric_HandSolder" H 1988 2050 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 1950 2200 50  0001 C CNN
 F 4 "0.1µF ±20% 50V Ceramic Capacitor X7R 0805 (2012 Metric)" H 1950 2200 50  0001 C CNN "Description"
 F 5 "1276-2450-1-ND" H 1950 2200 50  0001 C CNN "Source Part No."
@@ -480,12 +480,12 @@ F 3 "" H 5150 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:R R31
+L Li-ion_LE:R R31
 U 1 1 5EC910DA
 P 1700 1600
 F 0 "R31" V 1600 1500 59  0000 L CNN
 F 1 "330" V 1800 1500 59  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 1700 1600 50  0001 C CNN
+F 2 "Li-ion:0805_2012Metric_HandSolder" H 1700 1600 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 1700 1600 50  0001 C CNN
 F 4 "330 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 1700 1600 50  0001 C CNN "Description"
 F 5 "2019-RK73H2ATTD3300FCT-ND" H 1700 1600 50  0001 C CNN "Source Part No."
@@ -538,12 +538,12 @@ Wire Wire Line
 Wire Wire Line
 	7750 1750 7850 1750
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:D D29
+L Li-ion_LE:D D29
 U 1 1 E0548A51
 P 8000 1750
 F 0 "D29" H 7900 1900 59  0000 L TNN
 F 1 "5A 100V" H 7300 1650 59  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:DO-214AC" H 8000 1750 50  0001 C CNN
+F 2 "Li-ion:DO-214AC" H 8000 1750 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/87610/vssaf510.pdf" H 8000 1750 50  0001 C CNN
 F 4 "Diode Schottky 100V 5A Surface Mount DO-221AC (SlimSMA)" H 8000 1750 50  0001 C CNN "Description"
 F 5 "VSSAF510-M3/HGICT-ND" H 8000 1750 50  0001 C CNN "Source Part No."
@@ -570,7 +570,7 @@ Connectors
 Wire Wire Line
 	5150 1750 5500 1750
 $Comp
-L Frequently_Used:PWR_FLAG #FLG?
+L Frequently_Used_LE:PWR_FLAG #FLG?
 U 1 1 5EF92BAB
 P 3650 5250
 AR Path="/5EF92BAB" Ref="#FLG?"  Part="1" 
@@ -592,12 +592,12 @@ SWBATT-
 Wire Wire Line
 	8150 1750 8350 1750
 $Comp
-L Frequently_Used:TestPoint TP2
+L Frequently_Used_LE:TestPoint TP2
 U 1 1 5EDC8A6F
 P 7100 5350
 F 0 "TP2" H 7100 5550 50  0000 C CNN
 F 1 "TestPoint" H 7000 5100 50  0001 L CNN
-F 2 "Frequently_Used:Pad_2.5-2.5" H 7300 5350 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 7300 5350 50  0001 C CNN
 F 3 "None" H 7300 5350 50  0001 C CNN
 F 4 "BATT-" H 7100 5650 50  0000 C CNN "Name"
 F 5 "None" H 7100 5350 50  0001 C CNN "Description"
@@ -623,12 +623,12 @@ Wire Wire Line
 Wire Wire Line
 	4150 5650 4500 5650
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:R R33
+L Li-ion_LE:R R33
 U 1 1 5EDD5F2C
 P 4750 5650
 F 0 "R33" V 4850 5650 59  0000 L CNN
 F 1 "100" V 4650 5600 59  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 4750 5650 50  0001 C CNN
+F 2 "Li-ion:0805_2012Metric_HandSolder" H 4750 5650 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 4750 5650 50  0001 C CNN
 F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 4750 5650 50  0001 C CNN "Description"
 F 5 "2019-RK73H2ATTD1001FCT-ND" H 4750 5650 50  0001 C CNN "Source Part No."
@@ -639,12 +639,12 @@ F 8 "Digikey" H 4750 5650 50  0001 C CNN "Source"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Li-ion_5A_Boost_1A_Charge_Protect:R R2
+L Li-ion_LE:R R2
 U 1 1 5ED9A5CF
 P 4150 5400
 F 0 "R2" V 4050 5300 59  0000 L CNN
 F 1 "1k" V 4250 5300 59  0000 L CNN
-F 2 "Li-ion 5A Boost 1A Charge Protect:0805_2012Metric_HandSolder" H 4150 5400 50  0001 C CNN
+F 2 "Li-ion:0805_2012Metric_HandSolder" H 4150 5400 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 4150 5400 50  0001 C CNN
 F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 4150 5400 50  0001 C CNN "Description"
 F 5 "2019-RK73H2ATTD1001FCT-ND" H 4150 5400 50  0001 C CNN "Source Part No."
@@ -713,7 +713,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 4750 3650 4850
 $Comp
-L Frequently_Used:PWR_FLAG #FLG?
+L Frequently_Used_LE:PWR_FLAG #FLG?
 U 1 1 5EF92BB2
 P 3650 4750
 AR Path="/5EF92BB2" Ref="#FLG?"  Part="1" 
@@ -732,12 +732,12 @@ READY
 Text HLabel 7450 5050 2    50   Input ~ 0
 MODE
 $Comp
-L Frequently_Used:TestPoint TP8
+L Frequently_Used_LE:TestPoint TP8
 U 1 1 5EE27978
 P 6850 4750
 F 0 "TP8" H 6850 5000 50  0000 C CNN
 F 1 "TestPoint" H 6850 4470 50  0001 C CNN
-F 2 "Frequently_Used:Pad_2.5-2.5" H 7050 4750 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 7050 4750 50  0001 C CNN
 F 3 "None" H 7050 4750 50  0001 C CNN
 F 4 "READY" H 6850 4900 50  0000 C CNN "Name"
 F 5 "None" H 6845 4395 50  0001 C CNN "Source"
@@ -749,12 +749,12 @@ F 9 "None" H 6850 4750 50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:TestPoint TP10
+L Frequently_Used_LE:TestPoint TP10
 U 1 1 5EE280BF
 P 7100 4750
 F 0 "TP10" H 7100 5000 50  0000 C CNN
 F 1 "TestPoint" H 7100 4470 50  0001 C CNN
-F 2 "Frequently_Used:Pad_2.5-2.5" H 7300 4750 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 7300 4750 50  0001 C CNN
 F 3 "None" H 7300 4750 50  0001 C CNN
 F 4 "MODE" H 7100 4900 50  0000 C CNN "Name"
 F 5 "None" H 7095 4395 50  0001 C CNN "Source"
@@ -766,12 +766,12 @@ F 9 "None" H 7100 4750 50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:TestPoint TP9
+L Frequently_Used_LE:TestPoint TP9
 U 1 1 5EE28A29
 P 6850 5350
 F 0 "TP9" H 6850 5550 50  0000 C CNN
 F 1 "TestPoint" H 6850 5070 50  0001 C CNN
-F 2 "Frequently_Used:Pad_2.5-2.5" H 7050 5350 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 7050 5350 50  0001 C CNN
 F 3 "None" H 7050 5350 50  0001 C CNN
 F 4 "BATT+" H 6850 5650 50  0000 C CNN "Name"
 F 5 "None" H 6845 4995 50  0001 C CNN "Source"
@@ -783,12 +783,12 @@ F 9 "None" H 6850 5350 50  0001 C CNN "Description"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Frequently_Used:TestPoint TP11
+L Frequently_Used_LE:TestPoint TP11
 U 1 1 5EE2A864
 P 3550 2850
 F 0 "TP11" H 3550 3050 50  0000 C CNN
 F 1 "TestPoint" H 3550 2570 50  0001 C CNN
-F 2 "Frequently_Used:Pad_2.5-2.5" H 3750 2850 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 3750 2850 50  0001 C CNN
 F 3 "None" H 3750 2850 50  0001 C CNN
 F 4 "GND" H 3550 3150 50  0000 C CNN "Name"
 F 5 "None" H 3545 2495 50  0001 C CNN "Source"
@@ -800,12 +800,12 @@ F 9 "None" H 3550 2850 50  0001 C CNN "Description"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Frequently_Used:TestPoint TP7
+L Frequently_Used_LE:TestPoint TP7
 U 1 1 5EE0D761
 P 6600 4750
 F 0 "TP7" H 6600 5000 50  0000 C CNN
 F 1 "TestPoint" H 6600 4470 50  0001 C CNN
-F 2 "Frequently_Used:Pad_2.5-2.5" H 6800 4750 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 6800 4750 50  0001 C CNN
 F 3 "None" H 6800 4750 50  0001 C CNN
 F 4 "SW" H 6600 4900 50  0000 C CNN "Name"
 F 5 "None" H 6595 4395 50  0001 C CNN "Source"
@@ -839,7 +839,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 2850 3550 2750
 $Comp
-L Frequently_Used:+5V #PWR?
+L Frequently_Used_LE:+5V #PWR?
 U 1 1 5EE5FC65
 P 9500 1650
 AR Path="/5EE5FC65" Ref="#PWR?"  Part="1" 
@@ -869,12 +869,12 @@ Wire Wire Line
 Wire Wire Line
 	3650 4850 5200 4850
 $Comp
-L Frequently_Used:TestPoint TP1
+L Frequently_Used_LE:TestPoint TP1
 U 1 1 5EE9C019
 P 1700 2850
 F 0 "TP1" H 1700 3050 50  0000 C CNN
 F 1 "TestPoint" H 1600 2600 50  0001 L CNN
-F 2 "Frequently_Used:Pad_2.5-2.5" H 1900 2850 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 1900 2850 50  0001 C CNN
 F 3 "None" H 1900 2850 50  0001 C CNN
 F 4 "SWBATT-" H 1700 3150 50  0000 C CNN "Name"
 F 5 "None" H 1700 2850 50  0001 C CNN "Description"

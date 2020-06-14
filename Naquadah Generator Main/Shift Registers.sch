@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Frequently_Used:GND #PWR028
+L Frequently_Used_LE:GND #PWR028
 U 1 1 5ED2A2E7
 P 3650 4400
 F 0 "#PWR028" H 3650 4150 50  0001 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 3650 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:GND #PWR032
+L Frequently_Used_LE:GND #PWR032
 U 1 1 5ED2A2ED
 P 2400 6900
 F 0 "#PWR032" H 2400 6650 50  0001 C CNN
@@ -49,7 +49,7 @@ Wire Wire Line
 	1850 6000 2000 6000
 NoConn ~ 2800 6700
 $Comp
-L Frequently_Used:GND #PWR026
+L Frequently_Used_LE:GND #PWR026
 U 1 1 5ED2A2FE
 P 2400 4000
 F 0 "#PWR026" H 2400 3750 50  0001 C CNN
@@ -125,27 +125,27 @@ RDLT
 Text Label 8850 3400 0    50   ~ 0
 WHTLT
 Wire Wire Line
-	4050 3500 4550 3500
+	4050 3900 4550 3900
+Wire Wire Line
+	4050 3300 4550 3300
 Wire Wire Line
 	4050 3400 4550 3400
+Wire Wire Line
+	4050 3500 4550 3500
 Wire Wire Line
 	4050 3600 4550 3600
 Wire Wire Line
 	4050 3700 4550 3700
 Wire Wire Line
-	4050 3800 4550 3800
-Wire Wire Line
-	4050 3900 4550 3900
-Wire Wire Line
-	4050 3300 4550 3300
-Wire Wire Line
 	4050 4000 4550 4000
+Wire Wire Line
+	4050 3800 4550 3800
 Wire Wire Line
 	3250 3900 2400 3900
 Wire Wire Line
 	2400 3900 2400 4000
 $Comp
-L Frequently_Used:+5V #PWR027
+L Frequently_Used_LE:+5V #PWR027
 U 1 1 5ED2A354
 P 3650 3050
 F 0 "#PWR027" H 3650 2900 50  0001 C CNN
@@ -159,21 +159,21 @@ Text Label 4100 4200 0    50   ~ 0
 SR1OUT2IN
 Wire Wire Line
 	1500 5800 2000 5800
-Text Label 4100 4000 0    50   ~ 0
-SRBLUELT5
-Text Label 4100 3900 0    50   ~ 0
-SRBLUELT4
 Text Label 4100 3800 0    50   ~ 0
-SRBLUELT3
+SRBLUELT5
 Text Label 4100 3700 0    50   ~ 0
-SRBLUELT2
+SRBLUELT4
 Text Label 4100 3600 0    50   ~ 0
-SRBLUELT1
-Text Label 4100 3300 0    50   ~ 0
-SRGRNLT
-Text Label 4100 3400 0    50   ~ 0
-SRRDLT
+SRBLUELT3
 Text Label 4100 3500 0    50   ~ 0
+SRBLUELT2
+Text Label 4100 3400 0    50   ~ 0
+SRBLUELT1
+Text Label 4100 4000 0    50   ~ 0
+SRGRNLT
+Text Label 4100 3300 0    50   ~ 0
+SRRDLT
+Text Label 4100 3900 0    50   ~ 0
 SRWHTLT
 $Sheet
 S 9300 2050 500  200 
@@ -223,7 +223,7 @@ SRCLK
 Wire Wire Line
 	3650 3050 3650 3100
 $Comp
-L Frequently_Used:+5V #PWR025
+L Frequently_Used_LE:+5V #PWR025
 U 1 1 5ED69E0B
 P 2400 3500
 F 0 "#PWR025" H 2400 3350 50  0001 C CNN
@@ -244,7 +244,7 @@ SRCLK
 Text HLabel 1850 6300 0    50   Input ~ 0
 SRLATCH
 $Comp
-L Frequently_Used:GND #PWR030
+L Frequently_Used_LE:GND #PWR030
 U 1 1 5ED706AF
 P 1150 6500
 F 0 "#PWR030" H 1150 6250 50  0001 C CNN
@@ -259,7 +259,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 6400 1150 6500
 $Comp
-L Frequently_Used:+5V #PWR029
+L Frequently_Used_LE:+5V #PWR029
 U 1 1 5ED7340D
 P 1150 6000
 F 0 "#PWR029" H 1150 5850 50  0001 C CNN
@@ -274,7 +274,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 6100 2000 6100
 $Comp
-L Frequently_Used:+5V #PWR031
+L Frequently_Used_LE:+5V #PWR031
 U 1 1 5ED747C1
 P 2400 5550
 F 0 "#PWR031" H 2400 5400 50  0001 C CNN
@@ -291,10 +291,6 @@ Shift Register 2
 Text Notes 3200 4900 0    79   ~ 16
 Shift Register 1
 Wire Wire Line
-	5750 4100 6250 4100
-Wire Wire Line
-	5750 4000 6250 4000
-Wire Wire Line
 	5750 3900 6250 3900
 Wire Wire Line
 	5750 3800 6250 3800
@@ -304,6 +300,10 @@ Wire Wire Line
 	5750 3600 6250 3600
 Wire Wire Line
 	5750 3500 6250 3500
+Wire Wire Line
+	5750 4000 6250 4000
+Wire Wire Line
+	5750 3400 6250 3400
 $Comp
 L Naquadah_Generator:ULN2803ADWRG4 U4
 U 1 1 5ED3FEF3
@@ -321,25 +321,25 @@ F 8 "Digikey" H 6650 3700 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5750 3400 6250 3400
-Text Label 5750 4100 0    50   ~ 0
-SRBLUELT5
-Text Label 5750 4000 0    50   ~ 0
-SRBLUELT4
+	5750 4100 6250 4100
 Text Label 5750 3900 0    50   ~ 0
-SRBLUELT3
+SRBLUELT5
 Text Label 5750 3800 0    50   ~ 0
-SRBLUELT2
+SRBLUELT4
 Text Label 5750 3700 0    50   ~ 0
-SRBLUELT1
+SRBLUELT3
 Text Label 5750 3600 0    50   ~ 0
-SRWHTLT
+SRBLUELT2
 Text Label 5750 3500 0    50   ~ 0
-SRRDLT
+SRBLUELT1
+Text Label 5750 4000 0    50   ~ 0
+SRWHTLT
 Text Label 5750 3400 0    50   ~ 0
+SRRDLT
+Text Label 5750 4100 0    50   ~ 0
 SRGRNLT
 $Comp
-L Frequently_Used:GND #PWR0101
+L Frequently_Used_LE:GND #PWR0101
 U 1 1 5ED4DB66
 P 7150 4400
 F 0 "#PWR0101" H 7150 4150 50  0001 C CNN
@@ -386,30 +386,24 @@ F 3 "~" H 9600 3200 50  0001 C CNN
 	1    9600 3200
 	-1   0    0    1   
 $EndComp
-Text Label 7100 4100 0    50   ~ 0
-BLUELT5
-Text Label 7100 4000 0    50   ~ 0
-BLUELT4
 Text Label 7100 3900 0    50   ~ 0
-BLUELT3
+BLUELT5
 Text Label 7100 3800 0    50   ~ 0
-BLUELT2
+BLUELT4
 Text Label 7100 3700 0    50   ~ 0
-BLUELT1
-Text Label 7100 3400 0    50   ~ 0
-GRNLT
-Text Label 7100 3500 0    50   ~ 0
-RDLT
+BLUELT3
 Text Label 7100 3600 0    50   ~ 0
-WHTLT
+BLUELT2
+Text Label 7100 3500 0    50   ~ 0
+BLUELT1
+Text Label 7100 4100 0    50   ~ 0
+GRNLT
+Text Label 7100 3400 0    50   ~ 0
+RDLT
 Wire Wire Line
-	7550 3400 7050 3400
+	7550 4100 7050 4100
 Wire Wire Line
-	7050 3500 7550 3500
-Wire Wire Line
-	7050 4100 7550 4100
-Wire Wire Line
-	7050 4000 7550 4000
+	7050 3400 7550 3400
 Wire Wire Line
 	7050 3900 7550 3900
 Wire Wire Line
@@ -418,6 +412,8 @@ Wire Wire Line
 	7050 3700 7550 3700
 Wire Wire Line
 	7050 3600 7550 3600
+Wire Wire Line
+	7050 3500 7550 3500
 $Comp
 L 74xx:74HC595 U3
 U 1 1 5ED2A2E1
@@ -437,4 +433,23 @@ $EndComp
 Text Notes 6150 4900 0    79   ~ 16
 Transistor Array
 NoConn ~ 2800 5900
+Wire Wire Line
+	7050 4000 7550 4000
+Text Label 7100 4000 0    50   ~ 0
+WHTLT
+Wire Wire Line
+	7050 3200 7150 3200
+Wire Wire Line
+	7150 3200 7150 3100
+$Comp
+L Frequently_Used_LE:+5V #PWR?
+U 1 1 5EE819EA
+P 7150 3100
+F 0 "#PWR?" H 7150 2950 50  0001 C CNN
+F 1 "+5V" H 7165 3273 50  0000 C CNN
+F 2 "" H 7150 3100 50  0001 C CNN
+F 3 "" H 7150 3100 50  0001 C CNN
+	1    7150 3100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

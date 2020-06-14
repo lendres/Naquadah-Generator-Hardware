@@ -1,4 +1,4 @@
-(module Mother_Board_Vert_6_Pin_JST_Conn (layer F.Cu) (tedit 5EDE3E19)
+(module Mother_Board_Vert_6_Pin_JST_Conn (layer F.Cu) (tedit 5EE56515)
   (descr "JST SH series connector, SM06B-SRSS-TB 1.00mm vertical")
   (tags Connector)
   (attr smd)
@@ -38,7 +38,7 @@
   (pad 3 smd roundrect (at 0.5 1.65) (size 0.6 1.55) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 2 smd roundrect (at 1.5 1.65) (size 0.6 1.55) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 1 smd roundrect (at 2.5 1.65) (size 0.6 1.55) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model "S:/Thanksgiving Weasel/2018-06 Naquadah Reactor/Electronics/Hardware/Naquadah-Generator-Hardware/Libraries/packages3d/BM06B-SRSS-TB.STEP"
+  (model "$(LE3DMOD)/BM06B-SRSS-TB.STEP"
     (offset (xyz 0 0.95 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

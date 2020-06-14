@@ -37,11 +37,11 @@ X QH' 9 400 -500 100 L 50 50 1 0 O
 ENDDRAW
 ENDDEF
 #
-# Arduino_Conn_ISP
+# Arduino_LE_Conn_ISP
 #
-DEF Arduino_Conn_ISP J 0 40 Y Y 1 F N
+DEF Arduino_LE_Conn_ISP J 0 40 Y Y 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Arduino_Conn_ISP" 0 -200 50 H V C CNN
+F1 "Arduino_LE_Conn_ISP" 0 -200 50 H V C CNN
 F2 "Arduino:Connector_ISP" 0 -300 50 H I C CNN
 F3 "" 50 0 50 H I C CNN
 $FPLIST
@@ -216,11 +216,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Frequently_Used_+5V
+# Frequently_Used_LE_+5V
 #
-DEF Frequently_Used_+5V #PWR 0 0 Y Y 1 F P
+DEF Frequently_Used_LE_+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Frequently_Used_+5V" 0 140 50 H V C CNN
+F1 "Frequently_Used_LE_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -231,11 +231,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Frequently_Used_C
+# Frequently_Used_LE_C
 #
-DEF Frequently_Used_C C 0 10 N Y 1 F N
+DEF Frequently_Used_LE_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Frequently_Used_C" 25 -100 50 H V L CNN
+F1 "Frequently_Used_LE_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -249,11 +249,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Frequently_Used_Crystal
+# Frequently_Used_LE_Crystal
 #
-DEF Frequently_Used_Crystal Y 0 40 N N 1 F N
+DEF Frequently_Used_LE_Crystal Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "Frequently_Used_Crystal" 0 -150 50 H V C CNN
+F1 "Frequently_Used_LE_Crystal" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -270,11 +270,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Frequently_Used_GND
+# Frequently_Used_LE_GND
 #
-DEF Frequently_Used_GND #PWR 0 0 Y Y 1 F P
+DEF Frequently_Used_LE_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Frequently_Used_GND" 0 -150 50 H V C CNN
+F1 "Frequently_Used_LE_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -283,11 +283,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Frequently_Used_LED
+# Frequently_Used_LE_LED
 #
-DEF Frequently_Used_LED D 0 40 N N 1 F N
+DEF Frequently_Used_LE_LED D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Frequently_Used_LED" 0 -100 50 H V C CNN
+F1 "Frequently_Used_LE_LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -306,11 +306,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Frequently_Used_PWR_FLAG
+# Frequently_Used_LE_PWR_FLAG
 #
-DEF Frequently_Used_PWR_FLAG #FLG 0 0 N N 1 F P
+DEF Frequently_Used_LE_PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "Frequently_Used_PWR_FLAG" 0 150 50 H V C CNN
+F1 "Frequently_Used_LE_PWR_FLAG" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -319,11 +319,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# Frequently_Used_R
+# Frequently_Used_LE_R
 #
-DEF Frequently_Used_R R 0 0 N Y 1 F N
+DEF Frequently_Used_LE_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Frequently_Used_R" 0 0 50 V V C CNN
+F1 "Frequently_Used_LE_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -336,11 +336,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Frequently_Used_TestPoint
+# Frequently_Used_LE_TestPoint
 #
-DEF Frequently_Used_TestPoint TP 0 30 N N 1 F N
+DEF Frequently_Used_LE_TestPoint TP 0 30 N N 1 F N
 F0 "TP" 0 225 50 H V C CNN
-F1 "Frequently_Used_TestPoint" 0 -280 50 H I C CNN
+F1 "Frequently_Used_LE_TestPoint" 0 -280 50 H I C CNN
 F2 "" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 F4 "Name" 0 150 50 H V C CNN "Name"
@@ -358,11 +358,11 @@ X 1 1 0 0 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Frequently_Used_VBUS
+# Frequently_Used_LE_VBUS
 #
-DEF Frequently_Used_VBUS #PWR 0 0 Y Y 1 F P
+DEF Frequently_Used_LE_VBUS #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Frequently_Used_VBUS" 0 150 50 H V C CNN
+F1 "Frequently_Used_LE_VBUS" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -373,11 +373,11 @@ X VBUS 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Li-ion_5A_Boost_1A_Charge_Protect_AP9101CK6
+# Li-ion_LE_AP9101CK6
 #
-DEF Li-ion_5A_Boost_1A_Charge_Protect_AP9101CK6 U 0 20 Y Y 1 F N
+DEF Li-ion_LE_AP9101CK6 U 0 20 Y Y 1 F N
 F0 "U" -300 250 50 H V L CNN
-F1 "Li-ion_5A_Boost_1A_Charge_Protect_AP9101CK6" 300 250 50 H V C CNN
+F1 "Li-ion_LE_AP9101CK6" 300 250 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23-6" 0 -750 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
 $FPLIST
@@ -394,11 +394,11 @@ X VSS 6 -400 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Li-ion_5A_Boost_1A_Charge_Protect_C
+# Li-ion_LE_C
 #
-DEF Li-ion_5A_Boost_1A_Charge_Protect_C C 0 10 N Y 1 F N
+DEF Li-ion_LE_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Li-ion_5A_Boost_1A_Charge_Protect_C" 25 -100 50 H V L CNN
+F1 "Li-ion_LE_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -412,11 +412,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Li-ion_5A_Boost_1A_Charge_Protect_CP1
+# Li-ion_LE_CP1
 #
-DEF Li-ion_5A_Boost_1A_Charge_Protect_CP1 C 0 10 N N 1 F N
+DEF Li-ion_LE_CP1 C 0 10 N N 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Li-ion_5A_Boost_1A_Charge_Protect_CP1" 25 -100 50 H V L CNN
+F1 "Li-ion_LE_CP1" 25 -100 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -432,11 +432,11 @@ X ~ 2 0 -150 130 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Li-ion_5A_Boost_1A_Charge_Protect_D
+# Li-ion_LE_D
 #
-DEF Li-ion_5A_Boost_1A_Charge_Protect_D D 0 40 N N 1 F N
+DEF Li-ion_LE_D D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Li-ion_5A_Boost_1A_Charge_Protect_D" 0 -100 50 H V C CNN
+F1 "Li-ion_LE_D" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -454,11 +454,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Li-ion_5A_Boost_1A_Charge_Protect_ECH8695R-TL-W_Gates_on_Top
+# Li-ion_LE_ECH8695R-TL-W_Gates_on_Top
 #
-DEF Li-ion_5A_Boost_1A_Charge_Protect_ECH8695R-TL-W_Gates_on_Top U 0 30 Y Y 1 F N
+DEF Li-ion_LE_ECH8695R-TL-W_Gates_on_Top U 0 30 Y Y 1 F N
 F0 "U" 0 650 50 H V C CNN
-F1 "Li-ion_5A_Boost_1A_Charge_Protect_ECH8695R-TL-W_Gates_on_Top" 0 550 50 H V C CNN
+F1 "Li-ion_LE_ECH8695R-TL-W_Gates_on_Top" 0 550 50 H V C CNN
 F2 "Li-ion 5A Boost 1A Charge Protect:SOT65P280X95-8N" 50 -600 50 H I C CNN
 F3 "" 250 50 50 H I L CNN
 DRAW
@@ -474,11 +474,11 @@ X DRN 8 150 -300 100 U 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# Li-ion_5A_Boost_1A_Charge_Protect_L
+# Li-ion_LE_L
 #
-DEF Li-ion_5A_Boost_1A_Charge_Protect_L L 0 40 N N 1 F N
+DEF Li-ion_LE_L L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "Li-ion_5A_Boost_1A_Charge_Protect_L" 75 0 50 V V C CNN
+F1 "Li-ion_LE_L" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -497,11 +497,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Li-ion_5A_Boost_1A_Charge_Protect_PAM2423AECADJR
+# Li-ion_LE_PAM2423AECADJR
 #
-DEF Li-ion_5A_Boost_1A_Charge_Protect_PAM2423AECADJR U 0 20 Y Y 1 F N
+DEF Li-ion_LE_PAM2423AECADJR U 0 20 Y Y 1 F N
 F0 "U" 0 450 50 H V L CNN
-F1 "Li-ion_5A_Boost_1A_Charge_Protect_PAM2423AECADJR" 0 350 50 H V L CNN
+F1 "Li-ion_LE_PAM2423AECADJR" 0 350 50 H V L CNN
 F2 "High Power Lipo 18650 Boost Charge Protect:Boost_PAM242x" 150 -450 50 H I C CIN
 F3 "" -50 0 50 H I C CNN
 $FPLIST
@@ -521,11 +521,11 @@ X THRML 9 0 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Li-ion_5A_Boost_1A_Charge_Protect_R
+# Li-ion_LE_R
 #
-DEF Li-ion_5A_Boost_1A_Charge_Protect_R R 0 0 N Y 1 F N
+DEF Li-ion_LE_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Li-ion_5A_Boost_1A_Charge_Protect_R" 0 0 50 V V C CNN
+F1 "Li-ion_LE_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST

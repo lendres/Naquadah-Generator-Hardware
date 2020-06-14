@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name Naquadah_Generator)(type KiCad)(uri "S:/Thanksgiving Weasel/2018-06 Naquadah Reactor/Electronics/Hardware/Naquadah-Generator-Hardware/Libraries/Naquadah Generator.pretty")(options "")(descr ""))
-  (lib (name "Li-ion 5A Boost 1A Charge Protect")(type KiCad)(uri "S:/Thanksgiving Weasel/2018-06 Naquadah Reactor/Electronics/Hardware/Naquadah-Generator-Hardware/Libraries/Li-ion 5A Boost 1A Charge Protect.pretty")(options "")(descr ""))
+  (lib (name Naquadah_Generator)(type KiCad)(uri "S:/Projects and Builds/2018-06 Naquadah Generator/Electronics/Hardware/Naquadah-Generator-Hardware/Libraries/Naquadah Generator.pretty")(options "")(descr ""))
+  (lib (name Li-ion)(type KiCad)(uri S:/Engineering/Electronics/KiCad/Libraries/Footprints/Li-ion.pretty)(options "")(descr ""))
 )

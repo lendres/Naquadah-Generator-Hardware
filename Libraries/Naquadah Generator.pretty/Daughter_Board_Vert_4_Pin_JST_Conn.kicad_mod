@@ -1,4 +1,4 @@
-(module Daughter_Board_Vert_4_Pin_JST_Conn (layer F.Cu) (tedit 5EDE3E3C)
+(module Daughter_Board_Vert_4_Pin_JST_Conn (layer F.Cu) (tedit 5EE564DB)
   (descr "JST SH series connector, SM04B-SRSS-TB 1.00mm vertical")
   (fp_text reference REF** (at 0.175 -3.15) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -31,7 +31,7 @@
   (pad 4 smd roundrect (at 1.5 1.325) (size 0.6 1.55) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad MP smd roundrect (at -2.8 -1.2) (size 1.2 1.8) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad MP smd roundrect (at 2.8 -1.2) (size 1.2 1.8) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model "S:/Thanksgiving Weasel/2018-06 Naquadah Reactor/Electronics/Hardware/Naquadah-Generator-Hardware/Libraries/packages3d/BM04B-SRSS-TB-LF.STEP"
+  (model "$(LE3DMOD)/BM04B-SRSS-TB-LF.STEP"
     (offset (xyz 0 0.4 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

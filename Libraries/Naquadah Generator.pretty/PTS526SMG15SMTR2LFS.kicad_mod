@@ -1,4 +1,4 @@
-(module PTS526SMG15SMTR2LFS (layer F.Cu) (tedit 5EC524DC)
+(module PTS526SMG15SMTR2LFS (layer F.Cu) (tedit 5EE565AF)
   (descr "PTS526 SMG15 SMTR2 LFS-1")
   (tags Switch)
   (attr smd)
@@ -46,7 +46,7 @@
   (pad 4 smd rect (at 3 1.85 90) (size 0.7 1) (layers F.Cu F.Paste F.Mask))
   (pad MP1 smd rect (at 0 -2.5 90) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask))
   (pad MP2 smd rect (at 0 2.5 90) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask))
-  (model "S:/Thanksgiving Weasel/2018-06 Naquadah Reactor/Electronics/Hardware/Naquadah-Generator-Hardware/Libraries/packages3d/PTS526_SMG15_SMTR2_LFS.step"
+  (model "$(LE3DMOD)/PTS526_SMG15_SMTR2_LFS.step"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

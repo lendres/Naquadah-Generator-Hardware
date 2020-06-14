@@ -148,7 +148,7 @@ $EndComp
 Wire Wire Line
 	7400 3750 7300 3750
 $Comp
-L Frequently_Used:GND #PWR?
+L Frequently_Used_LE:GND #PWR?
 U 1 1 5EDC6BCE
 P 7950 4150
 AR Path="/5EDC6BCE" Ref="#PWR?"  Part="1" 
@@ -169,7 +169,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 3950 7950 3850
 $Comp
-L Frequently_Used:+5V #PWR?
+L Frequently_Used_LE:+5V #PWR?
 U 1 1 5EDC6BD8
 P 7950 3850
 AR Path="/5EDC6BD8" Ref="#PWR?"  Part="1" 
@@ -204,7 +204,7 @@ Wire Wire Line
 Wire Wire Line
 	9800 3750 9700 3750
 $Comp
-L Frequently_Used:GND #PWR?
+L Frequently_Used_LE:GND #PWR?
 U 1 1 5EDC6BEB
 P 10350 4150
 AR Path="/5EDC6BEB" Ref="#PWR?"  Part="1" 
@@ -225,7 +225,7 @@ Wire Wire Line
 Wire Wire Line
 	10350 3950 10350 3850
 $Comp
-L Frequently_Used:+5V #PWR?
+L Frequently_Used_LE:+5V #PWR?
 U 1 1 5EDC6BF5
 P 10350 3850
 AR Path="/5EDC6BF5" Ref="#PWR?"  Part="1" 
@@ -260,7 +260,7 @@ Sensing Board 1
 Text Notes 9200 4500 0    79   ~ 16
 Sensing Board 2
 $Comp
-L Arduino:Conn_ISP J?
+L Arduino_LE:Conn_ISP J?
 U 1 1 5EDC6C09
 P 8050 1950
 AR Path="/5EDC6C09" Ref="J?"  Part="1" 
@@ -286,7 +286,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 1950 7700 1950
 $Comp
-L Frequently_Used:GND #PWR?
+L Frequently_Used_LE:GND #PWR?
 U 1 1 5EDC6C17
 P 8800 2150
 AR Path="/5EDC6C17" Ref="#PWR?"  Part="1" 
@@ -307,7 +307,7 @@ Wire Wire Line
 Wire Wire Line
 	8800 1850 8800 1750
 $Comp
-L Frequently_Used:+5V #PWR?
+L Frequently_Used_LE:+5V #PWR?
 U 1 1 5EDC6C21
 P 8800 1750
 AR Path="/5EDC6C21" Ref="#PWR?"  Part="1" 
@@ -367,7 +367,7 @@ Connection ~ 2350 1200
 Wire Wire Line
 	2350 1200 2350 1250
 $Comp
-L Frequently_Used:VBUS #PWR0112
+L Frequently_Used_LE:VBUS #PWR0112
 U 1 1 5EDE054B
 P 2450 1100
 F 0 "#PWR0112" H 2450 950 50  0001 C CNN
@@ -391,7 +391,7 @@ Connection ~ 2350 2900
 Wire Wire Line
 	2350 2900 2350 2950
 $Comp
-L Frequently_Used:GND #PWR?
+L Frequently_Used_LE:GND #PWR?
 U 1 1 5EDE1EB1
 P 1600 4250
 AR Path="/5EDE1EB1" Ref="#PWR?"  Part="1" 
@@ -414,23 +414,23 @@ Wire Wire Line
 NoConn ~ 2200 2150
 NoConn ~ 2200 2250
 $Comp
-L Frequently_Used:R R19
+L Frequently_Used_LE:R R19
 U 1 1 5EE65B3E
 P 3250 4000
 F 0 "R19" H 3180 3954 50  0000 R CNN
 F 1 "5.1k" H 3180 4045 50  0000 R CNN
-F 2 "Frequently_Used:0805_2012Metric_HandSolder" V 3180 4000 50  0001 C CNN
+F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" V 3180 4000 50  0001 C CNN
 F 3 "" H 3250 4000 50  0001 C CNN
 	1    3250 4000
 	-1   0    0    1   
 $EndComp
 $Comp
-L Frequently_Used:R R24
+L Frequently_Used_LE:R R24
 U 1 1 5EE68FFD
 P 3600 4000
 F 0 "R24" H 3530 3954 50  0000 R CNN
 F 1 "5.1k" H 3530 4045 50  0000 R CNN
-F 2 "Frequently_Used:0805_2012Metric_HandSolder" V 3530 4000 50  0001 C CNN
+F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" V 3530 4000 50  0001 C CNN
 F 3 "" H 3600 4000 50  0001 C CNN
 	1    3600 4000
 	-1   0    0    1   
@@ -448,7 +448,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 4150 3600 4250
 $Comp
-L Frequently_Used:GND #PWR?
+L Frequently_Used_LE:GND #PWR?
 U 1 1 5EE6DEDB
 P 3250 4250
 AR Path="/5EE6DEDB" Ref="#PWR?"  Part="1" 
@@ -461,7 +461,7 @@ F 3 "" H 3250 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:GND #PWR?
+L Frequently_Used_LE:GND #PWR?
 U 1 1 5EE6E61C
 P 3600 4250
 AR Path="/5EE6E61C" Ref="#PWR?"  Part="1" 
@@ -482,12 +482,12 @@ D-
 Wire Wire Line
 	5550 2550 5700 2550
 $Comp
-L Frequently_Used:R R30
+L Frequently_Used_LE:R R30
 U 1 1 5EE7B03D
 P 5400 2550
 F 0 "R30" V 5350 2650 50  0000 L CNN
 F 1 "5.1k" V 5450 2650 50  0000 L CNN
-F 2 "Frequently_Used:0805_2012Metric_HandSolder" V 5330 2550 50  0001 C CNN
+F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" V 5330 2550 50  0001 C CNN
 F 3 "" H 5400 2550 50  0001 C CNN
 	1    5400 2550
 	0    1    1    0   
@@ -497,12 +497,12 @@ Wire Wire Line
 Wire Wire Line
 	5250 2550 5200 2550
 $Comp
-L Frequently_Used:R R29
+L Frequently_Used_LE:R R29
 U 1 1 5EE722B8
 P 5400 2300
 F 0 "R29" V 5350 2400 50  0000 L CNN
 F 1 "5.1k" V 5450 2400 50  0000 L CNN
-F 2 "Frequently_Used:0805_2012Metric_HandSolder" V 5330 2300 50  0001 C CNN
+F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" V 5330 2300 50  0001 C CNN
 F 3 "" H 5400 2300 50  0001 C CNN
 	1    5400 2300
 	0    1    1    0   
@@ -542,7 +542,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 1050 4700 950 
 $Comp
-L Frequently_Used:VBUS #PWR0116
+L Frequently_Used_LE:VBUS #PWR0116
 U 1 1 5ED508DF
 P 4700 950
 F 0 "#PWR0116" H 4700 800 50  0001 C CNN
@@ -553,7 +553,7 @@ F 3 "" H 4700 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:GND #PWR?
+L Frequently_Used_LE:GND #PWR?
 U 1 1 5ED510AF
 P 4700 1950
 AR Path="/5ED510AF" Ref="#PWR?"  Part="1" 
@@ -566,23 +566,23 @@ F 3 "" H 4700 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:C C8
+L Frequently_Used_LE:C C8
 U 1 1 5ED51CE6
 P 1600 4000
 F 0 "C8" H 1650 4100 50  0000 L CNN
 F 1 "4.7uF" H 1650 3900 50  0000 L CNN
-F 2 "Frequently_Used:0805_2012Metric_HandSolder" H 1638 3850 50  0001 C CNN
+F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" H 1638 3850 50  0001 C CNN
 F 3 "" H 1600 4000 50  0001 C CNN
 	1    1600 4000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:R R14
+L Frequently_Used_LE:R R14
 U 1 1 5ED52CB7
 P 2000 4000
 F 0 "R14" H 2070 4046 50  0000 L CNN
 F 1 "1M" H 2070 3955 50  0000 L CNN
-F 2 "Frequently_Used:0805_2012Metric_HandSolder" V 1930 4000 50  0001 C CNN
+F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" V 1930 4000 50  0001 C CNN
 F 3 "" H 2000 4000 50  0001 C CNN
 	1    2000 4000
 	1    0    0    -1  
@@ -590,7 +590,7 @@ $EndComp
 Wire Wire Line
 	2000 4150 2000 4250
 $Comp
-L Frequently_Used:GND #PWR?
+L Frequently_Used_LE:GND #PWR?
 U 1 1 5ED57050
 P 2000 4250
 AR Path="/5ED57050" Ref="#PWR?"  Part="1" 
@@ -605,7 +605,7 @@ $EndComp
 Wire Wire Line
 	2450 2900 2450 3000
 $Comp
-L Frequently_Used:GND #PWR?
+L Frequently_Used_LE:GND #PWR?
 U 1 1 5ED5A3E8
 P 2450 3000
 AR Path="/5ED5A3E8" Ref="#PWR?"  Part="1" 
@@ -685,7 +685,7 @@ F 7 "None" H 4550 4050 50  0001 C CNN "Manufacturer Part No."
 	-1   0    0    1   
 $EndComp
 $Comp
-L Frequently_Used:VBUS #PWR0120
+L Frequently_Used_LE:VBUS #PWR0120
 U 1 1 5EE6129E
 P 5150 3750
 F 0 "#PWR0120" H 5150 3600 50  0001 C CNN
@@ -696,7 +696,7 @@ F 3 "" H 5150 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:GND #PWR?
+L Frequently_Used_LE:GND #PWR?
 U 1 1 5EE62115
 P 5150 4250
 AR Path="/5EE62115" Ref="#PWR?"  Part="1" 
@@ -725,12 +725,12 @@ Wire Wire Line
 Wire Wire Line
 	5150 4150 5150 4250
 $Comp
-L Frequently_Used:TestPoint TP3
+L Frequently_Used_LE:TestPoint TP3
 U 1 1 5ED8A970
 P 7050 3650
 F 0 "TP3" H 7050 3950 50  0000 C CNN
 F 1 "TestPoint" H 6950 3400 50  0001 L CNN
-F 2 "Frequently_Used:Pad_2.5-2.5" H 7250 3650 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 7250 3650 50  0001 C CNN
 F 3 "None" H 7250 3650 50  0001 C CNN
 F 4 "HE1" H 7050 3850 50  0000 C CNN "Name"
 F 5 "None" H 7050 3650 50  0001 C CNN "Description"
@@ -742,12 +742,12 @@ F 9 "None" H 7050 3650 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:TestPoint TP4
+L Frequently_Used_LE:TestPoint TP4
 U 1 1 5ED8C4D5
 P 7300 3650
 F 0 "TP4" H 7300 3950 50  0000 C CNN
 F 1 "TestPoint" H 7200 3400 50  0001 L CNN
-F 2 "Frequently_Used:Pad_2.5-2.5" H 7500 3650 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 7500 3650 50  0001 C CNN
 F 3 "None" H 7500 3650 50  0001 C CNN
 F 4 "HE2" H 7300 3850 50  0000 C CNN "Name"
 F 5 "None" H 7300 3650 50  0001 C CNN "Description"
@@ -771,12 +771,12 @@ Connection ~ 7300 3750
 Wire Wire Line
 	7300 3750 7000 3750
 $Comp
-L Frequently_Used:TestPoint TP5
+L Frequently_Used_LE:TestPoint TP5
 U 1 1 5ED9FCBB
 P 9450 3650
 F 0 "TP5" H 9450 3950 50  0000 C CNN
 F 1 "TestPoint" H 9350 3400 50  0001 L CNN
-F 2 "Frequently_Used:Pad_2.5-2.5" H 9650 3650 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 9650 3650 50  0001 C CNN
 F 3 "None" H 9650 3650 50  0001 C CNN
 F 4 "HE1" H 9450 3850 50  0000 C CNN "Name"
 F 5 "None" H 9450 3650 50  0001 C CNN "Description"
@@ -788,12 +788,12 @@ F 9 "None" H 9450 3650 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:TestPoint TP6
+L Frequently_Used_LE:TestPoint TP6
 U 1 1 5ED9FCC2
 P 9700 3650
 F 0 "TP6" H 9700 3950 50  0000 C CNN
 F 1 "TestPoint" H 9600 3400 50  0001 L CNN
-F 2 "Frequently_Used:Pad_2.5-2.5" H 9900 3650 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 9900 3650 50  0001 C CNN
 F 3 "None" H 9900 3650 50  0001 C CNN
 F 4 "HE2" H 9700 3850 50  0000 C CNN "Name"
 F 5 "None" H 9700 3650 50  0001 C CNN "Description"
