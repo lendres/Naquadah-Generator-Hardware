@@ -661,7 +661,7 @@ AR Path="/5EDED880" Ref="J?"  Part="1"
 AR Path="/5EA6751D/5EDED880" Ref="J10"  Part="1" 
 F 0 "J10" H 6400 4750 50  0000 C CNN
 F 1 "Power Board Conn" H 6400 5350 50  0000 C CNN
-F 2 "Naquadah_Generator:Mother_Board_Vert_5_Pin_JST_Conn" H 6450 4250 50  0001 C CNN
+F 2 "Naquadah_Generator:Daughter_Board_Vert_5_Pin_JST_Conn" H 6450 4250 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 6400 5000 50  0001 C CNN
 F 4 "Connector Header Surface Mount 6 position 0.039\" (1.00mm)" H 6450 4150 50  0001 C CNN "Description"
 F 5 "JST Sales America Inc." H 6450 4450 50  0001 C CNN "Manufacturer Name"

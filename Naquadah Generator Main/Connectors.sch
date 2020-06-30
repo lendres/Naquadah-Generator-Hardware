@@ -189,7 +189,7 @@ AR Path="/5EDC6BE1" Ref="J?"  Part="1"
 AR Path="/5EDBBDC8/5EDC6BE1" Ref="J1"  Part="1" 
 F 0 "J1" H 6850 3600 50  0000 C CNN
 F 1 "State_Sensing_Conn" H 6850 4200 50  0000 C CNN
-F 2 "Naquadah_Generator:Mother_Board_Hor_4_Pin_JST_Conn" H 6850 3250 50  0001 C CNN
+F 2 "Naquadah_Generator:Daughter_Board_Hor_4_Pin_JST_Conn" H 6850 3250 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 6850 3950 50  0001 C CNN
 F 4 "455-1804-1-ND" H 6850 3550 50  0001 C CNN "Source Part No."
 F 5 "JST Sales America Inc." H 6850 3450 50  0001 C CNN "Manufacturer Name"
@@ -245,7 +245,7 @@ AR Path="/5EDC6BFE" Ref="J?"  Part="1"
 AR Path="/5EDBBDC8/5EDC6BFE" Ref="J2"  Part="1" 
 F 0 "J2" H 9250 3600 50  0000 C CNN
 F 1 "State_Sensing_Conn" H 9250 4200 50  0000 C CNN
-F 2 "Naquadah_Generator:Mother_Board_Hor_4_Pin_JST_Conn" H 9250 3250 50  0001 C CNN
+F 2 "Naquadah_Generator:Daughter_Board_Hor_4_Pin_JST_Conn" H 9250 3250 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 9250 3950 50  0001 C CNN
 F 4 "455-1804-1-ND" H 9250 3550 50  0001 C CNN "Source Part No."
 F 5 "JST Sales America Inc." H 9250 3450 50  0001 C CNN "Manufacturer Name"
@@ -338,58 +338,58 @@ HALLEFF3
 Text HLabel 9800 3850 2    50   Input ~ 0
 HALLEFF4
 $Comp
-L Connectors_LE:USB_C_Plug_USB2.0 P1
+L Connectors_LE:USB_C_Plug_2_USB2.0 P1
 U 1 1 5EDDB911
-P 1600 2050
-F 0 "P1" H 1350 3200 50  0000 L CNN
-F 1 "USB_C_Plug_USB2.0" H 1350 3100 50  0000 L CNN
-F 2 "Connectors LE:GCT_USB4110-GF-A" H 1700 1550 50  0001 C CNN
-F 3 "https://gct.co/files/drawings/usb4110.pdf" H 1700 1550 50  0001 C CNN
-F 4 "USB-C 2.0 Female SMD Connector" H 1600 2050 50  0001 C CNN "Description"
-F 5 "2073-USB4110-GF-A-1-ND" H 1600 2050 50  0001 C CNN "Source Part No."
-F 6 "GCT" H 1600 2050 50  0001 C CNN "Manufacturer Name"
-F 7 "USB4110-GF-A" H 1600 2050 50  0001 C CNN "Manufacturer Part No."
-F 8 "Digikey" H 1600 2050 50  0001 C CNN "Source"
-	1    1600 2050
+P 1700 2050
+AR Path="/5EDDB911" Ref="P1"  Part="1" 
+AR Path="/5EDBBDC8/5EDDB911" Ref="P1"  Part="1" 
+F 0 "P1" H 1450 3200 50  0000 L CNN
+F 1 "USB_C_Plug_USB2.0" H 1450 3100 50  0000 L CNN
+F 2 "Connectors_LE:2047110001" H 1800 1550 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/2047110001_sd.pdf" H 1800 1550 50  0001 C CNN
+F 4 "USB-C 2.0 Female SMD Connector" H 1700 2050 50  0001 C CNN "Description"
+F 5 "Digikey" H 1700 2050 50  0001 C CNN "Source"
+F 6 "900-2047110001CT-ND" H 1700 2050 50  0001 C CNN "Source Part No."
+F 7 "Molex" H 1700 2050 50  0001 C CNN "Manufacturer Name"
+F 8 "2047110001" H 1700 2050 50  0001 C CNN "Manufacturer Part No."
+	1    1700 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2350 1150 2200 1150
+	1050 1250 1150 1250
 Wire Wire Line
-	2350 1250 2200 1250
+	1050 1350 1150 1350
 Wire Wire Line
-	2350 1150 2350 1200
+	1050 1250 1050 1300
 Wire Wire Line
-	2350 1200 2450 1200
+	1050 1300 900  1300
 Wire Wire Line
-	2450 1200 2450 1100
-Connection ~ 2350 1200
+	900  1300 900  1200
+Connection ~ 1050 1300
 Wire Wire Line
-	2350 1200 2350 1250
+	1050 1300 1050 1350
 $Comp
 L Frequently_Used_LE:VBUS #PWR0112
 U 1 1 5EDE054B
-P 2450 1100
-F 0 "#PWR0112" H 2450 950 50  0001 C CNN
-F 1 "VBUS" H 2465 1273 50  0000 C CNN
-F 2 "" H 2450 1100 50  0001 C CNN
-F 3 "" H 2450 1100 50  0001 C CNN
-	1    2450 1100
-	1    0    0    -1  
+P 900 1200
+F 0 "#PWR0112" H 900 1050 50  0001 C CNN
+F 1 "VBUS" H 915 1373 50  0000 C CNN
+F 2 "" H 900 1200 50  0001 C CNN
+F 3 "" H 900 1200 50  0001 C CNN
+	1    900  1200
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 2850 2350 2850
+	1150 2800 1050 2800
 Wire Wire Line
-	2350 2850 2350 2900
+	1050 2800 1050 2850
 Wire Wire Line
-	2350 2950 2200 2950
-Wire Wire Line
-	2350 2900 2450 2900
+	1050 2900 1150 2900
 Wire Wire Line
 	1600 4150 1600 4250
-Connection ~ 2350 2900
+Connection ~ 1050 2850
 Wire Wire Line
-	2350 2900 2350 2950
+	1050 2850 1050 2900
 $Comp
 L Frequently_Used_LE:GND #PWR?
 U 1 1 5EDE1EB1
@@ -404,15 +404,15 @@ F 3 "" H 1600 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 1400 2350 1400
+	2200 1900 2350 1900
 Wire Wire Line
-	2350 1500 2200 1500
+	2350 2000 2200 2000
 Wire Wire Line
-	2200 1650 2350 1650
+	2200 2150 2350 2150
 Wire Wire Line
-	2350 1750 2200 1750
-NoConn ~ 2200 2150
-NoConn ~ 2200 2250
+	2350 2250 2200 2250
+NoConn ~ 2200 2900
+NoConn ~ 2200 3000
 $Comp
 L Frequently_Used_LE:R R19
 U 1 1 5EE65B3E
@@ -603,23 +603,6 @@ F 3 "" H 2000 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2450 2900 2450 3000
-$Comp
-L Frequently_Used_LE:GND #PWR?
-U 1 1 5ED5A3E8
-P 2450 3000
-AR Path="/5ED5A3E8" Ref="#PWR?"  Part="1" 
-AR Path="/5EDBBDC8/5ED5A3E8" Ref="#PWR0119"  Part="1" 
-F 0 "#PWR0119" H 2450 2750 50  0001 C CNN
-F 1 "GND" H 2450 2850 50  0000 C CNN
-F 2 "" H 2450 3000 50  0001 C CNN
-F 3 "" H 2450 3000 50  0001 C CNN
-	1    2450 3000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2200 2400 2600 2400
-Wire Wire Line
 	1350 3750 1600 3750
 Wire Wire Line
 	2000 3750 2000 3850
@@ -629,41 +612,39 @@ Connection ~ 1600 3750
 Wire Wire Line
 	1600 3750 2000 3750
 Wire Wire Line
-	2350 1400 2350 1450
+	2350 1900 2350 1950
 Wire Wire Line
-	2350 1650 2350 1700
+	2350 2150 2350 2200
 Wire Wire Line
-	2350 1450 2600 1450
-Connection ~ 2350 1450
+	2350 1950 2600 1950
+Connection ~ 2350 1950
 Wire Wire Line
-	2350 1450 2350 1500
+	2350 1950 2350 2000
 Wire Wire Line
-	2350 1700 2600 1700
-Connection ~ 2350 1700
+	2350 2200 2600 2200
+Connection ~ 2350 2200
 Wire Wire Line
-	2350 1700 2350 1750
-Text Label 2400 1450 0    50   ~ 0
+	2350 2200 2350 2250
+Text Label 2400 1950 0    50   ~ 0
 D+
-Text Label 2400 1700 0    50   ~ 0
+Text Label 2400 2200 0    50   ~ 0
 D-
 Text Label 3750 2300 0    50   ~ 0
 D+
 Text Label 3750 2550 0    50   ~ 0
 D-
 Wire Wire Line
-	2200 1900 2600 1900
+	2200 1650 2600 1650
 Wire Wire Line
-	2200 2000 2600 2000
-Text Label 2400 1900 0    50   ~ 0
+	2200 1750 2600 1750
+Text Label 2400 1650 0    50   ~ 0
 CC1
-Text Label 2400 2000 0    50   ~ 0
+Text Label 2400 1750 0    50   ~ 0
 CC2
 Text Label 3000 3650 0    50   ~ 0
 CC1
 Text Label 3000 3750 0    50   ~ 0
 CC2
-Text Label 2400 2400 0    50   ~ 0
-SHLD
 NoConn ~ 2200 2500
 NoConn ~ 2200 2600
 NoConn ~ 2200 2700
@@ -814,4 +795,79 @@ Wire Wire Line
 Connection ~ 9700 3750
 Wire Wire Line
 	9700 3750 9400 3750
+Wire Wire Line
+	1050 1250 1050 1150
+Wire Wire Line
+	1050 1150 1150 1150
+Connection ~ 1050 1250
+Wire Wire Line
+	1050 1350 1050 1450
+Wire Wire Line
+	1050 1450 1150 1450
+Connection ~ 1050 1350
+Wire Wire Line
+	1050 2800 1050 2700
+Wire Wire Line
+	1050 2700 1150 2700
+Connection ~ 1050 2800
+Wire Wire Line
+	1050 2900 1050 3000
+Wire Wire Line
+	1050 3000 1150 3000
+Connection ~ 1050 2900
+$Comp
+L Frequently_Used_LE:GND #PWR?
+U 1 1 5ED5A3E8
+P 900 2950
+AR Path="/5ED5A3E8" Ref="#PWR?"  Part="1" 
+AR Path="/5EDBBDC8/5ED5A3E8" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 900 2700 50  0001 C CNN
+F 1 "GND" H 900 2800 50  0000 C CNN
+F 2 "" H 900 2950 50  0001 C CNN
+F 3 "" H 900 2950 50  0001 C CNN
+	1    900  2950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 2850 900  2850
+Wire Wire Line
+	900  2850 900  2950
+Text Label 650  2050 0    50   ~ 0
+SHLD
+Wire Wire Line
+	650  2050 1050 2050
+Wire Wire Line
+	1150 1800 1050 1800
+Wire Wire Line
+	1050 2050 1050 2100
+Wire Wire Line
+	1050 2300 1150 2300
+Connection ~ 1050 2050
+Wire Wire Line
+	1150 2200 1050 2200
+Connection ~ 1050 2200
+Wire Wire Line
+	1050 2200 1050 2300
+Wire Wire Line
+	1150 2100 1050 2100
+Connection ~ 1050 2100
+Wire Wire Line
+	1050 2100 1050 2200
+Wire Wire Line
+	1150 2000 1050 2000
+Wire Wire Line
+	1050 1800 1050 1900
+Connection ~ 1050 2000
+Wire Wire Line
+	1050 2000 1050 2050
+Wire Wire Line
+	1150 1900 1050 1900
+Connection ~ 1050 1900
+Wire Wire Line
+	1050 1900 1050 2000
+NoConn ~ 2200 2400
+NoConn ~ 2200 1500
+NoConn ~ 2200 1400
+NoConn ~ 2200 1250
+NoConn ~ 2200 1150
 $EndSCHEMATC

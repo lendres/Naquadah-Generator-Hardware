@@ -38,16 +38,8 @@ F 3 "" H 4500 4100 50  0001 C CNN
 	1    4500 4100
 	1    0    0    -1  
 $EndComp
-Text Label 6600 3000 0    50   ~ 0
-HALLEFF4
 Wire Wire Line
 	4500 4000 4500 4100
-Text Label 6600 4000 0    50   ~ 0
-SRDATA
-Text Label 6600 3900 0    50   ~ 0
-SRCLK
-Text Label 6600 3800 0    50   ~ 0
-SRLATCH
 $Sheet
 S 3500 6850 500  400 
 U 5ED17BA0
@@ -67,27 +59,21 @@ Wire Wire Line
 	3500 7150 3100 7150
 Text Label 3100 7050 0    50   ~ 0
 SRCLK
-Text Label 6600 2700 0    50   ~ 0
-HALLEFF2
-Text Label 6600 2300 0    50   ~ 0
-HALLEFF1
-Text Label 6600 2000 0    50   ~ 0
-HALLEFF3
 Wire Wire Line
 	5250 4000 4500 4000
 Wire Wire Line
-	5250 2100 4500 2100
+	5250 2150 4500 2150
 Wire Wire Line
-	4500 2100 4500 2200
+	4500 2150 4500 2250
 $Comp
 L Frequently_Used_LE:GND #PWR016
 U 1 1 5EDBAB65
-P 4500 2200
-F 0 "#PWR016" H 4500 1950 50  0001 C CNN
-F 1 "GND" H 4500 2050 50  0000 C CNN
-F 2 "" H 4500 2200 50  0001 C CNN
-F 3 "" H 4500 2200 50  0001 C CNN
-	1    4500 2200
+P 4500 2250
+F 0 "#PWR016" H 4500 2000 50  0001 C CNN
+F 1 "GND" H 4500 2100 50  0000 C CNN
+F 2 "" H 4500 2250 50  0001 C CNN
+F 3 "" H 4500 2250 50  0001 C CNN
+	1    4500 2250
 	1    0    0    -1  
 $EndComp
 Text Label 4750 2250 0    50   ~ 0
@@ -176,7 +162,7 @@ Wire Wire Line
 	6550 3300 7050 3300
 Wire Wire Line
 	6550 2300 7050 2300
-Text Label 6600 2400 0    50   ~ 0
+Text Label 6600 1600 0    50   ~ 0
 MODESEL
 Wire Wire Line
 	5250 1600 4500 1600
@@ -492,10 +478,8 @@ Wire Wire Line
 	4750 3550 5250 3550
 Text Label 4750 3550 0    50   ~ 0
 XTAL2
-Text Label 3000 3850 0    50   ~ 0
+Text Label 3200 3850 2    50   ~ 0
 XTAL1
-Text Label 3000 4150 0    50   ~ 0
-XTAL2
 Wire Wire Line
 	2200 4000 2000 4000
 Wire Wire Line
@@ -520,8 +504,6 @@ Text Notes 3450 7600 0    79   ~ 16
 Lights
 Wire Wire Line
 	6550 1300 7050 1300
-Text Label 6600 1300 0    50   ~ 0
-MOSI
 Wire Wire Line
 	6550 1400 7050 1400
 Text Label 6600 1400 0    50   ~ 0
@@ -532,9 +514,6 @@ Text Label 6600 1200 0    50   ~ 0
 SCK
 Text Notes 1750 7550 0    79   ~ 16
 Power
-NoConn ~ 6550 1800
-NoConn ~ 6550 3500
-NoConn ~ 6550 3600
 Text Label 3100 7150 0    50   ~ 0
 SRDATA
 Text Label 5000 6450 0    50   ~ 0
@@ -688,7 +667,7 @@ TXLED
 Text Label 8600 1900 1    50   ~ 0
 RXLED
 $Comp
-L Naquadah_Generator:ATmega32U4-AU U1
+L Arduino_LE:ATmega32U4-AU U1
 U 1 1 5ED8464D
 P 5900 2600
 F 0 "U1" H 5350 1000 50  0000 L BNN
@@ -724,26 +703,18 @@ Text Label 6600 3700 0    50   ~ 0
 A3
 Text Label 6600 3300 0    50   ~ 0
 D7
-NoConn ~ 6550 2900
-NoConn ~ 6550 2100
 Wire Wire Line
 	6550 1500 7050 1500
 Text Label 6600 1500 0    50   ~ 0
 READY
 Wire Wire Line
 	6550 1600 7050 1600
-Text Label 6600 1600 0    50   ~ 0
-D9
+Text Label 6600 2400 0    50   ~ 0
+SDA
 Wire Wire Line
 	6550 1700 7050 1700
 Text Label 6600 1700 0    50   ~ 0
 D10
-Text Notes 7150 2000 0    50   ~ 0
-D5
-Text Notes 7150 2300 0    50   ~ 0
-D3/SCL
-Text Notes 7150 2400 0    50   ~ 0
-D2/SDA
 Wire Wire Line
 	6550 2500 7050 2500
 Text Label 6600 2500 0    50   ~ 0
@@ -752,30 +723,6 @@ Wire Wire Line
 	6550 2600 7050 2600
 Text Label 6600 2600 0    50   ~ 0
 TXO
-Text Notes 7150 2700 0    50   ~ 0
-D4
-Text Notes 7150 3000 0    50   ~ 0
-D6
-Text Notes 7150 4000 0    50   ~ 0
-A0
-Text Notes 7150 3900 0    50   ~ 0
-A1
-Text Notes 7150 3800 0    50   ~ 0
-A2
-Text Notes 7150 3700 0    50   ~ 0
-A3
-Text Notes 7150 3300 0    50   ~ 0
-D7
-Text Notes 7150 1500 0    50   ~ 0
-D8
-Text Notes 7150 1600 0    50   ~ 0
-D9
-Text Notes 7150 1700 0    50   ~ 0
-D10
-Text Notes 7150 2500 0    50   ~ 0
-D0/RXI
-Text Notes 7150 2600 0    50   ~ 0
-D1/TXO
 $Sheet
 S 1850 6950 550  300 
 U 5EA6751D
@@ -792,4 +739,69 @@ Wire Wire Line
 	1350 7050 1850 7050
 Text Label 1350 7050 0    50   ~ 0
 READY
+Text Label 3200 4150 2    50   ~ 0
+XTAL2
+Text Label 6600 3600 0    50   ~ 0
+HALLEFF2
+Text Label 6600 2100 0    50   ~ 0
+HALLEFF4
+Wire Wire Line
+	6550 2900 7050 2900
+Text Label 6600 2900 0    50   ~ 0
+SRLATCH
+Text Label 6600 3000 0    50   ~ 0
+SRCLK
+Text Label 6600 2700 0    50   ~ 0
+SRDATA
+Text Label 6600 2000 0    50   ~ 0
+HALLEFF3
+Text Label 6600 3500 0    50   ~ 0
+HALLEFF1
+Wire Wire Line
+	7050 3600 6550 3600
+Wire Wire Line
+	7050 3500 6550 3500
+NoConn ~ 7050 3300
+NoConn ~ 7050 3500
+NoConn ~ 7050 3600
+NoConn ~ 7050 3700
+NoConn ~ 7050 3800
+NoConn ~ 7050 3900
+NoConn ~ 7050 4000
+Wire Wire Line
+	6550 2100 7050 2100
+Wire Wire Line
+	6550 1800 7050 1800
+Text Label 6600 1300 0    50   ~ 0
+MOSI
+Text Label 6600 1800 0    50   ~ 0
+D11
+Text Label 6600 2300 0    50   ~ 0
+SCL
+Text Label 6600 3800 0    50   ~ 0
+A2
+Text Label 6600 3900 0    50   ~ 0
+A1
+Text Label 6600 4000 0    50   ~ 0
+A0
+Wire Wire Line
+	7450 2400 7950 2400
+Wire Wire Line
+	7450 2300 7950 2300
+Text Label 7500 2400 0    50   ~ 0
+SDA
+Wire Wire Line
+	7450 2500 7950 2500
+Text Label 7500 2500 0    50   ~ 0
+RXI
+Wire Wire Line
+	7450 2600 7950 2600
+Text Label 7500 2600 0    50   ~ 0
+TXO
+Text Label 7500 2300 0    50   ~ 0
+SCL
+NoConn ~ 7950 2300
+NoConn ~ 7950 2400
+NoConn ~ 7950 2500
+NoConn ~ 7950 2600
 $EndSCHEMATC
