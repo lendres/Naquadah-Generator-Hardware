@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 1 12
 Title ""
 Date ""
 Rev ""
@@ -17,8 +17,6 @@ Wire Wire Line
 	7050 4000 6550 4000
 Wire Wire Line
 	7050 3900 6550 3900
-Wire Wire Line
-	7050 3800 6550 3800
 Wire Wire Line
 	4750 2250 5250 2250
 Wire Wire Line
@@ -41,23 +39,23 @@ $EndComp
 Wire Wire Line
 	4500 4000 4500 4100
 $Sheet
-S 3500 6850 500  400 
+S 2750 6800 500  400 
 U 5ED17BA0
 F0 "Shift Registers" 50
 F1 "Shift Registers.sch" 50
-F2 "SRLATCH" I L 3500 6950 50 
-F3 "SRDATA" I L 3500 7150 50 
-F4 "SRCLK" I L 3500 7050 50 
+F2 "SRLATCH" I L 2750 6900 50 
+F3 "SRDATA" I L 2750 7100 50 
+F4 "SRCLK" I L 2750 7000 50 
 $EndSheet
 Wire Wire Line
-	3500 6950 3100 6950
-Text Label 3100 6950 0    50   ~ 0
+	2750 6900 2350 6900
+Text Label 2350 6900 0    50   ~ 0
 SRLATCH
 Wire Wire Line
-	3500 7050 3100 7050
+	2750 7000 2350 7000
 Wire Wire Line
-	3500 7150 3100 7150
-Text Label 3100 7050 0    50   ~ 0
+	2750 7100 2350 7100
+Text Label 2350 7000 0    50   ~ 0
 SRCLK
 Wire Wire Line
 	5250 4000 4500 4000
@@ -500,7 +498,7 @@ F 3 "" H 2000 4100 50  0001 C CNN
 $EndComp
 Text Notes 5500 4600 0    79   ~ 16
 ATmega34U4
-Text Notes 3450 7600 0    79   ~ 16
+Text Notes 2700 7550 0    79   ~ 16
 Lights
 Wire Wire Line
 	6550 1300 7050 1300
@@ -512,68 +510,68 @@ Wire Wire Line
 	6550 1200 7050 1200
 Text Label 6600 1200 0    50   ~ 0
 SCK
-Text Notes 1750 7550 0    79   ~ 16
+Text Notes 1100 7500 0    79   ~ 16
 Power
-Text Label 3100 7150 0    50   ~ 0
+Text Label 2350 7100 0    50   ~ 0
 SRDATA
-Text Label 5000 6450 0    50   ~ 0
+Text Label 5700 6400 0    50   ~ 0
 D+
 Wire Wire Line
-	5000 6450 5400 6450
-Text Label 5000 6550 0    50   ~ 0
+	5700 6400 6100 6400
+Text Label 5700 6500 0    50   ~ 0
 D-
 Wire Wire Line
-	5000 6550 5400 6550
-Text Notes 5250 7600 0    79   ~ 16
+	5700 6500 6100 6500
+Text Notes 5950 7550 0    79   ~ 16
 Connectors
-Text Label 5000 6000 0    50   ~ 0
+Text Label 5700 5950 0    50   ~ 0
 MISO
 Wire Wire Line
-	5000 6000 5400 6000
+	5700 5950 6100 5950
 $Sheet
-S 5400 5900 650  1350
+S 6100 5850 650  1350
 U 5EDBBDC8
 F0 "Connectors" 50
 F1 "Connectors.sch" 50
-F2 "MOSI" I L 5400 6100 50 
-F3 "MISO" I L 5400 6000 50 
-F4 "SCK" I L 5400 6200 50 
-F5 "nRESET" I L 5400 6300 50 
-F6 "HALLEFF2" I L 5400 6950 50 
-F7 "HALLEFF1" I L 5400 6850 50 
-F8 "HALLEFF3" I L 5400 7050 50 
-F9 "HALLEFF4" I L 5400 7150 50 
-F10 "D+" I L 5400 6450 50 
-F11 "D-" I L 5400 6550 50 
+F2 "MOSI" I L 6100 6050 50 
+F3 "MISO" I L 6100 5950 50 
+F4 "SCK" I L 6100 6150 50 
+F5 "nRESET" I L 6100 6250 50 
+F6 "HALLEFF2" I L 6100 6900 50 
+F7 "HALLEFF1" I L 6100 6800 50 
+F8 "HALLEFF3" I L 6100 7000 50 
+F9 "HALLEFF4" I L 6100 7100 50 
+F10 "D+" I L 6100 6400 50 
+F11 "D-" I L 6100 6500 50 
 $EndSheet
-Text Label 5000 6200 0    50   ~ 0
+Text Label 5700 6150 0    50   ~ 0
 SCK
 Wire Wire Line
-	5000 6200 5400 6200
-Text Label 5000 6100 0    50   ~ 0
+	5700 6150 6100 6150
+Text Label 5700 6050 0    50   ~ 0
 MOSI
 Wire Wire Line
-	5000 6100 5400 6100
-Text Label 5000 6300 0    50   ~ 0
+	5700 6050 6100 6050
+Text Label 5700 6250 0    50   ~ 0
 nRESET
 Wire Wire Line
-	5000 6300 5400 6300
-Text Label 5000 7150 0    50   ~ 0
+	5700 6250 6100 6250
+Text Label 5700 7100 0    50   ~ 0
 HALLEFF4
-Text Label 5000 7050 0    50   ~ 0
+Text Label 5700 7000 0    50   ~ 0
 HALLEFF3
 Wire Wire Line
-	5400 7050 5000 7050
+	6100 7000 5700 7000
 Wire Wire Line
-	5400 7150 5000 7150
-Text Label 5000 6950 0    50   ~ 0
+	6100 7100 5700 7100
+Text Label 5700 6900 0    50   ~ 0
 HALLEFF2
-Text Label 5000 6850 0    50   ~ 0
+Text Label 5700 6800 0    50   ~ 0
 HALLEFF1
 Wire Wire Line
-	5400 6850 5000 6850
+	6100 6800 5700 6800
 Wire Wire Line
-	5400 6950 5000 6950
+	6100 6900 5700 6900
 Wire Wire Line
 	8000 1400 8000 1350
 Wire Wire Line
@@ -699,8 +697,6 @@ Wire Wire Line
 	7300 3200 7300 3300
 Wire Wire Line
 	7050 3700 6550 3700
-Text Label 6600 3700 0    50   ~ 0
-A3
 Text Label 6600 3300 0    50   ~ 0
 D7
 Wire Wire Line
@@ -714,37 +710,37 @@ SDA
 Wire Wire Line
 	6550 1700 7050 1700
 Text Label 6600 1700 0    50   ~ 0
-D10
+AUDRESET
 Wire Wire Line
 	6550 2500 7050 2500
 Text Label 6600 2500 0    50   ~ 0
-RXI
+RX
 Wire Wire Line
 	6550 2600 7050 2600
 Text Label 6600 2600 0    50   ~ 0
-TXO
+TX
 $Sheet
-S 1850 6950 550  300 
+S 1200 6900 550  300 
 U 5EA6751D
 F0 "Power" 50
 F1 "Power.sch" 50
-F2 "READY" I L 1850 7050 50 
-F3 "MODE" I L 1850 7150 50 
+F2 "READY" I L 1200 7000 50 
+F3 "MODE" I L 1200 7100 50 
 $EndSheet
 Wire Wire Line
-	1350 7150 1850 7150
-Text Label 1350 7150 0    50   ~ 0
+	700  7100 1200 7100
+Text Label 700  7100 0    50   ~ 0
 MODESEL
 Wire Wire Line
-	1350 7050 1850 7050
-Text Label 1350 7050 0    50   ~ 0
+	700  7000 1200 7000
+Text Label 700  7000 0    50   ~ 0
 READY
 Text Label 3200 4150 2    50   ~ 0
 XTAL2
 Text Label 6600 3600 0    50   ~ 0
 HALLEFF2
 Text Label 6600 2100 0    50   ~ 0
-HALLEFF4
+M_RX_A_TX
 Wire Wire Line
 	6550 2900 7050 2900
 Text Label 6600 2900 0    50   ~ 0
@@ -754,19 +750,12 @@ SRCLK
 Text Label 6600 2700 0    50   ~ 0
 SRDATA
 Text Label 6600 2000 0    50   ~ 0
-HALLEFF3
+M_TX_A_RX
 Text Label 6600 3500 0    50   ~ 0
 HALLEFF1
 Wire Wire Line
 	7050 3600 6550 3600
-Wire Wire Line
-	7050 3500 6550 3500
 NoConn ~ 7050 3300
-NoConn ~ 7050 3500
-NoConn ~ 7050 3600
-NoConn ~ 7050 3700
-NoConn ~ 7050 3800
-NoConn ~ 7050 3900
 NoConn ~ 7050 4000
 Wire Wire Line
 	6550 2100 7050 2100
@@ -778,10 +767,8 @@ Text Label 6600 1800 0    50   ~ 0
 D11
 Text Label 6600 2300 0    50   ~ 0
 SCL
-Text Label 6600 3800 0    50   ~ 0
-A2
 Text Label 6600 3900 0    50   ~ 0
-A1
+BATTSENS
 Text Label 6600 4000 0    50   ~ 0
 A0
 Wire Wire Line
@@ -793,15 +780,46 @@ SDA
 Wire Wire Line
 	7450 2500 7950 2500
 Text Label 7500 2500 0    50   ~ 0
-RXI
+RX
 Wire Wire Line
 	7450 2600 7950 2600
 Text Label 7500 2600 0    50   ~ 0
-TXO
+TX
 Text Label 7500 2300 0    50   ~ 0
 SCL
 NoConn ~ 7950 2300
 NoConn ~ 7950 2400
 NoConn ~ 7950 2500
 NoConn ~ 7950 2600
+Text Label 6600 3700 0    50   ~ 0
+HALLEFF4
+Text Label 6600 3800 0    50   ~ 0
+HALLEFF3
+Wire Wire Line
+	7050 3500 6550 3500
+Wire Wire Line
+	7050 3800 6550 3800
+$Sheet
+S 4450 6800 600  400 
+U 5F06C1CA
+F0 "Audio" 50
+F1 "Audio.sch" 50
+F2 "RESET" I L 4450 6900 50 
+F3 "RX" I L 4450 7000 50 
+F4 "TX" I L 4450 7100 50 
+$EndSheet
+Text Notes 4550 7550 0    79   ~ 16
+Audio
+Wire Wire Line
+	3950 7000 4450 7000
+Text Label 3950 7100 0    50   ~ 0
+M_RX_A_TX
+Text Label 3950 7000 0    50   ~ 0
+M_TX_A_RX
+Wire Wire Line
+	3950 7100 4450 7100
+Wire Wire Line
+	3950 6900 4450 6900
+Text Label 3950 6900 0    50   ~ 0
+AUDRESET
 $EndSCHEMATC
