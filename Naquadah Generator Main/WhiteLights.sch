@@ -34,7 +34,7 @@ AR Path="/5EA46A2B/5EAB22CD" Ref="R?"  Part="1"
 AR Path="/5ED17BA0/5ED2A32C/5EAB22CD" Ref="R29"  Part="1" 
 F 0 "R29" V 4800 4350 50  0000 C CNN
 F 1 "2.7k" V 5000 4350 50  0000 C CNN
-F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" V 4830 4350 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" V 4830 4350 50  0001 C CNN
 F 3 "~" H 4900 4350 50  0001 C CNN
 	1    4900 4350
 	0    1    1    0   

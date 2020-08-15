@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name Li-ion_LE)(type Legacy)(uri "S:/Engineering/Electronics/KiCad/Libraries/Symbols/Li-ion LE.lib")(options "")(descr ""))
   (lib (name Naquadah_Generator)(type Legacy)(uri "S:/Projects and Builds/2018-06 Naquadah Generator/Electronics/Hardware/Naquadah-Generator-Hardware/Libraries/Naquadah Generator.lib")(options "")(descr ""))
 )

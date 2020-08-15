@@ -4,7 +4,7 @@ EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 11 12
-Title "Li-ion 5A Boost 1A Charge Protect"
+Title "Li-ion 3A Boost 1A Charge Protect"
 Date ""
 Rev "1.0.0"
 Comp ""
@@ -42,17 +42,18 @@ Wire Wire Line
 Wire Wire Line
 	7750 2150 7750 1750
 $Comp
-L Li-ion_LE:R R41
+L Li_Ion_LE:R R41
 U 1 1 FA6D7899
 P 8350 2650
 F 0 "R41" V 8250 2550 59  0000 L CNN
 F 1 "10k" V 8450 2550 59  0000 L CNN
-F 2 "Li-ion:0805_2012Metric_HandSolder" H 8350 2650 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 8350 2650 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 8350 2650 50  0001 C CNN
 F 4 "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 8350 2650 50  0001 C CNN "Description"
 F 5 "2019-RK73H2ATTD1002FCT-ND" H 8350 2650 50  0001 C CNN "Source Part No."
 F 6 "RK73H2ATTD1002F" H 8350 2650 50  0001 C CNN "Manufacturer Part No."
 F 7 "KOA Speer Electronics, Inc." H 8350 2650 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 8350 2650 50  0001 C CNN "Source"
 	1    8350 2650
 	1    0    0    -1  
 $EndComp
@@ -65,7 +66,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 2600 7750 2950
 $Comp
-L Li-ion_LE:C C12
+L Li_Ion_LE:C C12
 U 1 1 5EBC278E
 P 5800 2400
 F 0 "C12" V 5750 2450 50  0000 L CNN
@@ -81,7 +82,7 @@ F 8 "Digikey" H 5800 2400 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_LE:CP1 C11
+L Li_Ion_LE:CP1 C11
 U 1 1 5EBC351E
 P 5500 2400
 F 0 "C11" V 5450 2550 50  0000 L CNN
@@ -99,7 +100,7 @@ $EndComp
 Wire Wire Line
 	8350 2800 8350 2950
 $Comp
-L Li-ion_LE:C C18
+L Li_Ion_LE:C C18
 U 1 1 5EC2A03F
 P 8700 2400
 F 0 "C18" V 8650 2450 50  0000 L CNN
@@ -115,7 +116,7 @@ F 8 "Digikey" H 8700 2400 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_LE:CP1 C19
+L Li_Ion_LE:CP1 C19
 U 1 1 5EC30BF7
 P 9000 2400
 F 0 "C19" V 8950 2550 50  0000 L CNN
@@ -141,12 +142,12 @@ Wire Wire Line
 Wire Wire Line
 	6800 2300 6800 2150
 $Comp
-L Li-ion_LE:R R38
+L Li_Ion_LE:R R38
 U 1 1 5ECFE4F0
 P 6400 2450
 F 0 "R38" V 6300 2350 59  0000 L CNN
 F 1 "51k" V 6500 2350 59  0000 L CNN
-F 2 "Li-ion:0805_2012Metric_HandSolder" H 6400 2450 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 6400 2450 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 6400 2450 50  0001 C CNN
 F 4 "51 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 6400 2450 50  0001 C CNN "Description"
 F 5 "2019-RK73H2ATTD5102FCT-ND" H 6400 2450 50  0001 C CNN "Source Part No."
@@ -157,7 +158,7 @@ F 8 "Digikey" H 6400 2450 50  0001 C CNN "Source"
 	0    1    1    0   
 $EndComp
 $Comp
-L Li-ion_LE:C C13
+L Li_Ion_LE:C C13
 U 1 1 5ECFEC38
 P 6200 2650
 F 0 "C13" V 6150 2400 50  0000 L CNN
@@ -173,7 +174,7 @@ F 8 "Digikey" H 6200 2650 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_LE:C C15
+L Li_Ion_LE:C C15
 U 1 1 5ECFF6AE
 P 6650 2650
 F 0 "C15" V 6600 2400 50  0000 L CNN
@@ -213,7 +214,7 @@ Connection ~ 6000 2950
 Wire Wire Line
 	6000 2950 5800 2950
 $Comp
-L Li-ion_LE:C C14
+L Li_Ion_LE:C C14
 U 1 1 5ECB2479
 P 6550 2050
 F 0 "C14" V 6500 1750 50  0000 L CNN
@@ -262,7 +263,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 2450 7950 2600
 $Comp
-L Li-ion_LE:C C17
+L Li_Ion_LE:C C17
 U 1 1 5EC8CEA1
 P 7950 2750
 F 0 "C17" V 7900 2800 50  0000 L CNN
@@ -280,7 +281,7 @@ $EndComp
 Wire Wire Line
 	7300 2750 7300 2950
 $Comp
-L Li-ion_LE:PAM2423AECADJR U8
+L Li_Ion_LE:PAM2423AECADJR U8
 U 1 1 5EB488F6
 P 7300 2350
 F 0 "U8" H 7300 2775 50  0000 C CNN
@@ -322,18 +323,18 @@ Wire Wire Line
 Wire Wire Line
 	6850 2950 7300 2950
 $Comp
-L Frequently_Used_LE:GNDD #PWR018
+L Frequently_Used_LE:DGND #PWR018
 U 1 1 5EC5422D
 P 3800 2850
 F 0 "#PWR018" H 3800 2600 50  0001 C CNN
-F 1 "GNDD" H 3805 2677 50  0000 C CNN
+F 1 "DGND" H 3805 2677 50  0000 C CNN
 F 2 "" H 3800 2850 50  0001 C CNN
 F 3 "" H 3800 2850 50  0001 C CNN
 	1    3800 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_LE:L L1
+L Li_Ion_LE:L L1
 U 1 1 40108BB9
 P 7250 1750
 F 0 "L1" V 7300 1750 59  0000 C TNN
@@ -349,12 +350,12 @@ F 8 "Digikey" H 7250 1750 50  0001 C CNN "Source"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Li-ion_LE:R R40
+L Li_Ion_LE:R R40
 U 1 1 3C372B7A
 P 8350 2050
 F 0 "R40" V 8250 1950 59  0000 L CNN
 F 1 "30k" V 8450 1950 59  0000 L CNN
-F 2 "Li-ion:0805_2012Metric_HandSolder" H 8350 2050 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 8350 2050 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 8350 2050 50  0001 C CNN
 F 4 "30 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 8350 2050 50  0001 C CNN "Description"
 F 5 "2019-RK73H2ATTD3002FCT-ND" H 8350 2050 50  0001 C CNN "Source Part No."
@@ -367,7 +368,7 @@ $EndComp
 Wire Wire Line
 	6250 2450 6200 2450
 $Comp
-L Li-ion_LE:AP9101CK6 U5
+L Li_Ion_LE:AP9101CK6 U5
 U 1 1 5EC677B4
 P 2850 1950
 F 0 "U5" H 2950 2300 50  0000 L BNN
@@ -383,12 +384,12 @@ F 8 "Digikey" H 2850 1950 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_LE:R R32
+L Li_Ion_LE:R R32
 U 1 1 5ECB2DAF
 P 3450 2150
 F 0 "R32" V 3350 2050 59  0000 L CNN
 F 1 "2.7k" V 3550 2050 59  0000 L CNN
-F 2 "Li-ion:0805_2012Metric_HandSolder" H 3450 2150 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 3450 2150 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 3450 2150 50  0001 C CNN
 F 4 "2.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 3450 2150 50  0001 C CNN "Description"
 F 5 "2019-RK73H2ATTD2701FCT-ND" H 3450 2150 50  0001 C CNN "Source Part No."
@@ -399,7 +400,7 @@ F 8 "Digikey" H 3450 2150 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_LE:ECH8695R-TL-W_Gates_on_Top U6
+L Li_Ion_LE:ECH8695R-TL-W_Gates_on_Top U6
 U 1 1 5ECD5ED5
 P 2850 2650
 F 0 "U6" H 2450 2350 50  0000 L CNN
@@ -434,7 +435,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 2300 3450 2750
 $Comp
-L Li-ion_LE:C C9
+L Li_Ion_LE:C C9
 U 1 1 5ED1BD18
 P 1950 2200
 F 0 "C9" V 1900 2250 50  0000 L CNN
@@ -469,12 +470,12 @@ Wire Wire Line
 Wire Wire Line
 	3800 2750 3800 2850
 $Comp
-L Li-ion_LE:R R31
+L Li_Ion_LE:R R31
 U 1 1 5EC910DA
 P 1700 1600
 F 0 "R31" V 1600 1500 59  0000 L CNN
 F 1 "330" V 1800 1500 59  0000 L CNN
-F 2 "Li-ion:0805_2012Metric_HandSolder" H 1700 1600 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 1700 1600 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 1700 1600 50  0001 C CNN
 F 4 "330 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 1700 1600 50  0001 C CNN "Description"
 F 5 "2019-RK73H2ATTD3300FCT-ND" H 1700 1600 50  0001 C CNN "Source Part No."
@@ -522,7 +523,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 1750 7850 1750
 $Comp
-L Li-ion_LE:D D29
+L Li_Ion_LE:D D29
 U 1 1 E0548A51
 P 8000 1750
 F 0 "D29" H 7900 1900 59  0000 L TNN
@@ -549,29 +550,29 @@ Connection ~ 3450 2750
 Text Label 3300 1950 0    50   ~ 0
 PVM
 Connection ~ 8350 1750
-Text Notes 5000 6100 0    79   ~ 16
-Connectors
+Text Notes 6150 6000 0    79   ~ 16
+Daughter Board Connector
 Wire Wire Line
 	5150 1750 5500 1750
 $Comp
 L Frequently_Used_LE:PWR_FLAG #FLG?
 U 1 1 5EF92BAB
-P 3650 5250
+P 3050 5250
 AR Path="/5EF92BAB" Ref="#FLG?"  Part="1" 
 AR Path="/5EA6751D/5EF92BAB" Ref="#FLG02"  Part="1" 
-F 0 "#FLG02" H 3650 5325 50  0001 C CNN
-F 1 "PWR_FLAG" H 3650 5423 50  0000 C CNN
-F 2 "" H 3650 5250 50  0001 C CNN
-F 3 "~" H 3650 5250 50  0001 C CNN
-	1    3650 5250
+F 0 "#FLG02" H 3050 5325 50  0001 C CNN
+F 1 "PWR_FLAG" H 3050 5423 50  0000 C CNN
+F 2 "" H 3050 5250 50  0001 C CNN
+F 3 "~" H 3050 5250 50  0001 C CNN
+	1    3050 5250
 	-1   0    0    1   
 $EndComp
-Connection ~ 3650 5150
+Connection ~ 3050 5150
 Wire Wire Line
-	3650 5250 3650 5150
+	3050 5250 3050 5150
 Wire Wire Line
-	3550 5150 3650 5150
-Text Label 5200 5150 2    50   ~ 0
+	2950 5150 3050 5150
+Text Label 4600 5150 2    50   ~ 0
 SWBATT-
 Wire Wire Line
 	8150 1750 8350 1750
@@ -581,7 +582,7 @@ U 1 1 5EDC8A6F
 P 7100 5350
 F 0 "TP2" H 7100 5550 50  0000 C CNN
 F 1 "TestPoint" H 7000 5100 50  0001 L CNN
-F 2 "FrequentlyUsed:Pad_2.5-2.5" H 7300 5350 50  0001 C CNN
+F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 7300 5350 50  0001 C CNN
 F 3 "None" H 7300 5350 50  0001 C CNN
 F 4 "BATT-" H 7100 5650 50  0000 C CNN "Name"
 F 5 "None" H 7100 5350 50  0001 C CNN "Description"
@@ -595,46 +596,47 @@ $EndComp
 Wire Wire Line
 	7100 5350 7100 5250
 Wire Wire Line
-	4700 5150 5200 5150
+	4100 5150 4600 5150
 Wire Wire Line
-	4150 5250 4150 5150
+	3550 5250 3550 5150
 Text Label 5150 1750 0    50   ~ 0
 BATT+
 Wire Wire Line
-	4500 5650 4500 5450
+	3900 5650 3900 5450
 Wire Wire Line
-	4150 5550 4150 5650
+	3550 5550 3550 5650
 Wire Wire Line
-	4150 5650 4500 5650
+	3550 5650 3900 5650
 $Comp
-L Li-ion_LE:R R33
+L Li_Ion_LE:R R33
 U 1 1 5EDD5F2C
-P 4750 5650
-F 0 "R33" V 4850 5650 59  0000 L CNN
-F 1 "100" V 4650 5600 59  0000 L CNN
-F 2 "Li-ion:0805_2012Metric_HandSolder" H 4750 5650 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 4750 5650 50  0001 C CNN
-F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 4750 5650 50  0001 C CNN "Description"
-F 5 "2019-RK73H2ATTD1001FCT-ND" H 4750 5650 50  0001 C CNN "Source Part No."
-F 6 "RK73H2ATTD1001F" H 4750 5650 50  0001 C CNN "Manufacturer Part No."
-F 7 "KOA Speer Electronics, Inc." H 4750 5650 50  0001 C CNN "Manufacturer Name"
-F 8 "Digikey" H 4750 5650 50  0001 C CNN "Source"
-	1    4750 5650
+P 4150 5650
+F 0 "R33" V 4250 5650 59  0000 L CNN
+F 1 "100" V 4050 5600 59  0000 L CNN
+F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 4150 5650 50  0001 C CNN
+F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 4150 5650 50  0001 C CNN
+F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 4150 5650 50  0001 C CNN "Description"
+F 5 "2019-RK73H2ATTD1001FCT-ND" H 4150 5650 50  0001 C CNN "Source Part No."
+F 6 "RK73H2ATTD1001F" H 4150 5650 50  0001 C CNN "Manufacturer Part No."
+F 7 "KOA Speer Electronics, Inc." H 4150 5650 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 4150 5650 50  0001 C CNN "Source"
+	1    4150 5650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Li-ion_LE:R R2
+L Li_Ion_LE:R R2
 U 1 1 5ED9A5CF
-P 4150 5400
-F 0 "R2" V 4050 5300 59  0000 L CNN
-F 1 "1k" V 4250 5300 59  0000 L CNN
-F 2 "Li-ion:0805_2012Metric_HandSolder" H 4150 5400 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 4150 5400 50  0001 C CNN
-F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 4150 5400 50  0001 C CNN "Description"
-F 5 "2019-RK73H2ATTD1001FCT-ND" H 4150 5400 50  0001 C CNN "Source Part No."
-F 6 "RK73H2ATTD1001F" H 4150 5400 50  0001 C CNN "Manufacturer Part No."
-F 7 "KOA Speer Electronics, Inc." H 4150 5400 50  0001 C CNN "Manufacturer Name"
-	1    4150 5400
+P 3550 5400
+F 0 "R2" V 3450 5300 59  0000 L CNN
+F 1 "1k" V 3650 5300 59  0000 L CNN
+F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 3550 5400 50  0001 C CNN
+F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 3550 5400 50  0001 C CNN
+F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 3550 5400 50  0001 C CNN "Description"
+F 5 "2019-RK73H2ATTD1001FCT-ND" H 3550 5400 50  0001 C CNN "Source Part No."
+F 6 "RK73H2ATTD1001F" H 3550 5400 50  0001 C CNN "Manufacturer Part No."
+F 7 "KOA Speer Electronics, Inc." H 3550 5400 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 3550 5400 50  0001 C CNN "Source"
+	1    3550 5400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -664,49 +666,49 @@ Wire Wire Line
 Text Label 7450 4850 2    50   ~ 0
 SWITCH
 Wire Wire Line
-	4500 5650 4600 5650
-Connection ~ 4500 5650
+	3900 5650 4000 5650
+Connection ~ 3900 5650
 Wire Wire Line
-	4900 5650 5200 5650
-Text Label 5200 5650 2    50   ~ 0
+	4300 5650 4600 5650
+Text Label 4600 5650 2    50   ~ 0
 SWITCH
 Wire Wire Line
-	3550 4850 3550 4950
+	2950 4850 2950 4950
 Wire Wire Line
-	3550 5050 3550 5150
+	2950 5050 2950 5150
 Wire Wire Line
-	3350 4950 3550 4950
+	2750 4950 2950 4950
 Wire Wire Line
-	3350 5050 3550 5050
+	2750 5050 2950 5050
 $Comp
 L Connectors_LE:Power_Conn J9
 U 1 1 5EE056F1
-P 3200 5050
-F 0 "J9" H 3200 4850 50  0000 C CNN
-F 1 "Power_Conn" H 3200 5150 50  0000 C CNN
-F 2 "Naquadah_Generator:Keystone-1042" H 3200 5050 50  0001 C CNN
-F 3 "~" H 3200 5050 50  0001 C CNN
-	1    3200 5050
+P 2600 5050
+F 0 "J9" H 2600 4850 50  0000 C CNN
+F 1 "Power_Conn" H 2600 5150 50  0000 C CNN
+F 2 "Naquadah_Generator:Keystone-1042" H 2600 5050 50  0001 C CNN
+F 3 "~" H 2600 5050 50  0001 C CNN
+	1    2600 5050
 	-1   0    0    1   
 $EndComp
-Text Label 5200 4850 2    50   ~ 0
+Text Label 4600 4850 2    50   ~ 0
 BATT+
-Connection ~ 3650 4850
+Connection ~ 3050 4850
 Wire Wire Line
-	3550 4850 3650 4850
+	2950 4850 3050 4850
 Wire Wire Line
-	3650 4750 3650 4850
+	3050 4750 3050 4850
 $Comp
 L Frequently_Used_LE:PWR_FLAG #FLG?
 U 1 1 5EF92BB2
-P 3650 4750
+P 3050 4750
 AR Path="/5EF92BB2" Ref="#FLG?"  Part="1" 
 AR Path="/5EA6751D/5EF92BB2" Ref="#FLG01"  Part="1" 
-F 0 "#FLG01" H 3650 4825 50  0001 C CNN
-F 1 "PWR_FLAG" H 3650 4923 50  0000 C CNN
-F 2 "" H 3650 4750 50  0001 C CNN
-F 3 "~" H 3650 4750 50  0001 C CNN
-	1    3650 4750
+F 0 "#FLG01" H 3050 4825 50  0001 C CNN
+F 1 "PWR_FLAG" H 3050 4923 50  0000 C CNN
+F 2 "" H 3050 4750 50  0001 C CNN
+F 3 "~" H 3050 4750 50  0001 C CNN
+	1    3050 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -721,7 +723,7 @@ U 1 1 5EE27978
 P 6850 4750
 F 0 "TP8" H 6850 5000 50  0000 C CNN
 F 1 "TestPoint" H 6850 4470 50  0001 C CNN
-F 2 "FrequentlyUsed:Pad_2.5-2.5" H 7050 4750 50  0001 C CNN
+F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 7050 4750 50  0001 C CNN
 F 3 "None" H 7050 4750 50  0001 C CNN
 F 4 "READY" H 6850 4900 50  0000 C CNN "Name"
 F 5 "None" H 6845 4395 50  0001 C CNN "Source"
@@ -738,7 +740,7 @@ U 1 1 5EE280BF
 P 7100 4750
 F 0 "TP10" H 7100 5000 50  0000 C CNN
 F 1 "TestPoint" H 7100 4470 50  0001 C CNN
-F 2 "FrequentlyUsed:Pad_2.5-2.5" H 7300 4750 50  0001 C CNN
+F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 7300 4750 50  0001 C CNN
 F 3 "None" H 7300 4750 50  0001 C CNN
 F 4 "MODE" H 7100 4900 50  0000 C CNN "Name"
 F 5 "None" H 7095 4395 50  0001 C CNN "Source"
@@ -755,7 +757,7 @@ U 1 1 5EE28A29
 P 6850 5350
 F 0 "TP9" H 6850 5550 50  0000 C CNN
 F 1 "TestPoint" H 6850 5070 50  0001 C CNN
-F 2 "FrequentlyUsed:Pad_2.5-2.5" H 7050 5350 50  0001 C CNN
+F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 7050 5350 50  0001 C CNN
 F 3 "None" H 7050 5350 50  0001 C CNN
 F 4 "BATT+" H 6850 5650 50  0000 C CNN "Name"
 F 5 "None" H 6845 4995 50  0001 C CNN "Source"
@@ -772,9 +774,9 @@ U 1 1 5EE2A864
 P 3550 2850
 F 0 "TP11" H 3550 3050 50  0000 C CNN
 F 1 "TestPoint" H 3550 2570 50  0001 C CNN
-F 2 "FrequentlyUsed:Pad_2.5-2.5" H 3750 2850 50  0001 C CNN
+F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 3750 2850 50  0001 C CNN
 F 3 "None" H 3750 2850 50  0001 C CNN
-F 4 "GNDD" H 3550 3150 50  0000 C CNN "Name"
+F 4 "DGND" H 3550 3150 50  0000 C CNN "Name"
 F 5 "None" H 3545 2495 50  0001 C CNN "Source"
 F 6 "None" H 3545 2495 50  0001 C CNN "Source Part No."
 F 7 "None" H 3545 2495 50  0001 C CNN "Manufacturer Name"
@@ -789,7 +791,7 @@ U 1 1 5EE0D761
 P 6600 4750
 F 0 "TP7" H 6600 5000 50  0000 C CNN
 F 1 "TestPoint" H 6600 4470 50  0001 C CNN
-F 2 "FrequentlyUsed:Pad_2.5-2.5" H 6800 4750 50  0001 C CNN
+F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 6800 4750 50  0001 C CNN
 F 3 "None" H 6800 4750 50  0001 C CNN
 F 4 "SW" H 6600 4900 50  0000 C CNN "Name"
 F 5 "None" H 6595 4395 50  0001 C CNN "Source"
@@ -838,11 +840,11 @@ $EndComp
 Wire Wire Line
 	9500 1750 9500 1650
 $Comp
-L Frequently_Used_LE:GNDD #PWR022
+L Frequently_Used_LE:DGND #PWR022
 U 1 1 5EE6F6B6
 P 9500 3050
 F 0 "#PWR022" H 9500 2800 50  0001 C CNN
-F 1 "GNDD" H 9505 2877 50  0000 C CNN
+F 1 "DGND" H 9505 2877 50  0000 C CNN
 F 2 "" H 9500 3050 50  0001 C CNN
 F 3 "" H 9500 3050 50  0001 C CNN
 	1    9500 3050
@@ -851,14 +853,14 @@ $EndComp
 Wire Wire Line
 	9500 2950 9500 3050
 Wire Wire Line
-	3650 4850 5200 4850
+	3050 4850 4600 4850
 $Comp
 L Frequently_Used_LE:TestPoint TP1
 U 1 1 5EE9C019
 P 1700 2850
 F 0 "TP1" H 1700 3050 50  0000 C CNN
 F 1 "TestPoint" H 1600 2600 50  0001 L CNN
-F 2 "FrequentlyUsed:Pad_2.5-2.5" H 1900 2850 50  0001 C CNN
+F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 1900 2850 50  0001 C CNN
 F 3 "None" H 1900 2850 50  0001 C CNN
 F 4 "SWBATT-" H 1700 3150 50  0000 C CNN "Name"
 F 5 "None" H 1700 2850 50  0001 C CNN "Description"
@@ -880,11 +882,11 @@ Wire Wire Line
 	9000 2950 9500 2950
 Wire Wire Line
 	9000 1750 9500 1750
-Text Label 4000 5150 2    50   ~ 0
+Text Label 3400 5150 2    50   ~ 0
 BATT-
 Text Label 1300 2750 0    50   ~ 0
 SWBATT-
-Text Label 4450 5650 2    50   ~ 0
+Text Label 3850 5650 2    50   ~ 0
 SWGATE
 Text Label 2700 2300 0    50   ~ 0
 PG1
@@ -903,24 +905,26 @@ Connection ~ 7100 5250
 Wire Wire Line
 	7100 5250 7450 5250
 Wire Wire Line
-	3650 5150 4150 5150
+	3050 5150 3550 5150
 $Comp
 L Transistor_FET:BSS138 Q1
 U 1 1 5EDE9E44
-P 4500 5250
-F 0 "Q1" V 4550 5400 50  0000 L CNN
-F 1 "30V 5A" V 4450 5400 50  0000 L CNN
-F 2 "Naquadah_Generator:SOT-23_Handsoldering" H 4700 5175 50  0001 L CIN
-F 3 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 4500 5250 50  0001 L CNN
-F 4 "N-Channel 30V 5A (Ta) 1.3W (Ta) Surface Mount Micro3™/SOT-23" H 4500 5250 50  0001 C CNN "Description"
-F 5 "IRLML6344TRPBFCT-ND" H 4500 5250 50  0001 C CNN "Source Part No."
-F 6 "Infineon Technologies" H 4500 5250 50  0001 C CNN "Manufacturer Name"
-F 7 "IRLML6344TRPBF" H 4500 5250 50  0001 C CNN "Manufacturer Part No."
-F 8 "Digikey" H 4500 5250 50  0001 C CNN "Source"
-	1    4500 5250
+P 3900 5250
+F 0 "Q1" V 3950 5400 50  0000 L CNN
+F 1 "30V 5A" V 3850 5400 50  0000 L CNN
+F 2 "Naquadah_Generator:SOT-23_Handsoldering" H 4100 5175 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 3900 5250 50  0001 L CNN
+F 4 "N-Channel 30V 5A (Ta) 1.3W (Ta) Surface Mount Micro3™/SOT-23" H 3900 5250 50  0001 C CNN "Description"
+F 5 "IRLML6344TRPBFCT-ND" H 3900 5250 50  0001 C CNN "Source Part No."
+F 6 "Infineon Technologies" H 3900 5250 50  0001 C CNN "Manufacturer Name"
+F 7 "IRLML6344TRPBF" H 3900 5250 50  0001 C CNN "Manufacturer Part No."
+F 8 "Digikey" H 3900 5250 50  0001 C CNN "Source"
+	1    3900 5250
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	4300 5150 4150 5150
-Connection ~ 4150 5150
+	3700 5150 3550 5150
+Connection ~ 3550 5150
+Text Notes 2250 6000 0    79   ~ 16
+Battery Connector and Power Main Switch
 $EndSCHEMATC

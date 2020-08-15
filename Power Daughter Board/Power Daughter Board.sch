@@ -16,7 +16,7 @@ $EndDescr
 Text Notes 5300 2900 0    79   ~ 16
 Charge
 $Comp
-L Li-ion_LE:MCP73833T U1
+L Li_Ion_LE:MCP73833T U1
 U 1 1 5EB6C38E
 P 5550 1950
 F 0 "U1" H 5525 2437 60  0000 C CNN
@@ -34,7 +34,7 @@ $EndComp
 Text Label 6050 2200 0    50   ~ 0
 PROG
 $Comp
-L Li-ion_LE:LED D3
+L Li_Ion_LE:LED D3
 U 1 1 5EBA8419
 P 3600 1900
 F 0 "D3" H 3500 2000 50  0000 L CNN
@@ -50,7 +50,7 @@ F 8 "150080VS75000" H 3600 1900 50  0001 C CNN "Manufacturer Part No."
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Li-ion_LE:LED D4
+L Li_Ion_LE:LED D4
 U 1 1 5EBA883B
 P 3950 1900
 F 0 "D4" H 3850 2000 50  0000 L CNN
@@ -66,7 +66,7 @@ F 8 "150080RS75000" H 3950 1900 50  0001 C CNN "Manufacturer Part No."
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Li-ion_LE:R R4
+L Li_Ion_LE:R R4
 U 1 1 5EBD0C80
 P 4600 2050
 F 0 "R4" V 4500 1950 59  0000 L CNN
@@ -90,7 +90,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 2350 3250 2050
 $Comp
-L Li-ion_LE:R R3
+L Li_Ion_LE:R R3
 U 1 1 5EBEA227
 P 4250 2200
 F 0 "R3" V 4150 2100 59  0000 L CNN
@@ -106,7 +106,7 @@ F 8 "RK73H2ATTD1001F" H 4250 2200 50  0001 C CNN "Manufacturer Part No."
 	0    1    1    0   
 $EndComp
 $Comp
-L Li-ion_LE:R R2
+L Li_Ion_LE:R R2
 U 1 1 5EBF1B19
 P 3900 2350
 F 0 "R2" V 3800 2250 59  0000 L CNN
@@ -156,7 +156,7 @@ Connection ~ 7300 2600
 Wire Wire Line
 	6000 1750 6050 1750
 $Comp
-L Li-ion_LE:R R6
+L Li_Ion_LE:R R6
 U 1 1 5EB9EAAB
 P 6600 2050
 F 0 "R6" V 6500 1950 59  0000 L CNN
@@ -176,7 +176,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 2200 4100 2200
 $Comp
-L Li-ion_LE:C C2
+L Li_Ion_LE:C C2
 U 1 1 5EB4A5BF
 P 7700 2050
 F 0 "C2" V 7650 2100 50  0000 L CNN
@@ -192,7 +192,7 @@ F 8 "CL21A226KQCLRNC" H 7700 2050 50  0001 C CNN "Manufacturer Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_LE:C C1
+L Li_Ion_LE:C C1
 U 1 1 5EB4C1AB
 P 2850 2050
 F 0 "C1" V 2800 2100 50  0000 L CNN
@@ -216,7 +216,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 1750 2850 1900
 $Comp
-L Li-ion_LE:GND #PWR02
+L Li_Ion_LE:GND #PWR02
 U 1 1 5EB673E3
 P 6950 2650
 F 0 "#PWR02" H 6950 2400 50  0001 C CNN
@@ -232,7 +232,7 @@ Connection ~ 6950 2600
 Wire Wire Line
 	6950 2600 7300 2600
 $Comp
-L Li-ion_LE:GND #PWR01
+L Li_Ion_LE:GND #PWR01
 U 1 1 5EB6C4AE
 P 2850 2250
 F 0 "#PWR01" H 2850 2000 50  0001 C CNN
@@ -259,7 +259,7 @@ Connection ~ 7700 1750
 Wire Wire Line
 	7700 1750 8150 1750
 $Comp
-L Li-ion_LE:Thermistor_NTC TH1
+L Li_Ion_LE:Thermistor_NTC TH1
 U 1 1 5EBC49A8
 P 7300 2400
 F 0 "TH1" V 7150 2300 50  0000 L BNN
@@ -275,7 +275,7 @@ F 8 "NTCG203NH103JT1" H 7300 2400 50  0001 C CNN "Manufacturer Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_LE:R R8
+L Li_Ion_LE:R R8
 U 1 1 5EB60D47
 P 6400 2400
 F 0 "R8" V 6300 2300 59  0000 L CNN
@@ -291,7 +291,7 @@ F 8 "RK73H2ATTD1001F" H 6400 2400 50  0001 C CNN "Manufacturer Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Li-ion_LE:R R7
+L Li_Ion_LE:R R7
 U 1 1 5EBB9C41
 P 6850 2400
 F 0 "R7" V 6750 2300 59  0000 L CNN
@@ -331,7 +331,7 @@ Wire Wire Line
 Text Notes 9000 5400 0    79   ~ 16
 Charging Connector
 $Comp
-L Li-ion_LE:LED D2
+L Li_Ion_LE:LED D2
 U 1 1 5EBA65E2
 P 3250 1900
 F 0 "D2" H 3150 2000 50  0000 L CNN
@@ -399,7 +399,7 @@ Wire Wire Line
 Text Label 4600 5050 2    50   ~ 0
 SWITCH
 $Comp
-L Li-ion_LE:LED D1
+L Li_Ion_LE:LED D1
 U 1 1 5EDBD7E3
 P 2550 4750
 F 0 "D1" H 2450 4850 50  0000 L CNN
@@ -417,7 +417,7 @@ $EndComp
 Wire Wire Line
 	2550 4600 2550 4300
 $Comp
-L Li-ion_LE:R R1
+L Li_Ion_LE:R R1
 U 1 1 5EDBD7F9
 P 2550 4150
 F 0 "R1" V 2450 4050 59  0000 L CNN
@@ -462,7 +462,7 @@ U 1 1 5EDDCA36
 P 7700 4300
 F 0 "TP1" H 7700 4600 50  0000 C CNN
 F 1 "TestPoint" H 7600 4050 50  0001 L CNN
-F 2 "FrequentlyUsed:Pad_2.5-2.5" H 7900 4300 50  0001 C CNN
+F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 7900 4300 50  0001 C CNN
 F 3 "None" H 7900 4300 50  0001 C CNN
 F 4 "READY" H 7700 4500 50  0000 C CNN "Name"
 F 5 "Test point" H 7700 4300 50  0001 C CNN "Description"
@@ -481,7 +481,7 @@ U 1 1 5EDDF908
 P 7950 4300
 F 0 "TP2" H 7950 4600 50  0000 C CNN
 F 1 "TestPoint" H 7850 4050 50  0001 L CNN
-F 2 "FrequentlyUsed:Pad_2.5-2.5" H 8150 4300 50  0001 C CNN
+F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 8150 4300 50  0001 C CNN
 F 3 "None" H 8150 4300 50  0001 C CNN
 F 4 "MODE" H 7950 4500 50  0000 C CNN "Name"
 F 5 "Test point" H 7950 4300 50  0001 C CNN "Description"
@@ -498,7 +498,7 @@ U 1 1 5EDE12B6
 P 7700 4900
 F 0 "TP3" H 7700 5200 50  0000 C CNN
 F 1 "TestPoint" H 7600 4650 50  0001 L CNN
-F 2 "FrequentlyUsed:Pad_2.5-2.5" H 7900 4900 50  0001 C CNN
+F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 7900 4900 50  0001 C CNN
 F 3 "None" H 7900 4900 50  0001 C CNN
 F 4 "BATT+" H 7700 5100 50  0000 C CNN "Name"
 F 5 "Test point" H 7700 4900 50  0001 C CNN "Description"
@@ -579,7 +579,7 @@ U 1 1 5ED845DB
 P 7950 4900
 F 0 "TP4" H 7950 5200 50  0000 C CNN
 F 1 "TestPoint" H 7850 4650 50  0001 L CNN
-F 2 "FrequentlyUsed:Pad_2.5-2.5" H 8150 4900 50  0001 C CNN
+F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 8150 4900 50  0001 C CNN
 F 3 "None" H 8150 4900 50  0001 C CNN
 F 4 "GND" H 7950 5100 50  0000 C CNN "Name"
 F 5 "Test point" H 7950 4900 50  0001 C CNN "Description"
@@ -596,7 +596,7 @@ Connection ~ 7950 4800
 Wire Wire Line
 	7950 4800 8450 4800
 $Comp
-L Li-ion_LE:LED D5
+L Li_Ion_LE:LED D5
 U 1 1 5ED9610C
 P 1200 4750
 F 0 "D5" H 1100 4850 50  0000 L CNN
@@ -614,7 +614,7 @@ $EndComp
 Wire Wire Line
 	1200 4600 1200 4300
 $Comp
-L Li-ion_LE:R R5
+L Li_Ion_LE:R R5
 U 1 1 5ED96117
 P 1200 4150
 F 0 "R5" V 1100 4050 59  0000 L CNN
@@ -856,7 +856,7 @@ U 1 1 5EDF054D
 P 7450 4300
 F 0 "TP5" H 7450 4600 50  0000 C CNN
 F 1 "TestPoint" H 7350 4050 50  0001 L CNN
-F 2 "FrequentlyUsed:Pad_2.5-2.5" H 7650 4300 50  0001 C CNN
+F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 7650 4300 50  0001 C CNN
 F 3 "None" H 7650 4300 50  0001 C CNN
 F 4 "SW" H 7450 4500 50  0000 C CNN "Name"
 F 5 "Test point" H 7450 4300 50  0001 C CNN "Description"

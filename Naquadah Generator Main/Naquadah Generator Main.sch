@@ -53,11 +53,11 @@ Wire Wire Line
 Wire Wire Line
 	4500 2150 4500 2250
 $Comp
-L Frequently_Used_LE:GNDD #PWR016
+L Frequently_Used_LE:DGND #PWR016
 U 1 1 5EDBAB65
 P 4500 2250
 F 0 "#PWR016" H 4500 2000 50  0001 C CNN
-F 1 "GNDD" H 4500 2100 50  0000 C CNN
+F 1 "DGND" H 4500 2100 50  0000 C CNN
 F 2 "" H 4500 2250 50  0001 C CNN
 F 3 "" H 4500 2250 50  0001 C CNN
 	1    4500 2250
@@ -68,65 +68,65 @@ UCAP
 $Comp
 L Frequently_Used_LE:C C3
 U 1 1 5EDC471D
-P 2450 4150
-F 0 "C3" V 2500 4100 50  0000 R CNN
-F 1 "18pF" V 2500 4200 50  0000 L CNN
-F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" H 2488 4000 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" H 2450 4150 50  0001 C CNN
-F 4 "399-1052-1-ND" H 2450 4150 50  0001 C CNN "Source Part No."
-F 5 "Kemet" H 2450 4150 50  0001 C CNN "Manufacturer Name"
-F 6 "C0603C180J5GACTU" H 2450 4150 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 2450 4150 50  0001 C CNN "Source"
-	1    2450 4150
+P 2600 3650
+F 0 "C3" V 2650 3600 50  0000 R CNN
+F 1 "18pF" V 2650 3700 50  0000 L CNN
+F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 2638 3500 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" H 2600 3650 50  0001 C CNN
+F 4 "399-1052-1-ND" H 2600 3650 50  0001 C CNN "Source Part No."
+F 5 "Kemet" H 2600 3650 50  0001 C CNN "Manufacturer Name"
+F 6 "C0603C180J5GACTU" H 2600 3650 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 2600 3650 50  0001 C CNN "Source"
+	1    2600 3650
 	0    1    1    0   
 $EndComp
 $Comp
 L Frequently_Used_LE:C C2
 U 1 1 5EDC72C2
-P 2450 3850
-F 0 "C2" V 2400 3800 50  0000 R CNN
-F 1 "18pF" V 2400 3900 50  0000 L CNN
-F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" H 2488 3700 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" H 2450 3850 50  0001 C CNN
-F 4 "399-1052-1-ND" H 2450 3850 50  0001 C CNN "Source Part No."
-F 5 "Kemet" H 2450 3850 50  0001 C CNN "Manufacturer Name"
-F 6 "C0603C180J5GACTU" H 2450 3850 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 2450 3850 50  0001 C CNN "Source"
-	1    2450 3850
+P 2600 3350
+F 0 "C2" V 2550 3300 50  0000 R CNN
+F 1 "18pF" V 2550 3400 50  0000 L CNN
+F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 2638 3200 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" H 2600 3350 50  0001 C CNN
+F 4 "399-1052-1-ND" H 2600 3350 50  0001 C CNN "Source Part No."
+F 5 "Kemet" H 2600 3350 50  0001 C CNN "Manufacturer Name"
+F 6 "C0603C180J5GACTU" H 2600 3350 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 2600 3350 50  0001 C CNN "Source"
+	1    2600 3350
 	0    1    1    0   
 $EndComp
 $Comp
 L Frequently_Used_LE:Crystal Y1
 U 1 1 5EDC870C
-P 2750 4000
-F 0 "Y1" H 2750 3850 50  0000 C CNN
-F 1 "16MHz" H 2750 4150 50  0000 C CNN
-F 2 "Naquadah_Generator:Oscillator_ABM3-16.000MHZ-B2-T" H 2750 4000 50  0001 C CNN
-F 3 "https://abracon.com/Resonators/abm3.pdf" H 2750 4000 50  0001 C CNN
-F 4 "535-9103-1-ND" H 2750 4000 50  0001 C CNN "Source Part No."
-F 5 "Abracon " H 2750 4000 50  0001 C CNN "Manufacturer Name"
-F 6 "ABM3-16.000MHZ-B2-T" H 2750 4000 50  0001 C CNN "Manufacturer Part No."
-F 7 "Abracon LLC" H 2750 4000 50  0001 C CNN "Description"
-F 8 "Digikey" H 2750 4000 50  0001 C CNN "Source"
-	1    2750 4000
+P 2900 3500
+F 0 "Y1" H 2900 3350 50  0000 C CNN
+F 1 "16MHz" H 2900 3650 50  0000 C CNN
+F 2 "Naquadah_Generator:Oscillator_ABM3-16.000MHZ-B2-T" H 2900 3500 50  0001 C CNN
+F 3 "https://abracon.com/Resonators/abm3.pdf" H 2900 3500 50  0001 C CNN
+F 4 "535-9103-1-ND" H 2900 3500 50  0001 C CNN "Source Part No."
+F 5 "Abracon " H 2900 3500 50  0001 C CNN "Manufacturer Name"
+F 6 "ABM3-16.000MHZ-B2-T" H 2900 3500 50  0001 C CNN "Manufacturer Part No."
+F 7 "Abracon LLC" H 2900 3500 50  0001 C CNN "Description"
+F 8 "Digikey" H 2900 3500 50  0001 C CNN "Source"
+	1    2900 3500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2600 3850 2750 3850
-Connection ~ 2750 3850
+	2750 3350 2900 3350
+Connection ~ 2900 3350
 Wire Wire Line
-	2750 3850 3200 3850
+	2900 3350 3350 3350
 Wire Wire Line
-	2600 4150 2750 4150
-Connection ~ 2750 4150
+	2750 3650 2900 3650
+Connection ~ 2900 3650
 Wire Wire Line
-	2750 4150 3200 4150
+	2900 3650 3350 3650
 Wire Wire Line
-	2300 4150 2200 4150
+	2450 3650 2350 3650
 Wire Wire Line
-	2200 4150 2200 4000
+	2350 3650 2350 3500
 Wire Wire Line
-	2200 3850 2300 3850
+	2350 3350 2450 3350
 Wire Wire Line
 	4750 2700 5250 2700
 Text Label 4750 2700 0    50   ~ 0
@@ -190,233 +190,238 @@ $EndComp
 $Comp
 L Frequently_Used_LE:+5V #PWR010
 U 1 1 5EE3F918
-P 3650 1000
-F 0 "#PWR010" H 3650 850 50  0001 C CNN
-F 1 "+5V" H 3665 1173 50  0000 C CNN
-F 2 "" H 3650 1000 50  0001 C CNN
-F 3 "" H 3650 1000 50  0001 C CNN
-	1    3650 1000
+P 3050 1000
+F 0 "#PWR010" H 3050 850 50  0001 C CNN
+F 1 "+5V" H 3065 1173 50  0000 C CNN
+F 2 "" H 3050 1000 50  0001 C CNN
+F 3 "" H 3050 1000 50  0001 C CNN
+	1    3050 1000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used_LE:GNDD #PWR011
+L Frequently_Used_LE:DGND #PWR011
 U 1 1 5EE3FE38
-P 3650 1500
-F 0 "#PWR011" H 3650 1250 50  0001 C CNN
-F 1 "GNDD" H 3650 1350 50  0000 C CNN
-F 2 "" H 3650 1500 50  0001 C CNN
-F 3 "" H 3650 1500 50  0001 C CNN
-	1    3650 1500
+P 3050 1500
+F 0 "#PWR011" H 3050 1250 50  0001 C CNN
+F 1 "DGND" H 3050 1350 50  0000 C CNN
+F 2 "" H 3050 1500 50  0001 C CNN
+F 3 "" H 3050 1500 50  0001 C CNN
+	1    3050 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Frequently_Used_LE:C C7
 U 1 1 5EE403A0
-P 3650 1250
-F 0 "C7" H 3700 1350 50  0000 L CNN
-F 1 "0.1uF" H 3700 1150 50  0000 L CNN
-F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" H 3688 1100 50  0001 C CNN
-F 3 "~" H 3650 1250 50  0001 C CNN
-	1    3650 1250
+P 3050 1250
+F 0 "C7" H 3100 1350 50  0000 L CNN
+F 1 "0.1uF" H 3100 1150 50  0000 L CNN
+F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 3088 1100 50  0001 C CNN
+F 3 "~" H 3050 1250 50  0001 C CNN
+	1    3050 1250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 1400 3650 1500
+	3050 1400 3050 1500
 Wire Wire Line
-	3650 1000 3650 1100
+	3050 1000 3050 1100
 $Comp
 L Frequently_Used_LE:+5V #PWR08
 U 1 1 5EE46087
-P 3150 1000
-F 0 "#PWR08" H 3150 850 50  0001 C CNN
-F 1 "+5V" H 3165 1173 50  0000 C CNN
-F 2 "" H 3150 1000 50  0001 C CNN
-F 3 "" H 3150 1000 50  0001 C CNN
-	1    3150 1000
+P 2550 1000
+F 0 "#PWR08" H 2550 850 50  0001 C CNN
+F 1 "+5V" H 2565 1173 50  0000 C CNN
+F 2 "" H 2550 1000 50  0001 C CNN
+F 3 "" H 2550 1000 50  0001 C CNN
+	1    2550 1000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used_LE:GNDD #PWR09
+L Frequently_Used_LE:DGND #PWR09
 U 1 1 5EE4608D
-P 3150 1500
-F 0 "#PWR09" H 3150 1250 50  0001 C CNN
-F 1 "GNDD" H 3150 1350 50  0000 C CNN
-F 2 "" H 3150 1500 50  0001 C CNN
-F 3 "" H 3150 1500 50  0001 C CNN
-	1    3150 1500
+P 2550 1500
+F 0 "#PWR09" H 2550 1250 50  0001 C CNN
+F 1 "DGND" H 2550 1350 50  0000 C CNN
+F 2 "" H 2550 1500 50  0001 C CNN
+F 3 "" H 2550 1500 50  0001 C CNN
+	1    2550 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Frequently_Used_LE:C C6
 U 1 1 5EE46093
-P 3150 1250
-F 0 "C6" H 3200 1350 50  0000 L CNN
-F 1 "1.0uF" H 3200 1150 50  0000 L CNN
-F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" H 3188 1100 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 3150 1250 50  0001 C CNN
-F 4 "1µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" H 3150 1250 50  0001 C CNN "Description"
-F 5 "1276-2931-1-ND" H 3150 1250 50  0001 C CNN "Source Part No."
-F 6 "Samsung Electro-Mechanics" H 3150 1250 50  0001 C CNN "Manufacturer Name"
-F 7 "CL21B105KOFNNWE" H 3150 1250 50  0001 C CNN "Manufacturer Part No."
-F 8 "Digikey" H 3150 1250 50  0001 C CNN "Source"
-	1    3150 1250
+P 2550 1250
+F 0 "C6" H 2600 1350 50  0000 L CNN
+F 1 "1.0uF" H 2600 1150 50  0000 L CNN
+F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 2588 1100 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 2550 1250 50  0001 C CNN
+F 4 "1µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" H 2550 1250 50  0001 C CNN "Description"
+F 5 "1276-2931-1-ND" H 2550 1250 50  0001 C CNN "Source Part No."
+F 6 "Samsung Electro-Mechanics" H 2550 1250 50  0001 C CNN "Manufacturer Name"
+F 7 "CL21B105KOFNNWE" H 2550 1250 50  0001 C CNN "Manufacturer Part No."
+F 8 "Digikey" H 2550 1250 50  0001 C CNN "Source"
+	1    2550 1250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 1400 3150 1500
+	2550 1400 2550 1500
 Wire Wire Line
-	3150 1000 3150 1100
+	2550 1000 2550 1100
 $Comp
-L Frequently_Used_LE:GNDD #PWR07
+L Frequently_Used_LE:DGND #PWR07
 U 1 1 5EE499D3
-P 2650 1500
-F 0 "#PWR07" H 2650 1250 50  0001 C CNN
-F 1 "GNDD" H 2650 1350 50  0000 C CNN
-F 2 "" H 2650 1500 50  0001 C CNN
-F 3 "" H 2650 1500 50  0001 C CNN
-	1    2650 1500
+P 2050 1500
+F 0 "#PWR07" H 2050 1250 50  0001 C CNN
+F 1 "DGND" H 2050 1350 50  0000 C CNN
+F 2 "" H 2050 1500 50  0001 C CNN
+F 3 "" H 2050 1500 50  0001 C CNN
+	1    2050 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Frequently_Used_LE:C C5
 U 1 1 5EE499D9
-P 2650 1250
-F 0 "C5" H 2700 1350 50  0000 L CNN
-F 1 "1.0uF" H 2700 1150 50  0000 L CNN
-F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" H 2688 1100 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 2650 1250 50  0001 C CNN
-F 4 "1µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" H 2650 1250 50  0001 C CNN "Description"
-F 5 "1276-2931-1-ND" H 2650 1250 50  0001 C CNN "Source Part No."
-F 6 "Samsung Electro-Mechanics" H 2650 1250 50  0001 C CNN "Manufacturer Name"
-F 7 "CL21B105KOFNNWE" H 2650 1250 50  0001 C CNN "Manufacturer Part No."
-F 8 "Digikey" H 2650 1250 50  0001 C CNN "Source"
-	1    2650 1250
+P 2050 1250
+F 0 "C5" H 2100 1350 50  0000 L CNN
+F 1 "1.0uF" H 2100 1150 50  0000 L CNN
+F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 2088 1100 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 2050 1250 50  0001 C CNN
+F 4 "1µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" H 2050 1250 50  0001 C CNN "Description"
+F 5 "1276-2931-1-ND" H 2050 1250 50  0001 C CNN "Source Part No."
+F 6 "Samsung Electro-Mechanics" H 2050 1250 50  0001 C CNN "Manufacturer Name"
+F 7 "CL21B105KOFNNWE" H 2050 1250 50  0001 C CNN "Manufacturer Part No."
+F 8 "Digikey" H 2050 1250 50  0001 C CNN "Source"
+	1    2050 1250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 1400 2650 1500
+	2050 1400 2050 1500
 Wire Wire Line
-	2650 900  2650 1100
+	2050 900  2050 1100
 $Comp
-L Frequently_Used_LE:GNDD #PWR03
+L Frequently_Used_LE:DGND #PWR03
 U 1 1 5EE4D88E
-P 1650 1500
-F 0 "#PWR03" H 1650 1250 50  0001 C CNN
-F 1 "GNDD" H 1650 1350 50  0000 C CNN
-F 2 "" H 1650 1500 50  0001 C CNN
-F 3 "" H 1650 1500 50  0001 C CNN
-	1    1650 1500
+P 1050 1500
+F 0 "#PWR03" H 1050 1250 50  0001 C CNN
+F 1 "DGND" H 1050 1350 50  0000 C CNN
+F 2 "" H 1050 1500 50  0001 C CNN
+F 3 "" H 1050 1500 50  0001 C CNN
+	1    1050 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 1400 1650 1500
+	1050 1400 1050 1500
 Wire Wire Line
-	1650 1000 1650 1100
+	1050 1000 1050 1100
 $Comp
 L Frequently_Used_LE:VBUS #PWR02
 U 1 1 5EE4F542
-P 1650 1000
-F 0 "#PWR02" H 1650 850 50  0001 C CNN
-F 1 "VBUS" H 1650 1150 50  0000 C CNN
-F 2 "" H 1650 1000 50  0001 C CNN
-F 3 "" H 1650 1000 50  0001 C CNN
-	1    1650 1000
+P 1050 1000
+F 0 "#PWR02" H 1050 850 50  0001 C CNN
+F 1 "VBUS" H 1050 1150 50  0000 C CNN
+F 2 "" H 1050 1000 50  0001 C CNN
+F 3 "" H 1050 1000 50  0001 C CNN
+	1    1050 1000
 	1    0    0    -1  
 $EndComp
-Text Label 2650 900  3    50   ~ 0
+Text Label 2050 900  3    50   ~ 0
 UCAP
 $Comp
-L Frequently_Used_LE:GNDD #PWR06
+L Frequently_Used_LE:DGND #PWR06
 U 1 1 5EE53061
-P 2150 1500
-F 0 "#PWR06" H 2150 1250 50  0001 C CNN
-F 1 "GNDD" H 2150 1350 50  0000 C CNN
-F 2 "" H 2150 1500 50  0001 C CNN
-F 3 "" H 2150 1500 50  0001 C CNN
-	1    2150 1500
+P 1550 1500
+F 0 "#PWR06" H 1550 1250 50  0001 C CNN
+F 1 "DGND" H 1550 1350 50  0000 C CNN
+F 2 "" H 1550 1500 50  0001 C CNN
+F 3 "" H 1550 1500 50  0001 C CNN
+	1    1550 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 1400 2150 1500
+	1550 1400 1550 1500
 Wire Wire Line
-	2150 900  2150 1100
-Text Label 2150 900  3    50   ~ 0
+	1550 900  1550 1100
+Text Label 1550 900  3    50   ~ 0
 AREF
 Wire Wire Line
 	4750 2500 5250 2500
 Text Label 4750 2500 0    50   ~ 0
 nRESET
 Wire Wire Line
-	2650 2650 3150 2650
-Text Label 3150 2650 2    50   ~ 0
+	1150 3000 1650 3000
+Text Label 1650 3000 2    50   ~ 0
 nRESET
 $Comp
 L Frequently_Used_LE:R R1
 U 1 1 5EE7AB0D
-P 2650 2450
-F 0 "R1" V 2550 2450 50  0000 C CNN
-F 1 "10k" V 2750 2450 50  0000 C CNN
-F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" V 2580 2450 50  0001 C CNN
-F 3 "~" H 2650 2450 50  0001 C CNN
-	1    2650 2450
+P 1150 2800
+F 0 "R1" V 1050 2800 50  0000 C CNN
+F 1 "10k" V 1250 2800 50  0000 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" V 1080 2800 50  0001 C CNN
+F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 1150 2800 50  0001 C CNN
+F 4 "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) " H 1150 2800 50  0001 C CNN "Description"
+F 5 "KOA Speer Electronics, Inc." H 1150 2800 50  0001 C CNN "Manufacturer Name"
+F 6 "RK73H2ATTD1002F" H 1150 2800 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 1150 2800 50  0001 C CNN "Source"
+F 8 "2019-RK73H2ATTD1002FCT-ND" H 1150 2800 50  0001 C CNN "Source Part No."
+	1    1150 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Frequently_Used_LE:+5V #PWR04
 U 1 1 5EE7B8E3
-P 2650 2200
-F 0 "#PWR04" H 2650 2050 50  0001 C CNN
-F 1 "+5V" H 2665 2373 50  0000 C CNN
-F 2 "" H 2650 2200 50  0001 C CNN
-F 3 "" H 2650 2200 50  0001 C CNN
-	1    2650 2200
+P 1150 2550
+F 0 "#PWR04" H 1150 2400 50  0001 C CNN
+F 1 "+5V" H 1165 2723 50  0000 C CNN
+F 2 "" H 1150 2550 50  0001 C CNN
+F 3 "" H 1150 2550 50  0001 C CNN
+	1    1150 2550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 2200 2650 2300
+	1150 2550 1150 2650
 Wire Wire Line
-	2650 2600 2650 2650
+	1150 2950 1150 3000
 Wire Wire Line
-	2650 2750 2650 2650
-Connection ~ 2650 2650
+	1150 3100 1150 3000
+Connection ~ 1150 3000
 $Comp
-L Frequently_Used_LE:GNDD #PWR05
+L Frequently_Used_LE:DGND #PWR05
 U 1 1 5EE8456D
-P 2650 3250
-F 0 "#PWR05" H 2650 3000 50  0001 C CNN
-F 1 "GNDD" H 2650 3100 50  0000 C CNN
-F 2 "" H 2650 3250 50  0001 C CNN
-F 3 "" H 2650 3250 50  0001 C CNN
-	1    2650 3250
+P 1150 3600
+F 0 "#PWR05" H 1150 3350 50  0001 C CNN
+F 1 "DGND" H 1150 3450 50  0000 C CNN
+F 2 "" H 1150 3600 50  0001 C CNN
+F 3 "" H 1150 3600 50  0001 C CNN
+	1    1150 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 3150 2650 3250
+	1150 3500 1150 3600
 $Comp
 L Naquadah_Generator:PTS526_SMG15 SW1
 U 1 1 5EC5AE9D
-P 2550 2950
-F 0 "SW1" V 2650 3300 50  0000 R CNN
-F 1 "RESET" V 2450 3300 50  0000 R CNN
-F 2 "Naquadah_Generator:PTS526SMG15SMTR2LFS_Hand_Solder" H 2550 3150 50  0001 C CNN
-F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS526/documents/datasheet.pdf" H 2550 3150 50  0001 C CNN
-F 4 "CKN12220-1-ND" H 2550 2950 50  0001 C CNN "Source Part No."
-F 5 "C&K" H 2550 2950 50  0001 C CNN "Manufacturer Name"
-F 6 "PTS526 SM15 SMTR2 LFS" H 2550 2950 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 2550 2950 50  0001 C CNN "Source"
-	1    2550 2950
+P 1050 3300
+F 0 "SW1" V 1150 3650 50  0000 R CNN
+F 1 "RESET" V 950 3650 50  0000 R CNN
+F 2 "Naquadah_Generator:PTS526SMG15SMTR2LFS_Hand_Solder" H 1050 3500 50  0001 C CNN
+F 3 "https://dznh3ojzb2azq.cloudfront.net/products/Tactile/PTS526/documents/datasheet.pdf" H 1050 3500 50  0001 C CNN
+F 4 "CKN12220-1-ND" H 1050 3300 50  0001 C CNN "Source Part No."
+F 5 "C&K" H 1050 3300 50  0001 C CNN "Manufacturer Name"
+F 6 "PTS526 SM15 SMTR2 LFS" H 1050 3300 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 1050 3300 50  0001 C CNN "Source"
+	1    1050 3300
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2550 2750 2650 2750
-Connection ~ 2650 2750
+	1050 3100 1150 3100
+Connection ~ 1150 3100
 Wire Wire Line
-	2650 2750 2750 2750
+	1150 3100 1250 3100
 Wire Wire Line
-	2550 3150 2650 3150
-Connection ~ 2650 3150
+	1050 3500 1150 3500
+Connection ~ 1150 3500
 Wire Wire Line
-	2650 3150 2750 3150
+	1150 3500 1250 3500
 Wire Wire Line
 	6550 2800 7050 2800
 Text Label 6600 2800 0    50   ~ 0
@@ -428,33 +433,33 @@ RXLED
 $Comp
 L Frequently_Used_LE:C C1
 U 1 1 5EE4D894
-P 1650 1250
-F 0 "C1" H 1700 1350 50  0000 L CNN
-F 1 "1.0uF" H 1700 1150 50  0000 L CNN
-F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" H 1688 1100 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 1650 1250 50  0001 C CNN
-F 4 "1µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" H 1650 1250 50  0001 C CNN "Description"
-F 5 "1276-2931-1-ND" H 1650 1250 50  0001 C CNN "Source Part No."
-F 6 "Samsung Electro-Mechanics" H 1650 1250 50  0001 C CNN "Manufacturer Name"
-F 7 "CL21B105KOFNNWE" H 1650 1250 50  0001 C CNN "Manufacturer Part No."
-F 8 "Digikey" H 1650 1250 50  0001 C CNN "Source"
-	1    1650 1250
+P 1050 1250
+F 0 "C1" H 1100 1350 50  0000 L CNN
+F 1 "1.0uF" H 1100 1150 50  0000 L CNN
+F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 1088 1100 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 1050 1250 50  0001 C CNN
+F 4 "1µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" H 1050 1250 50  0001 C CNN "Description"
+F 5 "1276-2931-1-ND" H 1050 1250 50  0001 C CNN "Source Part No."
+F 6 "Samsung Electro-Mechanics" H 1050 1250 50  0001 C CNN "Manufacturer Name"
+F 7 "CL21B105KOFNNWE" H 1050 1250 50  0001 C CNN "Manufacturer Part No."
+F 8 "Digikey" H 1050 1250 50  0001 C CNN "Source"
+	1    1050 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Frequently_Used_LE:C C4
 U 1 1 5EE53067
-P 2150 1250
-F 0 "C4" H 2200 1350 50  0000 L CNN
-F 1 "1.0uF" H 2200 1150 50  0000 L CNN
-F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" H 2188 1100 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 2150 1250 50  0001 C CNN
-F 4 "1µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" H 2150 1250 50  0001 C CNN "Description"
-F 5 "1276-2931-1-ND" H 2150 1250 50  0001 C CNN "Source Part No."
-F 6 "Samsung Electro-Mechanics" H 2150 1250 50  0001 C CNN "Manufacturer Name"
-F 7 "CL21B105KOFNNWE" H 2150 1250 50  0001 C CNN "Manufacturer Part No."
-F 8 "Digikey" H 2150 1250 50  0001 C CNN "Source"
-	1    2150 1250
+P 1550 1250
+F 0 "C4" H 1600 1350 50  0000 L CNN
+F 1 "1.0uF" H 1600 1150 50  0000 L CNN
+F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 1588 1100 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 1550 1250 50  0001 C CNN
+F 4 "1µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" H 1550 1250 50  0001 C CNN "Description"
+F 5 "1276-2931-1-ND" H 1550 1250 50  0001 C CNN "Source Part No."
+F 6 "Samsung Electro-Mechanics" H 1550 1250 50  0001 C CNN "Manufacturer Name"
+F 7 "CL21B105KOFNNWE" H 1550 1250 50  0001 C CNN "Manufacturer Part No."
+F 8 "Digikey" H 1550 1250 50  0001 C CNN "Source"
+	1    1550 1250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -465,24 +470,24 @@ Wire Wire Line
 	4750 3550 5250 3550
 Text Label 4750 3550 0    50   ~ 0
 XTAL2
-Text Label 3200 3850 2    50   ~ 0
+Text Label 3350 3350 2    50   ~ 0
 XTAL1
 Wire Wire Line
-	2200 4000 2000 4000
+	2350 3500 2150 3500
 Wire Wire Line
-	2000 4000 2000 4100
-Connection ~ 2200 4000
+	2150 3500 2150 3600
+Connection ~ 2350 3500
 Wire Wire Line
-	2200 4000 2200 3850
+	2350 3500 2350 3350
 $Comp
-L Frequently_Used_LE:GNDD #PWR01
+L Frequently_Used_LE:DGND #PWR01
 U 1 1 5ECBCDF9
-P 2000 4100
-F 0 "#PWR01" H 2000 3850 50  0001 C CNN
-F 1 "GNDD" H 2000 3950 50  0000 C CNN
-F 2 "" H 2000 4100 50  0001 C CNN
-F 3 "" H 2000 4100 50  0001 C CNN
-	1    2000 4100
+P 2150 3600
+F 0 "#PWR01" H 2150 3350 50  0001 C CNN
+F 1 "DGND" H 2150 3450 50  0000 C CNN
+F 2 "" H 2150 3600 50  0001 C CNN
+F 3 "" H 2150 3600 50  0001 C CNN
+	1    2150 3600
 	1    0    0    -1  
 $EndComp
 Text Notes 5500 4600 0    79   ~ 16
@@ -499,7 +504,7 @@ Wire Wire Line
 	6550 1200 7050 1200
 Text Label 6600 1200 0    50   ~ 0
 SCK
-Text Notes 1100 7500 0    79   ~ 16
+Text Notes 1200 7500 0    79   ~ 16
 Power
 Text Label 2350 7100 0    50   ~ 0
 SRDATA
@@ -562,96 +567,106 @@ Wire Wire Line
 Wire Wire Line
 	6100 6900 5700 6900
 Wire Wire Line
-	8000 1400 8000 1350
+	9850 1650 9850 1600
 Wire Wire Line
-	8000 1700 8000 1900
+	9850 1950 9850 2150
 Wire Wire Line
-	8000 1050 8000 1000
+	9850 1300 9850 1250
 $Comp
 L Frequently_Used_LE:+5V #PWR0103
 U 1 1 5EDE6C2F
-P 8000 1000
-F 0 "#PWR0103" H 8000 850 50  0001 C CNN
-F 1 "+5V" H 8015 1173 50  0000 C CNN
-F 2 "" H 8000 1000 50  0001 C CNN
-F 3 "" H 8000 1000 50  0001 C CNN
-	1    8000 1000
+P 9850 1250
+F 0 "#PWR0103" H 9850 1100 50  0001 C CNN
+F 1 "+5V" H 9865 1423 50  0000 C CNN
+F 2 "" H 9850 1250 50  0001 C CNN
+F 3 "" H 9850 1250 50  0001 C CNN
+	1    9850 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Frequently_Used_LE:R R4
 U 1 1 5EDE0168
-P 8000 1550
-F 0 "R4" V 7900 1550 50  0000 C CNN
-F 1 "1k" V 8100 1550 50  0000 C CNN
-F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" V 7930 1550 50  0001 C CNN
-F 3 "~" H 8000 1550 50  0001 C CNN
-	1    8000 1550
+P 9850 1800
+F 0 "R4" V 9750 1800 50  0000 C CNN
+F 1 "1k" V 9950 1800 50  0000 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" V 9780 1800 50  0001 C CNN
+F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 9850 1800 50  0001 C CNN
+F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 9850 1800 50  0001 C CNN "Description"
+F 5 "KOA Speer Electronics, Inc." H 9850 1800 50  0001 C CNN "Manufacturer Name"
+F 6 "RK73H2ATTD1001F" H 9850 1800 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 9850 1800 50  0001 C CNN "Source"
+F 8 "2019-RK73H2ATTD1001FCT-ND" H 9850 1800 50  0001 C CNN "Source Part No."
+	1    9850 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Frequently_Used_LE:LED D23
 U 1 1 5EDE016E
-P 8000 1200
-F 0 "D23" H 8000 1100 50  0000 C CNN
-F 1 "GREEN" H 8000 1300 50  0000 C CNN
-F 2 "FrequentlyUsed:LED_0805_2012Metric_HandSolder" H 8000 1200 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 8000 1200 50  0001 C CNN
-F 4 "Green 570nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 8000 1200 50  0001 C CNN "Description"
-F 5 "732-4986-1-ND" H 8000 1200 50  0001 C CNN "Source Part No."
-F 6 "Würth Elektronik" H 8000 1200 50  0001 C CNN "Manufacturer Name"
-F 7 "150080VS75000" H 8000 1200 50  0001 C CNN "Manufacturer Part No."
-F 8 "Digikey" H 8000 1200 50  0001 C CNN "Source"
-	1    8000 1200
+P 9850 1450
+F 0 "D23" H 9850 1350 50  0000 C CNN
+F 1 "GREEN" H 9850 1550 50  0000 C CNN
+F 2 "Frequently_Used_LE:LED_0805_2012Metric_HandSolder" H 9850 1450 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 9850 1450 50  0001 C CNN
+F 4 "Green 570nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 9850 1450 50  0001 C CNN "Description"
+F 5 "732-4986-1-ND" H 9850 1450 50  0001 C CNN "Source Part No."
+F 6 "Würth Elektronik" H 9850 1450 50  0001 C CNN "Manufacturer Name"
+F 7 "150080VS75000" H 9850 1450 50  0001 C CNN "Manufacturer Part No."
+F 8 "Digikey" H 9850 1450 50  0001 C CNN "Source"
+	1    9850 1450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8600 1400 8600 1350
+	10450 1650 10450 1600
 Wire Wire Line
-	8600 1700 8600 1900
+	10450 1950 10450 2150
 Wire Wire Line
-	8600 1050 8600 1000
+	10450 1300 10450 1250
 $Comp
 L Frequently_Used_LE:+5V #PWR0104
 U 1 1 5EDF2F7E
-P 8600 1000
-F 0 "#PWR0104" H 8600 850 50  0001 C CNN
-F 1 "+5V" H 8615 1173 50  0000 C CNN
-F 2 "" H 8600 1000 50  0001 C CNN
-F 3 "" H 8600 1000 50  0001 C CNN
-	1    8600 1000
+P 10450 1250
+F 0 "#PWR0104" H 10450 1100 50  0001 C CNN
+F 1 "+5V" H 10465 1423 50  0000 C CNN
+F 2 "" H 10450 1250 50  0001 C CNN
+F 3 "" H 10450 1250 50  0001 C CNN
+	1    10450 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Frequently_Used_LE:R R9
 U 1 1 5EDF2F84
-P 8600 1550
-F 0 "R9" V 8500 1550 50  0000 C CNN
-F 1 "1k" V 8700 1550 50  0000 C CNN
-F 2 "FrequentlyUsed:0805_2012Metric_HandSolder" V 8530 1550 50  0001 C CNN
-F 3 "~" H 8600 1550 50  0001 C CNN
-	1    8600 1550
+P 10450 1800
+F 0 "R9" V 10350 1800 50  0000 C CNN
+F 1 "1k" V 10550 1800 50  0000 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" V 10380 1800 50  0001 C CNN
+F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 10450 1800 50  0001 C CNN
+F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 10450 1800 50  0001 C CNN "Description"
+F 5 "KOA Speer Electronics, Inc." H 10450 1800 50  0001 C CNN "Manufacturer Name"
+F 6 "RK73H2ATTD1001F" H 10450 1800 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 10450 1800 50  0001 C CNN "Source"
+F 8 "2019-RK73H2ATTD1001FCT-ND" H 10450 1800 50  0001 C CNN "Source Part No."
+	1    10450 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Frequently_Used_LE:LED D24
 U 1 1 5EDF2F8A
-P 8600 1200
-F 0 "D24" H 8600 1100 50  0000 C CNN
-F 1 "YELLOW" H 8600 1300 50  0000 C CNN
-F 2 "FrequentlyUsed:LED_0805_2012Metric_HandSolder" H 8600 1200 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 8600 1200 50  0001 C CNN
-F 4 "	Yellow 590nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 8600 1200 50  0001 C CNN "Description"
-F 5 "732-4987-1-ND" H 8600 1200 50  0001 C CNN "Source Part No."
-F 6 "Würth Elektronik" H 8600 1200 50  0001 C CNN "Manufacturer Name"
-F 7 "150080YS75000" H 8600 1200 50  0001 C CNN "Manufacturer Part No."
-F 8 "Digikey" H 8600 1200 50  0001 C CNN "Source"
-	1    8600 1200
+P 10450 1450
+F 0 "D24" H 10450 1350 50  0000 C CNN
+F 1 "YELLOW" H 10450 1550 50  0000 C CNN
+F 2 "Frequently_Used_LE:LED_0805_2012Metric_HandSolder" H 10450 1450 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 10450 1450 50  0001 C CNN
+F 4 "	Yellow 590nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 10450 1450 50  0001 C CNN "Description"
+F 5 "732-4987-1-ND" H 10450 1450 50  0001 C CNN "Source Part No."
+F 6 "Würth Elektronik" H 10450 1450 50  0001 C CNN "Manufacturer Name"
+F 7 "150080YS75000" H 10450 1450 50  0001 C CNN "Manufacturer Part No."
+F 8 "Digikey" H 10450 1450 50  0001 C CNN "Source"
+	1    10450 1450
 	0    1    1    0   
 $EndComp
-Text Label 8000 1900 1    50   ~ 0
+Text Label 9850 2150 1    50   ~ 0
 TXLED
-Text Label 8600 1900 1    50   ~ 0
+Text Label 10450 2150 1    50   ~ 0
 RXLED
 $Comp
 L Arduino_LE:ATmega32U4-AU U1
@@ -672,11 +687,11 @@ $EndComp
 Wire Wire Line
 	7300 3200 6550 3200
 $Comp
-L Frequently_Used_LE:GNDD #PWR0105
+L Frequently_Used_LE:DGND #PWR0105
 U 1 1 5EE11E5E
 P 7300 3300
 F 0 "#PWR0105" H 7300 3050 50  0001 C CNN
-F 1 "GNDD" H 7300 3150 50  0000 C CNN
+F 1 "DGND" H 7300 3150 50  0000 C CNN
 F 2 "" H 7300 3300 50  0001 C CNN
 F 3 "" H 7300 3300 50  0001 C CNN
 	1    7300 3300
@@ -724,7 +739,7 @@ Wire Wire Line
 	700  7000 1200 7000
 Text Label 700  7000 0    50   ~ 0
 READY
-Text Label 3200 4150 2    50   ~ 0
+Text Label 3350 3650 2    50   ~ 0
 XTAL2
 Text Label 6600 3600 0    50   ~ 0
 HALLEFF2
@@ -760,26 +775,6 @@ Text Label 6600 3900 0    50   ~ 0
 BATTSENS
 Text Label 6600 4000 0    50   ~ 0
 A0
-Wire Wire Line
-	7450 2400 7950 2400
-Wire Wire Line
-	7450 2300 7950 2300
-Text Label 7500 2400 0    50   ~ 0
-SDA
-Wire Wire Line
-	7450 2500 7950 2500
-Text Label 7500 2500 0    50   ~ 0
-RX
-Wire Wire Line
-	7450 2600 7950 2600
-Text Label 7500 2600 0    50   ~ 0
-TX
-Text Label 7500 2300 0    50   ~ 0
-SCL
-NoConn ~ 7950 2300
-NoConn ~ 7950 2400
-NoConn ~ 7950 2500
-NoConn ~ 7950 2600
 Text Label 6600 3700 0    50   ~ 0
 HALLEFF4
 Text Label 6600 3800 0    50   ~ 0
@@ -812,14 +807,22 @@ Wire Wire Line
 Text Label 3950 6900 0    50   ~ 0
 AUDRESET
 $Comp
-L Frequently_Used_LE:GNDD #PWR?
+L Frequently_Used_LE:DGND #PWR017
 U 1 1 5F267B9F
 P 4500 4100
-F 0 "#PWR?" H 4500 3850 50  0001 C CNN
-F 1 "GNDD" H 4505 3927 50  0000 C CNN
+F 0 "#PWR017" H 4500 3850 50  0001 C CNN
+F 1 "DGND" H 4505 3927 50  0000 C CNN
 F 2 "" H 4500 4100 50  0001 C CNN
 F 3 "" H 4500 4100 50  0001 C CNN
 	1    4500 4100
 	1    0    0    -1  
 $EndComp
+Text Notes 2500 3950 0    79   ~ 16
+Crystal
+Text Notes 750  3950 0    79   ~ 16
+Reset Button
+Text Notes 1650 1850 0    79   ~ 16
+Decoupling
+Text Notes 10000 2350 0    79   ~ 16
+LEDs
 $EndSCHEMATC

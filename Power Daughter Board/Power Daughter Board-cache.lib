@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Frequently_Used_TestPoint
+# Frequently_Used_LE_TestPoint
 #
-DEF Frequently_Used_TestPoint TP 0 30 N N 1 F N
+DEF Frequently_Used_LE_TestPoint TP 0 30 N N 1 F N
 F0 "TP" 0 225 50 H V C CNN
-F1 "Frequently_Used_TestPoint" 0 -280 50 H I C CNN
+F1 "Frequently_Used_LE_TestPoint" 0 -280 50 H I C CNN
 F2 "" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 F4 "Name" 0 150 50 H V C CNN "Name"
@@ -23,11 +23,11 @@ X 1 1 0 0 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Li-ion_5A_Boost_1A_Charge_Protect_C
+# Li_Ion_LE_C
 #
-DEF Li-ion_5A_Boost_1A_Charge_Protect_C C 0 10 N Y 1 F N
+DEF Li_Ion_LE_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Li-ion_5A_Boost_1A_Charge_Protect_C" 25 -100 50 H V L CNN
+F1 "Li_Ion_LE_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -41,11 +41,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Li-ion_5A_Boost_1A_Charge_Protect_GND
+# Li_Ion_LE_GND
 #
-DEF Li-ion_5A_Boost_1A_Charge_Protect_GND #PWR 0 0 Y Y 1 F P
+DEF Li_Ion_LE_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Li-ion_5A_Boost_1A_Charge_Protect_GND" 0 -150 50 H V C CNN
+F1 "Li_Ion_LE_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -54,11 +54,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Li-ion_5A_Boost_1A_Charge_Protect_LED
+# Li_Ion_LE_LED
 #
-DEF Li-ion_5A_Boost_1A_Charge_Protect_LED D 0 40 N N 1 F N
+DEF Li_Ion_LE_LED D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Li-ion_5A_Boost_1A_Charge_Protect_LED" 0 -100 50 H V C CNN
+F1 "Li_Ion_LE_LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -77,11 +77,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Li-ion_5A_Boost_1A_Charge_Protect_MCP73833T
+# Li_Ion_LE_MCP73833T
 #
-DEF Li-ion_5A_Boost_1A_Charge_Protect_MCP73833T U 0 10 Y Y 1 F N
+DEF Li_Ion_LE_MCP73833T U 0 10 Y Y 1 F N
 F0 "U" 0 500 60 H V C CNN
-F1 "Li-ion_5A_Boost_1A_Charge_Protect_MCP73833T" 0 400 60 H V C CNN
+F1 "Li_Ion_LE_MCP73833T" 0 400 60 H V C CNN
 F2 "High Power Lipo 18650 Boost Charge Protect:Charger_MCP73833" 0 -600 60 H I C CNN
 F3 "" -500 200 60 H I C CNN
 ALIAS MCP73834T
@@ -105,11 +105,11 @@ X VBAT 9 450 50 100 L 59 59 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Li-ion_5A_Boost_1A_Charge_Protect_R
+# Li_Ion_LE_R
 #
-DEF Li-ion_5A_Boost_1A_Charge_Protect_R R 0 0 N Y 1 F N
+DEF Li_Ion_LE_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Li-ion_5A_Boost_1A_Charge_Protect_R" 0 0 50 V V C CNN
+F1 "Li_Ion_LE_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -122,11 +122,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Li-ion_5A_Boost_1A_Charge_Protect_Thermistor_NTC
+# Li_Ion_LE_Thermistor_NTC
 #
-DEF Li-ion_5A_Boost_1A_Charge_Protect_Thermistor_NTC TH 0 0 N Y 1 F N
+DEF Li_Ion_LE_Thermistor_NTC TH 0 0 N Y 1 F N
 F0 "TH" -175 0 50 V V C CNN
-F1 "Li-ion_5A_Boost_1A_Charge_Protect_Thermistor_NTC" 125 0 50 V V C CNN
+F1 "Li_Ion_LE_Thermistor_NTC" 125 0 50 V V C CNN
 F2 "" 0 50 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
 $FPLIST

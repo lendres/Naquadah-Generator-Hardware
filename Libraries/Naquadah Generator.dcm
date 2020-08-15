@@ -1,62 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP +3.3V
-D Power symbol creates a global label with name "+3.3V"
-K power-flag
-$ENDCMP
-#
-$CMP +3V3
-D Power symbol creates a global label with name "+3V3"
-K power-flag
-$ENDCMP
-#
-$CMP +5V
-D Power symbol creates a global label with name "+5V"
-K power-flag
-$ENDCMP
-#
 $CMP AH1815-P
 D High Sensitivity Micropower Omnipolar Hall-Effect Switch, SIP-3
 K hall switch
 F https://www.diodes.com/assets/Datasheets/AH1806.pdf
 $ENDCMP
 #
-$CMP ATmega32U4-AU
-D 16MHz, 16kB Flash, 1.25kB SRAM, 512B EEPROM, USB 2.0, TQFP-44
-K AVR 8bit Microcontroller MegaAVR USB
-F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
-$ENDCMP
-#
-$CMP C
-D Unpolarized capacitor
-K cap capacitor
-F ~
-$ENDCMP
-#
-$CMP Conn_ISP
-D ISP connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)
-K connector
-F None
-$ENDCMP
-#
-$CMP Crystal
-D Two pin crystal
-K quartz ceramic resonator oscillator
-F ~
-$ENDCMP
-#
-$CMP GND
-D Power symbol creates a global label with name "GND" , ground
-K power-flag
-$ENDCMP
-#
-$CMP Logo
-D Logo Place Holder
-K logo
-F ~
-$ENDCMP
-#
 $CMP MHPS2283
+D Pushbutton Switch
 F https://media.digikey.com/pdf/Data%20Sheets/APEM%20Components%20PDFs/MHPS_Series.pdf
 $ENDCMP
 #
@@ -95,18 +46,6 @@ K connector
 F http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
 $ENDCMP
 #
-$CMP R
-D Resistor
-K R res resistor
-F ~
-$ENDCMP
-#
-$CMP SW_SPST
-D Single Pole Single Throw (SPST) switch
-K switch lever
-F ~
-$ENDCMP
-#
 $CMP State_Sensing_Conn
 D Connector from mother board to state sensing daughter board
 K connector
@@ -116,11 +55,6 @@ $ENDCMP
 $CMP ULN2803ADWRG4
 D Bipolar (BJT) Transistor Array 8 NPN Darlington 50V 500mA Surface Mount 18-SOIC
 F http://www.ti.com/lit/ds/symlink/uln2803a.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590002980089
-$ENDCMP
-#
-$CMP VBUS
-D Power symbol creates a global label with name "VBUS"
-K power-flag
 $ENDCMP
 #
 $CMP WireAssembly
