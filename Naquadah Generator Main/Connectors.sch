@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 12
+Sheet 10 15
 Title ""
 Date ""
 Rev ""
@@ -731,7 +731,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 6750 5500 6850
 $Comp
-L Frequently_Used_LE:TestPoint TP3
+L Frequently_Used_LE:TestPoint_1 TP3
 U 1 1 5ED8A970
 P 5550 1250
 F 0 "TP3" H 5550 1550 50  0000 C CNN
@@ -748,7 +748,7 @@ F 9 "None" H 5550 1250 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used_LE:TestPoint TP4
+L Frequently_Used_LE:TestPoint_1 TP4
 U 1 1 5ED8C4D5
 P 5800 1250
 F 0 "TP4" H 5800 1550 50  0000 C CNN
@@ -777,7 +777,7 @@ Connection ~ 5800 1350
 Wire Wire Line
 	5800 1350 5500 1350
 $Comp
-L Frequently_Used_LE:TestPoint TP5
+L Frequently_Used_LE:TestPoint_1 TP5
 U 1 1 5ED9FCBB
 P 8150 1250
 F 0 "TP5" H 8150 1550 50  0000 C CNN
@@ -794,7 +794,7 @@ F 9 "None" H 8150 1250 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used_LE:TestPoint TP6
+L Frequently_Used_LE:TestPoint_1 TP6
 U 1 1 5ED9FCC2
 P 8400 1250
 F 0 "TP6" H 8400 1550 50  0000 C CNN

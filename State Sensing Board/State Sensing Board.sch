@@ -34,7 +34,7 @@ F 7 "Digikey" H 4500 2200 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Naquadah_Generator:R R29
+L Frequently_Used_LE:R R29
 U 1 1 5E9F2F30
 P 5050 1750
 AR Path="/5E9F6AB4/5E9F2F30" Ref="R29"  Part="1" 
@@ -54,7 +54,7 @@ F 7 "Digikey" H 5050 1750 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Naquadah_Generator:C C2
+L Frequently_Used_LE:C C2
 U 1 1 5E9F46C8
 P 3450 2200
 AR Path="/5E9F6AB4/5E9F46C8" Ref="C2"  Part="1" 
@@ -94,7 +94,7 @@ F 7 "Digikey" H 6950 2200 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Naquadah_Generator:R R?
+L Frequently_Used_LE:R R?
 U 1 1 5EA0E7B8
 P 7350 1750
 AR Path="/5E9F6AB4/5EA0E7B8" Ref="R?"  Part="1" 
@@ -114,7 +114,7 @@ F 7 "Digikey" H 7350 1750 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Naquadah_Generator:C C?
+L Frequently_Used_LE:C C?
 U 1 1 5EA0E7CD
 P 5900 2200
 AR Path="/5E9F6AB4/5EA0E7CD" Ref="C?"  Part="1" 
@@ -253,11 +253,11 @@ F 7 "Digikey" H 8650 5850 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used_LE:TestPoint TP101
+L Frequently_Used_LE:TestPoint_1 TP101
 U 1 1 5EF333AD
 P 5200 3050
 F 0 "TP101" H 5150 3350 50  0000 L BNN
-F 1 "TestPoint" H 5150 3250 50  0001 L BNN
+F 1 "TestPoint_1" H 5150 3250 50  0001 L BNN
 F 2 "Frequently_Used_LE:Pad_1.25-1.25" H 5400 3050 50  0001 C CNN
 F 3 "None" H 5400 3050 50  0001 C CNN
 F 4 "GND" H 5150 3250 50  0000 L BNN "Name"
@@ -280,11 +280,11 @@ F 3 "" H 6850 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used_LE:TestPoint TP104
+L Frequently_Used_LE:TestPoint_1 TP104
 U 1 1 5EF79EC8
 P 5200 2200
 F 0 "TP104" H 5250 2400 50  0000 R BNN
-F 1 "TestPoint" H 5250 2500 50  0001 R BNN
+F 1 "TestPoint_1" H 5250 2500 50  0001 R BNN
 F 2 "Frequently_Used_LE:Pad_1.25-1.25" H 5400 2200 50  0001 C CNN
 F 3 "None" H 5400 2200 50  0001 C CNN
 F 4 "S2" H 5150 2500 50  0000 L BNN "Name"
@@ -296,11 +296,11 @@ F 8 "Digikey" H 5200 2200 50  0001 C CNN "Source"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Frequently_Used_LE:TestPoint TP103
+L Frequently_Used_LE:TestPoint_1 TP103
 U 1 1 5EF7C130
 P 7500 2200
 F 0 "TP103" H 7550 2400 50  0000 R BNN
-F 1 "TestPoint" H 7550 2500 50  0001 R BNN
+F 1 "TestPoint_1" H 7550 2500 50  0001 R BNN
 F 2 "Frequently_Used_LE:Pad_1.25-1.25" H 7700 2200 50  0001 C CNN
 F 3 "None" H 7700 2200 50  0001 C CNN
 F 4 "S1" H 7450 2500 50  0000 L BNN "Name"
@@ -312,11 +312,11 @@ F 8 "Digikey" H 7500 2200 50  0001 C CNN "Source"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Frequently_Used_LE:TestPoint TP102
+L Frequently_Used_LE:TestPoint_1 TP102
 U 1 1 5EF7C9EB
 P 5200 1250
 F 0 "TP102" H 5150 1550 50  0000 L BNN
-F 1 "TestPoint" H 5150 1450 50  0001 L BNN
+F 1 "TestPoint_1" H 5150 1450 50  0001 L BNN
 F 2 "Frequently_Used_LE:Pad_1.25-1.25" H 5400 1250 50  0001 C CNN
 F 3 "None" H 5400 1250 50  0001 C CNN
 F 4 "PWR" H 5150 1450 50  0000 L BNN "Name"
