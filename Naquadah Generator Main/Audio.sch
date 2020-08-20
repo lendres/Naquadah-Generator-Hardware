@@ -235,8 +235,13 @@ U 1 1 5F291B0D
 P 1550 7150
 F 0 "L3" V 1369 7150 50  0000 C CNN
 F 1 "Ferrite" V 1460 7150 50  0000 C CNN
-F 2 "" H 1550 7150 50  0001 C CNN
-F 3 "~" H 1550 7150 50  0001 C CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" H 1550 7150 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 1550 7150 50  0001 C CNN
+F 4 "120 Ohms @ 100MHz 1 Ferrite Bead 0603 (1608 Metric) 800mA 180mOhm" H 1550 7150 50  0001 C CNN "Description"
+F 5 "Murata Electronics" H 1550 7150 50  0001 C CNN "Manufacturer Name"
+F 6 "BLM18AG121SN1D" H 1550 7150 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 1550 7150 50  0001 C CNN "Source"
+F 8 "490-1011-1-ND" H 1550 7150 50  0001 C CNN "Source Part No."
 	1    1550 7150
 	0    1    1    0   
 $EndComp
@@ -537,8 +542,13 @@ U 1 1 5F37693B
 P 1550 6200
 F 0 "L2" V 1369 6200 50  0000 C CNN
 F 1 "Ferrite" V 1460 6200 50  0000 C CNN
-F 2 "" H 1550 6200 50  0001 C CNN
-F 3 "~" H 1550 6200 50  0001 C CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" H 1550 6200 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 1550 6200 50  0001 C CNN
+F 4 "120 Ohms @ 100MHz 1 Ferrite Bead 0603 (1608 Metric) 800mA 180mOhm" H 1550 6200 50  0001 C CNN "Description"
+F 5 "Murata Electronics" H 1550 6200 50  0001 C CNN "Manufacturer Name"
+F 6 "BLM18AG121SN1D" H 1550 6200 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 1550 6200 50  0001 C CNN "Source"
+F 8 "490-1011-1-ND" H 1550 6200 50  0001 C CNN "Source Part No."
 	1    1550 6200
 	0    1    1    0   
 $EndComp
@@ -1412,10 +1422,10 @@ F 3 "" H 3850 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used_LE:AGND #PWR
+L Frequently_Used_LE:AGND #PWR0136
 U 1 1 5F9072C6
 P 5650 7050
-F 0 "#PWR" H 5650 6800 50  0001 C CNN
+F 0 "#PWR0136" H 5650 6800 50  0001 C CNN
 F 1 "AGND" H 5650 6900 50  0000 C CNN
 F 2 "" H 5650 7050 50  0001 C CNN
 F 3 "" H 5650 7050 50  0001 C CNN
@@ -1439,8 +1449,13 @@ U 1 1 5F91B607
 P 5450 6500
 F 0 "L4" V 5400 6500 50  0000 C CNN
 F 1 "Ferrite" V 5550 6500 50  0000 C CNN
-F 2 "" H 5450 6500 50  0001 C CNN
-F 3 "~" H 5450 6500 50  0001 C CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" H 5450 6500 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 5450 6500 50  0001 C CNN
+F 4 "120 Ohms @ 100MHz 1 Ferrite Bead 0603 (1608 Metric) 800mA 180mOhm" H 5450 6500 50  0001 C CNN "Description"
+F 5 "Murata Electronics" H 5450 6500 50  0001 C CNN "Manufacturer Name"
+F 6 "BLM18AG121SN1D" H 5450 6500 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 5450 6500 50  0001 C CNN "Source"
+F 8 "490-1011-1-ND" H 5450 6500 50  0001 C CNN "Source Part No."
 	1    5450 6500
 	0    1    1    0   
 $EndComp
@@ -1450,8 +1465,13 @@ U 1 1 5F931264
 P 5850 6300
 F 0 "L5" V 5800 6300 50  0000 C CNN
 F 1 "Ferrite" V 5950 6300 50  0000 C CNN
-F 2 "" H 5850 6300 50  0001 C CNN
-F 3 "~" H 5850 6300 50  0001 C CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" H 5850 6300 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 5850 6300 50  0001 C CNN
+F 4 "120 Ohms @ 100MHz 1 Ferrite Bead 0603 (1608 Metric) 800mA 180mOhm" H 5850 6300 50  0001 C CNN "Description"
+F 5 "Murata Electronics" H 5850 6300 50  0001 C CNN "Manufacturer Name"
+F 6 "BLM18AG121SN1D" H 5850 6300 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 5850 6300 50  0001 C CNN "Source"
+F 8 "490-1011-1-ND" H 5850 6300 50  0001 C CNN "Source Part No."
 	1    5850 6300
 	0    1    1    0   
 $EndComp
