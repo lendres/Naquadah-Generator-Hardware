@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 15
+Sheet 15 15
 Title ""
 Date ""
 Rev ""
@@ -1412,10 +1412,10 @@ F 3 "" H 3850 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used_LE:AGND #PWR0136
+L Frequently_Used_LE:AGND #PWR
 U 1 1 5F9072C6
 P 5650 7050
-F 0 "#PWR0136" H 5650 6800 50  0001 C CNN
+F 0 "#PWR" H 5650 6800 50  0001 C CNN
 F 1 "AGND" H 5650 6900 50  0000 C CNN
 F 2 "" H 5650 7050 50  0001 C CNN
 F 3 "" H 5650 7050 50  0001 C CNN

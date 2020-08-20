@@ -464,14 +464,8 @@ F 8 "Digikey" H 1550 1250 50  0001 C CNN "Source"
 $EndComp
 Wire Wire Line
 	4750 3250 5250 3250
-Text Label 4750 3250 0    50   ~ 0
-XTAL1
 Wire Wire Line
 	4750 3550 5250 3550
-Text Label 4750 3550 0    50   ~ 0
-XTAL2
-Text Label 3350 3350 2    50   ~ 0
-XTAL1
 Wire Wire Line
 	2350 3500 2150 3500
 Wire Wire Line
@@ -739,8 +733,6 @@ Wire Wire Line
 	700  7000 1200 7000
 Text Label 700  7000 0    50   ~ 0
 READY
-Text Label 3350 3650 2    50   ~ 0
-XTAL2
 Text Label 6600 3600 0    50   ~ 0
 HALLEFF2
 Text Label 6600 2100 0    50   ~ 0
@@ -825,4 +817,12 @@ Text Notes 1650 1850 0    79   ~ 16
 Decoupling
 Text Notes 10000 2350 0    79   ~ 16
 LEDs
+Text Label 3350 3650 2    50   ~ 0
+XTAL2
+Text Label 3350 3350 2    50   ~ 0
+XTAL1
+Text Label 4750 3550 0    50   ~ 0
+XTAL2
+Text Label 4750 3250 0    50   ~ 0
+XTAL1
 $EndSCHEMATC
