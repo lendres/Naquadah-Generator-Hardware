@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 1
+Sheet 2 2
 Title "Li-ion 5A Boost 1A Charge Protect"
 Date ""
 Rev "1.0.0"
@@ -14,14 +14,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 5075 4400 0    79   ~ 16
-1.0 Amp Charge
+750 mA Charge
 $Comp
 L Li_Ion_LE:MCP73833T U1
 U 1 1 5EB6C38E
 P 5600 3450
 F 0 "U1" H 5575 3937 60  0000 C CNN
 F 1 "MCP73833T" H 5575 3831 60  0000 C CNN
-F 2 "Li-Ion_LE:MCP73833" H 5600 2850 60  0001 C CNN
+F 2 "Li_Ion_LE:MCP73833" H 5600 2850 60  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22005b.pdf" H 5575 3831 60  0001 C CNN
 F 4 "Charger IC" H 5600 3450 50  0001 C CNN "Description"
 F 5 "Digikey" H 5600 3450 50  0001 C CNN "Source"
@@ -39,7 +39,7 @@ U 1 1 5EBA8419
 P 3650 3400
 F 0 "D3" H 3550 3500 50  0000 L CNN
 F 1 "GREEN" H 3550 3300 50  0000 L CNN
-F 2 "Li-Ion_LE:LED_0805_2012Metric_HandSolder" H 3650 3400 50  0001 C CNN
+F 2 "Frequently_Used_LE:LED_0805_2012Metric" H 3650 3400 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 3650 3400 50  0001 C CNN
 F 4 "Green 570nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 3650 3400 50  0001 C CNN "Description"
 F 5 "Digikey" H 3650 3400 50  0001 C CNN "Source"
@@ -55,7 +55,7 @@ U 1 1 5EBA883B
 P 4000 3400
 F 0 "D4" H 3900 3500 50  0000 L CNN
 F 1 "RED" H 3900 3300 50  0000 L CNN
-F 2 "Li-Ion_LE:LED_0805_2012Metric_HandSolder" H 4000 3400 50  0001 C CNN
+F 2 "Frequently_Used_LE:LED_0805_2012Metric" H 4000 3400 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150080RS75000.pdf" H 4000 3400 50  0001 C CNN
 F 4 "Red 625nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 4000 3400 50  0001 C CNN "Description"
 F 5 "Digikey" H 4000 3400 50  0001 C CNN "Source"
@@ -301,7 +301,7 @@ U 1 1 5EBA65E2
 P 3300 3400
 F 0 "D2" H 3200 3500 50  0000 L CNN
 F 1 "GREEN" H 3200 3300 50  0000 L CNN
-F 2 "Li-Ion_LE:LED_0805_2012Metric_HandSolder" H 3300 3400 50  0001 C CNN
+F 2 "Frequently_Used_LE:LED_0805_2012Metric" H 3300 3400 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 3300 3400 50  0001 C CNN
 F 4 "Green 570nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 3300 3400 50  0001 C CNN "Description"
 F 5 "Digikey" H 3300 3400 50  0001 C CNN "Source"

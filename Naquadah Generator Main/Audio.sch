@@ -622,30 +622,11 @@ $EndComp
 $Comp
 L Frequently_Used_LE:C C?
 U 1 1 5F3A06EA
-P 8750 1000
+P 9200 1000
 AR Path="/5F3A06EA" Ref="C?"  Part="1" 
 AR Path="/5F06C1CA/5F3A06EA" Ref="C20"  Part="1" 
-F 0 "C20" H 8900 1100 50  0000 R CNN
-F 1 "1.0uF" H 8800 900 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 8788 850 50  0001 C CNN
-F 3 "" H 8750 1000 50  0001 C CNN
-F 4 "" H 8750 1000 50  0001 C CNN "Source Part No."
-F 5 "" H 8750 1000 50  0001 C CNN "Manufacturer Name"
-F 6 "" H 8750 1000 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 8750 1000 50  0001 C CNN "Source"
-	1    8750 1000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8750 1250 8750 1150
-$Comp
-L Frequently_Used_LE:C C?
-U 1 1 5F3A6FC5
-P 9200 1000
-AR Path="/5F3A6FC5" Ref="C?"  Part="1" 
-AR Path="/5F06C1CA/5F3A6FC5" Ref="C21"  Part="1" 
-F 0 "C21" H 9350 1100 50  0000 R CNN
-F 1 "0.1uF" H 9250 900 50  0000 L CNN
+F 0 "C20" H 9350 1100 50  0000 R CNN
+F 1 "1.0uF" H 9250 900 50  0000 L CNN
 F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 9238 850 50  0001 C CNN
 F 3 "" H 9200 1000 50  0001 C CNN
 F 4 "" H 9200 1000 50  0001 C CNN "Source Part No."
@@ -653,6 +634,25 @@ F 5 "" H 9200 1000 50  0001 C CNN "Manufacturer Name"
 F 6 "" H 9200 1000 50  0001 C CNN "Manufacturer Part No."
 F 7 "Digikey" H 9200 1000 50  0001 C CNN "Source"
 	1    9200 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 1250 8750 1150
+$Comp
+L Frequently_Used_LE:C C?
+U 1 1 5F3A6FC5
+P 8750 1000
+AR Path="/5F3A6FC5" Ref="C?"  Part="1" 
+AR Path="/5F06C1CA/5F3A6FC5" Ref="C21"  Part="1" 
+F 0 "C21" H 8900 1100 50  0000 R CNN
+F 1 "0.1uF" H 8800 900 50  0000 L CNN
+F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 8788 850 50  0001 C CNN
+F 3 "" H 8750 1000 50  0001 C CNN
+F 4 "" H 8750 1000 50  0001 C CNN "Source Part No."
+F 5 "" H 8750 1000 50  0001 C CNN "Manufacturer Name"
+F 6 "" H 8750 1000 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 8750 1000 50  0001 C CNN "Source"
+	1    8750 1000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line

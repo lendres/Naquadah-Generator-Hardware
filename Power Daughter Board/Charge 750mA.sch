@@ -14,14 +14,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 5075 4400 0    79   ~ 16
-1.0 Amp Charge
+750 mA Charge
 $Comp
 L Li_Ion_LE:MCP73833T U1
 U 1 1 5EB6C38E
 P 5600 3450
 F 0 "U1" H 5575 3937 60  0000 C CNN
 F 1 "MCP73833T" H 5575 3831 60  0000 C CNN
-F 2 "Li-ion:MCP73833" H 5600 2850 60  0001 C CNN
+F 2 "Li_Ion_LE:MCP73833" H 5600 2850 60  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22005b.pdf" H 5575 3831 60  0001 C CNN
 F 4 "Charger IC" H 5600 3450 50  0001 C CNN "Description"
 F 5 "Digikey" H 5600 3450 50  0001 C CNN "Source"
@@ -39,7 +39,7 @@ U 1 1 5EBA8419
 P 3650 3400
 F 0 "D3" H 3550 3500 50  0000 L CNN
 F 1 "GREEN" H 3550 3300 50  0000 L CNN
-F 2 "Li-ion:LED_0805_2012Metric_HandSolder" H 3650 3400 50  0001 C CNN
+F 2 "Frequently_Used_LE:LED_0805_2012Metric" H 3650 3400 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 3650 3400 50  0001 C CNN
 F 4 "Green 570nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 3650 3400 50  0001 C CNN "Description"
 F 5 "Digikey" H 3650 3400 50  0001 C CNN "Source"
@@ -55,7 +55,7 @@ U 1 1 5EBA883B
 P 4000 3400
 F 0 "D4" H 3900 3500 50  0000 L CNN
 F 1 "RED" H 3900 3300 50  0000 L CNN
-F 2 "Li-ion:LED_0805_2012Metric_HandSolder" H 4000 3400 50  0001 C CNN
+F 2 "Frequently_Used_LE:LED_0805_2012Metric" H 4000 3400 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150080RS75000.pdf" H 4000 3400 50  0001 C CNN
 F 4 "Red 625nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 4000 3400 50  0001 C CNN "Description"
 F 5 "Digikey" H 4000 3400 50  0001 C CNN "Source"
@@ -71,7 +71,7 @@ U 1 1 5EBD0C80
 P 4650 3550
 F 0 "R4" V 4550 3450 59  0000 L CNN
 F 1 "1k" V 4750 3450 59  0000 L CNN
-F 2 "Li-ion:0805_2012Metric_HandSolder" H 4650 3550 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric" H 4650 3550 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 4650 3550 50  0001 C CNN
 F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 4650 3550 50  0001 C CNN "Description"
 F 5 "Digikey" H 4650 3550 50  0001 C CNN "Source"
@@ -95,7 +95,7 @@ U 1 1 5EBEA227
 P 4300 3700
 F 0 "R3" V 4200 3600 59  0000 L CNN
 F 1 "1k" V 4400 3600 59  0000 L CNN
-F 2 "Li-ion:0805_2012Metric_HandSolder" H 4300 3700 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric" H 4300 3700 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 4300 3700 50  0001 C CNN
 F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 4300 3700 50  0001 C CNN "Description"
 F 5 "Digikey" H 4300 3700 50  0001 C CNN "Source"
@@ -111,7 +111,7 @@ U 1 1 5EBF1B19
 P 3950 3850
 F 0 "R2" V 3850 3750 59  0000 L CNN
 F 1 "1k" V 4050 3750 59  0000 L CNN
-F 2 "Li-ion:0805_2012Metric_HandSolder" H 3950 3850 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric" H 3950 3850 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 3950 3850 50  0001 C CNN
 F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 3950 3850 50  0001 C CNN "Description"
 F 5 "Digikey" H 3950 3850 50  0001 C CNN "Source"
@@ -159,7 +159,7 @@ U 1 1 5EB9EAAB
 P 6650 3550
 F 0 "R6" V 6550 3450 59  0000 L CNN
 F 1 "1.54k" V 6750 3450 59  0000 L CNN
-F 2 "Li-ion:0805_2012Metric_HandSolder" H 6650 3550 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric" H 6650 3550 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 6650 3550 50  0001 C CNN
 F 4 "1.54 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 6650 3550 50  0001 C CNN "Description"
 F 5 "Digikey" H 6650 3550 50  0001 C CNN "Source"
@@ -179,7 +179,7 @@ U 1 1 5EB4A5BF
 P 7750 3700
 F 0 "C2" V 7700 3750 50  0000 L CNN
 F 1 "22uF" V 7800 3750 50  0000 L CNN
-F 2 "Li-ion:0805_2012Metric_HandSolder" H 7788 3550 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric" H 7788 3550 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 7750 3700 50  0001 C CNN
 F 4 "22µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)" H 7750 3700 50  0001 C CNN "Description"
 F 5 "Digikey" H 7750 3700 50  0001 C CNN "Source"
@@ -195,7 +195,7 @@ U 1 1 5EB4C1AB
 P 2900 3700
 F 0 "C1" V 2850 3750 50  0000 L CNN
 F 1 "22uF" V 2950 3750 50  0000 L CNN
-F 2 "Li-ion:0805_2012Metric_HandSolder" H 2938 3550 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric" H 2938 3550 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 2900 3700 50  0001 C CNN
 F 4 "22µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)" H 2900 3700 50  0001 C CNN "Description"
 F 5 "Digikey" H 2900 3700 50  0001 C CNN "Source"
@@ -233,7 +233,7 @@ U 1 1 5EBC49A8
 P 7350 3900
 F 0 "TH1" V 7200 3800 50  0000 L BNN
 F 1 "10k" V 7500 3800 50  0000 L BNN
-F 2 "Li-ion:0805_2012Metric_HandSolder" H 7350 3950 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric" H 7350 3950 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/503021/tpd_commercial_ntc-thermistor_ntcg_en.pdf" H 7350 3950 50  0001 C CNN
 F 4 "NTC Thermistor 10k" H 7350 3900 50  0001 C CNN "Description"
 F 5 "Digikey" H 7350 3900 50  0001 C CNN "Source"
@@ -249,7 +249,7 @@ U 1 1 5EB60D47
 P 6450 3900
 F 0 "R8" V 6350 3800 59  0000 L CNN
 F 1 "1.33k" V 6550 3750 59  0000 L CNN
-F 2 "Li-ion:0805_2012Metric_HandSolder" H 6450 3900 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric" H 6450 3900 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 6450 3900 50  0001 C CNN
 F 4 "1.33 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 6450 3900 50  0001 C CNN "Description"
 F 5 "Digikey" H 6450 3900 50  0001 C CNN "Source"
@@ -265,7 +265,7 @@ U 1 1 5EBB9C41
 P 6900 3900
 F 0 "R7" V 6800 3800 59  0000 L CNN
 F 1 "69.8k" V 7000 3800 59  0000 L CNN
-F 2 "Li-ion:0805_2012Metric_HandSolder" H 6900 3900 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric" H 6900 3900 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 6900 3900 50  0001 C CNN
 F 4 "69.8 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 6900 3900 50  0001 C CNN "Description"
 F 5 "Digikey" H 6900 3900 50  0001 C CNN "Source"
@@ -301,7 +301,7 @@ U 1 1 5EBA65E2
 P 3300 3400
 F 0 "D2" H 3200 3500 50  0000 L CNN
 F 1 "GREEN" H 3200 3300 50  0000 L CNN
-F 2 "Li-ion:LED_0805_2012Metric_HandSolder" H 3300 3400 50  0001 C CNN
+F 2 "Frequently_Used_LE:LED_0805_2012Metric" H 3300 3400 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 3300 3400 50  0001 C CNN
 F 4 "Green 570nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 3300 3400 50  0001 C CNN "Description"
 F 5 "Digikey" H 3300 3400 50  0001 C CNN "Source"
