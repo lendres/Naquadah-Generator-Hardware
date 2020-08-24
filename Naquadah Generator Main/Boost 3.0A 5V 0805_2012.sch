@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 12 15
+Sheet 12 16
 Title "Li-ion 3A Charge"
 Date ""
 Rev "1.0.0"
@@ -17,19 +17,6 @@ Text Notes 4850 5600 0    50   ~ 0
 PAM2421AECADJR: 3.0A\nPAM2422AECADJR: 4.5A\nPAM2423AECADJR: 5.5A\n\nMax voltage:      24V\n\nFB is regulated to 1.262V\n$R1 = $R2*(V_out/V_fb - 1)\n\n$R1     $R2  V_out\n85.1k   10k   12V\n29.6k   10k   5V\n16.1k   10k   3.3V\n\n
 Text Notes 4850 4400 0    79   ~ 16
 3.0A 5V Boost
-$Comp
-L power:PWR_FLAG #FLG07
-U 1 1 5EC7BC40
-P 3950 2750
-F 0 "#FLG07" H 3950 2825 50  0001 C CNN
-F 1 "PWR_FLAG" H 3950 2923 50  0000 C CNN
-F 2 "" H 3950 2750 50  0001 C CNN
-F 3 "~" H 3950 2750 50  0001 C CNN
-	1    3950 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 2750 3950 2800
 Wire Wire Line
 	5900 3950 5900 4000
 $Comp
@@ -48,7 +35,6 @@ F 8 "Digikey" H 5950 2800 50  0001 C CNN "Source"
 	1    5950 2800
 	-1   0    0    1   
 $EndComp
-Connection ~ 3950 2800
 $Comp
 L Frequently_Used_LE:L L1
 U 1 1 40108BB9
@@ -70,16 +56,12 @@ SW
 Connection ~ 5900 4000
 Wire Wire Line
 	4750 2800 5050 2800
-Wire Wire Line
-	3950 2800 4750 2800
 Connection ~ 4750 2800
 Wire Wire Line
 	4850 3200 4750 3200
 Connection ~ 4750 3200
 Wire Wire Line
 	4750 3350 4750 3200
-Wire Wire Line
-	3750 2800 3950 2800
 Connection ~ 3750 2800
 Wire Wire Line
 	3750 3300 3750 2800
@@ -417,4 +399,6 @@ Text HLabel 7150 2800 2    50   Input ~ 0
 BOOSTVOUT
 Text HLabel 7150 4000 2    50   Input ~ 0
 GND
+Wire Wire Line
+	3750 2800 4750 2800
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 15
+Sheet 10 16
 Title ""
 Date ""
 Rev ""
@@ -671,16 +671,16 @@ CC1
 Text Label 3350 6350 0    50   ~ 0
 CC2
 NoConn ~ 2700 5150
-NoConn ~ 2700 5250
-NoConn ~ 2700 5350
+NoConn ~ 2700 5300
+NoConn ~ 2700 5400
 Text Label 1700 6350 0    50   ~ 0
 SHLD
 $Comp
 L Connector_Generic:Conn_01x04 J8
 U 1 1 5EE457C4
 P 4900 6650
-F 0 "J8" H 4818 6225 50  0000 C CNN
-F 1 "USB Solder Pads" H 4818 6316 50  0000 C CNN
+F 0 "J8" H 4900 6350 50  0000 C CNN
+F 1 "USB Solder Pads" H 4750 6850 50  0000 C CNN
 F 2 "Naquadah_Generator:WireSoldPads_1x4_WOL" H 4900 6650 50  0001 C CNN
 F 3 "None" H 4900 6650 50  0001 C CNN
 F 4 "None" H 4900 6650 50  0001 C CNN "Description"
@@ -693,12 +693,12 @@ $EndComp
 $Comp
 L Frequently_Used_LE:VBUS #PWR0120
 U 1 1 5EE6129E
-P 5500 6350
-F 0 "#PWR0120" H 5500 6200 50  0001 C CNN
-F 1 "VBUS" H 5515 6523 50  0000 C CNN
-F 2 "" H 5500 6350 50  0001 C CNN
-F 3 "" H 5500 6350 50  0001 C CNN
-	1    5500 6350
+P 5700 6350
+F 0 "#PWR0120" H 5700 6200 50  0001 C CNN
+F 1 "VBUS" H 5715 6523 50  0000 C CNN
+F 2 "" H 5700 6350 50  0001 C CNN
+F 3 "" H 5700 6350 50  0001 C CNN
+	1    5700 6350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -723,9 +723,7 @@ Wire Wire Line
 Text Label 5150 6650 0    50   ~ 0
 D-
 Wire Wire Line
-	5100 6450 5500 6450
-Wire Wire Line
-	5500 6450 5500 6350
+	5700 6450 5700 6350
 Wire Wire Line
 	5100 6750 5500 6750
 Wire Wire Line
@@ -897,4 +895,25 @@ NoConn ~ 2700 3900
 NoConn ~ 2700 3800
 Text Notes 3000 7400 0    79   ~ 16
 ATMega USB
+Wire Wire Line
+	5300 6350 5300 6450
+$Comp
+L Frequently_Used_LE:PWR_FLAG #FLG?
+U 1 1 5FBCCA10
+P 5300 6350
+AR Path="/5FBCCA10" Ref="#FLG?"  Part="1" 
+AR Path="/5EA6751D/5FBCCA10" Ref="#FLG?"  Part="1" 
+AR Path="/5EDBBDC8/5FBCCA10" Ref="#FLG0105"  Part="1" 
+F 0 "#FLG0105" H 5300 6425 50  0001 C CNN
+F 1 "PWR_FLAG" H 5300 6523 50  0000 C CNN
+F 2 "" H 5300 6350 50  0001 C CNN
+F 3 "~" H 5300 6350 50  0001 C CNN
+	1    5300 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 6450 5300 6450
+Connection ~ 5300 6450
+Wire Wire Line
+	5300 6450 5700 6450
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 15
+Sheet 1 16
 Title ""
 Date ""
 Rev ""
@@ -18,7 +18,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 3900 6550 3900
 Wire Wire Line
-	4750 2250 5250 2250
+	4750 2550 5250 2550
 Wire Wire Line
 	6550 2700 7050 2700
 Wire Wire Line
@@ -26,44 +26,44 @@ Wire Wire Line
 Wire Wire Line
 	6550 3000 7050 3000
 Wire Wire Line
-	4500 4000 4500 4100
+	4500 4050 4500 4150
 $Sheet
-S 2750 6800 500  400 
+S 2650 6800 500  400 
 U 5ED17BA0
 F0 "Shift Registers" 50
 F1 "Shift Registers.sch" 50
-F2 "SRLATCH" I L 2750 6900 50 
-F3 "SRDATA" I L 2750 7100 50 
-F4 "SRCLK" I L 2750 7000 50 
+F2 "SRLATCH" I L 2650 6900 50 
+F3 "SRDATA" I L 2650 7100 50 
+F4 "SRCLK" I L 2650 7000 50 
 $EndSheet
 Wire Wire Line
-	2750 6900 2350 6900
-Text Label 2350 6900 0    50   ~ 0
+	2650 6900 2250 6900
+Text Label 2250 6900 0    50   ~ 0
 SRLATCH
 Wire Wire Line
-	2750 7000 2350 7000
+	2650 7000 2250 7000
 Wire Wire Line
-	2750 7100 2350 7100
-Text Label 2350 7000 0    50   ~ 0
+	2650 7100 2250 7100
+Text Label 2250 7000 0    50   ~ 0
 SRCLK
 Wire Wire Line
-	5250 4000 4500 4000
+	5250 4050 5150 4050
 Wire Wire Line
-	5250 2150 4500 2150
+	5250 2450 4500 2450
 Wire Wire Line
-	4500 2150 4500 2250
+	4500 2450 4500 2550
 $Comp
 L Frequently_Used_LE:DGND #PWR016
 U 1 1 5EDBAB65
-P 4500 2250
-F 0 "#PWR016" H 4500 2000 50  0001 C CNN
-F 1 "DGND" H 4500 2100 50  0000 C CNN
-F 2 "" H 4500 2250 50  0001 C CNN
-F 3 "" H 4500 2250 50  0001 C CNN
-	1    4500 2250
+P 4500 2550
+F 0 "#PWR016" H 4500 2300 50  0001 C CNN
+F 1 "DGND" H 4500 2400 50  0000 C CNN
+F 2 "" H 4500 2550 50  0001 C CNN
+F 3 "" H 4500 2550 50  0001 C CNN
+	1    4500 2550
 	1    0    0    -1  
 $EndComp
-Text Label 4750 2250 0    50   ~ 0
+Text Label 4750 2550 0    50   ~ 0
 UCAP
 $Comp
 L Frequently_Used_LE:C C3
@@ -128,21 +128,21 @@ Wire Wire Line
 Wire Wire Line
 	2350 3350 2450 3350
 Wire Wire Line
-	4750 2700 5250 2700
-Text Label 4750 2700 0    50   ~ 0
+	4750 2950 5250 2950
+Text Label 4750 2950 0    50   ~ 0
 AREF
 Wire Wire Line
-	4750 1900 5250 1900
-Text Label 4750 1900 0    50   ~ 0
+	4750 2250 5250 2250
+Text Label 4750 2250 0    50   ~ 0
 D-
 Wire Wire Line
-	4750 1800 5250 1800
-Text Label 4750 1800 0    50   ~ 0
+	4750 2150 5250 2150
+Text Label 4750 2150 0    50   ~ 0
 D+
 Wire Wire Line
-	5250 1500 4500 1500
+	5250 1850 4500 1850
 Wire Wire Line
-	4500 1500 4500 1400
+	4500 1850 4500 1750
 Wire Wire Line
 	6550 2400 7050 2400
 Wire Wire Line
@@ -152,19 +152,19 @@ Wire Wire Line
 Text Label 6600 1600 0    50   ~ 0
 MODESEL
 Wire Wire Line
-	5250 1600 4500 1600
+	5250 1950 4500 1950
 Wire Wire Line
-	4500 1600 4500 1500
-Connection ~ 4500 1500
+	4500 1950 4500 1850
+Connection ~ 4500 1850
 $Comp
 L Frequently_Used_LE:VBUS #PWR015
 U 1 1 5EE32C9A
-P 4500 1400
-F 0 "#PWR015" H 4500 1250 50  0001 C CNN
-F 1 "VBUS" H 4500 1550 50  0000 C CNN
-F 2 "" H 4500 1400 50  0001 C CNN
-F 3 "" H 4500 1400 50  0001 C CNN
-	1    4500 1400
+P 4500 1750
+F 0 "#PWR015" H 4500 1600 50  0001 C CNN
+F 1 "VBUS" H 4500 1900 50  0000 C CNN
+F 2 "" H 4500 1750 50  0001 C CNN
+F 3 "" H 4500 1750 50  0001 C CNN
+	1    4500 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -343,8 +343,8 @@ Wire Wire Line
 Text Label 1550 900  3    50   ~ 0
 AREF
 Wire Wire Line
-	4750 2500 5250 2500
-Text Label 4750 2500 0    50   ~ 0
+	4750 2750 5250 2750
+Text Label 4750 2750 0    50   ~ 0
 nRESET
 Wire Wire Line
 	1150 3000 1650 3000
@@ -465,7 +465,7 @@ $EndComp
 Wire Wire Line
 	4750 3250 5250 3250
 Wire Wire Line
-	4750 3550 5250 3550
+	4750 3350 5250 3350
 Wire Wire Line
 	2350 3500 2150 3500
 Wire Wire Line
@@ -486,7 +486,7 @@ F 3 "" H 2150 3600 50  0001 C CNN
 $EndComp
 Text Notes 5500 4600 0    79   ~ 16
 ATmega34U4
-Text Notes 2700 7550 0    79   ~ 16
+Text Notes 2600 7550 0    79   ~ 16
 Lights
 Wire Wire Line
 	6550 1300 7050 1300
@@ -500,7 +500,7 @@ Text Label 6600 1200 0    50   ~ 0
 SCK
 Text Notes 1200 7500 0    79   ~ 16
 Power
-Text Label 2350 7100 0    50   ~ 0
+Text Label 2250 7100 0    50   ~ 0
 SRDATA
 Text Label 5700 6400 0    50   ~ 0
 D+
@@ -675,6 +675,7 @@ F 5 "Microchip Technology" H 5900 2600 50  0001 C CNN "Manufacturer Name"
 F 6 "ATMEGA32U4-AU" H 5900 2600 50  0001 C CNN "Manufacturer Part No."
 F 7 "ATmega Microcontroller IC 8-Bit 16MHz 32KB (16K x 16) FLASH 44-TQFP (10x10)" H 5900 2600 50  0001 C CNN "Description"
 F 8 "Digikey" H 5900 2600 50  0001 C CNN "Source"
+F 9 "ATMEGA32U4-AU-ND" H 5900 2600 50  0001 C CNN "Digikey Part No."
 	1    5900 2600
 	1    0    0    -1  
 $EndComp
@@ -718,20 +719,21 @@ Wire Wire Line
 Text Label 6600 2600 0    50   ~ 0
 TX
 $Sheet
-S 1200 6900 550  300 
+S 1150 6800 550  400 
 U 5EA6751D
 F0 "Power" 50
 F1 "Power.sch" 50
-F2 "READY" I L 1200 7000 50 
-F3 "MODE" I L 1200 7100 50 
+F2 "READY" I L 1150 6900 50 
+F3 "MODE" I L 1150 7000 50 
+F4 "BATT+" I L 1150 7100 50 
 $EndSheet
 Wire Wire Line
-	700  7100 1200 7100
-Text Label 700  7100 0    50   ~ 0
+	650  7000 1150 7000
+Text Label 650  7000 0    50   ~ 0
 MODESEL
 Wire Wire Line
-	700  7000 1200 7000
-Text Label 700  7000 0    50   ~ 0
+	650  6900 1150 6900
+Text Label 650  6900 0    50   ~ 0
 READY
 Text Label 6600 3600 0    50   ~ 0
 HALLEFF2
@@ -801,12 +803,12 @@ AUDRESET
 $Comp
 L Frequently_Used_LE:DGND #PWR017
 U 1 1 5F267B9F
-P 4500 4100
-F 0 "#PWR017" H 4500 3850 50  0001 C CNN
-F 1 "DGND" H 4505 3927 50  0000 C CNN
-F 2 "" H 4500 4100 50  0001 C CNN
-F 3 "" H 4500 4100 50  0001 C CNN
-	1    4500 4100
+P 4500 4150
+F 0 "#PWR017" H 4500 3900 50  0001 C CNN
+F 1 "DGND" H 4505 3977 50  0000 C CNN
+F 2 "" H 4500 4150 50  0001 C CNN
+F 3 "" H 4500 4150 50  0001 C CNN
+	1    4500 4150
 	1    0    0    -1  
 $EndComp
 Text Notes 2500 3950 0    79   ~ 16
@@ -821,8 +823,44 @@ Text Label 3350 3650 2    50   ~ 0
 XTAL2
 Text Label 3350 3350 2    50   ~ 0
 XTAL1
-Text Label 4750 3550 0    50   ~ 0
+Text Label 4750 3350 0    50   ~ 0
 XTAL2
 Text Label 4750 3250 0    50   ~ 0
 XTAL1
+Wire Wire Line
+	650  7100 1150 7100
+Text Label 650  7100 0    50   ~ 0
+BATTSENS
+NoConn ~ 7050 1800
+NoConn ~ 7050 2300
+NoConn ~ 7050 2400
+NoConn ~ 7050 2500
+NoConn ~ 7050 2600
+Wire Wire Line
+	5250 3750 5150 3750
+Wire Wire Line
+	5150 3750 5150 3850
+Connection ~ 5150 4050
+Wire Wire Line
+	5150 4050 4500 4050
+Wire Wire Line
+	5250 3950 5150 3950
+Connection ~ 5150 3950
+Wire Wire Line
+	5150 3950 5150 4050
+Wire Wire Line
+	5250 3850 5150 3850
+Connection ~ 5150 3850
+Wire Wire Line
+	5150 3850 5150 3950
+Wire Wire Line
+	5250 1500 4500 1500
+Wire Wire Line
+	5250 1400 4500 1400
+Wire Wire Line
+	4500 1500 4500 1400
+Connection ~ 4500 1200
+Connection ~ 4500 1400
+Wire Wire Line
+	4500 1400 4500 1200
 $EndSCHEMATC

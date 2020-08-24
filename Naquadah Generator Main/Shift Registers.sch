@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 15
+Sheet 2 16
 Title ""
 Date ""
 Rev ""
@@ -144,17 +144,6 @@ Wire Wire Line
 	3250 3900 2400 3900
 Wire Wire Line
 	2400 3900 2400 4000
-$Comp
-L Frequently_Used_LE:+5V #PWR027
-U 1 1 5ED2A354
-P 3650 3050
-F 0 "#PWR027" H 3650 2900 50  0001 C CNN
-F 1 "+5V" H 3665 3223 50  0000 C CNN
-F 2 "" H 3650 3050 50  0001 C CNN
-F 3 "" H 3650 3050 50  0001 C CNN
-	1    3650 3050
-	1    0    0    -1  
-$EndComp
 Text Label 4100 4200 0    50   ~ 0
 SR1OUT2IN
 Wire Wire Line
@@ -220,8 +209,6 @@ Text HLabel 3100 3300 0    50   Input ~ 0
 SRDATA
 Text HLabel 3100 3500 0    50   Input ~ 0
 SRCLK
-Wire Wire Line
-	3650 3050 3650 3100
 $Comp
 L Frequently_Used_LE:+5V #PWR025
 U 1 1 5ED69E0B
@@ -286,7 +273,7 @@ F 3 "" H 2400 5550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2400 5550 2400 5600
-Text Notes 2000 7400 0    79   ~ 16
+Text Notes 1950 7400 0    79   ~ 16
 Shift Register 2
 Text Notes 3200 4900 0    79   ~ 16
 Shift Register 1
@@ -305,19 +292,19 @@ Wire Wire Line
 Wire Wire Line
 	5750 3400 6250 3400
 $Comp
-L Naquadah_Generator:ULN2803ADWRG4 U4
+L Transistor_Array:ULN2803A U4
 U 1 1 5ED3FEF3
-P 6650 3700
-F 0 "U4" H 6650 4465 50  0000 C CNN
-F 1 "ULN2803ADWRG4" H 6650 4374 50  0000 C CNN
-F 2 "Naquadah_Generator:SOIC127P1030X265-18N" H 6350 2800 50  0001 L BNN
-F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590002980089" H 6650 3700 50  0001 L BNN
-F 4 "296-15777-1-ND" H 6650 3700 50  0001 C CNN "Source Part No."
-F 5 "Texas Instruments" H 6650 3700 50  0001 C CNN "Manufacturer Name"
-F 6 "ULN2803ADWR" H 6650 3700 50  0001 C CNN "Manufacturer Part No."
-F 7 "Bipolar (BJT) Transistor Array 8 NPN Darlington 50V 500mA Surface Mount 18-SOIC" H 6650 3700 50  0001 C CNN "Description"
-F 8 "Digikey" H 6650 3700 50  0001 C CNN "Source"
-	1    6650 3700
+P 6650 3600
+F 0 "U4" H 6650 4365 50  0000 C CNN
+F 1 "ULN2803ADWRG4" H 6650 4274 50  0000 C CNN
+F 2 "Naquadah_Generator:SOIC127P1030X265-18N" H 6350 2700 50  0001 L BNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590002980089" H 6650 3600 50  0001 L BNN
+F 4 "296-15777-1-ND" H 6650 3600 50  0001 C CNN "Source Part No."
+F 5 "Texas Instruments" H 6650 3600 50  0001 C CNN "Manufacturer Name"
+F 6 "ULN2803ADWR" H 6650 3600 50  0001 C CNN "Manufacturer Part No."
+F 7 "Bipolar (BJT) Transistor Array 8 NPN Darlington 50V 500mA Surface Mount 18-SOIC" H 6650 3600 50  0001 C CNN "Description"
+F 8 "Digikey" H 6650 3600 50  0001 C CNN "Source"
+	1    6650 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -341,18 +328,16 @@ SRGRNLT
 $Comp
 L Frequently_Used_LE:DGND #PWR0101
 U 1 1 5ED4DB66
-P 7150 4400
-F 0 "#PWR0101" H 7150 4150 50  0001 C CNN
-F 1 "DGND" H 7155 4227 50  0000 C CNN
-F 2 "" H 7150 4400 50  0001 C CNN
-F 3 "" H 7150 4400 50  0001 C CNN
-	1    7150 4400
+P 6650 4400
+F 0 "#PWR0101" H 6650 4150 50  0001 C CNN
+F 1 "DGND" H 6655 4227 50  0000 C CNN
+F 2 "" H 6650 4400 50  0001 C CNN
+F 3 "" H 6650 4400 50  0001 C CNN
+	1    6650 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7050 4300 7150 4300
-Wire Wire Line
-	7150 4300 7150 4400
+	6650 4300 6650 4400
 Wire Wire Line
 	9800 3200 9800 3400
 $Comp
@@ -438,18 +423,31 @@ Wire Wire Line
 Text Label 7100 4000 0    50   ~ 0
 WHTLT
 Wire Wire Line
-	7050 3200 7150 3200
-Wire Wire Line
-	7150 3200 7150 3100
+	3650 3050 3650 3100
+$Comp
+L Frequently_Used_LE:+5V #PWR027
+U 1 1 5ED2A354
+P 3650 3050
+F 0 "#PWR027" H 3650 2900 50  0001 C CNN
+F 1 "+5V" H 3665 3223 50  0000 C CNN
+F 2 "" H 3650 3050 50  0001 C CNN
+F 3 "" H 3650 3050 50  0001 C CNN
+	1    3650 3050
+	1    0    0    -1  
+$EndComp
 $Comp
 L Frequently_Used_LE:+5V #PWR0122
 U 1 1 5EE819EA
-P 7150 3100
-F 0 "#PWR0122" H 7150 2950 50  0001 C CNN
-F 1 "+5V" H 7165 3273 50  0000 C CNN
-F 2 "" H 7150 3100 50  0001 C CNN
-F 3 "" H 7150 3100 50  0001 C CNN
-	1    7150 3100
+P 7150 3200
+F 0 "#PWR0122" H 7150 3050 50  0001 C CNN
+F 1 "+5V" H 7165 3373 50  0000 C CNN
+F 2 "" H 7150 3200 50  0001 C CNN
+F 3 "" H 7150 3200 50  0001 C CNN
+	1    7150 3200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7150 3300 7150 3200
+Wire Wire Line
+	7050 3300 7150 3300
 $EndSCHEMATC

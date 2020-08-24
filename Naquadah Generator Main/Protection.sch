@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 13 15
+Sheet 13 16
 Title "Li-ion 3A Boost 1A Charge Protect"
 Date ""
 Rev "1.0.0"
