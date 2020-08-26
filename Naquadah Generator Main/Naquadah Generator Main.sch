@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 16
+Sheet 1 17
 Title ""
 Date ""
 Rev ""
@@ -28,23 +28,28 @@ Wire Wire Line
 Wire Wire Line
 	4500 4050 4500 4150
 $Sheet
-S 2650 6800 500  400 
+S 1250 6550 650  900 
 U 5ED17BA0
 F0 "Shift Registers" 50
 F1 "Shift Registers.sch" 50
-F2 "SRLATCH" I L 2650 6900 50 
-F3 "SRDATA" I L 2650 7100 50 
-F4 "SRCLK" I L 2650 7000 50 
+F2 "SRLATCH" I L 1250 6650 50 
+F3 "SRDATA" I L 1250 6850 50 
+F4 "SRCLK" I L 1250 6750 50 
+F5 "READY" I L 1250 6950 50 
+F6 "AUDIORESET" I L 1250 7050 50 
+F7 "SNDLATCH" I L 1250 7150 50 
+F8 "SNDON" I L 1250 7250 50 
+F9 "SNDRANDOM" I L 1250 7350 50 
 $EndSheet
 Wire Wire Line
-	2650 6900 2250 6900
-Text Label 2250 6900 0    50   ~ 0
+	1250 6650 650  6650
+Text Label 650  6650 0    50   ~ 0
 SRLATCH
 Wire Wire Line
-	2650 7000 2250 7000
+	1250 6750 650  6750
 Wire Wire Line
-	2650 7100 2250 7100
-Text Label 2250 7000 0    50   ~ 0
+	1250 6850 650  6850
+Text Label 650  6750 0    50   ~ 0
 SRCLK
 Wire Wire Line
 	5250 4050 5150 4050
@@ -77,6 +82,7 @@ F 4 "399-1052-1-ND" H 2600 3650 50  0001 C CNN "Source Part No."
 F 5 "Kemet" H 2600 3650 50  0001 C CNN "Manufacturer Name"
 F 6 "C0603C180J5GACTU" H 2600 3650 50  0001 C CNN "Manufacturer Part No."
 F 7 "Digikey" H 2600 3650 50  0001 C CNN "Source"
+F 8 "18pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)" H 2600 3650 50  0001 C CNN "Description"
 	1    2600 3650
 	0    1    1    0   
 $EndComp
@@ -92,6 +98,7 @@ F 4 "399-1052-1-ND" H 2600 3350 50  0001 C CNN "Source Part No."
 F 5 "Kemet" H 2600 3350 50  0001 C CNN "Manufacturer Name"
 F 6 "C0603C180J5GACTU" H 2600 3350 50  0001 C CNN "Manufacturer Part No."
 F 7 "Digikey" H 2600 3350 50  0001 C CNN "Source"
+F 8 "18pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)" H 2600 3350 50  0001 C CNN "Description"
 	1    2600 3350
 	0    1    1    0   
 $EndComp
@@ -216,7 +223,7 @@ P 3050 1250
 F 0 "C7" H 3100 1350 50  0000 L CNN
 F 1 "0.1uF" H 3100 1150 50  0000 L CNN
 F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 3088 1100 50  0001 C CNN
-F 3 "~" H 3050 1250 50  0001 C CNN
+F 3 "" H 3050 1250 50  0001 C CNN
 	1    3050 1250
 	1    0    0    -1  
 $EndComp
@@ -356,7 +363,7 @@ U 1 1 5EE7AB0D
 P 1150 2800
 F 0 "R1" V 1050 2800 50  0000 C CNN
 F 1 "10k" V 1250 2800 50  0000 C CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" V 1080 2800 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric" V 1080 2800 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 1150 2800 50  0001 C CNN
 F 4 "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) " H 1150 2800 50  0001 C CNN "Description"
 F 5 "KOA Speer Electronics, Inc." H 1150 2800 50  0001 C CNN "Manufacturer Name"
@@ -486,8 +493,8 @@ F 3 "" H 2150 3600 50  0001 C CNN
 $EndComp
 Text Notes 5500 4600 0    79   ~ 16
 ATmega34U4
-Text Notes 2600 7550 0    79   ~ 16
-Lights
+Text Notes 650  7700 0    79   ~ 16
+Lights and Audio Out
 Wire Wire Line
 	6550 1300 7050 1300
 Wire Wire Line
@@ -498,68 +505,52 @@ Wire Wire Line
 	6550 1200 7050 1200
 Text Label 6600 1200 0    50   ~ 0
 SCK
-Text Notes 1200 7500 0    79   ~ 16
+Text Notes 1300 6000 0    79   ~ 16
 Power
-Text Label 2250 7100 0    50   ~ 0
+Text Label 650  6850 0    50   ~ 0
 SRDATA
-Text Label 5700 6400 0    50   ~ 0
+Text Label 4300 6500 0    50   ~ 0
 D+
 Wire Wire Line
-	5700 6400 6100 6400
-Text Label 5700 6500 0    50   ~ 0
+	4250 6500 4650 6500
+Text Label 4300 6600 0    50   ~ 0
 D-
 Wire Wire Line
-	5700 6500 6100 6500
-Text Notes 5950 7550 0    79   ~ 16
+	4250 6600 4650 6600
+Text Notes 3400 7700 0    79   ~ 16
 Connectors
-Text Label 5700 5950 0    50   ~ 0
+Text Label 2850 6500 0    50   ~ 0
 MISO
 Wire Wire Line
-	5700 5950 6100 5950
-$Sheet
-S 6100 5850 650  1350
-U 5EDBBDC8
-F0 "Connectors" 50
-F1 "Connectors.sch" 50
-F2 "MOSI" I L 6100 6050 50 
-F3 "MISO" I L 6100 5950 50 
-F4 "SCK" I L 6100 6150 50 
-F5 "nRESET" I L 6100 6250 50 
-F6 "HALLEFF2" I L 6100 6900 50 
-F7 "HALLEFF1" I L 6100 6800 50 
-F8 "HALLEFF3" I L 6100 7000 50 
-F9 "HALLEFF4" I L 6100 7100 50 
-F10 "D+" I L 6100 6400 50 
-F11 "D-" I L 6100 6500 50 
-$EndSheet
-Text Label 5700 6150 0    50   ~ 0
+	2850 6500 3250 6500
+Text Label 2850 6700 0    50   ~ 0
 SCK
 Wire Wire Line
-	5700 6150 6100 6150
-Text Label 5700 6050 0    50   ~ 0
+	2850 6700 3250 6700
+Text Label 2850 6600 0    50   ~ 0
 MOSI
 Wire Wire Line
-	5700 6050 6100 6050
-Text Label 5700 6250 0    50   ~ 0
+	2850 6600 3250 6600
+Text Label 2850 6800 0    50   ~ 0
 nRESET
 Wire Wire Line
-	5700 6250 6100 6250
-Text Label 5700 7100 0    50   ~ 0
+	2850 6800 3250 6800
+Text Label 2850 7300 0    50   ~ 0
 HALLEFF4
-Text Label 5700 7000 0    50   ~ 0
+Text Label 2850 7200 0    50   ~ 0
 HALLEFF3
 Wire Wire Line
-	6100 7000 5700 7000
+	3250 7200 2850 7200
 Wire Wire Line
-	6100 7100 5700 7100
-Text Label 5700 6900 0    50   ~ 0
+	3250 7300 2850 7300
+Text Label 2850 7100 0    50   ~ 0
 HALLEFF2
-Text Label 5700 6800 0    50   ~ 0
+Text Label 2850 7000 0    50   ~ 0
 HALLEFF1
 Wire Wire Line
-	6100 6800 5700 6800
+	3250 7000 2850 7000
 Wire Wire Line
-	6100 6900 5700 6900
+	3250 7100 2850 7100
 Wire Wire Line
 	9850 1650 9850 1600
 Wire Wire Line
@@ -583,7 +574,7 @@ U 1 1 5EDE0168
 P 9850 1800
 F 0 "R4" V 9750 1800 50  0000 C CNN
 F 1 "1k" V 9950 1800 50  0000 C CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" V 9780 1800 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric" V 9780 1800 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 9850 1800 50  0001 C CNN
 F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 9850 1800 50  0001 C CNN "Description"
 F 5 "KOA Speer Electronics, Inc." H 9850 1800 50  0001 C CNN "Manufacturer Name"
@@ -632,7 +623,7 @@ U 1 1 5EDF2F84
 P 10450 1800
 F 0 "R9" V 10350 1800 50  0000 C CNN
 F 1 "1k" V 10550 1800 50  0000 C CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" V 10380 1800 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric" V 10380 1800 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 10450 1800 50  0001 C CNN
 F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 10450 1800 50  0001 C CNN "Description"
 F 5 "KOA Speer Electronics, Inc." H 10450 1800 50  0001 C CNN "Manufacturer Name"
@@ -675,7 +666,6 @@ F 5 "Microchip Technology" H 5900 2600 50  0001 C CNN "Manufacturer Name"
 F 6 "ATMEGA32U4-AU" H 5900 2600 50  0001 C CNN "Manufacturer Part No."
 F 7 "ATmega Microcontroller IC 8-Bit 16MHz 32KB (16K x 16) FLASH 44-TQFP (10x10)" H 5900 2600 50  0001 C CNN "Description"
 F 8 "Digikey" H 5900 2600 50  0001 C CNN "Source"
-F 9 "ATMEGA32U4-AU-ND" H 5900 2600 50  0001 C CNN "Digikey Part No."
 	1    5900 2600
 	1    0    0    -1  
 $EndComp
@@ -699,17 +689,13 @@ Wire Wire Line
 Text Label 6600 3300 0    50   ~ 0
 D7
 Wire Wire Line
-	6550 1500 7050 1500
-Text Label 6600 1500 0    50   ~ 0
-READY
-Wire Wire Line
 	6550 1600 7050 1600
 Text Label 6600 2400 0    50   ~ 0
 SDA
 Wire Wire Line
 	6550 1700 7050 1700
 Text Label 6600 1700 0    50   ~ 0
-AUDRESET
+AUDIORESET
 Wire Wire Line
 	6550 2500 7050 2500
 Text Label 6600 2500 0    50   ~ 0
@@ -719,21 +705,21 @@ Wire Wire Line
 Text Label 6600 2600 0    50   ~ 0
 TX
 $Sheet
-S 1150 6800 550  400 
+S 1250 5300 650  400 
 U 5EA6751D
 F0 "Power" 50
 F1 "Power.sch" 50
-F2 "READY" I L 1150 6900 50 
-F3 "MODE" I L 1150 7000 50 
-F4 "BATT+" I L 1150 7100 50 
+F2 "BATT+" I L 1250 5400 50 
+F3 "SWITCH" I L 1250 5600 50 
+F4 "BATT-" I L 1250 5500 50 
 $EndSheet
 Wire Wire Line
-	650  7000 1150 7000
-Text Label 650  7000 0    50   ~ 0
+	4250 7000 4650 7000
+Text Label 4300 7000 0    50   ~ 0
 MODESEL
 Wire Wire Line
-	650  6900 1150 6900
-Text Label 650  6900 0    50   ~ 0
+	4250 7100 4650 7100
+Text Label 4300 7100 0    50   ~ 0
 READY
 Text Label 6600 3600 0    50   ~ 0
 HALLEFF2
@@ -766,7 +752,7 @@ D11
 Text Label 6600 2300 0    50   ~ 0
 SCL
 Text Label 6600 3900 0    50   ~ 0
-BATTSENS
+BATT+
 Text Label 6600 4000 0    50   ~ 0
 A0
 Text Label 6600 3700 0    50   ~ 0
@@ -777,29 +763,20 @@ Wire Wire Line
 	7050 3500 6550 3500
 Wire Wire Line
 	7050 3800 6550 3800
-$Sheet
-S 4450 6800 600  400 
-U 5F06C1CA
-F0 "Audio" 50
-F1 "Audio.sch" 50
-F2 "RESET" I L 4450 6900 50 
-F3 "RX" I L 4450 7000 50 
-F4 "TX" I L 4450 7100 50 
-$EndSheet
-Text Notes 4550 7550 0    79   ~ 16
-Audio
+Text Notes 3100 6000 0    79   ~ 16
+Audio Chip and Amp
 Wire Wire Line
-	3950 7000 4450 7000
-Text Label 3950 7100 0    50   ~ 0
+	3100 5250 3700 5250
+Text Label 3100 5350 0    50   ~ 0
 M_RX_A_TX
-Text Label 3950 7000 0    50   ~ 0
+Text Label 3100 5250 0    50   ~ 0
 M_TX_A_RX
 Wire Wire Line
-	3950 7100 4450 7100
+	3100 5350 3700 5350
 Wire Wire Line
-	3950 6900 4450 6900
-Text Label 3950 6900 0    50   ~ 0
-AUDRESET
+	3100 5150 3700 5150
+Text Label 3100 5150 0    50   ~ 0
+AUDIORESET3V
 $Comp
 L Frequently_Used_LE:DGND #PWR017
 U 1 1 5F267B9F
@@ -828,9 +805,9 @@ XTAL2
 Text Label 4750 3250 0    50   ~ 0
 XTAL1
 Wire Wire Line
-	650  7100 1150 7100
-Text Label 650  7100 0    50   ~ 0
-BATTSENS
+	650  5400 1250 5400
+Text Label 650  5400 0    50   ~ 0
+BATT+
 NoConn ~ 7050 1800
 NoConn ~ 7050 2300
 NoConn ~ 7050 2400
@@ -863,4 +840,158 @@ Connection ~ 4500 1200
 Connection ~ 4500 1400
 Wire Wire Line
 	4500 1400 4500 1200
+Wire Wire Line
+	6550 1500 7050 1500
+Wire Wire Line
+	650  6950 1250 6950
+Text Label 650  6950 0    50   ~ 0
+READY
+NoConn ~ 7050 1500
+Wire Wire Line
+	650  7050 1250 7050
+Wire Wire Line
+	650  7150 1250 7150
+Text Label 650  7150 0    50   ~ 0
+SNDLATCH3V
+Wire Wire Line
+	650  7250 1250 7250
+Text Label 650  7250 0    50   ~ 0
+SNDON3V
+Text Label 650  7050 0    50   ~ 0
+AUDIORESET3V
+Wire Wire Line
+	3100 5450 3700 5450
+Text Label 3100 5450 0    50   ~ 0
+SNDLATCH3V
+Wire Wire Line
+	3100 5550 3700 5550
+Text Label 3100 5550 0    50   ~ 0
+SNDON3V
+Wire Wire Line
+	650  7350 1250 7350
+Text Label 650  7350 0    50   ~ 0
+SNDRANDOM3V
+Wire Wire Line
+	3100 5650 3700 5650
+Text Label 3100 5650 0    50   ~ 0
+SNDRANDOM3V
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 60A16BDF
+P 10300 5950
+F 0 "FID1" H 10385 5996 50  0000 L CNN
+F 1 "TOP1" H 10385 5905 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 10300 5950 50  0001 C CNN
+F 3 "None" H 10300 5950 50  0001 C CNN
+	1    10300 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 60A1C8FD
+P 10300 6150
+F 0 "FID2" H 10385 6196 50  0000 L CNN
+F 1 "TOP2" H 10385 6105 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 10300 6150 50  0001 C CNN
+F 3 "None" H 10300 6150 50  0001 C CNN
+	1    10300 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 60A21344
+P 10300 6350
+F 0 "FID3" H 10385 6396 50  0000 L CNN
+F 1 "TOP3" H 10385 6305 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 10300 6350 50  0001 C CNN
+F 3 "None" H 10300 6350 50  0001 C CNN
+	1    10300 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID4
+U 1 1 60A2722E
+P 10800 5950
+F 0 "FID4" H 10885 5996 50  0000 L CNN
+F 1 "BOT1" H 10885 5905 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 10800 5950 50  0001 C CNN
+F 3 "None" H 10800 5950 50  0001 C CNN
+	1    10800 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID5
+U 1 1 60A27234
+P 10800 6150
+F 0 "FID5" H 10885 6196 50  0000 L CNN
+F 1 "BOT2" H 10885 6105 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 10800 6150 50  0001 C CNN
+F 3 "None" H 10800 6150 50  0001 C CNN
+	1    10800 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID6
+U 1 1 60A2723A
+P 10800 6350
+F 0 "FID6" H 10885 6396 50  0000 L CNN
+F 1 "BOT3" H 10885 6305 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 10800 6350 50  0001 C CNN
+F 3 "None" H 10800 6350 50  0001 C CNN
+	1    10800 6350
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 3250 6400 1000 1050
+U 5EDBBDC8
+F0 "Connectors" 50
+F1 "Connectors.sch" 50
+F2 "MOSI" I L 3250 6600 50 
+F3 "MISO" I L 3250 6500 50 
+F4 "SCK" I L 3250 6700 50 
+F5 "nRESET" I L 3250 6800 50 
+F6 "HALLEFF2" I L 3250 7100 50 
+F7 "HALLEFF1" I L 3250 7000 50 
+F8 "HALLEFF3" I L 3250 7200 50 
+F9 "HALLEFF4" I L 3250 7300 50 
+F10 "D+" I R 4250 6500 50 
+F11 "D-" I R 4250 6600 50 
+F12 "BATT-" I R 4250 7300 50 
+F13 "BATT+" I R 4250 7200 50 
+F14 "MODE" I R 4250 7000 50 
+F15 "READY" I R 4250 7100 50 
+F16 "SWITCH" I R 4250 6900 50 
+$EndSheet
+Wire Wire Line
+	650  5500 1250 5500
+Text Label 650  5500 0    50   ~ 0
+BATT-
+Wire Wire Line
+	650  5600 1250 5600
+Text Label 650  5600 0    50   ~ 0
+SWITCH
+Wire Wire Line
+	4250 7200 4650 7200
+Text Label 4300 7200 0    50   ~ 0
+BATT+
+Wire Wire Line
+	4250 7300 4650 7300
+Text Label 4300 7300 0    50   ~ 0
+BATT-
+$Sheet
+S 3700 5050 650  700 
+U 5F06C1CA
+F0 "Audio" 50
+F1 "Audio.sch" 50
+F2 "RESET" I L 3700 5150 50 
+F3 "RX" I L 3700 5250 50 
+F4 "TX" I L 3700 5350 50 
+F5 "SNDLATCH" I L 3700 5450 50 
+F6 "SNDON" I L 3700 5550 50 
+F7 "SNDRANDOM" I L 3700 5650 50 
+$EndSheet
+Wire Wire Line
+	4250 6900 4650 6900
+Text Label 4300 6900 0    50   ~ 0
+SWITCH
 $EndSCHEMATC

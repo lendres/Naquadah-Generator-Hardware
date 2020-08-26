@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 13 16
+Sheet 13 17
 Title "Li-ion 3A Boost 1A Charge Protect"
 Date ""
 Rev "1.0.0"
@@ -37,7 +37,7 @@ U 1 1 5ECB2DAF
 P 6200 3550
 F 0 "R32" V 6100 3450 59  0000 L CNN
 F 1 "2.7k" V 6300 3450 59  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 6200 3550 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric" H 6200 3550 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 6200 3550 50  0001 C CNN
 F 4 "2.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 6200 3550 50  0001 C CNN "Description"
 F 5 "2019-RK73H2ATTD2701FCT-ND" H 6200 3550 50  0001 C CNN "Source Part No."
@@ -119,7 +119,7 @@ U 1 1 5EC910DA
 P 4450 3000
 F 0 "R31" V 4350 2900 59  0000 L CNN
 F 1 "330" V 4550 2900 59  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 4450 3000 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric" H 4450 3000 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 4450 3000 50  0001 C CNN
 F 4 "330 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 4450 3000 50  0001 C CNN "Description"
 F 5 "2019-RK73H2ATTD3300FCT-ND" H 4450 3000 50  0001 C CNN "Source Part No."

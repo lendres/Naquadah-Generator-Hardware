@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 16
+Sheet 17 17
 Title ""
 Date ""
 Rev ""
@@ -21,8 +21,8 @@ AR Path="/5FCC60C1" Ref="P?"  Part="1"
 AR Path="/5EDBBDC8/5FCC60C1" Ref="P?"  Part="1" 
 AR Path="/5F06C1CA/5FCC60C1" Ref="P?"  Part="1" 
 AR Path="/5F06C1CA/5FC97A5A/5FCC60C1" Ref="P2"  Part="1" 
-F 0 "P2" H 4400 4300 50  0000 L CNN
-F 1 "USB_C_Plug_USB2.0" H 4400 4200 50  0000 L CNN
+F 0 "P2" H 4300 4300 50  0000 L CNN
+F 1 "USB_C_Plug_USB2.0" H 4300 4200 50  0000 L CNN
 F 2 "Connectors_LE:2047110001" H 4750 2650 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/2047110001_sd.pdf" H 4750 2650 50  0001 C CNN
 F 4 "USB-C 2.0 Female SMD Connector" H 4650 3150 50  0001 C CNN "Description"
@@ -160,11 +160,11 @@ Wire Wire Line
 	7250 4850 7650 4850
 $Comp
 L Connector_Generic:Conn_01x04 J?
-U 1 1 5FCC6131
+U 1 1 5FE848B3
 P 7050 4950
-AR Path="/5EDBBDC8/5FCC6131" Ref="J?"  Part="1" 
-AR Path="/5F06C1CA/5FCC6131" Ref="J?"  Part="1" 
-AR Path="/5F06C1CA/5FC97A5A/5FCC6131" Ref="J4"  Part="1" 
+AR Path="/5EDBBDC8/5FE848B3" Ref="J?"  Part="1" 
+AR Path="/5F06C1CA/5FE848B3" Ref="J?"  Part="1" 
+AR Path="/5F06C1CA/5FC97A5A/5FE848B3" Ref="J4"  Part="1" 
 F 0 "J4" H 6968 4525 50  0000 C CNN
 F 1 "USB Solder Pads" H 6968 4616 50  0000 C CNN
 F 2 "Naquadah_Generator:WireSoldPads_1x4_WOL" H 7050 4950 50  0001 C CNN
@@ -173,6 +173,7 @@ F 4 "None" H 7050 4950 50  0001 C CNN "Description"
 F 5 "None" H 7050 4950 50  0001 C CNN "Source Part No."
 F 6 "None" H 7050 4950 50  0001 C CNN "Manufacturer Name"
 F 7 "None" H 7050 4950 50  0001 C CNN "Manufacturer Part No."
+F 8 "None" H 7050 4950 50  0001 C CNN "Source"
 	1    7050 4950
 	-1   0    0    1   
 $EndComp
@@ -193,14 +194,14 @@ Wire Wire Line
 	3750 4650 4000 4650
 $Comp
 L Frequently_Used_LE:R R?
-U 1 1 5FCC614B
+U 1 1 5FE848B4
 P 4400 4900
-AR Path="/5EDBBDC8/5FCC614B" Ref="R?"  Part="1" 
-AR Path="/5F06C1CA/5FCC614B" Ref="R?"  Part="1" 
-AR Path="/5F06C1CA/5FC97A5A/5FCC614B" Ref="R48"  Part="1" 
+AR Path="/5EDBBDC8/5FE848B4" Ref="R?"  Part="1" 
+AR Path="/5F06C1CA/5FE848B4" Ref="R?"  Part="1" 
+AR Path="/5F06C1CA/5FC97A5A/5FE848B4" Ref="R48"  Part="1" 
 F 0 "R48" H 4470 4946 50  0000 L CNN
 F 1 "1M" H 4470 4855 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" V 4330 4900 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric" V 4330 4900 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 4400 4900 50  0001 C CNN
 F 4 "1 MOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric)" H 4400 4900 50  0001 C CNN "Description"
 F 5 "KOA Speer Electronics, Inc." H 4400 4900 50  0001 C CNN "Manufacturer Name"
@@ -243,7 +244,7 @@ AR Path="/5F06C1CA/5FCC616E" Ref="R?"  Part="1"
 AR Path="/5F06C1CA/5FC97A5A/5FCC616E" Ref="R50"  Part="1" 
 F 0 "R50" H 5830 4854 50  0000 R CNN
 F 1 "5.1k" H 5830 4945 50  0000 R CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" V 5830 4900 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric" V 5830 4900 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 5900 4900 50  0001 C CNN
 F 4 "5.1 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) " H 5900 4900 50  0001 C CNN "Description"
 F 5 "KOA Speer Electronics, Inc." H 5900 4900 50  0001 C CNN "Manufacturer Name"
@@ -262,7 +263,7 @@ AR Path="/5F06C1CA/5FCC6179" Ref="R?"  Part="1"
 AR Path="/5F06C1CA/5FC97A5A/5FCC6179" Ref="R49"  Part="1" 
 F 0 "R49" H 5480 4854 50  0000 R CNN
 F 1 "5.1k" H 5480 4945 50  0000 R CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" V 5480 4900 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric" V 5480 4900 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 5550 4900 50  0001 C CNN
 F 4 "5.1 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) " H 5550 4900 50  0001 C CNN "Description"
 F 5 "KOA Speer Electronics, Inc." H 5550 4900 50  0001 C CNN "Manufacturer Name"
@@ -321,14 +322,14 @@ F 8 "Digikey" H 6800 2850 50  0001 C CNN "Source"
 $EndComp
 $Comp
 L Frequently_Used_LE:R R?
-U 1 1 5FCC61B2
+U 1 1 5FE848B9
 P 7500 3700
-AR Path="/5EDBBDC8/5FCC61B2" Ref="R?"  Part="1" 
-AR Path="/5F06C1CA/5FCC61B2" Ref="R?"  Part="1" 
-AR Path="/5F06C1CA/5FC97A5A/5FCC61B2" Ref="R51"  Part="1" 
+AR Path="/5EDBBDC8/5FE848B9" Ref="R?"  Part="1" 
+AR Path="/5F06C1CA/5FE848B9" Ref="R?"  Part="1" 
+AR Path="/5F06C1CA/5FC97A5A/5FE848B9" Ref="R51"  Part="1" 
 F 0 "R51" V 7450 3700 50  0000 C BNN
 F 1 "5.1k" V 7550 3700 50  0000 C TNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" V 7430 3700 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric" V 7430 3700 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 7500 3700 50  0001 C CNN
 F 4 "5.1 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) " H 7500 3700 50  0001 C CNN "Description"
 F 5 "KOA Speer Electronics, Inc." H 7500 3700 50  0001 C CNN "Manufacturer Name"
@@ -351,7 +352,7 @@ AR Path="/5F06C1CA/5FCC61BF" Ref="R?"  Part="1"
 AR Path="/5F06C1CA/5FC97A5A/5FCC61BF" Ref="R52"  Part="1" 
 F 0 "R52" V 7450 3950 50  0000 C BNN
 F 1 "5.1k" V 7550 3950 50  0000 C TNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" V 7430 3950 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric" V 7430 3950 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 7500 3950 50  0001 C CNN
 F 4 "5.1 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) " H 7500 3950 50  0001 C CNN "Description"
 F 5 "KOA Speer Electronics, Inc." H 7500 3950 50  0001 C CNN "Manufacturer Name"

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 16
+Sheet 3 17
 Title ""
 Date ""
 Rev ""
@@ -58,10 +58,13 @@ AR Path="/5ED17BA0/5ED2A30A/5E9DC34C" Ref="R20"  Part="1"
 AR Path="/5ED17BA0/5ED2A30D/5E9DC34C" Ref="R25"  Part="1" 
 F 0 "R25" H 5870 3746 50  0000 L CNN
 F 1 "330" H 5870 3655 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" V 5730 3700 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric" V 5730 3700 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 5800 3700 50  0001 C CNN
 F 4 "KOA Speer Electronics, Inc." H 5800 3700 50  0001 C CNN "Manufacturer Name"
 F 5 "Digikey" H 5800 3700 50  0001 C CNN "Source"
+F 6 "330 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 5800 3700 50  0001 C CNN "Description"
+F 7 "RK73H2ATTD3300F" H 5800 3700 50  0001 C CNN "Manufacturer Part No."
+F 8 "2019-RK73H2ATTD3300FCT-ND" H 5800 3700 50  0001 C CNN "Source Part No."
 	1    5800 3700
 	1    0    0    -1  
 $EndComp
@@ -84,10 +87,13 @@ AR Path="/5ED17BA0/5ED2A30A/5E9DC352" Ref="R21"  Part="1"
 AR Path="/5ED17BA0/5ED2A30D/5E9DC352" Ref="R26"  Part="1" 
 F 0 "R26" H 6270 3746 50  0000 L CNN
 F 1 "330" H 6270 3655 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" V 6130 3700 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric" V 6130 3700 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 6200 3700 50  0001 C CNN
 F 4 "KOA Speer Electronics, Inc." H 6200 3700 50  0001 C CNN "Manufacturer Name"
 F 5 "Digikey" H 6200 3700 50  0001 C CNN "Source"
+F 6 "330 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 6200 3700 50  0001 C CNN "Description"
+F 7 "RK73H2ATTD3300F" H 6200 3700 50  0001 C CNN "Manufacturer Part No."
+F 8 "2019-RK73H2ATTD3300FCT-ND" H 6200 3700 50  0001 C CNN "Source Part No."
 	1    6200 3700
 	1    0    0    -1  
 $EndComp
@@ -112,10 +118,13 @@ AR Path="/5ED17BA0/5ED2A30A/5E9E70F0" Ref="R22"  Part="1"
 AR Path="/5ED17BA0/5ED2A30D/5E9E70F0" Ref="R27"  Part="1" 
 F 0 "R27" H 6670 3746 50  0000 L CNN
 F 1 "330" H 6670 3655 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" V 6530 3700 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric" V 6530 3700 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 6600 3700 50  0001 C CNN
 F 4 "KOA Speer Electronics, Inc." H 6600 3700 50  0001 C CNN "Manufacturer Name"
 F 5 "Digikey" H 6600 3700 50  0001 C CNN "Source"
+F 6 "330 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 6600 3700 50  0001 C CNN "Description"
+F 7 "RK73H2ATTD3300F" H 6600 3700 50  0001 C CNN "Manufacturer Part No."
+F 8 "2019-RK73H2ATTD3300FCT-ND" H 6600 3700 50  0001 C CNN "Source Part No."
 	1    6600 3700
 	1    0    0    -1  
 $EndComp
@@ -135,10 +144,13 @@ AR Path="/5ED17BA0/5ED2A30A/5E9E70F2" Ref="R23"  Part="1"
 AR Path="/5ED17BA0/5ED2A30D/5E9E70F2" Ref="R28"  Part="1" 
 F 0 "R28" H 7070 3746 50  0000 L CNN
 F 1 "330" H 7070 3655 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" V 6930 3700 50  0001 C CNN
+F 2 "Frequently_Used_LE:0805_2012Metric" V 6930 3700 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 7000 3700 50  0001 C CNN
 F 4 "KOA Speer Electronics, Inc." H 7000 3700 50  0001 C CNN "Manufacturer Name"
 F 5 "Digikey" H 7000 3700 50  0001 C CNN "Source"
+F 6 "330 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 7000 3700 50  0001 C CNN "Description"
+F 7 "RK73H2ATTD3300F" H 7000 3700 50  0001 C CNN "Manufacturer Part No."
+F 8 "2019-RK73H2ATTD3300FCT-ND" H 7000 3700 50  0001 C CNN "Source Part No."
 	1    7000 3700
 	1    0    0    -1  
 $EndComp
