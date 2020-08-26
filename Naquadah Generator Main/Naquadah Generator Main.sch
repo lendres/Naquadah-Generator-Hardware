@@ -494,7 +494,7 @@ $EndComp
 Text Notes 5500 4600 0    79   ~ 16
 ATmega34U4
 Text Notes 650  7700 0    79   ~ 16
-Lights and Audio Out
+Audio and Visual Out
 Wire Wire Line
 	6550 1300 7050 1300
 Wire Wire Line
