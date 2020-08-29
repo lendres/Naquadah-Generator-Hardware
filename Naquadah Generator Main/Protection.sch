@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 13 17
+Sheet 12 18
 Title "Li-ion 3A Boost 1A Charge Protect"
 Date ""
 Rev "1.0.0"
@@ -37,12 +37,12 @@ U 1 1 5ECB2DAF
 P 6200 3550
 F 0 "R32" V 6100 3450 59  0000 L CNN
 F 1 "2.7k" V 6300 3450 59  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric" H 6200 3550 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 6200 3550 50  0001 C CNN
-F 4 "2.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 6200 3550 50  0001 C CNN "Description"
-F 5 "2019-RK73H2ATTD2701FCT-ND" H 6200 3550 50  0001 C CNN "Source Part No."
-F 6 "RK73H2ATTD2701F" H 6200 3550 50  0001 C CNN "Manufacturer Part No."
-F 7 "KOA Speer Electronics, Inc." H 6200 3550 50  0001 C CNN "Manufacturer Name"
+F 2 "Frequently_Used_LE:0603_1608Metric" H 6200 3550 50  0001 C CNN
+F 3 "https://d1d2qsbl8m0m72.cloudfront.net/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf" H 6200 3550 50  0001 C CNN
+F 4 "2.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film" H 6200 3550 50  0001 C CNN "Description"
+F 5 "RHM2.70KADCT-ND" H 6200 3550 50  0001 C CNN "Source Part No."
+F 6 "ESR03EZPF2701" H 6200 3550 50  0001 C CNN "Manufacturer Part No."
+F 7 "Rohm Semiconductor" H 6200 3550 50  0001 C CNN "Manufacturer Name"
 F 8 "Digikey" H 6200 3550 50  0001 C CNN "Source"
 	1    6200 3550
 	1    0    0    -1  
@@ -87,12 +87,12 @@ L Frequently_Used_LE:C C9
 U 1 1 5ED1BD18
 P 4700 3600
 F 0 "C9" V 4650 3650 50  0000 L CNN
-F 1 "100nF" V 4750 3650 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric" H 4738 3450 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 4700 3600 50  0001 C CNN
-F 4 "0.1µF ±20% 50V Ceramic Capacitor X7R 0805 (2012 Metric)" H 4700 3600 50  0001 C CNN "Description"
-F 5 "1276-2450-1-ND" H 4700 3600 50  0001 C CNN "Source Part No."
-F 6 "CL21B104MBCNNNC" H 4700 3600 50  0001 C CNN "Manufacturer Part No."
+F 1 "0.1uF" V 4750 3650 50  0000 L CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" H 4738 3450 50  0001 C CNN
+F 3 "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf" H 4700 3600 50  0001 C CNN
+F 4 "	0.1µF -20%, +80% 16V Ceramic Capacitor Y5V (F) 0603 (1608 Metric)" H 4700 3600 50  0001 C CNN "Description"
+F 5 "1276-1258-1-ND" H 4700 3600 50  0001 C CNN "Source Part No."
+F 6 "CL10F104ZO8NNNC" H 4700 3600 50  0001 C CNN "Manufacturer Part No."
 F 7 "Samsung Electro-Mechanics" H 4700 3600 50  0001 C CNN "Manufacturer Name"
 F 8 "Digikey" H 4700 3600 50  0001 C CNN "Source"
 	1    4700 3600
@@ -119,12 +119,12 @@ U 1 1 5EC910DA
 P 4450 3000
 F 0 "R31" V 4350 2900 59  0000 L CNN
 F 1 "330" V 4550 2900 59  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric" H 4450 3000 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 4450 3000 50  0001 C CNN
-F 4 "330 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 4450 3000 50  0001 C CNN "Description"
-F 5 "2019-RK73H2ATTD3300FCT-ND" H 4450 3000 50  0001 C CNN "Source Part No."
-F 6 "RK73H2ATTD3300F" H 4450 3000 50  0001 C CNN "Manufacturer Part No."
-F 7 "KOA Speer Electronics, Inc." H 4450 3000 50  0001 C CNN "Manufacturer Name"
+F 2 "Frequently_Used_LE:0603_1608Metric" H 4450 3000 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20065/rcse3.pdf" H 4450 3000 50  0001 C CNN
+F 4 "330 Ohms ±1% 0.25W, 1/4W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film" H 4450 3000 50  0001 C CNN "Description"
+F 5 "541-10456-1-ND" H 4450 3000 50  0001 C CNN "Source Part No."
+F 6 "RCS0603330RFKEA" H 4450 3000 50  0001 C CNN "Manufacturer Part No."
+F 7 "Vishay Dale" H 4450 3000 50  0001 C CNN "Manufacturer Name"
 F 8 "Digikey" H 4450 3000 50  0001 C CNN "Source"
 	1    4450 3000
 	0    1    1    0   

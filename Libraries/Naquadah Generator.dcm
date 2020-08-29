@@ -28,24 +28,6 @@ K switch normally-open pushbutton push-button
 F ~
 $ENDCMP
 #
-$CMP Power_Daughter_4_Pin_Conn
-D Connector from mother board to power daughter board
-K connector
-F http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-$ENDCMP
-#
-$CMP Power_Daughter_5_Pin_Conn
-D Connector from mother board to power daughter board
-K connector
-F http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-$ENDCMP
-#
-$CMP Power_Daughter_6_Pin_Conn
-D Connector from mother board to power daughter board
-K connector
-F http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
-$ENDCMP
-#
 $CMP State_Sensing_Conn
 D Connector from mother board to state sensing daughter board
 K connector
@@ -55,6 +37,24 @@ $ENDCMP
 $CMP ULN2803ADWRG4
 D Bipolar (BJT) Transistor Array 8 NPN Darlington 50V 500mA Surface Mount 18-SOIC
 F http://www.ti.com/lit/ds/symlink/uln2803a.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590002980089
+$ENDCMP
+#
+$CMP User_Interface_4_Pin_Conn
+D Connector from mother board to power daughter board
+K connector
+F http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+$ENDCMP
+#
+$CMP User_Interface_5_Pin_Conn
+D Connector from mother board to power daughter board
+K connector
+F http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+$ENDCMP
+#
+$CMP User_Interface_6_Pin_Conn
+D Connector from mother board to power daughter board
+K connector
+F http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
 $ENDCMP
 #
 $CMP WireAssembly

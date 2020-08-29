@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 17
+Sheet 2 18
 Title ""
 Date ""
 Rev ""
@@ -60,66 +60,64 @@ F 3 "" H 1500 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 9900 3550 500  200 
+S 9900 3450 500  200 
 U 5ED2A301
 F0 "Blue Lights 2" 50
 F1 "BlueLights.sch" 50
-F2 "COLLECTOR" I L 9900 3650 50 
+F2 "COLLECTOR" I L 9900 3550 50 
 $EndSheet
 $Sheet
-S 9900 4000 500  200 
+S 9900 3900 500  200 
 U 5ED2A304
 F0 "Blue Lights 3" 50
 F1 "BlueLights.sch" 50
-F2 "COLLECTOR" I L 9900 4100 50 
+F2 "COLLECTOR" I L 9900 4000 50 
 $EndSheet
 $Sheet
-S 9900 4450 500  200 
+S 9900 4350 500  200 
 U 5ED2A307
 F0 "Blue Lights 4" 50
 F1 "BlueLights.sch" 50
-F2 "COLLECTOR" I L 9900 4550 50 
+F2 "COLLECTOR" I L 9900 4450 50 
 $EndSheet
 $Sheet
-S 9900 4900 500  200 
+S 9900 4800 500  200 
 U 5ED2A30A
 F0 "Blue Lights 5" 50
 F1 "BlueLights.sch" 50
-F2 "COLLECTOR" I L 9900 5000 50 
+F2 "COLLECTOR" I L 9900 4900 50 
 $EndSheet
 $Sheet
-S 9900 3100 500  200 
+S 9900 3000 500  200 
 U 5ED2A30D
 F0 "Blue Lights 1" 50
 F1 "BlueLights.sch" 50
-F2 "COLLECTOR" I L 9900 3200 50 
+F2 "COLLECTOR" I L 9900 3100 50 
 $EndSheet
 NoConn ~ 3150 4700
 NoConn ~ 3150 4600
 NoConn ~ 3150 4500
-Text Label 9450 5000 0    50   ~ 0
+Text Label 9450 4900 0    50   ~ 0
 BLUELT5
-Text Label 9450 4550 0    50   ~ 0
+Text Label 9450 4450 0    50   ~ 0
 BLUELT4
-Text Label 9450 4100 0    50   ~ 0
+Text Label 9450 4000 0    50   ~ 0
 BLUELT3
-Text Label 9450 3650 0    50   ~ 0
+Text Label 9450 3550 0    50   ~ 0
 BLUELT2
-Text Label 9450 3200 0    50   ~ 0
+Text Label 9450 3100 0    50   ~ 0
 BLUELT1
 $Sheet
-S 9900 1950 500  200 
+S 9900 2050 500  200 
 U 5ED2A32F
 F0 "Red Lights" 50
 F1 "GreenRedLights.sch" 50
-F2 "COLLECTOR" I L 9900 2050 50 
+F2 "COLLECTOR" I L 9900 2150 50 
 $EndSheet
-Text Label 9450 1600 0    50   ~ 0
+Text Label 9450 1700 0    50   ~ 0
 GRNLT
-Text Label 9450 2050 0    50   ~ 0
+Text Label 9450 2150 0    50   ~ 0
 RDLT
-Text Label 9450 2850 0    50   ~ 0
-WHTLT
 Wire Wire Line
 	3150 1900 3650 1900
 Wire Wire Line
@@ -161,44 +159,26 @@ SRRDLT
 Text Label 3200 1900 0    50   ~ 0
 SRWHTLT
 $Sheet
-S 9900 1500 500  200 
+S 9900 1600 500  200 
 U 5ED2A36D
 F0 "Green Lights" 50
 F1 "GreenRedLights.sch" 50
-F2 "COLLECTOR" I L 9900 1600 50 
+F2 "COLLECTOR" I L 9900 1700 50 
 $EndSheet
 Wire Wire Line
-	9900 1600 9450 1600
+	9900 1700 9450 1700
 Wire Wire Line
-	10400 2850 9450 2850
+	9900 2150 9450 2150
 Wire Wire Line
-	9900 2050 9450 2050
+	9900 3100 9450 3100
 Wire Wire Line
-	9900 3200 9450 3200
+	9900 3550 9450 3550
 Wire Wire Line
-	9900 3650 9450 3650
+	9900 4900 9450 4900
 Wire Wire Line
-	9900 5000 9450 5000
+	9900 4450 9450 4450
 Wire Wire Line
-	9900 4550 9450 4550
-Wire Wire Line
-	9900 4100 9450 4100
-$Comp
-L 74xx:74HC595 U2
-U 1 1 5ED2A2DB
-P 2750 2100
-F 0 "U2" H 2950 2750 50  0000 L CNN
-F 1 "74HC595" H 2950 2650 50  0000 L CNN
-F 2 "Naquadah_Generator:SOIC-16_3.9x9.9mm_P1.27mm_Hand_Solder" H 2750 2100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590028307018" H 2750 2100 50  0001 C CNN
-F 4 "296-14857-1-ND" H 2750 2100 50  0001 C CNN "Source Part No."
-F 5 "Texas Instruments" H 2750 2100 50  0001 C CNN "Manufacturer Name"
-F 6 "SN74HC595DR" H 2750 2100 50  0001 C CNN "Manufacturer Part No."
-F 7 "Shift Register 1 Element 8 Bit 16-SOIC" H 2750 2100 50  0001 C CNN "Description"
-F 8 "Digikey" H 2750 2100 50  0001 C CNN "Source"
-	1    2750 2100
-	1    0    0    -1  
-$EndComp
+	9900 4000 9450 4000
 Text HLabel 2200 2200 0    50   Input ~ 0
 SRLATCH
 Text HLabel 2200 1700 0    50   Input ~ 0
@@ -291,8 +271,8 @@ $Comp
 L Transistor_Array:ULN2803A U4
 U 1 1 5ED3FEF3
 P 5750 2000
-F 0 "U4" H 5750 2765 50  0000 C CNN
-F 1 "ULN2803ADWRG4" H 5750 2674 50  0000 C CNN
+F 0 "U4" H 5750 2550 50  0000 C CNN
+F 1 "ULN2803ADWRG4" H 5750 2450 50  0000 C CNN
 F 2 "Naquadah_Generator:SOIC127P1030X265-18N" H 5450 1100 50  0001 L BNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2803a.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590002980089" H 5750 2000 50  0001 L BNN
 F 4 "296-15777-1-ND" H 5750 2000 50  0001 C CNN "Source Part No."
@@ -334,44 +314,6 @@ F 3 "" H 5750 2800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5750 2700 5750 2800
-Wire Wire Line
-	10400 2650 10400 2850
-$Comp
-L power:+5V #PWR?
-U 1 1 5ED5733C
-P 10400 2500
-AR Path="/5ED17BA0/5ED2A32C/5ED5733C" Ref="#PWR?"  Part="1" 
-AR Path="/5ED17BA0/5ED5733C" Ref="#PWR0102"  Part="1" 
-F 0 "#PWR0102" H 10400 2350 50  0001 C CNN
-F 1 "+5V" H 10415 2673 50  0000 C CNN
-F 2 "" H 10400 2500 50  0001 C CNN
-F 3 "" H 10400 2500 50  0001 C CNN
-	1    10400 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10400 2500 10400 2550
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5ED57335
-P 10200 2650
-AR Path="/5EA45E37/5ED57335" Ref="J?"  Part="1" 
-AR Path="/5EA4676F/5ED57335" Ref="J?"  Part="1" 
-AR Path="/5EA46A2B/5ED57335" Ref="J?"  Part="1" 
-AR Path="/5ED17BA0/5ED2A32C/5ED57335" Ref="J?"  Part="1" 
-AR Path="/5ED17BA0/5ED57335" Ref="J3"  Part="1" 
-F 0 "J3" H 10750 2550 50  0000 R CNN
-F 1 "Conn_01x02" H 10750 2650 50  0000 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1.2mm" H 10200 2650 50  0001 C CNN
-F 3 "None" H 10200 2650 50  0001 C CNN
-F 4 "None" H 10200 2650 50  0001 C CNN "Description"
-F 5 "None" H 10200 2650 50  0001 C CNN "Manufacturer Name"
-F 6 "None" H 10200 2650 50  0001 C CNN "Manufacturer Part No."
-F 7 "None" H 10200 2650 50  0001 C CNN "Source"
-F 8 "None" H 10200 2650 50  0001 C CNN "Source Part No."
-	1    10200 2650
-	-1   0    0    1   
-$EndComp
 Text Label 6200 2300 0    50   ~ 0
 BLUELT5
 Text Label 6200 2200 0    50   ~ 0
@@ -404,8 +346,8 @@ $Comp
 L 74xx:74HC595 U3
 U 1 1 5ED2A2E1
 P 2750 4400
-F 0 "U3" H 2950 5050 50  0000 L CNN
-F 1 "74HC595" H 2950 4950 50  0000 L CNN
+F 0 "U3" H 2850 5050 50  0000 L CNN
+F 1 "74HC595" H 2850 4950 50  0000 L CNN
 F 2 "Naquadah_Generator:SOIC-16_3.9x9.9mm_P1.27mm_Hand_Solder" H 2750 4400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590028307018" H 2750 4400 50  0001 C CNN
 F 4 "296-14857-1-ND" H 2750 4400 50  0001 C CNN "Source Part No."
@@ -451,11 +393,11 @@ Wire Wire Line
 Wire Wire Line
 	6150 1700 6250 1700
 $Comp
-L 74xx~LE:CD74HC4050PWR U12
+L 74xx_LE:CD74HC4050PWR U12
 U 1 1 6075B9A1
 P 5750 4550
-F 0 "U12" H 5750 5165 50  0000 C CNN
-F 1 "CD74HC4050PWR" H 5750 5074 50  0000 C CNN
+F 0 "U12" H 5750 5150 50  0000 C CNN
+F 1 "CD74HC4050PWR" H 5750 5050 50  0000 C CNN
 F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 5750 3950 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/cd74hc4049.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1598393766631" H 5200 4900 50  0001 C CNN
 F 4 "Buffer, Non-Inverting 6 Element 1 Bit per Element Push-Pull Output" H 5750 3850 50  0001 C CNN "Description"
@@ -554,4 +496,26 @@ NoConn ~ 6300 4700
 NoConn ~ 6300 4800
 NoConn ~ 5200 4700
 NoConn ~ 5200 4800
+Text Label 9450 2650 0    50   ~ 0
+WHTLT
+Wire Wire Line
+	10050 2650 9450 2650
+Text HLabel 10050 2650 2    50   Input ~ 0
+WHITELT
+$Comp
+L 74xx:74HC595 U2
+U 1 1 5ED2A2DB
+P 2750 2100
+F 0 "U2" H 2850 2750 50  0000 L CNN
+F 1 "74HC595" H 2850 2650 50  0000 L CNN
+F 2 "Naquadah_Generator:SOIC-16_3.9x9.9mm_P1.27mm_Hand_Solder" H 2750 2100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1590028307018" H 2750 2100 50  0001 C CNN
+F 4 "296-14857-1-ND" H 2750 2100 50  0001 C CNN "Source Part No."
+F 5 "Texas Instruments" H 2750 2100 50  0001 C CNN "Manufacturer Name"
+F 6 "SN74HC595DR" H 2750 2100 50  0001 C CNN "Manufacturer Part No."
+F 7 "Shift Register 1 Element 8 Bit 16-SOIC" H 2750 2100 50  0001 C CNN "Description"
+F 8 "Digikey" H 2750 2100 50  0001 C CNN "Source"
+	1    2750 2100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

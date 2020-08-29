@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 10 17
+Sheet 10 18
 Title "Li-ion 3A Boost 1A Charge Protect"
 Date ""
 Rev "1.0.0"
@@ -51,12 +51,12 @@ U 1 1 5EDD5F2C
 P 3900 5250
 F 0 "R33" V 4000 5250 59  0000 C CNN
 F 1 "100" V 3800 5250 59  0000 C CNN
-F 2 "Frequently_Used_LE:0805_2012Metric" H 3900 5250 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 3900 5250 50  0001 C CNN
-F 4 "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 3900 5250 50  0001 C CNN "Description"
-F 5 "2019-RK73H2ATTD1000FCT-ND" H 3900 5250 50  0001 C CNN "Source Part No."
-F 6 "RK73H2ATTD1000F" H 3900 5250 50  0001 C CNN "Manufacturer Part No."
-F 7 "KOA Speer Electronics, Inc." H 3900 5250 50  0001 C CNN "Manufacturer Name"
+F 2 "Frequently_Used_LE:0603_1608Metric" H 3900 5250 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" H 3900 5250 50  0001 C CNN
+F 4 "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film" H 3900 5250 50  0001 C CNN "Description"
+F 5 "P100BYCT-ND" H 3900 5250 50  0001 C CNN "Source Part No."
+F 6 "ERJ-PA3F1000V" H 3900 5250 50  0001 C CNN "Manufacturer Part No."
+F 7 "Panasonic Electronic Components" H 3900 5250 50  0001 C CNN "Manufacturer Name"
 F 8 "Digikey" H 3900 5250 50  0001 C CNN "Source"
 	1    3900 5250
 	0    -1   -1   0   
@@ -67,12 +67,12 @@ U 1 1 5ED9A5CF
 P 3300 5000
 F 0 "R2" V 3200 5000 59  0000 C CNN
 F 1 "1k" V 3400 5000 59  0000 C CNN
-F 2 "Frequently_Used_LE:0805_2012Metric" H 3300 5000 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 3300 5000 50  0001 C CNN
-F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) " H 3300 5000 50  0001 C CNN "Description"
-F 5 "2019-RK73H2ATTD1001FCT-ND" H 3300 5000 50  0001 C CNN "Source Part No."
-F 6 "RK73H2ATTD1001F" H 3300 5000 50  0001 C CNN "Manufacturer Part No."
-F 7 "KOA Speer Electronics, Inc." H 3300 5000 50  0001 C CNN "Manufacturer Name"
+F 2 "Frequently_Used_LE:0603_1608Metric" H 3300 5000 50  0001 C CNN
+F 3 "https://d1d2qsbl8m0m72.cloudfront.net/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf" H 3300 5000 50  0001 C CNN
+F 4 "1 kOhms ±1% 0.25W, 1/4W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film" H 3300 5000 50  0001 C CNN "Description"
+F 5 "RHM1.00KADCT-ND" H 3300 5000 50  0001 C CNN "Source Part No."
+F 6 "ESR03EZPF1001" H 3300 5000 50  0001 C CNN "Manufacturer Part No."
+F 7 "Rohm Semiconductor" H 3300 5000 50  0001 C CNN "Manufacturer Name"
 F 8 "Digikey" H 3300 5000 50  0001 C CNN "Source"
 	1    3300 5000
 	1    0    0    -1  
@@ -93,13 +93,18 @@ Wire Wire Line
 Wire Wire Line
 	2500 4650 2700 4650
 $Comp
-L Connectors_LE:Power_Conn J9
+L Connector_LE:Power_Conn J9
 U 1 1 5EE056F1
 P 2350 4650
 F 0 "J9" H 2350 4450 50  0000 C CNN
 F 1 "Power_Conn" H 2350 4750 50  0000 C CNN
 F 2 "Naquadah_Generator:Keystone-1042" H 2350 4650 50  0001 C CNN
-F 3 "~" H 2350 4650 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p27.pdf" H 2350 4650 50  0001 C CNN
+F 4 "Battery Holder (Open) 18650 1 Cell SMD (SMT) Tab" H 2350 4650 50  0001 C CNN "Description"
+F 5 "Keystone Electronics" H 2350 4650 50  0001 C CNN "Manufacturer Name"
+F 6 "1042" H 2350 4650 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 2350 4650 50  0001 C CNN "Source"
+F 8 "36-1042-ND" H 2350 4650 50  0001 C CNN "Source Part No."
 	1    2350 4650
 	-1   0    0    1   
 $EndComp
@@ -138,7 +143,7 @@ F 5 "None" H 7195 4845 50  0001 C CNN "Source"
 F 6 "None" H 7195 4845 50  0001 C CNN "Source Part No."
 F 7 "None" H 7195 4845 50  0001 C CNN "Manufacturer Name"
 F 8 "None" H 7195 4845 50  0001 C CNN "Manufacturer Part No."
-F 9 "None" H 7200 5200 50  0001 C CNN "Description"
+F 9 "Test point" H 7200 5200 50  0001 C CNN "Description"
 	1    7200 5200
 	-1   0    0    1   
 $EndComp
@@ -157,7 +162,7 @@ F 1 "TestPoint" H 4300 4500 50  0001 L CNN
 F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 4600 4750 50  0001 C CNN
 F 3 "None" H 4600 4750 50  0001 C CNN
 F 4 "SWBATT-" H 4400 5050 50  0000 C CNN "Name"
-F 5 "None" H 4400 4750 50  0001 C CNN "Description"
+F 5 "Test point" H 4400 4750 50  0001 C CNN "Description"
 F 6 "None" H 4400 4750 50  0001 C CNN "Source Part No."
 F 7 "None" H 4400 4750 50  0001 C CNN "Manufacturer Name"
 F 8 "None" H 4400 4750 50  0001 C CNN "Manufacturer Part No."

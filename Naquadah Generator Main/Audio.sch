@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 17
+Sheet 16 18
 Title ""
 Date ""
 Rev ""
@@ -33,12 +33,13 @@ AR Path="/5F255A01" Ref="C?"  Part="1"
 AR Path="/5F06C1CA/5F255A01" Ref="C16"  Part="1" 
 F 0 "C16" V 1250 5000 50  0000 R CNN
 F 1 "22pF" V 1250 5100 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 1238 4900 50  0001 C CNN
-F 3 "" H 1200 5050 50  0001 C CNN
-F 4 "" H 1200 5050 50  0001 C CNN "Source Part No."
-F 5 "" H 1200 5050 50  0001 C CNN "Manufacturer Name"
-F 6 "" H 1200 5050 50  0001 C CNN "Manufacturer Part No."
+F 2 "Frequently_Used_LE:0603_1608Metric" H 1238 4900 50  0001 C CNN
+F 3 "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf" H 1200 5050 50  0001 C CNN
+F 4 "1276-1023-1-ND" H 1200 5050 50  0001 C CNN "Source Part No."
+F 5 "Samsung Electro-Mechanics" H 1200 5050 50  0001 C CNN "Manufacturer Name"
+F 6 "CL10C220JB8NNNC" H 1200 5050 50  0001 C CNN "Manufacturer Part No."
 F 7 "Digikey" H 1200 5050 50  0001 C CNN "Source"
+F 8 "22pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)" H 1200 5050 50  0001 C CNN "Description"
 	1    1200 5050
 	0    1    1    0   
 $EndComp
@@ -50,12 +51,13 @@ AR Path="/5F255A0B" Ref="C?"  Part="1"
 AR Path="/5F06C1CA/5F255A0B" Ref="C10"  Part="1" 
 F 0 "C10" V 1150 4700 50  0000 R CNN
 F 1 "22pF" V 1150 4800 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 1238 4600 50  0001 C CNN
-F 3 "" H 1200 4750 50  0001 C CNN
-F 4 "" H 1200 4750 50  0001 C CNN "Source Part No."
-F 5 "" H 1200 4750 50  0001 C CNN "Manufacturer Name"
-F 6 "" H 1200 4750 50  0001 C CNN "Manufacturer Part No."
+F 2 "Frequently_Used_LE:0603_1608Metric" H 1238 4600 50  0001 C CNN
+F 3 "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf" H 1200 4750 50  0001 C CNN
+F 4 "1276-1023-1-ND" H 1200 4750 50  0001 C CNN "Source Part No."
+F 5 "Samsung Electro-Mechanics" H 1200 4750 50  0001 C CNN "Manufacturer Name"
+F 6 "CL10C220JB8NNNC" H 1200 4750 50  0001 C CNN "Manufacturer Part No."
 F 7 "Digikey" H 1200 4750 50  0001 C CNN "Source"
+F 8 "22pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)" H 1200 4750 50  0001 C CNN "Description"
 	1    1200 4750
 	0    1    1    0   
 $EndComp
@@ -114,13 +116,13 @@ U 1 1 5F25855F
 P 1850 4900
 F 0 "R37" H 1900 4950 50  0000 L CNN
 F 1 "1M" H 1900 4850 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric" V 1780 4900 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 1850 4900 50  0001 C CNN
-F 4 "1 MOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric)" H 1850 4900 50  0001 C CNN "Description"
-F 5 "KOA Speer Electronics, Inc." H 1850 4900 50  0001 C CNN "Manufacturer Name"
-F 6 "RK73H2ATTD1004F" H 1850 4900 50  0001 C CNN "Manufacturer Part No."
+F 2 "Frequently_Used_LE:0603_1608Metric" V 1780 4900 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 1850 4900 50  0001 C CNN
+F 4 "1 MOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 1850 4900 50  0001 C CNN "Description"
+F 5 "Stackpole Electronics Inc" H 1850 4900 50  0001 C CNN "Manufacturer Name"
+F 6 "Stackpole Electronics Inc" H 1850 4900 50  0001 C CNN "Manufacturer Part No."
 F 7 "Digikey" H 1850 4900 50  0001 C CNN "Source"
-F 8 "2019-RK73H2ATTD1004FCT-ND" H 1850 4900 50  0001 C CNN "Source Part No."
+F 8 "	RMCF0603FG1M00CT-ND" H 1850 4900 50  0001 C CNN "Source Part No."
 	1    1850 4900
 	1    0    0    -1  
 $EndComp
@@ -277,7 +279,7 @@ F 5 "None" H 1295 6545 50  0001 C CNN "Source"
 F 6 "None" H 1295 6545 50  0001 C CNN "Source Part No."
 F 7 "None" H 1295 6545 50  0001 C CNN "Manufacturer Name"
 F 8 "None" H 1295 6545 50  0001 C CNN "Manufacturer Part No."
-F 9 "None" H 1300 6900 50  0001 C CNN "Description"
+F 9 "Test point" H 1300 6900 50  0001 C CNN "Description"
 	1    1300 6900
 	1    0    0    -1  
 $EndComp
@@ -297,7 +299,7 @@ F 5 "None" H 2195 6545 50  0001 C CNN "Source"
 F 6 "None" H 2195 6545 50  0001 C CNN "Source Part No."
 F 7 "None" H 2195 6545 50  0001 C CNN "Manufacturer Name"
 F 8 "None" H 2195 6545 50  0001 C CNN "Manufacturer Part No."
-F 9 "None" H 2200 6900 50  0001 C CNN "Description"
+F 9 "Test point" H 2200 6900 50  0001 C CNN "Description"
 	1    2200 6900
 	1    0    0    -1  
 $EndComp
@@ -605,13 +607,13 @@ U 1 1 5F39A4E9
 P 8600 1000
 F 0 "R47" H 8670 1046 50  0000 L CNN
 F 1 "1M" H 8670 955 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric" V 8530 1000 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 8600 1000 50  0001 C CNN
-F 4 "1 MOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric)" H 8600 1000 50  0001 C CNN "Description"
-F 5 "KOA Speer Electronics, Inc." H 8600 1000 50  0001 C CNN "Manufacturer Name"
-F 6 "RK73H2ATTD1004F" H 8600 1000 50  0001 C CNN "Manufacturer Part No."
+F 2 "Frequently_Used_LE:0603_1608Metric" V 8530 1000 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 8600 1000 50  0001 C CNN
+F 4 "1 MOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 8600 1000 50  0001 C CNN "Description"
+F 5 "Stackpole Electronics Inc" H 8600 1000 50  0001 C CNN "Manufacturer Name"
+F 6 "Stackpole Electronics Inc" H 8600 1000 50  0001 C CNN "Manufacturer Part No."
 F 7 "Digikey" H 8600 1000 50  0001 C CNN "Source"
-F 8 "2019-RK73H2ATTD1004FCT-ND" H 8600 1000 50  0001 C CNN "Source Part No."
+F 8 "	RMCF0603FG1M00CT-ND" H 8600 1000 50  0001 C CNN "Source Part No."
 	1    8600 1000
 	1    0    0    -1  
 $EndComp
@@ -621,15 +623,15 @@ U 1 1 5F3A06EA
 P 9450 1000
 AR Path="/5F3A06EA" Ref="C?"  Part="1" 
 AR Path="/5F06C1CA/5F3A06EA" Ref="C20"  Part="1" 
-F 0 "C20" H 9600 1100 50  0000 R CNN
-F 1 "1.0uF" H 9500 900 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 9488 850 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 9450 1000 50  0001 C CNN
-F 4 "1276-2931-1-ND" H 9450 1000 50  0001 C CNN "Source Part No."
+F 0 "C20" H 9500 1100 50  0000 L CNN
+F 1 "1uF" H 9500 900 50  0000 L CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" H 9488 850 50  0001 C CNN
+F 3 "http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A105KP8NNN" H 9450 1000 50  0001 C CNN
+F 4 "1276-1182-1-ND" H 9450 1000 50  0001 C CNN "Source Part No."
 F 5 "Samsung Electro-Mechanics" H 9450 1000 50  0001 C CNN "Manufacturer Name"
-F 6 "CL21B105KOFNNWE" H 9450 1000 50  0001 C CNN "Manufacturer Part No."
+F 6 "CL10A105KP8NNNC" H 9450 1000 50  0001 C CNN "Manufacturer Part No."
 F 7 "Digikey" H 9450 1000 50  0001 C CNN "Source"
-F 8 "1µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" H 9450 1000 50  0001 C CNN "Description"
+F 8 "1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" H 9450 1000 50  0001 C CNN "Description"
 	1    9450 1000
 	1    0    0    -1  
 $EndComp
@@ -641,14 +643,15 @@ U 1 1 5F3A6FC5
 P 9000 1000
 AR Path="/5F3A6FC5" Ref="C?"  Part="1" 
 AR Path="/5F06C1CA/5F3A6FC5" Ref="C21"  Part="1" 
-F 0 "C21" H 9150 1100 50  0000 R CNN
+F 0 "C21" H 9050 1100 50  0000 L CNN
 F 1 "0.1uF" H 9050 900 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 9038 850 50  0001 C CNN
-F 3 "" H 9000 1000 50  0001 C CNN
-F 4 "" H 9000 1000 50  0001 C CNN "Source Part No."
-F 5 "" H 9000 1000 50  0001 C CNN "Manufacturer Name"
-F 6 "" H 9000 1000 50  0001 C CNN "Manufacturer Part No."
+F 2 "Frequently_Used_LE:0603_1608Metric" H 9038 850 50  0001 C CNN
+F 3 "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf" H 9000 1000 50  0001 C CNN
+F 4 "1276-1258-1-ND" H 9000 1000 50  0001 C CNN "Source Part No."
+F 5 "Samsung Electro-Mechanics" H 9000 1000 50  0001 C CNN "Manufacturer Name"
+F 6 "CL10F104ZO8NNNC" H 9000 1000 50  0001 C CNN "Manufacturer Part No."
 F 7 "Digikey" H 9000 1000 50  0001 C CNN "Source"
+F 8 "	0.1µF -20%, +80% 16V Ceramic Capacitor Y5V (F) 0603 (1608 Metric)" H 9000 1000 50  0001 C CNN "Description"
 	1    9000 1000
 	1    0    0    -1  
 $EndComp
@@ -806,14 +809,14 @@ P 8300 3850
 AR Path="/5F60F932" Ref="C?"  Part="1" 
 AR Path="/5F06C1CA/5F60F932" Ref="C22"  Part="1" 
 F 0 "C22" H 8350 3950 50  0000 L CNN
-F 1 "1.0uF" H 8350 3750 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 8338 3700 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 8300 3850 50  0001 C CNN
-F 4 "1276-2931-1-ND" H 8300 3850 50  0001 C CNN "Source Part No."
+F 1 "1uF" H 8350 3750 50  0000 L CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" H 8338 3700 50  0001 C CNN
+F 3 "http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A105KP8NNN" H 8300 3850 50  0001 C CNN
+F 4 "1276-1182-1-ND" H 8300 3850 50  0001 C CNN "Source Part No."
 F 5 "Samsung Electro-Mechanics" H 8300 3850 50  0001 C CNN "Manufacturer Name"
-F 6 "CL21B105KOFNNWE" H 8300 3850 50  0001 C CNN "Manufacturer Part No."
+F 6 "CL10A105KP8NNNC" H 8300 3850 50  0001 C CNN "Manufacturer Part No."
 F 7 "Digikey" H 8300 3850 50  0001 C CNN "Source"
-F 8 "1µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" H 8300 3850 50  0001 C CNN "Description"
+F 8 "1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" H 8300 3850 50  0001 C CNN "Description"
 	1    8300 3850
 	1    0    0    -1  
 $EndComp
@@ -910,15 +913,15 @@ U 1 1 5F75D4D6
 P 7450 3350
 AR Path="/5F75D4D6" Ref="C?"  Part="1" 
 AR Path="/5F06C1CA/5F75D4D6" Ref="C29"  Part="1" 
-F 0 "C29" H 7600 3450 50  0000 R CNN
-F 1 "1.0uF" H 7500 3250 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 7488 3200 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 7450 3350 50  0001 C CNN
-F 4 "1276-2931-1-ND" H 7450 3350 50  0001 C CNN "Source Part No."
+F 0 "C29" H 7500 3450 50  0000 L CNN
+F 1 "1uF" H 7500 3250 50  0000 L CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" H 7488 3200 50  0001 C CNN
+F 3 "http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A105KP8NNN" H 7450 3350 50  0001 C CNN
+F 4 "1276-1182-1-ND" H 7450 3350 50  0001 C CNN "Source Part No."
 F 5 "Samsung Electro-Mechanics" H 7450 3350 50  0001 C CNN "Manufacturer Name"
-F 6 "CL21B105KOFNNWE" H 7450 3350 50  0001 C CNN "Manufacturer Part No."
+F 6 "CL10A105KP8NNNC" H 7450 3350 50  0001 C CNN "Manufacturer Part No."
 F 7 "Digikey" H 7450 3350 50  0001 C CNN "Source"
-F 8 "1µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" H 7450 3350 50  0001 C CNN "Description"
+F 8 "1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" H 7450 3350 50  0001 C CNN "Description"
 	1    7450 3350
 	1    0    0    -1  
 $EndComp
@@ -944,14 +947,14 @@ P 10750 1400
 AR Path="/5F7B680C" Ref="C?"  Part="1" 
 AR Path="/5F06C1CA/5F7B680C" Ref="C28"  Part="1" 
 F 0 "C28" V 10900 1400 50  0000 C CNN
-F 1 "1.0uF" V 10600 1400 50  0000 C CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 10788 1250 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 10750 1400 50  0001 C CNN
-F 4 "1276-2931-1-ND" H 10750 1400 50  0001 C CNN "Source Part No."
+F 1 "1uF" V 10600 1400 50  0000 C CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" H 10788 1250 50  0001 C CNN
+F 3 "http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A105KP8NNN" H 10750 1400 50  0001 C CNN
+F 4 "1276-1182-1-ND" H 10750 1400 50  0001 C CNN "Source Part No."
 F 5 "Samsung Electro-Mechanics" H 10750 1400 50  0001 C CNN "Manufacturer Name"
-F 6 "CL21B105KOFNNWE" H 10750 1400 50  0001 C CNN "Manufacturer Part No."
+F 6 "CL10A105KP8NNNC" H 10750 1400 50  0001 C CNN "Manufacturer Part No."
 F 7 "Digikey" H 10750 1400 50  0001 C CNN "Source"
-F 8 "1µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" H 10750 1400 50  0001 C CNN "Description"
+F 8 "1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" H 10750 1400 50  0001 C CNN "Description"
 	1    10750 1400
 	0    -1   -1   0   
 $EndComp
@@ -1056,7 +1059,7 @@ AR Path="/5F86EEBD" Ref="D?"  Part="1"
 AR Path="/5F06C1CA/5F86EEBD" Ref="D28"  Part="1" 
 F 0 "D28" H 1350 2700 50  0000 C CNN
 F 1 "YELLOW" H 1350 2900 50  0000 C CNN
-F 2 "Frequently_Used_LE:LED_0805_2012Metric_HandSolder" H 1350 2800 50  0001 C CNN
+F 2 "Frequently_Used_LE:LED_0805_2012Metric" H 1350 2800 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 1350 2800 50  0001 C CNN
 F 4 "	Yellow 590nm LED Indication - Discrete 2V 0805 (2012 Metric)" H 1350 2800 50  0001 C CNN "Description"
 F 5 "732-4987-1-ND" H 1350 2800 50  0001 C CNN "Source Part No."
@@ -1069,281 +1072,50 @@ $EndComp
 Wire Wire Line
 	1500 2800 1750 2800
 $Comp
-L Frequently_Used_LE:C C?
-U 1 1 5F89D60C
-P 4150 6950
-AR Path="/5F89D60C" Ref="C?"  Part="1" 
-AR Path="/5F06C1CA/5F89D60C" Ref="C25"  Part="1" 
-F 0 "C25" H 4300 7050 50  0000 R CNN
-F 1 "1.0uF" H 4200 6850 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 4188 6800 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 4150 6950 50  0001 C CNN
-F 4 "1276-2931-1-ND" H 4150 6950 50  0001 C CNN "Source Part No."
-F 5 "Samsung Electro-Mechanics" H 4150 6950 50  0001 C CNN "Manufacturer Name"
-F 6 "CL21B105KOFNNWE" H 4150 6950 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 4150 6950 50  0001 C CNN "Source"
-F 8 "1µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" H 4150 6950 50  0001 C CNN "Description"
-	1    4150 6950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4150 7200 4150 7100
-Wire Wire Line
-	4150 6800 4150 6700
-Wire Wire Line
-	5850 6650 5850 6500
-$Comp
-L Frequently_Used_LE:AGND #PWR0134
-U 1 1 5F8BBAC9
-P 4150 7200
-F 0 "#PWR0134" H 4150 6950 50  0001 C CNN
-F 1 "AGND" H 4150 7050 50  0000 C CNN
-F 2 "" H 4150 7200 50  0001 C CNN
-F 3 "" H 4150 7200 50  0001 C CNN
-	1    4150 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Frequently_Used_LE:R R?
-U 1 1 5F8D8AB8
-P 4400 6700
-AR Path="/5F8D8AB8" Ref="R?"  Part="1" 
-AR Path="/5F06C1CA/5F8D8AB8" Ref="R60"  Part="1" 
-F 0 "R60" V 4300 6700 50  0000 C CNN
-F 1 "100k" V 4500 6700 50  0000 C CNN
-F 2 "Frequently_Used_LE:0603_1608Metric" V 4330 6700 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 4400 6700 50  0001 C CNN
-F 4 "1 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 4400 6700 50  0001 C CNN "Description"
-F 5 "KOA Speer Electronics, Inc." H 4400 6700 50  0001 C CNN "Manufacturer Name"
-F 6 "RK73H1JTTD1001F" H 4400 6700 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 4400 6700 50  0001 C CNN "Source"
-F 8 "2019-RK73H1JTTD1001FCT-ND" H 4400 6700 50  0001 C CNN "Source Part No."
-	1    4400 6700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4250 6700 4150 6700
-Wire Wire Line
-	4550 6700 4650 6700
-Wire Wire Line
-	4050 6700 4150 6700
-$Comp
 L Frequently_Used_LE:AVDD #PWR0135
 U 1 1 5F8F4E80
-P 4050 6700
-F 0 "#PWR0135" H 4050 6550 50  0001 C CNN
-F 1 "AVDD" H 4050 6850 50  0000 C CNN
-F 2 "" H 4050 6700 50  0001 C CNN
-F 3 "" H 4050 6700 50  0001 C CNN
-	1    4050 6700
+P 4200 6750
+F 0 "#PWR0135" H 4200 6600 50  0001 C CNN
+F 1 "AVDD" H 4200 6900 50  0000 C CNN
+F 2 "" H 4200 6750 50  0001 C CNN
+F 3 "" H 4200 6750 50  0001 C CNN
+	1    4200 6750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:L_Core_Ferrite_Small L4
-U 1 1 5F91B607
-P 5650 6500
-F 0 "L4" V 5600 6500 50  0000 C CNN
-F 1 "Ferrite" V 5750 6500 50  0000 C CNN
-F 2 "Frequently_Used_LE:0603_1608Metric" H 5650 6500 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 5650 6500 50  0001 C CNN
-F 4 "120 Ohms @ 100MHz 1 Ferrite Bead 0603 (1608 Metric) 800mA 180mOhm" H 5650 6500 50  0001 C CNN "Description"
-F 5 "Murata Electronics" H 5650 6500 50  0001 C CNN "Manufacturer Name"
-F 6 "BLM18AG121SN1D" H 5650 6500 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 5650 6500 50  0001 C CNN "Source"
-F 8 "490-1011-1-ND" H 5650 6500 50  0001 C CNN "Source Part No."
-	1    5650 6500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:L_Core_Ferrite_Small L5
-U 1 1 5F931264
-P 6050 6300
-F 0 "L5" V 6000 6300 50  0000 C CNN
-F 1 "Ferrite" V 6150 6300 50  0000 C CNN
-F 2 "Frequently_Used_LE:0603_1608Metric" H 6050 6300 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 6050 6300 50  0001 C CNN
-F 4 "120 Ohms @ 100MHz 1 Ferrite Bead 0603 (1608 Metric) 800mA 180mOhm" H 6050 6300 50  0001 C CNN "Description"
-F 5 "Murata Electronics" H 6050 6300 50  0001 C CNN "Manufacturer Name"
-F 6 "BLM18AG121SN1D" H 6050 6300 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 6050 6300 50  0001 C CNN "Source"
-F 8 "490-1011-1-ND" H 6050 6300 50  0001 C CNN "Source Part No."
-	1    6050 6300
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	5450 6300 5950 6300
-Wire Wire Line
-	5450 6500 5550 6500
-Wire Wire Line
-	5750 6500 5850 6500
-Wire Wire Line
-	6150 6300 6300 6300
-Wire Wire Line
-	6300 6300 6300 6650
-Wire Wire Line
-	5850 6500 6550 6500
-Connection ~ 5850 6500
-Wire Wire Line
-	6300 6300 6550 6300
-Connection ~ 6300 6300
-Text Label 6400 6300 0    50   ~ 0
+	5650 6950 6050 6950
+Text Label 5900 6850 0    50   ~ 0
 AO+
-Text Label 6400 6500 0    50   ~ 0
+Text Label 5900 6950 0    50   ~ 0
 AO-
 Wire Wire Line
-	5050 7000 5050 6900
-$Comp
-L Frequently_Used_LE:AGND #PWR0138
-U 1 1 5F974236
-P 5050 7000
-F 0 "#PWR0138" H 5050 6750 50  0001 C CNN
-F 1 "AGND" H 5050 6850 50  0000 C CNN
-F 2 "" H 5050 7000 50  0001 C CNN
-F 3 "" H 5050 7000 50  0001 C CNN
-	1    5050 7000
-	1    0    0    -1  
-$EndComp
+	4050 6950 4050 7000
 Wire Wire Line
-	5050 6000 5050 6100
-$Comp
-L Frequently_Used_LE:AVDD #PWR0139
-U 1 1 5F97EAD0
-P 5050 6000
-F 0 "#PWR0139" H 5050 5850 50  0001 C CNN
-F 1 "AVDD" H 5050 6150 50  0000 C CNN
-F 2 "" H 5050 6000 50  0001 C CNN
-F 3 "" H 5050 6000 50  0001 C CNN
-	1    5050 6000
-	1    0    0    -1  
-$EndComp
-Connection ~ 4150 6700
-$Comp
-L Frequently_Used_LE:R R?
-U 1 1 5F99ED5D
-P 4300 6000
-AR Path="/5F99ED5D" Ref="R?"  Part="1" 
-AR Path="/5F06C1CA/5F99ED5D" Ref="R58"  Part="1" 
-F 0 "R58" V 4200 6000 50  0000 C CNN
-F 1 "100" V 4400 6000 50  0000 C CNN
-F 2 "Frequently_Used_LE:0805_2012Metric" V 4230 6000 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 4300 6000 50  0001 C CNN
-F 4 "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 4300 6000 50  0001 C CNN "Description"
-F 5 "KOA Speer Electronics, Inc." H 4300 6000 50  0001 C CNN "Manufacturer Name"
-F 6 "RK73H2ATTD1000F" H 4300 6000 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 4300 6000 50  0001 C CNN "Source"
-F 8 "2019-RK73H2ATTD1000FCT-ND" H 4300 6000 50  0001 C CNN "Source Part No."
-	1    4300 6000
-	0    1    1    0   
-$EndComp
-$Comp
-L Frequently_Used_LE:R R?
-U 1 1 5F9AB8A8
-P 4300 6300
-AR Path="/5F9AB8A8" Ref="R?"  Part="1" 
-AR Path="/5F06C1CA/5F9AB8A8" Ref="R59"  Part="1" 
-F 0 "R59" V 4200 6300 50  0000 C CNN
-F 1 "100" V 4400 6300 50  0000 C CNN
-F 2 "Frequently_Used_LE:0805_2012Metric" V 4230 6300 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 4300 6300 50  0001 C CNN
-F 4 "100 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 4300 6300 50  0001 C CNN "Description"
-F 5 "KOA Speer Electronics, Inc." H 4300 6300 50  0001 C CNN "Manufacturer Name"
-F 6 "RK73H2ATTD1000F" H 4300 6300 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 4300 6300 50  0001 C CNN "Source"
-F 8 "2019-RK73H2ATTD1000FCT-ND" H 4300 6300 50  0001 C CNN "Source Part No."
-	1    4300 6300
-	0    1    1    0   
-$EndComp
+	4200 7150 4200 7050
 Wire Wire Line
-	4650 6300 4550 6300
-Wire Wire Line
-	4550 6300 4550 6000
-Wire Wire Line
-	4550 6000 4450 6000
-Wire Wire Line
-	4450 6300 4450 6500
-Wire Wire Line
-	4450 6500 4650 6500
-Wire Wire Line
-	4150 6000 4050 6000
-$Comp
-L Frequently_Used_LE:C C?
-U 1 1 5F9D70E2
-P 3900 6000
-AR Path="/5F9D70E2" Ref="C?"  Part="1" 
-AR Path="/5F06C1CA/5F9D70E2" Ref="C23"  Part="1" 
-F 0 "C23" V 3850 5950 50  0000 R CNN
-F 1 "1UF" V 3850 6050 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 3938 5850 50  0001 C CNN
-F 3 "" H 3900 6000 50  0001 C CNN
-F 4 "" H 3900 6000 50  0001 C CNN "Source Part No."
-F 5 "" H 3900 6000 50  0001 C CNN "Manufacturer Name"
-F 6 "" H 3900 6000 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 3900 6000 50  0001 C CNN "Source"
-	1    3900 6000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3750 6000 3650 6000
-Wire Wire Line
-	4150 6300 4050 6300
-$Comp
-L Frequently_Used_LE:C C?
-U 1 1 5F9ED7C4
-P 3900 6300
-AR Path="/5F9ED7C4" Ref="C?"  Part="1" 
-AR Path="/5F06C1CA/5F9ED7C4" Ref="C24"  Part="1" 
-F 0 "C24" V 3850 6250 50  0000 R CNN
-F 1 "1UF" V 3850 6350 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 3938 6150 50  0001 C CNN
-F 3 "" H 3900 6300 50  0001 C CNN
-F 4 "" H 3900 6300 50  0001 C CNN "Source Part No."
-F 5 "" H 3900 6300 50  0001 C CNN "Manufacturer Name"
-F 6 "" H 3900 6300 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 3900 6300 50  0001 C CNN "Source"
-	1    3900 6300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_POT RV1
-U 1 1 5F9F932A
-P 3500 6150
-F 0 "RV1" H 3450 6150 50  0000 R CNN
-F 1 "10k" H 3550 5900 50  0000 R CNN
-F 2 "" H 3500 6150 50  0001 C CNN
-F 3 "~" H 3500 6150 50  0001 C CNN
-	1    3500 6150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3500 6300 3750 6300
-Wire Wire Line
-	3650 6150 3650 6000
-Wire Wire Line
-	3500 6000 2950 6000
+	3900 7150 3450 7150
 Text Label 5600 2200 0    50   ~ 0
 AUDIOLEFT
 Wire Wire Line
 	5550 2200 6050 2200
-Text Label 2950 6000 0    50   ~ 0
+Text Label 3450 7150 0    50   ~ 0
 AUDIOPRE+
 NoConn ~ 5550 2300
 Wire Wire Line
-	3500 6300 3050 6300
-Wire Wire Line
-	3050 6400 3050 6300
+	4200 7150 4200 7300
 $Comp
 L Frequently_Used_LE:AGND #PWR0144
 U 1 1 5FAE056F
-P 3050 6400
-F 0 "#PWR0144" H 3050 6150 50  0001 C CNN
-F 1 "AGND" H 3050 6250 50  0000 C CNN
-F 2 "" H 3050 6400 50  0001 C CNN
-F 3 "" H 3050 6400 50  0001 C CNN
-	1    3050 6400
+P 4200 7300
+F 0 "#PWR0144" H 4200 7050 50  0001 C CNN
+F 1 "AGND" H 4200 7150 50  0000 C CNN
+F 2 "" H 4200 7300 50  0001 C CNN
+F 3 "" H 4200 7300 50  0001 C CNN
+	1    4200 7300
 	1    0    0    -1  
 $EndComp
-Connection ~ 3500 6300
-Text Notes 4550 7500 0    79   ~ 16
+Connection ~ 4200 7150
+Text Notes 4800 7500 0    79   ~ 16
 Amplifier
 Text Notes 650  7500 0    79   ~ 16
 Digital to Analog Connections
@@ -1361,14 +1133,15 @@ U 1 1 5F3F69C1
 P 10750 800
 AR Path="/5F3F69C1" Ref="C?"  Part="1" 
 AR Path="/5F06C1CA/5F3F69C1" Ref="C35"  Part="1" 
-F 0 "C35" V 10900 750 50  0000 L CNN
+F 0 "C35" V 10900 800 50  0000 C CNN
 F 1 "47nF" V 10600 800 50  0000 C CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 10788 650 50  0001 C CNN
-F 3 "" H 10750 800 50  0001 C CNN
-F 4 "" H 10750 800 50  0001 C CNN "Source Part No."
-F 5 "" H 10750 800 50  0001 C CNN "Manufacturer Name"
-F 6 "" H 10750 800 50  0001 C CNN "Manufacturer Part No."
+F 2 "Frequently_Used_LE:0603_1608Metric" H 10788 650 50  0001 C CNN
+F 3 "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf" H 10750 800 50  0001 C CNN
+F 4 "1276-1063-1-ND" H 10750 800 50  0001 C CNN "Source Part No."
+F 5 "Samsung Electro-Mechanics" H 10750 800 50  0001 C CNN "Manufacturer Name"
+F 6 "CL10B473KB8NNNC" H 10750 800 50  0001 C CNN "Manufacturer Part No."
 F 7 "Digikey" H 10750 800 50  0001 C CNN "Source"
+F 8 "	0.047µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 10750 800 50  0001 C CNN "Description"
 	1    10750 800 
 	0    -1   -1   0   
 $EndComp
@@ -1384,13 +1157,13 @@ AR Path="/5F40E835" Ref="R?"  Part="1"
 AR Path="/5F06C1CA/5F40E835" Ref="R63"  Part="1" 
 F 0 "R63" V 10450 800 50  0000 C CNN
 F 1 "10" V 10250 800 50  0000 C CNN
-F 2 "Frequently_Used_LE:0805_2012Metric" V 10280 800 50  0001 C CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" V 10280 800 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 10350 800 50  0001 C CNN
-F 4 "100 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) " H 10350 800 50  0001 C CNN "Description"
+F 4 "10 Ohms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 10350 800 50  0001 C CNN "Description"
 F 5 "KOA Speer Electronics, Inc." H 10350 800 50  0001 C CNN "Manufacturer Name"
-F 6 "RK73H2ATTD1003F" H 10350 800 50  0001 C CNN "Manufacturer Part No."
+F 6 "RK73H1JTTD10R0F" H 10350 800 50  0001 C CNN "Manufacturer Part No."
 F 7 "Digikey" H 10350 800 50  0001 C CNN "Source"
-F 8 "2019-RK73H2ATTD1003FCT-ND" H 10350 800 50  0001 C CNN "Source Part No."
+F 8 "2019-RK73H1JTTD10R0FCT-ND" H 10350 800 50  0001 C CNN "Source Part No."
 	1    10350 800 
 	0    -1   -1   0   
 $EndComp
@@ -1441,12 +1214,13 @@ AR Path="/5F52F8EC" Ref="C?"  Part="1"
 AR Path="/5F06C1CA/5F52F8EC" Ref="C34"  Part="1" 
 F 0 "C34" V 8050 5550 50  0000 L CNN
 F 1 "10uF" V 7750 5600 50  0000 C CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 7938 5450 50  0001 C CNN
-F 3 "" H 7900 5600 50  0001 C CNN
-F 4 "" H 7900 5600 50  0001 C CNN "Source Part No."
-F 5 "" H 7900 5600 50  0001 C CNN "Manufacturer Name"
-F 6 "" H 7900 5600 50  0001 C CNN "Manufacturer Part No."
+F 2 "Frequently_Used_LE:0603_1608Metric" H 7938 5450 50  0001 C CNN
+F 3 "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf" H 7900 5600 50  0001 C CNN
+F 4 "1276-1119-1-ND" H 7900 5600 50  0001 C CNN "Source Part No."
+F 5 "Samsung Electro-Mechanics" H 7900 5600 50  0001 C CNN "Manufacturer Name"
+F 6 "CL10A106MQ8NNNC" H 7900 5600 50  0001 C CNN "Manufacturer Part No."
 F 7 "Digikey" H 7900 5600 50  0001 C CNN "Source"
+F 8 "10µF ±20% 6.3V Ceramic Capacitor X5R 0603 (1608 Metric)" H 7900 5600 50  0001 C CNN "Description"
 	1    7900 5600
 	0    -1   -1   0   
 $EndComp
@@ -1460,13 +1234,13 @@ AR Path="/5F52F8F9" Ref="R?"  Part="1"
 AR Path="/5F06C1CA/5F52F8F9" Ref="R62"  Part="1" 
 F 0 "R62" V 7500 5600 50  0000 C CNN
 F 1 "470" V 7300 5600 50  0000 C CNN
-F 2 "Frequently_Used_LE:0805_2012Metric" V 7330 5600 50  0001 C CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" V 7330 5600 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 7400 5600 50  0001 C CNN
-F 4 "100 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) " H 7400 5600 50  0001 C CNN "Description"
+F 4 "470 Ohms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 7400 5600 50  0001 C CNN "Description"
 F 5 "KOA Speer Electronics, Inc." H 7400 5600 50  0001 C CNN "Manufacturer Name"
-F 6 "RK73H2ATTD1003F" H 7400 5600 50  0001 C CNN "Manufacturer Part No."
+F 6 "RK73H1JTTD4700F" H 7400 5600 50  0001 C CNN "Manufacturer Part No."
 F 7 "Digikey" H 7400 5600 50  0001 C CNN "Source"
-F 8 "2019-RK73H2ATTD1003FCT-ND" H 7400 5600 50  0001 C CNN "Source Part No."
+F 8 "	2019-RK73H1JTTD4700FCT-ND" H 7400 5600 50  0001 C CNN "Source Part No."
 	1    7400 5600
 	0    -1   -1   0   
 $EndComp
@@ -1504,12 +1278,13 @@ AR Path="/5F5A0D16" Ref="C?"  Part="1"
 AR Path="/5F06C1CA/5F5A0D16" Ref="C33"  Part="1" 
 F 0 "C33" H 7600 5750 50  0000 R CNN
 F 1 "22pF" H 7700 5750 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 7688 5700 50  0001 C CNN
-F 3 "" H 7650 5850 50  0001 C CNN
-F 4 "" H 7650 5850 50  0001 C CNN "Source Part No."
-F 5 "" H 7650 5850 50  0001 C CNN "Manufacturer Name"
-F 6 "" H 7650 5850 50  0001 C CNN "Manufacturer Part No."
+F 2 "Frequently_Used_LE:0603_1608Metric" H 7688 5700 50  0001 C CNN
+F 3 "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf" H 7650 5850 50  0001 C CNN
+F 4 "1276-1023-1-ND" H 7650 5850 50  0001 C CNN "Source Part No."
+F 5 "Samsung Electro-Mechanics" H 7650 5850 50  0001 C CNN "Manufacturer Name"
+F 6 "CL10C220JB8NNNC" H 7650 5850 50  0001 C CNN "Manufacturer Part No."
 F 7 "Digikey" H 7650 5850 50  0001 C CNN "Source"
+F 8 "22pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)" H 7650 5850 50  0001 C CNN "Description"
 	1    7650 5850
 	1    0    0    -1  
 $EndComp
@@ -1686,82 +1461,6 @@ Wire Wire Line
 Connection ~ 1900 6100
 Wire Wire Line
 	1900 6100 2100 6100
-$Comp
-L Frequently_Used_LE:AGND #PWR0137
-U 1 1 5F9105E7
-P 6300 7050
-F 0 "#PWR0137" H 6300 6800 50  0001 C CNN
-F 1 "AGND" H 6300 6900 50  0000 C CNN
-F 2 "" H 6300 7050 50  0001 C CNN
-F 3 "" H 6300 7050 50  0001 C CNN
-	1    6300 7050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6300 6950 6300 7050
-$Comp
-L Frequently_Used_LE:C C?
-U 1 1 5F8B21E9
-P 6300 6800
-AR Path="/5F8B21E9" Ref="C?"  Part="1" 
-AR Path="/5F06C1CA/5F8B21E9" Ref="C27"  Part="1" 
-F 0 "C27" H 6350 6900 50  0000 L CNN
-F 1 "22pF" H 6350 6700 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 6338 6650 50  0001 C CNN
-F 3 "" H 6300 6800 50  0001 C CNN
-F 4 "" H 6300 6800 50  0001 C CNN "Source Part No."
-F 5 "" H 6300 6800 50  0001 C CNN "Manufacturer Name"
-F 6 "" H 6300 6800 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 6300 6800 50  0001 C CNN "Source"
-	1    6300 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Frequently_Used_LE:AGND #PWR0136
-U 1 1 5F9072C6
-P 5850 7050
-F 0 "#PWR0136" H 5850 6800 50  0001 C CNN
-F 1 "AGND" H 5850 6900 50  0000 C CNN
-F 2 "" H 5850 7050 50  0001 C CNN
-F 3 "" H 5850 7050 50  0001 C CNN
-	1    5850 7050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5850 6950 5850 7050
-$Comp
-L Frequently_Used_LE:C C?
-U 1 1 5F8A8E84
-P 5850 6800
-AR Path="/5F8A8E84" Ref="C?"  Part="1" 
-AR Path="/5F06C1CA/5F8A8E84" Ref="C26"  Part="1" 
-F 0 "C26" H 5900 6900 50  0000 L CNN
-F 1 "22pF" H 5900 6700 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 5888 6650 50  0001 C CNN
-F 3 "" H 5850 6800 50  0001 C CNN
-F 4 "" H 5850 6800 50  0001 C CNN "Source Part No."
-F 5 "" H 5850 6800 50  0001 C CNN "Manufacturer Name"
-F 6 "" H 5850 6800 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 5850 6800 50  0001 C CNN "Source"
-	1    5850 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Audio_LE:PAM8302AAD U10
-U 1 1 5F7F6C2F
-P 5050 6500
-F 0 "U10" H 5200 6850 50  0000 C CNN
-F 1 "PAM8302AAD" H 5400 6150 50  0000 C CNN
-F 2 "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" H 5050 6500 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/PAM8302A.pdf" H 5050 6500 50  0001 C CNN
-F 4 "Amplifier IC 1-Channel (Mono) Class D 8-SOP" H 5050 6500 50  0001 C CNN "Description"
-F 5 "Diodes Incorporated" H 5050 6500 50  0001 C CNN "Manufacturer Name"
-F 6 "PAM8302AADCR" H 5050 6500 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 5050 6500 50  0001 C CNN "Source"
-F 8 "	PAM8302AADCRDICT-ND" H 5050 6500 50  0001 C CNN "Source Part No."
-	1    5050 6500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2300 7000 2300 7100
 Wire Wire Line
@@ -1870,7 +1569,7 @@ F 1 "TestPoint" H 9100 5400 50  0001 L CNN
 F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 9400 5650 50  0001 C CNN
 F 3 "None" H 9400 5650 50  0001 C CNN
 F 4 "FMISO" H 9200 5850 50  0000 C CNN "Name"
-F 5 "None" H 9200 5650 50  0001 C CNN "Description"
+F 5 "Test point" H 9200 5650 50  0001 C CNN "Description"
 F 6 "None" H 9200 5650 50  0001 C CNN "Source Part No."
 F 7 "None" H 9200 5650 50  0001 C CNN "Manufacturer Name"
 F 8 "None" H 9200 5650 50  0001 C CNN "Manufacturer Part No."
@@ -1894,7 +1593,7 @@ F 1 "TestPoint" H 10600 5800 50  0001 L CNN
 F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 10900 6050 50  0001 C CNN
 F 3 "None" H 10900 6050 50  0001 C CNN
 F 4 "FMOSI" H 10700 6250 50  0000 C CNN "Name"
-F 5 "None" H 10700 6050 50  0001 C CNN "Description"
+F 5 "Test point" H 10700 6050 50  0001 C CNN "Description"
 F 6 "None" H 10700 6050 50  0001 C CNN "Source Part No."
 F 7 "None" H 10700 6050 50  0001 C CNN "Manufacturer Name"
 F 8 "None" H 10700 6050 50  0001 C CNN "Manufacturer Part No."
@@ -1918,7 +1617,7 @@ F 1 "TestPoint" H 10950 5700 50  0001 L CNN
 F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 11250 5950 50  0001 C CNN
 F 3 "None" H 11250 5950 50  0001 C CNN
 F 4 "FCLK" H 11050 6150 50  0000 C CNN "Name"
-F 5 "None" H 11050 5950 50  0001 C CNN "Description"
+F 5 "Test point" H 11050 5950 50  0001 C CNN "Description"
 F 6 "None" H 11050 5950 50  0001 C CNN "Source Part No."
 F 7 "None" H 11050 5950 50  0001 C CNN "Manufacturer Name"
 F 8 "None" H 11050 5950 50  0001 C CNN "Manufacturer Part No."
@@ -2357,7 +2056,7 @@ F 5 "None" H 945 5845 50  0001 C CNN "Source"
 F 6 "None" H 945 5845 50  0001 C CNN "Source Part No."
 F 7 "None" H 945 5845 50  0001 C CNN "Manufacturer Name"
 F 8 "None" H 945 5845 50  0001 C CNN "Manufacturer Part No."
-F 9 "None" H 950 6200 50  0001 C CNN "Description"
+F 9 "Test point" H 950 6200 50  0001 C CNN "Description"
 	1    950  6200
 	-1   0    0    1   
 $EndComp
@@ -2379,7 +2078,7 @@ F 5 "None" H 2095 5845 50  0001 C CNN "Source"
 F 6 "None" H 2095 5845 50  0001 C CNN "Source Part No."
 F 7 "None" H 2095 5845 50  0001 C CNN "Manufacturer Name"
 F 8 "None" H 2095 5845 50  0001 C CNN "Manufacturer Part No."
-F 9 "None" H 2100 6200 50  0001 C CNN "Description"
+F 9 "Test point" H 2100 6200 50  0001 C CNN "Description"
 	1    2100 6200
 	-1   0    0    1   
 $EndComp
@@ -2391,4 +2090,36 @@ Wire Wire Line
 Connection ~ 950  6100
 Wire Wire Line
 	950  6100 1100 6100
+Wire Wire Line
+	5650 6850 6050 6850
+$Sheet
+S 4550 6750 1100 400 
+U 5F525E77
+F0 "Mono Amplifier PAM8302A" 50
+F1 "Mono Amplifier PAM8302A.sch" 50
+F2 "POWIN" I L 4550 6850 50 
+F3 "GND" I L 4550 7050 50 
+F4 "AUDIOPRE+" I L 4550 6950 50 
+F5 "AUDIOOUT+" I R 5650 6850 50 
+F6 "AUDIOOUT-" I R 5650 6950 50 
+$EndSheet
+Wire Wire Line
+	4550 6850 4200 6850
+Wire Wire Line
+	4200 6850 4200 6750
+$Comp
+L Device:R_POT RV1
+U 1 1 5F9F932A
+P 4050 7150
+F 0 "RV1" V 3950 7150 50  0000 C CNN
+F 1 "10k" H 4100 6900 50  0000 R CNN
+F 2 "" H 4050 7150 50  0001 C CNN
+F 3 "~" H 4050 7150 50  0001 C CNN
+	1    4050 7150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 6950 4550 6950
+Wire Wire Line
+	4200 7050 4550 7050
 $EndSCHEMATC

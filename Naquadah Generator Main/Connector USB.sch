@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 17 17
+Sheet 15 18
 Title ""
 Date ""
 Rev ""
@@ -14,16 +14,17 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connectors_LE:USB_C_Plug_2_USB2.0 P?
+L Connector_LE:USB_C_Plug_2_USB2.0 P?
 U 1 1 5FCC60C1
 P 4650 3150
 AR Path="/5FCC60C1" Ref="P?"  Part="1" 
 AR Path="/5EDBBDC8/5FCC60C1" Ref="P?"  Part="1" 
 AR Path="/5F06C1CA/5FCC60C1" Ref="P?"  Part="1" 
 AR Path="/5F06C1CA/5FC97A5A/5FCC60C1" Ref="P2"  Part="1" 
-F 0 "P2" H 4300 4300 50  0000 L CNN
+AR Path="/5EDBBDC8/5FE6860B/5FCC60C1" Ref="P1"  Part="1" 
+F 0 "P1" H 4300 4300 50  0000 L CNN
 F 1 "USB_C_Plug_USB2.0" H 4300 4200 50  0000 L CNN
-F 2 "Connectors_LE:2047110001" H 4750 2650 50  0001 C CNN
+F 2 "Connector_LE:2047110001" H 4750 2650 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/2047110001_sd.pdf" H 4750 2650 50  0001 C CNN
 F 4 "USB-C 2.0 Female SMD Connector" H 4650 3150 50  0001 C CNN "Description"
 F 5 "Digikey" H 4650 3150 50  0001 C CNN "Source"
@@ -165,7 +166,8 @@ P 7050 4950
 AR Path="/5EDBBDC8/5FE848B3" Ref="J?"  Part="1" 
 AR Path="/5F06C1CA/5FE848B3" Ref="J?"  Part="1" 
 AR Path="/5F06C1CA/5FC97A5A/5FE848B3" Ref="J4"  Part="1" 
-F 0 "J4" H 6968 4525 50  0000 C CNN
+AR Path="/5EDBBDC8/5FE6860B/5FE848B3" Ref="J8"  Part="1" 
+F 0 "J8" H 6968 4525 50  0000 C CNN
 F 1 "USB Solder Pads" H 6968 4616 50  0000 C CNN
 F 2 "Naquadah_Generator:WireSoldPads_1x4_WOL" H 7050 4950 50  0001 C CNN
 F 3 "None" H 7050 4950 50  0001 C CNN
@@ -199,15 +201,16 @@ P 4400 4900
 AR Path="/5EDBBDC8/5FE848B4" Ref="R?"  Part="1" 
 AR Path="/5F06C1CA/5FE848B4" Ref="R?"  Part="1" 
 AR Path="/5F06C1CA/5FC97A5A/5FE848B4" Ref="R48"  Part="1" 
-F 0 "R48" H 4470 4946 50  0000 L CNN
+AR Path="/5EDBBDC8/5FE6860B/5FE848B4" Ref="R14"  Part="1" 
+F 0 "R14" H 4470 4946 50  0000 L CNN
 F 1 "1M" H 4470 4855 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric" V 4330 4900 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 4400 4900 50  0001 C CNN
-F 4 "1 MOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric)" H 4400 4900 50  0001 C CNN "Description"
-F 5 "KOA Speer Electronics, Inc." H 4400 4900 50  0001 C CNN "Manufacturer Name"
-F 6 "RK73H2ATTD1004F" H 4400 4900 50  0001 C CNN "Manufacturer Part No."
+F 2 "Frequently_Used_LE:0603_1608Metric" V 4330 4900 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 4400 4900 50  0001 C CNN
+F 4 "1 MOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 4400 4900 50  0001 C CNN "Description"
+F 5 "Stackpole Electronics Inc" H 4400 4900 50  0001 C CNN "Manufacturer Name"
+F 6 "Stackpole Electronics Inc" H 4400 4900 50  0001 C CNN "Manufacturer Part No."
 F 7 "Digikey" H 4400 4900 50  0001 C CNN "Source"
-F 8 "2019-RK73H2ATTD1004FCT-ND" H 4400 4900 50  0001 C CNN "Source Part No."
+F 8 "	RMCF0603FG1M00CT-ND" H 4400 4900 50  0001 C CNN "Source Part No."
 	1    4400 4900
 	1    0    0    -1  
 $EndComp
@@ -218,10 +221,16 @@ P 4000 4900
 AR Path="/5EDBBDC8/5FCC6151" Ref="C?"  Part="1" 
 AR Path="/5F06C1CA/5FCC6151" Ref="C?"  Part="1" 
 AR Path="/5F06C1CA/5FC97A5A/5FCC6151" Ref="C36"  Part="1" 
-F 0 "C36" H 4050 5000 50  0000 L CNN
+AR Path="/5EDBBDC8/5FE6860B/5FCC6151" Ref="C8"  Part="1" 
+F 0 "C8" H 4050 5000 50  0000 L CNN
 F 1 "4.7uF" H 4050 4800 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric_HandSolder" H 4038 4750 50  0001 C CNN
-F 3 "" H 4000 4900 50  0001 C CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" H 4038 4750 50  0001 C CNN
+F 3 "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf" H 4000 4900 50  0001 C CNN
+F 4 "4.7µF ±10% 6.3V Ceramic Capacitor X5R 0603 (1608 Metric)" H 4000 4900 50  0001 C CNN "Description"
+F 5 "Samsung Electro-Mechanics" H 4000 4900 50  0001 C CNN "Manufacturer Name"
+F 6 "CL10A475KQ8NNNC" H 4000 4900 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 4000 4900 50  0001 C CNN "Source"
+F 8 "1276-1045-1-ND" H 4000 4900 50  0001 C CNN "Source Part No."
 	1    4000 4900
 	1    0    0    -1  
 $EndComp
@@ -242,15 +251,16 @@ P 5900 4900
 AR Path="/5EDBBDC8/5FCC616E" Ref="R?"  Part="1" 
 AR Path="/5F06C1CA/5FCC616E" Ref="R?"  Part="1" 
 AR Path="/5F06C1CA/5FC97A5A/5FCC616E" Ref="R50"  Part="1" 
-F 0 "R50" H 5830 4854 50  0000 R CNN
+AR Path="/5EDBBDC8/5FE6860B/5FCC616E" Ref="R24"  Part="1" 
+F 0 "R24" H 5830 4854 50  0000 R CNN
 F 1 "5.1k" H 5830 4945 50  0000 R CNN
-F 2 "Frequently_Used_LE:0805_2012Metric" V 5830 4900 50  0001 C CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" V 5830 4900 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 5900 4900 50  0001 C CNN
-F 4 "5.1 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) " H 5900 4900 50  0001 C CNN "Description"
+F 4 "5.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 5900 4900 50  0001 C CNN "Description"
 F 5 "KOA Speer Electronics, Inc." H 5900 4900 50  0001 C CNN "Manufacturer Name"
-F 6 "RK73H2ATTD5101F" H 5900 4900 50  0001 C CNN "Manufacturer Part No."
+F 6 "RK73H1JTTD5101F" H 5900 4900 50  0001 C CNN "Manufacturer Part No."
 F 7 "Digikey" H 5900 4900 50  0001 C CNN "Source"
-F 8 "2019-RK73H2ATTD5101FCT-ND" H 5900 4900 50  0001 C CNN "Source Part No."
+F 8 "2019-RK73H1JTTD5101FCT-ND" H 5900 4900 50  0001 C CNN "Source Part No."
 	1    5900 4900
 	-1   0    0    1   
 $EndComp
@@ -261,15 +271,16 @@ P 5550 4900
 AR Path="/5EDBBDC8/5FCC6179" Ref="R?"  Part="1" 
 AR Path="/5F06C1CA/5FCC6179" Ref="R?"  Part="1" 
 AR Path="/5F06C1CA/5FC97A5A/5FCC6179" Ref="R49"  Part="1" 
-F 0 "R49" H 5480 4854 50  0000 R CNN
+AR Path="/5EDBBDC8/5FE6860B/5FCC6179" Ref="R19"  Part="1" 
+F 0 "R19" H 5480 4854 50  0000 R CNN
 F 1 "5.1k" H 5480 4945 50  0000 R CNN
-F 2 "Frequently_Used_LE:0805_2012Metric" V 5480 4900 50  0001 C CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" V 5480 4900 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 5550 4900 50  0001 C CNN
-F 4 "5.1 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) " H 5550 4900 50  0001 C CNN "Description"
+F 4 "5.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 5550 4900 50  0001 C CNN "Description"
 F 5 "KOA Speer Electronics, Inc." H 5550 4900 50  0001 C CNN "Manufacturer Name"
-F 6 "RK73H2ATTD5101F" H 5550 4900 50  0001 C CNN "Manufacturer Part No."
+F 6 "RK73H1JTTD5101F" H 5550 4900 50  0001 C CNN "Manufacturer Part No."
 F 7 "Digikey" H 5550 4900 50  0001 C CNN "Source"
-F 8 "2019-RK73H2ATTD5101FCT-ND" H 5550 4900 50  0001 C CNN "Source Part No."
+F 8 "2019-RK73H1JTTD5101FCT-ND" H 5550 4900 50  0001 C CNN "Source Part No."
 	1    5550 4900
 	-1   0    0    1   
 $EndComp
@@ -308,7 +319,8 @@ P 6800 2850
 AR Path="/5EDBBDC8/5FCC61A7" Ref="D?"  Part="1" 
 AR Path="/5F06C1CA/5FCC61A7" Ref="D?"  Part="1" 
 AR Path="/5F06C1CA/5FC97A5A/5FCC61A7" Ref="D30"  Part="1" 
-F 0 "D30" H 6900 3300 50  0000 L CNN
+AR Path="/5EDBBDC8/5FE6860B/5FCC61A7" Ref="D1"  Part="1" 
+F 0 "D1" H 6900 3300 50  0000 L CNN
 F 1 "SDP" H 6900 3200 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-143" H 6900 2500 50  0001 L CNN
 F 3 "https://www.we-online.de/katalog/datasheet/150080VS75000.pdf" H 6860 2850 50  0001 L CNN
@@ -327,15 +339,16 @@ P 7500 3700
 AR Path="/5EDBBDC8/5FE848B9" Ref="R?"  Part="1" 
 AR Path="/5F06C1CA/5FE848B9" Ref="R?"  Part="1" 
 AR Path="/5F06C1CA/5FC97A5A/5FE848B9" Ref="R51"  Part="1" 
-F 0 "R51" V 7450 3700 50  0000 C BNN
+AR Path="/5EDBBDC8/5FE6860B/5FE848B9" Ref="R29"  Part="1" 
+F 0 "R29" V 7450 3700 50  0000 C BNN
 F 1 "5.1k" V 7550 3700 50  0000 C TNN
-F 2 "Frequently_Used_LE:0805_2012Metric" V 7430 3700 50  0001 C CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" V 7430 3700 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 7500 3700 50  0001 C CNN
-F 4 "5.1 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) " H 7500 3700 50  0001 C CNN "Description"
+F 4 "5.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 7500 3700 50  0001 C CNN "Description"
 F 5 "KOA Speer Electronics, Inc." H 7500 3700 50  0001 C CNN "Manufacturer Name"
-F 6 "RK73H2ATTD5101F" H 7500 3700 50  0001 C CNN "Manufacturer Part No."
+F 6 "RK73H1JTTD5101F" H 7500 3700 50  0001 C CNN "Manufacturer Part No."
 F 7 "Digikey" H 7500 3700 50  0001 C CNN "Source"
-F 8 "2019-RK73H2ATTD5101FCT-ND" H 7500 3700 50  0001 C CNN "Source Part No."
+F 8 "2019-RK73H1JTTD5101FCT-ND" H 7500 3700 50  0001 C CNN "Source Part No."
 	1    7500 3700
 	0    1    1    0   
 $EndComp
@@ -350,15 +363,16 @@ P 7500 3950
 AR Path="/5EDBBDC8/5FCC61BF" Ref="R?"  Part="1" 
 AR Path="/5F06C1CA/5FCC61BF" Ref="R?"  Part="1" 
 AR Path="/5F06C1CA/5FC97A5A/5FCC61BF" Ref="R52"  Part="1" 
-F 0 "R52" V 7450 3950 50  0000 C BNN
+AR Path="/5EDBBDC8/5FE6860B/5FCC61BF" Ref="R30"  Part="1" 
+F 0 "R30" V 7450 3950 50  0000 C BNN
 F 1 "5.1k" V 7550 3950 50  0000 C TNN
-F 2 "Frequently_Used_LE:0805_2012Metric" V 7430 3950 50  0001 C CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" V 7430 3950 50  0001 C CNN
 F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 7500 3950 50  0001 C CNN
-F 4 "5.1 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) " H 7500 3950 50  0001 C CNN "Description"
+F 4 "5.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 7500 3950 50  0001 C CNN "Description"
 F 5 "KOA Speer Electronics, Inc." H 7500 3950 50  0001 C CNN "Manufacturer Name"
-F 6 "RK73H2ATTD5101F" H 7500 3950 50  0001 C CNN "Manufacturer Part No."
+F 6 "RK73H1JTTD5101F" H 7500 3950 50  0001 C CNN "Manufacturer Part No."
 F 7 "Digikey" H 7500 3950 50  0001 C CNN "Source"
-F 8 "2019-RK73H2ATTD5101FCT-ND" H 7500 3950 50  0001 C CNN "Source Part No."
+F 8 "2019-RK73H1JTTD5101FCT-ND" H 7500 3950 50  0001 C CNN "Source Part No."
 	1    7500 3950
 	0    1    1    0   
 $EndComp

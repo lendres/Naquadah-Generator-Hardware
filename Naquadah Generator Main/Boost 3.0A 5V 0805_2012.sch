@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 11 17
+Sheet 11 18
 Title "Li-ion 3A Charge"
 Date ""
 Rev "1.0.0"
@@ -105,12 +105,12 @@ U 1 1 FA6D7899
 P 6300 3700
 F 0 "R41" V 6200 3600 59  0000 L CNN
 F 1 "10k" V 6400 3600 59  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric" H 6300 3700 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 6300 3700 50  0001 C CNN
-F 4 "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 6300 3700 50  0001 C CNN "Description"
-F 5 "2019-RK73H2ATTD1002FCT-ND" H 6300 3700 50  0001 C CNN "Source Part No."
-F 6 "RK73H2ATTD1002F" H 6300 3700 50  0001 C CNN "Manufacturer Part No."
-F 7 "KOA Speer Electronics, Inc." H 6300 3700 50  0001 C CNN "Manufacturer Name"
+F 2 "Frequently_Used_LE:0603_1608Metric" H 6300 3700 50  0001 C CNN
+F 3 "https://d1d2qsbl8m0m72.cloudfront.net/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf" H 6300 3700 50  0001 C CNN
+F 4 "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film" H 6300 3700 50  0001 C CNN "Description"
+F 5 "RHM10KADCT-ND" H 6300 3700 50  0001 C CNN "Source Part No."
+F 6 "ESR03EZPF1002" H 6300 3700 50  0001 C CNN "Manufacturer Part No."
+F 7 "Rohm Semiconductor" H 6300 3700 50  0001 C CNN "Manufacturer Name"
 F 8 "Digikey" H 6300 3700 50  0001 C CNN "Source"
 	1    6300 3700
 	1    0    0    -1  
@@ -128,11 +128,11 @@ U 1 1 5EBC278E
 P 3750 3450
 F 0 "C12" V 3700 3500 50  0000 L CNN
 F 1 "10uF" V 3800 3500 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric" H 3788 3300 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 3750 3450 50  0001 C CNN
-F 4 "10µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)" H 3750 3450 50  0001 C CNN "Description"
-F 5 "1276-2405-1-ND" H 3750 3450 50  0001 C CNN "Source Part No."
-F 6 "CL21A106KQCLRNC" H 3750 3450 50  0001 C CNN "Manufacturer Part No."
+F 2 "Frequently_Used_LE:0603_1608Metric" H 3788 3300 50  0001 C CNN
+F 3 "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf" H 3750 3450 50  0001 C CNN
+F 4 "10µF ±20% 6.3V Ceramic Capacitor X5R 0603 (1608 Metric)" H 3750 3450 50  0001 C CNN "Description"
+F 5 "1276-1119-1-ND" H 3750 3450 50  0001 C CNN "Source Part No."
+F 6 "CL10A106MQ8NNNC" H 3750 3450 50  0001 C CNN "Manufacturer Part No."
 F 7 "Samsung Electro-Mechanics" H 3750 3450 50  0001 C CNN "Manufacturer Name"
 F 8 "Digikey" H 3750 3450 50  0001 C CNN "Source"
 	1    3750 3450
@@ -167,11 +167,11 @@ U 1 1 5EC2A03F
 P 6650 3450
 F 0 "C18" V 6600 3500 50  0000 L CNN
 F 1 "10uF" V 6700 3500 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric" H 6688 3300 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 6650 3450 50  0001 C CNN
-F 4 "10µF ±10% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)" H 6650 3450 50  0001 C CNN "Description"
-F 5 "1276-2405-1-ND" H 6650 3450 50  0001 C CNN "Source Part No."
-F 6 "CL21A106KQCLRNC" H 6650 3450 50  0001 C CNN "Manufacturer Part No."
+F 2 "Frequently_Used_LE:0603_1608Metric" H 6688 3300 50  0001 C CNN
+F 3 "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf" H 6650 3450 50  0001 C CNN
+F 4 "10µF ±20% 6.3V Ceramic Capacitor X5R 0603 (1608 Metric)" H 6650 3450 50  0001 C CNN "Description"
+F 5 "1276-1119-1-ND" H 6650 3450 50  0001 C CNN "Source Part No."
+F 6 "CL10A106MQ8NNNC" H 6650 3450 50  0001 C CNN "Manufacturer Part No."
 F 7 "Samsung Electro-Mechanics" H 6650 3450 50  0001 C CNN "Manufacturer Name"
 F 8 "Digikey" H 6650 3450 50  0001 C CNN "Source"
 	1    6650 3450
@@ -222,12 +222,12 @@ U 1 1 5ECFE4F0
 P 4350 3500
 F 0 "R38" V 4250 3400 59  0000 L CNN
 F 1 "51k" V 4450 3400 59  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric" H 4350 3500 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 4350 3500 50  0001 C CNN
-F 4 "51 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 4350 3500 50  0001 C CNN "Description"
-F 5 "2019-RK73H2ATTD5102FCT-ND" H 4350 3500 50  0001 C CNN "Source Part No."
-F 6 "RK73H2ATTD5102F" H 4350 3500 50  0001 C CNN "Manufacturer Part No."
-F 7 "KOA Speer Electronics, Inc." H 4350 3500 50  0001 C CNN "Manufacturer Name"
+F 2 "Frequently_Used_LE:0603_1608Metric" H 4350 3500 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4350 3500 50  0001 C CNN
+F 4 "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thick Film" H 4350 3500 50  0001 C CNN "Description"
+F 5 "311-100HRCT-ND" H 4350 3500 50  0001 C CNN "Source Part No."
+F 6 "RC0603FR-07100RL" H 4350 3500 50  0001 C CNN "Manufacturer Part No."
+F 7 "Yageo" H 4350 3500 50  0001 C CNN "Manufacturer Name"
 F 8 "Digikey" H 4350 3500 50  0001 C CNN "Source"
 	1    4350 3500
 	0    1    1    0   
@@ -238,11 +238,11 @@ U 1 1 5ECFEC38
 P 4150 3700
 F 0 "C13" V 4100 3450 50  0000 L CNN
 F 1 "2.2nF" V 4200 3450 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric" H 4188 3550 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 4150 3700 50  0001 C CNN
-F 4 "2200pF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)" H 4150 3700 50  0001 C CNN "Description"
-F 5 "1276-1171-1-ND" H 4150 3700 50  0001 C CNN "Source Part No."
-F 6 "CL21B222KBANNNC" H 4150 3700 50  0001 C CNN "Manufacturer Part No."
+F 2 "Frequently_Used_LE:0603_1608Metric" H 4188 3550 50  0001 C CNN
+F 3 "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf" H 4150 3700 50  0001 C CNN
+F 4 "2200pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 4150 3700 50  0001 C CNN "Description"
+F 5 "1276-1110-1-ND" H 4150 3700 50  0001 C CNN "Source Part No."
+F 6 "CL10B222KB8NNNC" H 4150 3700 50  0001 C CNN "Manufacturer Part No."
 F 7 "Samsung Electro-Mechanics" H 4150 3700 50  0001 C CNN "Manufacturer Name"
 F 8 "Digikey" H 4150 3700 50  0001 C CNN "Source"
 	1    4150 3700
@@ -254,11 +254,11 @@ U 1 1 5ECFF6AE
 P 4600 3700
 F 0 "C15" V 4550 3450 50  0000 L CNN
 F 1 "47pF" V 4650 3450 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric" H 4638 3550 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 4600 3700 50  0001 C CNN
-F 4 "47pF ±5% 50V Ceramic Capacitor C0G, NP0 0805 (2012 Metric)" H 4600 3700 50  0001 C CNN "Description"
-F 5 "1276-1156-1-ND" H 4600 3700 50  0001 C CNN "Source Part No."
-F 6 "CL21C470JBANNNC" H 4600 3700 50  0001 C CNN "Manufacturer Part No."
+F 2 "Frequently_Used_LE:0603_1608Metric" H 4638 3550 50  0001 C CNN
+F 3 "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf" H 4600 3700 50  0001 C CNN
+F 4 "47pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)" H 4600 3700 50  0001 C CNN "Description"
+F 5 "1276-1037-1-ND" H 4600 3700 50  0001 C CNN "Source Part No."
+F 6 "CL10C470JB8NNNC" H 4600 3700 50  0001 C CNN "Manufacturer Part No."
 F 7 "Samsung Electro-Mechanics" H 4600 3700 50  0001 C CNN "Manufacturer Name"
 F 8 "Digikey" H 4600 3700 50  0001 C CNN "Source"
 	1    4600 3700
@@ -289,11 +289,11 @@ U 1 1 5ECB2479
 P 4500 3100
 F 0 "C14" V 4450 2800 50  0000 L CNN
 F 1 "1uF" V 4550 2800 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric" H 4538 2950 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 4500 3100 50  0001 C CNN
-F 4 "1µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" H 4500 3100 50  0001 C CNN "Description"
-F 5 "1276-2931-1-ND" H 4500 3100 50  0001 C CNN "Source Part No."
-F 6 "CL21B105KOFNNWE" H 4500 3100 50  0001 C CNN "Manufacturer Part No."
+F 2 "Frequently_Used_LE:0603_1608Metric" H 4538 2950 50  0001 C CNN
+F 3 "http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A105KP8NNN" H 4500 3100 50  0001 C CNN
+F 4 "1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" H 4500 3100 50  0001 C CNN "Description"
+F 5 "1276-1182-1-ND" H 4500 3100 50  0001 C CNN "Source Part No."
+F 6 "CL10A105KP8NNNC" H 4500 3100 50  0001 C CNN "Manufacturer Part No."
 F 7 "Samsung Electro-Mechanics" H 4500 3100 50  0001 C CNN "Manufacturer Name"
 F 8 "Digikey" H 4500 3100 50  0001 C CNN "Source"
 	1    4500 3100
@@ -332,11 +332,11 @@ U 1 1 5EC8CEA1
 P 5900 3800
 F 0 "C17" V 5850 3850 50  0000 L CNN
 F 1 "10nF" V 5950 3850 50  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric" H 5938 3650 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 5900 3800 50  0001 C CNN
-F 4 "10000pF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)" H 5900 3800 50  0001 C CNN "Description"
-F 5 "1276-1015-1-ND" H 5900 3800 50  0001 C CNN "Source Part No."
-F 6 "CL21B103KBANNNC" H 5900 3800 50  0001 C CNN "Manufacturer Part No."
+F 2 "Frequently_Used_LE:0603_1608Metric" H 5938 3650 50  0001 C CNN
+F 3 "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf" H 5900 3800 50  0001 C CNN
+F 4 "10000pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 5900 3800 50  0001 C CNN "Description"
+F 5 "1276-1009-1-ND" H 5900 3800 50  0001 C CNN "Source Part No."
+F 6 "CL10B103KB8NNNC" H 5900 3800 50  0001 C CNN "Manufacturer Part No."
 F 7 "Samsung Electro-Mechanics" H 5900 3800 50  0001 C CNN "Manufacturer Name"
 F 8 "Digikey" H 5900 3800 50  0001 C CNN "Source"
 	1    5900 3800
@@ -371,12 +371,12 @@ U 1 1 3C372B7A
 P 6300 3100
 F 0 "R40" V 6200 3000 59  0000 L CNN
 F 1 "30k" V 6400 3000 59  0000 L CNN
-F 2 "Frequently_Used_LE:0805_2012Metric" H 6300 3100 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 6300 3100 50  0001 C CNN
-F 4 "30 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric)" H 6300 3100 50  0001 C CNN "Description"
-F 5 "2019-RK73H2ATTD3002FCT-ND" H 6300 3100 50  0001 C CNN "Source Part No."
-F 6 "RK73H2ATTD3002F" H 6300 3100 50  0001 C CNN "Manufacturer Part No."
-F 7 "KOA Speer Electronics, Inc." H 6300 3100 50  0001 C CNN "Manufacturer Name"
+F 2 "Frequently_Used_LE:0603_1608Metric" H 6300 3100 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 6300 3100 50  0001 C CNN
+F 4 "30 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 6300 3100 50  0001 C CNN "Description"
+F 5 "541-30.0KHCT-ND" H 6300 3100 50  0001 C CNN "Source Part No."
+F 6 "CRCW060330K0FKEA" H 6300 3100 50  0001 C CNN "Manufacturer Part No."
+F 7 "Vishay Dale" H 6300 3100 50  0001 C CNN "Manufacturer Name"
 F 8 "Digikey" H 6300 3100 50  0001 C CNN "Source"
 	1    6300 3100
 	1    0    0    -1  

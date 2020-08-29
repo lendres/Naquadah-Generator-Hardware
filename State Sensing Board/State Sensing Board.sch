@@ -136,16 +136,16 @@ $EndComp
 $Comp
 L Naquadah_Generator:MountingHole H1
 U 1 1 5EA2820E
-P 8900 5450
-F 0 "H1" H 9000 5496 50  0000 L CNN
-F 1 "MountingHole" H 9000 5405 50  0000 L CNN
-F 2 "Naquadah_Generator:MountingSlot_2.2mm_2.2mm_M2.0" H 8900 5450 50  0001 C CNN
-F 3 "None" H 8900 5450 50  0001 C CNN
-F 4 "None" H 8900 5450 50  0001 C CNN "Source Part No."
-F 5 "None" H 8900 5450 50  0001 C CNN "Manufacturer Name"
-F 6 "None" H 8900 5450 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 8900 5450 50  0001 C CNN "Source"
-	1    8900 5450
+P 9150 5450
+F 0 "H1" H 9250 5496 50  0000 L CNN
+F 1 "MountingHole" H 9250 5405 50  0000 L CNN
+F 2 "Naquadah_Generator:MountingSlot_2.2mm_2.2mm_M2.0" H 9150 5450 50  0001 C CNN
+F 3 "None" H 9150 5450 50  0001 C CNN
+F 4 "None" H 9150 5450 50  0001 C CNN "Source Part No."
+F 5 "None" H 9150 5450 50  0001 C CNN "Manufacturer Name"
+F 6 "None" H 9150 5450 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 9150 5450 50  0001 C CNN "Source"
+	1    9150 5450
 	1    0    0    1   
 $EndComp
 $Comp
@@ -229,7 +229,7 @@ F 3 "~" H 6250 3050 50  0001 C CNN
 $EndComp
 Text Notes 4900 3500 0    98   ~ 20
 Hall Sensor Schematic
-Text Notes 3000 7700 0    98   ~ 20
+Text Notes 3000 7500 0    98   ~ 20
 Connectors
 Wire Notes Line
 	6969 6536 6969 4300
@@ -240,16 +240,16 @@ Additional Features
 $Comp
 L Naquadah_Generator:WireAssembly WA101
 U 1 1 5EF2EBE6
-P 8650 5850
-F 0 "WA101" H 9028 5896 50  0000 L CNN
-F 1 "WireAssembly" H 9028 5805 50  0000 L CNN
-F 2 "Naquadah_Generator:Wire_Assembly_Four" H 8650 5950 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eSR.pdf" H 8650 5950 50  0001 C CNN
-F 4 "455-3010-ND" H 8650 5850 50  0001 C CNN "Source Part No."
-F 5 "JST Sales America Inc." H 8650 5850 50  0001 C CNN "Manufacturer Name"
-F 6 "A04SR04SR30K51B" H 8650 5850 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 8650 5850 50  0001 C CNN "Source"
-	1    8650 5850
+P 8850 5850
+F 0 "WA101" H 9228 5896 50  0000 L CNN
+F 1 "WireAssembly" H 9228 5805 50  0000 L CNN
+F 2 "Naquadah_Generator:Wire_Assembly_Four" H 8850 5950 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eSR.pdf" H 8850 5950 50  0001 C CNN
+F 4 "455-3010-ND" H 8850 5850 50  0001 C CNN "Source Part No."
+F 5 "JST Sales America Inc." H 8850 5850 50  0001 C CNN "Manufacturer Name"
+F 6 "A04SR04SR30K51B" H 8850 5850 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 8850 5850 50  0001 C CNN "Source"
+	1    8850 5850
 	1    0    0    -1  
 $EndComp
 $Comp

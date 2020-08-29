@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 17
+Sheet 13 18
 Title ""
 Date ""
 Rev ""
@@ -19,7 +19,7 @@ U 1 1 5EB717E5
 P 5600 4000
 F 0 "U11" H 5250 4450 60  0000 L CNN
 F 1 "MIC5219-3.3YM5-TR" H 5250 4350 60  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 5250 3600 60  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5250 3600 60  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf" H 4950 4200 60  0001 C CNN
 F 4 "Linear Voltage Regulator IC 1 Output 500mA" H 5600 4000 50  0001 C CNN "Description"
 F 5 "Microchip" H 5600 4000 50  0001 C CNN "Manufacturer Name"
@@ -106,12 +106,12 @@ AR Path="/5EA6751D/5F3DDC0A/5ECCFF91" Ref="C30"  Part="1"
 F 0 "C30" H 4900 4250 50  0000 L CNN
 F 1 "0.1uF" H 4900 4050 50  0000 L CNN
 F 2 "Frequently_Used_LE:0603_1608Metric" H 4888 4000 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 4850 4150 50  0001 C CNN
-F 4 "Yageo" H 4850 4150 50  0001 C CNN "Manufacturer Name"
-F 5 "CC0603KPX7R7BB104" H 4850 4150 50  0001 C CNN "Manufacturer Part No."
+F 3 "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf" H 4850 4150 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 4850 4150 50  0001 C CNN "Manufacturer Name"
+F 5 "CL10F104ZO8NNNC" H 4850 4150 50  0001 C CNN "Manufacturer Part No."
 F 6 "Digikey" H 4850 4150 50  0001 C CNN "Source"
-F 7 "311-1335-1-ND" H 4850 4150 50  0001 C CNN "Source Part No."
-F 8 "0.1µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)" H 4850 4150 50  0001 C CNN "Description"
+F 7 "1276-1258-1-ND" H 4850 4150 50  0001 C CNN "Source Part No."
+F 8 "	0.1µF -20%, +80% 16V Ceramic Capacitor Y5V (F) 0603 (1608 Metric)" H 4850 4150 50  0001 C CNN "Description"
 	1    4850 4150
 	1    0    0    -1  
 $EndComp
