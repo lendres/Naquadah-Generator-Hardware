@@ -19,7 +19,7 @@ Wire Wire Line
 	5550 3150 6050 3150
 Wire Wire Line
 	5550 3250 6050 3250
-Text HLabel 8550 3600 2    50   Input ~ 0
+Text HLabel 10650 3000 2    50   Input ~ 0
 RESET
 Text HLabel 6050 3150 2    50   Input ~ 0
 RX
@@ -28,110 +28,110 @@ TX
 $Comp
 L Frequently_Used_LE:C C?
 U 1 1 5F255A01
-P 1200 5050
+P 1150 5400
 AR Path="/5F255A01" Ref="C?"  Part="1" 
 AR Path="/5F06C1CA/5F255A01" Ref="C16"  Part="1" 
-F 0 "C16" V 1250 5000 50  0000 R CNN
-F 1 "22pF" V 1250 5100 50  0000 L CNN
-F 2 "Frequently_Used_LE:0603_1608Metric" H 1238 4900 50  0001 C CNN
-F 3 "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf" H 1200 5050 50  0001 C CNN
-F 4 "1276-1023-1-ND" H 1200 5050 50  0001 C CNN "Source Part No."
-F 5 "Samsung Electro-Mechanics" H 1200 5050 50  0001 C CNN "Manufacturer Name"
-F 6 "CL10C220JB8NNNC" H 1200 5050 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 1200 5050 50  0001 C CNN "Source"
-F 8 "22pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)" H 1200 5050 50  0001 C CNN "Description"
-	1    1200 5050
+F 0 "C16" V 1200 5350 50  0000 R CNN
+F 1 "22pF" V 1200 5450 50  0000 L CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" H 1188 5250 50  0001 C CNN
+F 3 "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf" H 1150 5400 50  0001 C CNN
+F 4 "1276-1023-1-ND" H 1150 5400 50  0001 C CNN "Source Part No."
+F 5 "Samsung Electro-Mechanics" H 1150 5400 50  0001 C CNN "Manufacturer Name"
+F 6 "CL10C220JB8NNNC" H 1150 5400 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 1150 5400 50  0001 C CNN "Source"
+F 8 "22pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)" H 1150 5400 50  0001 C CNN "Description"
+	1    1150 5400
 	0    1    1    0   
 $EndComp
 $Comp
 L Frequently_Used_LE:C C?
 U 1 1 5F255A0B
-P 1200 4750
+P 1150 5100
 AR Path="/5F255A0B" Ref="C?"  Part="1" 
 AR Path="/5F06C1CA/5F255A0B" Ref="C10"  Part="1" 
-F 0 "C10" V 1150 4700 50  0000 R CNN
-F 1 "22pF" V 1150 4800 50  0000 L CNN
-F 2 "Frequently_Used_LE:0603_1608Metric" H 1238 4600 50  0001 C CNN
-F 3 "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf" H 1200 4750 50  0001 C CNN
-F 4 "1276-1023-1-ND" H 1200 4750 50  0001 C CNN "Source Part No."
-F 5 "Samsung Electro-Mechanics" H 1200 4750 50  0001 C CNN "Manufacturer Name"
-F 6 "CL10C220JB8NNNC" H 1200 4750 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 1200 4750 50  0001 C CNN "Source"
-F 8 "22pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)" H 1200 4750 50  0001 C CNN "Description"
-	1    1200 4750
+F 0 "C10" V 1100 5050 50  0000 R CNN
+F 1 "22pF" V 1100 5150 50  0000 L CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" H 1188 4950 50  0001 C CNN
+F 3 "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf" H 1150 5100 50  0001 C CNN
+F 4 "1276-1023-1-ND" H 1150 5100 50  0001 C CNN "Source Part No."
+F 5 "Samsung Electro-Mechanics" H 1150 5100 50  0001 C CNN "Manufacturer Name"
+F 6 "CL10C220JB8NNNC" H 1150 5100 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 1150 5100 50  0001 C CNN "Source"
+F 8 "22pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)" H 1150 5100 50  0001 C CNN "Description"
+	1    1150 5100
 	0    1    1    0   
 $EndComp
 $Comp
 L Frequently_Used_LE:Crystal Y?
 U 1 1 5F255A16
-P 1500 4900
+P 1450 5250
 AR Path="/5F255A16" Ref="Y?"  Part="1" 
 AR Path="/5F06C1CA/5F255A16" Ref="Y2"  Part="1" 
-F 0 "Y2" H 1500 4750 50  0000 C CNN
-F 1 "12MHz" H 1500 5050 50  0000 C CNN
-F 2 "Naquadah_Generator:Oscillator_ABM3-16.000MHZ-B2-T" H 1500 4900 50  0001 C CNN
-F 3 "https://abracon.com/Resonators/abm3.pdf" H 1500 4900 50  0001 C CNN
-F 4 "535-9103-1-ND" H 1500 4900 50  0001 C CNN "Source Part No."
-F 5 "Abracon " H 1500 4900 50  0001 C CNN "Manufacturer Name"
-F 6 "ABM3-16.000MHZ-B2-T" H 1500 4900 50  0001 C CNN "Manufacturer Part No."
-F 7 "Abracon LLC" H 1500 4900 50  0001 C CNN "Description"
-F 8 "Digikey" H 1500 4900 50  0001 C CNN "Source"
-	1    1500 4900
+F 0 "Y2" H 1450 5100 50  0000 C CNN
+F 1 "12MHz" H 1450 5400 50  0000 C CNN
+F 2 "Naquadah_Generator:Oscillator_ABM3-16.000MHZ-B2-T" H 1450 5250 50  0001 C CNN
+F 3 "https://abracon.com/Resonators/abm3.pdf" H 1450 5250 50  0001 C CNN
+F 4 "535-9103-1-ND" H 1450 5250 50  0001 C CNN "Source Part No."
+F 5 "Abracon " H 1450 5250 50  0001 C CNN "Manufacturer Name"
+F 6 "ABM3-16.000MHZ-B2-T" H 1450 5250 50  0001 C CNN "Manufacturer Part No."
+F 7 "Abracon LLC" H 1450 5250 50  0001 C CNN "Description"
+F 8 "Digikey" H 1450 5250 50  0001 C CNN "Source"
+	1    1450 5250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1350 4750 1500 4750
-Connection ~ 1500 4750
+	1300 5100 1450 5100
+Connection ~ 1450 5100
 Wire Wire Line
-	1500 4750 1850 4750
+	1450 5100 1800 5100
 Wire Wire Line
-	1350 5050 1500 5050
+	1300 5400 1450 5400
 Wire Wire Line
-	1500 5050 1850 5050
+	1450 5400 1800 5400
 Wire Wire Line
-	1050 5050 950  5050
+	1000 5400 900  5400
 Wire Wire Line
-	950  5050 950  4900
+	900  5400 900  5250
 Wire Wire Line
-	950  4750 1050 4750
+	900  5100 1000 5100
 Wire Wire Line
-	950  4900 750  4900
+	900  5250 700  5250
 Wire Wire Line
-	750  4900 750  5000
-Connection ~ 950  4900
+	700  5250 700  5350
+Connection ~ 900  5250
 Wire Wire Line
-	950  4900 950  4750
-Text Label 2300 5050 2    50   ~ 0
+	900  5250 900  5100
+Text Label 2250 5400 2    50   ~ 0
 XTALO
 Text Label 3800 1150 0    50   ~ 0
 XTALI
 Text Label 3800 1250 0    50   ~ 0
 XTALO
-Text Label 2300 4750 2    50   ~ 0
+Text Label 2250 5100 2    50   ~ 0
 XTALI
-Connection ~ 1500 5050
+Connection ~ 1450 5400
 $Comp
 L Frequently_Used_LE:R R37
 U 1 1 5F25855F
-P 1850 4900
-F 0 "R37" H 1900 4950 50  0000 L CNN
-F 1 "1M" H 1900 4850 50  0000 L CNN
-F 2 "Frequently_Used_LE:0603_1608Metric" V 1780 4900 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 1850 4900 50  0001 C CNN
-F 4 "1 MOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 1850 4900 50  0001 C CNN "Description"
-F 5 "Stackpole Electronics Inc" H 1850 4900 50  0001 C CNN "Manufacturer Name"
-F 6 "Stackpole Electronics Inc" H 1850 4900 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 1850 4900 50  0001 C CNN "Source"
-F 8 "	RMCF0603FG1M00CT-ND" H 1850 4900 50  0001 C CNN "Source Part No."
-	1    1850 4900
+P 1800 5250
+F 0 "R37" H 1850 5300 50  0000 L CNN
+F 1 "1M" H 1850 5200 50  0000 L CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" V 1730 5250 50  0001 C CNN
+F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 1800 5250 50  0001 C CNN
+F 4 "1 MOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 1800 5250 50  0001 C CNN "Description"
+F 5 "Stackpole Electronics Inc" H 1800 5250 50  0001 C CNN "Manufacturer Name"
+F 6 "Stackpole Electronics Inc" H 1800 5250 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 1800 5250 50  0001 C CNN "Source"
+F 8 "	RMCF0603FG1M00CT-ND" H 1800 5250 50  0001 C CNN "Source Part No."
+	1    1800 5250
 	1    0    0    -1  
 $EndComp
-Connection ~ 1850 4750
+Connection ~ 1800 5100
 Wire Wire Line
-	1850 4750 2300 4750
-Connection ~ 1850 5050
+	1800 5100 2250 5100
+Connection ~ 1800 5400
 Wire Wire Line
-	1850 5050 2300 5050
+	1800 5400 2250 5400
 Wire Wire Line
 	3550 1000 3550 1100
 Wire Wire Line
@@ -212,109 +212,109 @@ $EndComp
 $Comp
 L Frequently_Used_LE:DGND #PWR043
 U 1 1 5F28FF9A
-P 2300 7100
-F 0 "#PWR043" H 2300 6850 50  0001 C CNN
-F 1 "DGND" H 2305 6927 50  0000 C CNN
-F 2 "" H 2300 7100 50  0001 C CNN
-F 3 "" H 2300 7100 50  0001 C CNN
-	1    2300 7100
+P 10600 5950
+F 0 "#PWR043" H 10600 5700 50  0001 C CNN
+F 1 "DGND" H 10605 5777 50  0000 C CNN
+F 2 "" H 10600 5950 50  0001 C CNN
+F 3 "" H 10600 5950 50  0001 C CNN
+	1    10600 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Frequently_Used_LE:AGND #PWR037
 U 1 1 5F29074F
-P 800 7100
-F 0 "#PWR037" H 800 6850 50  0001 C CNN
-F 1 "AGND" H 805 6927 50  0000 C CNN
-F 2 "" H 800 7100 50  0001 C CNN
-F 3 "" H 800 7100 50  0001 C CNN
-	1    800  7100
+P 9100 5950
+F 0 "#PWR037" H 9100 5700 50  0001 C CNN
+F 1 "AGND" H 9105 5777 50  0000 C CNN
+F 2 "" H 9100 5950 50  0001 C CNN
+F 3 "" H 9100 5950 50  0001 C CNN
+	1    9100 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:L_Core_Ferrite_Small L3
 U 1 1 5F291B0D
-P 1750 7000
-F 0 "L3" V 1700 7000 50  0000 C CNN
-F 1 "Ferrite" V 1850 7000 50  0000 C CNN
-F 2 "Frequently_Used_LE:0603_1608Metric" H 1750 7000 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 1750 7000 50  0001 C CNN
-F 4 "120 Ohms @ 100MHz 1 Ferrite Bead 0603 (1608 Metric) 800mA 180mOhm" H 1750 7000 50  0001 C CNN "Description"
-F 5 "Murata Electronics" H 1750 7000 50  0001 C CNN "Manufacturer Name"
-F 6 "BLM18AG121SN1D" H 1750 7000 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 1750 7000 50  0001 C CNN "Source"
-F 8 "490-1011-1-ND" H 1750 7000 50  0001 C CNN "Source Part No."
-	1    1750 7000
+P 10050 5850
+F 0 "L3" V 10000 5850 50  0000 C CNN
+F 1 "Ferrite" V 10150 5850 50  0000 C CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" H 10050 5850 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 10050 5850 50  0001 C CNN
+F 4 "120 Ohms @ 100MHz 1 Ferrite Bead 0603 (1608 Metric) 800mA 180mOhm" H 10050 5850 50  0001 C CNN "Description"
+F 5 "Murata Electronics" H 10050 5850 50  0001 C CNN "Manufacturer Name"
+F 6 "BLM18AG121SN1D" H 10050 5850 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 10050 5850 50  0001 C CNN "Source"
+F 8 "490-1011-1-ND" H 10050 5850 50  0001 C CNN "Source Part No."
+	1    10050 5850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1850 7000 2000 7000
+	10150 5850 10300 5850
 Wire Wire Line
-	1900 6700 2000 6700
+	10200 5550 10300 5550
 Wire Wire Line
-	2000 6700 2000 7000
-Connection ~ 2000 7000
+	10300 5550 10300 5850
+Connection ~ 10300 5850
 Wire Wire Line
-	2000 7000 2200 7000
+	10300 5850 10500 5850
 Wire Wire Line
-	1600 6700 1500 6700
+	9900 5550 9800 5550
 Wire Wire Line
-	1500 6700 1500 7000
-Connection ~ 1500 7000
+	9800 5550 9800 5850
+Connection ~ 9800 5850
 Wire Wire Line
-	1500 7000 1650 7000
+	9800 5850 9950 5850
 $Comp
 L Frequently_Used_LE:TestPoint_1 TP?
 U 1 1 5F27CA22
-P 1300 6900
+P 9600 5750
 AR Path="/5EA6751D/5F27CA22" Ref="TP?"  Part="1" 
 AR Path="/5F06C1CA/5F27CA22" Ref="TP12"  Part="1" 
 AR Path="/5F27CA22" Ref="TP12"  Part="1" 
-F 0 "TP12" H 1300 7150 50  0000 C CNN
-F 1 "TestPoint" H 1300 6620 50  0001 C CNN
-F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 1500 6900 50  0001 C CNN
-F 3 "None" H 1500 6900 50  0001 C CNN
-F 4 "AGND" H 1300 7050 50  0000 C CNN "Name"
-F 5 "None" H 1295 6545 50  0001 C CNN "Source"
-F 6 "None" H 1295 6545 50  0001 C CNN "Source Part No."
-F 7 "None" H 1295 6545 50  0001 C CNN "Manufacturer Name"
-F 8 "None" H 1295 6545 50  0001 C CNN "Manufacturer Part No."
-F 9 "Test point" H 1300 6900 50  0001 C CNN "Description"
-	1    1300 6900
+F 0 "TP12" H 9600 6000 50  0000 C CNN
+F 1 "TestPoint" H 9600 5470 50  0001 C CNN
+F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 9800 5750 50  0001 C CNN
+F 3 "None" H 9800 5750 50  0001 C CNN
+F 4 "AGND" H 9600 5900 50  0000 C CNN "Name"
+F 5 "None" H 9595 5395 50  0001 C CNN "Source"
+F 6 "None" H 9595 5395 50  0001 C CNN "Source Part No."
+F 7 "None" H 9595 5395 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 9595 5395 50  0001 C CNN "Manufacturer Part No."
+F 9 "Test point" H 9600 5750 50  0001 C CNN "Description"
+	1    9600 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Frequently_Used_LE:TestPoint_1 TP?
 U 1 1 5F27E3C5
-P 2200 6900
+P 10500 5750
 AR Path="/5EA6751D/5F27E3C5" Ref="TP?"  Part="1" 
 AR Path="/5F06C1CA/5F27E3C5" Ref="TP13"  Part="1" 
 AR Path="/5F27E3C5" Ref="TP13"  Part="1" 
-F 0 "TP13" H 2200 7150 50  0000 C CNN
-F 1 "TestPoint" H 2200 6620 50  0001 C CNN
-F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 2400 6900 50  0001 C CNN
-F 3 "None" H 2400 6900 50  0001 C CNN
-F 4 "DGND" H 2200 7050 50  0000 C CNN "Name"
-F 5 "None" H 2195 6545 50  0001 C CNN "Source"
-F 6 "None" H 2195 6545 50  0001 C CNN "Source Part No."
-F 7 "None" H 2195 6545 50  0001 C CNN "Manufacturer Name"
-F 8 "None" H 2195 6545 50  0001 C CNN "Manufacturer Part No."
-F 9 "Test point" H 2200 6900 50  0001 C CNN "Description"
-	1    2200 6900
+F 0 "TP13" H 10500 6000 50  0000 C CNN
+F 1 "TestPoint" H 10500 5470 50  0001 C CNN
+F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 10700 5750 50  0001 C CNN
+F 3 "None" H 10700 5750 50  0001 C CNN
+F 4 "DGND" H 10500 5900 50  0000 C CNN "Name"
+F 5 "None" H 10495 5395 50  0001 C CNN "Source"
+F 6 "None" H 10495 5395 50  0001 C CNN "Source Part No."
+F 7 "None" H 10495 5395 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 10495 5395 50  0001 C CNN "Manufacturer Part No."
+F 9 "Test point" H 10500 5750 50  0001 C CNN "Description"
+	1    10500 5750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 6900 2200 7000
-Connection ~ 2200 7000
+	10500 5750 10500 5850
+Connection ~ 10500 5850
 Wire Wire Line
-	2200 7000 2300 7000
+	10500 5850 10600 5850
 Wire Wire Line
-	1300 6900 1300 7000
+	9600 5750 9600 5850
 Wire Wire Line
-	900  7000 1300 7000
-Connection ~ 1300 7000
+	9200 5850 9600 5850
+Connection ~ 9600 5850
 Wire Wire Line
-	1300 7000 1500 7000
+	9600 5850 9800 5850
 Text Label 3800 1400 0    50   ~ 0
 IO_0
 Wire Wire Line
@@ -481,12 +481,12 @@ Wire Wire Line
 $Comp
 L Frequently_Used_LE:DGND #PWR019
 U 1 1 5F2C0AA3
-P 750 5000
-F 0 "#PWR019" H 750 4750 50  0001 C CNN
-F 1 "DGND" H 755 4827 50  0000 C CNN
-F 2 "" H 750 5000 50  0001 C CNN
-F 3 "" H 750 5000 50  0001 C CNN
-	1    750  5000
+P 700 5350
+F 0 "#PWR019" H 700 5100 50  0001 C CNN
+F 1 "DGND" H 705 5177 50  0000 C CNN
+F 2 "" H 700 5350 50  0001 C CNN
+F 3 "" H 700 5350 50  0001 C CNN
+	1    700  5350
 	1    0    0    -1  
 $EndComp
 Text Label 5600 2700 0    50   ~ 0
@@ -539,62 +539,62 @@ $EndComp
 $Comp
 L Device:L_Core_Ferrite_Small L2
 U 1 1 5F37693B
-P 1350 6100
-F 0 "L2" V 1300 6100 50  0000 C CNN
-F 1 "Ferrite" V 1450 6100 50  0000 C CNN
-F 2 "Frequently_Used_LE:0603_1608Metric" H 1350 6100 50  0001 C CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 1350 6100 50  0001 C CNN
-F 4 "120 Ohms @ 100MHz 1 Ferrite Bead 0603 (1608 Metric) 800mA 180mOhm" H 1350 6100 50  0001 C CNN "Description"
-F 5 "Murata Electronics" H 1350 6100 50  0001 C CNN "Manufacturer Name"
-F 6 "BLM18AG121SN1D" H 1350 6100 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 1350 6100 50  0001 C CNN "Source"
-F 8 "490-1011-1-ND" H 1350 6100 50  0001 C CNN "Source Part No."
-	1    1350 6100
+P 9650 4950
+F 0 "L2" V 9600 4950 50  0000 C CNN
+F 1 "Ferrite" V 9750 4950 50  0000 C CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" H 9650 4950 50  0001 C CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 9650 4950 50  0001 C CNN
+F 4 "120 Ohms @ 100MHz 1 Ferrite Bead 0603 (1608 Metric) 800mA 180mOhm" H 9650 4950 50  0001 C CNN "Description"
+F 5 "Murata Electronics" H 9650 4950 50  0001 C CNN "Manufacturer Name"
+F 6 "BLM18AG121SN1D" H 9650 4950 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 9650 4950 50  0001 C CNN "Source"
+F 8 "490-1011-1-ND" H 9650 4950 50  0001 C CNN "Source Part No."
+	1    9650 4950
 	0    1    1    0   
 $EndComp
 $Comp
 L Frequently_Used_LE:AVDD #PWR041
 U 1 1 5F378C08
-P 2300 6000
-F 0 "#PWR041" H 2300 5850 50  0001 C CNN
-F 1 "AVDD" H 2315 6173 50  0000 C CNN
-F 2 "" H 2300 6000 50  0001 C CNN
-F 3 "" H 2300 6000 50  0001 C CNN
-	1    2300 6000
+P 10600 4850
+F 0 "#PWR041" H 10600 4700 50  0001 C CNN
+F 1 "AVDD" H 10615 5023 50  0000 C CNN
+F 2 "" H 10600 4850 50  0001 C CNN
+F 3 "" H 10600 4850 50  0001 C CNN
+	1    10600 4850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2300 6000 2300 6100
+	10600 4850 10600 4950
 $Comp
 L Frequently_Used_LE:+3.3V #PWR039
 U 1 1 5F37B3FB
-P 800 6000
-F 0 "#PWR039" H 800 5850 50  0001 C CNN
-F 1 "+3.3V" H 815 6173 50  0000 C CNN
-F 2 "" H 800 6000 50  0001 C CNN
-F 3 "" H 800 6000 50  0001 C CNN
-	1    800  6000
+P 9100 4850
+F 0 "#PWR039" H 9100 4700 50  0001 C CNN
+F 1 "+3.3V" H 9115 5023 50  0000 C CNN
+F 2 "" H 9100 4850 50  0001 C CNN
+F 3 "" H 9100 4850 50  0001 C CNN
+	1    9100 4850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	800  6000 800  6100
+	9100 4850 9100 4950
 Wire Wire Line
-	800  6100 950  6100
+	9100 4950 9250 4950
 $Comp
 L Jumper:SolderJumper_2_Open JP3
 U 1 1 5F385B95
-P 1750 6700
-F 0 "JP3" H 1700 6800 50  0000 L CNN
-F 1 "Open" H 1650 6600 50  0000 L CNN
-F 2 "Jumper_LE:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 1750 6700 50  0001 C CNN
-F 3 "None" H 1750 6700 50  0001 C CNN
-F 4 "None" H 1750 6700 50  0001 C CNN "Description"
-F 5 "None" H 1750 6700 50  0001 C CNN "Manufacturer Name"
-F 6 "None" H 1750 6700 50  0001 C CNN "Manufacturer Part No."
-F 7 "None" H 1750 6700 50  0001 C CNN "Name"
-F 8 "None" H 1750 6700 50  0001 C CNN "Source"
-F 9 "None" H 1750 6700 50  0001 C CNN "Source Part No."
-	1    1750 6700
+P 10050 5550
+F 0 "JP3" H 10000 5650 50  0000 L CNN
+F 1 "Open" H 9950 5450 50  0000 L CNN
+F 2 "Jumper_LE:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 10050 5550 50  0001 C CNN
+F 3 "None" H 10050 5550 50  0001 C CNN
+F 4 "None" H 10050 5550 50  0001 C CNN "Description"
+F 5 "None" H 10050 5550 50  0001 C CNN "Manufacturer Name"
+F 6 "None" H 10050 5550 50  0001 C CNN "Manufacturer Part No."
+F 7 "None" H 10050 5550 50  0001 C CNN "Name"
+F 8 "None" H 10050 5550 50  0001 C CNN "Source"
+F 9 "None" H 10050 5550 50  0001 C CNN "Source Part No."
+	1    10050 5550
 	1    0    0    -1  
 $EndComp
 Text Label 5600 1050 0    50   ~ 0
@@ -697,61 +697,61 @@ $EndComp
 $Comp
 L Frequently_Used_LE:R R?
 U 1 1 5F44FB29
-P 3300 4750
+P 3400 5150
 AR Path="/5F44FB29" Ref="R?"  Part="1" 
 AR Path="/5F06C1CA/5F44FB29" Ref="R53"  Part="1" 
-F 0 "R53" V 3200 4750 50  0000 C CNN
-F 1 "100k" V 3400 4750 50  0000 C CNN
-F 2 "Frequently_Used_LE:0603_1608Metric" V 3230 4750 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 3300 4750 50  0001 C CNN
-F 4 "1 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 3300 4750 50  0001 C CNN "Description"
-F 5 "KOA Speer Electronics, Inc." H 3300 4750 50  0001 C CNN "Manufacturer Name"
-F 6 "RK73H1JTTD1001F" H 3300 4750 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 3300 4750 50  0001 C CNN "Source"
-F 8 "2019-RK73H1JTTD1001FCT-ND" H 3300 4750 50  0001 C CNN "Source Part No."
-	1    3300 4750
+F 0 "R53" V 3300 5150 50  0000 C CNN
+F 1 "100k" V 3500 5150 50  0000 C CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" V 3330 5150 50  0001 C CNN
+F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 3400 5150 50  0001 C CNN
+F 4 "1 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 3400 5150 50  0001 C CNN "Description"
+F 5 "KOA Speer Electronics, Inc." H 3400 5150 50  0001 C CNN "Manufacturer Name"
+F 6 "RK73H1JTTD1001F" H 3400 5150 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 3400 5150 50  0001 C CNN "Source"
+F 8 "2019-RK73H1JTTD1001FCT-ND" H 3400 5150 50  0001 C CNN "Source Part No."
+	1    3400 5150
 	0    1    1    0   
 $EndComp
 $Comp
 L Frequently_Used_LE:R R?
 U 1 1 5F44FB34
-P 8300 3350
+P 10400 2750
 AR Path="/5F44FB34" Ref="R?"  Part="1" 
 AR Path="/5F06C1CA/5F44FB34" Ref="R54"  Part="1" 
-F 0 "R54" H 8400 3400 50  0000 L CNN
-F 1 "100k" H 8400 3300 50  0000 L CNN
-F 2 "Frequently_Used_LE:0603_1608Metric" V 8230 3350 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 8300 3350 50  0001 C CNN
-F 4 "1 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 8300 3350 50  0001 C CNN "Description"
-F 5 "KOA Speer Electronics, Inc." H 8300 3350 50  0001 C CNN "Manufacturer Name"
-F 6 "RK73H1JTTD1001F" H 8300 3350 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 8300 3350 50  0001 C CNN "Source"
-F 8 "2019-RK73H1JTTD1001FCT-ND" H 8300 3350 50  0001 C CNN "Source Part No."
-	1    8300 3350
+F 0 "R54" H 10500 2800 50  0000 L CNN
+F 1 "100k" H 10500 2700 50  0000 L CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" V 10330 2750 50  0001 C CNN
+F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 10400 2750 50  0001 C CNN
+F 4 "1 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 10400 2750 50  0001 C CNN "Description"
+F 5 "KOA Speer Electronics, Inc." H 10400 2750 50  0001 C CNN "Manufacturer Name"
+F 6 "RK73H1JTTD1001F" H 10400 2750 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 10400 2750 50  0001 C CNN "Source"
+F 8 "2019-RK73H1JTTD1001FCT-ND" H 10400 2750 50  0001 C CNN "Source Part No."
+	1    10400 2750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8300 3500 8300 3600
+	10400 2900 10400 3000
 Wire Wire Line
-	3150 4750 3050 4750
+	3250 5150 3150 5150
 $Comp
 L Frequently_Used_LE:+3.3V #PWR0126
 U 1 1 5F44FB54
-P 3050 4600
-F 0 "#PWR0126" H 3050 4450 50  0001 C CNN
-F 1 "+3.3V" H 3065 4773 50  0000 C CNN
-F 2 "" H 3050 4600 50  0001 C CNN
-F 3 "" H 3050 4600 50  0001 C CNN
-	1    3050 4600
+P 3150 5000
+F 0 "#PWR0126" H 3150 4850 50  0001 C CNN
+F 1 "+3.3V" H 3165 5173 50  0000 C CNN
+F 2 "" H 3150 5000 50  0001 C CNN
+F 3 "" H 3150 5000 50  0001 C CNN
+	1    3150 5000
 	1    0    0    -1  
 $EndComp
-Text Label 3500 4750 0    50   ~ 0
+Text Label 3600 5150 0    50   ~ 0
 IO_7
 Wire Wire Line
-	3450 4750 3700 4750
+	3550 5150 3800 5150
 Wire Wire Line
-	8300 3600 8550 3600
-Text Notes 1300 5350 0    79   ~ 16
+	10400 3000 10650 3000
+Text Notes 1250 5700 0    79   ~ 16
 Crystal
 Text Notes 1300 4050 0    79   ~ 16
 Pull Down
@@ -805,37 +805,37 @@ Wire Wire Line
 $Comp
 L Frequently_Used_LE:C C?
 U 1 1 5F60F932
-P 8300 3850
+P 10400 3250
 AR Path="/5F60F932" Ref="C?"  Part="1" 
 AR Path="/5F06C1CA/5F60F932" Ref="C22"  Part="1" 
-F 0 "C22" H 8350 3950 50  0000 L CNN
-F 1 "1uF" H 8350 3750 50  0000 L CNN
-F 2 "Frequently_Used_LE:0603_1608Metric" H 8338 3700 50  0001 C CNN
-F 3 "http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A105KP8NNN" H 8300 3850 50  0001 C CNN
-F 4 "1276-1182-1-ND" H 8300 3850 50  0001 C CNN "Source Part No."
-F 5 "Samsung Electro-Mechanics" H 8300 3850 50  0001 C CNN "Manufacturer Name"
-F 6 "CL10A105KP8NNNC" H 8300 3850 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 8300 3850 50  0001 C CNN "Source"
-F 8 "1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" H 8300 3850 50  0001 C CNN "Description"
-	1    8300 3850
+F 0 "C22" H 10450 3350 50  0000 L CNN
+F 1 "1uF" H 10450 3150 50  0000 L CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" H 10438 3100 50  0001 C CNN
+F 3 "http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A105KP8NNN" H 10400 3250 50  0001 C CNN
+F 4 "1276-1182-1-ND" H 10400 3250 50  0001 C CNN "Source Part No."
+F 5 "Samsung Electro-Mechanics" H 10400 3250 50  0001 C CNN "Manufacturer Name"
+F 6 "CL10A105KP8NNNC" H 10400 3250 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 10400 3250 50  0001 C CNN "Source"
+F 8 "1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" H 10400 3250 50  0001 C CNN "Description"
+	1    10400 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8300 4100 8300 4000
+	10400 3500 10400 3400
 Wire Wire Line
-	8300 3700 8300 3600
+	10400 3100 10400 3000
 $Comp
 L Frequently_Used_LE:DGND #PWR0130
 U 1 1 5F615CD6
-P 8300 4100
-F 0 "#PWR0130" H 8300 3850 50  0001 C CNN
-F 1 "DGND" H 8305 3927 50  0000 C CNN
-F 2 "" H 8300 4100 50  0001 C CNN
-F 3 "" H 8300 4100 50  0001 C CNN
-	1    8300 4100
+P 10400 3500
+F 0 "#PWR0130" H 10400 3250 50  0001 C CNN
+F 1 "DGND" H 10405 3327 50  0000 C CNN
+F 2 "" H 10400 3500 50  0001 C CNN
+F 3 "" H 10400 3500 50  0001 C CNN
+	1    10400 3500
 	1    0    0    -1  
 $EndComp
-Connection ~ 8300 3600
+Connection ~ 10400 3000
 Wire Wire Line
 	4300 3000 3800 3000
 Wire Wire Line
@@ -883,59 +883,59 @@ Text Label 5600 2050 0    50   ~ 0
 POWBTN
 Wire Wire Line
 	5550 2050 6050 2050
-Text Label 7050 3600 0    50   ~ 0
+Text Label 9150 3000 0    50   ~ 0
 POWBTN
 Wire Wire Line
-	7050 3600 7450 3600
+	9150 3000 9550 3000
 Text Notes 9200 1800 0    79   ~ 16
 Decoupling
 Wire Wire Line
-	7450 3700 7450 3600
-Connection ~ 7450 3600
+	9550 3100 9550 3000
+Connection ~ 9550 3000
 Wire Wire Line
-	7450 3600 7450 3500
+	9550 3000 9550 2900
 Wire Wire Line
-	7450 4000 7450 4100
+	9550 3400 9550 3500
 $Comp
 L Frequently_Used_LE:DGND #PWR0131
 U 1 1 5F754C9D
-P 7450 4100
-F 0 "#PWR0131" H 7450 3850 50  0001 C CNN
-F 1 "DGND" H 7450 3950 50  0000 C CNN
-F 2 "" H 7450 4100 50  0001 C CNN
-F 3 "" H 7450 4100 50  0001 C CNN
-	1    7450 4100
+P 9550 3500
+F 0 "#PWR0131" H 9550 3250 50  0001 C CNN
+F 1 "DGND" H 9550 3350 50  0000 C CNN
+F 2 "" H 9550 3500 50  0001 C CNN
+F 3 "" H 9550 3500 50  0001 C CNN
+	1    9550 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Frequently_Used_LE:C C?
 U 1 1 5F75D4D6
-P 7450 3350
+P 9550 2750
 AR Path="/5F75D4D6" Ref="C?"  Part="1" 
 AR Path="/5F06C1CA/5F75D4D6" Ref="C29"  Part="1" 
-F 0 "C29" H 7500 3450 50  0000 L CNN
-F 1 "1uF" H 7500 3250 50  0000 L CNN
-F 2 "Frequently_Used_LE:0603_1608Metric" H 7488 3200 50  0001 C CNN
-F 3 "http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A105KP8NNN" H 7450 3350 50  0001 C CNN
-F 4 "1276-1182-1-ND" H 7450 3350 50  0001 C CNN "Source Part No."
-F 5 "Samsung Electro-Mechanics" H 7450 3350 50  0001 C CNN "Manufacturer Name"
-F 6 "CL10A105KP8NNNC" H 7450 3350 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 7450 3350 50  0001 C CNN "Source"
-F 8 "1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" H 7450 3350 50  0001 C CNN "Description"
-	1    7450 3350
+F 0 "C29" H 9600 2850 50  0000 L CNN
+F 1 "1uF" H 9600 2650 50  0000 L CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" H 9588 2600 50  0001 C CNN
+F 3 "http://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A105KP8NNN" H 9550 2750 50  0001 C CNN
+F 4 "1276-1182-1-ND" H 9550 2750 50  0001 C CNN "Source Part No."
+F 5 "Samsung Electro-Mechanics" H 9550 2750 50  0001 C CNN "Manufacturer Name"
+F 6 "CL10A105KP8NNNC" H 9550 2750 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 9550 2750 50  0001 C CNN "Source"
+F 8 "1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" H 9550 2750 50  0001 C CNN "Description"
+	1    9550 2750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7450 3200 7450 3100
+	9550 2600 9550 2500
 $Comp
 L Frequently_Used_LE:+5V #PWR0132
 U 1 1 5F77B8F4
-P 7450 3100
-F 0 "#PWR0132" H 7450 2950 50  0001 C CNN
-F 1 "+5V" H 7465 3273 50  0000 C CNN
-F 2 "" H 7450 3100 50  0001 C CNN
-F 3 "" H 7450 3100 50  0001 C CNN
-	1    7450 3100
+P 9550 2500
+F 0 "#PWR0132" H 9550 2350 50  0001 C CNN
+F 1 "+5V" H 9565 2673 50  0000 C CNN
+F 2 "" H 9550 2500 50  0001 C CNN
+F 3 "" H 9550 2500 50  0001 C CNN
+	1    9550 2500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1074,50 +1074,50 @@ Wire Wire Line
 $Comp
 L Frequently_Used_LE:AVDD #PWR0135
 U 1 1 5F8F4E80
-P 4200 6750
-F 0 "#PWR0135" H 4200 6600 50  0001 C CNN
-F 1 "AVDD" H 4200 6900 50  0000 C CNN
-F 2 "" H 4200 6750 50  0001 C CNN
-F 3 "" H 4200 6750 50  0001 C CNN
-	1    4200 6750
+P 4500 6700
+F 0 "#PWR0135" H 4500 6550 50  0001 C CNN
+F 1 "AVDD" H 4500 6850 50  0000 C CNN
+F 2 "" H 4500 6700 50  0001 C CNN
+F 3 "" H 4500 6700 50  0001 C CNN
+	1    4500 6700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 6950 6050 6950
-Text Label 5900 6850 0    50   ~ 0
+	5950 6900 6350 6900
+Text Label 6200 6800 0    50   ~ 0
 AO+
-Text Label 5900 6950 0    50   ~ 0
+Text Label 6200 6900 0    50   ~ 0
 AO-
 Wire Wire Line
-	4050 6950 4050 7000
+	4350 6900 4350 6950
 Wire Wire Line
-	4200 7150 4200 7050
+	4500 7100 4500 7000
 Wire Wire Line
-	3900 7150 3450 7150
+	4200 7100 3750 7100
 Text Label 5600 2200 0    50   ~ 0
 AUDIOLEFT
 Wire Wire Line
 	5550 2200 6050 2200
-Text Label 3450 7150 0    50   ~ 0
+Text Label 3750 7100 0    50   ~ 0
 AUDIOPRE+
 NoConn ~ 5550 2300
 Wire Wire Line
-	4200 7150 4200 7300
+	4500 7100 4500 7250
 $Comp
 L Frequently_Used_LE:AGND #PWR0144
 U 1 1 5FAE056F
-P 4200 7300
-F 0 "#PWR0144" H 4200 7050 50  0001 C CNN
-F 1 "AGND" H 4200 7150 50  0000 C CNN
-F 2 "" H 4200 7300 50  0001 C CNN
-F 3 "" H 4200 7300 50  0001 C CNN
-	1    4200 7300
+P 4500 7250
+F 0 "#PWR0144" H 4500 7000 50  0001 C CNN
+F 1 "AGND" H 4500 7100 50  0000 C CNN
+F 2 "" H 4500 7250 50  0001 C CNN
+F 3 "" H 4500 7250 50  0001 C CNN
+	1    4500 7250
 	1    0    0    -1  
 $EndComp
-Connection ~ 4200 7150
-Text Notes 4800 7500 0    79   ~ 16
+Connection ~ 4500 7100
+Text Notes 5100 7450 0    79   ~ 16
 Amplifier
-Text Notes 650  7500 0    79   ~ 16
+Text Notes 8950 6350 0    79   ~ 16
 Digital to Analog Connections
 Text Notes 4650 4050 0    79   ~ 16
 Audio IC
@@ -1170,19 +1170,19 @@ $EndComp
 $Comp
 L Frequently_Used_LE:R R?
 U 1 1 5F745861
-P 7450 3850
+P 9550 3250
 AR Path="/5F745861" Ref="R?"  Part="1" 
 AR Path="/5F06C1CA/5F745861" Ref="R61"  Part="1" 
-F 0 "R61" H 7500 3900 50  0000 L CNN
-F 1 "100k" H 7500 3800 50  0000 L CNN
-F 2 "Frequently_Used_LE:0603_1608Metric" V 7380 3850 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 7450 3850 50  0001 C CNN
-F 4 "1 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 7450 3850 50  0001 C CNN "Description"
-F 5 "KOA Speer Electronics, Inc." H 7450 3850 50  0001 C CNN "Manufacturer Name"
-F 6 "RK73H1JTTD1001F" H 7450 3850 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 7450 3850 50  0001 C CNN "Source"
-F 8 "2019-RK73H1JTTD1001FCT-ND" H 7450 3850 50  0001 C CNN "Source Part No."
-	1    7450 3850
+F 0 "R61" H 9600 3300 50  0000 L CNN
+F 1 "100k" H 9600 3200 50  0000 L CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" V 9480 3250 50  0001 C CNN
+F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 9550 3250 50  0001 C CNN
+F 4 "1 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 9550 3250 50  0001 C CNN "Description"
+F 5 "KOA Speer Electronics, Inc." H 9550 3250 50  0001 C CNN "Manufacturer Name"
+F 6 "RK73H1JTTD1001F" H 9550 3250 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 9550 3250 50  0001 C CNN "Source"
+F 8 "2019-RK73H1JTTD1001FCT-ND" H 9550 3250 50  0001 C CNN "Source Part No."
+	1    9550 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1205,48 +1205,48 @@ Wire Wire Line
 Wire Wire Line
 	11000 900  11000 800 
 Wire Wire Line
-	8550 5600 8050 5600
+	700  9600 200  9600
 $Comp
 L Frequently_Used_LE:C C?
 U 1 1 5F52F8EC
-P 7900 5600
+P 50 9600
 AR Path="/5F52F8EC" Ref="C?"  Part="1" 
 AR Path="/5F06C1CA/5F52F8EC" Ref="C34"  Part="1" 
-F 0 "C34" V 8050 5550 50  0000 L CNN
-F 1 "10uF" V 7750 5600 50  0000 C CNN
-F 2 "Frequently_Used_LE:0603_1608Metric" H 7938 5450 50  0001 C CNN
-F 3 "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf" H 7900 5600 50  0001 C CNN
-F 4 "1276-1119-1-ND" H 7900 5600 50  0001 C CNN "Source Part No."
-F 5 "Samsung Electro-Mechanics" H 7900 5600 50  0001 C CNN "Manufacturer Name"
-F 6 "CL10A106MQ8NNNC" H 7900 5600 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 7900 5600 50  0001 C CNN "Source"
-F 8 "10µF ±20% 6.3V Ceramic Capacitor X5R 0603 (1608 Metric)" H 7900 5600 50  0001 C CNN "Description"
-	1    7900 5600
+F 0 "C34" V 200 9550 50  0000 L CNN
+F 1 "10uF" V -100 9600 50  0000 C CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" H 88  9450 50  0001 C CNN
+F 3 "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf" H 50  9600 50  0001 C CNN
+F 4 "1276-1119-1-ND" H 50  9600 50  0001 C CNN "Source Part No."
+F 5 "Samsung Electro-Mechanics" H 50  9600 50  0001 C CNN "Manufacturer Name"
+F 6 "CL10A106MQ8NNNC" H 50  9600 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 50  9600 50  0001 C CNN "Source"
+F 8 "10µF ±20% 6.3V Ceramic Capacitor X5R 0603 (1608 Metric)" H 50  9600 50  0001 C CNN "Description"
+	1    50   9600
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7650 5600 7550 5600
+	-200 9600 -300 9600
 $Comp
 L Frequently_Used_LE:R R?
 U 1 1 5F52F8F9
-P 7400 5600
+P -450 9600
 AR Path="/5F52F8F9" Ref="R?"  Part="1" 
 AR Path="/5F06C1CA/5F52F8F9" Ref="R62"  Part="1" 
-F 0 "R62" V 7500 5600 50  0000 C CNN
-F 1 "470" V 7300 5600 50  0000 C CNN
-F 2 "Frequently_Used_LE:0603_1608Metric" V 7330 5600 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 7400 5600 50  0001 C CNN
-F 4 "470 Ohms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 7400 5600 50  0001 C CNN "Description"
-F 5 "KOA Speer Electronics, Inc." H 7400 5600 50  0001 C CNN "Manufacturer Name"
-F 6 "RK73H1JTTD4700F" H 7400 5600 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 7400 5600 50  0001 C CNN "Source"
-F 8 "	2019-RK73H1JTTD4700FCT-ND" H 7400 5600 50  0001 C CNN "Source Part No."
-	1    7400 5600
+F 0 "R62" V -350 9600 50  0000 C CNN
+F 1 "470" V -550 9600 50  0000 C CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" V -520 9600 50  0001 C CNN
+F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H -450 9600 50  0001 C CNN
+F 4 "470 Ohms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H -450 9600 50  0001 C CNN "Description"
+F 5 "KOA Speer Electronics, Inc." H -450 9600 50  0001 C CNN "Manufacturer Name"
+F 6 "RK73H1JTTD4700F" H -450 9600 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H -450 9600 50  0001 C CNN "Source"
+F 8 "	2019-RK73H1JTTD4700FCT-ND" H -450 9600 50  0001 C CNN "Source Part No."
+	1    -450 9600
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6850 5600 7250 5600
-Text Label 6850 5600 0    50   ~ 0
+	-1000 9600 -600 9600
+Text Label -1000 9600 0    50   ~ 0
 AUDIOLEFT
 $Comp
 L Frequently_Used_LE:AGND #PWR0145
@@ -1262,169 +1262,169 @@ $EndComp
 $Comp
 L Frequently_Used_LE:AGND #PWR0146
 U 1 1 5F5931BC
-P 7650 6100
-F 0 "#PWR0146" H 7650 5850 50  0001 C CNN
-F 1 "AGND" H 7650 5950 50  0000 C CNN
-F 2 "" H 7650 6100 50  0001 C CNN
-F 3 "" H 7650 6100 50  0001 C CNN
-	1    7650 6100
+P -200 10100
+F 0 "#PWR0146" H -200 9850 50  0001 C CNN
+F 1 "AGND" H -200 9950 50  0000 C CNN
+F 2 "" H -200 10100 50  0001 C CNN
+F 3 "" H -200 10100 50  0001 C CNN
+	1    -200 10100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Frequently_Used_LE:C C?
 U 1 1 5F5A0D16
-P 7650 5850
+P -200 9850
 AR Path="/5F5A0D16" Ref="C?"  Part="1" 
 AR Path="/5F06C1CA/5F5A0D16" Ref="C33"  Part="1" 
-F 0 "C33" H 7600 5750 50  0000 R CNN
-F 1 "22pF" H 7700 5750 50  0000 L CNN
-F 2 "Frequently_Used_LE:0603_1608Metric" H 7688 5700 50  0001 C CNN
-F 3 "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf" H 7650 5850 50  0001 C CNN
-F 4 "1276-1023-1-ND" H 7650 5850 50  0001 C CNN "Source Part No."
-F 5 "Samsung Electro-Mechanics" H 7650 5850 50  0001 C CNN "Manufacturer Name"
-F 6 "CL10C220JB8NNNC" H 7650 5850 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 7650 5850 50  0001 C CNN "Source"
-F 8 "22pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)" H 7650 5850 50  0001 C CNN "Description"
-	1    7650 5850
+F 0 "C33" H -250 9750 50  0000 R CNN
+F 1 "22pF" H -150 9750 50  0000 L CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" H -162 9700 50  0001 C CNN
+F 3 "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC.pdf" H -200 9850 50  0001 C CNN
+F 4 "1276-1023-1-ND" H -200 9850 50  0001 C CNN "Source Part No."
+F 5 "Samsung Electro-Mechanics" H -200 9850 50  0001 C CNN "Manufacturer Name"
+F 6 "CL10C220JB8NNNC" H -200 9850 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H -200 9850 50  0001 C CNN "Source"
+F 8 "22pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)" H -200 9850 50  0001 C CNN "Description"
+	1    -200 9850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7650 5700 7650 5600
+	-200 9700 -200 9600
 Wire Wire Line
-	7650 5600 7750 5600
-Connection ~ 7650 5600
+	-200 9600 -100 9600
+Connection ~ -200 9600
 Wire Wire Line
-	7650 6000 7650 6100
-Text Label 8100 5600 0    50   ~ 0
+	-200 10000 -200 10100
+Text Label 250  9600 0    50   ~ 0
 AUDIOPRE+
 Wire Wire Line
-	3450 5050 3700 5050
-Text Label 3500 5050 0    50   ~ 0
+	3550 5450 3800 5450
+Text Label 3600 5450 0    50   ~ 0
 CS
 Wire Wire Line
-	3150 5050 3050 5050
+	3250 5450 3150 5450
 $Comp
 L Frequently_Used_LE:R R?
 U 1 1 5F48090B
-P 3300 5050
+P 3400 5450
 AR Path="/5F48090B" Ref="R?"  Part="1" 
 AR Path="/5F06C1CA/5F48090B" Ref="R56"  Part="1" 
-F 0 "R56" V 3200 5050 50  0000 C CNN
-F 1 "100k" V 3400 5050 50  0000 C CNN
-F 2 "Frequently_Used_LE:0603_1608Metric" V 3230 5050 50  0001 C CNN
-F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 3300 5050 50  0001 C CNN
-F 4 "1 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 3300 5050 50  0001 C CNN "Description"
-F 5 "KOA Speer Electronics, Inc." H 3300 5050 50  0001 C CNN "Manufacturer Name"
-F 6 "RK73H1JTTD1001F" H 3300 5050 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 3300 5050 50  0001 C CNN "Source"
-F 8 "2019-RK73H1JTTD1001FCT-ND" H 3300 5050 50  0001 C CNN "Source Part No."
-	1    3300 5050
+F 0 "R56" V 3300 5450 50  0000 C CNN
+F 1 "100k" V 3500 5450 50  0000 C CNN
+F 2 "Frequently_Used_LE:0603_1608Metric" V 3330 5450 50  0001 C CNN
+F 3 "http://www.koaspeer.com/pdfs/RK73H.pdf" H 3400 5450 50  0001 C CNN
+F 4 "1 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film" H 3400 5450 50  0001 C CNN "Description"
+F 5 "KOA Speer Electronics, Inc." H 3400 5450 50  0001 C CNN "Manufacturer Name"
+F 6 "RK73H1JTTD1001F" H 3400 5450 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 3400 5450 50  0001 C CNN "Source"
+F 8 "2019-RK73H1JTTD1001FCT-ND" H 3400 5450 50  0001 C CNN "Source Part No."
+	1    3400 5450
 	0    1    1    0   
 $EndComp
 $Comp
 L Frequently_Used_LE:+3.3V #PWR0147
 U 1 1 5F4B7A8B
-P 8300 3100
-F 0 "#PWR0147" H 8300 2950 50  0001 C CNN
-F 1 "+3.3V" H 8315 3273 50  0000 C CNN
-F 2 "" H 8300 3100 50  0001 C CNN
-F 3 "" H 8300 3100 50  0001 C CNN
-	1    8300 3100
+P 10400 2500
+F 0 "#PWR0147" H 10400 2350 50  0001 C CNN
+F 1 "+3.3V" H 10415 2673 50  0000 C CNN
+F 2 "" H 10400 2500 50  0001 C CNN
+F 3 "" H 10400 2500 50  0001 C CNN
+	1    10400 2500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8300 3200 8300 3100
-Text Notes 8150 4500 0    79   ~ 16
+	10400 2600 10400 2500
+Text Notes 10250 3900 0    79   ~ 16
 Reset
-Text Notes 7350 6450 0    79   ~ 16
+Text Notes -500 10450 0    79   ~ 16
 Audio Out
-Text Notes 7250 4500 0    79   ~ 16
+Text Notes 9350 3900 0    79   ~ 16
 Power
 $Comp
 L Frequently_Used_LE:+3.3V #PWR0127
 U 1 1 5F4BE311
-P 8900 5550
-F 0 "#PWR0127" H 8900 5400 50  0001 C CNN
-F 1 "+3.3V" H 8915 5723 50  0000 C CNN
-F 2 "" H 8900 5550 50  0001 C CNN
-F 3 "" H 8900 5550 50  0001 C CNN
-	1    8900 5550
+P 1050 9550
+F 0 "#PWR0127" H 1050 9400 50  0001 C CNN
+F 1 "+3.3V" H 1065 9723 50  0000 C CNN
+F 2 "" H 1050 9550 50  0001 C CNN
+F 3 "" H 1050 9550 50  0001 C CNN
+	1    1050 9550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8900 5550 8900 5850
-Text Notes 9550 6450 0    79   ~ 16
+	1050 9550 1050 9850
+Text Notes 1700 10450 0    79   ~ 16
 Flash Memory
 Wire Wire Line
-	9250 5950 9600 5950
+	1400 9950 1750 9950
 Wire Wire Line
-	10400 5650 10750 5650
+	2550 9650 2900 9650
 Wire Wire Line
-	10400 5750 10750 5750
+	2550 9750 2900 9750
 Wire Wire Line
-	8900 5850 9600 5850
+	1050 9850 1750 9850
 Wire Wire Line
-	10400 5850 11050 5850
-Connection ~ 10750 5650
+	2550 9850 3200 9850
+Connection ~ 2900 9650
 Wire Wire Line
-	10750 5750 10750 5650
+	2900 9750 2900 9650
 Wire Wire Line
-	9350 5650 9600 5650
-Text Label 9350 5650 0    50   ~ 0
+	1500 9650 1750 9650
+Text Label 1500 9650 0    50   ~ 0
 CS
 $Comp
 L Frequently_Used_LE:DGND #PWR0125
 U 1 1 5F403AA6
-P 9250 6050
-F 0 "#PWR0125" H 9250 5800 50  0001 C CNN
-F 1 "DGND" H 9255 5877 50  0000 C CNN
-F 2 "" H 9250 6050 50  0001 C CNN
-F 3 "" H 9250 6050 50  0001 C CNN
-	1    9250 6050
+P 1400 10050
+F 0 "#PWR0125" H 1400 9800 50  0001 C CNN
+F 1 "DGND" H 1405 9877 50  0000 C CNN
+F 2 "" H 1400 10050 50  0001 C CNN
+F 3 "" H 1400 10050 50  0001 C CNN
+	1    1400 10050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9250 5950 9250 6050
+	1400 9950 1400 10050
 $Comp
 L Frequently_Used_LE:+3.3V #PWR0124
 U 1 1 5F3FD66A
-P 10750 5550
-F 0 "#PWR0124" H 10750 5400 50  0001 C CNN
-F 1 "+3.3V" H 10765 5723 50  0000 C CNN
-F 2 "" H 10750 5550 50  0001 C CNN
-F 3 "" H 10750 5550 50  0001 C CNN
-	1    10750 5550
+P 2900 9550
+F 0 "#PWR0124" H 2900 9400 50  0001 C CNN
+F 1 "+3.3V" H 2915 9723 50  0000 C CNN
+F 2 "" H 2900 9550 50  0001 C CNN
+F 3 "" H 2900 9550 50  0001 C CNN
+	1    2900 9550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10750 5650 10750 5550
+	2900 9650 2900 9550
 Wire Wire Line
-	9100 5750 9200 5750
+	1250 9750 1350 9750
 Wire Wire Line
-	10400 5950 10700 5950
+	2550 9950 2850 9950
 $Comp
 L Memory_LE:MX25L1606EM1I-12G U9
 U 1 1 5F3C0FA4
-P 10000 5800
+P 2150 9800
 AR Path="/5F3C0FA4" Ref="U9"  Part="1" 
 AR Path="/5F06C1CA/5F3C0FA4" Ref="U9"  Part="1" 
-F 0 "U9" H 10000 6100 50  0000 C CNN
-F 1 "MX25L1606EM1I-12G" H 10000 5500 50  0000 C CNN
-F 2 "Package_SO_LE:SOP-8_3.9x4.9mm_P1.27mm" H 10000 5500 50  0001 C CNN
-F 3 "https://www.macronix.com/Lists/Datasheet/Attachments/7465/MX25L1606E,%203V,%2016Mb,%20v1.9.pdf" H 10000 5800 50  0001 C CNN
-F 4 "FLASH - NOR Memory IC 16Mb (2M x 8) SPI 86MHz 8-SOP" H 10000 5800 50  0001 C CNN "Description"
-F 5 "Macronix" H 10000 5800 50  0001 C CNN "Manufacturer Name"
-F 6 "MX25L1606EM1I-12G" H 10000 5800 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 10000 5800 50  0001 C CNN "Source"
-F 8 "1092-1122-ND" H 10000 5800 50  0001 C CNN "Source Part No."
-	1    10000 5800
+F 0 "U9" H 2150 10100 50  0000 C CNN
+F 1 "MX25L1606EM1I-12G" H 2150 9500 50  0000 C CNN
+F 2 "Package_SO_LE:SOP-8_3.9x4.9mm_P1.27mm" H 2150 9500 50  0001 C CNN
+F 3 "https://www.macronix.com/Lists/Datasheet/Attachments/7465/MX25L1606E,%203V,%2016Mb,%20v1.9.pdf" H 2150 9800 50  0001 C CNN
+F 4 "FLASH - NOR Memory IC 16Mb (2M x 8) SPI 86MHz 8-SOP" H 2150 9800 50  0001 C CNN "Description"
+F 5 "Macronix" H 2150 9800 50  0001 C CNN "Manufacturer Name"
+F 6 "MX25L1606EM1I-12G" H 2150 9800 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 2150 9800 50  0001 C CNN "Source"
+F 8 "1092-1122-ND" H 2150 9800 50  0001 C CNN "Source Part No."
+	1    2150 9800
 	1    0    0    -1  
 $EndComp
-Text Label 10450 5950 0    50   ~ 0
+Text Label 2600 9950 0    50   ~ 0
 MOSI
-Text Label 10450 5850 0    50   ~ 0
+Text Label 2600 9850 0    50   ~ 0
 SCLK
-Text Label 9350 5750 0    50   ~ 0
+Text Label 1500 9750 0    50   ~ 0
 MISO
 Text Label 5600 3000 0    50   ~ 0
 MISO
@@ -1437,199 +1437,199 @@ Wire Wire Line
 Wire Wire Line
 	5550 3500 6050 3500
 Wire Wire Line
-	3050 4600 3050 4750
-Connection ~ 3050 4750
+	3150 5000 3150 5150
+Connection ~ 3150 5150
 Wire Wire Line
-	3050 4750 3050 5050
-Text Notes 3100 5350 0    79   ~ 16
+	3150 5150 3150 5450
+Text Notes 3200 5750 0    79   ~ 16
 Pull Up
 $Comp
 L Frequently_Used_LE:PWR_FLAG #FLG0103
 U 1 1 5FA444D4
-P 1900 6000
-F 0 "#FLG0103" H 1900 6075 50  0001 C CNN
-F 1 "PWR_FLAG" H 1900 6173 50  0000 C CNN
-F 2 "" H 1900 6000 50  0001 C CNN
-F 3 "~" H 1900 6000 50  0001 C CNN
-	1    1900 6000
+P 10200 4850
+F 0 "#FLG0103" H 10200 4925 50  0001 C CNN
+F 1 "PWR_FLAG" H 10200 5023 50  0000 C CNN
+F 2 "" H 10200 4850 50  0001 C CNN
+F 3 "~" H 10200 4850 50  0001 C CNN
+	1    10200 4850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 6100 1600 6100
+	9750 4950 9900 4950
 Wire Wire Line
-	1900 6000 1900 6100
-Connection ~ 1900 6100
+	10200 4850 10200 4950
+Connection ~ 10200 4950
 Wire Wire Line
-	1900 6100 2100 6100
+	10200 4950 10400 4950
 Wire Wire Line
-	2300 7000 2300 7100
+	10600 5850 10600 5950
 Wire Wire Line
-	800  7000 800  7100
+	9100 5850 9100 5950
 $Comp
 L Frequently_Used_LE:PWR_FLAG #FLG0104
 U 1 1 5FB6779B
-P 900 6900
-F 0 "#FLG0104" H 900 6975 50  0001 C CNN
-F 1 "PWR_FLAG" H 900 7073 50  0000 C CNN
-F 2 "" H 900 6900 50  0001 C CNN
-F 3 "~" H 900 6900 50  0001 C CNN
-	1    900  6900
+P 9200 5750
+F 0 "#FLG0104" H 9200 5825 50  0001 C CNN
+F 1 "PWR_FLAG" H 9200 5923 50  0000 C CNN
+F 2 "" H 9200 5750 50  0001 C CNN
+F 3 "~" H 9200 5750 50  0001 C CNN
+	1    9200 5750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	900  6900 900  7000
+	9200 5750 9200 5850
 Wire Wire Line
-	900  7000 800  7000
-Connection ~ 900  7000
+	9200 5850 9100 5850
+Connection ~ 9200 5850
 $Sheet
-S 10100 2300 550  500 
+S 2050 6600 550  500 
 U 5FC97A5A
 F0 "Audio USB" 50
 F1 "Connector USB.sch" 50
-F2 "VBUS" I L 10100 2400 50 
-F3 "GND" I L 10100 2700 50 
-F4 "D+" I L 10100 2500 50 
-F5 "D-" I L 10100 2600 50 
+F2 "VBUS" I L 2050 6700 50 
+F3 "GND" I L 2050 7000 50 
+F4 "D+" I L 2050 6800 50 
+F5 "D-" I L 2050 6900 50 
 $EndSheet
 $Comp
 L Frequently_Used_LE:DGND #PWR?
 U 1 1 5FCCD91B
-P 9750 2800
+P 1700 7100
 AR Path="/5FCCD91B" Ref="#PWR?"  Part="1" 
 AR Path="/5EDBBDC8/5FCCD91B" Ref="#PWR?"  Part="1" 
 AR Path="/5F06C1CA/5FCCD91B" Ref="#PWR0148"  Part="1" 
-F 0 "#PWR0148" H 9750 2550 50  0001 C CNN
-F 1 "DGND" H 9750 2650 50  0000 C CNN
-F 2 "" H 9750 2800 50  0001 C CNN
-F 3 "" H 9750 2800 50  0001 C CNN
-	1    9750 2800
+F 0 "#PWR0148" H 1700 6850 50  0001 C CNN
+F 1 "DGND" H 1700 6950 50  0000 C CNN
+F 2 "" H 1700 7100 50  0001 C CNN
+F 3 "" H 1700 7100 50  0001 C CNN
+	1    1700 7100
 	1    0    0    -1  
 $EndComp
-Text Label 9850 2500 0    50   ~ 0
+Text Label 1800 6800 0    50   ~ 0
 D+
-Text Label 9850 2600 0    50   ~ 0
+Text Label 1800 6900 0    50   ~ 0
 D-
 Wire Wire Line
-	9850 2500 10100 2500
+	1800 6800 2050 6800
 Wire Wire Line
-	9850 2600 10100 2600
-Text Notes 9700 3150 0    79   ~ 16
+	1800 6900 2050 6900
+Text Notes 1650 7450 0    79   ~ 16
 USB Connector
 Wire Wire Line
-	10100 2700 9750 2700
+	2050 7000 1700 7000
 Wire Wire Line
-	9750 2700 9750 2800
+	1700 7000 1700 7100
 Wire Wire Line
-	10100 2400 9750 2400
+	2050 6700 1700 6700
 $Comp
 L Frequently_Used_LE:D D?
 U 1 1 5FF1E30F
-P 9600 2400
+P 1550 6700
 AR Path="/5EA6751D/5F3CCBF3/5FF1E30F" Ref="D?"  Part="1" 
 AR Path="/5EDBBDC8/5FF1E30F" Ref="D?"  Part="1" 
 AR Path="/5F06C1CA/5FF1E30F" Ref="D32"  Part="1" 
-F 0 "D32" H 9500 2550 59  0000 L TNN
-F 1 "5A 100V" H 9400 2300 59  0000 L CNN
-F 2 "Li_Ion_LE:DO-214AC" H 9600 2400 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/87610/vssaf510.pdf" H 9600 2400 50  0001 C CNN
-F 4 "Diode Schottky 100V 5A Surface Mount DO-221AC (SlimSMA)" H 9600 2400 50  0001 C CNN "Description"
-F 5 "VSSAF510-M3/HGICT-ND" H 9600 2400 50  0001 C CNN "Source Part No."
-F 6 "VSSAF510-M3/H" H 9600 2400 50  0001 C CNN "Manufacturer Part No."
-F 7 "Vishay Semiconductor Diodes Division" H 9600 2400 50  0001 C CNN "Manufacturer Name"
-F 8 "Digikey" H 9600 2400 50  0001 C CNN "Source"
-	1    9600 2400
+F 0 "D32" H 1450 6850 59  0000 L TNN
+F 1 "5A 100V" H 1350 6600 59  0000 L CNN
+F 2 "Li_Ion_LE:DO-214AC" H 1550 6700 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/87610/vssaf510.pdf" H 1550 6700 50  0001 C CNN
+F 4 "Diode Schottky 100V 5A Surface Mount DO-221AC (SlimSMA)" H 1550 6700 50  0001 C CNN "Description"
+F 5 "VSSAF510-M3/HGICT-ND" H 1550 6700 50  0001 C CNN "Source Part No."
+F 6 "VSSAF510-M3/H" H 1550 6700 50  0001 C CNN "Manufacturer Part No."
+F 7 "Vishay Semiconductor Diodes Division" H 1550 6700 50  0001 C CNN "Manufacturer Name"
+F 8 "Digikey" H 1550 6700 50  0001 C CNN "Source"
+	1    1550 6700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9450 2400 9350 2400
+	1400 6700 1300 6700
 Wire Wire Line
-	9350 2400 9350 2300
+	1300 6700 1300 6600
 $Comp
 L Frequently_Used_LE:+5V #PWR?
 U 1 1 5FF1E317
-P 9350 2300
+P 1300 6600
 AR Path="/5FF1E317" Ref="#PWR?"  Part="1" 
 AR Path="/5EDBBDC8/5FF1E317" Ref="#PWR?"  Part="1" 
 AR Path="/5F06C1CA/5FF1E317" Ref="#PWR046"  Part="1" 
-F 0 "#PWR046" H 9350 2150 50  0001 C CNN
-F 1 "+5V" H 9365 2473 50  0000 C CNN
-F 2 "" H 9350 2300 50  0001 C CNN
-F 3 "" H 9350 2300 50  0001 C CNN
-	1    9350 2300
+F 0 "#PWR046" H 1300 6450 50  0001 C CNN
+F 1 "+5V" H 1315 6773 50  0000 C CNN
+F 2 "" H 1300 6600 50  0001 C CNN
+F 3 "" H 1300 6600 50  0001 C CNN
+	1    1300 6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Frequently_Used_LE:TestPoint_1 TP?
 U 1 1 6004ACBF
-P 9200 5650
+P 1350 9650
 AR Path="/5EDBBDC8/6004ACBF" Ref="TP?"  Part="1" 
 AR Path="/5F06C1CA/6004ACBF" Ref="TP15"  Part="1" 
-F 0 "TP15" H 9200 5950 50  0000 C CNN
-F 1 "TestPoint" H 9100 5400 50  0001 L CNN
-F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 9400 5650 50  0001 C CNN
-F 3 "None" H 9400 5650 50  0001 C CNN
-F 4 "FMISO" H 9200 5850 50  0000 C CNN "Name"
-F 5 "Test point" H 9200 5650 50  0001 C CNN "Description"
-F 6 "None" H 9200 5650 50  0001 C CNN "Source Part No."
-F 7 "None" H 9200 5650 50  0001 C CNN "Manufacturer Name"
-F 8 "None" H 9200 5650 50  0001 C CNN "Manufacturer Part No."
-F 9 "None" H 9200 5650 50  0001 C CNN "Source"
-	1    9200 5650
+F 0 "TP15" H 1350 9950 50  0000 C CNN
+F 1 "TestPoint" H 1250 9400 50  0001 L CNN
+F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 1550 9650 50  0001 C CNN
+F 3 "None" H 1550 9650 50  0001 C CNN
+F 4 "FMISO" H 1350 9850 50  0000 C CNN "Name"
+F 5 "Test point" H 1350 9650 50  0001 C CNN "Description"
+F 6 "None" H 1350 9650 50  0001 C CNN "Source Part No."
+F 7 "None" H 1350 9650 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 1350 9650 50  0001 C CNN "Manufacturer Part No."
+F 9 "None" H 1350 9650 50  0001 C CNN "Source"
+	1    1350 9650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9200 5650 9200 5750
-Connection ~ 9200 5750
+	1350 9650 1350 9750
+Connection ~ 1350 9750
 Wire Wire Line
-	9200 5750 9600 5750
+	1350 9750 1750 9750
 $Comp
 L Frequently_Used_LE:TestPoint_1 TP?
 U 1 1 600BC8AC
-P 10700 6050
+P 2850 10050
 AR Path="/5EDBBDC8/600BC8AC" Ref="TP?"  Part="1" 
 AR Path="/5F06C1CA/600BC8AC" Ref="TP16"  Part="1" 
-F 0 "TP16" H 10700 6350 50  0000 C CNN
-F 1 "TestPoint" H 10600 5800 50  0001 L CNN
-F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 10900 6050 50  0001 C CNN
-F 3 "None" H 10900 6050 50  0001 C CNN
-F 4 "FMOSI" H 10700 6250 50  0000 C CNN "Name"
-F 5 "Test point" H 10700 6050 50  0001 C CNN "Description"
-F 6 "None" H 10700 6050 50  0001 C CNN "Source Part No."
-F 7 "None" H 10700 6050 50  0001 C CNN "Manufacturer Name"
-F 8 "None" H 10700 6050 50  0001 C CNN "Manufacturer Part No."
-F 9 "None" H 10700 6050 50  0001 C CNN "Source"
-	1    10700 6050
+F 0 "TP16" H 2850 10350 50  0000 C CNN
+F 1 "TestPoint" H 2750 9800 50  0001 L CNN
+F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 3050 10050 50  0001 C CNN
+F 3 "None" H 3050 10050 50  0001 C CNN
+F 4 "FMOSI" H 2850 10250 50  0000 C CNN "Name"
+F 5 "Test point" H 2850 10050 50  0001 C CNN "Description"
+F 6 "None" H 2850 10050 50  0001 C CNN "Source Part No."
+F 7 "None" H 2850 10050 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 2850 10050 50  0001 C CNN "Manufacturer Part No."
+F 9 "None" H 2850 10050 50  0001 C CNN "Source"
+	1    2850 10050
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10700 6050 10700 5950
-Connection ~ 10700 5950
+	2850 10050 2850 9950
+Connection ~ 2850 9950
 Wire Wire Line
-	10700 5950 10800 5950
+	2850 9950 2950 9950
 $Comp
 L Frequently_Used_LE:TestPoint_1 TP?
 U 1 1 600D574E
-P 11050 5950
+P 3200 9950
 AR Path="/5EDBBDC8/600D574E" Ref="TP?"  Part="1" 
 AR Path="/5F06C1CA/600D574E" Ref="TP17"  Part="1" 
-F 0 "TP17" H 11050 6250 50  0000 C CNN
-F 1 "TestPoint" H 10950 5700 50  0001 L CNN
-F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 11250 5950 50  0001 C CNN
-F 3 "None" H 11250 5950 50  0001 C CNN
-F 4 "FCLK" H 11050 6150 50  0000 C CNN "Name"
-F 5 "Test point" H 11050 5950 50  0001 C CNN "Description"
-F 6 "None" H 11050 5950 50  0001 C CNN "Source Part No."
-F 7 "None" H 11050 5950 50  0001 C CNN "Manufacturer Name"
-F 8 "None" H 11050 5950 50  0001 C CNN "Manufacturer Part No."
-F 9 "None" H 11050 5950 50  0001 C CNN "Source"
-	1    11050 5950
+F 0 "TP17" H 3200 10250 50  0000 C CNN
+F 1 "TestPoint" H 3100 9700 50  0001 L CNN
+F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 3400 9950 50  0001 C CNN
+F 3 "None" H 3400 9950 50  0001 C CNN
+F 4 "FCLK" H 3200 10150 50  0000 C CNN "Name"
+F 5 "Test point" H 3200 9950 50  0001 C CNN "Description"
+F 6 "None" H 3200 9950 50  0001 C CNN "Source Part No."
+F 7 "None" H 3200 9950 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 3200 9950 50  0001 C CNN "Manufacturer Part No."
+F 9 "None" H 3200 9950 50  0001 C CNN "Source"
+	1    3200 9950
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	11050 5950 11050 5850
-Connection ~ 11050 5850
+	3200 9950 3200 9850
+Connection ~ 3200 9850
 Wire Wire Line
-	11050 5850 11150 5850
+	3200 9850 3300 9850
 Text Label 3800 2250 0    50   ~ 0
 GPIO_8
 Wire Wire Line
@@ -1658,7 +1658,7 @@ Text Label 3800 2850 0    50   ~ 0
 GPIO_14
 Wire Wire Line
 	3800 2850 4300 2850
-Text Notes 3800 4850 0    39   ~ 0
+Text Notes 3900 5250 0    39   ~ 0
 IOVDD Select\nHigh for 3.3V\nLow for 1.8V
 Text Notes 1400 3200 0    39   ~ 0
 USB Select\nHigh for Audio\nLow for Mass
@@ -1916,92 +1916,92 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x07 J5
 U 1 1 6043CD9A
-P 9850 3900
-F 0 "J5" H 9800 4300 50  0000 L CNN
-F 1 "Conn_01x07" H 9450 3500 50  0000 L CNN
-F 2 "Connectors_LE:Header_1x07_P2.54mm_Surface" H 9850 3900 50  0001 C CNN
-F 3 "None" H 9850 3900 50  0001 C CNN
-F 4 "None" H 9850 3900 50  0001 C CNN "Description"
-F 5 "None" H 9850 3900 50  0001 C CNN "Manufacturer Name"
-F 6 "None" H 9850 3900 50  0001 C CNN "Manufacturer Part No."
-F 7 "None" H 9850 3900 50  0001 C CNN "Source"
-F 8 "None" H 9850 3900 50  0001 C CNN "Source Part No."
-	1    9850 3900
+P 6850 5050
+F 0 "J5" H 6800 5450 50  0000 L CNN
+F 1 "Conn_01x07" H 6450 4650 50  0000 L CNN
+F 2 "Connectors_LE:Header_1x07_P2.54mm_Surface" H 6850 5050 50  0001 C CNN
+F 3 "None" H 6850 5050 50  0001 C CNN
+F 4 "None" H 6850 5050 50  0001 C CNN "Description"
+F 5 "None" H 6850 5050 50  0001 C CNN "Manufacturer Name"
+F 6 "None" H 6850 5050 50  0001 C CNN "Manufacturer Part No."
+F 7 "None" H 6850 5050 50  0001 C CNN "Source"
+F 8 "None" H 6850 5050 50  0001 C CNN "Source Part No."
+	1    6850 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x07 J6
 U 1 1 6045100F
-P 10800 3900
-F 0 "J6" H 10750 4300 50  0000 L CNN
-F 1 "Conn_01x07" H 10400 3500 50  0000 L CNN
-F 2 "Connectors_LE:Header_1x07_P2.54mm_Surface" H 10800 3900 50  0001 C CNN
-F 3 "None" H 10800 3900 50  0001 C CNN
-F 4 "None" H 10800 3900 50  0001 C CNN "Description"
-F 5 "None" H 10800 3900 50  0001 C CNN "Manufacturer Name"
-F 6 "None" H 10800 3900 50  0001 C CNN "Manufacturer Part No."
-F 7 "None" H 10800 3900 50  0001 C CNN "Source"
-F 8 "None" H 10800 3900 50  0001 C CNN "Source Part No."
-	1    10800 3900
+P 7800 5050
+F 0 "J6" H 7750 5450 50  0000 L CNN
+F 1 "Conn_01x07" H 7400 4650 50  0000 L CNN
+F 2 "Connectors_LE:Header_1x07_P2.54mm_Surface" H 7800 5050 50  0001 C CNN
+F 3 "None" H 7800 5050 50  0001 C CNN
+F 4 "None" H 7800 5050 50  0001 C CNN "Description"
+F 5 "None" H 7800 5050 50  0001 C CNN "Manufacturer Name"
+F 6 "None" H 7800 5050 50  0001 C CNN "Manufacturer Part No."
+F 7 "None" H 7800 5050 50  0001 C CNN "Source"
+F 8 "None" H 7800 5050 50  0001 C CNN "Source Part No."
+	1    7800 5050
 	1    0    0    -1  
 $EndComp
-Text Label 9400 3600 0    50   ~ 0
+Text Label 6400 4750 0    50   ~ 0
 IO_0
 Wire Wire Line
-	9400 3600 9650 3600
-Text Label 9400 3700 0    50   ~ 0
+	6400 4750 6650 4750
+Text Label 6400 4850 0    50   ~ 0
 IO_1
 Wire Wire Line
-	9400 3700 9650 3700
-Text Label 9400 3800 0    50   ~ 0
+	6400 4850 6650 4850
+Text Label 6400 4950 0    50   ~ 0
 IO_2
 Wire Wire Line
-	9400 3800 9650 3800
-Text Label 9400 3900 0    50   ~ 0
+	6400 4950 6650 4950
+Text Label 6400 5050 0    50   ~ 0
 IO_3
 Wire Wire Line
-	9400 3900 9650 3900
-Text Label 9400 4000 0    50   ~ 0
+	6400 5050 6650 5050
+Text Label 6400 5150 0    50   ~ 0
 IO_4
 Wire Wire Line
-	9400 4000 9650 4000
+	6400 5150 6650 5150
 Wire Wire Line
-	9400 4200 9650 4200
-Text Label 9400 4200 0    50   ~ 0
+	6400 5350 6650 5350
+Text Label 6400 5350 0    50   ~ 0
 IO_6
-Text Label 9400 4100 0    50   ~ 0
+Text Label 6400 5250 0    50   ~ 0
 IO_5
 Wire Wire Line
-	9400 4100 9650 4100
-Text Label 10250 3600 0    50   ~ 0
+	6400 5250 6650 5250
+Text Label 7250 4750 0    50   ~ 0
 GPIO_8
-Text Label 10250 3700 0    50   ~ 0
+Text Label 7250 4850 0    50   ~ 0
 GPIO_9
-Text Label 10250 3800 0    50   ~ 0
+Text Label 7250 4950 0    50   ~ 0
 GPIO_10
-Text Label 10250 3900 0    50   ~ 0
+Text Label 7250 5050 0    50   ~ 0
 GPIO_12
-Text Label 10250 4000 0    50   ~ 0
+Text Label 7250 5150 0    50   ~ 0
 GPIO_13
-Text Label 10250 4100 0    50   ~ 0
+Text Label 7250 5250 0    50   ~ 0
 GPIO_11
-Text Label 10250 4200 0    50   ~ 0
+Text Label 7250 5350 0    50   ~ 0
 GPIO_14
 Wire Wire Line
-	10250 3600 10600 3600
+	7250 4750 7600 4750
 Wire Wire Line
-	10250 3700 10600 3700
+	7250 4850 7600 4850
 Wire Wire Line
-	10250 3800 10600 3800
+	7250 4950 7600 4950
 Wire Wire Line
-	10250 3900 10600 3900
+	7250 5050 7600 5050
 Wire Wire Line
-	10250 4000 10600 4000
+	7250 5150 7600 5150
 Wire Wire Line
-	10250 4200 10600 4200
+	7250 5350 7600 5350
 Wire Wire Line
-	10250 4100 10600 4100
-Text Notes 9650 4500 0    79   ~ 16
+	7250 5250 7600 5250
+Text Notes 6100 5650 0    79   ~ 16
 Breakout Headers
 Text HLabel 3800 2350 0    39   Input ~ 0
 SNDLATCH
@@ -2010,116 +2010,163 @@ SNDON
 Text HLabel 3800 2450 0    39   Input ~ 0
 SNDRANDOM
 Wire Wire Line
-	1500 5800 1600 5800
+	9800 4650 9900 4650
 Wire Wire Line
-	1600 5800 1600 6100
+	9900 4650 9900 4950
 Wire Wire Line
-	1200 5800 1100 5800
+	9500 4650 9400 4650
 Wire Wire Line
-	1100 5800 1100 6100
+	9400 4650 9400 4950
 $Comp
 L Jumper:SolderJumper_2_Open JP7
 U 1 1 6095C7B0
-P 1350 5800
-F 0 "JP7" H 1300 5900 50  0000 L CNN
-F 1 "Open" H 1250 5700 50  0000 L CNN
-F 2 "Jumper_LE:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 1350 5800 50  0001 C CNN
-F 3 "None" H 1350 5800 50  0001 C CNN
-F 4 "None" H 1350 5800 50  0001 C CNN "Description"
-F 5 "None" H 1350 5800 50  0001 C CNN "Manufacturer Name"
-F 6 "None" H 1350 5800 50  0001 C CNN "Manufacturer Part No."
-F 7 "None" H 1350 5800 50  0001 C CNN "Name"
-F 8 "None" H 1350 5800 50  0001 C CNN "Source"
-F 9 "None" H 1350 5800 50  0001 C CNN "Source Part No."
-	1    1350 5800
+P 9650 4650
+F 0 "JP7" H 9600 4750 50  0000 L CNN
+F 1 "Open" H 9550 4550 50  0000 L CNN
+F 2 "Jumper_LE:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9650 4650 50  0001 C CNN
+F 3 "None" H 9650 4650 50  0001 C CNN
+F 4 "None" H 9650 4650 50  0001 C CNN "Description"
+F 5 "None" H 9650 4650 50  0001 C CNN "Manufacturer Name"
+F 6 "None" H 9650 4650 50  0001 C CNN "Manufacturer Part No."
+F 7 "None" H 9650 4650 50  0001 C CNN "Name"
+F 8 "None" H 9650 4650 50  0001 C CNN "Source"
+F 9 "None" H 9650 4650 50  0001 C CNN "Source Part No."
+	1    9650 4650
 	1    0    0    -1  
 $EndComp
-Connection ~ 1100 6100
-Connection ~ 1600 6100
+Connection ~ 9400 4950
+Connection ~ 9900 4950
 Wire Wire Line
-	1600 6100 1900 6100
+	9900 4950 10200 4950
 Wire Wire Line
-	1100 6100 1250 6100
+	9400 4950 9550 4950
 $Comp
 L Frequently_Used_LE:TestPoint_1 TP?
 U 1 1 609ACA75
-P 950 6200
+P 9250 5050
 AR Path="/5EA6751D/609ACA75" Ref="TP?"  Part="1" 
 AR Path="/5F06C1CA/609ACA75" Ref="TP18"  Part="1" 
 AR Path="/609ACA75" Ref="TP?"  Part="1" 
-F 0 "TP18" H 950 6450 50  0000 C CNN
-F 1 "TestPoint" H 950 5920 50  0001 C CNN
-F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 1150 6200 50  0001 C CNN
-F 3 "None" H 1150 6200 50  0001 C CNN
-F 4 "3.3V" H 950 6350 50  0000 C CNN "Name"
-F 5 "None" H 945 5845 50  0001 C CNN "Source"
-F 6 "None" H 945 5845 50  0001 C CNN "Source Part No."
-F 7 "None" H 945 5845 50  0001 C CNN "Manufacturer Name"
-F 8 "None" H 945 5845 50  0001 C CNN "Manufacturer Part No."
-F 9 "Test point" H 950 6200 50  0001 C CNN "Description"
-	1    950  6200
+F 0 "TP18" H 9250 5300 50  0000 C CNN
+F 1 "TestPoint" H 9250 4770 50  0001 C CNN
+F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 9450 5050 50  0001 C CNN
+F 3 "None" H 9450 5050 50  0001 C CNN
+F 4 "3.3V" H 9250 5200 50  0000 C CNN "Name"
+F 5 "None" H 9245 4695 50  0001 C CNN "Source"
+F 6 "None" H 9245 4695 50  0001 C CNN "Source Part No."
+F 7 "None" H 9245 4695 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 9245 4695 50  0001 C CNN "Manufacturer Part No."
+F 9 "Test point" H 9250 5050 50  0001 C CNN "Description"
+	1    9250 5050
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	950  6200 950  6100
+	9250 5050 9250 4950
 $Comp
 L Frequently_Used_LE:TestPoint_1 TP?
 U 1 1 609C0F83
-P 2100 6200
+P 10400 5050
 AR Path="/5EA6751D/609C0F83" Ref="TP?"  Part="1" 
 AR Path="/5F06C1CA/609C0F83" Ref="TP19"  Part="1" 
 AR Path="/609C0F83" Ref="TP?"  Part="1" 
-F 0 "TP19" H 2100 6450 50  0000 C CNN
-F 1 "TestPoint" H 2100 5920 50  0001 C CNN
-F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 2300 6200 50  0001 C CNN
-F 3 "None" H 2300 6200 50  0001 C CNN
-F 4 "AVDD" H 2100 6350 50  0000 C CNN "Name"
-F 5 "None" H 2095 5845 50  0001 C CNN "Source"
-F 6 "None" H 2095 5845 50  0001 C CNN "Source Part No."
-F 7 "None" H 2095 5845 50  0001 C CNN "Manufacturer Name"
-F 8 "None" H 2095 5845 50  0001 C CNN "Manufacturer Part No."
-F 9 "Test point" H 2100 6200 50  0001 C CNN "Description"
-	1    2100 6200
+F 0 "TP19" H 10400 5300 50  0000 C CNN
+F 1 "TestPoint" H 10400 4770 50  0001 C CNN
+F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 10600 5050 50  0001 C CNN
+F 3 "None" H 10600 5050 50  0001 C CNN
+F 4 "AVDD" H 10400 5200 50  0000 C CNN "Name"
+F 5 "None" H 10395 4695 50  0001 C CNN "Source"
+F 6 "None" H 10395 4695 50  0001 C CNN "Source Part No."
+F 7 "None" H 10395 4695 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 10395 4695 50  0001 C CNN "Manufacturer Part No."
+F 9 "Test point" H 10400 5050 50  0001 C CNN "Description"
+	1    10400 5050
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2100 6200 2100 6100
-Connection ~ 2100 6100
+	10400 5050 10400 4950
+Connection ~ 10400 4950
 Wire Wire Line
-	2100 6100 2300 6100
-Connection ~ 950  6100
+	10400 4950 10600 4950
+Connection ~ 9250 4950
 Wire Wire Line
-	950  6100 1100 6100
+	9250 4950 9400 4950
 Wire Wire Line
-	5650 6850 6050 6850
+	5950 6800 6350 6800
 $Sheet
-S 4550 6750 1100 400 
+S 4850 6700 1100 400 
 U 5F525E77
 F0 "Mono Amplifier PAM8302A" 50
 F1 "Mono Amplifier PAM8302A.sch" 50
-F2 "POWIN" I L 4550 6850 50 
-F3 "GND" I L 4550 7050 50 
-F4 "AUDIOPRE+" I L 4550 6950 50 
-F5 "AUDIOOUT+" I R 5650 6850 50 
-F6 "AUDIOOUT-" I R 5650 6950 50 
+F2 "POWIN" I L 4850 6800 50 
+F3 "GND" I L 4850 7000 50 
+F4 "AUDIOPRE+" I L 4850 6900 50 
+F5 "AUDIOOUT+" I R 5950 6800 50 
+F6 "AUDIOOUT-" I R 5950 6900 50 
 $EndSheet
 Wire Wire Line
-	4550 6850 4200 6850
+	4850 6800 4500 6800
 Wire Wire Line
-	4200 6850 4200 6750
+	4500 6800 4500 6700
 $Comp
 L Device:R_POT RV1
 U 1 1 5F9F932A
-P 4050 7150
-F 0 "RV1" V 3950 7150 50  0000 C CNN
-F 1 "10k" H 4100 6900 50  0000 R CNN
-F 2 "" H 4050 7150 50  0001 C CNN
-F 3 "~" H 4050 7150 50  0001 C CNN
-	1    4050 7150
+P 4350 7100
+F 0 "RV1" V 4250 7100 50  0000 C CNN
+F 1 "10k" H 4400 6850 50  0000 R CNN
+F 2 "" H 4350 7100 50  0001 C CNN
+F 3 "~" H 4350 7100 50  0001 C CNN
+	1    4350 7100
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4050 6950 4550 6950
+	4350 6900 4850 6900
 Wire Wire Line
-	4200 7050 4550 7050
+	4500 7000 4850 7000
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5F4D3093
+P 6000 5150
+F 0 "J?" H 5950 5350 50  0000 L CNN
+F 1 "Conn_01x04" H 5750 4850 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6000 5150 50  0001 C CNN
+F 3 "None" H 6000 5150 50  0001 C CNN
+F 4 "Header 1x4 at 2.54 mm" H 6000 5150 50  0001 C CNN "Description"
+F 5 "None" H 6000 5150 50  0001 C CNN "Manufacturer Name"
+F 6 "None" H 6000 5150 50  0001 C CNN "Manufacturer Part No."
+F 7 "None" H 6000 5150 50  0001 C CNN "Source"
+F 8 "None" H 6000 5150 50  0001 C CNN "Source Part No."
+	1    6000 5150
+	1    0    0    -1  
+$EndComp
+Text Label 5400 5050 0    50   ~ 0
+POWBTN
+Wire Wire Line
+	5400 5050 5800 5050
+Text Label 5600 3150 0    50   ~ 0
+RX
+Text Label 5600 3250 0    50   ~ 0
+TX
+Wire Wire Line
+	5400 5150 5800 5150
+Wire Wire Line
+	5400 5250 5800 5250
+Text Label 5400 5150 0    50   ~ 0
+RX
+Text Label 5400 5250 0    50   ~ 0
+TX
+Wire Wire Line
+	5400 5350 5400 5450
+$Comp
+L Frequently_Used_LE:DGND #PWR?
+U 1 1 5F649C21
+P 5400 5450
+F 0 "#PWR?" H 5400 5200 50  0001 C CNN
+F 1 "DGND" H 5400 5300 50  0000 C CNN
+F 2 "" H 5400 5450 50  0001 C CNN
+F 3 "" H 5400 5450 50  0001 C CNN
+	1    5400 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 5350 5800 5350
 $EndSCHEMATC
