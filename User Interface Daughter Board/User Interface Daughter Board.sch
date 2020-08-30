@@ -23,7 +23,7 @@ U 1 1 5EDA477E
 P 4150 4500
 F 0 "J1" H 4150 4150 50  0000 C CNN
 F 1 "Mother Board Conn" V 4600 4500 50  0000 C CNN
-F 2 "Naquadah_Generator:Daughter_Board_Vert_6_Pin_JST_Conn" H 4200 3850 50  0001 C CNN
+F 2 "Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical" H 4200 3850 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 4150 4550 50  0001 C CNN
 F 4 "Digikey" H 4150 4500 50  0001 C CNN "Source"
 F 5 "455-1790-1-ND" H 4200 4150 50  0001 C CNN "Source Part No."
@@ -269,19 +269,19 @@ READY
 Text Notes 6800 5350 0    79   ~ 16
 Ready Indicator
 $Comp
-L Naquadah_Generator:WireAssembly WA1
+L Mechanical_LE:WireAssembly WA1
 U 1 1 5EDA8160
-P 4900 6900
-F 0 "WA1" H 5278 6946 50  0000 L CNN
-F 1 "WireAssembly" H 5278 6855 50  0000 L CNN
-F 2 "Naquadah_Generator:Wire_Assembly_Four" H 4900 7000 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eSR.pdf" H 4900 7000 50  0001 C CNN
-F 4 "6 Position Cable Assembly Rectangular Socket to Socket, Reversed 1.00' (304.80mm)" H 4900 6900 50  0001 C CNN "Description"
-F 5 "Digikey" H 4900 6900 50  0001 C CNN "Source"
-F 6 "455-3019-ND" H 4900 6900 50  0001 C CNN "Source Part No."
-F 7 "JST Sales America Inc." H 4900 6900 50  0001 C CNN "Manufacturer Name"
-F 8 "A06SR06SR30K305B" H 4900 6900 50  0001 C CNN "Manufacturer Part No."
-	1    4900 6900
+P 4950 6800
+F 0 "WA1" H 5328 6846 50  0000 L CNN
+F 1 "WireAssembly" H 5328 6755 50  0000 L CNN
+F 2 "Mechanical_LE:Wire_Assembly" H 4950 6900 50  0001 C CNN
+F 3 "https://gam-gec.com/wp-content/uploads/2018/10/GAM-012.pdf" H 4950 6900 50  0001 C CNN
+F 4 "6 Position Cable Assembly Rectangular Socket to Socket, Reversed 1.00' (304.80mm)" H 4950 6800 50  0001 C CNN "Description"
+F 5 "Digikey" H 4950 6800 50  0001 C CNN "Source"
+F 6 "455-3007-ND" H 4950 6800 50  0001 C CNN "Source Part No."
+F 7 "JST Sales America Inc." H 4950 6800 50  0001 C CNN "Manufacturer Name"
+F 8 "A06SR06SR30K305A" H 4950 6800 50  0001 C CNN "Manufacturer Part No."
+	1    4950 6800
 	1    0    0    -1  
 $EndComp
 Text Notes 2450 7350 0    79   ~ 16
@@ -794,4 +794,6 @@ Wire Wire Line
 Wire Wire Line
 	8150 1900 8050 1900
 Connection ~ 8150 1900
+Text Notes 4650 7250 0    50   ~ 0
+6 pin at 1 mm spacing cable assembly.\nThe cable is reversed.\nThe mother board and daughter board\nuse the same foot prints.
 $EndSCHEMATC

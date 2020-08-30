@@ -57,10 +57,4 @@ K connector
 F http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
 $ENDCMP
 #
-$CMP WireAssembly
-D External wire assembly placeholder
-K logo
-F ~
-$ENDCMP
-#
 #End Doc Library

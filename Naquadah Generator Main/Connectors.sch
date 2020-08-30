@@ -252,112 +252,8 @@ Wire Wire Line
 	3800 4150 3800 4250
 Wire Wire Line
 	4250 4150 3800 4150
-Wire Wire Line
-	5750 2200 5400 2200
-Wire Wire Line
-	5750 2100 5650 2100
-$Comp
-L Frequently_Used_LE:DGND #PWR?
-U 1 1 5EDC6BEB
-P 6300 2500
-AR Path="/5EDC6BEB" Ref="#PWR?"  Part="1" 
-AR Path="/5EDBBDC8/5EDC6BEB" Ref="#PWR0108"  Part="1" 
-F 0 "#PWR0108" H 6300 2250 50  0001 C CNN
-F 1 "DGND" H 6300 2350 50  0000 C CNN
-F 2 "" H 6300 2500 50  0001 C CNN
-F 3 "" H 6300 2500 50  0001 C CNN
-	1    6300 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6300 2400 5350 2400
-Wire Wire Line
-	6300 2400 6300 2500
-Wire Wire Line
-	6300 2300 5350 2300
-Wire Wire Line
-	6300 2300 6300 2200
-$Comp
-L Frequently_Used_LE:+5V #PWR?
-U 1 1 5EDC6BF5
-P 6300 2200
-AR Path="/5EDC6BF5" Ref="#PWR?"  Part="1" 
-AR Path="/5EDBBDC8/5EDC6BF5" Ref="#PWR0109"  Part="1" 
-F 0 "#PWR0109" H 6300 2050 50  0001 C CNN
-F 1 "+5V" H 6315 2373 50  0000 C CNN
-F 2 "" H 6300 2200 50  0001 C CNN
-F 3 "" H 6300 2200 50  0001 C CNN
-	1    6300 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Naquadah_Generator:State_Sensing_Conn J?
-U 1 1 5EDC6BFE
-P 5200 2250
-AR Path="/5EDC6BFE" Ref="J?"  Part="1" 
-AR Path="/5EDBBDC8/5EDC6BFE" Ref="J2"  Part="1" 
-F 0 "J2" H 5200 1950 50  0000 C CNN
-F 1 "State_Sensing_Conn" H 5200 2550 50  0000 C CNN
-F 2 "Naquadah_Generator:Daughter_Board_Hor_4_Pin_JST_Conn" H 5200 1600 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 5200 2300 50  0001 C CNN
-F 4 "455-1804-1-ND" H 5200 1900 50  0001 C CNN "Source Part No."
-F 5 "JST Sales America Inc." H 5200 1800 50  0001 C CNN "Manufacturer Name"
-F 6 "SM04B-SRSS-TB(LF)(SN)" H 5200 1700 50  0001 C CNN "Manufacturer Part No."
-F 7 "Connector Header Surface Mount, Right Angle 4 position 0.039\" (1.00mm)" H 5200 2250 50  0001 C CNN "Description"
-F 8 "Digikey" H 5200 2250 50  0001 C CNN "Source"
-	1    5200 2250
-	-1   0    0    1   
-$EndComp
 Text Notes 5150 2850 0    79   ~ 16
 Sensing Board 2
-Text HLabel 5750 2100 2    50   Input ~ 0
-HALLEFF3
-Text HLabel 5750 2200 2    50   Input ~ 0
-HALLEFF4
-$Comp
-L Frequently_Used_LE:TestPoint_1 TP5
-U 1 1 5ED9FCBB
-P 5400 2000
-F 0 "TP5" H 5400 2300 50  0000 C CNN
-F 1 "TestPoint" H 5300 1750 50  0001 L CNN
-F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 5600 2000 50  0001 C CNN
-F 3 "None" H 5600 2000 50  0001 C CNN
-F 4 "HE1" H 5400 2200 50  0000 C CNN "Name"
-F 5 "Test point" H 5400 2000 50  0001 C CNN "Description"
-F 6 "None" H 5400 2000 50  0001 C CNN "Source Part No."
-F 7 "None" H 5400 2000 50  0001 C CNN "Manufacturer Name"
-F 8 "None" H 5400 2000 50  0001 C CNN "Manufacturer Part No."
-F 9 "None" H 5400 2000 50  0001 C CNN "Source"
-	1    5400 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Frequently_Used_LE:TestPoint_1 TP6
-U 1 1 5ED9FCC2
-P 5650 2000
-F 0 "TP6" H 5650 2300 50  0000 C CNN
-F 1 "TestPoint" H 5550 1750 50  0001 L CNN
-F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 5850 2000 50  0001 C CNN
-F 3 "None" H 5850 2000 50  0001 C CNN
-F 4 "HE2" H 5650 2200 50  0000 C CNN "Name"
-F 5 "Test point" H 5650 2000 50  0001 C CNN "Description"
-F 6 "None" H 5650 2000 50  0001 C CNN "Source Part No."
-F 7 "None" H 5650 2000 50  0001 C CNN "Manufacturer Name"
-F 8 "None" H 5650 2000 50  0001 C CNN "Manufacturer Part No."
-F 9 "None" H 5650 2000 50  0001 C CNN "Source"
-	1    5650 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5400 2000 5400 2200
-Wire Wire Line
-	5650 2000 5650 2100
-Connection ~ 5400 2200
-Wire Wire Line
-	5400 2200 5350 2200
-Connection ~ 5650 2100
-Wire Wire Line
-	5650 2100 5350 2100
 $Comp
 L Frequently_Used_LE:D D?
 U 1 1 5FEFE498
@@ -411,6 +307,201 @@ F 3 "" H 2800 3750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2800 3850 2800 3750
+Text Notes 2450 2850 0    79   ~ 16
+Sensing Board 1
+$Comp
+L Frequently_Used_LE:PWR_FLAG #FLG?
+U 1 1 5FF7EEF1
+P 4100 3750
+AR Path="/5EA6751D/5FF7EEF1" Ref="#FLG?"  Part="1" 
+AR Path="/5EDBBDC8/5FF7EEF1" Ref="#FLG0105"  Part="1" 
+F 0 "#FLG0105" H 4100 3825 50  0001 C CNN
+F 1 "PWR_FLAG" H 4100 3923 50  0000 C CNN
+F 2 "" H 4100 3750 50  0001 C CNN
+F 3 "~" H 4100 3750 50  0001 C CNN
+	1    4100 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3850 4100 3750
+Connection ~ 4100 3850
+Wire Wire Line
+	4100 3850 3700 3850
+$Comp
+L Jumper:SolderJumper_2_Bridged JP?
+U 1 1 5FF89968
+P 3050 3850
+AR Path="/5F06C1CA/5FF89968" Ref="JP?"  Part="1" 
+AR Path="/5EDBBDC8/5FF89968" Ref="JP4"  Part="1" 
+F 0 "JP4" V 3004 3918 50  0000 L CNN
+F 1 "Bridged" V 3095 3918 50  0000 L CNN
+F 2 "Jumper_LE:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 3050 3850 50  0001 C CNN
+F 3 "None" H 3050 3850 50  0001 C CNN
+F 4 "None" H 3050 3850 50  0001 C CNN "Description"
+F 5 "None" H 3050 3850 50  0001 C CNN "Manufacturer Name"
+F 6 "None" H 3050 3850 50  0001 C CNN "Manufacturer Part No."
+F 7 "None" H 3050 3850 50  0001 C CNN "Name"
+F 8 "None" H 3050 3850 50  0001 C CNN "Source"
+F 9 "None" H 3050 3850 50  0001 C CNN "Source Part No."
+	1    3050 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 3850 3200 3850
+Wire Wire Line
+	2900 3850 2800 3850
+Text Notes 7550 2850 0    79   ~ 16
+User Interface Board Connector
+Text Notes 9250 4600 0    79   ~ 16
+White Lights
+Text HLabel 9950 4100 2    50   Input ~ 0
+WHITELT
+Wire Wire Line
+	9600 4000 9950 4000
+Wire Wire Line
+	9950 4100 9600 4100
+$Comp
+L power:+5V #PWR?
+U 1 1 5F6C6D65
+P 9950 3900
+AR Path="/5ED17BA0/5ED2A32C/5F6C6D65" Ref="#PWR?"  Part="1" 
+AR Path="/5ED17BA0/5F6C6D65" Ref="#PWR?"  Part="1" 
+AR Path="/5EDBBDC8/5F6C6D65" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 9950 3750 50  0001 C CNN
+F 1 "+5V" H 9965 4073 50  0000 C CNN
+F 2 "" H 9950 3900 50  0001 C CNN
+F 3 "" H 9950 3900 50  0001 C CNN
+	1    9950 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 3900 9950 4000
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5F6C6D5E
+P 9400 4100
+AR Path="/5EA45E37/5F6C6D5E" Ref="J?"  Part="1" 
+AR Path="/5EA4676F/5F6C6D5E" Ref="J?"  Part="1" 
+AR Path="/5EA46A2B/5F6C6D5E" Ref="J?"  Part="1" 
+AR Path="/5ED17BA0/5ED2A32C/5F6C6D5E" Ref="J?"  Part="1" 
+AR Path="/5ED17BA0/5F6C6D5E" Ref="J?"  Part="1" 
+AR Path="/5EDBBDC8/5F6C6D5E" Ref="J3"  Part="1" 
+F 0 "J3" H 9950 4000 50  0000 R CNN
+F 1 "Conn_01x02" H 9950 4100 50  0000 R CNN
+F 2 "Connector_LE:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical" H 9400 4100 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 9400 4100 50  0001 C CNN
+F 4 "Connector Header Surface Mount 2 position 0.039\" (1.00mm)" H 9400 4100 50  0001 C CNN "Description"
+F 5 "JST Sales America Inc." H 9400 4100 50  0001 C CNN "Manufacturer Name"
+F 6 "BM02B-SRSS-TB(LF)(SN)" H 9400 4100 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 9400 4100 50  0001 C CNN "Source"
+F 8 "455-1788-1-ND" H 9400 4100 50  0001 C CNN "Source Part No."
+	1    9400 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5750 2200 5400 2200
+Wire Wire Line
+	5750 2100 5650 2100
+$Comp
+L Frequently_Used_LE:DGND #PWR?
+U 1 1 5EDC6BEB
+P 6300 2500
+AR Path="/5EDC6BEB" Ref="#PWR?"  Part="1" 
+AR Path="/5EDBBDC8/5EDC6BEB" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 6300 2250 50  0001 C CNN
+F 1 "DGND" H 6300 2350 50  0000 C CNN
+F 2 "" H 6300 2500 50  0001 C CNN
+F 3 "" H 6300 2500 50  0001 C CNN
+	1    6300 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 2400 5350 2400
+Wire Wire Line
+	6300 2400 6300 2500
+Wire Wire Line
+	6300 2300 5350 2300
+Wire Wire Line
+	6300 2300 6300 2200
+$Comp
+L Frequently_Used_LE:+5V #PWR?
+U 1 1 5EDC6BF5
+P 6300 2200
+AR Path="/5EDC6BF5" Ref="#PWR?"  Part="1" 
+AR Path="/5EDBBDC8/5EDC6BF5" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 6300 2050 50  0001 C CNN
+F 1 "+5V" H 6315 2373 50  0000 C CNN
+F 2 "" H 6300 2200 50  0001 C CNN
+F 3 "" H 6300 2200 50  0001 C CNN
+	1    6300 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Naquadah_Generator:State_Sensing_Conn J?
+U 1 1 5EDC6BFE
+P 5200 2250
+AR Path="/5EDC6BFE" Ref="J?"  Part="1" 
+AR Path="/5EDBBDC8/5EDC6BFE" Ref="J2"  Part="1" 
+F 0 "J2" H 5200 1950 50  0000 C CNN
+F 1 "State_Sensing_Conn" H 5200 2550 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 5200 1600 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 5200 2300 50  0001 C CNN
+F 4 "455-1804-1-ND" H 5200 1900 50  0001 C CNN "Source Part No."
+F 5 "JST Sales America Inc." H 5200 1800 50  0001 C CNN "Manufacturer Name"
+F 6 "SM04B-SRSS-TB(LF)(SN)" H 5200 1700 50  0001 C CNN "Manufacturer Part No."
+F 7 "Connector Header Surface Mount, Right Angle 4 position 0.039\" (1.00mm)" H 5200 2250 50  0001 C CNN "Description"
+F 8 "Digikey" H 5200 2250 50  0001 C CNN "Source"
+	1    5200 2250
+	-1   0    0    1   
+$EndComp
+Text HLabel 5750 2100 2    50   Input ~ 0
+HALLEFF3
+Text HLabel 5750 2200 2    50   Input ~ 0
+HALLEFF4
+$Comp
+L Frequently_Used_LE:TestPoint_1 TP5
+U 1 1 5ED9FCBB
+P 5400 2000
+F 0 "TP5" H 5400 2300 50  0000 C CNN
+F 1 "TestPoint" H 5300 1750 50  0001 L CNN
+F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 5600 2000 50  0001 C CNN
+F 3 "None" H 5600 2000 50  0001 C CNN
+F 4 "HE1" H 5400 2200 50  0000 C CNN "Name"
+F 5 "Test point" H 5400 2000 50  0001 C CNN "Description"
+F 6 "None" H 5400 2000 50  0001 C CNN "Source Part No."
+F 7 "None" H 5400 2000 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 5400 2000 50  0001 C CNN "Manufacturer Part No."
+F 9 "None" H 5400 2000 50  0001 C CNN "Source"
+	1    5400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Frequently_Used_LE:TestPoint_1 TP6
+U 1 1 5ED9FCC2
+P 5650 2000
+F 0 "TP6" H 5650 2300 50  0000 C CNN
+F 1 "TestPoint" H 5550 1750 50  0001 L CNN
+F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 5850 2000 50  0001 C CNN
+F 3 "None" H 5850 2000 50  0001 C CNN
+F 4 "HE2" H 5650 2200 50  0000 C CNN "Name"
+F 5 "Test point" H 5650 2000 50  0001 C CNN "Description"
+F 6 "None" H 5650 2000 50  0001 C CNN "Source Part No."
+F 7 "None" H 5650 2000 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 5650 2000 50  0001 C CNN "Manufacturer Part No."
+F 9 "None" H 5650 2000 50  0001 C CNN "Source"
+	1    5650 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2000 5400 2200
+Wire Wire Line
+	5650 2000 5650 2100
+Connection ~ 5400 2200
+Wire Wire Line
+	5400 2200 5350 2200
+Connection ~ 5650 2100
+Wire Wire Line
+	5650 2100 5350 2100
 Wire Wire Line
 	3050 2100 2950 2100
 $Comp
@@ -455,7 +546,7 @@ AR Path="/5EDC6BE1" Ref="J?"  Part="1"
 AR Path="/5EDBBDC8/5EDC6BE1" Ref="J1"  Part="1" 
 F 0 "J1" H 2500 1950 50  0000 C CNN
 F 1 "State_Sensing_Conn" H 2500 2550 50  0000 C CNN
-F 2 "Naquadah_Generator:Daughter_Board_Hor_4_Pin_JST_Conn" H 2500 1600 50  0001 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 2500 1600 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 2500 2300 50  0001 C CNN
 F 4 "455-1804-1-ND" H 2500 1900 50  0001 C CNN "Source Part No."
 F 5 "JST Sales America Inc." H 2500 1800 50  0001 C CNN "Manufacturer Name"
@@ -465,8 +556,6 @@ F 8 "Digikey" H 2500 2250 50  0001 C CNN "Source"
 	1    2500 2250
 	-1   0    0    1   
 $EndComp
-Text Notes 2450 2850 0    79   ~ 16
-Sensing Board 1
 Text HLabel 3050 2100 2    50   Input ~ 0
 HALLEFF2
 Text HLabel 3050 2200 2    50   Input ~ 0
@@ -517,80 +606,145 @@ Wire Wire Line
 Connection ~ 2950 2100
 Wire Wire Line
 	2950 2100 2650 2100
-$Comp
-L Frequently_Used_LE:PWR_FLAG #FLG?
-U 1 1 5FF7EEF1
-P 4100 3750
-AR Path="/5EA6751D/5FF7EEF1" Ref="#FLG?"  Part="1" 
-AR Path="/5EDBBDC8/5FF7EEF1" Ref="#FLG0105"  Part="1" 
-F 0 "#FLG0105" H 4100 3825 50  0001 C CNN
-F 1 "PWR_FLAG" H 4100 3923 50  0000 C CNN
-F 2 "" H 4100 3750 50  0001 C CNN
-F 3 "~" H 4100 3750 50  0001 C CNN
-	1    4100 3750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	4100 3850 4100 3750
-Connection ~ 4100 3850
+	8150 2000 8550 2000
 Wire Wire Line
-	4100 3850 3700 3850
-$Comp
-L Jumper:SolderJumper_2_Bridged JP?
-U 1 1 5FF89968
-P 3050 3850
-AR Path="/5F06C1CA/5FF89968" Ref="JP?"  Part="1" 
-AR Path="/5EDBBDC8/5FF89968" Ref="JP4"  Part="1" 
-F 0 "JP4" V 3004 3918 50  0000 L CNN
-F 1 "Bridged" V 3095 3918 50  0000 L CNN
-F 2 "Jumper_LE:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 3050 3850 50  0001 C CNN
-F 3 "None" H 3050 3850 50  0001 C CNN
-F 4 "None" H 3050 3850 50  0001 C CNN "Description"
-F 5 "None" H 3050 3850 50  0001 C CNN "Manufacturer Name"
-F 6 "None" H 3050 3850 50  0001 C CNN "Manufacturer Part No."
-F 7 "None" H 3050 3850 50  0001 C CNN "Name"
-F 8 "None" H 3050 3850 50  0001 C CNN "Source"
-F 9 "None" H 3050 3850 50  0001 C CNN "Source Part No."
-	1    3050 3850
-	1    0    0    -1  
-$EndComp
+	8550 2000 9050 2000
+Connection ~ 8550 2000
 Wire Wire Line
-	3300 3850 3200 3850
+	8900 2100 9050 2100
+Connection ~ 8900 2100
 Wire Wire Line
-	2900 3850 2800 3850
-Text HLabel 9050 2100 2    50   Input ~ 0
-BATT-
-Text HLabel 9050 2000 2    50   Input ~ 0
-BATT+
-Text Label 8850 2100 2    50   ~ 0
-BATT-
-Text Label 8850 2000 2    50   ~ 0
-BATT+
+	8900 1800 9050 1800
 Wire Wire Line
-	8550 2200 8550 2000
+	8550 1700 9050 1700
+Connection ~ 8900 1800
+Connection ~ 8550 1700
 Wire Wire Line
-	8200 2200 8200 1900
-Wire Wire Line
-	8200 1500 8200 1600
+	8550 1500 8550 1700
 $Comp
 L Frequently_Used_LE:TestPoint_1 TP?
-U 1 1 60A6C239
-P 8200 1500
-AR Path="/60A6C239" Ref="TP?"  Part="1" 
-AR Path="/5EA6751D/60A6C239" Ref="TP?"  Part="1" 
-AR Path="/5EDBBDC8/60A6C239" Ref="TP7"  Part="1" 
-F 0 "TP7" H 8200 1750 50  0000 C CNN
-F 1 "TestPoint" H 8200 1220 50  0001 C CNN
-F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 8400 1500 50  0001 C CNN
-F 3 "None" H 8400 1500 50  0001 C CNN
-F 4 "SWITCH" H 8200 1650 50  0000 C CNN "Name"
-F 5 "None" H 8195 1145 50  0001 C CNN "Source"
-F 6 "None" H 8195 1145 50  0001 C CNN "Source Part No."
-F 7 "None" H 8195 1145 50  0001 C CNN "Manufacturer Name"
-F 8 "None" H 8195 1145 50  0001 C CNN "Manufacturer Part No."
-F 9 "Test point" H 8200 1500 50  0001 C CNN "Description"
-	1    8200 1500
+U 1 1 60A6C25D
+P 8550 1500
+AR Path="/60A6C25D" Ref="TP?"  Part="1" 
+AR Path="/5EA6751D/60A6C25D" Ref="TP?"  Part="1" 
+AR Path="/5EDBBDC8/60A6C25D" Ref="TP8"  Part="1" 
+F 0 "TP8" H 8550 1750 50  0000 C CNN
+F 1 "TestPoint" H 8550 1220 50  0001 C CNN
+F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 8750 1500 50  0001 C CNN
+F 3 "None" H 8750 1500 50  0001 C CNN
+F 4 "READY" H 8550 1650 50  0000 C CNN "Name"
+F 5 "None" H 8545 1145 50  0001 C CNN "Source"
+F 6 "None" H 8545 1145 50  0001 C CNN "Source Part No."
+F 7 "None" H 8545 1145 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 8545 1145 50  0001 C CNN "Manufacturer Part No."
+F 9 "Test point" H 8550 1500 50  0001 C CNN "Description"
+	1    8550 1500
 	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 1600 9050 1600
+$Comp
+L Frequently_Used_LE:TestPoint_1 TP?
+U 1 1 60BF320A
+P 8900 1500
+AR Path="/60BF320A" Ref="TP?"  Part="1" 
+AR Path="/5EA6751D/60BF320A" Ref="TP?"  Part="1" 
+AR Path="/5EDBBDC8/60BF320A" Ref="TP10"  Part="1" 
+F 0 "TP10" H 8900 1750 50  0000 C CNN
+F 1 "TestPoint" H 8900 1220 50  0001 C CNN
+F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 9100 1500 50  0001 C CNN
+F 3 "None" H 9100 1500 50  0001 C CNN
+F 4 "MODE" H 8900 1650 50  0000 C CNN "Name"
+F 5 "None" H 8895 1145 50  0001 C CNN "Source"
+F 6 "None" H 8895 1145 50  0001 C CNN "Source Part No."
+F 7 "None" H 8895 1145 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 8895 1145 50  0001 C CNN "Manufacturer Part No."
+F 9 "Test point" H 8900 1500 50  0001 C CNN "Description"
+	1    8900 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 1500 8900 1800
+Wire Wire Line
+	8150 1700 8550 1700
+Wire Wire Line
+	8150 1800 8900 1800
+Wire Wire Line
+	8150 2100 8900 2100
+Wire Wire Line
+	8200 1900 9050 1900
+Connection ~ 8200 1900
+Text HLabel 9050 1900 2    50   Input ~ 0
+VOLUME
+Wire Wire Line
+	8150 1900 8200 1900
+$Comp
+L Naquadah_Generator:User_Interface_6_Pin_Conn J10
+U 1 1 60BE3DA9
+P 8000 1850
+F 0 "J10" H 8000 1500 50  0000 C CNN
+F 1 "User_Interface_6_Pin_Conn" V 8450 1850 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical" H 8050 1050 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 8000 1800 50  0001 C CNN
+F 4 "Connector Header Surface Mount 6 position 0.039\" (1.00mm)" H 8050 950 50  0001 C CNN "Description"
+F 5 "Digikey" H 8000 850 50  0001 C CNN "Source"
+F 6 "455-1792-1-ND" H 8050 1350 50  0001 C CNN "Source Part No."
+F 7 "JST Sales America Inc." H 8050 1250 50  0001 C CNN "Manufacturer Name"
+F 8 "BM06B-SRSS-TB(LF)(SN)" H 8050 1150 50  0001 C CNN "Manufacturer Part No."
+	1    8000 1850
+	-1   0    0    1   
+$EndComp
+Text HLabel 9050 1600 2    39   Input ~ 0
+SWITCH
+$Comp
+L Frequently_Used_LE:TestPoint_1 TP?
+U 1 1 60A6C283
+P 8900 2200
+AR Path="/60A6C283" Ref="TP?"  Part="1" 
+AR Path="/5EA6751D/60A6C283" Ref="TP?"  Part="1" 
+AR Path="/5EDBBDC8/60A6C283" Ref="TP2"  Part="1" 
+F 0 "TP2" H 8900 2400 50  0000 C CNN
+F 1 "TestPoint" H 8800 1950 50  0001 L CNN
+F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 9100 2200 50  0001 C CNN
+F 3 "None" H 9100 2200 50  0001 C CNN
+F 4 "BATT-" H 8900 2500 50  0000 C CNN "Name"
+F 5 "Test point" H 8900 2200 50  0001 C CNN "Description"
+F 6 "None" H 8900 2200 50  0001 C CNN "Source Part No."
+F 7 "None" H 8900 2200 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 8900 2200 50  0001 C CNN "Manufacturer Part No."
+F 9 "None" H 8900 2200 50  0001 C CNN "Source"
+	1    8900 2200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8900 2200 8900 2100
+Wire Wire Line
+	8150 1600 8200 1600
+Connection ~ 8200 1600
+Text HLabel 9050 1700 2    50   Input ~ 0
+READY
+Text HLabel 9050 1800 2    50   Input ~ 0
+MODE
+$Comp
+L Frequently_Used_LE:TestPoint_1 TP?
+U 1 1 60A6C251
+P 8200 2200
+AR Path="/60A6C251" Ref="TP?"  Part="1" 
+AR Path="/5EA6751D/60A6C251" Ref="TP?"  Part="1" 
+AR Path="/5EDBBDC8/60A6C251" Ref="TP20"  Part="1" 
+F 0 "TP20" H 8200 2400 50  0000 C CNN
+F 1 "TestPoint" H 8200 1920 50  0001 C CNN
+F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 8400 2200 50  0001 C CNN
+F 3 "None" H 8400 2200 50  0001 C CNN
+F 4 "VOLUME" H 8200 2500 50  0000 C CNN "Name"
+F 5 "None" H 8195 1845 50  0001 C CNN "Source"
+F 6 "None" H 8195 1845 50  0001 C CNN "Source Part No."
+F 7 "None" H 8195 1845 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 8195 1845 50  0001 C CNN "Manufacturer Part No."
+F 9 "Test point" H 8200 2200 50  0001 C CNN "Description"
+	1    8200 2200
+	-1   0    0    1   
 $EndComp
 $Comp
 L Frequently_Used_LE:TestPoint_1 TP?
@@ -614,190 +768,52 @@ F 9 "Test point" H 8550 2200 50  0001 C CNN "Description"
 $EndComp
 $Comp
 L Frequently_Used_LE:TestPoint_1 TP?
-U 1 1 60A6C251
-P 8200 2200
-AR Path="/60A6C251" Ref="TP?"  Part="1" 
-AR Path="/5EA6751D/60A6C251" Ref="TP?"  Part="1" 
-AR Path="/5EDBBDC8/60A6C251" Ref="TP20"  Part="1" 
-F 0 "TP20" H 8200 2400 50  0000 C CNN
-F 1 "TestPoint" H 8200 1920 50  0001 C CNN
-F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 8400 2200 50  0001 C CNN
-F 3 "None" H 8400 2200 50  0001 C CNN
-F 4 "VOLUME" H 8200 2500 50  0000 C CNN "Name"
-F 5 "None" H 8195 1845 50  0001 C CNN "Source"
-F 6 "None" H 8195 1845 50  0001 C CNN "Source Part No."
-F 7 "None" H 8195 1845 50  0001 C CNN "Manufacturer Name"
-F 8 "None" H 8195 1845 50  0001 C CNN "Manufacturer Part No."
-F 9 "Test point" H 8200 2200 50  0001 C CNN "Description"
-	1    8200 2200
-	-1   0    0    1   
-$EndComp
-Text HLabel 9050 1800 2    50   Input ~ 0
-MODE
-Text HLabel 9050 1700 2    50   Input ~ 0
-READY
-Connection ~ 8200 1600
-Wire Wire Line
-	8150 1600 8200 1600
-Wire Wire Line
-	8900 2200 8900 2100
-$Comp
-L Frequently_Used_LE:TestPoint_1 TP?
-U 1 1 60A6C283
-P 8900 2200
-AR Path="/60A6C283" Ref="TP?"  Part="1" 
-AR Path="/5EA6751D/60A6C283" Ref="TP?"  Part="1" 
-AR Path="/5EDBBDC8/60A6C283" Ref="TP2"  Part="1" 
-F 0 "TP2" H 8900 2400 50  0000 C CNN
-F 1 "TestPoint" H 8800 1950 50  0001 L CNN
-F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 9100 2200 50  0001 C CNN
-F 3 "None" H 9100 2200 50  0001 C CNN
-F 4 "BATT-" H 8900 2500 50  0000 C CNN "Name"
-F 5 "Test point" H 8900 2200 50  0001 C CNN "Description"
-F 6 "None" H 8900 2200 50  0001 C CNN "Source Part No."
-F 7 "None" H 8900 2200 50  0001 C CNN "Manufacturer Name"
-F 8 "None" H 8900 2200 50  0001 C CNN "Manufacturer Part No."
-F 9 "None" H 8900 2200 50  0001 C CNN "Source"
-	1    8900 2200
-	-1   0    0    1   
-$EndComp
-Text Notes 7550 2850 0    79   ~ 16
-User Interface Board Connector
-Text HLabel 9050 1600 2    39   Input ~ 0
-SWITCH
-$Comp
-L Naquadah_Generator:User_Interface_6_Pin_Conn J10
-U 1 1 60BE3DA9
-P 8000 1850
-F 0 "J10" H 8000 1500 50  0000 C CNN
-F 1 "User_Interface_6_Pin_Conn" V 8450 1850 50  0000 C CNN
-F 2 "Naquadah_Generator:Daughter_Board_Vert_6_Pin_JST_Conn" H 8050 1050 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 8000 1800 50  0001 C CNN
-F 4 "Connector Header Surface Mount 6 position 0.039\" (1.00mm)" H 8050 950 50  0001 C CNN "Description"
-F 5 "Digikey" H 8000 850 50  0001 C CNN "Source"
-F 6 "455-1792-1-ND" H 8050 1350 50  0001 C CNN "Source Part No."
-F 7 "JST Sales America Inc." H 8050 1250 50  0001 C CNN "Manufacturer Name"
-F 8 "BM06B-SRSS-TB(LF)(SN)" H 8050 1150 50  0001 C CNN "Manufacturer Part No."
-	1    8000 1850
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8150 1900 8200 1900
-Text HLabel 9050 1900 2    50   Input ~ 0
-VOLUME
-Connection ~ 8200 1900
-Wire Wire Line
-	8200 1900 9050 1900
-Wire Wire Line
-	8150 2100 8900 2100
-Wire Wire Line
-	8150 1800 8900 1800
-Wire Wire Line
-	8150 1700 8550 1700
-Wire Wire Line
-	8900 1500 8900 1800
-$Comp
-L Frequently_Used_LE:TestPoint_1 TP?
-U 1 1 60BF320A
-P 8900 1500
-AR Path="/60BF320A" Ref="TP?"  Part="1" 
-AR Path="/5EA6751D/60BF320A" Ref="TP?"  Part="1" 
-AR Path="/5EDBBDC8/60BF320A" Ref="TP10"  Part="1" 
-F 0 "TP10" H 8900 1750 50  0000 C CNN
-F 1 "TestPoint" H 8900 1220 50  0001 C CNN
-F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 9100 1500 50  0001 C CNN
-F 3 "None" H 9100 1500 50  0001 C CNN
-F 4 "MODE" H 8900 1650 50  0000 C CNN "Name"
-F 5 "None" H 8895 1145 50  0001 C CNN "Source"
-F 6 "None" H 8895 1145 50  0001 C CNN "Source Part No."
-F 7 "None" H 8895 1145 50  0001 C CNN "Manufacturer Name"
-F 8 "None" H 8895 1145 50  0001 C CNN "Manufacturer Part No."
-F 9 "Test point" H 8900 1500 50  0001 C CNN "Description"
-	1    8900 1500
+U 1 1 60A6C239
+P 8200 1500
+AR Path="/60A6C239" Ref="TP?"  Part="1" 
+AR Path="/5EA6751D/60A6C239" Ref="TP?"  Part="1" 
+AR Path="/5EDBBDC8/60A6C239" Ref="TP7"  Part="1" 
+F 0 "TP7" H 8200 1750 50  0000 C CNN
+F 1 "TestPoint" H 8200 1220 50  0001 C CNN
+F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 8400 1500 50  0001 C CNN
+F 3 "None" H 8400 1500 50  0001 C CNN
+F 4 "SWITCH" H 8200 1650 50  0000 C CNN "Name"
+F 5 "None" H 8195 1145 50  0001 C CNN "Source"
+F 6 "None" H 8195 1145 50  0001 C CNN "Source Part No."
+F 7 "None" H 8195 1145 50  0001 C CNN "Manufacturer Name"
+F 8 "None" H 8195 1145 50  0001 C CNN "Manufacturer Part No."
+F 9 "Test point" H 8200 1500 50  0001 C CNN "Description"
+	1    8200 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8200 1600 9050 1600
+	8200 1500 8200 1600
+Wire Wire Line
+	8200 2200 8200 1900
+Wire Wire Line
+	8550 2200 8550 2000
+Text Label 8850 2000 2    50   ~ 0
+BATT+
+Text Label 8850 2100 2    50   ~ 0
+BATT-
+Text HLabel 9050 2000 2    50   Input ~ 0
+BATT+
+Text HLabel 9050 2100 2    50   Input ~ 0
+BATT-
 $Comp
-L Frequently_Used_LE:TestPoint_1 TP?
-U 1 1 60A6C25D
-P 8550 1500
-AR Path="/60A6C25D" Ref="TP?"  Part="1" 
-AR Path="/5EA6751D/60A6C25D" Ref="TP?"  Part="1" 
-AR Path="/5EDBBDC8/60A6C25D" Ref="TP8"  Part="1" 
-F 0 "TP8" H 8550 1750 50  0000 C CNN
-F 1 "TestPoint" H 8550 1220 50  0001 C CNN
-F 2 "Frequently_Used_LE:Pad_2.5-2.5" H 8750 1500 50  0001 C CNN
-F 3 "None" H 8750 1500 50  0001 C CNN
-F 4 "READY" H 8550 1650 50  0000 C CNN "Name"
-F 5 "None" H 8545 1145 50  0001 C CNN "Source"
-F 6 "None" H 8545 1145 50  0001 C CNN "Source Part No."
-F 7 "None" H 8545 1145 50  0001 C CNN "Manufacturer Name"
-F 8 "None" H 8545 1145 50  0001 C CNN "Manufacturer Part No."
-F 9 "Test point" H 8550 1500 50  0001 C CNN "Description"
-	1    8550 1500
+L Mechanical_LE:WireAssembly WA1
+U 1 1 5F4C5E67
+P 9550 3450
+F 0 "WA1" H 9803 3496 50  0000 L CNN
+F 1 "WireAssembly" H 9803 3405 50  0000 L CNN
+F 2 "Mechanical_LE:Wire_Assembly" H 9550 3550 50  0001 C CNN
+F 3 "https://gam-gec.com/wp-content/uploads/2018/10/GAM-011.pdf" H 9550 3550 50  0001 C CNN
+F 4 "2 Position Cable Assembly Rectangular Socket to Socket, Reversed 0.500' (152.40mm, 6.00\")" H 9550 3450 50  0001 C CNN "Description"
+F 5 "JST Sales America Inc." H 9550 3450 50  0001 C CNN "Manufacturer Name"
+F 6 "A02SR02SR30K152A" H 9550 3450 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 9550 3450 50  0001 C CNN "Source"
+F 8 "455-3001-ND" H 9550 3450 50  0001 C CNN "Source Part No."
+	1    9550 3450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8550 1500 8550 1700
-Connection ~ 8550 1700
-Connection ~ 8900 1800
-Wire Wire Line
-	8550 1700 9050 1700
-Wire Wire Line
-	8900 1800 9050 1800
-Connection ~ 8900 2100
-Wire Wire Line
-	8900 2100 9050 2100
-Connection ~ 8550 2000
-Wire Wire Line
-	8550 2000 9050 2000
-Wire Wire Line
-	8150 2000 8550 2000
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5F6C6D5E
-P 9400 4100
-AR Path="/5EA45E37/5F6C6D5E" Ref="J?"  Part="1" 
-AR Path="/5EA4676F/5F6C6D5E" Ref="J?"  Part="1" 
-AR Path="/5EA46A2B/5F6C6D5E" Ref="J?"  Part="1" 
-AR Path="/5ED17BA0/5ED2A32C/5F6C6D5E" Ref="J?"  Part="1" 
-AR Path="/5ED17BA0/5F6C6D5E" Ref="J?"  Part="1" 
-AR Path="/5EDBBDC8/5F6C6D5E" Ref="J3"  Part="1" 
-F 0 "J3" H 9950 4000 50  0000 R CNN
-F 1 "Conn_01x02" H 9950 4100 50  0000 R CNN
-F 2 "Connector_LE:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical" H 9400 4100 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 9400 4100 50  0001 C CNN
-F 4 "Connector Header Surface Mount 2 position 0.039\" (1.00mm)" H 9400 4100 50  0001 C CNN "Description"
-F 5 "JST Sales America Inc." H 9400 4100 50  0001 C CNN "Manufacturer Name"
-F 6 "BM02B-SRSS-TB(LF)(SN)" H 9400 4100 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 9400 4100 50  0001 C CNN "Source"
-F 8 "455-1788-1-ND" H 9400 4100 50  0001 C CNN "Source Part No."
-	1    9400 4100
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9950 3900 9950 4000
-$Comp
-L power:+5V #PWR?
-U 1 1 5F6C6D65
-P 9950 3900
-AR Path="/5ED17BA0/5ED2A32C/5F6C6D65" Ref="#PWR?"  Part="1" 
-AR Path="/5ED17BA0/5F6C6D65" Ref="#PWR?"  Part="1" 
-AR Path="/5EDBBDC8/5F6C6D65" Ref="#PWR0102"  Part="1" 
-F 0 "#PWR0102" H 9950 3750 50  0001 C CNN
-F 1 "+5V" H 9965 4073 50  0000 C CNN
-F 2 "" H 9950 3900 50  0001 C CNN
-F 3 "" H 9950 3900 50  0001 C CNN
-	1    9950 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9950 4100 9600 4100
-Wire Wire Line
-	9600 4000 9950 4000
-Text HLabel 9950 4100 2    50   Input ~ 0
-WHITELT
-Text Notes 9250 4600 0    79   ~ 16
-White Lights
 $EndSCHEMATC

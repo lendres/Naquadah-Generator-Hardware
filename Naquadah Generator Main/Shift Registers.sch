@@ -403,7 +403,7 @@ F 3 "https://www.ti.com/lit/ds/symlink/cd74hc4049.pdf?HQS=TI-null-null-digikeymo
 F 4 "Buffer, Non-Inverting 6 Element 1 Bit per Element Push-Pull Output" H 5750 3850 50  0001 C CNN "Description"
 F 5 "Texas Instruments" H 5750 3750 50  0001 C CNN "Manufacturer Name"
 F 6 "CD74HC4050PWR" H 5750 3650 50  0001 C CNN "Manufacturer Part No."
-F 7 "Texas Instruments" H 5750 3550 50  0001 C CNN "Source"
+F 7 "Digikey" H 5750 3550 50  0001 C CNN "Source"
 F 8 "296-9215-1-ND" H 5750 3450 50  0001 C CNN "Source Part No."
 	1    5750 4550
 	1    0    0    -1  

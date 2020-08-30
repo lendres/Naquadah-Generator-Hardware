@@ -136,16 +136,16 @@ $EndComp
 $Comp
 L Naquadah_Generator:MountingHole H1
 U 1 1 5EA2820E
-P 9150 5450
-F 0 "H1" H 9250 5496 50  0000 L CNN
-F 1 "MountingHole" H 9250 5405 50  0000 L CNN
-F 2 "Naquadah_Generator:MountingSlot_2.2mm_2.2mm_M2.0" H 9150 5450 50  0001 C CNN
-F 3 "None" H 9150 5450 50  0001 C CNN
-F 4 "None" H 9150 5450 50  0001 C CNN "Source Part No."
-F 5 "None" H 9150 5450 50  0001 C CNN "Manufacturer Name"
-F 6 "None" H 9150 5450 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 9150 5450 50  0001 C CNN "Source"
-	1    9150 5450
+P 8450 5600
+F 0 "H1" H 8550 5646 50  0000 L CNN
+F 1 "MountingHole" H 8550 5555 50  0000 L CNN
+F 2 "Naquadah_Generator:MountingSlot_2.2mm_2.2mm_M2.0" H 8450 5600 50  0001 C CNN
+F 3 "None" H 8450 5600 50  0001 C CNN
+F 4 "None" H 8450 5600 50  0001 C CNN "Source Part No."
+F 5 "None" H 8450 5600 50  0001 C CNN "Manufacturer Name"
+F 6 "None" H 8450 5600 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 8450 5600 50  0001 C CNN "Source"
+	1    8450 5600
 	1    0    0    1   
 $EndComp
 $Comp
@@ -154,7 +154,7 @@ U 1 1 5EA677CD
 P 3200 6750
 F 0 "J1" H 3200 6300 50  0000 C CNN
 F 1 "HallSensor_Conn" H 3200 6400 50  0000 C CNN
-F 2 "Naquadah_Generator:Daughter_Board_Hor_4_Pin_JST_Conn" H 3200 7050 50  0001 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 3200 7050 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 3200 6750 50  0001 C CNN
 F 4 "455-1804-1-ND" H 3200 6750 50  0001 C CNN "Source Part No."
 F 5 "JST Sales America Inc." H 3200 6750 50  0001 C CNN "Manufacturer Name"
@@ -238,18 +238,18 @@ Wire Notes Line
 Text Notes 8400 6400 0    98   ~ 20
 Additional Features
 $Comp
-L Naquadah_Generator:WireAssembly WA101
+L Mechanical_LE:WireAssembly WA1
 U 1 1 5EF2EBE6
-P 8850 5850
-F 0 "WA101" H 9228 5896 50  0000 L CNN
-F 1 "WireAssembly" H 9228 5805 50  0000 L CNN
-F 2 "Naquadah_Generator:Wire_Assembly_Four" H 8850 5950 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eSR.pdf" H 8850 5950 50  0001 C CNN
-F 4 "455-3010-ND" H 8850 5850 50  0001 C CNN "Source Part No."
-F 5 "JST Sales America Inc." H 8850 5850 50  0001 C CNN "Manufacturer Name"
-F 6 "A04SR04SR30K51B" H 8850 5850 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 8850 5850 50  0001 C CNN "Source"
-	1    8850 5850
+P 9850 5600
+F 0 "WA1" H 10100 5650 50  0000 L CNN
+F 1 "WireAssembly" H 10100 5550 50  0000 L CNN
+F 2 "Mechanical_LE:Wire_Assembly" H 9850 5700 50  0001 C CNN
+F 3 "https://www.digikey.com/htmldatasheets/production/1917075/0/0/1/axxsrxxsr30k152a-drawing.html" H 9850 5700 50  0001 C CNN
+F 4 "455-3002-ND" H 9850 5600 50  0001 C CNN "Source Part No."
+F 5 "JST Sales America Inc." H 9850 5600 50  0001 C CNN "Manufacturer Name"
+F 6 "A04SR04SR30K152A" H 9850 5600 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 9850 5600 50  0001 C CNN "Source"
+	1    9850 5600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -430,4 +430,6 @@ Wire Wire Line
 	5050 2200 5200 2200
 Wire Wire Line
 	6950 2750 6950 3050
+Text Notes 9600 6100 0    50   ~ 0
+6 pin at 1 mm spacing cable assembly.\nThe cable is reversed.\nThe mother board and daughter board\nuse the same foot prints.
 $EndSCHEMATC
