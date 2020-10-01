@@ -271,17 +271,17 @@ Ready Indicator
 $Comp
 L Mechanical_LE:WireAssembly WA1
 U 1 1 5EDA8160
-P 4950 6800
-F 0 "WA1" H 5328 6846 50  0000 L CNN
-F 1 "WireAssembly" H 5328 6755 50  0000 L CNN
-F 2 "Mechanical_LE:Wire_Assembly" H 4950 6900 50  0001 C CNN
-F 3 "https://gam-gec.com/wp-content/uploads/2018/10/GAM-012.pdf" H 4950 6900 50  0001 C CNN
-F 4 "6 Position Cable Assembly Rectangular Socket to Socket, Reversed 1.00' (304.80mm)" H 4950 6800 50  0001 C CNN "Description"
-F 5 "Digikey" H 4950 6800 50  0001 C CNN "Source"
-F 6 "455-3007-ND" H 4950 6800 50  0001 C CNN "Source Part No."
-F 7 "JST Sales America Inc." H 4950 6800 50  0001 C CNN "Manufacturer Name"
-F 8 "A06SR06SR30K305A" H 4950 6800 50  0001 C CNN "Manufacturer Part No."
-	1    4950 6800
+P 5000 6700
+F 0 "WA1" H 5378 6746 50  0000 L CNN
+F 1 "WireAssembly" H 5378 6655 50  0000 L CNN
+F 2 "Mechanical_LE:Wire_Assembly" H 5000 6800 50  0001 C CNN
+F 3 "https://gam-gec.com/wp-content/uploads/2018/10/GAM-012.pdf" H 5000 6800 50  0001 C CNN
+F 4 "6 Position Cable Assembly Rectangular Socket to Socket, Reversed 1.00' (304.80mm)" H 5000 6700 50  0001 C CNN "Description"
+F 5 "Digikey" H 5000 6700 50  0001 C CNN "Source"
+F 6 "455-3007-ND" H 5000 6700 50  0001 C CNN "Source Part No."
+F 7 "JST Sales America Inc." H 5000 6700 50  0001 C CNN "Manufacturer Name"
+F 8 "A06SR06SR30K305A" H 5000 6700 50  0001 C CNN "Manufacturer Part No."
+	1    5000 6700
 	1    0    0    -1  
 $EndComp
 Text Notes 2450 7350 0    79   ~ 16
@@ -293,65 +293,65 @@ NoConn ~ 4150 2250
 $Comp
 L Naquadah_Generator:MountingHole H1
 U 1 1 5EDD2B63
-P 1750 6750
-F 0 "H1" H 1850 6796 50  0000 L CNN
-F 1 "MountingHole" H 1850 6705 50  0000 L CNN
-F 2 "Naquadah_Generator:MountingHole_2.7mm_M2.5" H 1750 6750 50  0001 C CNN
-F 3 "None" H 1750 6750 50  0001 C CNN
-F 4 "None" H 1755 6625 50  0001 C CNN "Source"
-F 5 "None" H 1755 6625 50  0001 C CNN "Source Part No."
-F 6 "None" H 1750 6750 50  0001 C CNN "Manufacturer Name"
-F 7 "None" H 1755 6625 50  0001 C CNN "Manufacturer Part No."
-F 8 "None" H 1750 6750 50  0001 C CNN "Description"
-	1    1750 6750
+P 1400 6750
+F 0 "H1" H 1500 6796 50  0000 L CNN
+F 1 "MountingHole" H 1500 6705 50  0000 L CNN
+F 2 "Naquadah_Generator:MountingHole_2.7mm_M2.5" H 1400 6750 50  0001 C CNN
+F 3 "None" H 1400 6750 50  0001 C CNN
+F 4 "None" H 1405 6625 50  0001 C CNN "Source"
+F 5 "None" H 1405 6625 50  0001 C CNN "Source Part No."
+F 6 "None" H 1400 6750 50  0001 C CNN "Manufacturer Name"
+F 7 "None" H 1405 6625 50  0001 C CNN "Manufacturer Part No."
+F 8 "None" H 1400 6750 50  0001 C CNN "Description"
+	1    1400 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Naquadah_Generator:MountingHole H2
 U 1 1 5EDD3F85
-P 1750 7000
-F 0 "H2" H 1850 7046 50  0000 L CNN
-F 1 "MountingHole" H 1850 6955 50  0000 L CNN
-F 2 "Naquadah_Generator:MountingHole_2.7mm_M2.5" H 1750 7000 50  0001 C CNN
-F 3 "None" H 1750 7000 50  0001 C CNN
-F 4 "None" H 1755 6875 50  0001 C CNN "Source"
-F 5 "None" H 1755 6875 50  0001 C CNN "Source Part No."
-F 6 "None" H 950 -200 50  0001 C CNN "Manufacturer Name"
-F 7 "None" H 1755 6875 50  0001 C CNN "Manufacturer Part No."
-F 8 "None" H 1750 7000 50  0001 C CNN "Description"
-	1    1750 7000
+P 1400 7000
+F 0 "H2" H 1500 7046 50  0000 L CNN
+F 1 "MountingHole" H 1500 6955 50  0000 L CNN
+F 2 "Naquadah_Generator:MountingHole_2.7mm_M2.5" H 1400 7000 50  0001 C CNN
+F 3 "None" H 1400 7000 50  0001 C CNN
+F 4 "None" H 1405 6875 50  0001 C CNN "Source"
+F 5 "None" H 1405 6875 50  0001 C CNN "Source Part No."
+F 6 "None" H 600 -200 50  0001 C CNN "Manufacturer Name"
+F 7 "None" H 1405 6875 50  0001 C CNN "Manufacturer Part No."
+F 8 "None" H 1400 7000 50  0001 C CNN "Description"
+	1    1400 7000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Naquadah_Generator:MountingHole H3
 U 1 1 5EDD5BD4
-P 2700 6750
-F 0 "H3" H 2800 6796 50  0000 L CNN
-F 1 "MountingHole" H 2800 6705 50  0000 L CNN
-F 2 "Naquadah_Generator:MountingHole_2.7mm_M2.5" H 2700 6750 50  0001 C CNN
-F 3 "None" H 2700 6750 50  0001 C CNN
-F 4 "None" H 2705 6625 50  0001 C CNN "Source"
-F 5 "None" H 2705 6625 50  0001 C CNN "Source Part No."
-F 6 "None" H 950 -200 50  0001 C CNN "Manufacturer Name"
-F 7 "None" H 2705 6625 50  0001 C CNN "Manufacturer Part No."
-F 8 "None" H 2700 6750 50  0001 C CNN "Description"
-	1    2700 6750
+P 2200 6750
+F 0 "H3" H 2300 6796 50  0000 L CNN
+F 1 "MountingHole" H 2300 6705 50  0000 L CNN
+F 2 "Naquadah_Generator:MountingHole_2.7mm_M2.5" H 2200 6750 50  0001 C CNN
+F 3 "None" H 2200 6750 50  0001 C CNN
+F 4 "None" H 2205 6625 50  0001 C CNN "Source"
+F 5 "None" H 2205 6625 50  0001 C CNN "Source Part No."
+F 6 "None" H 450 -200 50  0001 C CNN "Manufacturer Name"
+F 7 "None" H 2205 6625 50  0001 C CNN "Manufacturer Part No."
+F 8 "None" H 2200 6750 50  0001 C CNN "Description"
+	1    2200 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Naquadah_Generator:MountingHole H4
 U 1 1 5EDD7A5B
-P 2700 7000
-F 0 "H4" H 2800 7046 50  0000 L CNN
-F 1 "MountingHole" H 2800 6955 50  0000 L CNN
-F 2 "Naquadah_Generator:MountingHole_2.7mm_M2.5" H 2700 7000 50  0001 C CNN
-F 3 "None" H 2700 7000 50  0001 C CNN
-F 4 "None" H 2705 6875 50  0001 C CNN "Source"
-F 5 "None" H 2705 6875 50  0001 C CNN "Source Part No."
-F 6 "None" H 950 -200 50  0001 C CNN "Manufacturer Name"
-F 7 "None" H 2705 6875 50  0001 C CNN "Manufacturer Part No."
-F 8 "None" H 2700 7000 50  0001 C CNN "Description"
-	1    2700 7000
+P 2200 7000
+F 0 "H4" H 2300 7046 50  0000 L CNN
+F 1 "MountingHole" H 2300 6955 50  0000 L CNN
+F 2 "Naquadah_Generator:MountingHole_2.7mm_M2.5" H 2200 7000 50  0001 C CNN
+F 3 "None" H 2200 7000 50  0001 C CNN
+F 4 "None" H 2205 6875 50  0001 C CNN "Source"
+F 5 "None" H 2205 6875 50  0001 C CNN "Source Part No."
+F 6 "None" H 450 -200 50  0001 C CNN "Manufacturer Name"
+F 7 "None" H 2205 6875 50  0001 C CNN "Manufacturer Part No."
+F 8 "None" H 2200 7000 50  0001 C CNN "Description"
+	1    2200 7000
 	1    0    0    -1  
 $EndComp
 Text Label 9150 4500 1    50   ~ 0
@@ -546,33 +546,33 @@ Wire Wire Line
 $Comp
 L Naquadah_Generator:MountingHole H6
 U 1 1 5F42F227
-P 3650 6850
-F 0 "H6" H 3750 6896 50  0000 L CNN
-F 1 "MountingHole" H 3750 6805 50  0000 L CNN
-F 2 "Naquadah_Generator:MountingHole_2.7mm_M2.5" H 3650 6850 50  0001 C CNN
-F 3 "None" H 3650 6850 50  0001 C CNN
-F 4 "None" H 3655 6725 50  0001 C CNN "Source"
-F 5 "None" H 3655 6725 50  0001 C CNN "Source Part No."
-F 6 "None" H 1900 -350 50  0001 C CNN "Manufacturer Name"
-F 7 "None" H 3655 6725 50  0001 C CNN "Manufacturer Part No."
-F 8 "None" H 3650 6850 50  0001 C CNN "Description"
-	1    3650 6850
+P 3000 6850
+F 0 "H6" H 3100 6896 50  0000 L CNN
+F 1 "MountingHole" H 3100 6805 50  0000 L CNN
+F 2 "Naquadah_Generator:MountingHole_2.7mm_M2.5" H 3000 6850 50  0001 C CNN
+F 3 "None" H 3000 6850 50  0001 C CNN
+F 4 "None" H 3005 6725 50  0001 C CNN "Source"
+F 5 "None" H 3005 6725 50  0001 C CNN "Source Part No."
+F 6 "None" H 1250 -350 50  0001 C CNN "Manufacturer Name"
+F 7 "None" H 3005 6725 50  0001 C CNN "Manufacturer Part No."
+F 8 "None" H 3000 6850 50  0001 C CNN "Description"
+	1    3000 6850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Naquadah_Generator:MountingHole H5
 U 1 1 5F430597
-P 800 6850
-F 0 "H5" H 900 6896 50  0000 L CNN
-F 1 "MountingHole" H 900 6805 50  0000 L CNN
-F 2 "Naquadah_Generator:MountingHole_2.7mm_M2.5" H 800 6850 50  0001 C CNN
-F 3 "None" H 800 6850 50  0001 C CNN
-F 4 "None" H 805 6725 50  0001 C CNN "Source"
-F 5 "None" H 805 6725 50  0001 C CNN "Source Part No."
-F 6 "None" H -950 -350 50  0001 C CNN "Manufacturer Name"
-F 7 "None" H 805 6725 50  0001 C CNN "Manufacturer Part No."
-F 8 "None" H 800 6850 50  0001 C CNN "Description"
-	1    800  6850
+P 600 6850
+F 0 "H5" H 700 6896 50  0000 L CNN
+F 1 "MountingHole" H 700 6805 50  0000 L CNN
+F 2 "Naquadah_Generator:MountingHole_2.7mm_M2.5" H 600 6850 50  0001 C CNN
+F 3 "None" H 600 6850 50  0001 C CNN
+F 4 "None" H 605 6725 50  0001 C CNN "Source"
+F 5 "None" H 605 6725 50  0001 C CNN "Source Part No."
+F 6 "None" H -1150 -350 50  0001 C CNN "Manufacturer Name"
+F 7 "None" H 605 6725 50  0001 C CNN "Manufacturer Part No."
+F 8 "None" H 600 6850 50  0001 C CNN "Description"
+	1    600  6850
 	1    0    0    -1  
 $EndComp
 Text Label 5350 4550 2    50   ~ 0
@@ -794,6 +794,57 @@ Wire Wire Line
 Wire Wire Line
 	8150 1900 8050 1900
 Connection ~ 8150 1900
-Text Notes 4650 7250 0    50   ~ 0
+Text Notes 4700 7150 0    50   ~ 0
 6 pin at 1 mm spacing cable assembly.\nThe cable is reversed.\nThe mother board and daughter board\nuse the same foot prints.
+$Comp
+L Mechanical_LE:Fiducial FID1
+U 1 1 5F661157
+P 4050 6600
+F 0 "FID1" H 4135 6646 50  0000 L CNN
+F 1 "Fiducial" H 4050 6250 50  0001 C CNN
+F 2 "Fiducial_LE:Fiducial_1mm_Mask2mm" H 4050 6450 50  0001 C CNN
+F 3 "None" H 4000 6600 50  0001 C CNN
+F 4 "TOP1" H 4135 6555 50  0000 L CNN "Name"
+F 5 "None" H 4050 6150 50  0001 C CNN "Manufacturer Name"
+F 6 "None" H 4050 6050 50  0001 C CNN "Manufacturer Part No."
+F 7 "None" H 4050 5850 50  0001 C CNN "Source"
+F 8 "None" H 4050 5950 50  0001 C CNN "Source Part No."
+F 9 "Fiducial mark" H 4050 6350 50  0001 C CNN "Description"
+	1    4050 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical_LE:Fiducial FID2
+U 1 1 5F66F7C2
+P 4050 6850
+F 0 "FID2" H 4135 6896 50  0000 L CNN
+F 1 "Fiducial" H 4050 6500 50  0001 C CNN
+F 2 "Fiducial_LE:Fiducial_1mm_Mask2mm" H 4050 6700 50  0001 C CNN
+F 3 "None" H 4000 6850 50  0001 C CNN
+F 4 "TOP2" H 4135 6805 50  0000 L CNN "Name"
+F 5 "None" H 4050 6400 50  0001 C CNN "Manufacturer Name"
+F 6 "None" H 4050 6300 50  0001 C CNN "Manufacturer Part No."
+F 7 "None" H 4050 6100 50  0001 C CNN "Source"
+F 8 "None" H 4050 6200 50  0001 C CNN "Source Part No."
+F 9 "Fiducial mark" H 4050 6600 50  0001 C CNN "Description"
+	1    4050 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical_LE:Fiducial FID3
+U 1 1 5F671088
+P 4050 7100
+F 0 "FID3" H 4135 7146 50  0000 L CNN
+F 1 "Fiducial" H 4050 6750 50  0001 C CNN
+F 2 "Fiducial_LE:Fiducial_1mm_Mask2mm" H 4050 6950 50  0001 C CNN
+F 3 "None" H 4000 7100 50  0001 C CNN
+F 4 "TOP3" H 4135 7055 50  0000 L CNN "Name"
+F 5 "None" H 4050 6650 50  0001 C CNN "Manufacturer Name"
+F 6 "None" H 4050 6550 50  0001 C CNN "Manufacturer Part No."
+F 7 "None" H 4050 6350 50  0001 C CNN "Source"
+F 8 "None" H 4050 6450 50  0001 C CNN "Source Part No."
+F 9 "Fiducial mark" H 4050 6850 50  0001 C CNN "Description"
+	1    4050 7100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

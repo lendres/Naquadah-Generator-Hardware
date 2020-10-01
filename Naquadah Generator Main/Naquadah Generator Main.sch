@@ -884,103 +884,103 @@ SNDRANDOM3V
 $Comp
 L Mechanical_LE:Fiducial FID1
 U 1 1 60A16BDF
-P 10300 5950
-F 0 "FID1" H 10400 6000 50  0000 L CNN
-F 1 "Fiducial" H 10385 5905 50  0001 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 10300 5950 50  0001 C CNN
-F 3 "None" H 10300 5950 50  0001 C CNN
-F 4 "TOP1" H 10400 5900 50  0000 L CNN "Name"
-F 5 "Fiducial mark" H 10300 5950 50  0001 C CNN "Description"
-F 6 "None" H 10300 5950 50  0001 C CNN "Manufacturer Name"
-F 7 "None" H 10300 5950 50  0001 C CNN "Manufacturer Part No."
-F 8 "None" H 10300 5950 50  0001 C CNN "Source"
-F 9 "None" H 10300 5950 50  0001 C CNN "Source Part No."
-	1    10300 5950
+P 10150 5750
+F 0 "FID1" H 10250 5800 50  0000 L CNN
+F 1 "Fiducial" H 10235 5705 50  0001 L CNN
+F 2 "Fiducial_LE:Fiducial_1mm_Mask2mm" H 10150 5750 50  0001 C CNN
+F 3 "None" H 10150 5750 50  0001 C CNN
+F 4 "TOP1" H 10250 5700 50  0000 L CNN "Name"
+F 5 "Fiducial mark" H 10150 5750 50  0001 C CNN "Description"
+F 6 "None" H 10150 5750 50  0001 C CNN "Manufacturer Name"
+F 7 "None" H 10150 5750 50  0001 C CNN "Manufacturer Part No."
+F 8 "None" H 10150 5750 50  0001 C CNN "Source"
+F 9 "None" H 10150 5750 50  0001 C CNN "Source Part No."
+	1    10150 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical_LE:Fiducial FID2
 U 1 1 60A1C8FD
-P 10300 6150
-F 0 "FID2" H 10400 6200 50  0000 L CNN
-F 1 "Fiducial" H 10385 6105 50  0001 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 10300 6150 50  0001 C CNN
-F 3 "None" H 10300 6150 50  0001 C CNN
-F 4 "TOP2" H 10400 6100 50  0000 L CNN "Name"
-F 5 "Fiducial mark" H 10300 6150 50  0001 C CNN "Description"
-F 6 "None" H 10300 6150 50  0001 C CNN "Manufacturer Name"
-F 7 "None" H 10300 6150 50  0001 C CNN "Manufacturer Part No."
-F 8 "None" H 10300 6150 50  0001 C CNN "Source"
-F 9 "None" H 10300 6150 50  0001 C CNN "Source Part No."
-	1    10300 6150
+P 10150 5950
+F 0 "FID2" H 10250 6000 50  0000 L CNN
+F 1 "Fiducial" H 10235 5905 50  0001 L CNN
+F 2 "Fiducial_LE:Fiducial_1mm_Mask2mm" H 10150 5950 50  0001 C CNN
+F 3 "None" H 10150 5950 50  0001 C CNN
+F 4 "TOP2" H 10250 5900 50  0000 L CNN "Name"
+F 5 "Fiducial mark" H 10150 5950 50  0001 C CNN "Description"
+F 6 "None" H 10150 5950 50  0001 C CNN "Manufacturer Name"
+F 7 "None" H 10150 5950 50  0001 C CNN "Manufacturer Part No."
+F 8 "None" H 10150 5950 50  0001 C CNN "Source"
+F 9 "None" H 10150 5950 50  0001 C CNN "Source Part No."
+	1    10150 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical_LE:Fiducial FID3
 U 1 1 60A21344
-P 10300 6350
-F 0 "FID3" H 10400 6400 50  0000 L CNN
-F 1 "Fiducial" H 10385 6305 50  0001 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 10300 6350 50  0001 C CNN
-F 3 "None" H 10300 6350 50  0001 C CNN
-F 4 "TOP3" H 10400 6300 50  0000 L CNN "Name"
-F 5 "Fiducial mark" H 10300 6350 50  0001 C CNN "Description"
-F 6 "None" H 10300 6350 50  0001 C CNN "Manufacturer Name"
-F 7 "None" H 10300 6350 50  0001 C CNN "Manufacturer Part No."
-F 8 "None" H 10300 6350 50  0001 C CNN "Source"
-F 9 "None" H 10300 6350 50  0001 C CNN "Source Part No."
-	1    10300 6350
+P 10150 6150
+F 0 "FID3" H 10250 6200 50  0000 L CNN
+F 1 "Fiducial" H 10235 6105 50  0001 L CNN
+F 2 "Fiducial_LE:Fiducial_1mm_Mask2mm" H 10150 6150 50  0001 C CNN
+F 3 "None" H 10150 6150 50  0001 C CNN
+F 4 "TOP3" H 10250 6100 50  0000 L CNN "Name"
+F 5 "Fiducial mark" H 10150 6150 50  0001 C CNN "Description"
+F 6 "None" H 10150 6150 50  0001 C CNN "Manufacturer Name"
+F 7 "None" H 10150 6150 50  0001 C CNN "Manufacturer Part No."
+F 8 "None" H 10150 6150 50  0001 C CNN "Source"
+F 9 "None" H 10150 6150 50  0001 C CNN "Source Part No."
+	1    10150 6150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical_LE:Fiducial FID4
 U 1 1 60A2722E
-P 10800 5950
-F 0 "FID4" H 10900 6000 50  0000 L CNN
-F 1 "Fiducial" H 10885 5905 50  0001 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 10800 5950 50  0001 C CNN
-F 3 "None" H 10800 5950 50  0001 C CNN
-F 4 "BOT1" H 10900 5900 50  0000 L CNN "Name"
-F 5 "Fiducial mark" H 10800 5950 50  0001 C CNN "Description"
-F 6 "None" H 10800 5950 50  0001 C CNN "Manufacturer Name"
-F 7 "None" H 10800 5950 50  0001 C CNN "Manufacturer Part No."
-F 8 "None" H 10800 5950 50  0001 C CNN "Source"
-F 9 "None" H 10800 5950 50  0001 C CNN "Source Part No."
-	1    10800 5950
+P 10650 5750
+F 0 "FID4" H 10750 5800 50  0000 L CNN
+F 1 "Fiducial" H 10735 5705 50  0001 L CNN
+F 2 "Fiducial_LE:Fiducial_1mm_Mask2mm" H 10650 5750 50  0001 C CNN
+F 3 "None" H 10650 5750 50  0001 C CNN
+F 4 "BOT1" H 10750 5700 50  0000 L CNN "Name"
+F 5 "Fiducial mark" H 10650 5750 50  0001 C CNN "Description"
+F 6 "None" H 10650 5750 50  0001 C CNN "Manufacturer Name"
+F 7 "None" H 10650 5750 50  0001 C CNN "Manufacturer Part No."
+F 8 "None" H 10650 5750 50  0001 C CNN "Source"
+F 9 "None" H 10650 5750 50  0001 C CNN "Source Part No."
+	1    10650 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical_LE:Fiducial FID5
 U 1 1 60A27234
-P 10800 6150
-F 0 "FID5" H 10900 6200 50  0000 L CNN
-F 1 "Fiducial" H 10885 6105 50  0001 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 10800 6150 50  0001 C CNN
-F 3 "None" H 10800 6150 50  0001 C CNN
-F 4 "BOT2" H 10900 6100 50  0000 L CNN "Name"
-F 5 "Fiducial mark" H 10800 6150 50  0001 C CNN "Description"
-F 6 "None" H 10800 6150 50  0001 C CNN "Manufacturer Name"
-F 7 "None" H 10800 6150 50  0001 C CNN "Manufacturer Part No."
-F 8 "None" H 10800 6150 50  0001 C CNN "Source"
-F 9 "None" H 10800 6150 50  0001 C CNN "Source Part No."
-	1    10800 6150
+P 10650 5950
+F 0 "FID5" H 10750 6000 50  0000 L CNN
+F 1 "Fiducial" H 10735 5905 50  0001 L CNN
+F 2 "Fiducial_LE:Fiducial_1mm_Mask2mm" H 10650 5950 50  0001 C CNN
+F 3 "None" H 10650 5950 50  0001 C CNN
+F 4 "BOT2" H 10750 5900 50  0000 L CNN "Name"
+F 5 "Fiducial mark" H 10650 5950 50  0001 C CNN "Description"
+F 6 "None" H 10650 5950 50  0001 C CNN "Manufacturer Name"
+F 7 "None" H 10650 5950 50  0001 C CNN "Manufacturer Part No."
+F 8 "None" H 10650 5950 50  0001 C CNN "Source"
+F 9 "None" H 10650 5950 50  0001 C CNN "Source Part No."
+	1    10650 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical_LE:Fiducial FID6
 U 1 1 60A2723A
-P 10800 6350
-F 0 "FID6" H 10900 6400 50  0000 L CNN
-F 1 "Fiducial" H 10885 6305 50  0001 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 10800 6350 50  0001 C CNN
-F 3 "None" H 10800 6350 50  0001 C CNN
-F 4 "BOT3" H 10900 6300 50  0000 L CNN "Name"
-F 5 "Fiducial mark" H 10800 6350 50  0001 C CNN "Description"
-F 6 "None" H 10800 6350 50  0001 C CNN "Manufacturer Name"
-F 7 "None" H 10800 6350 50  0001 C CNN "Manufacturer Part No."
-F 8 "None" H 10800 6350 50  0001 C CNN "Source"
-F 9 "None" H 10800 6350 50  0001 C CNN "Source Part No."
-	1    10800 6350
+P 10650 6150
+F 0 "FID6" H 10750 6200 50  0000 L CNN
+F 1 "Fiducial" H 10735 6105 50  0001 L CNN
+F 2 "Fiducial_LE:Fiducial_1mm_Mask2mm" H 10650 6150 50  0001 C CNN
+F 3 "None" H 10650 6150 50  0001 C CNN
+F 4 "BOT3" H 10750 6100 50  0000 L CNN "Name"
+F 5 "Fiducial mark" H 10650 6150 50  0001 C CNN "Description"
+F 6 "None" H 10650 6150 50  0001 C CNN "Manufacturer Name"
+F 7 "None" H 10650 6150 50  0001 C CNN "Manufacturer Part No."
+F 8 "None" H 10650 6150 50  0001 C CNN "Source"
+F 9 "None" H 10650 6150 50  0001 C CNN "Source Part No."
+	1    10650 6150
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -1050,4 +1050,6 @@ Wire Wire Line
 	4300 7400 4700 7400
 Text Label 4350 7400 0    50   ~ 0
 WHITELT
+Text Notes 9950 6450 0    79   ~ 16
+Additional Features
 $EndSCHEMATC

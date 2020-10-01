@@ -136,16 +136,16 @@ $EndComp
 $Comp
 L Naquadah_Generator:MountingHole H1
 U 1 1 5EA2820E
-P 8450 5600
-F 0 "H1" H 8550 5646 50  0000 L CNN
-F 1 "MountingHole" H 8550 5555 50  0000 L CNN
-F 2 "Naquadah_Generator:MountingSlot_2.2mm_2.2mm_M2.0" H 8450 5600 50  0001 C CNN
-F 3 "None" H 8450 5600 50  0001 C CNN
-F 4 "None" H 8450 5600 50  0001 C CNN "Source Part No."
-F 5 "None" H 8450 5600 50  0001 C CNN "Manufacturer Name"
-F 6 "None" H 8450 5600 50  0001 C CNN "Manufacturer Part No."
-F 7 "Digikey" H 8450 5600 50  0001 C CNN "Source"
-	1    8450 5600
+P 8700 5750
+F 0 "H1" H 8800 5796 50  0000 L CNN
+F 1 "MountingHole" H 8800 5705 50  0000 L CNN
+F 2 "Naquadah_Generator:MountingSlot_2.2mm_2.2mm_M2.0" H 8700 5750 50  0001 C CNN
+F 3 "None" H 8700 5750 50  0001 C CNN
+F 4 "None" H 8700 5750 50  0001 C CNN "Source Part No."
+F 5 "None" H 8700 5750 50  0001 C CNN "Manufacturer Name"
+F 6 "None" H 8700 5750 50  0001 C CNN "Manufacturer Part No."
+F 7 "Digikey" H 8700 5750 50  0001 C CNN "Source"
+	1    8700 5750
 	1    0    0    1   
 $EndComp
 $Comp
@@ -154,7 +154,7 @@ U 1 1 5EA677CD
 P 3200 6750
 F 0 "J1" H 3200 6300 50  0000 C CNN
 F 1 "HallSensor_Conn" H 3200 6400 50  0000 C CNN
-F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 3200 7050 50  0001 C CNN
+F 2 "Connector_LE:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 3200 7050 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eSH.pdf" H 3200 6750 50  0001 C CNN
 F 4 "455-1804-1-ND" H 3200 6750 50  0001 C CNN "Source Part No."
 F 5 "JST Sales America Inc." H 3200 6750 50  0001 C CNN "Manufacturer Name"
@@ -432,4 +432,106 @@ Wire Wire Line
 	6950 2750 6950 3050
 Text Notes 9600 6100 0    50   ~ 0
 6 pin at 1 mm spacing cable assembly.\nThe cable is reversed.\nThe mother board and daughter board\nuse the same foot prints.
+$Comp
+L Mechanical_LE:Fiducial FID1
+U 1 1 5F6AA7A9
+P 7550 5450
+F 0 "FID1" H 7635 5496 50  0000 L CNN
+F 1 "Fiducial" H 7550 5100 50  0001 C CNN
+F 2 "Fiducial_LE:Fiducial_0.5mm_Mask1mm" H 7550 5300 50  0001 C CNN
+F 3 "None" H 7500 5450 50  0001 C CNN
+F 4 "TOP1" H 7635 5405 50  0000 L CNN "Name"
+F 5 "None" H 7550 5000 50  0001 C CNN "Manufacturer Name"
+F 6 "None" H 7550 4900 50  0001 C CNN "Manufacturer Part No."
+F 7 "None" H 7550 4700 50  0001 C CNN "Source"
+F 8 "None" H 7550 4800 50  0001 C CNN "Source Part No."
+F 9 "Fiducial mark" H 7550 5200 50  0001 C CNN "Description"
+	1    7550 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical_LE:Fiducial FID2
+U 1 1 5F674B67
+P 7550 5700
+F 0 "FID2" H 7635 5746 50  0000 L CNN
+F 1 "Fiducial" H 7550 5350 50  0001 C CNN
+F 2 "Fiducial_LE:Fiducial_0.5mm_Mask1mm" H 7550 5550 50  0001 C CNN
+F 3 "None" H 7500 5700 50  0001 C CNN
+F 4 "TOP2" H 7635 5655 50  0000 L CNN "Name"
+F 5 "None" H 7550 5250 50  0001 C CNN "Manufacturer Name"
+F 6 "None" H 7550 5150 50  0001 C CNN "Manufacturer Part No."
+F 7 "None" H 7550 4950 50  0001 C CNN "Source"
+F 8 "None" H 7550 5050 50  0001 C CNN "Source Part No."
+F 9 "Fiducial mark" H 7550 5450 50  0001 C CNN "Description"
+	1    7550 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical_LE:Fiducial FID3
+U 1 1 5F675665
+P 7550 5950
+F 0 "FID3" H 7635 5996 50  0000 L CNN
+F 1 "Fiducial" H 7550 5600 50  0001 C CNN
+F 2 "Fiducial_LE:Fiducial_0.5mm_Mask1mm" H 7550 5800 50  0001 C CNN
+F 3 "None" H 7500 5950 50  0001 C CNN
+F 4 "TOP3" H 7635 5905 50  0000 L CNN "Name"
+F 5 "None" H 7550 5500 50  0001 C CNN "Manufacturer Name"
+F 6 "None" H 7550 5400 50  0001 C CNN "Manufacturer Part No."
+F 7 "None" H 7550 5200 50  0001 C CNN "Source"
+F 8 "None" H 7550 5300 50  0001 C CNN "Source Part No."
+F 9 "Fiducial mark" H 7550 5700 50  0001 C CNN "Description"
+	1    7550 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical_LE:Fiducial FID4
+U 1 1 5F677F81
+P 8050 5450
+F 0 "FID4" H 8135 5496 50  0000 L CNN
+F 1 "Fiducial" H 8050 5100 50  0001 C CNN
+F 2 "Fiducial_LE:Fiducial_0.5mm_Mask1mm" H 8050 5300 50  0001 C CNN
+F 3 "None" H 8000 5450 50  0001 C CNN
+F 4 "BOT1" H 8135 5405 50  0000 L CNN "Name"
+F 5 "None" H 8050 5000 50  0001 C CNN "Manufacturer Name"
+F 6 "None" H 8050 4900 50  0001 C CNN "Manufacturer Part No."
+F 7 "None" H 8050 4700 50  0001 C CNN "Source"
+F 8 "None" H 8050 4800 50  0001 C CNN "Source Part No."
+F 9 "Fiducial mark" H 8050 5200 50  0001 C CNN "Description"
+	1    8050 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical_LE:Fiducial FID5
+U 1 1 5F677F8D
+P 8050 5700
+F 0 "FID5" H 8135 5746 50  0000 L CNN
+F 1 "Fiducial" H 8050 5350 50  0001 C CNN
+F 2 "Fiducial_LE:Fiducial_0.5mm_Mask1mm" H 8050 5550 50  0001 C CNN
+F 3 "None" H 8000 5700 50  0001 C CNN
+F 4 "BOT2" H 8135 5655 50  0000 L CNN "Name"
+F 5 "None" H 8050 5250 50  0001 C CNN "Manufacturer Name"
+F 6 "None" H 8050 5150 50  0001 C CNN "Manufacturer Part No."
+F 7 "None" H 8050 4950 50  0001 C CNN "Source"
+F 8 "None" H 8050 5050 50  0001 C CNN "Source Part No."
+F 9 "Fiducial mark" H 8050 5450 50  0001 C CNN "Description"
+	1    8050 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical_LE:Fiducial FID6
+U 1 1 5F677F99
+P 8050 5950
+F 0 "FID6" H 8135 5996 50  0000 L CNN
+F 1 "Fiducial" H 8050 5600 50  0001 C CNN
+F 2 "Fiducial_LE:Fiducial_0.5mm_Mask1mm" H 8050 5800 50  0001 C CNN
+F 3 "None" H 8000 5950 50  0001 C CNN
+F 4 "BOT3" H 8135 5905 50  0000 L CNN "Name"
+F 5 "None" H 8050 5500 50  0001 C CNN "Manufacturer Name"
+F 6 "None" H 8050 5400 50  0001 C CNN "Manufacturer Part No."
+F 7 "None" H 8050 5200 50  0001 C CNN "Source"
+F 8 "None" H 8050 5300 50  0001 C CNN "Source Part No."
+F 9 "Fiducial mark" H 8050 5700 50  0001 C CNN "Description"
+	1    8050 5950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
